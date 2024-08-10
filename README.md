@@ -38,6 +38,10 @@ export const boxresistor = defineSymbol({
     path({ points: [[0, 0] /* ... */, , [1, 0]], color: "primary" }),
     text("{REF}", { x: 0.5, y: 0.3, anchor: "middle_top" }),
   ],
+  ports: [
+    { x: 0, y: 0, labels: ["1", "-"] },
+    { x: 1, y: 0, labels: ["2", "+"] },
+  ],
   center: { x: 0.5, y: 0 },
   size: { width: 1, height: 0.6 },
 })
@@ -70,3 +74,8 @@ in the same schematic.
 
 - The width of most standard passives is `1`
 - The height of most standard passives is `0.6`
+
+## References
+
+- [MIT Schematic Symbols](https://github.com/sjgallagher2/SchematicSymbolsSVG)
+- [affinity-circuit-symbols-asset](https://github.com/keikawa/affinity-circuit-symbols-asset/tree/main)

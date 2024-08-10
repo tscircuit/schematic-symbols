@@ -17,6 +17,10 @@ export const boxresistor = defineSymbol({
     }),
     text("{REF}", { x: 0.5, y: -0.4, anchor: "middle_bottom" }),
   ],
+  ports: [
+    { x: 0, y: 0, labels: ["1", "-"] },
+    { x: 1, y: 0, labels: ["2", "+"] },
+  ],
   center: { x: 0.5, y: 0 },
   size: { width: 1, height: 0.6 },
 })
