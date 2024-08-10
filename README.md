@@ -5,9 +5,7 @@
 
 Schematic symbols for tscircuit
 
-
 ## Usage
-
 
 ```ts
 import { getSvg, resize, symbols } from "@tscircuit/schematic-symbols"
@@ -25,8 +23,6 @@ console.log(resize(symbols.resistor, { width: 100 }).size)
 // { width: 100, height: 60 }
 ```
 
-
-
 ## Adding New Symbols
 
 Go into the `./symbols` directory to add new shapes. After adding a shape file, it will
@@ -39,27 +35,25 @@ import { path, text, defineSymbol } from "drawing"
 
 export const boxresistor = defineSymbol({
   primitives: [
-    path({ points: [[0,0], /* ... */, [1, 0]], color: "primary" }),
-    text("{REF}", {x: 0.5, y: 0.3, anchor: "middle_top"})
+    path({ points: [[0, 0] /* ... */, , [1, 0]], color: "primary" }),
+    text("{REF}", { x: 0.5, y: 0.3, anchor: "middle_top" }),
   ],
   center: { x: 0.5, y: 0 },
-  size: { width: 1, height: 0.6 }
+  size: { width: 1, height: 0.6 },
 })
 ```
-
 
 ### Primitives
 
 Various primitive JSON elements are defined to represent components, each primitive has
 a function you can use to quickly define it inside new symbol definitions.
 
-| Primitive | Description |
-| --------- | ----------- |
+| Primitive | Description                                                 |
+| --------- | ----------------------------------------------------------- |
 | `path`    | A set of lines `{ points: Array<[number, number]>, color }` |
-| `text`    | Text `{ text, x, y, anchor }` |
-| `circle`  | Circle `{ x, y, radius }` |
-| `box`     | Box `{ x, y, width, height, anchor }` |
-
+| `text`    | Text `{ text, x, y, anchor }`                               |
+| `circle`  | Circle `{ x, y, radius }`                                   |
+| `box`     | Box `{ x, y, width, height, anchor }`                       |
 
 ### Colors
 
@@ -68,3 +62,11 @@ You can use the following color aliases to color your symbol:
 - `primary`
 - `secondary`
 - `background`
+
+### Guidelines
+
+The symbols should all look correct next to eachother, since they're all used together
+in the same schematic.
+
+- The width of most standard passives is `1`
+- The height of most standard passives is `0.6`
