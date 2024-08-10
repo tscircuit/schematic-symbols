@@ -13,7 +13,7 @@ Schematic symbols for tscircuit
 import { getSvg, resize, symbols } from "@tscircuit/schematic-symbols"
 
 console.log(symbols.resistor.primitives)
-// [{ type: "path", d: "M0 0L1 0..." }, {type: "text", text: "R{REF}", ... }]
+// [{ type: "path", d: "M0 0L1 0...", color: "primary" }, {type: "text", text: "{REF}", ... }]
 console.log(symbols.resistor.size)
 // { width: 1, height: 0.6 }
 
@@ -39,7 +39,8 @@ import { path, text, defineSymbol } from "drawing"
 
 export const boxresistor = defineSymbol({
   primitives: [
-    path([ {x: 0, y: 0}, /* ... */, {x: 1, y: 0 }])
+    path({ points: [[0,0], /* ... */, [1, 0]], color: "primary" }),
+    text("{REF}", {x: 0.5, y: 0.3, anchor: "middle_top"})
   ],
   center: { x: 0.5, y: 0 },
   size: { width: 1, height: 0.6 }
@@ -54,8 +55,10 @@ a function you can use to quickly define it inside new symbol definitions.
 
 | Primitive | Description |
 | --------- | ----------- |
-| `path`    | A set of lines |
-| `text`    | Some text |
+| `path`    | A set of lines `{ points: Array<[number, number]>, color }` |
+| `text`    | Text `{ text, x, y, anchor }` |
+| `circle`  | Circle `{ x, y, radius }` |
+| `box`     | Box `{ x, y, width, height, anchor }` |
 
 
 ### Colors
