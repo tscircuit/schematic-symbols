@@ -79,3 +79,4 @@ in the same schematic.
 
 - [MIT Schematic Symbols](https://github.com/sjgallagher2/SchematicSymbolsSVG)
 - [affinity-circuit-symbols-asset](https://github.com/keikawa/affinity-circuit-symbols-asset/tree/main)
+- [Inkscape Symbols](https://github.com/upb-lea/Inkscape_electric_Symbols?tab=readme-ov-file)

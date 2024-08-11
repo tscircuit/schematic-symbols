@@ -1,0 +1,187 @@
+{
+  "name": "g",
+  "type": "element",
+  "value": "",
+  "parent": null,
+  "attributes": {
+    "id": "boxresistor",
+    "transform": "rotate(90,-71.581422,2.4547265)",
+    "inkscape:label": "boxresistor"
+  },
+  "children": [
+    {
+      "name": "title",
+      "type": "element",
+      "value": "",
+      "parent": null,
+      "attributes": {
+        "id": "title1"
+      },
+      "children": [
+        {
+          "name": "",
+          "type": "text",
+          "value": "Resistor",
+          "parent": null,
+          "attributes": {},
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "path",
+      "type": "element",
+      "value": "",
+      "parent": null,
+      "attributes": {
+        "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1",
+        "d": "M 30.427082,-90.614597 V -93.26043",
+        "id": "path1",
+        "inkscape:connector-curvature": "0"
+      },
+      "children": []
+    },
+    {
+      "name": "path",
+      "type": "element",
+      "value": "",
+      "parent": null,
+      "attributes": {
+        "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1",
+        "d": "m 30.427082,-98.552096 v -2.645834",
+        "id": "path2",
+        "inkscape:connector-curvature": "0"
+      },
+      "children": []
+    },
+    {
+      "name": "path",
+      "type": "element",
+      "value": "",
+      "parent": null,
+      "attributes": {
+        "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1",
+        "d": "m 29.104165,-95.906262 v -2.645833 h 2.645834 v 5.291667 h -2.645834 v -2.645834",
+        "id": "path3",
+        "inkscape:connector-curvature": "0"
+      },
+      "children": []
+    },
+    {
+      "name": "text",
+      "type": "element",
+      "value": "",
+      "parent": null,
+      "attributes": {
+        "xml:space": "preserve",
+        "style": "font-size:1.41111px;fill:#000000;stroke-width:0.264583;text-anchor:middle;text-align:center",
+        "x": "95.718857",
+        "y": "28.388716",
+        "id": "text14-0-6",
+        "transform": "rotate(-90)"
+      },
+      "children": [
+        {
+          "name": "tspan",
+          "type": "element",
+          "value": "",
+          "parent": null,
+          "attributes": {
+            "sodipodi:role": "line",
+            "id": "tspan14-0-1",
+            "style": "font-size:1.41111px;stroke-width:0.264583;text-anchor:middle;text-align:center",
+            "x": "93.600128",
+            "y": "28.388716"
+          },
+          "children": [
+            {
+              "name": "",
+              "type": "text",
+              "value": "{REF}",
+              "parent": null,
+              "attributes": {},
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "text",
+      "type": "element",
+      "value": "",
+      "parent": null,
+      "attributes": {
+        "xml:space": "preserve",
+        "style": "font-size:1.41111px;fill:#000000;stroke-width:0.264583;text-anchor:middle;text-align:center",
+        "x": "95.728477",
+        "y": "33.388676",
+        "id": "text14-0-4-4",
+        "transform": "rotate(-90)"
+      },
+      "children": [
+        {
+          "name": "tspan",
+          "type": "element",
+          "value": "",
+          "parent": null,
+          "attributes": {
+            "sodipodi:role": "line",
+            "id": "tspan14-0-9-0",
+            "style": "font-size:1.41111px;stroke-width:0.264583;text-anchor:middle;text-align:center",
+            "x": "93.615257",
+            "y": "33.388676"
+          },
+          "children": [
+            {
+              "name": "",
+              "type": "text",
+              "value": "{VAL}",
+              "parent": null,
+              "attributes": {},
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "type": "element",
+      "value": "",
+      "parent": null,
+      "attributes": {
+        "id": "title3"
+      },
+      "children": [
+        {
+          "name": "",
+          "type": "text",
+          "value": "Resistor",
+          "parent": null,
+          "attributes": {},
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "type": "element",
+      "value": "",
+      "parent": null,
+      "attributes": {
+        "id": "title4"
+      },
+      "children": [
+        {
+          "name": "",
+          "type": "text",
+          "value": "Resistor",
+          "parent": null,
+          "attributes": {},
+          "children": []
+        }
+      ]
+    }
+  ]
+}

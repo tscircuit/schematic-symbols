@@ -1,0 +1,214 @@
+{
+  "name": "g",
+  "type": "element",
+  "value": "",
+  "parent": null,
+  "attributes": {
+    "id": "varistor",
+    "transform": "rotate(90,-69.806032,0.50486369)"
+  },
+  "children": [
+    {
+      "name": "title",
+      "type": "element",
+      "value": "",
+      "parent": null,
+      "attributes": {
+        "id": "title5"
+      },
+      "children": [
+        {
+          "name": "",
+          "type": "text",
+          "value": "Varistor",
+          "parent": null,
+          "attributes": {},
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "path",
+      "type": "element",
+      "value": "",
+      "parent": null,
+      "attributes": {
+        "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1",
+        "d": "m 44.979166,-90.614594 v -2.645833",
+        "id": "path5",
+        "inkscape:connector-curvature": "0"
+      },
+      "children": []
+    },
+    {
+      "name": "path",
+      "type": "element",
+      "value": "",
+      "parent": null,
+      "attributes": {
+        "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1",
+        "d": "m 44.979166,-98.552097 v -2.645833",
+        "id": "path6",
+        "inkscape:connector-curvature": "0"
+      },
+      "children": []
+    },
+    {
+      "name": "path",
+      "type": "element",
+      "value": "",
+      "parent": null,
+      "attributes": {
+        "style": "fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1",
+        "d": "m 47.360416,-98.552097 -4.7625,5.29167",
+        "id": "path7",
+        "inkscape:connector-curvature": "0",
+        "sodipodi:nodetypes": "cc"
+      },
+      "children": []
+    },
+    {
+      "name": "path",
+      "type": "element",
+      "value": "",
+      "parent": null,
+      "attributes": {
+        "style": "fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1",
+        "d": "m 47.360416,-99.610427 v 1.05833",
+        "id": "path8",
+        "inkscape:connector-curvature": "0",
+        "sodipodi:nodetypes": "cc"
+      },
+      "children": []
+    },
+    {
+      "name": "text",
+      "type": "element",
+      "value": "",
+      "parent": null,
+      "attributes": {
+        "xml:space": "preserve",
+        "style": "font-size:1.41111px;fill:#000000;stroke-width:0.264583",
+        "x": "95.27552",
+        "y": "42.509102",
+        "id": "text14-0",
+        "transform": "rotate(-90)"
+      },
+      "children": [
+        {
+          "name": "tspan",
+          "type": "element",
+          "value": "",
+          "parent": null,
+          "attributes": {
+            "sodipodi:role": "line",
+            "id": "tspan14-0",
+            "style": "font-size:1.41111px;stroke-width:0.264583",
+            "x": "95.27552",
+            "y": "42.509102"
+          },
+          "children": [
+            {
+              "name": "",
+              "type": "text",
+              "value": "{REF}",
+              "parent": null,
+              "attributes": {},
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "text",
+      "type": "element",
+      "value": "",
+      "parent": null,
+      "attributes": {
+        "xml:space": "preserve",
+        "style": "font-size:1.41111px;fill:#000000;stroke-width:0.264583;text-anchor:end;text-align:end",
+        "x": "95.945496",
+        "y": "47.999649",
+        "id": "text14-0-4",
+        "transform": "rotate(-90)"
+      },
+      "children": [
+        {
+          "name": "tspan",
+          "type": "element",
+          "value": "",
+          "parent": null,
+          "attributes": {
+            "sodipodi:role": "line",
+            "id": "tspan14-0-9",
+            "style": "font-size:1.41111px;stroke-width:0.264583;text-anchor:end;text-align:end",
+            "x": "91.719055",
+            "y": "47.999649"
+          },
+          "children": [
+            {
+              "name": "",
+              "type": "text",
+              "value": "{VAL}",
+              "parent": null,
+              "attributes": {},
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "path",
+      "type": "element",
+      "value": "",
+      "parent": null,
+      "attributes": {
+        "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1",
+        "d": "m 43.656248,-95.906276 v -2.64583 h 2.645834 v 5.29167 h -2.645834 v -2.64584",
+        "id": "path9",
+        "inkscape:connector-curvature": "0"
+      },
+      "children": []
+    },
+    {
+      "name": "title",
+      "type": "element",
+      "value": "",
+      "parent": null,
+      "attributes": {
+        "id": "title9"
+      },
+      "children": [
+        {
+          "name": "",
+          "type": "text",
+          "value": "Varistor",
+          "parent": null,
+          "attributes": {},
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "type": "element",
+      "value": "",
+      "parent": null,
+      "attributes": {
+        "id": "title10"
+      },
+      "children": [
+        {
+          "name": "",
+          "type": "text",
+          "value": "Varistor",
+          "parent": null,
+          "attributes": {},
+          "children": []
+        }
+      ]
+    }
+  ]
+}

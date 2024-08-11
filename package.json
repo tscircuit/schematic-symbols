@@ -4,7 +4,9 @@
   "type": "module",
   "devDependencies": {
     "@types/bun": "latest",
-    "make-vfs": "^1.0.12"
+    "make-vfs": "^1.0.12",
+    "svgson": "^5.3.1",
+    "transformation-matrix": "^2.16.1"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
