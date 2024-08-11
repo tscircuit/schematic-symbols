@@ -20,18 +20,36 @@
      borderopacity="0.25"
      inkscape:showpageshadow="2"
      inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
+     inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="2.5493632"
-     inkscape:cx="88.061208"
-     inkscape:cy="418.5359"
+     inkscape:zoom="1.8294378"
+     inkscape:cx="133.101"
+     inkscape:cy="449.31837"
      inkscape:window-width="1112"
      inkscape:window-height="893"
      inkscape:window-x="449"
-     inkscape:window-y="106"
+     inkscape:window-y="78"
      inkscape:window-maximized="0"
-     inkscape:current-layer="root" />
+     inkscape:current-layer="svg1"
+     showgrid="true">
+    <inkscape:grid
+       id="grid207"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="10"
+       spacingy="10"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
   <defs
      id="defs1">
     <marker
@@ -56,7 +74,7 @@
      id="root">
     <g
        id="potentiometer"
-       transform="rotate(90,-69.689637,-0.54657001)">
+       transform="rotate(90,-69.384294,-1.9339734)">
       <path
          style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
          d="m 58.208334,-91.281231 v -2.645833"
@@ -92,20 +110,20 @@
            y="55.847672">{REF}</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:1.41111px;fill:#000000;stroke-width:0.264583;text-anchor:middle;text-align:center"
+         style="font-size:1.41111px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
          x="96.49707"
          y="61.367504"
          id="text14-3"
          transform="rotate(-90)"><tspan
            sodipodi:role="line"
            id="tspan14-1"
-           style="font-size:1.41111px;stroke-width:0.264583;text-anchor:middle;text-align:center"
-           x="94.38385"
+           style="font-size:1.41111px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="96.49707"
            y="61.367504">{VAL}</tspan></text>
     </g>
     <g
        id="boxresistor"
-       transform="rotate(90,-71.581422,2.4547265)"
+       transform="rotate(90,-72.654678,2.0374476)"
        inkscape:label="boxresistor">
       <title
          id="title1">Resistor</title>
@@ -126,27 +144,27 @@
          inkscape:connector-curvature="0" />
       <text
          xml:space="preserve"
-         style="font-size:1.41111px;fill:#000000;stroke-width:0.264583;text-anchor:middle;text-align:center"
+         style="font-size:1.41111px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
          x="95.718857"
          y="28.388716"
          id="text14-0-6"
          transform="rotate(-90)"><tspan
            sodipodi:role="line"
            id="tspan14-0-1"
-           style="font-size:1.41111px;stroke-width:0.264583;text-anchor:middle;text-align:center"
-           x="93.600128"
+           style="font-size:1.41111px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="95.718857"
            y="28.388716">{REF}</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:1.41111px;fill:#000000;stroke-width:0.264583;text-anchor:middle;text-align:center"
+         style="font-size:1.41111px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
          x="95.728477"
          y="33.388676"
          id="text14-0-4-4"
          transform="rotate(-90)"><tspan
            sodipodi:role="line"
            id="tspan14-0-9-0"
-           style="font-size:1.41111px;stroke-width:0.264583;text-anchor:middle;text-align:center"
-           x="93.615257"
+           style="font-size:1.41111px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="95.728477"
            y="33.388676">{VAL}</tspan></text>
       <title
          id="title3">Resistor</title>
@@ -155,7 +173,7 @@
     </g>
     <g
        id="varistor"
-       transform="rotate(90,-69.806032,0.50486369)">
+       transform="rotate(90,-70.547403,-0.19324066)">
       <title
          id="title5">Varistor</title>
       <path
@@ -194,15 +212,15 @@
            y="42.509102">{REF}</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:1.41111px;fill:#000000;stroke-width:0.264583;text-anchor:end;text-align:end"
+         style="font-size:1.41111px;text-align:end;text-anchor:end;fill:#000000;stroke-width:0.264583"
          x="95.945496"
          y="47.999649"
          id="text14-0-4"
          transform="rotate(-90)"><tspan
            sodipodi:role="line"
            id="tspan14-0-9"
-           style="font-size:1.41111px;stroke-width:0.264583;text-anchor:end;text-align:end"
-           x="91.719055"
+           style="font-size:1.41111px;text-align:end;text-anchor:end;stroke-width:0.264583"
+           x="95.945496"
            y="47.999649">{VAL}</tspan></text>
       <path
          style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"

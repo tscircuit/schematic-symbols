@@ -5,7 +5,7 @@
   "parent": null,
   "attributes": {
     "id": "potentiometer",
-    "transform": "rotate(90,-69.689637,-0.54657001)"
+    "transform": "rotate(90,-69.384294,-1.9339734)"
   },
   "children": [
     {
@@ -107,7 +107,7 @@
       "parent": null,
       "attributes": {
         "xml:space": "preserve",
-        "style": "font-size:1.41111px;fill:#000000;stroke-width:0.264583;text-anchor:middle;text-align:center",
+        "style": "font-size:1.41111px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583",
         "x": "96.49707",
         "y": "61.367504",
         "id": "text14-3",
@@ -122,8 +122,8 @@
           "attributes": {
             "sodipodi:role": "line",
             "id": "tspan14-1",
-            "style": "font-size:1.41111px;stroke-width:0.264583;text-anchor:middle;text-align:center",
-            "x": "94.38385",
+            "style": "font-size:1.41111px;text-align:center;text-anchor:middle;stroke-width:0.264583",
+            "x": "96.49707",
             "y": "61.367504"
           },
           "children": [

@@ -67,6 +67,9 @@ Bun.serve({
     }
 
     // Serve static files
-    return new Response(await Bun.file(url.pathname))
+    return new Response("", {
+      status: 404,
+    })
+    // return new Response(await Bun.file(url.pathname))
   },
 })

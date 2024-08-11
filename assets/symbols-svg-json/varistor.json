@@ -5,7 +5,7 @@
   "parent": null,
   "attributes": {
     "id": "varistor",
-    "transform": "rotate(90,-69.806032,0.50486369)"
+    "transform": "rotate(90,-70.547403,-0.19324066)"
   },
   "children": [
     {
@@ -127,7 +127,7 @@
       "parent": null,
       "attributes": {
         "xml:space": "preserve",
-        "style": "font-size:1.41111px;fill:#000000;stroke-width:0.264583;text-anchor:end;text-align:end",
+        "style": "font-size:1.41111px;text-align:end;text-anchor:end;fill:#000000;stroke-width:0.264583",
         "x": "95.945496",
         "y": "47.999649",
         "id": "text14-0-4",
@@ -142,8 +142,8 @@
           "attributes": {
             "sodipodi:role": "line",
             "id": "tspan14-0-9",
-            "style": "font-size:1.41111px;stroke-width:0.264583;text-anchor:end;text-align:end",
-            "x": "91.719055",
+            "style": "font-size:1.41111px;text-align:end;text-anchor:end;stroke-width:0.264583",
+            "x": "95.945496",
             "y": "47.999649"
           },
           "children": [

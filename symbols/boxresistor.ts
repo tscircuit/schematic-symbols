@@ -1,5 +1,4 @@
 import { path, text, defineSymbol } from "../drawing"
-
 export const boxresistor = defineSymbol({
   primitives: [
     path({
