@@ -119,6 +119,17 @@ export function defineSymbol(symbol: Symbol): Symbol {
   return symbol
 }
 
+export const mapColor = (color: string) => {
+  switch (color) {
+    case "primary":
+      return "black"
+    case "secondary":
+      return "gray"
+    default:
+      return color
+  }
+}
+
 export function getSvg(
   symbol: Symbol,
   options: { width?: number; height?: number } = {},
@@ -128,24 +139,42 @@ export function getSvg(
     switch (primitive.type) {
       case "path":
         return `<path d="${pathToSvgD(primitive.points)}" fill="${
-          primitive.fill ? primitive.color : "none"
-        }" stroke="${primitive.color}" stroke-width="0.01" />`
+          primitive.fill ? mapColor(primitive.color) : "none"
+        }" stroke="${mapColor(primitive.color)}" stroke-width="0.02" />`
       case "text":
         return `<text x="${primitive.x}" y="${primitive.y}" text-anchor="${
           primitive.anchor
-        }">${primitive.text}</text>`
+        }" fill="${mapColor("primary")}">${primitive.text}</text>`
       case "circle":
-        return `<circle cx="${primitive.x}" cy="${primitive.y}" r="${primitive.radius}" />`
+        return `<circle cx="${primitive.x}" cy="${primitive.y}" r="${primitive.radius}" fill="${mapColor("primary")}" />`
       case "box":
-        return `<rect x="${primitive.x}" y="${primitive.y}" width="${primitive.width}" height="${primitive.height}" />`
+        return `<rect x="${primitive.x}" y="${primitive.y}" width="${primitive.width}" height="${primitive.height}" fill="${mapColor("primary")}" />`
       default:
         return ""
     }
   })
 
-  return `<svg width="${options.width ?? size.width}" height="${options.height ?? size.height}" viewBox="0 0 ${
-    size.width
-  } ${size.height}" xmlns="http://www.w3.org/2000/svg">
+  // Use the center and the size to calculate the viewBox
+  const bufferMultiple = 1.1
+  const w = size.width * bufferMultiple
+  const h = size.height * bufferMultiple
+  const viewBox = {
+    x: symbol.center.x - w / 2,
+    y: symbol.center.y - h / 2,
+    width: w,
+    height: h,
+  }
+
+  if (options.width && !options.height) {
+    options.height = options.width! * (viewBox.height / viewBox.width)
+  } else if (!options.width && options.height) {
+    options.width = options.height! * (viewBox.width / viewBox.height)
+  } else if (!options.width && !options.height) {
+    options.width = viewBox.width
+    options.height = viewBox.height
+  }
+
+  return `<svg width="${options.width}" height="${options.height}" viewBox="${viewBox.x} ${viewBox.y} ${viewBox.width} ${viewBox.height}" xmlns="http://www.w3.org/2000/svg">
     ${svgElements.join("\n    ")}
   </svg>`
 }

@@ -13,9 +13,9 @@ Bun.serve({
 
       const svgGrid = symbolEntries
         .map(([name, symbol]) => {
-          const svg = getSvg(symbol, { width: 150, height: 100 })
+          const svg = getSvg(symbol, { width: 150 })
           return `
-          <div class="symbol-container">
+          <div class="symbol-container" style="padding-bottom:28px;">
             <h3>${name}</h3>
             ${svg}
           </div>
