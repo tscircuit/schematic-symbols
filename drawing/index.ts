@@ -118,3 +118,106 @@ const arrow = (
 export function defineSymbol(symbol: Symbol): Symbol {
   return symbol
 }
+
+export function getSvg(
+  symbol: Symbol,
+  options: { width?: number; height?: number } = {},
+): string {
+  const { primitives, size } = symbol
+  const svgElements = primitives.map((primitive) => {
+    switch (primitive.type) {
+      case "path":
+        return `<path d="${pathToSvgD(primitive.points)}" fill="${
+          primitive.fill ? primitive.color : "none"
+        }" stroke="${primitive.color}" stroke-width="0.01" />`
+      case "text":
+        return `<text x="${primitive.x}" y="${primitive.y}" text-anchor="${
+          primitive.anchor
+        }">${primitive.text}</text>`
+      case "circle":
+        return `<circle cx="${primitive.x}" cy="${primitive.y}" r="${primitive.radius}" />`
+      case "box":
+        return `<rect x="${primitive.x}" y="${primitive.y}" width="${primitive.width}" height="${primitive.height}" />`
+      default:
+        return ""
+    }
+  })
+
+  return `<svg width="${options.width ?? size.width}" height="${options.height ?? size.height}" viewBox="0 0 ${
+    size.width
+  } ${size.height}" xmlns="http://www.w3.org/2000/svg">
+    ${svgElements.join("\n    ")}
+  </svg>`
+}
+
+function pathToSvgD(points: Point[]): string {
+  return points
+    .map((point, index) => `${index === 0 ? "M" : "L"}${point.x},${point.y}`)
+    .join(" ")
+}
+
+export function resize(
+  symbol: Symbol,
+  newSize: { width?: number; height?: number },
+): Symbol {
+  const { width: oldWidth, height: oldHeight } = symbol.size
+  let scaleX = 1,
+    scaleY = 1
+
+  if (newSize.width && newSize.height) {
+    scaleX = newSize.width / oldWidth
+    scaleY = newSize.height / oldHeight
+  } else if (newSize.width) {
+    scaleX = scaleY = newSize.width / oldWidth
+  } else if (newSize.height) {
+    scaleX = scaleY = newSize.height / oldHeight
+  }
+
+  const resizedPrimitives = symbol.primitives.map((primitive) => {
+    switch (primitive.type) {
+      case "path":
+        return {
+          ...primitive,
+          points: primitive.points.map((p) => ({
+            x: p.x * scaleX,
+            y: p.y * scaleY,
+          })),
+        }
+      case "text":
+      case "circle":
+        return {
+          ...primitive,
+          x: primitive.x * scaleX,
+          y: primitive.y * scaleY,
+        }
+      case "box":
+        return {
+          ...primitive,
+          x: primitive.x * scaleX,
+          y: primitive.y * scaleY,
+          width: primitive.width * scaleX,
+          height: primitive.height * scaleY,
+        }
+      default:
+        return primitive
+    }
+  })
+
+  return {
+    ...symbol,
+    primitives: resizedPrimitives,
+    center: {
+      x: symbol.center.x * scaleX,
+      y: symbol.center.y * scaleY,
+    },
+    ports: symbol.ports.map((port) => ({
+      ...port,
+      x: port.x * scaleX,
+      y: port.y * scaleY,
+    })),
+    size: {
+      width: oldWidth * scaleX,
+      height: oldHeight * scaleY,
+    },
+  }
+}
