@@ -4,11 +4,14 @@
   "type": "module",
   "devDependencies": {
     "@types/bun": "latest",
+    "@types/svg-path-parser": "^1.1.6",
     "make-vfs": "^1.0.12",
+    "svg-path-parser": "^1.1.0",
     "svgson": "^5.3.1",
     "transformation-matrix": "^2.16.1"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
-  }
+  },
+  "dependencies": {}
 }

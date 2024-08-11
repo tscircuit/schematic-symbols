@@ -1,15 +1,14 @@
 import {
   fromDefinition,
   compose,
-  translate,
-  rotateDEG,
   applyToPoint,
   toString,
   type Matrix,
-  fromString,
   fromTransformAttribute,
 } from "transformation-matrix"
 import type { INode } from "svgson"
+import { parseSVG, makeAbsolute } from "svg-path-parser"
+import { serializeSvgPathCommands } from "./serializeSvgPathCommands"
 
 export function applyGroupTransformsToChildren(group: INode) {
   if (!group.attributes.transform) {
@@ -50,42 +49,28 @@ function parseTransform(transform: string): Matrix {
   return compose(fromDefinition(fromTransformAttribute(transform)))
 }
 
-function transformPath(pathData: string, matrix: Matrix) {
-  const pathCommands = pathData.match(/[a-zA-Z][^a-zA-Z]*/g) ?? []
-  return pathCommands
-    .map((command) => {
-      const type = command[0]
-      const coords = command
-        .slice(1)
-        .trim()
-        .split(/[\s,]+/)
-        .map(parseFloat)
+function transformPath(pathData: string, matrix: Matrix): string {
+  const parsedPath = parseSVG(pathData)
+  makeAbsolute(parsedPath)
 
-      const typeUpper = type.toUpperCase()
-      if ("MLHVCSQTA".includes(typeUpper)) {
-        if (coords.length === 1) {
-          if (typeUpper === "V") {
-            coords[0] = coords[0] * matrix.a + coords[1] * matrix.c + matrix.e
-          } else if (typeUpper === "H") {
-            coords[0] = coords[0] * matrix.a + coords[1] * matrix.b + matrix.f
-          } else {
-            throw new Error(
-              `Invalid path command for single coordinate: ${type}, given: ${coords}`,
-            )
-          }
-        } else if (coords.length % 2 !== 0) {
-          for (let i = 0; i < coords.length; i += 2) {
-            const { x, y } = applyToPoint(matrix, {
-              x: coords[i],
-              y: coords[i + 1],
-            })
-            coords[i] = x
-            coords[i + 1] = y
-          }
-        }
-      }
+  const transformedPath = parsedPath.map((command) => {
+    if ("x" in command && "y" in command) {
+      const { x, y } = applyToPoint(matrix, { x: command.x, y: command.y })
+      command.x = x
+      command.y = y
+    }
+    if ("x1" in command && "y1" in command) {
+      const { x, y } = applyToPoint(matrix, { x: command.x1, y: command.y1 })
+      command.x1 = x
+      command.y1 = y
+    }
+    if ("x2" in command && "y2" in command) {
+      const { x, y } = applyToPoint(matrix, { x: command.x2, y: command.y2 })
+      command.x2 = x
+      command.y2 = y
+    }
+    return command
+  })
 
-      return type + coords.join(" ")
-    })
-    .join(" ")
+  return serializeSvgPathCommands(transformedPath)
 }
