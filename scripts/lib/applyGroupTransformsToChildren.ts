@@ -49,7 +49,7 @@ function parseTransform(transform: string): Matrix {
   return compose(fromDefinition(fromTransformAttribute(transform)))
 }
 
-function transformPath(pathData: string, matrix: Matrix): string {
+export function transformPath(pathData: string, matrix: Matrix): string {
   const parsedPath = parseSVG(pathData)
   makeAbsolute(parsedPath)
 

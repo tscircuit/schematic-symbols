@@ -1,0 +1,25 @@
+{
+  "name": "g",
+  "type": "element",
+  "value": "",
+  "parent": null,
+  "attributes": {
+    "id": "testshape",
+    "style": "fill:none;stroke:#000000;stroke-opacity:1",
+    "transform": "translate(0.45366488,0.38885561)"
+  },
+  "children": [
+    {
+      "name": "path",
+      "type": "element",
+      "value": "",
+      "parent": null,
+      "attributes": {
+        "style": "opacity:1;fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1",
+        "d": "m 21.331058,95.261238 1.282194,-3.817442 4.953934,0.582816",
+        "id": "path207"
+      },
+      "children": []
+    }
+  ]
+}
