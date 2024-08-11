@@ -7,6 +7,7 @@ import {
   toString,
   type Matrix,
   fromString,
+  fromTransformAttribute,
 } from "transformation-matrix"
 import type { INode } from "svgson"
 
@@ -46,15 +47,7 @@ export function applyGroupTransformsToChildren(group: INode) {
 }
 
 function parseTransform(transform: string): Matrix {
-  const rotateMatch =
-    transform.match(/rotate\(([-\d.]+),\s*([-\d.]+),\s*([-\d.]+)\)/) ??
-    transform.match(/rotate\(([-\d.]+)\)/)
-  if (rotateMatch) {
-    const [, angle, cx, cy] = rotateMatch.map(parseFloat)
-    return compose(translate(cx, cy), rotateDEG(angle), translate(-cx, -cy))
-  }
-  // Add more transform parsing as needed (e.g., scale, translate)
-  return fromString(transform)
+  return compose(fromDefinition(fromTransformAttribute(transform)))
 }
 
 function transformPath(pathData: string, matrix: Matrix) {

@@ -23,15 +23,15 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="1.8294378"
-     inkscape:cx="133.101"
-     inkscape:cy="449.31837"
+     inkscape:zoom="8.1649844"
+     inkscape:cx="91.059574"
+     inkscape:cy="369.13726"
      inkscape:window-width="1112"
      inkscape:window-height="893"
      inkscape:window-x="449"
      inkscape:window-y="78"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg1"
+     inkscape:current-layer="root"
      showgrid="true">
     <inkscape:grid
        id="grid207"
@@ -231,6 +231,15 @@
          id="title9">Varistor</title>
       <title
          id="title10">Varistor</title>
+    </g>
+    <g
+       id="testshape"
+       style="fill:none;stroke:#000000;stroke-opacity:1"
+       transform="translate(0.45366488,0.38885561)">
+      <path
+         style="opacity:1;fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+         d="m 21.331058,95.261238 1.282194,-3.817442 4.953934,0.582816"
+         id="path207" />
     </g>
   </g>
 </svg>
