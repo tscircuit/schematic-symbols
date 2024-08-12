@@ -1,24 +1,39 @@
 {
-  "name": "g",
-  "type": "element",
-  "value": "",
-  "parent": null,
-  "attributes": {
-    "id": "testshape",
-    "style": "fill:none;stroke:#000000;stroke-opacity:1"
+  "svg": {
+    "name": "g",
+    "type": "element",
+    "value": "",
+    "parent": null,
+    "attributes": {
+      "id": "testshape",
+      "style": "fill:none;stroke:#000000;stroke-opacity:1"
+    },
+    "children": [
+      {
+        "name": "path",
+        "type": "element",
+        "value": "",
+        "parent": null,
+        "attributes": {
+          "style": "opacity:1;fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1",
+          "d": "M-0.31180640000000004,0.1908721 L-0.18358699999999972,-0.1908721 L0.31180640000000004,-0.13259049999999917",
+          "id": "path207"
+        },
+        "children": []
+      }
+    ]
   },
-  "children": [
-    {
-      "name": "path",
-      "type": "element",
-      "value": "",
-      "parent": null,
-      "attributes": {
-        "style": "opacity:1;fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1",
-        "d": "M-22.724314592,-84.176363249 L-22.596095192,-84.558107449 L-22.100701792000002,-84.499825849",
-        "id": "path207"
-      },
-      "children": []
-    }
-  ]
+  "paths": [],
+  "texts": [],
+  "refblocks": {},
+  "bounds": {
+    "minX": -0.31180640000000004,
+    "maxX": 0.31180640000000004,
+    "minY": -0.1908721,
+    "maxY": 0.1908721,
+    "width": 0.6236128000000001,
+    "height": 0.3817442,
+    "centerX": 0,
+    "centerY": 0
+  }
 }

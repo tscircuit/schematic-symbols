@@ -5,6 +5,7 @@ import {
   toString,
   type Matrix,
   fromTransformAttribute,
+  identity,
 } from "transformation-matrix"
 import type { INode } from "svgson"
 import { parseSVG, makeAbsolute, type LineToCommand } from "svg-path-parser"
@@ -15,29 +16,44 @@ export function applyGroupTransformsToChildren(group: INode) {
     return group // No transformation to apply
   }
 
-  const transformMatrix = parseTransform(group.attributes.transform)
+  const groupTransform = parseTransform(group.attributes.transform)
 
-  group.children = group.children.map((child) => {
-    if (child.name === "path") {
-      child.attributes.d = transformPath(child.attributes.d, transformMatrix)
-    } else if (child.name === "text") {
-      // const x = parseFloat(child.attributes.x) || 0
-      // const y = parseFloat(child.attributes.y) || 0
-      // const { x: newX, y: newY } = applyToPoint(transformMatrix, { x, y })
-      // child.attributes.x = newX.toString()
-      // child.attributes.y = newY.toString()
+  group.children = group.children
+    .map((child) => {
+      const transform = compose(
+        groupTransform,
+        parseTransform(child.attributes.transform),
+      )
+      delete child.attributes.transform
 
-      // If the text has a transform, compose it with the group transform
-      if (child.attributes.transform) {
-        const childTransform = parseTransform(child.attributes.transform)
-        const composedTransform = compose(childTransform, transformMatrix)
-        child.attributes.transform = toString(composedTransform)
-      } else {
-        child.attributes.transform = toString(transformMatrix)
+      if (child.name === "rect") {
+        // convert to path, it's easier to transform via rotations
+        return null
+        child = convertRectToPath(child)
       }
-    }
-    return child
-  })
+      if (child.name === "path") {
+        child.attributes.d = transformPath(child.attributes.d, transform)
+      } else if (child.name === "text") {
+        return null // TODO
+      } else if (child.name === "circle") {
+        let { cx, cy, r } = child.attributes as any
+        cx = parseFloat(cx)
+        cy = parseFloat(cy)
+        r = parseFloat(r)
+
+        const { x, y } = applyToPoint(transform, { x: cx, y: cy })
+        r = r * groupTransform.a
+
+        child.attributes.cx = x.toString()
+        child.attributes.cy = y.toString()
+        child.attributes.r = r.toString()
+      } else {
+        return null
+      }
+
+      return child
+    })
+    .filter((c: INode | null): INode => c as INode)
 
   // Remove the transform from the group since it's now applied to children
   delete group.attributes.transform
@@ -46,6 +62,7 @@ export function applyGroupTransformsToChildren(group: INode) {
 }
 
 function parseTransform(transform: string): Matrix {
+  if (!transform) return identity()
   return compose(fromDefinition(fromTransformAttribute(transform)))
 }
 
@@ -85,4 +102,9 @@ export function transformPath(pathData: string, matrix: Matrix): string {
   })
 
   return serializeSvgPathCommands(transformedPath)
+}
+
+export function convertRectToPath(child: INode): INode {
+  const { x, y, width, height } = child.attributes as any
+  return null
 }

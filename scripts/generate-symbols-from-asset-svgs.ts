@@ -4,6 +4,7 @@ import fs from "node:fs"
 import { applyGroupTransformsToChildren } from "./lib/applyGroupTransformsToChildren"
 import { getBoundsOfSvgJson } from "drawing/getBoundsOfSvgJson"
 import { compose, translate, toSVG, scale } from "transformation-matrix"
+import { convertToObjectWithOrderedPositionIds } from "./convertToObjectWithOrderedPositionIds"
 
 async function processSvg() {
   try {
@@ -28,18 +29,44 @@ async function processSvg() {
         let groupWithTransformApplied = applyGroupTransformsToChildren(group)
 
         // Recenter the group (makes it easier to read)
-        const bounds = getBoundsOfSvgJson(groupWithTransformApplied as any)
+        let bounds = getBoundsOfSvgJson(groupWithTransformApplied as any)
         groupWithTransformApplied.attributes.transform = toSVG(
-          compose(translate(-bounds.centerX, -bounds.centerY), scale(0.1, 0.1)),
+          compose(scale(0.1, 0.1), translate(-bounds.centerX, -bounds.centerY)),
         )
         groupWithTransformApplied = applyGroupTransformsToChildren(
           groupWithTransformApplied,
         )
 
+        bounds = getBoundsOfSvgJson(groupWithTransformApplied as any)
+
+        const refblocks = convertToObjectWithOrderedPositionIds(
+          groupWithTransformApplied.children
+            .filter(
+              (child) =>
+                child.name === "circle" &&
+                (child.attributes["inkscape:label"] === "refblock" ||
+                  child.attributes.id === "refblock"),
+            )
+            .map((child) => ({
+              x: parseFloat(child.attributes.cx),
+              y: parseFloat(child.attributes.cy),
+            })),
+        )
+
         console.log(`Writing to file: ${filePath}`)
         fs.writeFileSync(
           filePath,
-          JSON.stringify(groupWithTransformApplied, null, 2),
+          JSON.stringify(
+            {
+              svg: groupWithTransformApplied,
+              paths: [],
+              texts: [],
+              refblocks: refblocks,
+              bounds,
+            },
+            null,
+            2,
+          ),
         )
       }
     })

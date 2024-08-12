@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "start": "bun run build && bun --hot run dev-server.ts",
-    "build": "rm symbols/index.ts && bunx make-vfs ./symbols --content-format import-default --outfile ./symbols/index.ts"
+    "build": "rm symbols/index.ts && bunx make-vfs ./symbols --content-format import-default --outfile ./symbols/index.ts",
+    "generate": "bun run scripts/generate-symbols-from-asset-svgs.ts"
   },
   "devDependencies": {
     "@types/bun": "latest",

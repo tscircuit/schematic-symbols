@@ -23,15 +23,15 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="10.949362"
-     inkscape:cx="111.55901"
-     inkscape:cy="441.48689"
+     inkscape:zoom="15.067934"
+     inkscape:cx="208.32318"
+     inkscape:cy="415.11994"
      inkscape:window-width="1112"
      inkscape:window-height="893"
      inkscape:window-x="267"
-     inkscape:window-y="111"
+     inkscape:window-y="83"
      inkscape:window-maximized="0"
-     inkscape:current-layer="varistor"
+     inkscape:current-layer="mosfet_depletion_normally_on"
      showgrid="true">
     <inkscape:grid
        id="grid207"
@@ -247,23 +247,19 @@
          id="title9">Varistor</title>
       <title
          id="title10">Varistor</title>
-      <rect
-         style="fill:#ff0000;stroke:none;stroke-width:0.190652;stroke-opacity:1"
-         id="rect223-4-0"
-         width="0.57494569"
-         height="0.57494569"
-         x="90.22683"
-         y="44.715424"
-         inkscape:label="refblock"
+      <circle
+         style="opacity:1;fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         id="refblock"
+         cx="90.468109"
+         cy="44.996063"
+         r="0.28158441"
          transform="rotate(-90)" />
-      <rect
-         style="fill:#ff0000;stroke:none;stroke-width:0.190652;stroke-opacity:1"
-         id="rect223-4-0-7"
-         width="0.57494569"
-         height="0.57494569"
-         x="100.9478"
-         y="44.693703"
-         inkscape:label="refblock"
+      <circle
+         style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         id="refblock-6"
+         cx="101.25274"
+         cy="44.972359"
+         r="0.28158441"
          transform="rotate(-90)" />
     </g>
     <g
@@ -387,30 +383,24 @@
            style="font-size:1.41111px;text-align:center;text-anchor:middle;stroke-width:0.264583"
            x="40.013462"
            y="1.7597502">{REF}</tspan></text>
-      <rect
-         style="opacity:1;fill:#ff0000;stroke:none;stroke-width:0.190652;stroke-opacity:1"
-         id="rect223"
-         width="0.57494569"
-         height="0.57494569"
-         x="32.779663"
-         y="-4.408597"
-         inkscape:label="refblock" />
-      <rect
-         style="fill:#ff0000;stroke:none;stroke-width:0.190652;stroke-opacity:1"
-         id="rect223-4"
-         width="0.57494569"
-         height="0.57494569"
-         x="26.035049"
-         y="3.679189"
-         inkscape:label="refblock" />
-      <rect
-         style="fill:#ff0000;stroke:none;stroke-width:0.190652;stroke-opacity:1"
-         id="rect223-4-4"
-         width="0.57494569"
-         height="0.57494569"
-         x="32.751278"
-         y="6.4666243"
-         inkscape:label="refblock" />
+      <circle
+         style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         id="refblock-7"
+         cx="33.077534"
+         cy="-4.1173019"
+         r="0.28158441" />
+      <circle
+         style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         id="refblock-71"
+         cx="26.441811"
+         cy="3.979425"
+         r="0.28158441" />
+      <circle
+         style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         id="refblock-79"
+         cx="33.073952"
+         cy="6.7481747"
+         r="0.28158441" />
     </g>
   </g>
 </svg>

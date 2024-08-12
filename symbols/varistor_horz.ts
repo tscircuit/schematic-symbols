@@ -6,11 +6,11 @@ import { text } from "drawing/text"
 import { defineSymbol } from "drawing/defineSymbol"
 import svgJson from "assets/symbols-svg-json/varistor.json"
 
-const bounds = getBoundsOfSvgJson(svgJson as any)
+const bounds = getBoundsOfSvgJson(svgJson.svg as any)
 
 export default defineSymbol({
   primitives: [
-    ...svgJson.children
+    ...svgJson.svg.children
       .filter((child) => child.type === "element" && child.name === "path")
       .map((child) =>
         path({
@@ -20,7 +20,16 @@ export default defineSymbol({
         } as PathPrimitive),
       ),
   ],
-  ports: [],
+  ports: [
+    {
+      ...svgJson.refblocks.left1,
+      labels: ["1", "-"],
+    },
+    {
+      ...svgJson.refblocks.left2,
+      labels: ["2", "+"],
+    },
+  ],
   size: { width: bounds.width, height: bounds.height }, //{ width: 1, height: 0.24 },
   center: { x: bounds.centerX, y: bounds.centerY },
 })

@@ -1,186 +1,66 @@
 {
-  "name": "g",
-  "type": "element",
-  "value": "",
-  "parent": null,
-  "attributes": {
-    "id": "boxresistor",
-    "inkscape:label": "boxresistor"
+  "svg": {
+    "name": "g",
+    "type": "element",
+    "value": "",
+    "parent": null,
+    "attributes": {
+      "id": "boxresistor",
+      "inkscape:label": "boxresistor"
+    },
+    "children": [
+      {
+        "name": "path",
+        "type": "element",
+        "value": "",
+        "parent": null,
+        "attributes": {
+          "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1",
+          "d": "M-0.5291666499999996,0 L-0.2645833500000001,0",
+          "id": "path1",
+          "inkscape:connector-curvature": "0"
+        },
+        "children": []
+      },
+      {
+        "name": "path",
+        "type": "element",
+        "value": "",
+        "parent": null,
+        "attributes": {
+          "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1",
+          "d": "M0.2645832500000007,0 L0.5291666500000001,0",
+          "id": "path2",
+          "inkscape:connector-curvature": "0"
+        },
+        "children": []
+      },
+      {
+        "name": "path",
+        "type": "element",
+        "value": "",
+        "parent": null,
+        "attributes": {
+          "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1",
+          "d": "M-1.4999999997655777e-7,-0.13229169999999968 L0.26458314999999955,-0.13229169999999968 L0.26458314999999955,0.13229169999999968 L-0.2645835500000011,0.13229169999999968 L-0.2645835500000011,-0.13229169999999968 L-1.5000000175291461e-7,-0.13229169999999968",
+          "id": "path3",
+          "inkscape:connector-curvature": "0"
+        },
+        "children": []
+      }
+    ]
   },
-  "children": [
-    {
-      "name": "title",
-      "type": "element",
-      "value": "",
-      "parent": null,
-      "attributes": {
-        "id": "title1"
-      },
-      "children": [
-        {
-          "name": "",
-          "type": "text",
-          "value": "Resistor",
-          "parent": null,
-          "attributes": {},
-          "children": []
-        }
-      ]
-    },
-    {
-      "name": "path",
-      "type": "element",
-      "value": "",
-      "parent": null,
-      "attributes": {
-        "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1",
-        "d": "M-23.289296440000005,-94.60728683999999 L-23.024713140000003,-94.60728683999999",
-        "id": "path1",
-        "inkscape:connector-curvature": "0"
-      },
-      "children": []
-    },
-    {
-      "name": "path",
-      "type": "element",
-      "value": "",
-      "parent": null,
-      "attributes": {
-        "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1",
-        "d": "M-22.495546540000003,-94.60728683999999 L-22.230963140000004,-94.60728683999999",
-        "id": "path2",
-        "inkscape:connector-curvature": "0"
-      },
-      "children": []
-    },
-    {
-      "name": "path",
-      "type": "element",
-      "value": "",
-      "parent": null,
-      "attributes": {
-        "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1",
-        "d": "M-22.760129940000006,-94.73957853999998 L-22.495546640000004,-94.73957853999998 L-22.495546640000004,-94.47499513999998 L-23.024713340000005,-94.47499513999998 L-23.024713340000005,-94.73957853999998 L-22.760129940000006,-94.73957853999998",
-        "id": "path3",
-        "inkscape:connector-curvature": "0"
-      },
-      "children": []
-    },
-    {
-      "name": "text",
-      "type": "element",
-      "value": "",
-      "parent": null,
-      "attributes": {
-        "xml:space": "preserve",
-        "style": "font-size:1.41111px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583",
-        "x": "95.718857",
-        "y": "28.388716",
-        "id": "text14-0-6",
-        "transform": "matrix(0.1,0,0,0.1,49.40309249999999,-34.501977199999985)"
-      },
-      "children": [
-        {
-          "name": "tspan",
-          "type": "element",
-          "value": "",
-          "parent": null,
-          "attributes": {
-            "sodipodi:role": "line",
-            "id": "tspan14-0-1",
-            "style": "font-size:1.41111px;text-align:center;text-anchor:middle;stroke-width:0.264583",
-            "x": "95.718857",
-            "y": "28.388716"
-          },
-          "children": [
-            {
-              "name": "",
-              "type": "text",
-              "value": "{REF}",
-              "parent": null,
-              "attributes": {},
-              "children": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "text",
-      "type": "element",
-      "value": "",
-      "parent": null,
-      "attributes": {
-        "xml:space": "preserve",
-        "style": "font-size:1.41111px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583",
-        "x": "95.728477",
-        "y": "33.388676",
-        "id": "text14-0-4-4",
-        "transform": "matrix(0.1,0,0,0.1,49.40309249999999,-34.501977199999985)"
-      },
-      "children": [
-        {
-          "name": "tspan",
-          "type": "element",
-          "value": "",
-          "parent": null,
-          "attributes": {
-            "sodipodi:role": "line",
-            "id": "tspan14-0-9-0",
-            "style": "font-size:1.41111px;text-align:center;text-anchor:middle;stroke-width:0.264583",
-            "x": "95.728477",
-            "y": "33.388676"
-          },
-          "children": [
-            {
-              "name": "",
-              "type": "text",
-              "value": "{VAL}",
-              "parent": null,
-              "attributes": {},
-              "children": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "title",
-      "type": "element",
-      "value": "",
-      "parent": null,
-      "attributes": {
-        "id": "title3"
-      },
-      "children": [
-        {
-          "name": "",
-          "type": "text",
-          "value": "Resistor",
-          "parent": null,
-          "attributes": {},
-          "children": []
-        }
-      ]
-    },
-    {
-      "name": "title",
-      "type": "element",
-      "value": "",
-      "parent": null,
-      "attributes": {
-        "id": "title4"
-      },
-      "children": [
-        {
-          "name": "",
-          "type": "text",
-          "value": "Resistor",
-          "parent": null,
-          "attributes": {},
-          "children": []
-        }
-      ]
-    }
-  ]
+  "paths": [],
+  "texts": [],
+  "refblocks": {},
+  "bounds": {
+    "minX": -0.5291666499999996,
+    "maxX": 0.5291666500000001,
+    "minY": -0.13229169999999968,
+    "maxY": 0.13229169999999968,
+    "width": 1.0583332999999997,
+    "height": 0.26458339999999936,
+    "centerX": 2.220446049250313e-16,
+    "centerY": 0
+  }
 }

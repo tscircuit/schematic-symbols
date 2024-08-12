@@ -1,213 +1,112 @@
 {
-  "name": "g",
-  "type": "element",
-  "value": "",
-  "parent": null,
-  "attributes": {
-    "id": "varistor"
+  "svg": {
+    "name": "g",
+    "type": "element",
+    "value": "",
+    "parent": null,
+    "attributes": {
+      "id": "varistor"
+    },
+    "children": [
+      {
+        "name": "path",
+        "type": "element",
+        "value": "",
+        "parent": null,
+        "attributes": {
+          "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1",
+          "d": "M-0.5291668,0 L-0.2645835000000005,0",
+          "id": "path5",
+          "inkscape:connector-curvature": "0"
+        },
+        "children": []
+      },
+      {
+        "name": "path",
+        "type": "element",
+        "value": "",
+        "parent": null,
+        "attributes": {
+          "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1",
+          "d": "M0.2645835000000005,0 L0.5291668,0",
+          "id": "path6",
+          "inkscape:connector-curvature": "0"
+        },
+        "children": []
+      },
+      {
+        "name": "path",
+        "type": "element",
+        "value": "",
+        "parent": null,
+        "attributes": {
+          "style": "fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1",
+          "d": "M0.2645835000000005,0.23812500000000192 L-0.2645834999999992,-0.23812500000000014",
+          "id": "path7",
+          "inkscape:connector-curvature": "0",
+          "sodipodi:nodetypes": "cc"
+        },
+        "children": []
+      },
+      {
+        "name": "path",
+        "type": "element",
+        "value": "",
+        "parent": null,
+        "attributes": {
+          "style": "fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1",
+          "d": "M0.3704165000000006,0.23812500000000192 L0.2645835000000005,0.23812500000000192",
+          "id": "path8",
+          "inkscape:connector-curvature": "0",
+          "sodipodi:nodetypes": "cc"
+        },
+        "children": []
+      },
+      {
+        "name": "path",
+        "type": "element",
+        "value": "",
+        "parent": null,
+        "attributes": {
+          "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1",
+          "d": "M0.000001400000000817414,-0.13229179999999907 L0.2645844000000013,-0.13229179999999907 L0.2645844000000013,0.13229160000000206 L-0.26458259999999845,0.13229160000000206 L-0.26458259999999845,-0.13229179999999907 L0.0000014000000021496817,-0.13229179999999907",
+          "id": "path9",
+          "inkscape:connector-curvature": "0"
+        },
+        "children": []
+      },
+      {
+        "name": "circle",
+        "type": "element",
+        "value": "",
+        "parent": null,
+        "attributes": {
+          "style": "opacity:1;fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1",
+          "id": "refblock",
+          "cx": "-0.5438152999999999",
+          "cy": "0.0016897000000017925",
+          "r": "1.72420723198148e-18"
+        },
+        "children": []
+      }
+    ]
   },
-  "children": [
-    {
-      "name": "title",
-      "type": "element",
-      "value": "",
-      "parent": null,
-      "attributes": {
-        "id": "title5"
-      },
-      "children": [
-        {
-          "name": "",
-          "type": "text",
-          "value": "Varistor",
-          "parent": null,
-          "attributes": {},
-          "children": []
-        }
-      ]
-    },
-    {
-      "name": "path",
-      "type": "element",
-      "value": "",
-      "parent": null,
-      "attributes": {
-        "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1",
-        "d": "M-23.178223305999996,-103.79999550599999 L-22.913640005999994,-103.79999550599999",
-        "id": "path5",
-        "inkscape:connector-curvature": "0"
-      },
-      "children": []
-    },
-    {
-      "name": "path",
-      "type": "element",
-      "value": "",
-      "parent": null,
-      "attributes": {
-        "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1",
-        "d": "M-22.384473005999993,-103.79999550599999 L-22.119889705999995,-103.79999550599999",
-        "id": "path6",
-        "inkscape:connector-curvature": "0"
-      },
-      "children": []
-    },
-    {
-      "name": "path",
-      "type": "element",
-      "value": "",
-      "parent": null,
-      "attributes": {
-        "style": "fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1",
-        "d": "M-22.384473005999993,-103.56187050599999 L-22.913640005999994,-104.038120506",
-        "id": "path7",
-        "inkscape:connector-curvature": "0",
-        "sodipodi:nodetypes": "cc"
-      },
-      "children": []
-    },
-    {
-      "name": "path",
-      "type": "element",
-      "value": "",
-      "parent": null,
-      "attributes": {
-        "style": "fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1",
-        "d": "M-22.278640005999996,-103.56187050599999 L-22.384473005999993,-103.56187050599999",
-        "id": "path8",
-        "inkscape:connector-curvature": "0",
-        "sodipodi:nodetypes": "cc"
-      },
-      "children": []
-    },
-    {
-      "name": "text",
-      "type": "element",
-      "value": "",
-      "parent": null,
-      "attributes": {
-        "xml:space": "preserve",
-        "style": "font-size:1.41111px;fill:#000000;stroke-width:0.264583",
-        "x": "95.27552",
-        "y": "42.509102",
-        "id": "text14-0",
-        "transform": "matrix(0.1,0,0,0.1,45.18854400000001,-44.59268467999999)"
-      },
-      "children": [
-        {
-          "name": "tspan",
-          "type": "element",
-          "value": "",
-          "parent": null,
-          "attributes": {
-            "sodipodi:role": "line",
-            "id": "tspan14-0",
-            "style": "font-size:1.41111px;stroke-width:0.264583",
-            "x": "95.27552",
-            "y": "42.509102"
-          },
-          "children": [
-            {
-              "name": "",
-              "type": "text",
-              "value": "{REF}",
-              "parent": null,
-              "attributes": {},
-              "children": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "text",
-      "type": "element",
-      "value": "",
-      "parent": null,
-      "attributes": {
-        "xml:space": "preserve",
-        "style": "font-size:1.41111px;text-align:end;text-anchor:end;fill:#000000;stroke-width:0.264583",
-        "x": "95.945496",
-        "y": "47.999649",
-        "id": "text14-0-4",
-        "transform": "matrix(0.1,0,0,0.1,45.18854400000001,-44.59268467999999)"
-      },
-      "children": [
-        {
-          "name": "tspan",
-          "type": "element",
-          "value": "",
-          "parent": null,
-          "attributes": {
-            "sodipodi:role": "line",
-            "id": "tspan14-0-9",
-            "style": "font-size:1.41111px;text-align:end;text-anchor:end;stroke-width:0.264583",
-            "x": "95.945496",
-            "y": "47.999649"
-          },
-          "children": [
-            {
-              "name": "",
-              "type": "text",
-              "value": "{VAL}",
-              "parent": null,
-              "attributes": {},
-              "children": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "path",
-      "type": "element",
-      "value": "",
-      "parent": null,
-      "attributes": {
-        "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1",
-        "d": "M-22.649055105999995,-103.93228730599999 L-22.384472105999993,-103.93228730599999 L-22.384472105999993,-103.66770390599999 L-22.913639105999994,-103.66770390599999 L-22.913639105999994,-103.93228730599999 L-22.64905510599999,-103.93228730599999",
-        "id": "path9",
-        "inkscape:connector-curvature": "0"
-      },
-      "children": []
-    },
-    {
-      "name": "title",
-      "type": "element",
-      "value": "",
-      "parent": null,
-      "attributes": {
-        "id": "title9"
-      },
-      "children": [
-        {
-          "name": "",
-          "type": "text",
-          "value": "Varistor",
-          "parent": null,
-          "attributes": {},
-          "children": []
-        }
-      ]
-    },
-    {
-      "name": "title",
-      "type": "element",
-      "value": "",
-      "parent": null,
-      "attributes": {
-        "id": "title10"
-      },
-      "children": [
-        {
-          "name": "",
-          "type": "text",
-          "value": "Varistor",
-          "parent": null,
-          "attributes": {},
-          "children": []
-        }
-      ]
+  "paths": [],
+  "texts": [],
+  "refblocks": {
+    "left1": {
+      "x": -0.5438152999999999,
+      "y": 0.0016897000000017925
     }
-  ]
+  },
+  "bounds": {
+    "minX": -0.5291668,
+    "maxX": 0.5291668,
+    "minY": -0.23812500000000014,
+    "maxY": 0.23812500000000192,
+    "width": 1.0583336,
+    "height": 0.47625000000000206,
+    "centerX": 0,
+    "centerY": 8.881784197001252e-16
+  }
 }
