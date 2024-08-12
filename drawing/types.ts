@@ -47,7 +47,7 @@ export type Primitive =
   | CirclePrimitive
   | BoxPrimitive
 
-export interface Symbol {
+export interface SchSymbol {
   primitives: Primitive[]
   center: Point
   ports: Port[]
