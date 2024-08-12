@@ -24,6 +24,7 @@ export default defineSymbol({
       color: "primary",
     }),
     text("{REF}", { x: 0.5, y: -0.2, anchor: "middle_bottom" }),
+    text("{VAL}", { x: 0.5, y: 0.2, anchor: "middle_top" }),
   ],
   ports: [
     { x: 0, y: 0, labels: ["1", "-"] },

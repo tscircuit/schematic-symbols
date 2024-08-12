@@ -3,7 +3,7 @@ import { mapColor } from "./mapColor"
 import type { NinePointAnchor, TextPrimitive } from "./types"
 
 function createTextElement(primitive: TextPrimitive): string {
-  const { x, y, text, fontSize, anchor } = primitive
+  const { x, y, text, fontSize = 0.1, anchor } = primitive
   let textAnchor: string
   let dx: number = 0
   let dy: number = 0
@@ -11,11 +11,11 @@ function createTextElement(primitive: TextPrimitive): string {
   switch (anchor) {
     case "top_left":
       textAnchor = "start"
-      dy = fontSize ?? 0.1
+      dy = fontSize
       break
     case "top_right":
       textAnchor = "end"
-      dy = fontSize ?? 0.1
+      dy = fontSize
       break
     case "bottom_left":
       textAnchor = "start"
@@ -25,22 +25,22 @@ function createTextElement(primitive: TextPrimitive): string {
       break
     case "center":
       textAnchor = "middle"
-      dy = (fontSize ?? 0.1) / 2
+      dy = fontSize / 2
       break
     case "middle_top":
       textAnchor = "middle"
-      dy = fontSize ?? 0.1
+      dy = fontSize
       break
     case "middle_bottom":
       textAnchor = "middle"
       break
     case "middle_left":
       textAnchor = "start"
-      dy = (fontSize ?? 0.1) / 2
+      dy = fontSize / 2
       break
     case "middle_right":
       textAnchor = "end"
-      dy = (fontSize ?? 0.1) / 2
+      dy = fontSize / 2
       break
   }
 
