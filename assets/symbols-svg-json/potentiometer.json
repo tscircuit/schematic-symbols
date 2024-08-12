@@ -1,79 +1,110 @@
 {
-  "svg": {
-    "name": "g",
-    "type": "element",
-    "value": "",
-    "parent": null,
-    "attributes": {
-      "id": "potentiometer"
+  "paths": {
+    "path11": {
+      "type": "path",
+      "points": [
+        {
+          "x": -0.5291669499999998,
+          "y": 0.13229180000000085
+        },
+        {
+          "x": -0.26458365000000006,
+          "y": 0.13229180000000085
+        }
+      ],
+      "color": "primary"
     },
-    "children": [
-      {
-        "name": "path",
-        "type": "element",
-        "value": "",
-        "parent": null,
-        "attributes": {
-          "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1",
-          "d": "M-0.52916695,0.13229179999999907 L-0.2645836500000005,0.13229179999999907",
-          "id": "path11",
-          "inkscape:connector-curvature": "0"
+    "path12": {
+      "type": "path",
+      "points": [
+        {
+          "x": 0.26458334999999966,
+          "y": 0.13229180000000085
         },
-        "children": []
-      },
-      {
-        "name": "path",
-        "type": "element",
-        "value": "",
-        "parent": null,
-        "attributes": {
-          "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1",
-          "d": "M0.2645833499999992,0.13229179999999907 L0.5291669499999996,0.13229179999999907",
-          "id": "path12",
-          "inkscape:connector-curvature": "0"
+        {
+          "x": 0.52916695,
+          "y": 0.13229180000000085
+        }
+      ],
+      "color": "primary"
+    },
+    "path13": {
+      "type": "path",
+      "points": [
+        {
+          "x": 0.0000012499999999526779,
+          "y": 0
         },
-        "children": []
-      },
-      {
-        "name": "path",
-        "type": "element",
-        "value": "",
-        "parent": null,
-        "attributes": {
-          "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1",
-          "d": "M0.0000012499999995085886,0 L0.26458424999999997,0 L0.26458424999999997,0.26458339999999936 L-0.26458274999999976,0.26458339999999936 L-0.26458274999999976,0 L0.0000012500000008408563,0",
-          "id": "path13",
-          "inkscape:connector-curvature": "0"
+        {
+          "x": 0.26458424999999997,
+          "y": 0
         },
-        "children": []
-      },
-      {
-        "name": "path",
-        "type": "element",
-        "value": "",
-        "parent": null,
-        "attributes": {
-          "inkscape:connector-curvature": "0",
-          "id": "path14",
-          "d": "M-5.000000014021566e-8,-0.07937500000000064 L-5.000000014021566e-8,-0.26458340000000113",
-          "style": "fill:none;stroke:#000000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#TriangleInM-17)",
-          "sodipodi:nodetypes": "cc"
+        {
+          "x": 0.26458424999999997,
+          "y": 0.26458340000000113
         },
-        "children": []
-      }
-    ]
+        {
+          "x": -0.26458274999999976,
+          "y": 0.26458340000000113
+        },
+        {
+          "x": -0.26458274999999976,
+          "y": 0
+        },
+        {
+          "x": 0.0000012500000012849455,
+          "y": 0
+        }
+      ],
+      "color": "primary"
+    },
+    "path14": {
+      "type": "path",
+      "points": [
+        {
+          "x": -4.999999969612645e-8,
+          "y": -0.07937500000000064
+        },
+        {
+          "x": -4.999999969612645e-8,
+          "y": -0.26458340000000113
+        }
+      ],
+      "color": "primary"
+    }
   },
-  "paths": [],
-  "texts": [],
-  "refblocks": {},
+  "texts": {
+    "bottom1": {
+      "type": "text",
+      "text": "{VAL}",
+      "x": -0.007583050000000924,
+      "y": 0.42037030000000186
+    },
+    "right1": {
+      "type": "text",
+      "text": "{REF}",
+      "x": 0.12478014999999942,
+      "y": -0.10377439999999893
+    }
+  },
+  "refblocks": {
+    "left1": {
+      "x": -0.5449899500000002,
+      "y": 0.1331445999999996
+    },
+    "right1": {
+      "x": 0.5378069499999998,
+      "y": 0.13214820000000138
+    }
+  },
   "bounds": {
-    "minX": -0.52916695,
-    "maxX": 0.5291669499999996,
+    "minX": -0.5291669499999998,
+    "maxX": 0.52916695,
     "minY": -0.26458340000000113,
-    "maxY": 0.26458339999999936,
-    "width": 1.0583338999999996,
-    "height": 0.5291668000000005,
-    "centerX": -2.220446049250313e-16,
-    "centerY": -8.881784197001252e-16
+    "maxY": 0.26458340000000113,
+    "width": 1.0583338999999998,
+    "height": 0.5291668000000023,
+    "centerX": 1.1102230246251565e-16,
+    "centerY": 0
   }
 }

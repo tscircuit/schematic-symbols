@@ -1,112 +1,106 @@
 {
-  "svg": {
-    "name": "g",
-    "type": "element",
-    "value": "",
-    "parent": null,
-    "attributes": {
-      "id": "varistor"
+  "paths": {
+    "path5": {
+      "type": "path",
+      "points": [
+        {
+          "x": -0.5291668,
+          "y": 0
+        },
+        {
+          "x": -0.2645835000000005,
+          "y": 0
+        }
+      ],
+      "color": "primary"
     },
-    "children": [
-      {
-        "name": "path",
-        "type": "element",
-        "value": "",
-        "parent": null,
-        "attributes": {
-          "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1",
-          "d": "M-0.5291668,0 L-0.2645835000000005,0",
-          "id": "path5",
-          "inkscape:connector-curvature": "0"
+    "path6": {
+      "type": "path",
+      "points": [
+        {
+          "x": 0.2645835000000005,
+          "y": 0
         },
-        "children": []
-      },
-      {
-        "name": "path",
-        "type": "element",
-        "value": "",
-        "parent": null,
-        "attributes": {
-          "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1",
-          "d": "M0.2645835000000005,0 L0.5291668,0",
-          "id": "path6",
-          "inkscape:connector-curvature": "0"
+        {
+          "x": 0.5291668,
+          "y": 0
+        }
+      ],
+      "color": "primary"
+    },
+    "path7": {
+      "type": "path",
+      "points": [
+        {
+          "x": 0.2645835000000005,
+          "y": 0.23812500000000192
         },
-        "children": []
-      },
-      {
-        "name": "path",
-        "type": "element",
-        "value": "",
-        "parent": null,
-        "attributes": {
-          "style": "fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1",
-          "d": "M0.2645835000000005,0.23812500000000192 L-0.2645834999999992,-0.23812500000000014",
-          "id": "path7",
-          "inkscape:connector-curvature": "0",
-          "sodipodi:nodetypes": "cc"
+        {
+          "x": -0.2645834999999992,
+          "y": -0.23812500000000014
+        }
+      ],
+      "color": "primary"
+    },
+    "path8": {
+      "type": "path",
+      "points": [
+        {
+          "x": 0.3704165000000006,
+          "y": 0.23812500000000192
         },
-        "children": []
-      },
-      {
-        "name": "path",
-        "type": "element",
-        "value": "",
-        "parent": null,
-        "attributes": {
-          "style": "fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1",
-          "d": "M0.3704165000000006,0.23812500000000192 L0.2645835000000005,0.23812500000000192",
-          "id": "path8",
-          "inkscape:connector-curvature": "0",
-          "sodipodi:nodetypes": "cc"
+        {
+          "x": 0.2645835000000005,
+          "y": 0.23812500000000192
+        }
+      ],
+      "color": "primary"
+    },
+    "path9": {
+      "type": "path",
+      "points": [
+        {
+          "x": 0.000001400000000817414,
+          "y": -0.13229179999999907
         },
-        "children": []
-      },
-      {
-        "name": "path",
-        "type": "element",
-        "value": "",
-        "parent": null,
-        "attributes": {
-          "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1",
-          "d": "M0.000001400000000817414,-0.13229179999999907 L0.2645844000000013,-0.13229179999999907 L0.2645844000000013,0.13229160000000206 L-0.26458259999999845,0.13229160000000206 L-0.26458259999999845,-0.13229179999999907 L0.0000014000000021496817,-0.13229179999999907",
-          "id": "path9",
-          "inkscape:connector-curvature": "0"
+        {
+          "x": 0.2645844000000013,
+          "y": -0.13229179999999907
         },
-        "children": []
-      },
-      {
-        "name": "circle",
-        "type": "element",
-        "value": "",
-        "parent": null,
-        "attributes": {
-          "style": "opacity:1;fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1",
-          "id": "refblock",
-          "cx": "-0.5438152999999999",
-          "cy": "0.0016897000000017925",
-          "r": "1.72420723198148e-18"
+        {
+          "x": 0.2645844000000013,
+          "y": 0.13229160000000206
         },
-        "children": []
-      },
-      {
-        "name": "circle",
-        "type": "element",
-        "value": "",
-        "parent": null,
-        "attributes": {
-          "style": "fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1",
-          "id": "refblock-6",
-          "cx": "0.5346478000000006",
-          "cy": "-0.0006806999999984242",
-          "r": "1.72420723198148e-18"
+        {
+          "x": -0.26458259999999845,
+          "y": 0.13229160000000206
         },
-        "children": []
-      }
-    ]
+        {
+          "x": -0.26458259999999845,
+          "y": -0.13229179999999907
+        },
+        {
+          "x": 0.0000014000000021496817,
+          "y": -0.13229179999999907
+        }
+      ],
+      "color": "primary"
+    }
   },
-  "paths": [],
-  "texts": [],
+  "texts": {
+    "top1": {
+      "type": "text",
+      "text": "{REF}",
+      "x": -0.06307419999999953,
+      "y": -0.2470063999999983
+    },
+    "bottom1": {
+      "type": "text",
+      "text": "{VAL}",
+      "x": 0.0039234000000010205,
+      "y": 0.256324600000001
+    }
+  },
   "refblocks": {
     "left1": {
       "x": -0.5438152999999999,

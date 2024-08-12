@@ -1,57 +1,78 @@
 {
-  "svg": {
-    "name": "g",
-    "type": "element",
-    "value": "",
-    "parent": null,
-    "attributes": {
-      "id": "boxresistor",
-      "inkscape:label": "boxresistor"
+  "paths": {
+    "path1": {
+      "type": "path",
+      "points": [
+        {
+          "x": -0.5291666499999996,
+          "y": 0
+        },
+        {
+          "x": -0.2645833500000001,
+          "y": 0
+        }
+      ],
+      "color": "primary"
     },
-    "children": [
-      {
-        "name": "path",
-        "type": "element",
-        "value": "",
-        "parent": null,
-        "attributes": {
-          "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1",
-          "d": "M-0.5291666499999996,0 L-0.2645833500000001,0",
-          "id": "path1",
-          "inkscape:connector-curvature": "0"
+    "path2": {
+      "type": "path",
+      "points": [
+        {
+          "x": 0.2645832500000007,
+          "y": 0
         },
-        "children": []
-      },
-      {
-        "name": "path",
-        "type": "element",
-        "value": "",
-        "parent": null,
-        "attributes": {
-          "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1",
-          "d": "M0.2645832500000007,0 L0.5291666500000001,0",
-          "id": "path2",
-          "inkscape:connector-curvature": "0"
+        {
+          "x": 0.5291666500000001,
+          "y": 0
+        }
+      ],
+      "color": "primary"
+    },
+    "path3": {
+      "type": "path",
+      "points": [
+        {
+          "x": -1.4999999997655777e-7,
+          "y": -0.13229169999999968
         },
-        "children": []
-      },
-      {
-        "name": "path",
-        "type": "element",
-        "value": "",
-        "parent": null,
-        "attributes": {
-          "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1",
-          "d": "M-1.4999999997655777e-7,-0.13229169999999968 L0.26458314999999955,-0.13229169999999968 L0.26458314999999955,0.13229169999999968 L-0.2645835500000011,0.13229169999999968 L-0.2645835500000011,-0.13229169999999968 L-1.5000000175291461e-7,-0.13229169999999968",
-          "id": "path3",
-          "inkscape:connector-curvature": "0"
+        {
+          "x": 0.26458314999999955,
+          "y": -0.13229169999999968
         },
-        "children": []
-      }
-    ]
+        {
+          "x": 0.26458314999999955,
+          "y": 0.13229169999999968
+        },
+        {
+          "x": -0.2645835500000011,
+          "y": 0.13229169999999968
+        },
+        {
+          "x": -0.2645835500000011,
+          "y": -0.13229169999999968
+        },
+        {
+          "x": -1.5000000175291461e-7,
+          "y": -0.13229169999999968
+        }
+      ],
+      "color": "primary"
+    }
   },
-  "paths": [],
-  "texts": [],
+  "texts": {
+    "top1": {
+      "type": "text",
+      "text": "{REF}",
+      "x": -0.018740649999999803,
+      "y": -0.20383659999999892
+    },
+    "bottom1": {
+      "type": "text",
+      "text": "{VAL}",
+      "x": -0.01777865000000034,
+      "y": 0.2961594000000023
+    }
+  },
   "refblocks": {},
   "bounds": {
     "minX": -0.5291666499999996,

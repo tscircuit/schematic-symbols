@@ -34,7 +34,12 @@ export function applyGroupTransformsToChildren(group: INode) {
       if (child.name === "path") {
         child.attributes.d = transformPath(child.attributes.d, transform)
       } else if (child.name === "text") {
-        return null // TODO
+        const { x, y } = applyToPoint(transform, {
+          x: parseFloat(child.attributes.x),
+          y: parseFloat(child.attributes.y),
+        })
+        child.attributes.x = x.toString()
+        child.attributes.y = y.toString()
       } else if (child.name === "circle") {
         let { cx, cy, r } = child.attributes as any
         cx = parseFloat(cx)

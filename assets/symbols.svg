@@ -23,15 +23,15 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="15.067934"
-     inkscape:cx="208.32318"
-     inkscape:cy="415.11994"
+     inkscape:zoom="7.356689"
+     inkscape:cx="93.384402"
+     inkscape:cy="440.68738"
      inkscape:window-width="1112"
      inkscape:window-height="893"
      inkscape:window-x="267"
      inkscape:window-y="83"
      inkscape:window-maximized="0"
-     inkscape:current-layer="mosfet_depletion_normally_on"
+     inkscape:current-layer="varistor"
      showgrid="true">
     <inkscape:grid
        id="grid207"
@@ -90,7 +90,7 @@
      id="root">
     <g
        id="potentiometer"
-       transform="rotate(90,-69.384294,-1.9339734)">
+       transform="rotate(90,-69.477089,-2.1195639)">
       <path
          style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
          d="m 58.208334,-91.281231 v -2.645833"
@@ -114,28 +114,42 @@
          sodipodi:nodetypes="cc" />
       <text
          xml:space="preserve"
-         style="font-size:1.41111px;fill:#000000;stroke-width:0.264583"
+         style="font-size:1.05833px;fill:#000000;stroke-width:0.264583"
          x="97.820702"
          y="55.847672"
          id="text14"
          transform="rotate(-90)"><tspan
            sodipodi:role="line"
            id="tspan14"
-           style="font-size:1.41111px;stroke-width:0.264583"
+           style="font-size:1.05833px;stroke-width:0.264583"
            x="97.820702"
            y="55.847672">{REF}</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:1.41111px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+         style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
          x="96.49707"
-         y="61.367504"
+         y="61.089119"
          id="text14-3"
          transform="rotate(-90)"><tspan
            sodipodi:role="line"
            id="tspan14-1"
-           style="font-size:1.41111px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
            x="96.49707"
-           y="61.367504">{VAL}</tspan></text>
+           y="61.089119">{VAL}</tspan></text>
+      <circle
+         style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         id="refblock-5"
+         cx="91.123001"
+         cy="58.216862"
+         r="0.28158441"
+         transform="rotate(-90)" />
+      <circle
+         style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         id="refblock-5-7"
+         cx="101.95097"
+         cy="58.206898"
+         r="0.28158441"
+         transform="rotate(-90)" />
     </g>
     <g
        id="boxresistor"
@@ -160,26 +174,26 @@
          inkscape:connector-curvature="0" />
       <text
          xml:space="preserve"
-         style="font-size:1.41111px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+         style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
          x="95.718857"
          y="28.388716"
          id="text14-0-6"
          transform="rotate(-90)"><tspan
            sodipodi:role="line"
            id="tspan14-0-1"
-           style="font-size:1.41111px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
            x="95.718857"
            y="28.388716">{REF}</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:1.41111px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+         style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
          x="95.728477"
          y="33.388676"
          id="text14-0-4-4"
          transform="rotate(-90)"><tspan
            sodipodi:role="line"
            id="tspan14-0-9-0"
-           style="font-size:1.41111px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
            x="95.728477"
            y="33.388676">{VAL}</tspan></text>
       <title
@@ -216,28 +230,28 @@
          sodipodi:nodetypes="cc" />
       <text
          xml:space="preserve"
-         style="font-size:1.41111px;fill:#000000;stroke-width:0.264583"
+         style="font-size:1.05833px;fill:#000000;stroke-width:0.264583"
          x="95.27552"
          y="42.509102"
          id="text14-0"
          transform="rotate(-90)"><tspan
            sodipodi:role="line"
            id="tspan14-0"
-           style="font-size:1.41111px;stroke-width:0.264583"
+           style="font-size:1.05833px;stroke-width:0.264583"
            x="95.27552"
            y="42.509102">{REF}</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:1.41111px;text-align:end;text-anchor:end;fill:#000000;stroke-width:0.264583"
+         style="font-size:1.05833px;text-align:end;text-anchor:end;fill:#000000;stroke-width:0.264583"
          x="95.945496"
-         y="47.999649"
+         y="47.542412"
          id="text14-0-4"
          transform="rotate(-90)"><tspan
            sodipodi:role="line"
            id="tspan14-0-9"
-           style="font-size:1.41111px;text-align:end;text-anchor:end;stroke-width:0.264583"
+           style="font-size:1.05833px;text-align:end;text-anchor:end;stroke-width:0.264583"
            x="95.945496"
-           y="47.999649">{VAL}</tspan></text>
+           y="47.542412">{VAL}</tspan></text>
       <path
          style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
          d="m 43.656248,-95.906276 v -2.64583 h 2.645834 v 5.29167 h -2.645834 v -2.64584"
@@ -374,15 +388,15 @@
          id="title223">MOSFET_normally_on</title>
       <text
          xml:space="preserve"
-         style="font-size:1.41111px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
-         x="40.013462"
-         y="1.7597502"
+         style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+         x="39.735077"
+         y="1.5741597"
          id="text14-0-6-2"><tspan
            sodipodi:role="line"
            id="tspan14-0-1-2"
-           style="font-size:1.41111px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-           x="40.013462"
-           y="1.7597502">{REF}</tspan></text>
+           style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="39.735077"
+           y="1.5741597">{REF}</tspan></text>
       <circle
          style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
          id="refblock-7"

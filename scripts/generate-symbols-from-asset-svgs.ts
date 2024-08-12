@@ -1,10 +1,12 @@
 import symbolsSvg from "../assets/symbols.svg" with { type: "text" }
-import { parse } from "svgson"
+import { parse, type INode } from "svgson"
 import fs from "node:fs"
 import { applyGroupTransformsToChildren } from "./lib/applyGroupTransformsToChildren"
 import { getBoundsOfSvgJson } from "drawing/getBoundsOfSvgJson"
 import { compose, translate, toSVG, scale } from "transformation-matrix"
 import { convertToObjectWithOrderedPositionIds } from "./convertToObjectWithOrderedPositionIds"
+import { findInnerText } from "./lib/findInnerText"
+import { svgPathToPoints } from "drawing"
 
 async function processSvg() {
   try {
@@ -53,14 +55,41 @@ async function processSvg() {
             })),
         )
 
+        const textChildren = groupWithTransformApplied.children.filter(
+          (text) => text.name === "text",
+        )
+        const texts = convertToObjectWithOrderedPositionIds(
+          textChildren.map((text) => ({
+            type: "text",
+            text: findInnerText(text),
+            x: parseFloat(text.attributes.x),
+            y: parseFloat(text.attributes.y),
+          })),
+        )
+
+        const pathChildren = groupWithTransformApplied.children.filter(
+          (path) => path.name === "path",
+        )
+        const paths = Object.fromEntries(
+          pathChildren.map((path) => [
+            path.attributes.id!,
+            {
+              type: "path",
+              points: svgPathToPoints(path.attributes.d!),
+              color: "primary",
+            },
+          ]),
+        )
+
         console.log(`Writing to file: ${filePath}`)
         fs.writeFileSync(
           filePath,
           JSON.stringify(
             {
-              svg: groupWithTransformApplied,
-              paths: [],
-              texts: [],
+              // only for debugging
+              // svg: groupWithTransformApplied,
+              paths,
+              texts: texts,
               refblocks: refblocks,
               bounds,
             },
@@ -76,5 +105,3 @@ async function processSvg() {
 }
 
 processSvg()
-
-console.log("Processing complete.")

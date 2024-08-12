@@ -1,32 +1,21 @@
-import { svgPathToPoints } from "drawing/svgPathToPoints"
-import { getBoundsOfSvgJson } from "drawing/getBoundsOfSvgJson"
-import { type PathPrimitive } from "../drawing"
-import { path } from "drawing/path"
-import { text } from "drawing/text"
 import { defineSymbol } from "drawing/defineSymbol"
 import svgJson from "assets/symbols-svg-json/varistor.json"
 
-const bounds = getBoundsOfSvgJson(svgJson.svg as any)
+const { paths, texts, bounds, refblocks } = svgJson
 
 export default defineSymbol({
   primitives: [
-    ...svgJson.svg.children
-      .filter((child) => child.type === "element" && child.name === "path")
-      .map((child) =>
-        path({
-          points: svgPathToPoints(child.attributes.d!),
-          color: "primary",
-          type: "path",
-        } as PathPrimitive),
-      ),
-  ],
+    ...Object.values(paths),
+    { ...texts.top1, anchor: "middle_left" },
+    { ...texts.bottom1, anchor: "middle_right" },
+  ] as any,
   ports: [
     {
-      ...svgJson.refblocks.left1,
+      ...refblocks.left1,
       labels: ["1", "-"],
     },
     {
-      ...svgJson.refblocks.right1,
+      ...refblocks.right1,
       labels: ["2", "+"],
     },
   ],

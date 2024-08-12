@@ -14,6 +14,7 @@ const rotateAnchor = (anchor: NinePointAnchor): NinePointAnchor => {
     case "middle_bottom":
       return "middle_left"
   }
+  return anchor
 }
 
 export const rotateSymbol = (
