@@ -1,5 +1,51 @@
 import { pathToSvgD } from "./pathToSvgD"
 import { mapColor } from "./mapColor"
+import type { NinePointAnchor, TextPrimitive } from "./types"
+
+function createTextElement(primitive: TextPrimitive): string {
+  const { x, y, text, fontSize, anchor } = primitive
+  let textAnchor: string
+  let dx: number = 0
+  let dy: number = 0
+
+  switch (anchor) {
+    case "top_left":
+      textAnchor = "start"
+      dy = fontSize ?? 0.1
+      break
+    case "top_right":
+      textAnchor = "end"
+      dy = fontSize ?? 0.1
+      break
+    case "bottom_left":
+      textAnchor = "start"
+      break
+    case "bottom_right":
+      textAnchor = "end"
+      break
+    case "center":
+      textAnchor = "middle"
+      dy = (fontSize ?? 0.1) / 2
+      break
+    case "middle_top":
+      textAnchor = "middle"
+      dy = fontSize ?? 0.1
+      break
+    case "middle_bottom":
+      textAnchor = "middle"
+      break
+    case "middle_left":
+      textAnchor = "start"
+      dy = (fontSize ?? 0.1) / 2
+      break
+    case "middle_right":
+      textAnchor = "end"
+      dy = (fontSize ?? 0.1) / 2
+      break
+  }
+
+  return `<text x="${x}" y="${y}" dx="${dx}" dy="${dy}" text-anchor="${textAnchor}" style="font: ${fontSize ?? 0.1}px monospace; fill: ${mapColor("primary")}">${text}</text>`
+}
 
 export function getSvg(
   symbol: Symbol,
@@ -11,8 +57,7 @@ export function getSvg(
       case "path":
         return `<path d="${pathToSvgD(primitive.points)}" fill="${primitive.fill ? mapColor(primitive.color) : "none"}" stroke="${mapColor(primitive.color)}" stroke-width="0.02" />`
       case "text":
-        const { x, y, text, fontSize } = primitive
-        return `<text x="${primitive.x}" style="font: ${primitive.fontSize ?? 0.1}px black mono; fill: black" y="${primitive.y}" text-anchor="${"center"}" fill="${mapColor("primary")}">${primitive.text}</text>`
+        return createTextElement(primitive)
       case "circle":
         return `<circle cx="${primitive.x}" cy="${primitive.y}" r="${primitive.radius}" fill="${mapColor("primary")}" />`
       case "box":

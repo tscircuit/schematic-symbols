@@ -30,5 +30,5 @@ export const boxresistor = defineSymbol({
     { x: 1, y: 0, labels: ["2", "+"] },
   ],
   center: { x: 0.5, y: 0 },
-  size: { width: 1, height: 0.5 },
+  size: { width: 1, height: 0.55 },
 })
