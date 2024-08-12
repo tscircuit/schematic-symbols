@@ -5,10 +5,16 @@ export function svgPathToPoints(d: string): Array<{ x: number; y: number }> {
   const absolutePath = makeAbsolute(parsedPath)
 
   const points: Array<{ x: number; y: number }> = []
+  let firstPoint: { x: number; y: number } | null = null
 
   for (const command of absolutePath) {
     switch (command.code) {
       case "M":
+        if (!firstPoint) {
+          firstPoint = { x: command.x, y: command.y }
+        }
+        points.push({ x: command.x, y: command.y })
+        break
       case "L":
       case "H":
       case "V":
@@ -33,7 +39,9 @@ export function svgPathToPoints(d: string): Array<{ x: number; y: number }> {
         points.push({ x: command.x, y: command.y })
         break
       case "Z":
-        // Close path - no action needed
+        if (firstPoint) {
+          points.push(firstPoint)
+        }
         break
     }
   }

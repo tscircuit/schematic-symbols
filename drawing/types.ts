@@ -14,6 +14,7 @@ export interface PathPrimitive {
   fill?: boolean
   points: Point[]
   color: string
+  closed?: boolean
 }
 
 export interface TextPrimitive {
