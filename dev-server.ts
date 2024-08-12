@@ -17,7 +17,7 @@ Bun.serve({
           const svg = getSvg(symbol, { width: 150, height: 150, debug: true })
           return `
           <div class="symbol-container" style="padding-bottom:28px;">
-            <h3>${name}</h3>
+            <div style="font-size: 12px;word-break: break-all; text-align: left;padding-bottom: 16px;">${name}</div>
             ${svg}
           </div>
         `
