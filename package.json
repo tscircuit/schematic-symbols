@@ -2,6 +2,9 @@
   "name": "schematic-symbols",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "start": "bun --hot run dev-server.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "@types/svg-path-parser": "^1.1.6",

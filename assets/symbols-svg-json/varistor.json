@@ -4,8 +4,7 @@
   "value": "",
   "parent": null,
   "attributes": {
-    "id": "varistor",
-    "transform": "rotate(90,-70.547403,-0.19324066)"
+    "id": "varistor"
   },
   "children": [
     {
@@ -34,7 +33,7 @@
       "parent": null,
       "attributes": {
         "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1",
-        "d": "m 44.979166,-90.614594 v -2.645833",
+        "d": "M-23.178223305999996,-103.79999550599999 L-22.913640005999994,-103.79999550599999",
         "id": "path5",
         "inkscape:connector-curvature": "0"
       },
@@ -47,7 +46,7 @@
       "parent": null,
       "attributes": {
         "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1",
-        "d": "m 44.979166,-98.552097 v -2.645833",
+        "d": "M-22.384473005999993,-103.79999550599999 L-22.119889705999995,-103.79999550599999",
         "id": "path6",
         "inkscape:connector-curvature": "0"
       },
@@ -60,7 +59,7 @@
       "parent": null,
       "attributes": {
         "style": "fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1",
-        "d": "m 47.360416,-98.552097 -4.7625,5.29167",
+        "d": "M-22.384473005999993,-103.56187050599999 L-22.913640005999994,-104.038120506",
         "id": "path7",
         "inkscape:connector-curvature": "0",
         "sodipodi:nodetypes": "cc"
@@ -74,7 +73,7 @@
       "parent": null,
       "attributes": {
         "style": "fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1",
-        "d": "m 47.360416,-99.610427 v 1.05833",
+        "d": "M-22.278640005999996,-103.56187050599999 L-22.384473005999993,-103.56187050599999",
         "id": "path8",
         "inkscape:connector-curvature": "0",
         "sodipodi:nodetypes": "cc"
@@ -92,7 +91,7 @@
         "x": "95.27552",
         "y": "42.509102",
         "id": "text14-0",
-        "transform": "rotate(-90)"
+        "transform": "matrix(0.1,0,0,0.1,45.18854400000001,-44.59268467999999)"
       },
       "children": [
         {
@@ -131,7 +130,7 @@
         "x": "95.945496",
         "y": "47.999649",
         "id": "text14-0-4",
-        "transform": "rotate(-90)"
+        "transform": "matrix(0.1,0,0,0.1,45.18854400000001,-44.59268467999999)"
       },
       "children": [
         {
@@ -166,7 +165,7 @@
       "parent": null,
       "attributes": {
         "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1",
-        "d": "m 43.656248,-95.906276 v -2.64583 h 2.645834 v 5.29167 h -2.645834 v -2.64584",
+        "d": "M-22.649055105999995,-103.93228730599999 L-22.384472105999993,-103.93228730599999 L-22.384472105999993,-103.66770390599999 L-22.913639105999994,-103.66770390599999 L-22.913639105999994,-103.93228730599999 L-22.64905510599999,-103.93228730599999",
         "id": "path9",
         "inkscape:connector-curvature": "0"
       },

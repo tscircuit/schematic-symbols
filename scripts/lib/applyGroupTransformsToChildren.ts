@@ -21,11 +21,11 @@ export function applyGroupTransformsToChildren(group: INode) {
     if (child.name === "path") {
       child.attributes.d = transformPath(child.attributes.d, transformMatrix)
     } else if (child.name === "text") {
-      const x = parseFloat(child.attributes.x) || 0
-      const y = parseFloat(child.attributes.y) || 0
-      const { x: newX, y: newY } = applyToPoint(transformMatrix, { x, y })
-      child.attributes.x = newX.toString()
-      child.attributes.y = newY.toString()
+      // const x = parseFloat(child.attributes.x) || 0
+      // const y = parseFloat(child.attributes.y) || 0
+      // const { x: newX, y: newY } = applyToPoint(transformMatrix, { x, y })
+      // child.attributes.x = newX.toString()
+      // child.attributes.y = newY.toString()
 
       // If the text has a transform, compose it with the group transform
       if (child.attributes.transform) {

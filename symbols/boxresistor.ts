@@ -1,4 +1,7 @@
-import { path, text, defineSymbol } from "../drawing"
+import { path } from "drawing/path"
+import { text } from "drawing/text"
+import { defineSymbol } from "drawing/defineSymbol"
+
 export const boxresistor = defineSymbol({
   primitives: [
     path({
@@ -20,12 +23,12 @@ export const boxresistor = defineSymbol({
       ],
       color: "primary",
     }),
-    text("{REF}", { x: 0.5, y: -0.4, anchor: "middle_bottom" }),
+    text("{REF}", { x: 0.5, y: -0.2, anchor: "middle_bottom" }),
   ],
   ports: [
     { x: 0, y: 0, labels: ["1", "-"] },
     { x: 1, y: 0, labels: ["2", "+"] },
   ],
   center: { x: 0.5, y: 0 },
-  size: { width: 1, height: 0.24 },
+  size: { width: 1, height: 0.5 },
 })

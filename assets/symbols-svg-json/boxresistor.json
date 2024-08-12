@@ -5,7 +5,6 @@
   "parent": null,
   "attributes": {
     "id": "boxresistor",
-    "transform": "rotate(90,-72.654678,2.0374476)",
     "inkscape:label": "boxresistor"
   },
   "children": [
@@ -35,7 +34,7 @@
       "parent": null,
       "attributes": {
         "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1",
-        "d": "M 30.427082,-90.614597 V -93.26043",
+        "d": "M-23.289296440000005,-94.60728683999999 L-23.024713140000003,-94.60728683999999",
         "id": "path1",
         "inkscape:connector-curvature": "0"
       },
@@ -48,7 +47,7 @@
       "parent": null,
       "attributes": {
         "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1",
-        "d": "m 30.427082,-98.552096 v -2.645834",
+        "d": "M-22.495546540000003,-94.60728683999999 L-22.230963140000004,-94.60728683999999",
         "id": "path2",
         "inkscape:connector-curvature": "0"
       },
@@ -61,7 +60,7 @@
       "parent": null,
       "attributes": {
         "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1",
-        "d": "m 29.104165,-95.906262 v -2.645833 h 2.645834 v 5.291667 h -2.645834 v -2.645834",
+        "d": "M-22.760129940000006,-94.73957853999998 L-22.495546640000004,-94.73957853999998 L-22.495546640000004,-94.47499513999998 L-23.024713340000005,-94.47499513999998 L-23.024713340000005,-94.73957853999998 L-22.760129940000006,-94.73957853999998",
         "id": "path3",
         "inkscape:connector-curvature": "0"
       },
@@ -78,7 +77,7 @@
         "x": "95.718857",
         "y": "28.388716",
         "id": "text14-0-6",
-        "transform": "rotate(-90)"
+        "transform": "matrix(0.1,0,0,0.1,49.40309249999999,-34.501977199999985)"
       },
       "children": [
         {
@@ -117,7 +116,7 @@
         "x": "95.728477",
         "y": "33.388676",
         "id": "text14-0-4-4",
-        "transform": "rotate(-90)"
+        "transform": "matrix(0.1,0,0,0.1,49.40309249999999,-34.501977199999985)"
       },
       "children": [
         {

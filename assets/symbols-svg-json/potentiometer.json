@@ -4,8 +4,7 @@
   "value": "",
   "parent": null,
   "attributes": {
-    "id": "potentiometer",
-    "transform": "rotate(90,-69.384294,-1.9339734)"
+    "id": "potentiometer"
   },
   "children": [
     {
@@ -15,7 +14,7 @@
       "parent": null,
       "attributes": {
         "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1",
-        "d": "m 58.208334,-91.281231 v -2.645833",
+        "d": "M-23.258336740000004,-111.76987113999999 L-22.993753440000006,-111.76987113999999",
         "id": "path11",
         "inkscape:connector-curvature": "0"
       },
@@ -28,7 +27,7 @@
       "parent": null,
       "attributes": {
         "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1",
-        "d": "m 58.208334,-99.218734 v -2.645836",
+        "d": "M-22.464586440000005,-111.76987113999999 L-22.200002840000007,-111.76987113999999",
         "id": "path12",
         "inkscape:connector-curvature": "0"
       },
@@ -41,7 +40,7 @@
       "parent": null,
       "attributes": {
         "style": "fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1",
-        "d": "m 56.885416,-96.572913 v -2.64583 h 2.645834 v 5.29167 h -2.645834 v -2.64584",
+        "d": "M-22.729168540000007,-111.90216293999998 L-22.464585540000005,-111.90216293999998 L-22.464585540000005,-111.63757953999999 L-22.993752540000006,-111.63757953999999 L-22.993752540000006,-111.90216293999998 L-22.729168540000003,-111.90216293999998",
         "id": "path13",
         "inkscape:connector-curvature": "0"
       },
@@ -55,7 +54,7 @@
       "attributes": {
         "inkscape:connector-curvature": "0",
         "id": "path14",
-        "d": "M 56.091666,-96.5729 H 54.239582",
+        "d": "M-22.729169840000004,-111.98153794 L-22.729169840000004,-112.16674633999999",
         "style": "fill:none;stroke:#000000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#TriangleInM-17)",
         "sodipodi:nodetypes": "cc"
       },
@@ -72,7 +71,7 @@
         "x": "97.820702",
         "y": "55.847672",
         "id": "text14",
-        "transform": "rotate(-90)"
+        "transform": "matrix(0.1,0,0,0.1,42.19568749999999,-53.017469199999994)"
       },
       "children": [
         {
@@ -111,7 +110,7 @@
         "x": "96.49707",
         "y": "61.367504",
         "id": "text14-3",
-        "transform": "rotate(-90)"
+        "transform": "matrix(0.1,0,0,0.1,42.19568749999999,-53.017469199999994)"
       },
       "children": [
         {

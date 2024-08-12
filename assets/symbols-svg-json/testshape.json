@@ -5,8 +5,7 @@
   "parent": null,
   "attributes": {
     "id": "testshape",
-    "style": "fill:none;stroke:#000000;stroke-opacity:1",
-    "transform": "translate(0.45366488,0.38885561)"
+    "style": "fill:none;stroke:#000000;stroke-opacity:1"
   },
   "children": [
     {
@@ -16,7 +15,7 @@
       "parent": null,
       "attributes": {
         "style": "opacity:1;fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1",
-        "d": "m 21.331058,95.261238 1.282194,-3.817442 4.953934,0.582816",
+        "d": "M-22.724314592,-84.176363249 L-22.596095192,-84.558107449 L-22.100701792000002,-84.499825849",
         "id": "path207"
       },
       "children": []

@@ -4,11 +4,11 @@ import { type PathPrimitive } from "../drawing"
 import { path } from "drawing/path"
 import { text } from "drawing/text"
 import { defineSymbol } from "drawing/defineSymbol"
-import svgJson from "assets/symbols-svg-json/boxresistor.json"
+import svgJson from "assets/symbols-svg-json/varistor.json"
 
 const bounds = getBoundsOfSvgJson(svgJson as any)
 
-export const boxresistor2 = defineSymbol({
+export const varistor = defineSymbol({
   primitives: [
     ...svgJson.children
       .filter((child) => child.type === "element" && child.name === "path")
