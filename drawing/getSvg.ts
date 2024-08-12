@@ -1,6 +1,6 @@
 import { pathToSvgD } from "./pathToSvgD"
 import { mapColor } from "./mapColor"
-import type { NinePointAnchor, TextPrimitive } from "./types"
+import type { NinePointAnchor, TextPrimitive, Port, SchSymbol } from "./types"
 
 function createTextElement(primitive: TextPrimitive): {
   text: string
@@ -55,12 +55,24 @@ function createTextElement(primitive: TextPrimitive): {
   }
 }
 
+function createPortElement(port: Port): string {
+  const { x, y, labels } = port
+  const rectSize = 0.05
+  const labelFontSize = 0.08
+  const label = labels[0] || ""
+
+  return `
+    <rect x="${x - rectSize / 2}" y="${y - rectSize / 2}" width="${rectSize}" height="${rectSize}" fill="red" />
+    <text x="${x}" y="${y + rectSize}" text-anchor="middle" style="font: ${labelFontSize}px monospace; fill: #833;">${label}</text>
+  `
+}
+
 export function getSvg(
-  symbol: Symbol,
+  symbol: SchSymbol,
   options: { width?: number; height?: number; debug?: boolean } = {},
 ): string {
   const { debug = false } = options
-  const { primitives, size } = symbol
+  const { primitives, size, ports } = symbol
   const svgElements = primitives.map((primitive) => {
     switch (primitive.type) {
       case "path":
@@ -97,7 +109,10 @@ export function getSvg(
     options.height = viewBox.height
   }
 
+  const portElements = ports.map(createPortElement).join("\n    ")
+
   return `<svg width="${options.width}" height="${options.height}" viewBox="${viewBox.x} ${viewBox.y} ${viewBox.width} ${viewBox.height}" xmlns="http://www.w3.org/2000/svg">
     ${svgElements.join("\n    ")}
+    ${portElements}
   </svg>`
 }
