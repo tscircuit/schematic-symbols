@@ -44,8 +44,8 @@ async function processSvg() {
             .filter(
               (child) =>
                 child.name === "circle" &&
-                (child.attributes["inkscape:label"] === "refblock" ||
-                  child.attributes.id === "refblock"),
+                (child.attributes["inkscape:label"]?.includes("refblock") ||
+                  child.attributes.id?.includes("refblock")),
             )
             .map((child) => ({
               x: parseFloat(child.attributes.cx),

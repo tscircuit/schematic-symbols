@@ -26,7 +26,7 @@ export default defineSymbol({
       labels: ["1", "-"],
     },
     {
-      ...svgJson.refblocks.left2,
+      ...svgJson.refblocks.right1,
       labels: ["2", "+"],
     },
   ],
