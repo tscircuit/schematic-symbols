@@ -57,6 +57,24 @@ export interface SchSymbol {
   }
 }
 
+export type Bounds = {
+  minX: number
+  maxX: number
+  minY: number
+  maxY: number
+  width: number
+  height: number
+  centerX: number
+  centerY: number
+}
+
+export interface SvgData {
+  paths: Record<string, PathPrimitive>
+  texts: Record<string, TextPrimitive>
+  refblocks: Record<string, Point>
+  bounds: Bounds
+}
+
 export type SvgAnchor = "start" | "middle" | "end"
 
 export type NinePointAnchor =

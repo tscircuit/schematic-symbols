@@ -6,7 +6,10 @@ import { getBoundsOfSvgJson } from "drawing/getBoundsOfSvgJson"
 import { compose, translate, toSVG, scale } from "transformation-matrix"
 import { convertToObjectWithOrderedPositionIds } from "./convertToObjectWithOrderedPositionIds"
 import { findInnerText } from "./lib/findInnerText"
-import { svgPathToPoints } from "drawing"
+import { svgPathToPoints, type SvgData } from "drawing"
+import { getTsFileContentForSvgGroup } from "./lib/getTsFileContentForSvgGroup"
+
+const SOURCE_IGNORE_LIST = ["testshape"]
 
 async function processSvg() {
   try {
@@ -81,22 +84,36 @@ async function processSvg() {
           ]),
         )
 
+        const svgData = {
+          // only for debugging
+          // svg: groupWithTransformApplied,
+          paths,
+          texts,
+          refblocks,
+          bounds,
+        }
+
         console.log(`Writing to file: ${filePath}`)
-        fs.writeFileSync(
-          filePath,
-          JSON.stringify(
-            {
-              // only for debugging
-              // svg: groupWithTransformApplied,
-              paths,
-              texts: texts,
-              refblocks: refblocks,
-              bounds,
-            },
-            null,
-            2,
-          ),
-        )
+        fs.writeFileSync(filePath, JSON.stringify(svgData, null, 2))
+
+        if (SOURCE_IGNORE_LIST.includes(groupId)) {
+          return
+        }
+
+        // Check if there's a source file for this symbol
+        const outputPath = `./symbols/${groupId}_horz.ts`
+        const hasSourceFile = fs.existsSync(outputPath)
+
+        if (!hasSourceFile) {
+          console.log(`Creating horz source file: ${outputPath}`)
+          const content = getTsFileContentForSvgGroup(groupId, svgData as any)
+          fs.writeFileSync(outputPath, content)
+          // Write the vert file
+          const vertOutputPath = `./symbols/${groupId}_vert.ts`
+          console.log(`Creating vert source file: ${vertOutputPath}`)
+          const contentVert = `import { rotateSymbol } from "drawing/rotateSymbol"\nimport ${groupId}_horz from "./${groupId}_horz"\n\nexport default rotateSymbol(${groupId}_horz)`
+          fs.writeFileSync(vertOutputPath, contentVert)
+        }
       }
     })
   } catch (error) {
