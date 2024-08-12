@@ -7,7 +7,7 @@ import {
   fromTransformAttribute,
 } from "transformation-matrix"
 import type { INode } from "svgson"
-import { parseSVG, makeAbsolute } from "svg-path-parser"
+import { parseSVG, makeAbsolute, type LineToCommand } from "svg-path-parser"
 import { serializeSvgPathCommands } from "./serializeSvgPathCommands"
 
 export function applyGroupTransformsToChildren(group: INode) {
@@ -50,8 +50,20 @@ function parseTransform(transform: string): Matrix {
 }
 
 export function transformPath(pathData: string, matrix: Matrix): string {
-  const parsedPath = parseSVG(pathData)
-  makeAbsolute(parsedPath)
+  let parsedPath = parseSVG(pathData)
+
+  parsedPath = makeAbsolute(parsedPath)
+
+  // convert V and H commands to L commands so that rotations can be applied
+  parsedPath = parsedPath.map((command) => {
+    const { x0, y0 } = command as any
+    if (command.code === "V") {
+      return { code: "L", x: x0, y: command.y } as LineToCommand
+    } else if (command.code === "H") {
+      return { code: "L", x: command.x, y: y0 } as LineToCommand
+    }
+    return command
+  })
 
   const transformedPath = parsedPath.map((command) => {
     if ("x" in command && "y" in command) {
