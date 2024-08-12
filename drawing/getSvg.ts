@@ -11,6 +11,7 @@ export function getSvg(
       case "path":
         return `<path d="${pathToSvgD(primitive.points)}" fill="${primitive.fill ? mapColor(primitive.color) : "none"}" stroke="${mapColor(primitive.color)}" stroke-width="0.02" />`
       case "text":
+        const { x, y, text, fontSize } = primitive
         return `<text x="${primitive.x}" style="font: ${primitive.fontSize ?? 0.1}px black mono; fill: black" y="${primitive.y}" text-anchor="${"center"}" fill="${mapColor("primary")}">${primitive.text}</text>`
       case "circle":
         return `<circle cx="${primitive.x}" cy="${primitive.y}" r="${primitive.radius}" fill="${mapColor("primary")}" />`
