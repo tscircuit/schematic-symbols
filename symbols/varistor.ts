@@ -8,7 +8,7 @@ import svgJson from "assets/symbols-svg-json/varistor.json"
 
 const bounds = getBoundsOfSvgJson(svgJson as any)
 
-export const varistor = defineSymbol({
+export default defineSymbol({
   primitives: [
     ...svgJson.children
       .filter((child) => child.type === "element" && child.name === "path")

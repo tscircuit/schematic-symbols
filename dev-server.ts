@@ -1,4 +1,5 @@
-import { getSvg, symbols } from "./symbols"
+import { getSvg } from "./drawing/getSvg"
+import symbols from "./symbols"
 
 console.log(`Serving on http://localhost:3077`)
 Bun.serve({

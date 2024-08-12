@@ -2,7 +2,7 @@ import { path } from "drawing/path"
 import { text } from "drawing/text"
 import { defineSymbol } from "drawing/defineSymbol"
 
-export const boxresistor = defineSymbol({
+export default defineSymbol({
   primitives: [
     path({
       points: [
