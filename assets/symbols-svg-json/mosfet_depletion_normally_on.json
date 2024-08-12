@@ -207,6 +207,48 @@
           "sodipodi:nodetypes": "cc"
         },
         "children": []
+      },
+      {
+        "name": "circle",
+        "type": "element",
+        "value": "",
+        "parent": null,
+        "attributes": {
+          "style": "fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1",
+          "id": "refblock-7",
+          "cx": "0.13275345000000005",
+          "cy": "-0.5440228900000008",
+          "r": "0.028158441000000003"
+        },
+        "children": []
+      },
+      {
+        "name": "circle",
+        "type": "element",
+        "value": "",
+        "parent": null,
+        "attributes": {
+          "style": "fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1",
+          "id": "refblock-71",
+          "cx": "-0.5308188500000002",
+          "cy": "0.26564980000000027",
+          "r": "0.028158441000000003"
+        },
+        "children": []
+      },
+      {
+        "name": "circle",
+        "type": "element",
+        "value": "",
+        "parent": null,
+        "attributes": {
+          "style": "fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1",
+          "id": "refblock-79",
+          "cx": "0.13239525000000096",
+          "cy": "0.54252477",
+          "r": "0.028158441000000003"
+        },
+        "children": []
       }
     ]
   },

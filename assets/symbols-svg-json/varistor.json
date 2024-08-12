@@ -88,6 +88,20 @@
           "r": "1.72420723198148e-18"
         },
         "children": []
+      },
+      {
+        "name": "circle",
+        "type": "element",
+        "value": "",
+        "parent": null,
+        "attributes": {
+          "style": "fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1",
+          "id": "refblock-6",
+          "cx": "0.5346478000000006",
+          "cy": "-0.0006806999999984242",
+          "r": "1.72420723198148e-18"
+        },
+        "children": []
       }
     ]
   },
