@@ -1,5 +1,20 @@
 import { rotate, applyToPoint } from "transformation-matrix"
-import type { SchSymbol, Primitive, Point, Port } from "./types"
+import type {
+  SchSymbol,
+  Primitive,
+  Point,
+  Port,
+  NinePointAnchor,
+} from "./types"
+
+const rotateAnchor = (anchor: NinePointAnchor): NinePointAnchor => {
+  switch (anchor) {
+    case "middle_top":
+      return "middle_right"
+    case "middle_bottom":
+      return "middle_left"
+  }
+}
 
 export const rotateSymbol = (
   symbol: SchSymbol,
@@ -10,6 +25,7 @@ export const rotateSymbol = (
   const { primitives, center, size, ports } = symbol
 
   const rotatedPrimitives = primitives.map((primitive): Primitive => {
+    primitive = { ...primitive }
     switch (primitive.type) {
       case "path":
         return {
@@ -23,6 +39,9 @@ export const rotateSymbol = (
           x: primitive.x,
           y: primitive.y,
         }) as Point
+
+        primitive.anchor = rotateAnchor(primitive.anchor)
+
         return {
           ...primitive,
           x: rotatedPoint.x,
