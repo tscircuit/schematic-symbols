@@ -23,15 +23,15 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="13.514929"
-     inkscape:cx="200.03805"
-     inkscape:cy="476.06614"
+     inkscape:zoom="47.443969"
+     inkscape:cx="91.887337"
+     inkscape:cy="694.10297"
      inkscape:window-width="1728"
      inkscape:window-height="1051"
      inkscape:window-x="0"
      inkscape:window-y="38"
      inkscape:window-maximized="1"
-     inkscape:current-layer="fuse"
+     inkscape:current-layer="led"
      showgrid="true">
     <inkscape:grid
        id="grid207"
@@ -82,38 +82,6 @@
          style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
          d="M 5.77,0 -2.88,5 V -5 Z"
          id="path5871-0"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:collect="always"
-       inkscape:isstock="true"
-       style="overflow:visible"
-       id="TriangleInM-3"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="TriangleInM">
-      <path
-         transform="scale(-0.4)"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
-         d="M 5.77,0 -2.88,5 V -5 Z"
-         id="path5871-67"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:collect="always"
-       inkscape:isstock="true"
-       style="overflow:visible"
-       id="TriangleInM-3-3"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="TriangleInM">
-      <path
-         transform="scale(-0.4)"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
-         d="M 5.77,0 -2.88,5 V -5 Z"
-         id="path5871-67-5"
          inkscape:connector-curvature="0" />
     </marker>
   </defs>
@@ -689,50 +657,95 @@
     </g>
     <g
        id="led"
-       transform="rotate(90,-74.457875,74.949375)">
+       transform="rotate(90,-74.457875,74.949375)"
+       inkscape:label="led">
       <title
          id="title45">LED</title>
-      <g
-         transform="translate(-44.979172,-95.25)"
-         id="g49">
-        <path
-           inkscape:connector-curvature="0"
-           id="path45"
-           d="m 80.697916,69.45832 1.322917,2.645833"
-           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path46"
-           d="M 79.374999,72.104153 80.697916,69.45832"
-           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path47"
-           d="M 82.020833,72.104153 H 79.374999"
-           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path48"
-           d="m 79.374999,69.45832 h 2.645834"
-           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path49"
-           d="M 80.697916,65.48957 V 76.072903"
-           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
-      </g>
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#TriangleInM-3)"
-         d="m 33.072911,-23.939594 0.925212,-1.252566"
-         id="path50"
-         inkscape:connector-curvature="0" />
+         inkscape:connector-curvature="0"
+         id="path45"
+         d="m 35.718744,-25.79168 1.322917,2.645833"
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#TriangleInM-3-3)"
-         d="m 33.072911,-22.352094 0.925212,-1.252566"
-         id="path51"
-         inkscape:connector-curvature="0" />
+         inkscape:connector-curvature="0"
+         id="path46"
+         d="m 34.395827,-23.145847 1.322917,-2.645833"
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path47"
+         d="M 37.041661,-23.145847 H 34.395827"
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path48"
+         d="m 34.395827,-25.79168 h 2.645834"
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path49"
+         d="m 35.718744,-29.76043 v 10.583333"
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         style="color:#000000;fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.265;stroke-dasharray:none;stroke-opacity:1"
+         d="m 32.827252,-22.875666 -0.168792,0.973423 0.927628,-0.343028 z"
+         id="path25"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+         d="m 34.0227,-23.63306 -0.08933,0.120235 -0.904558,1.217565 -0.0095,0.0063"
+         id="path78"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="color:#000000;fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.265;stroke-dasharray:none;stroke-opacity:1"
+         d="m 32.615886,-24.650329 -0.168792,0.973423 0.927628,-0.343028 z"
+         id="path25-0"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+         d="m 33.811334,-25.407723 -0.08933,0.120235 -0.904558,1.217565 -0.0095,0.0063"
+         id="path78-6"
+         sodipodi:nodetypes="cccc" />
       <title
          id="title51">LED</title>
+      <circle
+         style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         id="refblock-5-7-3-81"
+         cx="29.795198"
+         cy="35.730644"
+         r="0.28158441"
+         transform="rotate(-90)" />
+      <circle
+         style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         id="refblock-5-7-3-81-3"
+         cx="19.071012"
+         cy="35.726109"
+         r="0.28158441"
+         transform="rotate(-90)" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+         x="27.579512"
+         y="33.443123"
+         id="text14-3-0-5-0"
+         transform="rotate(-90)"><tspan
+           sodipodi:role="line"
+           id="tspan14-1-4-0-4"
+           style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="27.579512"
+           y="33.443123">{REF}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+         x="24.337488"
+         y="38.916466"
+         id="text14-3-0-5-0-2"
+         transform="rotate(-90)"><tspan
+           sodipodi:role="line"
+           id="tspan14-1-4-0-4-6"
+           style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="24.337488"
+           y="38.916466">{VAL}</tspan></text>
     </g>
     <g
        id="diode_zener"
