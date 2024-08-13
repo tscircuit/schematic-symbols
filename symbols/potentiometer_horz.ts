@@ -13,6 +13,6 @@ export default defineSymbol({
     { ...refblocks.left1, labels: ["1"] }, // TODO add more "standard" labels
     { ...refblocks.right1, labels: ["2"] }, // TODO add more "standard" labels
   ],
-  size: { width: bounds.width, height: bounds.height },
+  size: { width: bounds.width + 0.05, height: bounds.height },
   center: { x: bounds.centerX, y: bounds.centerY },
 })

@@ -1,6 +1,18 @@
 import { pathToSvgD } from "./pathToSvgD"
 import { mapColor } from "./mapColor"
-import type { NinePointAnchor, TextPrimitive, Port, SchSymbol } from "./types"
+import type {
+  NinePointAnchor,
+  TextPrimitive,
+  Port,
+  SchSymbol,
+  Point,
+} from "./types"
+
+function createDiamondElement(center: Point, size: number = 0.05): string {
+  const { x, y } = center
+  const halfSize = size / 2
+  return `<path d="M ${x} ${y - halfSize} L ${x + halfSize} ${y} L ${x} ${y + halfSize} L ${x - halfSize} ${y} Z" fill="green" />`
+}
 
 function createTextElement(primitive: TextPrimitive): {
   text: string
@@ -63,7 +75,7 @@ function createPortElement(port: Port): string {
 
   return `
     <rect x="${x - rectSize / 2}" y="${y - rectSize / 2}" width="${rectSize}" height="${rectSize}" fill="red" />
-    <text x="${x}" y="${y + rectSize}" text-anchor="middle" style="font: ${labelFontSize}px monospace; fill: #833;">${label}</text>
+    <text x="${x - labelFontSize / 2}" y="${y + rectSize + labelFontSize / 2}" text-anchor="middle" style="font: ${labelFontSize}px monospace; fill: #833;">${label}</text>
   `
 }
 
@@ -111,8 +123,11 @@ export function getSvg(
 
   const portElements = ports.map(createPortElement).join("\n    ")
 
+  const centerDiamond = createDiamondElement(symbol.center)
+
   return `<svg width="${options.width}" height="${options.height}" viewBox="${viewBox.x} ${viewBox.y} ${viewBox.width} ${viewBox.height}" xmlns="http://www.w3.org/2000/svg">
     ${svgElements.join("\n    ")}
     ${portElements}
+    ${centerDiamond}
   </svg>`
 }
