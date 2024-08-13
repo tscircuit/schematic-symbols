@@ -23,15 +23,15 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="12.097213"
-     inkscape:cx="226.08513"
-     inkscape:cy="392.81775"
+     inkscape:zoom="10.382583"
+     inkscape:cx="91.884652"
+     inkscape:cy="489.85885"
      inkscape:window-width="1728"
      inkscape:window-height="1051"
      inkscape:window-x="0"
      inkscape:window-y="38"
      inkscape:window-maximized="1"
-     inkscape:current-layer="mosfet_depletion_normally_on"
+     inkscape:current-layer="potentiometer2"
      showgrid="true">
     <inkscape:grid
        id="grid207"
@@ -414,6 +414,80 @@
          cx="33.073952"
          cy="6.7481747"
          r="0.28158441" />
+    </g>
+    <g
+       id="potentiometer2"
+       transform="rotate(90,-66.297106,-5.3795566)">
+      <title
+         id="title17">Potentiometer</title>
+      <path
+         inkscape:connector-curvature="0"
+         id="path18"
+         d="m 74.083332,-91.281231 v -2.645833"
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path19"
+         d="m 74.083332,-99.218734 v -2.645836"
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path20"
+         d="m 72.760415,-96.572913 v -2.64583 h 2.645834 v 5.29167 h -2.645834 v -2.64584"
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+      <path
+         style="color:#000000;fill:#000000;fill-rule:evenodd;-inkscape-stroke:none"
+         d="m 76.897061,-99.386629 -0.273579,1.023109 -0.74953,-0.74953 z"
+         id="path23" />
+      <path
+         style="color:#000000;fill:#000000;fill-rule:evenodd;-inkscape-stroke:none"
+         d="m 76.996094,-99.486328 -1.257813,0.335937 0.921875,0.923829 z"
+         id="path24"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+         d="m 71.15348,-93.617724 5.249339,-5.284728"
+         id="path26" />
+      <title
+         id="title21">Potentiometer</title>
+      <circle
+         style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         id="refblock-5-7-3"
+         cx="101.95055"
+         cy="74.094353"
+         r="0.28158441"
+         transform="rotate(-90)" />
+      <circle
+         style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         id="refblock-5-7-3-8"
+         cx="91.256721"
+         cy="74.088226"
+         r="0.28158441"
+         transform="rotate(-90)" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+         x="23.925009"
+         y="137.77809"
+         id="text14-3-0"
+         transform="rotate(-90,-66.297106,-5.3795562)"><tspan
+           sodipodi:role="line"
+           id="tspan14-1-4"
+           style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="23.925009"
+           y="137.77809">{VAL}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+         x="25.47739"
+         y="132.98296"
+         id="text14-3-0-5"
+         transform="rotate(-90,-66.297106,-5.3795562)"><tspan
+           sodipodi:role="line"
+           id="tspan14-1-4-0"
+           style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="25.47739"
+           y="132.98296">{REF}</tspan></text>
     </g>
   </g>
 </svg>

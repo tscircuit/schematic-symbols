@@ -4,6 +4,8 @@ import _mosfet_depletion_normally_on_horz from "./mosfet_depletion_normally_on_h
 import _mosfet_depletion_normally_on_vert from "./mosfet_depletion_normally_on_vert"
 import _potentiometer_horz from "./potentiometer_horz"
 import _potentiometer_vert from "./potentiometer_vert"
+import _potentiometer2_horz from "./potentiometer2_horz"
+import _potentiometer2_vert from "./potentiometer2_vert"
 import _varistor_horz from "./varistor_horz"
 import _varistor_vert from "./varistor_vert"
 
@@ -14,6 +16,8 @@ export default {
   "mosfet_depletion_normally_on_vert": _mosfet_depletion_normally_on_vert,
   "potentiometer_horz": _potentiometer_horz,
   "potentiometer_vert": _potentiometer_vert,
+  "potentiometer2_horz": _potentiometer2_horz,
+  "potentiometer2_vert": _potentiometer2_vert,
   "varistor_horz": _varistor_horz,
   "varistor_vert": _varistor_vert
 }
