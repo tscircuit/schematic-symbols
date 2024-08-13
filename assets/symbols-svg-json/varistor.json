@@ -12,7 +12,8 @@
           "y": 0
         }
       ],
-      "color": "primary"
+      "color": "primary",
+      "fill": false
     },
     "path6": {
       "type": "path",
@@ -26,7 +27,8 @@
           "y": 0
         }
       ],
-      "color": "primary"
+      "color": "primary",
+      "fill": false
     },
     "path7": {
       "type": "path",
@@ -40,7 +42,8 @@
           "y": -0.23812500000000014
         }
       ],
-      "color": "primary"
+      "color": "primary",
+      "fill": false
     },
     "path8": {
       "type": "path",
@@ -54,7 +57,8 @@
           "y": 0.23812500000000192
         }
       ],
-      "color": "primary"
+      "color": "primary",
+      "fill": false
     },
     "path9": {
       "type": "path",
@@ -84,7 +88,8 @@
           "y": -0.13229179999999907
         }
       ],
-      "color": "primary"
+      "color": "primary",
+      "fill": false
     }
   },
   "texts": {

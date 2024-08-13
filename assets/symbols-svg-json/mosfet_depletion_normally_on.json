@@ -12,7 +12,8 @@
           "y": 0.13229300000000066
         }
       ],
-      "color": "primary"
+      "color": "primary",
+      "fill": false
     },
     "path209": {
       "type": "path",
@@ -26,7 +27,8 @@
           "y": -0.13228999999999935
         }
       ],
-      "color": "primary"
+      "color": "primary",
+      "fill": false
     },
     "path210": {
       "type": "path",
@@ -40,7 +42,8 @@
           "y": 0.13229300000000066
         }
       ],
-      "color": "primary"
+      "color": "primary",
+      "fill": false
     },
     "path211": {
       "type": "path",
@@ -54,7 +57,8 @@
           "y": -0.13228999999999935
         }
       ],
-      "color": "primary"
+      "color": "primary",
+      "fill": false
     },
     "path212": {
       "type": "path",
@@ -68,7 +72,8 @@
           "y": 0.39687499999999964
         }
       ],
-      "color": "primary"
+      "color": "primary",
+      "fill": false
     },
     "path213": {
       "type": "path",
@@ -82,7 +87,8 @@
           "y": -0.3968740000000004
         }
       ],
-      "color": "primary"
+      "color": "primary",
+      "fill": false
     },
     "path214": {
       "type": "path",
@@ -96,7 +102,8 @@
           "y": -0.1852090000000004
         }
       ],
-      "color": "primary"
+      "color": "primary",
+      "fill": false
     },
     "path215": {
       "type": "path",
@@ -110,7 +117,8 @@
           "y": -9.999999992515995e-7
         }
       ],
-      "color": "primary"
+      "color": "primary",
+      "fill": false
     },
     "path216": {
       "type": "path",
@@ -124,7 +132,8 @@
           "y": -0.3968746999999997
         }
       ],
-      "color": "primary"
+      "color": "primary",
+      "fill": false
     },
     "path217": {
       "type": "path",
@@ -138,7 +147,8 @@
           "y": 0.26458099999999973
         }
       ],
-      "color": "primary"
+      "color": "primary",
+      "fill": false
     },
     "path218": {
       "type": "path",
@@ -152,7 +162,8 @@
           "y": -0.26458399999999926
         }
       ],
-      "color": "primary"
+      "color": "primary",
+      "fill": false
     },
     "path219": {
       "type": "path",
@@ -166,7 +177,8 @@
           "y": 0.264583
         }
       ],
-      "color": "primary"
+      "color": "primary",
+      "fill": false
     },
     "path220": {
       "type": "path",
@@ -180,7 +192,8 @@
           "y": 0.18520600000000087
         }
       ],
-      "color": "primary"
+      "color": "primary",
+      "fill": false
     },
     "path221": {
       "type": "path",
@@ -194,7 +207,8 @@
           "y": -0.18520999999999965
         }
       ],
-      "color": "primary"
+      "color": "primary",
+      "fill": false
     },
     "path222": {
       "type": "path",
@@ -208,7 +222,8 @@
           "y": -9.999999992515995e-7
         }
       ],
-      "color": "primary"
+      "color": "primary",
+      "fill": false
     }
   },
   "texts": {

@@ -11,7 +11,7 @@ export interface Port {
 
 export interface PathPrimitive {
   type: "path"
-  fill?: boolean
+  fill: boolean
   points: Point[]
   color: string
   closed?: boolean

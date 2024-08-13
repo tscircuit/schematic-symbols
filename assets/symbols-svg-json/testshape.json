@@ -16,7 +16,8 @@
           "y": -0.13259049999999917
         }
       ],
-      "color": "primary"
+      "color": "primary",
+      "fill": false
     }
   },
   "texts": {},

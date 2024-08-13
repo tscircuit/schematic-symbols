@@ -33,6 +33,9 @@ export function applyGroupTransformsToChildren(group: INode) {
       }
       if (child.name === "path") {
         child.attributes.d = transformPath(child.attributes.d, transform)
+        const hasFill =
+          child.attributes.fill && child.attributes.fill !== "none"
+        child.attributes.fill = hasFill ? "true" : "false"
       } else if (child.name === "text") {
         const { x, y } = applyToPoint(transform, {
           x: parseFloat(child.attributes.x),

@@ -80,6 +80,9 @@ async function processSvg() {
               type: "path",
               points: svgPathToPoints(path.attributes.d!),
               color: "primary",
+              fill:
+                path.attributes.fill === "true" &&
+                !path.attributes.style?.includes("fill:none"),
             },
           ]),
         )

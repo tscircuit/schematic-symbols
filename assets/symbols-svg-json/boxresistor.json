@@ -12,7 +12,8 @@
           "y": 0
         }
       ],
-      "color": "primary"
+      "color": "primary",
+      "fill": false
     },
     "path2": {
       "type": "path",
@@ -26,7 +27,8 @@
           "y": 0
         }
       ],
-      "color": "primary"
+      "color": "primary",
+      "fill": false
     },
     "path3": {
       "type": "path",
@@ -56,7 +58,8 @@
           "y": -0.13229169999999968
         }
       ],
-      "color": "primary"
+      "color": "primary",
+      "fill": false
     }
   },
   "texts": {
