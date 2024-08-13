@@ -76,7 +76,7 @@ export function getSvg(
   const svgElements = primitives.map((primitive) => {
     switch (primitive.type) {
       case "path":
-        return `<path d="${pathToSvgD(primitive.points, primitive.closed)}" fill="${primitive.fill ? mapColor(primitive.color) : "none"}" stroke="${mapColor(primitive.color)}" stroke-width="0.02" stroke-linecap="round" />`
+        return `<path d="${pathToSvgD(primitive.points, primitive.closed)}" fill="${primitive.fill ? mapColor(primitive.color) : "none"}" stroke="${mapColor(primitive.color)}" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />`
       case "text":
         const textElements = createTextElement(primitive)
         return textElements.text + (debug ? textElements.anchor : "")
