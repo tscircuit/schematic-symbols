@@ -75,6 +75,12 @@ in the same schematic.
 - The width of most standard passives is `1`
 - The height of most standard passives is `0.6`
 
+### Development
+
+Software needed to edit this project:
+- VS Code
+- Inkscape
+
 ## References
 
 - [MIT Schematic Symbols](https://github.com/sjgallagher2/SchematicSymbolsSVG)
