@@ -1,0 +1,31 @@
+{
+  "paths": {
+    "path57": {
+      "type": "path",
+      "points": [
+        {
+          "x": 0.03968750000000032,
+          "y": 0
+        },
+        {
+          "x": -0.03968750000000032,
+          "y": 0
+        }
+      ],
+      "color": "primary",
+      "fill": false
+    }
+  },
+  "texts": {},
+  "refblocks": {},
+  "bounds": {
+    "minX": -0.03968750000000032,
+    "maxX": 0.03968750000000032,
+    "minY": 0,
+    "maxY": 0,
+    "width": 0.07937500000000064,
+    "height": 0,
+    "centerX": 0,
+    "centerY": 0
+  }
+}

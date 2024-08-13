@@ -23,15 +23,15 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="10.382583"
-     inkscape:cx="91.884652"
-     inkscape:cy="489.85885"
+     inkscape:zoom="6.1645623"
+     inkscape:cx="102.19704"
+     inkscape:cy="681.47579"
      inkscape:window-width="1728"
      inkscape:window-height="1051"
      inkscape:window-x="0"
      inkscape:window-y="38"
      inkscape:window-maximized="1"
-     inkscape:current-layer="potentiometer2"
+     inkscape:current-layer="root"
      showgrid="true">
     <inkscape:grid
        id="grid207"
@@ -66,6 +66,54 @@
          style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
          d="M 5.77,0 -2.88,5 V -5 Z"
          id="path5871-92-3"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:collect="always"
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="TriangleInM-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleInM">
+      <path
+         transform="scale(-0.4)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path5871-0"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:collect="always"
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="TriangleInM-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleInM">
+      <path
+         transform="scale(-0.4)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path5871-67"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:collect="always"
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="TriangleInM-3-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleInM">
+      <path
+         transform="scale(-0.4)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path5871-67-5"
          inkscape:connector-curvature="0" />
     </marker>
   </defs>
@@ -488,6 +536,360 @@
            style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
            x="25.47739"
            y="132.98296">{REF}</tspan></text>
+    </g>
+    <g
+       id="capacitor"
+       transform="rotate(90,-54.156737,60.478501)">
+      <title
+         id="title26">Capacitor</title>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 30.427082,-23.812483 v 4.497916"
+         id="path27"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 30.427082,-17.727067 v 4.497917"
+         id="path28"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 27.781249,-19.314567 h 5.291666"
+         id="path29"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 27.781249,-17.727067 h 5.291666"
+         id="path30"
+         inkscape:connector-curvature="0" />
+      <title
+         id="title30">Capacitor</title>
+    </g>
+    <g
+       id="capacitor_polarized"
+       transform="rotate(90,-52.022291,58.404752)">
+      <title
+         id="title31">Capacitor_polarized</title>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="41.79694"
+         y="-19.906775"
+         id="text31"><tspan
+           sodipodi:role="line"
+           id="tspan31"
+           x="41.79694"
+           y="-19.906775"
+           style="font-size:3.175px;stroke-width:0.264583">+</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 44.979166,-23.812485 v 4.497918"
+         id="path31"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 44.979166,-17.727067 v 4.497915"
+         id="path32"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 42.333333,-19.314569 h 5.291666"
+         id="path33"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 42.333333,-17.727069 h 5.291666"
+         id="path34"
+         inkscape:connector-curvature="0" />
+      <title
+         id="title34">Capacitor_polarized</title>
+    </g>
+    <g
+       id="capacitor_adjustable"
+       transform="matrix(0,-1,-1,0,-60.522724,211.44394)">
+      <title
+         id="title35">Capacitor_adjustable</title>
+      <g
+         transform="translate(-34.395833,-129.78001)"
+         id="g35" />
+      <g
+         id="g39">
+        <path
+           inkscape:connector-curvature="0"
+           id="path35"
+           d="m 80.697916,39.031237 v 4.497908"
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+           sodipodi:nodetypes="cc"
+           transform="translate(-34.395833,-129.78001)" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path36"
+           d="M 80.697916,45.116645 V 49.61457"
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+           sodipodi:nodetypes="cc"
+           transform="translate(-34.395833,-129.78001)" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path37"
+           d="m 78.052083,43.529153 h 5.291666"
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+           transform="translate(-34.395833,-129.78001)" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path38"
+           d="m 78.052083,45.116653 h 5.291666"
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+           transform="translate(-34.395833,-129.78001)" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#TriangleInM-1)"
+           d="m 48.947916,-88.102937 -5.291667,5.291667"
+           id="path39"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+      </g>
+      <title
+         id="title39">Capacitor_adjustable</title>
+    </g>
+    <g
+       id="diode"
+       transform="rotate(90,0.7339933,94.975664)">
+      <title
+         id="title40">Diode</title>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 80.697916,69.45832 1.322917,2.645833"
+         id="path40"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 79.374999,72.104153 80.697916,69.45832"
+         id="path41"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 82.020833,72.104153 H 79.374999"
+         id="path42"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 79.374999,69.45832 h 2.645834"
+         id="path43"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 80.697916,65.48957 V 76.072903"
+         id="path44"
+         inkscape:connector-curvature="0" />
+      <title
+         id="title44">Diode</title>
+    </g>
+    <g
+       id="led"
+       transform="rotate(90,-74.457875,74.949375)">
+      <title
+         id="title45">LED</title>
+      <g
+         transform="translate(-44.979172,-95.25)"
+         id="g49">
+        <path
+           inkscape:connector-curvature="0"
+           id="path45"
+           d="m 80.697916,69.45832 1.322917,2.645833"
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path46"
+           d="M 79.374999,72.104153 80.697916,69.45832"
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path47"
+           d="M 82.020833,72.104153 H 79.374999"
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path48"
+           d="m 79.374999,69.45832 h 2.645834"
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path49"
+           d="M 80.697916,65.48957 V 76.072903"
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+      </g>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#TriangleInM-3)"
+         d="m 33.072911,-23.939594 0.925212,-1.252566"
+         id="path50"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#TriangleInM-3-3)"
+         d="m 33.072911,-22.352094 0.925212,-1.252566"
+         id="path51"
+         inkscape:connector-curvature="0" />
+      <title
+         id="title51">LED</title>
+    </g>
+    <g
+       id="diode_zener"
+       transform="rotate(90,0.52248125,95.192174)">
+      <title
+         id="title52">Z-Diode</title>
+      <g
+         transform="translate(19.84375)"
+         id="g56">
+        <path
+           inkscape:connector-curvature="0"
+           id="path52"
+           d="m 80.697916,69.45832 1.322917,2.645833"
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path53"
+           d="M 79.374999,72.104153 80.697916,69.45832"
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path54"
+           d="M 82.020833,72.104153 H 79.374999"
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path55"
+           d="m 79.374999,69.45832 h 2.645834"
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path56"
+           d="M 80.697916,65.48957 V 76.072903"
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+      </g>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 101.86458,69.45832 v 0.79375"
+         id="path57"
+         inkscape:connector-curvature="0" />
+      <title
+         id="title57">Z-Diode</title>
+    </g>
+    <g
+       id="diode_schottky"
+       transform="rotate(90,-1.2503827,96.880721)">
+      <title
+         id="title58">Schottky</title>
+      <g
+         transform="translate(26.458333)"
+         id="g62">
+        <path
+           inkscape:connector-curvature="0"
+           id="path58"
+           d="m 80.697916,69.45832 1.322917,2.645833"
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path59"
+           d="M 79.374999,72.104153 80.697916,69.45832"
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path60"
+           d="M 82.020833,72.104153 H 79.374999"
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path61"
+           d="m 79.374999,69.45832 h 2.645834"
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path62"
+           d="M 80.697916,65.48957 V 76.072903"
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+      </g>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 105.83333,69.45832 V 68.929153"
+         id="path63"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 106.3625,68.929153 h -0.52917"
+         id="path64"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 108.47917,69.45832 v 0.529166"
+         id="path65"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 107.95,69.987486 h 0.52917"
+         id="path66"
+         inkscape:connector-curvature="0" />
+      <title
+         id="title66">Schottky</title>
+    </g>
+    <g
+       id="diode_bipolar_zener"
+       transform="rotate(90,-2.8127806,98.522556)">
+      <title
+         id="title67">Bipolar_Z-Diode</title>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 113.77084,70.78124 1.32292,2.645833"
+         id="path67"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 112.44792,73.427073 1.32292,-2.645833"
+         id="path68"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 115.09376,73.427073 h -2.64584"
+         id="path69"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 112.44792,70.78124 h 2.64584"
+         id="path70"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 113.77083,65.489574 V 76.072907"
+         id="path71"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 115.09376,70.781236 v 0.79375"
+         id="path72"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 112.44793,70.781236 v -0.79375"
+         id="path73"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 113.77084,70.781237 -1.32292,-2.64583"
+         id="path74"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 115.09376,68.135407 -1.32292,2.64583"
+         id="path75"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 112.44792,68.135407 h 2.64584"
+         id="path76"
+         inkscape:connector-curvature="0" />
+      <title
+         id="title76">Bipolar_Z-Diode</title>
     </g>
   </g>
 </svg>
