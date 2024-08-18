@@ -1,7 +1,8 @@
+import { SchSymbol } from "./types"
 export function resizeSymbol(
-  symbol: Symbol,
+  symbol: SchSymbol,
   newSize: { width?: number; height?: number },
-): Symbol {
+): SchSymbol {
   const { width: oldWidth, height: oldHeight } = symbol.size
   let scaleX = 1,
     scaleY = 1

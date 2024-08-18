@@ -29,6 +29,7 @@ export const arrow = (
     path({
       points: [start, end],
       color: color,
+      fill: false,
     }),
     // Arrow head
     path({
