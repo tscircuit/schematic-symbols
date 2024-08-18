@@ -1,3 +1,4 @@
+// @ts-ignore
 import symbolsSvg from "../assets/symbols.svg" with { type: "text" }
 import { parse, type INode } from "svgson"
 import fs from "node:fs"

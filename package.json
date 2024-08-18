@@ -7,9 +7,11 @@
     "start": "bun run build && bun --hot run dev-server.ts",
     "build": "rm symbols/index.ts && bunx make-vfs ./symbols --content-format import-default --outfile ./symbols/index.ts && tsup ./index.ts --dts --sourcemap",
     "generate": "bun run scripts/generate-symbols-from-asset-svgs.ts",
+    "format:check": "bunx biome format",
     "vercel-build": "bun run ./scripts/build.ts"
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
     "@types/bun": "latest",
     "@types/svg-path-parser": "^1.1.6",
     "make-vfs": "1.0.10",
