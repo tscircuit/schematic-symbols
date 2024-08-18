@@ -36,7 +36,7 @@ jobs:
         git checkout -- *lock.json || true
         git checkout -- *.lock || true
         git checkout -- *.lockb || true
-        git checkout -- *.json || true
+        git checkout -- package.json || true
 
     - name: Commit changes
       uses: stefanzweifel/git-auto-commit-action@v4
@@ -46,3 +46,4 @@ jobs:
         commit_user_name: tscircuitbot
         commit_user_email: tscircuitbot@users.noreply.github.com
         commit_author: tscircuitbot <tscircuitbot@users.noreply.github.com>
+        file_pattern: "*.ts *.tsx"
