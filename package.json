@@ -1,10 +1,10 @@
 {
   "name": "schematic-symbols",
-  "module": "index.ts",
+  "main": "./dist/index.cjs",
   "type": "module",
   "scripts": {
     "start": "bun run build && bun --hot run dev-server.ts",
-    "build": "rm symbols/index.ts && bunx make-vfs ./symbols --content-format import-default --outfile ./symbols/index.ts",
+    "build": "rm symbols/index.ts && bunx make-vfs ./symbols --content-format import-default --outfile ./symbols/index.ts && tsup ./index.ts --esm --dts --sourcemap",
     "generate": "bun run scripts/generate-symbols-from-asset-svgs.ts",
     "vercel-build": "bun run ./scripts/build.ts"
   },
@@ -14,7 +14,8 @@
     "make-vfs": "1.0.10",
     "svg-path-parser": "^1.1.0",
     "svgson": "^5.3.1",
-    "transformation-matrix": "^2.16.1"
+    "transformation-matrix": "^2.16.1",
+    "tsup": "^8.2.4"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
