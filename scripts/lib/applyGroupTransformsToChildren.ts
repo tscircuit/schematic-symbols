@@ -61,7 +61,7 @@ export function applyGroupTransformsToChildren(group: INode) {
 
       return child
     })
-    .filter((c: INode | null): INode => c as INode)
+    .filter((c: INode | null): INode => c as INode) as INode[]
 
   // Remove the transform from the group since it's now applied to children
   delete group.attributes.transform
@@ -114,5 +114,6 @@ export function transformPath(pathData: string, matrix: Matrix): string {
 
 export function convertRectToPath(child: INode): INode {
   const { x, y, width, height } = child.attributes as any
-  return null
+  // TODO
+  return null as any
 }

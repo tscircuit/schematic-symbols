@@ -30,6 +30,7 @@ export function serializeSvgPathCommands(pathData: Command[]): string {
         case "s":
         case "Q":
         case "q":
+          // @ts-ignore
           result += `${command.x1},${command.y1} ${command.x},${command.y}`
           break
         case "A":
