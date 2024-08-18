@@ -1,6 +1,7 @@
 {
   "name": "schematic-symbols",
   "main": "./dist/index.cjs",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "start": "bun run build && bun --hot run dev-server.ts",
