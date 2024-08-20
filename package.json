@@ -4,6 +4,12 @@
   "types": "./index.ts",
   "version": "0.0.7",
   "type": "module",
+  "files": [
+    "dist",
+    "index.ts",
+    "drawing",
+    "symbols"
+  ],
   "scripts": {
     "start": "bun run build && bun --hot run dev-server.ts",
     "build": "rm symbols/index.ts && bunx make-vfs ./symbols --content-format import-default --outfile ./symbols/index.ts && tsup ./index.ts --dts --sourcemap",
