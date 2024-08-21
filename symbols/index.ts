@@ -1,5 +1,7 @@
 import _boxresistor_horz from "./boxresistor_horz"
 import _boxresistor_vert from "./boxresistor_vert"
+import _diode_horz from "./diode_horz"
+import _diode_vert from "./diode_vert"
 import _fuse_horz from "./fuse_horz"
 import _fuse_vert from "./fuse_vert"
 import _led_horz from "./led_horz"
@@ -16,6 +18,8 @@ import _varistor_vert from "./varistor_vert"
 export default {
   "boxresistor_horz": _boxresistor_horz,
   "boxresistor_vert": _boxresistor_vert,
+  "diode_horz": _diode_horz,
+  "diode_vert": _diode_vert,
   "fuse_horz": _fuse_horz,
   "fuse_vert": _fuse_vert,
   "led_horz": _led_horz,
