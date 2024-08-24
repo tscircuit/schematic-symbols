@@ -1,4 +1,5 @@
 import symbols from "./symbols"
+
 export type {
   SchSymbol,
   BoxPrimitive,
@@ -6,6 +7,7 @@ export type {
   PathPrimitive,
   TextPrimitive,
 } from "./drawing/types"
+import { getSvg, getInnerSvg, resizeSymbol } from "./drawing"
 
 export type BaseSymbolName =
   keyof typeof symbols extends `${infer T}_${infer U}` ? `${T}` : never
@@ -19,4 +21,4 @@ export type BaseSymbolName =
 export const BASE_SYMBOLS: Record<BaseSymbolName, BaseSymbolName> =
   Object.fromEntries(Object.keys(symbols).map((k) => [k, k])) as any
 
-export { symbols }
+export { symbols, getSvg, getInnerSvg, resizeSymbol }
