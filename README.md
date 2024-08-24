@@ -1,7 +1,6 @@
 # schematic-symbols
 
-> [!WARNING]
-> This is a work-in-progress that contains all the schematic symbols for tscircuit.
+[View Online](https://symbols.tscircuit.com/)
 
 Schematic symbols for tscircuit
 
