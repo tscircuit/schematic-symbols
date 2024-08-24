@@ -79,7 +79,7 @@ function createPortElement(port: Port): string {
   `
 }
 
-export function getSvg(
+export function getInnerSvg(
   symbol: SchSymbol,
   options: { width?: number; height?: number; debug?: boolean } = {},
 ): string {
@@ -101,6 +101,20 @@ export function getSvg(
     }
   })
 
+  const portElements = ports.map(createPortElement).join("\n    ")
+
+  const centerDiamond = createDiamondElement(symbol.center)
+
+  return [svgElements.join("\n    "), portElements, centerDiamond].join("\n")
+}
+
+export function getSvg(
+  symbol: SchSymbol,
+  options: { width?: number; height?: number; debug?: boolean } = {},
+): string {
+  const { size } = symbol
+  const innerSvg = getInnerSvg(symbol, options)
+
   // Use the center and the size to calculate the viewBox
   const bufferMultiple = 1.1
   const w = size.width * bufferMultiple
@@ -121,13 +135,5 @@ export function getSvg(
     options.height = viewBox.height
   }
 
-  const portElements = ports.map(createPortElement).join("\n    ")
-
-  const centerDiamond = createDiamondElement(symbol.center)
-
-  return `<svg width="${options.width}" height="${options.height}" viewBox="${viewBox.x} ${viewBox.y} ${viewBox.width} ${viewBox.height}" xmlns="http://www.w3.org/2000/svg">
-    ${svgElements.join("\n    ")}
-    ${portElements}
-    ${centerDiamond}
-  </svg>`
+  return `<svg width="${options.width}" height="${options.height}" viewBox="${viewBox.x} ${viewBox.y} ${viewBox.width} ${viewBox.height}" xmlns="http://www.w3.org/2000/svg">${innerSvg}</svg>`
 }
