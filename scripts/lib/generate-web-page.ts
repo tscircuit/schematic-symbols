@@ -1,5 +1,5 @@
 import { getSvg } from "../../drawing/getSvg"
-import symbols from "../../symbols"
+import symbols from "../../generated/symbols-index"
 
 export function generateWebPage(): string {
   const symbolEntries = Object.entries(symbols).sort((a, b) =>
