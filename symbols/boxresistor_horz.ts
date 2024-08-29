@@ -27,8 +27,8 @@ export default defineSymbol({
     text("{VAL}", { x: 0.5, y: 0.2, anchor: "middle_top" }),
   ],
   ports: [
-    { x: 0, y: 0, labels: ["1", "-"] },
-    { x: 1, y: 0, labels: ["2", "+"] },
+    { x: 0, y: 0, labels: ["1", "-", "left"] },
+    { x: 1, y: 0, labels: ["2", "+", "right"] },
   ],
   center: { x: 0.5, y: 0 },
   size: { width: 1, height: 0.55 },
