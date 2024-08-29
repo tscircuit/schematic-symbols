@@ -1,4 +1,4 @@
-import symbols from "./symbols"
+import symbols from "./generated/symbols-index"
 
 export type {
   SchSymbol,
@@ -9,16 +9,16 @@ export type {
 } from "./drawing/types"
 import { getSvg, getInnerSvg, resizeSymbol } from "./drawing"
 
-export type BaseSymbolName =
-  keyof typeof symbols extends `${infer T}_${infer U}` ? `${T}` : never
+import { BaseSymbolName } from "./generated/base-symbol-names"
 
 /**
  * Utility for easier autocomplete:
  *
- * BASE_SYMBOLS.boxresistor
- * // "boxresistor"
+ * ```ts
+ * BASE_SYMBOLS.boxresistor // "boxresistor"
+ * ```
  */
 export const BASE_SYMBOLS: Record<BaseSymbolName, BaseSymbolName> =
   Object.fromEntries(Object.keys(symbols).map((k) => [k, k])) as any
 
-export { symbols, getSvg, getInnerSvg, resizeSymbol }
+export { symbols, getSvg, getInnerSvg, resizeSymbol, BaseSymbolName }
