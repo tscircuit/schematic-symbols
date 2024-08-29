@@ -1,7 +1,6 @@
 {
   "name": "schematic-symbols",
-  "main": "./dist/index.cjs",
-  "types": "./index.ts",
+  "main": "./dist/index.js",
   "version": "0.0.14",
   "type": "module",
   "files": [
@@ -12,7 +11,7 @@
   ],
   "scripts": {
     "start": "bun run build && bun --hot run dev-server.ts",
-    "build": "rm symbols/index.ts && bunx make-vfs ./symbols --content-format import-default --outfile ./symbols/index.ts && tsup ./index.ts --dts --sourcemap",
+    "build": "bunx make-vfs ./symbols --content-format import-default --outfile ./generated/symbols-index.ts && tsup-node ./index.ts --format esm --dts --sourcemap && bun run scripts/generate-base-symbol-names.ts",
     "generate": "bun run scripts/generate-symbols-from-asset-svgs.ts && bun run format",
     "format:check": "bunx biome format",
     "format": "bunx biome format . --write",
@@ -29,7 +28,7 @@
     "tsup": "^8.2.4"
   },
   "peerDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.5.4"
   },
   "dependencies": {}
 }
