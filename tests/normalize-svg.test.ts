@@ -1,5 +1,5 @@
 import { expect, it } from "bun:test"
-import { svgPathToPoints } from "drawing/svgPathToPoints"
+import { svgPathToPoints } from "scripts/lib/svgPathToPoints"
 import { getBoundsOfSvgJson } from "drawing/getBoundsOfSvgJson"
 import testShapeSvgJson from "./assets/testshape-untransformed.json"
 import boxResistorSvgJson from "./assets/boxresistor-untransformed.json"

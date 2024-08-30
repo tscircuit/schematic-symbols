@@ -1,4 +1,5 @@
-import { SchSymbol } from "./types"
+import type { SchSymbol } from "./types"
+
 export function resizeSymbol(
   symbol: SchSymbol,
   newSize: { width?: number; height?: number },
