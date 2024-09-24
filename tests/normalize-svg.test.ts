@@ -1,13 +1,12 @@
 import { expect, it } from "bun:test"
-import { svgPathToPoints } from "scripts/lib/svgPathToPoints"
-import { getBoundsOfSvgJson } from "drawing/getBoundsOfSvgJson"
-import testShapeSvgJson from "./assets/testshape-untransformed.json"
-import boxResistorSvgJson from "./assets/boxresistor-untransformed.json"
+import { translate } from "transformation-matrix"
 import {
   applyGroupTransformsToChildren,
   transformPath,
 } from "../scripts/lib/applyGroupTransformsToChildren"
-import { identity, translate } from "transformation-matrix"
+import { getBoundsOfSvgJson } from "../scripts/lib/getBoundsOfSvgJson"
+import boxResistorSvgJson from "./assets/boxresistor-untransformed.json"
+import testShapeSvgJson from "./assets/testshape-untransformed.json"
 
 it("applies group transforms to children", () => {
   const bounds1 = getBoundsOfSvgJson(testShapeSvgJson as any)
