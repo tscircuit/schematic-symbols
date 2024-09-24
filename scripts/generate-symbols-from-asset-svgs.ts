@@ -3,7 +3,7 @@ import symbolsSvg from "../assets/symbols.svg" with { type: "text" }
 import { parse, type INode } from "svgson"
 import fs from "node:fs"
 import { applyGroupTransformsToChildren } from "./lib/applyGroupTransformsToChildren"
-import { getBoundsOfSvgJson } from "drawing/getBoundsOfSvgJson"
+import { getBoundsOfSvgJson } from "./lib/getBoundsOfSvgJson"
 import { compose, translate, toSVG, scale } from "transformation-matrix"
 import { convertToObjectWithOrderedPositionIds } from "./convertToObjectWithOrderedPositionIds"
 import { findInnerText } from "./lib/findInnerText"
