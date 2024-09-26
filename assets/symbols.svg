@@ -534,6 +534,31 @@
          inkscape:connector-curvature="0" />
       <title
          id="title30">Capacitor</title>
+         <text
+         xml:space="preserve"
+         style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+            x="18.45446"
+           y="26.399826" 
+         id="text14-3-0-5-0-5"
+         transform="rotate(-90)"><tspan
+           sodipodi:role="line"
+           id="tspan14-1-4-0-4-8"
+           style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="18.45446"
+           y="26.799826">{REF}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+         x="18.5446"
+           y="34.8"
+         id="text14-3-0-5-0-5-1"
+         transform="rotate(-90)"><tspan
+           sodipodi:role="line"
+           id="tspan14-1-4-0-4-8-3"
+           style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="18.5446"
+           y="34.8">{VAL}</tspan></text>
+         
     </g>
     <g
        id="capacitor_polarized"
