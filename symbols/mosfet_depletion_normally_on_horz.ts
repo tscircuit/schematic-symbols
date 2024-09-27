@@ -1,5 +1,5 @@
+import svgJson from "assets/generated/mosfet_depletion_normally_on.json"
 import { defineSymbol } from "drawing/defineSymbol"
-import svgJson from "assets/symbols-svg-json/mosfet_depletion_normally_on.json"
 
 const { paths, texts, bounds, refblocks } = svgJson
 
