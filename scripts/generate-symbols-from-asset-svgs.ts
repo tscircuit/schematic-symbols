@@ -1,6 +1,6 @@
 import { svgPathToPoints } from "drawing"
-import fs from "node:fs"
-import path from "node:path"
+import fs from "fs"
+import path from "path/posix"
 import { parse } from "svgson"
 import { compose, scale, toSVG, translate } from "transformation-matrix"
 import { convertToObjectWithOrderedPositionIds } from "./convertToObjectWithOrderedPositionIds"

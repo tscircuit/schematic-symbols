@@ -1,6 +1,6 @@
 import { generateWebPage } from "./lib/generate-web-page"
 import fs from "fs"
-import path from "path"
+import path from "path/posix"
 
 const distDir = path.join(process.cwd(), "public")
 
