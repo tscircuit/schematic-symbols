@@ -6,7 +6,7 @@ export const getTsFileContentForSvgGroup = (
 ) => {
   return `
 import { defineSymbol } from "drawing/defineSymbol"
-import svgJson from "assets/symbols-svg-json/${groupId}.json"
+import svgJson from "assets/generated/${groupId}.json"
 
 const { paths, texts, bounds, refblocks } = svgJson
 

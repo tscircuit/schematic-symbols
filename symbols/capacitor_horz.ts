@@ -1,4 +1,4 @@
-import svgJson from "assets/symbols-svg-json/capacitor.json"
+import svgJson from "assets/generated/capacitor.json"
 import { defineSymbol } from "drawing/defineSymbol"
 
 const { paths, bounds, refblocks, texts } = svgJson

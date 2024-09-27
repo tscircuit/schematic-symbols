@@ -1,5 +1,5 @@
+import svgJson from "assets/generated/potentiometer.json"
 import { defineSymbol } from "drawing/defineSymbol"
-import svgJson from "assets/symbols-svg-json/potentiometer.json"
 
 const { paths, texts, bounds, refblocks } = svgJson
 

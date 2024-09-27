@@ -1,14 +1,8 @@
-import { pathToSvgD } from "./pathToSvgD"
 import { mapColor } from "./mapColor"
-import type {
-  NinePointAnchor,
-  TextPrimitive,
-  Port,
-  SchSymbol,
-  Point,
-} from "./types"
+import { pathToSvgD } from "./pathToSvgD"
+import type { Point, Port, SchSymbol, TextPrimitive } from "./types"
 
-function createDiamondElement(center: Point, size: number = 0.05): string {
+function createDiamondElement(center: Point, size = 0.05): string {
   const { x, y } = center
   const halfSize = size / 2
   return `<path d="M ${x} ${y - halfSize} L ${x + halfSize} ${y} L ${x} ${y + halfSize} L ${x - halfSize} ${y} Z" fill="green" />`
@@ -20,8 +14,8 @@ function createTextElement(primitive: TextPrimitive): {
 } {
   const { x, y, text, fontSize = 0.1, anchor } = primitive
   let textAnchor: string
-  let dx: number = 0
-  let dy: number = 0
+  const dx = 0
+  let dy = 0
 
   const capHeight = fontSize * 0.75
 

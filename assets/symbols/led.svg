@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="symbols.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="32.422109"
+     inkscape:cx="102.35299"
+     inkscape:cy="699.39928"
+     inkscape:window-width="1728"
+     inkscape:window-height="1051"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="led"
+     showgrid="true">
+    <inkscape:grid
+       id="grid207"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="10"
+       spacingy="10"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <marker
+       inkscape:collect="always"
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="TriangleInM-68-33"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleInM">
+      <path
+         transform="scale(-0.4)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path5871-92-3"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:collect="always"
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="TriangleInM-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleInM">
+      <path
+         transform="scale(-0.4)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path5871-0"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+   <g
+     inkscape:label="root"
+     inkscape:groupmode="layer"
+     id="root">
+
+    <g
+       id="led"
+       transform="rotate(90,-74.457875,74.949375)"
+       inkscape:label="led">
+      <title
+         id="title45">LED</title>
+      <path
+         inkscape:connector-curvature="0"
+         id="path45"
+         d="m 35.718744,-25.79168 1.322917,2.645833"
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         d="m 35.720982,-25.709472 v -3.989197"
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         id="path1-8" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path46"
+         d="m 34.395827,-23.145847 1.322917,-2.645833"
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path47"
+         d="M 37.041661,-23.145847 H 34.395827"
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path48"
+         d="m 34.395827,-25.79168 h 2.645834"
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path49"
+         d="m 35.718744,-23.125409 v 3.948312"
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="color:#000000;fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.265;stroke-dasharray:none;stroke-opacity:1"
+         d="m 32.827252,-22.875666 -0.168792,0.973423 0.927628,-0.343028 z"
+         id="path25"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+         d="m 34.0227,-23.63306 -0.08933,0.120235 -0.904558,1.217565 -0.0095,0.0063"
+         id="path78"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="color:#000000;fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.265;stroke-dasharray:none;stroke-opacity:1"
+         d="m 32.615886,-24.650329 -0.168792,0.973423 0.927628,-0.343028 z"
+         id="path25-0"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+         d="m 33.811334,-25.407723 -0.08933,0.120235 -0.904558,1.217565 -0.0095,0.0063"
+         id="path78-6"
+         sodipodi:nodetypes="cccc" />
+      <title
+         id="title51">LED</title>
+      <circle
+         style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         id="refblock-5-7-3-81"
+         cx="29.795198"
+         cy="35.730644"
+         r="0.28158441"
+         transform="rotate(-90)" />
+      <circle
+         style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         id="refblock-5-7-3-81-3"
+         cx="19.071012"
+         cy="35.726109"
+         r="0.28158441"
+         transform="rotate(-90)" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+         x="27.579512"
+         y="33.443123"
+         id="text14-3-0-5-0"
+         transform="rotate(-90)"><tspan
+           sodipodi:role="line"
+           id="tspan14-1-4-0-4"
+           style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="27.579512"
+           y="33.443123">{REF}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+         x="24.337488"
+         y="38.916466"
+         id="text14-3-0-5-0-2"
+         transform="rotate(-90)"><tspan
+           sodipodi:role="line"
+           id="tspan14-1-4-0-4-6"
+           style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="24.337488"
+           y="38.916466">{VAL}</tspan></text>
+    </g>
+
+   </g>
+</svg>

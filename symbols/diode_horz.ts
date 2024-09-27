@@ -1,5 +1,5 @@
+import svgJson from "assets/generated/diode.json"
 import { defineSymbol } from "drawing/defineSymbol"
-import svgJson from "assets/symbols-svg-json/diode.json"
 
 const { paths, texts, bounds, refblocks } = svgJson
 

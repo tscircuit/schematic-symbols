@@ -179,3 +179,5 @@ dist
 tmp
 .vercel
 public
+
+./assets/generated

@@ -1,18 +1,17 @@
-// @ts-ignore
-import symbolsSvg from "../assets/symbols.svg" with { type: "text" }
-import { parse, type INode } from "svgson"
+import { svgPathToPoints } from "drawing"
 import fs from "node:fs"
-import { applyGroupTransformsToChildren } from "./lib/applyGroupTransformsToChildren"
-import { getBoundsOfSvgJson } from "./lib/getBoundsOfSvgJson"
-import { compose, translate, toSVG, scale } from "transformation-matrix"
+import path from "node:path"
+import { parse } from "svgson"
+import { compose, scale, toSVG, translate } from "transformation-matrix"
 import { convertToObjectWithOrderedPositionIds } from "./convertToObjectWithOrderedPositionIds"
+import { applyGroupTransformsToChildren } from "./lib/applyGroupTransformsToChildren"
 import { findInnerText } from "./lib/findInnerText"
-import { svgPathToPoints, type SvgData } from "drawing"
+import { getBoundsOfSvgJson } from "./lib/getBoundsOfSvgJson"
 import { getTsFileContentForSvgGroup } from "./lib/getTsFileContentForSvgGroup"
 
 const SOURCE_IGNORE_LIST = ["testshape"]
 
-async function processSvg() {
+async function processSvg(symbolsSvg: string) {
   try {
     // Parse the entire SVG file once
     const parsedSvg = await parse(symbolsSvg)
@@ -33,7 +32,7 @@ async function processSvg() {
       .forEach((group, index) => {
         const groupId = group.attributes.id
         try {
-          const filePath = `./assets/symbols-svg-json/${groupId}.json`
+          const filePath = `./assets/generated/${groupId}.json`
           let groupWithTransformApplied = applyGroupTransformsToChildren(group)
 
           // Recenter the group (makes it easier to read)
@@ -59,8 +58,8 @@ async function processSvg() {
                     child.attributes.id?.includes("refblock")),
               )
               .map((child) => ({
-                x: parseFloat(child.attributes.cx),
-                y: parseFloat(child.attributes.cy),
+                x: Number.parseFloat(child.attributes.cx),
+                y: Number.parseFloat(child.attributes.cy),
               })),
           )
 
@@ -71,8 +70,8 @@ async function processSvg() {
             textChildren.map((text) => ({
               type: "text",
               text: findInnerText(text),
-              x: parseFloat(text.attributes.x),
-              y: parseFloat(text.attributes.y),
+              x: Number.parseFloat(text.attributes.x),
+              y: Number.parseFloat(text.attributes.y),
             })),
           )
 
@@ -143,4 +142,27 @@ async function processSvg() {
   }
 }
 
-processSvg()
+async function processAllSvgs() {
+  const svgDir = path.resolve(__dirname, "../assets/symbols")
+
+  try {
+    const files = await fs.promises.readdir(svgDir)
+    const svgFiles = files.filter(
+      (file) => path.extname(file).toLowerCase() === ".svg",
+    )
+
+    for (const file of svgFiles) {
+      const filePath = path.join(svgDir, file)
+      try {
+        const data = await fs.promises.readFile(filePath, "utf8")
+        await processSvg(data)
+      } catch (err) {
+        console.error(`Error reading file ${filePath}:`, err)
+      }
+    }
+  } catch (err) {
+    console.error(`Error reading directory ${svgDir}:`, err)
+  }
+}
+
+processAllSvgs()
