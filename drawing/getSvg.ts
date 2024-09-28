@@ -5,7 +5,9 @@ import type { Point, Port, SchSymbol, TextPrimitive } from "./types"
 function createDiamondElement(center: Point, size = 0.05): string {
   const { x, y } = center
   const halfSize = size / 2
-  return `<path d="M ${x} ${y - halfSize} L ${x + halfSize} ${y} L ${x} ${y + halfSize} L ${x - halfSize} ${y} Z" fill="green" />`
+  return `<path d="M ${x} ${y - halfSize} L ${x + halfSize} ${y} L ${x} ${
+    y + halfSize
+  } L ${x - halfSize} ${y} Z" fill="green" />`
 }
 
 function createTextElement(primitive: TextPrimitive): {
@@ -56,8 +58,12 @@ function createTextElement(primitive: TextPrimitive): {
   }
 
   return {
-    text: `<text x="${x}" y="${y}" dx="${dx}" dy="${dy}" text-anchor="${textAnchor}" style="font: ${fontSize ?? 0.1}px monospace; fill: ${mapColor("primary")}">${text}</text>`,
-    anchor: `<rect x="${x - 0.025 / 2}" y="${y - 0.025 / 2}" width="0.025" height="0.025" fill="blue" />`,
+    text: `<text x="${x}" y="${y}" dx="${dx}" dy="${dy}" text-anchor="${textAnchor}" style="font: ${
+      fontSize ?? 0.1
+    }px monospace; fill: ${mapColor("primary")}">${text}</text>`,
+    anchor: `<rect x="${x - 0.025 / 2}" y="${
+      y - 0.025 / 2
+    }" width="0.025" height="0.025" fill="blue" />`,
   }
 }
 
@@ -68,8 +74,12 @@ function createPortElement(port: Port): string {
   const label = labels[0] || ""
 
   return `
-    <rect x="${x - rectSize / 2}" y="${y - rectSize / 2}" width="${rectSize}" height="${rectSize}" fill="red" />
-    <text x="${x - labelFontSize / 2}" y="${y + rectSize + labelFontSize / 2}" text-anchor="middle" style="font: ${labelFontSize}px monospace; fill: #833;">${label}</text>
+    <rect x="${x - rectSize / 2}" y="${
+      y - rectSize / 2
+    }" width="${rectSize}" height="${rectSize}" fill="red" />
+    <text x="${x - labelFontSize / 2}" y="${
+      y + rectSize + labelFontSize / 2
+    }" text-anchor="middle" style="font: ${labelFontSize}px monospace; fill: #833;">${label}</text>
   `
 }
 
@@ -82,14 +92,25 @@ export function getInnerSvg(
   const svgElements = primitives.map((primitive) => {
     switch (primitive.type) {
       case "path":
-        return `<path d="${pathToSvgD(primitive.points, primitive.closed)}" fill="${primitive.fill ? mapColor(primitive.color) : "none"}" stroke="${mapColor(primitive.color)}" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />`
+        return `<path d="${pathToSvgD(
+          primitive.points,
+          primitive.closed,
+        )}" fill="${
+          primitive.fill ? mapColor(primitive.color) : "none"
+        }" stroke="${mapColor(
+          primitive.color,
+        )}" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />`
       case "text":
         const textElements = createTextElement(primitive)
         return textElements.text + (debug ? textElements.anchor : "")
       case "circle":
-        return `<circle cx="${primitive.x}" cy="${primitive.y}" r="${primitive.radius}" fill="${mapColor("primary")}" />`
+        return `<circle cx="${primitive.x}" cy="${primitive.y}" r="${
+          primitive.radius
+        }" fill="${mapColor("primary")}" />`
       case "box":
-        return `<rect x="${primitive.x}" y="${primitive.y}" width="${primitive.width}" height="${primitive.height}" fill="${mapColor("primary")}" />`
+        return `<rect x="${primitive.x}" y="${primitive.y}" width="${
+          primitive.width
+        }" height="${primitive.height}" fill="${mapColor("primary")}" />`
       default:
         return ""
     }
@@ -110,7 +131,7 @@ export function getSvg(
   const innerSvg = getInnerSvg(symbol, options)
 
   // Use the center and the size to calculate the viewBox
-  const bufferMultiple = 1.1
+  const bufferMultiple = 1.2
   const w = size.width * bufferMultiple
   const h = size.height * bufferMultiple
   const viewBox = {

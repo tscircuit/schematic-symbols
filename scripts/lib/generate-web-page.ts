@@ -10,9 +10,11 @@ export function generateWebPage(): string {
     .map(([name, symbol]) => {
       const svg = getSvg(symbol, { width: 150, height: 150, debug: true })
       return `
-      <div class="symbol-container" style="padding-bottom:28px;">
-        <div style="font-size: 12px;word-break: break-all; text-align: left;padding-bottom: 16px;">${name}</div>
-        ${svg}
+      <div class="symbol-container"  style="padding-bottom:32px;  padding-top: 32px; position:relative;">
+        <div style="font-size: 12px; position:absolute; word-break: break-all; top: 0; left: 0; padding: 4px; text-align:  left;padding-bottom: 16px;">
+        ${name}
+        </div>
+      ${svg}
       </div>
     `
     })
@@ -40,6 +42,7 @@ export function generateWebPage(): string {
           border: 1px solid #ccc;
           padding: 10px;
           text-align: center;
+          
         }
         svg {
           max-width: 100%;
