@@ -1,22 +1,24 @@
-import { getSvg } from "../../drawing/getSvg"
-import symbols from "../../generated/symbols-index"
+import { getSvg } from "../../drawing/getSvg";
+import symbols from "../../generated/symbols-index";
 
 export function generateWebPage(): string {
   const symbolEntries = Object.entries(symbols).sort((a, b) =>
-    a[0].localeCompare(b[0]),
-  )
+    a[0].localeCompare(b[0])
+  );
 
   const svgGrid = symbolEntries
     .map(([name, symbol]) => {
-      const svg = getSvg(symbol, { width: 150, height: 150, debug: true })
+      const svg = getSvg(symbol, { width: 150, height: 150, debug: true });
       return `
-      <div class="symbol-container" style="padding-bottom:28px;">
-        <div style="font-size: 12px;word-break: break-all; text-align: left;padding-bottom: 16px;">${name}</div>
-        ${svg}
+      <div class="symbol-container"  style="padding-bottom:32px;  padding-top: 32px; position:relative;">
+        <div style="font-size: 12px; position:absolute; word-break: break-all; top: 0; left: 0; padding: 4px; text-align:  left;padding-bottom: 16px;">
+        ${name}
+        </div>
+      ${svg}
       </div>
-    `
+    `;
     })
-    .join("")
+    .join("");
 
   const html = `
     <!DOCTYPE html>
@@ -40,6 +42,7 @@ export function generateWebPage(): string {
           border: 1px solid #ccc;
           padding: 10px;
           text-align: center;
+          
         }
         svg {
           max-width: 100%;
@@ -54,7 +57,7 @@ export function generateWebPage(): string {
       </div>
     </body>
     </html>
-  `
+  `;
 
-  return html
+  return html;
 }
