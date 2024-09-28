@@ -118,6 +118,20 @@
          inkscape:connector-curvature="0" />
       <title
          id="title30">Capacitor</title>
+         <circle
+         style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         id="refblock-5-7-3-81"
+         cx="24.095198"
+         cy="30.430644"
+         r="0.28158441"
+         transform="rotate(-90)" />
+      <circle
+         style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         id="refblock-5-7-3-81-3"
+         cx="13.071012"
+         cy="30.436109"
+         r="0.28158441"
+         transform="rotate(-90)" />
          <text
          xml:space="preserve"
          style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
