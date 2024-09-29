@@ -21,7 +21,7 @@
     "@biomejs/biome": "^1.8.3",
     "@types/bun": "latest",
     "@types/svg-path-parser": "^1.1.6",
-    "make-vfs": "1.0.10",
+    "make-vfs": "1.0.1",
     "svg-path-parser": "^1.1.0",
     "svgson": "^5.3.1",
     "transformation-matrix": "^2.16.1",
