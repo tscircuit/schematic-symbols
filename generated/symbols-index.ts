@@ -14,6 +14,8 @@ import _potentiometer_horz from "./../symbols/potentiometer_horz"
 import _potentiometer_vert from "./../symbols/potentiometer_vert"
 import _potentiometer2_horz from "./../symbols/potentiometer2_horz"
 import _potentiometer2_vert from "./../symbols/potentiometer2_vert"
+import _push_button_normally_closed_momentary_horz from "./../symbols/push_button_normally_closed_momentary_horz"
+import _push_button_normally_closed_momentary_vert from "./../symbols/push_button_normally_closed_momentary_vert"
 import _push_button_normally_open_momentary_horz from "./../symbols/push_button_normally_open_momentary_horz"
 import _push_button_normally_open_momentary_vert from "./../symbols/push_button_normally_open_momentary_vert"
 import _varistor_horz from "./../symbols/varistor_horz"
@@ -36,6 +38,8 @@ export default {
   "potentiometer_vert": _potentiometer_vert,
   "potentiometer2_horz": _potentiometer2_horz,
   "potentiometer2_vert": _potentiometer2_vert,
+  "push_button_normally_closed_momentary_horz": _push_button_normally_closed_momentary_horz,
+  "push_button_normally_closed_momentary_vert": _push_button_normally_closed_momentary_vert,
   "push_button_normally_open_momentary_horz": _push_button_normally_open_momentary_horz,
   "push_button_normally_open_momentary_vert": _push_button_normally_open_momentary_vert,
   "varistor_horz": _varistor_horz,
