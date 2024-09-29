@@ -14,7 +14,7 @@ const val = rotated.primitives.find(
 ref.anchor = "middle_left"
 val.anchor = "middle_right"
 
-ref.x = ref.x -0.03
+ref.x = ref.x - 0.03
 ref.y = ref.y
 
 val.x = val.x
