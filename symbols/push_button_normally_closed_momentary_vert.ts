@@ -1,8 +1,8 @@
 import { rotateSymbol } from "drawing/rotateSymbol"
-import led_horz from "./led_horz"
+import push_button_normally_closed_momentary_horz from "./push_button_normally_closed_momentary_horz"
 import type { TextPrimitive } from "drawing"
 
-const rotated = rotateSymbol(led_horz)
+const rotated = rotateSymbol(push_button_normally_closed_momentary_horz)
 
 const ref = rotated.primitives.find(
   (p) => p.type === "text" && p.text === "{REF}",
@@ -14,9 +14,10 @@ const val = rotated.primitives.find(
 ref.anchor = "middle_left"
 val.anchor = "middle_right"
 
-ref.x += 0.1
-ref.y += 0.017
-val.y = ref.y
-val.x = -0.3
+ref.x = ref.x - 0.03
+ref.y = ref.y
+
+val.x = val.x
+val.y = 0
 
 export default rotated

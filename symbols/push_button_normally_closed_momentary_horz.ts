@@ -1,13 +1,13 @@
-import svgJson from "assets/generated/potentiometer2.json"
 import { defineSymbol } from "drawing/defineSymbol"
+import svgJson from "assets/generated/push_button_normally_closed_momentary.json"
 
 const { paths, texts, bounds, refblocks } = svgJson
 
 export default defineSymbol({
   primitives: [
     ...Object.values(paths),
-    { ...texts.bottom1, anchor: "middle_right" },
-    { ...texts.top1, anchor: "middle_left" },
+    { ...texts.top1, anchor: "middle_bottom" },
+    { ...texts.bottom1, anchor: "middle_top" },
   ] as any,
   ports: [
     { ...refblocks.left1, labels: ["1"] }, // TODO add more "standard" labels

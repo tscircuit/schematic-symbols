@@ -6,7 +6,7 @@ const { paths, texts, bounds, refblocks } = svgJson
 export default defineSymbol({
   primitives: [
     ...Object.values(paths),
-    { ...texts.bottom1, anchor: "middle_left" },
+    { ...texts.bottom1, anchor: "middle_right" },
     { ...texts.right1, anchor: "middle_left" },
   ] as any,
   ports: [
