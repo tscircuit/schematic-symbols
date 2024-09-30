@@ -20,7 +20,7 @@
     "vercel-build": "bun run ./scripts/build.ts"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.8.3",
+    "@biomejs/biome": "^1.9.2",
     "@types/bun": "latest",
     "@types/prompts": "^2.4.9",
     "@types/svg-path-parser": "^1.1.6",
@@ -34,6 +34,5 @@
   },
   "peerDependencies": {
     "typescript": "^5.5.4"
-  },
-  "dependencies": {}
+  }
 }
