@@ -93,6 +93,27 @@ export async function processSvg(symbolsSvg: string, fileName?: string) {
             ]),
           )
 
+          const circleChildren = groupWithTransformApplied.children.filter(
+            (circle) => circle.name === "circle",
+          )
+          const circles = Object.fromEntries(
+            circleChildren
+              .filter((circle) => !circle.attributes.id.includes("refblock"))
+              .map((circle) => [
+                circle.attributes.id!,
+                {
+                  type: "circle",
+                  x: Number.parseFloat(circle.attributes.cx),
+                  y: Number.parseFloat(circle.attributes.cy),
+                  radius: Number.parseFloat(circle.attributes.r),
+                  color: "primary",
+                  fill:
+                    !circle.attributes.style?.includes("fill:none") &&
+                    circle.attributes.fill !== "none",
+                },
+              ]),
+          )
+
           const svgData = {
             // only for debugging
             // svg: groupWithTransformApplied,
@@ -100,6 +121,7 @@ export async function processSvg(symbolsSvg: string, fileName?: string) {
             texts,
             refblocks,
             bounds,
+            circles,
           }
 
           console.log(`Writing to file: ${kleur.green(filePath)}`)

@@ -1,14 +1,26 @@
 import { defineSymbol } from "drawing/defineSymbol"
 import svgJson from "assets/generated/volt_meter.json"
 
-const { paths, texts, bounds, refblocks } = svgJson
+const { paths, texts, bounds, circles, refblocks } = svgJson
 
 export default defineSymbol({
   primitives: [
     ...Object.values(paths),
-    { ...texts.top1, anchor: "middle_left" },
-    { ...texts.bottom1, anchor: "middle_left" },
-    { ...texts.bottom2, anchor: "middle_left" },
+    ...Object.values(circles),
+    {
+      type: "text",
+      text: "{REF}",
+      x: 0,
+      y: -0.3594553499999995,
+      anchor: "middle_bottom",
+    },
+    {
+      type: "text",
+      text: "{VAL}",
+      x: 0,
+      y: 0.35,
+      anchor: "middle_top",
+    },
   ] as any,
   ports: [
     { ...refblocks.left1, labels: ["1"] }, // TODO add more "standard" labels

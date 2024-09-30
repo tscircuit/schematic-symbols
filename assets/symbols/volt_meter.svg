@@ -31,7 +31,7 @@
      inkscape:window-x="258"
      inkscape:window-y="184"
      inkscape:window-maximized="0"
-     inkscape:current-layer="potentiometer"
+     inkscape:current-layer="root"
      showgrid="true">
     <inkscape:grid
        id="grid207"
@@ -61,13 +61,19 @@
        transform="rotate(90,-19.246732,-62.458284)"
        inkscape:label="volt_meter">
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 58.208334,-91.281231 v -2.645833"
+         style="fill:none;stroke:#000000;stroke-width:0.244764px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 58.208334,-91.262154 v -2.26429"
          id="path11"
          inkscape:connector-curvature="0" />
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
-         d="m 58.208334,-99.218734 v -2.645836"
+         style="fill:none;stroke:#000000;stroke-width:0.244764px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 57.225695,-97.513562 1.914871,0.987874 -1.914871,1.066567"
+         id="path11-5-5"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.252778;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         d="m 58.208334,-99.469105 v -2.407405"
          id="path12"
          inkscape:connector-curvature="0" />
       <text
@@ -109,24 +115,12 @@
          r="0.28158441"
          transform="rotate(-90)" />
       <circle
-         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          id="path1"
          cx="96.499359"
          cy="58.137051"
          r="2.8854213"
          transform="rotate(-90)" />
-      <text
-         xml:space="preserve"
-         style="font-size:2.72999px;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.683571;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         x="86.719124"
-         y="65.761124"
-         id="text1"
-         transform="matrix(0,-1.1127304,0.89869028,0,0,0)"><tspan
-           sodipodi:role="line"
-           id="tspan1"
-           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.683574"
-           x="86.719124"
-           y="65.761124">V</tspan></text>
     </g>
   </g>
 </svg>
