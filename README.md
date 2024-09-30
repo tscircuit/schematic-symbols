@@ -15,7 +15,7 @@ console.log(symbols.resistor.size)
 // { width: 1, height: 0.6 }
 
 getSvg(resistor)
-// <svg><path d="M0 0L1 0... ...</svg>
+// <svg><path d="M0 0L1 0... ..."</svg>
 
 // You can easily resize symbols
 console.log(resize(symbols.resistor, { width: 100 }).size)
@@ -24,9 +24,14 @@ console.log(resize(symbols.resistor, { width: 100 }).size)
 
 ## Adding New Symbols
 
-Go into the `./symbols` directory to add new shapes. After adding a shape file, it will
-automatically appear in the dev environment (`npm run dev`). Here's an example of a shape
-file:
+1. Add a new svg file to the `./symbols` directory
+2. Run `bun run generate` to generate the new symbol
+3. Create a new symbol file in the `./symbols` directory for your symbol,
+   make sure to add a suffix `_horz` or `_vert` depending on it's orientation
+4. Run `bun run dev` to start the dev server and verify the new symbol
+5. Run `bun run build` to build all the symbols into the `./generated` directory
+
+Here's an example of a generated symbol file:
 
 ```ts
 // boxresistor.ts
@@ -45,6 +50,8 @@ export const boxresistor = defineSymbol({
   size: { width: 1, height: 0.6 },
 })
 ```
+
+> These files are used to generate an
 
 ### Primitives
 
@@ -77,6 +84,7 @@ in the same schematic.
 ### Development
 
 Software needed to edit this project:
+
 - VS Code
 - Inkscape
 
