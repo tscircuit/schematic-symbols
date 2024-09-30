@@ -3,7 +3,6 @@ import svgJson from "assets/generated/dc_voltmeter.json"
 
 const { paths, texts, bounds, refblocks, circles } = svgJson
 
-
 export default defineSymbol({
   primitives: [
     ...Object.values(paths),
