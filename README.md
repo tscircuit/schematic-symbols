@@ -24,12 +24,10 @@ console.log(resize(symbols.resistor, { width: 100 }).size)
 
 ## Adding New Symbols
 
-1. Add a new svg file to the `./symbols` directory
+1. Add a new svg file to the `./assets/symbols` directory (copy volt_meter.svg to a new file named `<symbol_name>.svg`)
 2. Run `bun run generate` to generate the new symbol
-3. Create a new symbol file in the `./symbols` directory for your symbol,
-   make sure to add a suffix `_horz` or `_vert` depending on it's orientation
-4. Run `bun run dev` to start the dev server and verify the new symbol
-5. Run `bun run build` to build all the symbols into the `./generated` directory
+3. Run `bun run dev` to start the dev server and verify the new symbol
+4. Run `bun run build` to build all the symbols into the `./generated` directory
 
 Here's an example of a generated symbol file:
 
