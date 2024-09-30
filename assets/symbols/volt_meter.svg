@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25)"
-   sodipodi:docname="potentiometer.svg"
+   sodipodi:docname="volt_meter.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -23,13 +23,13 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="2.4145115"
-     inkscape:cx="38.517107"
-     inkscape:cy="49.285331"
+     inkscape:zoom="10.086627"
+     inkscape:cx="50.809851"
+     inkscape:cy="63.747774"
      inkscape:window-width="1392"
      inkscape:window-height="1027"
-     inkscape:window-x="445"
-     inkscape:window-y="100"
+     inkscape:window-x="258"
+     inkscape:window-y="184"
      inkscape:window-maximized="0"
      inkscape:current-layer="root"
      showgrid="true">
@@ -58,51 +58,48 @@
      id="root">
     <g
        id="potentiometer"
-       transform="rotate(90,-19.246732,-62.458284)">
+       transform="rotate(90,-19.246732,-62.458284)"
+       inkscape:label="volt_meter">
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 58.208334,-91.281231 v -2.645833"
+         style="fill:none;stroke:#000000;stroke-width:0.244764px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 58.208334,-91.262154 v -2.26429"
          id="path11"
          inkscape:connector-curvature="0" />
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 58.208334,-99.218734 v -2.645836"
+         style="fill:none;stroke:#000000;stroke-width:0.244764px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 57.225695,-97.513562 1.914871,0.987874 -1.914871,1.066567"
+         id="path11-5-5"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.252778;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         d="m 58.208334,-99.469105 v -2.407405"
          id="path12"
          inkscape:connector-curvature="0" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-         d="m 56.885416,-96.572913 v -2.64583 h 2.645834 v 5.29167 h -2.645834 v -2.64584"
-         id="path13"
-         inkscape:connector-curvature="0" />
-      <path
-         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;-inkscape-stroke:none"
-         d="m 55.714844,-97.224609 v 1.304687 l 1.128906,-0.652344 z"
-         id="path15"
-         sodipodi:nodetypes="cccc" />
       <text
          xml:space="preserve"
          style="font-size:1.05833px;fill:#000000;stroke-width:0.264583"
-         x="97.820702"
-         y="55.847672"
+         x="94.804123"
+         y="54.588577"
          id="text14"
          transform="rotate(-90)"><tspan
            sodipodi:role="line"
            id="tspan14"
            style="font-size:1.05833px;stroke-width:0.264583"
-           x="97.820702"
-           y="55.847672">{REF}</tspan></text>
+           x="94.804123"
+           y="54.588577">{REF}</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
-         x="96.49707"
-         y="61.089119"
+         x="96.47084"
+         y="62.53183"
          id="text14-3"
          transform="rotate(-90)"><tspan
            sodipodi:role="line"
            id="tspan14-1"
            style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-           x="96.49707"
-           y="61.089119">{VAL}</tspan></text>
+           x="96.47084"
+           y="62.53183">{VAL}</tspan></text>
       <circle
          style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
          id="refblock-5"
@@ -117,10 +114,13 @@
          cy="58.206898"
          r="0.28158441"
          transform="rotate(-90)" />
-      <path
-         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
-         d="m 54.016225,-96.575488 h 2.15206"
-         id="path17" />
+      <circle
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="path1"
+         cx="96.499359"
+         cy="58.137051"
+         r="2.8854213"
+         transform="rotate(-90)" />
     </g>
   </g>
 </svg>

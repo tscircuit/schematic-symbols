@@ -8,7 +8,12 @@ export function generateWebPage(): string {
 
   const svgGrid = symbolEntries
     .map(([name, symbol]) => {
-      const svg = getSvg(symbol, { width: 150, height: 150, debug: true })
+      let svg
+      try {
+        svg = getSvg(symbol, { width: 150, height: 150, debug: true })
+      } catch (e: any) {
+        svg = `<div style="color: red; font-size: 10px;">Error generating SVG for ${name}: ${e.toString()}</div>`
+      }
       return `
       <div class="symbol-container"  style="padding-bottom:32px;  padding-top: 32px; position:relative;">
         <div style="font-size: 12px; position:absolute; word-break: break-all; top: 0; left: 0; padding: 4px; text-align:  left;padding-bottom: 16px;">

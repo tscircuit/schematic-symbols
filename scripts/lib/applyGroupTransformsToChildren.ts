@@ -10,6 +10,7 @@ import {
 import type { INode } from "svgson"
 import { parseSVG, makeAbsolute, type LineToCommand } from "svg-path-parser"
 import { serializeSvgPathCommands } from "./serializeSvgPathCommands"
+import { decomposeTSR } from "transformation-matrix"
 
 export function applyGroupTransformsToChildren(group: INode) {
   if (!group.attributes.transform) {
@@ -25,6 +26,8 @@ export function applyGroupTransformsToChildren(group: INode) {
         parseTransform(child.attributes.transform),
       )
       delete child.attributes.transform
+
+      const decomposition = decomposeTSR(transform)
 
       if (child.name === "rect") {
         // convert to path, it's easier to transform via rotations
@@ -50,7 +53,7 @@ export function applyGroupTransformsToChildren(group: INode) {
         r = parseFloat(r)
 
         const { x, y } = applyToPoint(transform, { x: cx, y: cy })
-        r = r * groupTransform.a
+        r = r * decomposition.scale.sx
 
         child.attributes.cx = x.toString()
         child.attributes.cy = y.toString()

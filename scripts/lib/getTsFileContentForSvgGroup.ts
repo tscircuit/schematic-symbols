@@ -8,11 +8,12 @@ export const getTsFileContentForSvgGroup = (
 import { defineSymbol } from "drawing/defineSymbol"
 import svgJson from "assets/generated/${groupId}.json"
 
-const { paths, texts, bounds, refblocks } = svgJson
+const { paths, texts, bounds, refblocks, circles } = svgJson
 
 export default defineSymbol({
   primitives: [
     ...Object.values(paths),
+    ...Object.values(circles),
     ${Object.entries(svgData.texts)
       .map(([key, text]) => {
         return `{ ...texts.${key}, anchor: "middle_left" },`

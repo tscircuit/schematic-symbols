@@ -106,7 +106,11 @@ export function getInnerSvg(
       case "circle":
         return `<circle cx="${primitive.x}" cy="${primitive.y}" r="${
           primitive.radius
-        }" fill="${mapColor("primary")}" />`
+        }" fill="${primitive.fill ? mapColor(primitive.color) : "none"}" ${
+          !primitive.fill
+            ? `stroke="${mapColor(primitive.color)}" stroke-width="0.02"`
+            : ""
+        } />`
       case "box":
         return `<rect x="${primitive.x}" y="${primitive.y}" width="${
           primitive.width

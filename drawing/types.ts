@@ -31,6 +31,8 @@ export interface CirclePrimitive {
   x: number
   y: number
   radius: number
+  fill: boolean
+  color: string
 }
 
 export interface BoxPrimitive {
@@ -74,6 +76,7 @@ export interface SvgData {
   texts: Record<string, TextPrimitive>
   refblocks: Record<string, Point>
   bounds: Bounds
+  circles: Record<string, CirclePrimitive>
 }
 
 export type SvgAnchor = "start" | "middle" | "end"
