@@ -4,6 +4,9 @@
 
 Schematic symbols for tscircuit
 
+> [!TIP]
+> Looking to contribute to this repo? Take a look at [How to Contribute to Schematic Symbols](https://blog.tscircuit.com/p/how-to-contribute-to-schematic-symbols)!
+
 ## Usage
 
 ```ts
