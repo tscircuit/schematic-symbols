@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="30mm"
+   height="30mm"
+   viewBox="0 0 30 30"
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25)"
-   sodipodi:docname="symbols.svg"
+   sodipodi:docname="zener_diode.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -23,15 +23,15 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="32.422109"
-     inkscape:cx="102.35299"
-     inkscape:cy="699.39928"
-     inkscape:window-width="1728"
-     inkscape:window-height="1051"
+     inkscape:zoom="5.4355283"
+     inkscape:cx="28.79205"
+     inkscape:cy="62.275456"
+     inkscape:window-width="1680"
+     inkscape:window-height="924"
      inkscape:window-x="0"
-     inkscape:window-y="38"
+     inkscape:window-y="25"
      inkscape:window-maximized="1"
-     inkscape:current-layer="led"
+     inkscape:current-layer="root"
      showgrid="true">
     <inkscape:grid
        id="grid207"
@@ -51,104 +51,95 @@
        visible="true" />
   </sodipodi:namedview>
   <defs
-     id="defs1">
-    <marker
-       inkscape:collect="always"
-       inkscape:isstock="true"
-       style="overflow:visible"
-       id="TriangleInM-68-33"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="TriangleInM">
-      <path
-         transform="scale(-0.4)"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
-         d="M 5.77,0 -2.88,5 V -5 Z"
-         id="path5871-92-3"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:collect="always"
-       inkscape:isstock="true"
-       style="overflow:visible"
-       id="TriangleInM-1"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="TriangleInM">
-      <path
-         transform="scale(-0.4)"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
-         d="M 5.77,0 -2.88,5 V -5 Z"
-         id="path5871-0"
-         inkscape:connector-curvature="0" />
-    </marker>
-  </defs>
-   <g
+     id="defs1" />
+  <g
      inkscape:label="root"
      inkscape:groupmode="layer"
      id="root">
-
-      <g
-       id="boxresistor"
-       transform="rotate(90,-72.654678,2.0374476)"
-       inkscape:label="boxresistor">
+    <g
+       id="diode"
+       transform="rotate(90,76.149584,9.6909309)"
+       inkscape:label="zener_diode">
       <title
-         id="title1">Resistor</title>
+         id="title40">Diode</title>
       <path
          style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="M 30.427082,-90.614597 V -93.26043"
-         id="path1"
+         d="m 80.697916,69.45832 1.322917,2.645833"
+         id="path40"
          inkscape:connector-curvature="0" />
       <path
          style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 30.427082,-98.552096 v -2.645834"
-         id="path2"
+         d="M 79.374999,72.104153 80.697916,69.45832"
+         id="path41"
          inkscape:connector-curvature="0" />
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-         d="m 29.104165,-95.906262 v -2.645833 h 2.645834 v 5.291667 h -2.645834 v -2.645834"
-         id="path3"
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 82.020833,72.104153 H 79.374999"
+         id="path42"
          inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 79.374999,69.45832 h 2.645834"
+         id="path43"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 80.697916,72.1262 v 3.946703"
+         id="path44"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 80.698768,65.670412 v 3.737081"
+         id="path44-0"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <title
+         id="title44">Diode</title>
       <circle
          style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-         id="refblock-5-7-3-81"
-         cx="90.395198"
-         cy="30.430644"
+         id="refblock-5-7-3-81-7"
+         cx="-65.712738"
+         cy="80.699318"
          r="0.28158441"
          transform="rotate(-90)" />
       <circle
          style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-         id="refblock-5-7-3-81-3"
-         cx="101.071012"
-         cy="30.436109"
+         id="refblock-5-7-3-81-7-9"
+         cx="-76.09568"
+         cy="80.689072"
          r="0.28158441"
          transform="rotate(-90)" />
       <text
          xml:space="preserve"
          style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
-         x="95.718857"
-         y="28.388716"
-         id="text14-0-6"
+         x="-70.95446"
+         y="78.399826"
+         id="text14-3-0-5-0-5"
          transform="rotate(-90)"><tspan
            sodipodi:role="line"
-           id="tspan14-0-1"
+           id="tspan14-1-4-0-4-8"
            style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-           x="95.718857"
-           y="28.388716">{REF}</tspan></text>
+           x="-70.95446"
+           y="78.399826">{REF}</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
-         x="95.728477"
-         y="33.388676"
-         id="text14-0-4-4"
+         x="-70.905327"
+         y="83.876732"
+         id="text14-3-0-5-0-5-1"
          transform="rotate(-90)"><tspan
            sodipodi:role="line"
-           id="tspan14-0-9-0"
+           id="tspan14-1-4-0-4-8-3"
            style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-           x="95.728477"
-           y="33.388676">{VAL}</tspan></text>
-   </g>
-   </g>
+           x="-70.905327"
+           y="83.876732">{VAL}</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.265423px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 79.37017,69.470297 0.0049,0.661044"
+         id="path43-8"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+    </g>
+  </g>
 </svg>

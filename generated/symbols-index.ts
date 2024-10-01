@@ -1,3 +1,5 @@
+import _avalanche_diode_horz from "./../symbols/avalanche_diode_horz"
+import _avalanche_diode_vert from "./../symbols/avalanche_diode_vert"
 import _boxresistor_horz from "./../symbols/boxresistor_horz"
 import _boxresistor_vert from "./../symbols/boxresistor_vert"
 import _capacitor_horz from "./../symbols/capacitor_horz"
@@ -24,12 +26,20 @@ import _push_button_normally_open_momentary_horz from "./../symbols/push_button_
 import _push_button_normally_open_momentary_vert from "./../symbols/push_button_normally_open_momentary_vert"
 import _schottky_diode_horz from "./../symbols/schottky_diode_horz"
 import _schottky_diode_vert from "./../symbols/schottky_diode_vert"
+import _tunnel_diode_horz from "./../symbols/tunnel_diode_horz"
+import _tunnel_diode_vert from "./../symbols/tunnel_diode_vert"
+import _varactor_diode_horz from "./../symbols/varactor_diode_horz"
+import _varactor_diode_vert from "./../symbols/varactor_diode_vert"
 import _varistor_horz from "./../symbols/varistor_horz"
 import _varistor_vert from "./../symbols/varistor_vert"
 import _volt_meter_horz from "./../symbols/volt_meter_horz"
 import _volt_meter_vert from "./../symbols/volt_meter_vert"
+import _zener_diode_horz from "./../symbols/zener_diode_horz"
+import _zener_diode_vert from "./../symbols/zener_diode_vert"
 
 export default {
+  "avalanche_diode_horz": _avalanche_diode_horz,
+  "avalanche_diode_vert": _avalanche_diode_vert,
   "boxresistor_horz": _boxresistor_horz,
   "boxresistor_vert": _boxresistor_vert,
   "capacitor_horz": _capacitor_horz,
@@ -56,8 +66,14 @@ export default {
   "push_button_normally_open_momentary_vert": _push_button_normally_open_momentary_vert,
   "schottky_diode_horz": _schottky_diode_horz,
   "schottky_diode_vert": _schottky_diode_vert,
+  "tunnel_diode_horz": _tunnel_diode_horz,
+  "tunnel_diode_vert": _tunnel_diode_vert,
+  "varactor_diode_horz": _varactor_diode_horz,
+  "varactor_diode_vert": _varactor_diode_vert,
   "varistor_horz": _varistor_horz,
   "varistor_vert": _varistor_vert,
   "volt_meter_horz": _volt_meter_horz,
-  "volt_meter_vert": _volt_meter_vert
+  "volt_meter_vert": _volt_meter_vert,
+  "zener_diode_horz": _zener_diode_horz,
+  "zener_diode_vert": _zener_diode_vert
 }
