@@ -1,35 +1,18 @@
-import { path } from "drawing/path"
-import { text } from "drawing/text"
+import svgJson from "assets/generated/boxresistor.json"
 import { defineSymbol } from "drawing/defineSymbol"
+
+const { paths, texts, bounds, refblocks } = svgJson
 
 export default defineSymbol({
   primitives: [
-    path({
-      points: [
-        { x: 0, y: 0 },
-        { x: 0.2, y: 0 },
-        { x: 0.2, y: -0.12 },
-        { x: 0.8, y: -0.12 },
-        { x: 0.8, y: 0.12 },
-        { x: 0.2, y: 0.12 },
-        { x: 0.2, y: 0 },
-      ],
-      color: "primary",
-    }),
-    path({
-      points: [
-        { x: 0.8, y: 0 },
-        { x: 1, y: 0 },
-      ],
-      color: "primary",
-    }),
-    text("{REF}", { x: 0.5, y: -0.2, anchor: "middle_bottom" }),
-    text("{VAL}", { x: 0.5, y: 0.2, anchor: "middle_top" }),
-  ],
+    ...Object.values(paths),
+    { ...texts.top1, anchor: "middle_bottom" },
+    { ...texts.bottom1, anchor: "middle_top" },
+  ] as any,
   ports: [
-    { x: 0, y: 0, labels: ["1", "-", "left"] },
-    { x: 1, y: 0, labels: ["2", "+", "right"] },
+    { ...refblocks.left1, labels: ["1"] },
+    { ...refblocks.right1, labels: ["2"] },
   ],
-  center: { x: 0.5, y: 0 },
-  size: { width: 1, height: 0.55 },
+  size: { width: bounds.width, height: bounds.height }, //{ width: 1, height: 0.24 },
+  center: { x: bounds.centerX, y: bounds.centerY },
 })
