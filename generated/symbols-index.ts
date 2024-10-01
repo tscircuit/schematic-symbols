@@ -77,7 +77,7 @@ export default {
   "volt_meter_horz": _volt_meter_horz,
   "volt_meter_vert": _volt_meter_vert,
   "wattmeter_horz": _wattmeter_horz,
-  "wattmeter_vert": _wattmeter_vert
+  "wattmeter_vert": _wattmeter_vert,
   "zener_diode_horz": _zener_diode_horz,
-  "zener_diode_vert": _zener_diode_vert
+  "zener_diode_vert": _zener_diode_vert,
 }
