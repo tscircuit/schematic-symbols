@@ -1,5 +1,30 @@
 import { PathPrimitive, TextPrimitive, CirclePrimitive, BoxPrimitive, Primitive, NinePointAnchor, Point, SchSymbol, Port, SvgData, Bounds } from "./types"
 
+// Basic types
+function isPoint(value: any): value is Point {
+  return (
+    typeof value === "object" &&
+    value !== null &&
+    typeof value.x === "number" &&
+    typeof value.y === "number"
+  )
+}
+
+export function isNinePointAnchor(value: any): value is NinePointAnchor {
+  return [
+    "top_left",
+    "top_right",
+    "bottom_left",
+    "bottom_right",
+    "center",
+    "middle_top",
+    "middle_bottom",
+    "middle_left",
+    "middle_right"
+  ].includes(value)
+}
+
+// Primitive types
 export function isPathPrimitive(value: any): value is PathPrimitive {
   return (
     typeof value === "object" &&
@@ -8,15 +33,6 @@ export function isPathPrimitive(value: any): value is PathPrimitive {
     Array.isArray(value.points) &&
     value.points.every(isPoint) &&
     typeof value.color === "string"
-  )
-}
-
-function isPoint(value: any): value is Point {
-  return (
-    typeof value === "object" &&
-    value !== null &&
-    typeof value.x === "number" &&
-    typeof value.y === "number"
   )
 }
 
@@ -67,6 +83,7 @@ export function isPrimitive(value: any): value is Primitive {
   )
 }
 
+// Complex types
 export function isPort(value: any): value is Port {
   return (
     typeof value === "object" &&
@@ -123,18 +140,4 @@ export function isSvgData(value: any): value is SvgData {
     typeof value.circles === "object" &&
     Object.values(value.circles).every(isCirclePrimitive)
   )
-}
-
-export function isNinePointAnchor(value: any): value is NinePointAnchor {
-  return [
-    "top_left",
-    "top_right",
-    "bottom_left",
-    "bottom_right",
-    "center",
-    "middle_top",
-    "middle_bottom",
-    "middle_left",
-    "middle_right"
-  ].includes(value)
 }
