@@ -22,6 +22,8 @@ import _push_button_normally_open_momentary_horz from "./../symbols/push_button_
 import _push_button_normally_open_momentary_vert from "./../symbols/push_button_normally_open_momentary_vert"
 import _schottky_diode_horz from "./../symbols/schottky_diode_horz"
 import _schottky_diode_vert from "./../symbols/schottky_diode_vert"
+import _varactor_diode_horz from "./../symbols/varactor_diode_horz"
+import _varactor_diode_vert from "./../symbols/varactor_diode_vert"
 import _varistor_horz from "./../symbols/varistor_horz"
 import _varistor_vert from "./../symbols/varistor_vert"
 import _volt_meter_horz from "./../symbols/volt_meter_horz"
@@ -52,6 +54,8 @@ export default {
   "push_button_normally_open_momentary_vert": _push_button_normally_open_momentary_vert,
   "schottky_diode_horz": _schottky_diode_horz,
   "schottky_diode_vert": _schottky_diode_vert,
+  "varactor_diode_horz": _varactor_diode_horz,
+  "varactor_diode_vert": _varactor_diode_vert,
   "varistor_horz": _varistor_horz,
   "varistor_vert": _varistor_vert,
   "volt_meter_horz": _volt_meter_horz,
