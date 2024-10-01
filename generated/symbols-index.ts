@@ -6,6 +6,8 @@ import _capacitor_horz from "./../symbols/capacitor_horz"
 import _capacitor_vert from "./../symbols/capacitor_vert"
 import _dc_ammeter_horz from "./../symbols/dc_ammeter_horz"
 import _dc_ammeter_vert from "./../symbols/dc_ammeter_vert"
+import _dc_voltmeter_horz from "./../symbols/dc_voltmeter_horz"
+import _dc_voltmeter_vert from "./../symbols/dc_voltmeter_vert"
 import _diode_horz from "./../symbols/diode_horz"
 import _diode_vert from "./../symbols/diode_vert"
 import _fuse_horz from "./../symbols/fuse_horz"
@@ -46,6 +48,8 @@ export default {
   "capacitor_vert": _capacitor_vert,
   "dc_ammeter_horz": _dc_ammeter_horz,
   "dc_ammeter_vert": _dc_ammeter_vert,
+  "dc_voltmeter_horz": _dc_voltmeter_horz,
+  "dc_voltmeter_vert": _dc_voltmeter_vert,
   "diode_horz": _diode_horz,
   "diode_vert": _diode_vert,
   "fuse_horz": _fuse_horz,
@@ -75,5 +79,5 @@ export default {
   "volt_meter_horz": _volt_meter_horz,
   "volt_meter_vert": _volt_meter_vert,
   "zener_diode_horz": _zener_diode_horz,
-  "zener_diode_vert": _zener_diode_vert
+  "zener_diode_vert": _zener_diode_vert,
 }
