@@ -1,4 +1,16 @@
-import { PathPrimitive, TextPrimitive, CirclePrimitive, BoxPrimitive, Primitive, NinePointAnchor, Point, SchSymbol, Port, SvgData, Bounds } from "./types"
+import {
+  PathPrimitive,
+  TextPrimitive,
+  CirclePrimitive,
+  BoxPrimitive,
+  Primitive,
+  NinePointAnchor,
+  Point,
+  SchSymbol,
+  Port,
+  SvgData,
+  Bounds,
+} from "./types"
 
 // Basic types
 function isPoint(value: any): value is Point {
@@ -20,7 +32,7 @@ export function isNinePointAnchor(value: any): value is NinePointAnchor {
     "middle_top",
     "middle_bottom",
     "middle_left",
-    "middle_right"
+    "middle_right",
   ].includes(value)
 }
 
