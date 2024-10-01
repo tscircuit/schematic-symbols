@@ -1,3 +1,5 @@
+import _avalanche_diode_horz from "./../symbols/avalanche_diode_horz"
+import _avalanche_diode_vert from "./../symbols/avalanche_diode_vert"
 import _boxresistor_horz from "./../symbols/boxresistor_horz"
 import _boxresistor_vert from "./../symbols/boxresistor_vert"
 import _capacitor_horz from "./../symbols/capacitor_horz"
@@ -32,6 +34,8 @@ import _zener_diode_horz from "./../symbols/zener_diode_horz"
 import _zener_diode_vert from "./../symbols/zener_diode_vert"
 
 export default {
+  "avalanche_diode_horz": _avalanche_diode_horz,
+  "avalanche_diode_vert": _avalanche_diode_vert,
   "boxresistor_horz": _boxresistor_horz,
   "boxresistor_vert": _boxresistor_vert,
   "capacitor_horz": _capacitor_horz,
