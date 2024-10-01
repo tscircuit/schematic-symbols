@@ -2,8 +2,6 @@ import { rotateSymbol } from "drawing/rotateSymbol"
 import dc_voltmeter_horz from "./ac_voltmeter_horz"
 import { Primitive } from "drawing/types"
 
-console.log(dc_voltmeter_horz.primitives)
-
 const {
   2: letter,
   3: path1,
