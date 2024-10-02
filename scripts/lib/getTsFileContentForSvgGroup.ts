@@ -7,6 +7,7 @@ export const getTsFileContentForSvgGroup = (
   return `
 import { defineSymbol } from "drawing/defineSymbol"
 import svgJson from "assets/generated/${groupId}.json"
+import { TextPrimitive } from "drawing/types";
 
 const { paths, texts, bounds, refblocks, circles } = svgJson
 
@@ -19,7 +20,7 @@ export default defineSymbol({
         return `{ ...texts.${key}, anchor: "middle_left" },`
       })
       .join("\n")}
-  ] as any,
+  ] as TextPrimitive[],
   ports: [
       ${Object.entries(svgData.refblocks)
         .map(([key, point], i) => {
