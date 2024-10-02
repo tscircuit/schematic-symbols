@@ -1,9 +1,13 @@
+import _ac_voltmeter_horz from "./../symbols/ac_voltmeter_horz"
+import _ac_voltmeter_vert from "./../symbols/ac_voltmeter_vert"
 import _avalanche_diode_horz from "./../symbols/avalanche_diode_horz"
 import _avalanche_diode_vert from "./../symbols/avalanche_diode_vert"
 import _boxresistor_horz from "./../symbols/boxresistor_horz"
 import _boxresistor_vert from "./../symbols/boxresistor_vert"
 import _capacitor_horz from "./../symbols/capacitor_horz"
 import _capacitor_vert from "./../symbols/capacitor_vert"
+import _dc_ammeter_horz from "./../symbols/dc_ammeter_horz"
+import _dc_ammeter_vert from "./../symbols/dc_ammeter_vert"
 import _dc_voltmeter_horz from "./../symbols/dc_voltmeter_horz"
 import _dc_voltmeter_vert from "./../symbols/dc_voltmeter_vert"
 import _diode_horz from "./../symbols/diode_horz"
@@ -20,6 +24,8 @@ import _potentiometer_horz from "./../symbols/potentiometer_horz"
 import _potentiometer_vert from "./../symbols/potentiometer_vert"
 import _potentiometer2_horz from "./../symbols/potentiometer2_horz"
 import _potentiometer2_vert from "./../symbols/potentiometer2_vert"
+import _power_factor_meter_horz from "./../symbols/power_factor_meter_horz"
+import _power_factor_meter_vert from "./../symbols/power_factor_meter_vert"
 import _push_button_normally_closed_momentary_horz from "./../symbols/push_button_normally_closed_momentary_horz"
 import _push_button_normally_closed_momentary_vert from "./../symbols/push_button_normally_closed_momentary_vert"
 import _push_button_normally_open_momentary_horz from "./../symbols/push_button_normally_open_momentary_horz"
@@ -38,12 +44,16 @@ import _zener_diode_horz from "./../symbols/zener_diode_horz"
 import _zener_diode_vert from "./../symbols/zener_diode_vert"
 
 export default {
+  "ac_voltmeter_horz": _ac_voltmeter_horz,
+  "ac_voltmeter_vert": _ac_voltmeter_vert,
   "avalanche_diode_horz": _avalanche_diode_horz,
   "avalanche_diode_vert": _avalanche_diode_vert,
   "boxresistor_horz": _boxresistor_horz,
   "boxresistor_vert": _boxresistor_vert,
   "capacitor_horz": _capacitor_horz,
   "capacitor_vert": _capacitor_vert,
+  "dc_ammeter_horz": _dc_ammeter_horz,
+  "dc_ammeter_vert": _dc_ammeter_vert,
   "dc_voltmeter_horz": _dc_voltmeter_horz,
   "dc_voltmeter_vert": _dc_voltmeter_vert,
   "diode_horz": _diode_horz,
@@ -60,6 +70,8 @@ export default {
   "potentiometer_vert": _potentiometer_vert,
   "potentiometer2_horz": _potentiometer2_horz,
   "potentiometer2_vert": _potentiometer2_vert,
+  "power_factor_meter_horz": _power_factor_meter_horz,
+  "power_factor_meter_vert": _power_factor_meter_vert,
   "push_button_normally_closed_momentary_horz": _push_button_normally_closed_momentary_horz,
   "push_button_normally_closed_momentary_vert": _push_button_normally_closed_momentary_vert,
   "push_button_normally_open_momentary_horz": _push_button_normally_open_momentary_horz,
