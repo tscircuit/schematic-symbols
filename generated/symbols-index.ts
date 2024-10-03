@@ -14,6 +14,8 @@ import _diode_horz from "./../symbols/diode_horz"
 import _diode_vert from "./../symbols/diode_vert"
 import _fuse_horz from "./../symbols/fuse_horz"
 import _fuse_vert from "./../symbols/fuse_vert"
+import _igbt_transistor_horz from "./../symbols/igbt_transistor_horz"
+import _igbt_transistor_vert from "./../symbols/igbt_transistor_vert"
 import _led_horz from "./../symbols/led_horz"
 import _led_vert from "./../symbols/led_vert"
 import _mosfet_depletion_normally_on_horz from "./../symbols/mosfet_depletion_normally_on_horz"
@@ -66,6 +68,8 @@ export default {
   "diode_vert": _diode_vert,
   "fuse_horz": _fuse_horz,
   "fuse_vert": _fuse_vert,
+  "igbt_transistor_horz": _igbt_transistor_horz,
+  "igbt_transistor_vert": _igbt_transistor_vert,
   "led_horz": _led_horz,
   "led_vert": _led_vert,
   "mosfet_depletion_normally_on_horz": _mosfet_depletion_normally_on_horz,
