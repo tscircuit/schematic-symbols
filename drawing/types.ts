@@ -15,6 +15,7 @@ export interface PathPrimitive {
   points: Point[]
   color: string
   closed?: boolean
+  strokeWidth?: number
 }
 
 export interface TextPrimitive {
@@ -33,6 +34,7 @@ export interface CirclePrimitive {
   radius: number
   fill: boolean
   color: string
+  strokeWidth?: number
 }
 
 export interface BoxPrimitive {
