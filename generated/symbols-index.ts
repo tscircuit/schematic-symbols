@@ -10,6 +10,8 @@ import _dc_ammeter_horz from "./../symbols/dc_ammeter_horz"
 import _dc_ammeter_vert from "./../symbols/dc_ammeter_vert"
 import _dc_voltmeter_horz from "./../symbols/dc_voltmeter_horz"
 import _dc_voltmeter_vert from "./../symbols/dc_voltmeter_vert"
+import _diac_horz from "./../symbols/diac_horz"
+import _diac_vert from "./../symbols/diac_vert"
 import _diode_horz from "./../symbols/diode_horz"
 import _diode_vert from "./../symbols/diode_vert"
 import _fuse_horz from "./../symbols/fuse_horz"
@@ -60,6 +62,8 @@ export default {
   "dc_ammeter_vert": _dc_ammeter_vert,
   "dc_voltmeter_horz": _dc_voltmeter_horz,
   "dc_voltmeter_vert": _dc_voltmeter_vert,
+  "diac_horz": _diac_horz,
+  "diac_vert": _diac_vert,
   "diode_horz": _diode_horz,
   "diode_vert": _diode_vert,
   "fuse_horz": _fuse_horz,
