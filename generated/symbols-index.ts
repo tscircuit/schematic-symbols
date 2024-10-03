@@ -38,6 +38,8 @@ import _triac_horz from "./../symbols/triac_horz"
 import _triac_vert from "./../symbols/triac_vert"
 import _tunnel_diode_horz from "./../symbols/tunnel_diode_horz"
 import _tunnel_diode_vert from "./../symbols/tunnel_diode_vert"
+import _var_meter_horz from "./../symbols/var_meter_horz"
+import _var_meter_vert from "./../symbols/var_meter_vert"
 import _varactor_diode_horz from "./../symbols/varactor_diode_horz"
 import _varactor_diode_vert from "./../symbols/varactor_diode_vert"
 import _varistor_horz from "./../symbols/varistor_horz"
@@ -88,6 +90,8 @@ export default {
   "triac_vert": _triac_vert,
   "tunnel_diode_horz": _tunnel_diode_horz,
   "tunnel_diode_vert": _tunnel_diode_vert,
+  "var_meter_horz": _var_meter_horz,
+  "var_meter_vert": _var_meter_vert,
   "varactor_diode_horz": _varactor_diode_horz,
   "varactor_diode_vert": _varactor_diode_vert,
   "varistor_horz": _varistor_horz,
