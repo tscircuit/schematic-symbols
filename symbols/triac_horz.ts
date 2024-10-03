@@ -1,5 +1,6 @@
 import { defineSymbol } from "drawing/defineSymbol"
 import svgJson from "assets/generated/triac.json"
+import { TextPrimitive } from "drawing/types";
 
 const { paths, texts, bounds, refblocks, circles } = svgJson
 
@@ -7,8 +8,8 @@ export default defineSymbol({
   primitives: [
     ...Object.values(paths),
     ...Object.values(circles),
-    { ...texts.top1, anchor: "middle_left" },
-    { ...texts.bottom1, anchor: "middle_left" },
+    { ...texts.top1, anchor: "middle_left" } as TextPrimitive,
+    { ...texts.bottom1, anchor: "middle_top" } as TextPrimitive,
   ] as any,
   ports: [
     { ...refblocks.left1, labels: ["1"] }, // TODO add more "standard" labels
