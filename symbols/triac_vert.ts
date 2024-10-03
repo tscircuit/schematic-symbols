@@ -8,7 +8,9 @@ const texts = rotatedSymbol.primitives.filter(
 )
 
 const ref = texts.find((text) => text.text === "{REF}")!
+const val = texts.find((text) => text.text === "{VAL}")!
 
 ref.y = 0
+val.y = 0
 
 export default rotatedSymbol
