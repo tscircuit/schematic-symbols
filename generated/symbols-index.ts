@@ -32,6 +32,8 @@ import _push_button_normally_open_momentary_horz from "./../symbols/push_button_
 import _push_button_normally_open_momentary_vert from "./../symbols/push_button_normally_open_momentary_vert"
 import _schottky_diode_horz from "./../symbols/schottky_diode_horz"
 import _schottky_diode_vert from "./../symbols/schottky_diode_vert"
+import _triac_horz from "./../symbols/triac_horz"
+import _triac_vert from "./../symbols/triac_vert"
 import _silicon_controlled_rectifier_horz from "./../symbols/silicon_controlled_rectifier_horz"
 import _silicon_controlled_rectifier_vert from "./../symbols/silicon_controlled_rectifier_vert"
 import _tunnel_diode_horz from "./../symbols/tunnel_diode_horz"
@@ -80,6 +82,8 @@ export default {
   "push_button_normally_open_momentary_vert": _push_button_normally_open_momentary_vert,
   "schottky_diode_horz": _schottky_diode_horz,
   "schottky_diode_vert": _schottky_diode_vert,
+  "triac_horz": _triac_horz,
+  "triac_vert": _triac_vert,
   "silicon_controlled_rectifier_horz": _silicon_controlled_rectifier_horz,
   "silicon_controlled_rectifier_vert": _silicon_controlled_rectifier_vert,
   "tunnel_diode_horz": _tunnel_diode_horz,
