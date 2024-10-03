@@ -1,6 +1,6 @@
 import { defineSymbol } from "drawing/defineSymbol"
 import svgJson from "assets/generated/triac.json"
-import { TextPrimitive } from "drawing/types";
+import { TextPrimitive } from "drawing/types"
 
 const { paths, texts, bounds, refblocks, circles } = svgJson
 
