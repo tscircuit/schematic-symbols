@@ -37,39 +37,28 @@ class OrganizeSVG(inkex.EffectExtension):
         return root_layer
 
     def get_or_create_file_layer(self, root_layer):
-        # Check if there's already a layer under root
+        # Check if there's already a group or layer under root with the desired name
         for child in root_layer:
-            if child.tag == '{http://www.w3.org/2000/svg}g' and child.get('inkscape:groupmode') == 'layer':
-                return child
+            if child.tag == '{http://www.w3.org/2000/svg}g':
+                if child.get('inkscape:label') == self.options.file_name:
+                    if child.get('inkscape:groupmode') == 'layer':
+                        # If it's a layer, convert it to a group
+                        child.set('inkscape:groupmode', 'group')
+                    return child
         
-        # If no layer found, create a new one with a default name
-        file_layer = inkex.Layer.new('unnamed')
-        root_layer.append(file_layer)
-        return file_layer
+        # If no group found, create a new one with the specified name
+        file_group = inkex.Group.new(self.options.file_name)
+        root_layer.append(file_group)
+        return file_group
 
     def flatten_groups(self, element):
-        def accumulate_transform(elem, transform=Transform()):
-            parent = elem.getparent()
-            if parent is not None and parent.tag == '{http://www.w3.org/2000/svg}g':
-                transform = Transform(parent.get('transform', '')) @ transform
-                return accumulate_transform(parent, transform)
-            return transform
-
         # Collect all descendants
         descendants = list(element.iter())
         
         # Move all non-group descendants directly under the file_layer
         for desc in descendants:
             if desc.tag != '{http://www.w3.org/2000/svg}g' and desc != element:
-                # Calculate accumulated transform
-                accumulated_transform = accumulate_transform(desc)
-                
-                # Apply accumulated transform
-                current_transform = Transform(desc.get('transform', ''))
-                new_transform = accumulated_transform @ current_transform
-                desc.set('transform', str(new_transform))
-                
-                # Move the element
+                # Move the element without modifying its transform
                 element.append(desc)
         
         # Remove all groups
