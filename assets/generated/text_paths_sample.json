@@ -2,6 +2,9 @@
   "paths": {
     "path59": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": 0.44825295000000054,
@@ -43,12 +46,13 @@
           "x": 0.44825695000000176,
           "y": -0.1560563000000006
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path58": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": 0.3745539499999999,
@@ -102,12 +106,13 @@
           "x": 0.3745559499999991,
           "y": -0.1560563000000006
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path57": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": 0.3012472499999994,
@@ -133,12 +138,13 @@
           "x": 0.3012469499999988,
           "y": -0.11316330000000052
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path56": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": 0.23970074999999946,
@@ -188,12 +194,13 @@
           "x": 0.2169629499999992,
           "y": -0.13318839999999987
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path55": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": 0.1644991499999997,
@@ -303,12 +310,13 @@
           "x": 0.16449875000000347,
           "y": -0.15604969999999874
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path54": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": 0.11213284999999962,
@@ -358,12 +366,13 @@
           "x": 0.11213284999999962,
           "y": -0.11238000000000059
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path53": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": 0.05839405000000042,
@@ -413,12 +422,13 @@
           "x": 0.05839324999999951,
           "y": -0.15605660000000054
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path52": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.013638850000000202,
@@ -608,12 +618,13 @@
           "x": -0.01364025000000102,
           "y": -0.1318842
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path51": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.0851163500000005,
@@ -655,12 +666,13 @@
           "x": -0.08511615000000106,
           "y": -0.1560558000000012
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path50": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.1499622499999993,
@@ -710,12 +722,13 @@
           "x": -0.1499627499999996,
           "y": -0.11316310000000085
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path49": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.2227465500000001,
@@ -797,12 +810,13 @@
           "x": -0.22274755000000046,
           "y": -0.13178430000000074
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path48": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.2159845499999995,
@@ -884,12 +898,13 @@
           "x": -0.215984449999997,
           "y": -0.1316901000000006
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path47": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.28974885000000006,
@@ -1115,12 +1130,13 @@
           "x": -0.2897458500000005,
           "y": -0.11851630000000002
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path46": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.3667472499999995,
@@ -1202,12 +1218,13 @@
           "x": -0.36674504999999935,
           "y": -0.12210599999999983
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path45": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.3708962500000006,
@@ -1289,12 +1306,13 @@
           "x": -0.370902250000001,
           "y": -0.14429349999999874
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path44": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.36001785000000064,
@@ -1412,12 +1430,13 @@
           "x": -0.36001795000000025,
           "y": -0.1223830999999993
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path43": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.4412630499999999,
@@ -1431,12 +1450,13 @@
           "x": -0.4583480500000001,
           "y": -0.12652450000000037
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path39": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.42760785000000046,
@@ -1470,12 +1490,13 @@
           "x": -0.4453149500000002,
           "y": -0.1560563000000006
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path74": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": 0.3553129500000005,
@@ -1517,12 +1538,13 @@
           "x": 0.35531295000000185,
           "y": -0.029533400000000043
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path73": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": 0.28951944999999957,
@@ -1560,12 +1582,13 @@
           "x": 0.2826265499999985,
           "y": -0.0724263000000005
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path72": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": 0.22284414999999957,
@@ -1615,12 +1638,13 @@
           "x": 0.21575504999999917,
           "y": -0.07242629999999961
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path71": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": 0.15267334999999993,
@@ -1674,12 +1698,13 @@
           "x": 0.1463358500000005,
           "y": -0.0724263000000005
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path70": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": 0.06515585000000002,
@@ -1709,12 +1734,13 @@
           "x": 0.058557549999999736,
           "y": -0.0724263000000005
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path69": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.009065849999999598,
@@ -1868,12 +1894,13 @@
           "x": -0.00906385000000176,
           "y": -0.0724247000000009
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path68": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.07574114999999959,
@@ -1907,12 +1934,13 @@
           "x": -0.07574094999999881,
           "y": -0.0724267999999999
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path67": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.14434385000000072,
@@ -2174,12 +2202,13 @@
           "x": -0.14434304999999847,
           "y": -0.0376685999999995
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path66": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.2246090500000002,
@@ -2261,12 +2290,13 @@
           "x": -0.2246050500000003,
           "y": -0.058734000000000064
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path65": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.2094866500000001,
@@ -2348,12 +2378,13 @@
           "x": -0.2277776499999995,
           "y": -0.04504929999999985
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path64": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.29024185000000036,
@@ -2423,12 +2454,13 @@
           "x": -0.29024224999999926,
           "y": -0.048092000000000024
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path63": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.28253185000000025,
@@ -2630,12 +2662,13 @@
           "x": -0.2825338499999994,
           "y": -0.01780319999999902
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path62": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.3646917499999993,
@@ -2717,12 +2750,13 @@
           "x": -0.3646937499999987,
           "y": -0.057570200000001126
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path61": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.3579617500000005,
@@ -2812,12 +2846,13 @@
           "x": -0.35796185000000036,
           "y": -0.057726600000000516
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path60": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.4302886500000007,
@@ -2887,12 +2922,13 @@
           "x": -0.4302890499999996,
           "y": -0.04808869999999987
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path40": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.4296986499999995,
@@ -3026,12 +3062,13 @@
           "x": -0.42969864999999685,
           "y": -0.0668403999999998
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path98": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": 0.46530495000000016,
@@ -3105,12 +3142,13 @@
           "x": 0.46531495000000045,
           "y": 0.04131059999999964
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path97": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": 0.4716449500000004,
@@ -3216,12 +3254,13 @@
           "x": 0.471642950000001,
           "y": 0.0411573999999999
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path96": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": 0.40016795000000016,
@@ -3291,12 +3330,13 @@
           "x": 0.40016795000000016,
           "y": 0.04161590000000048
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path95": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": 0.4065079500000004,
@@ -3366,12 +3406,13 @@
           "x": 0.4065079500000004,
           "y": 0.041616600000000004
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path94": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": 0.34006094999999936,
@@ -3485,12 +3526,13 @@
           "x": 0.3400409499999988,
           "y": 0.03615719999999767
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path93": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": 0.2742020500000002,
@@ -3712,12 +3754,13 @@
           "x": 0.2742003500000032,
           "y": 0.036159999999998416
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path92": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": 0.1852798499999999,
@@ -3735,12 +3778,13 @@
           "x": 0.1852798499999999,
           "y": 0.009013899999999797
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path91": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": 0.1490837500000004,
@@ -3790,12 +3834,13 @@
           "x": 0.13088755000000196,
           "y": 0.0402122999999992
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path90": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": 0.08038294999999995,
@@ -3905,12 +3950,13 @@
           "x": 0.08038214999999771,
           "y": 0.023366100000000056
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path89": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": 0.08077295000000007,
@@ -3928,12 +3974,13 @@
           "x": 0.08077295000000007,
           "y": 0.010874200000000389
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path88": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": 0.0337311500000006,
@@ -3951,12 +3998,13 @@
           "x": 0.0337311500000006,
           "y": 0.023353199999999408
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path87": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": 0.03412115000000071,
@@ -3974,12 +4022,13 @@
           "x": 0.03412115000000071,
           "y": 0.010874200000000389
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path86": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.007824550000000041,
@@ -4093,12 +4142,13 @@
           "x": -0.007819549999998454,
           "y": 0.03615499999999838
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path85": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.08008605000000069,
@@ -4172,12 +4222,13 @@
           "x": -0.08008605000000069,
           "y": 0.049813399999999675
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path84": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.07394504999999962,
@@ -4363,12 +4414,13 @@
           "x": -0.07394364999999747,
           "y": 0.023353299999999022
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path83": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.1309506500000004,
@@ -4486,12 +4538,13 @@
           "x": -0.13095465000000184,
           "y": 0.009339300000000161
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path82": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.1893936500000002,
@@ -4529,12 +4582,13 @@
           "x": -0.21030064999999998,
           "y": 0.0375308999999997
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path81": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.18341564999999993,
@@ -4664,12 +4718,13 @@
           "x": -0.18341274999999735,
           "y": 0.0388968999999999
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path80": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.25570994999999996,
@@ -4743,12 +4798,13 @@
           "x": -0.25570994999999996,
           "y": 0.050865099999999774
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path79": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.2495679500000001,
@@ -4850,12 +4906,13 @@
           "x": -0.24956835000000055,
           "y": 0.00901139999999967
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path78": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.31055904999999995,
@@ -5033,12 +5090,13 @@
           "x": -0.3105611500000016,
           "y": 0.05079590000000023
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path77": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.37697305000000014,
@@ -5112,12 +5170,13 @@
           "x": -0.3769740500000005,
           "y": 0.04148670000000121
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path76": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.37063505000000063,
@@ -5223,12 +5282,13 @@
           "x": -0.37063265000000256,
           "y": 0.04132480000000127
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path75": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.4442032500000004,
@@ -5302,12 +5362,13 @@
           "x": -0.4442022499999987,
           "y": 0.050865599999999844
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path41": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.4380942499999996,
@@ -5509,12 +5570,13 @@
           "x": -0.43809514999999877,
           "y": 0.035073300000002305
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path108": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": 0.11902495000000002,
@@ -5556,12 +5618,13 @@
           "x": 0.11902494999999869,
           "y": 0.13828560000000079
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path107": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": 0.06100654999999966,
@@ -5595,12 +5658,13 @@
           "x": 0.05457094999999934,
           "y": 0.10698949999999985
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path106": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.002075249999999418,
@@ -5650,12 +5714,13 @@
           "x": -0.016416350000000746,
           "y": 0.12495680000000009
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path105": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.06603914999999949,
@@ -5709,12 +5774,13 @@
           "x": -0.0722131500000025,
           "y": 0.10698949999999985
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path104": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.14349494999999957,
@@ -5744,12 +5810,13 @@
           "x": -0.1499306499999995,
           "y": 0.10698949999999985
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path103": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.2106602500000001,
@@ -5863,12 +5930,13 @@
           "x": -0.21066125000000047,
           "y": 0.10698710000000089
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path102": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.2718473499999994,
@@ -6002,12 +6070,13 @@
           "x": -0.27184834999999974,
           "y": 0.13762980000000025
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path101": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.32310345000000007,
@@ -6269,12 +6338,13 @@
           "x": -0.32310695000000256,
           "y": 0.1329542000000008
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path100": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.3784756499999993,
@@ -6368,12 +6438,13 @@
           "x": -0.37847865000000036,
           "y": 0.10737469999999716
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "path99": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.4429948500000003,
@@ -6447,12 +6518,13 @@
           "x": -0.4429958499999991,
           "y": 0.1341964
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     },
     "text": {
       "type": "path",
+      "label": "text",
+      "color": "primary",
+      "fill": false,
       "points": [
         {
           "x": -0.4368528500000004,
@@ -6554,9 +6626,7 @@
           "x": -0.43685525000000003,
           "y": 0.10698189999999985
         }
-      ],
-      "color": "primary",
-      "fill": false
+      ]
     }
   },
   "texts": {},

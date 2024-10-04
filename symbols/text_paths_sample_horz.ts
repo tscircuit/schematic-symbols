@@ -7,7 +7,10 @@ const { paths, bounds, circles } = svgJson
 
 const modifiedPaths = Object.entries(paths).map(([key, path]) => {
   if (isPathPrimitive(path)) {
-    return { ...path, closed: true, strokeWidth: 0.0079, fill: false }
+    if (path.label === "text") {
+      return { ...path, closed: true, strokeWidth: 0.0079, fill: false }
+    }
+    return path
   }
 })
 
