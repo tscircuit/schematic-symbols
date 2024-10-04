@@ -6,6 +6,8 @@ import _boxresistor_horz from "./../symbols/boxresistor_horz"
 import _boxresistor_vert from "./../symbols/boxresistor_vert"
 import _capacitor_horz from "./../symbols/capacitor_horz"
 import _capacitor_vert from "./../symbols/capacitor_vert"
+import _constant_current_diode_horz from "./../symbols/constant_current_diode_horz"
+import _constant_current_diode_vert from "./../symbols/constant_current_diode_vert"
 import _dc_ammeter_horz from "./../symbols/dc_ammeter_horz"
 import _dc_ammeter_vert from "./../symbols/dc_ammeter_vert"
 import _dc_voltmeter_horz from "./../symbols/dc_voltmeter_horz"
@@ -62,6 +64,8 @@ export default {
   "boxresistor_vert": _boxresistor_vert,
   "capacitor_horz": _capacitor_horz,
   "capacitor_vert": _capacitor_vert,
+  "constant_current_diode_horz": _constant_current_diode_horz,
+  "constant_current_diode_vert": _constant_current_diode_vert,
   "dc_ammeter_horz": _dc_ammeter_horz,
   "dc_ammeter_vert": _dc_ammeter_vert,
   "dc_voltmeter_horz": _dc_voltmeter_horz,
