@@ -1,0 +1,43 @@
+# Configuration for probot-stale - https://github.com/probot/stale
+
+# Number of days of inactivity before a Pull Request becomes stale
+daysUntilPrStale: 3
+# Number of days of inactivity before a stale Pull Request is closed
+daysUntilPrClose: 0
+# Number of days of inactivity before an Issue becomes stale
+daysUntilIssueStale: 28
+# Number of days of inactivity before a stale Issue is closed
+daysUntilIssueClose: 0
+
+# Label to use when marking as stale
+staleLabel: stale
+
+# Comment to post when marking as stale
+markComment: >
+  This item has been automatically marked as stale due to inactivity.
+  It will be closed if no further activity occurs. Thank you for your contributions.
+
+# Comment to post when closing a stale Pull Request
+prCloseComment: >
+  This Pull Request has been automatically closed due to inactivity.
+  Please feel free to reopen it if you'd like to continue working on these changes.
+
+# Comment to post when closing a stale Issue
+issueCloseComment: >
+  This Issue has been automatically closed due to inactivity.
+  Please feel free to reopen it if the issue persists or if you have any new information to add.
+
+# Limit to only `issues` or `pulls`
+# only: issues
+
+# Set to true to ignore issues with an assignee (defaults to false)
+exemptAssignees: false
+
+# Set to true to ignore issues with milestone (defaults to false)
+exemptMilestones: false
+
+# Set to true to ignore issues with projects (defaults to false)
+exemptProjects: false
+
+# Limit the number of actions per hour, from 1-30. Default is 30
+limitPerRun: 30
