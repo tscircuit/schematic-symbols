@@ -19,7 +19,6 @@ export default defineSymbol({
       y: 0.35,
       anchor: "middle_top",
     },
-    { ...texts.left1, x: 0, fontSize: 0.4, anchor: "middle_bottom" },
   ] as any,
   ports: [
     { ...refblocks.left1, labels: ["1"] }, // TODO add more "standard" labels
