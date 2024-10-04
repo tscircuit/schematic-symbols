@@ -7,12 +7,12 @@ const texts = rotatedSymbol.primitives.filter((p) => p.type === "text")
 
 const val = texts.find((t) => t.text === "{VAL}")
 
-val.x=-0.35
+val.x = -0.35
 val.anchor = "middle_right"
 
-const ref = texts.find((t)=>t.text==="{REF}")
+const ref = texts.find((t) => t.text === "{REF}")
 
-ref.y=0
+ref.y = 0
 ref.anchor = "middle_left"
 
 export default rotatedSymbol
