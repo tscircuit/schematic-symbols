@@ -1,8 +1,6 @@
 import { rotateSymbol } from "drawing/rotateSymbol"
 import laser_diode_horz from "./laser_diode_horz"
 
-
-
 const rotatedSymbol = rotateSymbol(laser_diode_horz)
 
 const texts = rotatedSymbol.primitives.filter((p) => p.type === "text")
