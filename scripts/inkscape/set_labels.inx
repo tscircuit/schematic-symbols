@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+    <name>Set Labels for Selected Paths</name>
+    <id>org.inkscape.effect.set_labels</id>
+    <param name="label_prefix" type="string" gui-text="Label Prefix:">newlabel</param>
+    <param name="start_number" type="int" min="0" max="9999" gui-text="Start Number:">1</param>
+    <param name="use_numbering" type="boolean" gui-text="Use Numbering">true</param>
+    <effect>
+        <object-type>path</object-type>
+        <effects-menu>
+            <submenu name="Custom"/>
+        </effects-menu>
+    </effect>
+    <script>
+        <command location="inx" interpreter="python">set_labels.py</command>
+    </script>
+</inkscape-extension>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+    <name>Organize SVG Structure</name>
+    <id>org.inkscape.effect.organize_svg</id>
+    <param name="file_name" type="string" gui-text="File Layer Name (leave empty to keep current):"></param>
+    <param name="flatten_groups" type="boolean" gui-text="Flatten Group Folders">true</param>
+    <effect>
+        <object-type>all</object-type>
+        <effects-menu>
+            <submenu name="Custom"/>
+        </effects-menu>
+    </effect>
+    <script>
+        <command location="inx" interpreter="python">organize_svg.py</command>
+    </script>
+    <gui-handler>close</gui-handler>
+</inkscape-extension>
