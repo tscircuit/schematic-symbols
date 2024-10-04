@@ -61,6 +61,7 @@ export async function processSvg(symbolsSvg: string, fileName?: string) {
               .map((child) => ({
                 x: Number.parseFloat(child.attributes.cx),
                 y: Number.parseFloat(child.attributes.cy),
+                label: child.attributes["inkscape:label"],
               })),
           )
 
@@ -71,6 +72,7 @@ export async function processSvg(symbolsSvg: string, fileName?: string) {
             textChildren.map((text) => ({
               type: "text",
               text: findInnerText(text),
+              label: text.attributes["inkscape:label"],
               x: Number.parseFloat(text.attributes.x),
               y: Number.parseFloat(text.attributes.y),
             })),
@@ -84,11 +86,12 @@ export async function processSvg(symbolsSvg: string, fileName?: string) {
               path.attributes.id!,
               {
                 type: "path",
-                points: svgPathToPoints(path.attributes.d!),
+                label: path.attributes["inkscape:label"],
                 color: "primary",
                 fill:
                   path.attributes.fill === "true" &&
                   !path.attributes.style?.includes("fill:none"),
+                points: svgPathToPoints(path.attributes.d!),
               },
             ]),
           )
@@ -103,6 +106,7 @@ export async function processSvg(symbolsSvg: string, fileName?: string) {
                 circle.attributes.id!,
                 {
                   type: "circle",
+                  label: circle.attributes["inkscape:label"],
                   x: Number.parseFloat(circle.attributes.cx),
                   y: Number.parseFloat(circle.attributes.cy),
                   radius: Number.parseFloat(circle.attributes.r),

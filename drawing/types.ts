@@ -16,6 +16,7 @@ export interface PathPrimitive {
   color: string
   closed?: boolean
   strokeWidth?: number
+  label?: string
 }
 
 export interface TextPrimitive {
@@ -25,6 +26,7 @@ export interface TextPrimitive {
   x: number
   y: number
   anchor: NinePointAnchor
+  label?: string
 }
 
 export interface CirclePrimitive {
@@ -35,6 +37,7 @@ export interface CirclePrimitive {
   fill: boolean
   color: string
   strokeWidth?: number
+  label?: string
 }
 
 export interface BoxPrimitive {
@@ -44,6 +47,7 @@ export interface BoxPrimitive {
   width: number
   height: number
   anchor: string
+  label?: string
 }
 
 export type Primitive =
