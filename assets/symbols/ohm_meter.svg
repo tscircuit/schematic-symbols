@@ -23,16 +23,17 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="11.239978"
-     inkscape:cx="50.533907"
-     inkscape:cy="55.204734"
+     inkscape:zoom="8.6455813"
+     inkscape:cx="56.098021"
+     inkscape:cy="51.818378"
      inkscape:window-width="1392"
-     inkscape:window-height="786"
+     inkscape:window-height="787"
      inkscape:window-x="48"
      inkscape:window-y="25"
      inkscape:window-maximized="0"
      inkscape:current-layer="potentiometer"
-     showgrid="true">
+     showgrid="true"
+     showguides="false">
     <inkscape:grid
        id="grid207"
        units="mm"
@@ -59,12 +60,18 @@
     <g
        id="potentiometer"
        transform="rotate(90,-19.246732,-62.458284)"
-       inkscape:label="ohm_meter">
+       inkscape:label="volt_meter">
       <path
          style="fill:none;stroke:#000000;stroke-width:0.244764px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
          d="m 58.208334,-91.262154 v -2.26429"
          id="path11"
          inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.244764px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 59.160433,-95.287909 0.0068,-1.000107 c -0.02835,0.408786 -2.470278,1.923612 -2.465861,-0.199893 -0.01688,-2.031336 2.448132,-0.626799 2.444311,-0.231107 l 0.0145,-0.984618"
+         id="path11-5-5"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
       <path
          style="fill:none;stroke:#000000;stroke-width:0.252778;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
          d="m 58.208334,-99.469105 v -2.407405"
@@ -115,12 +122,6 @@
          cy="58.137051"
          r="2.8854213"
          transform="rotate(-90)" />
-      <path
-         d="M 97.703268,59.168671 H 96.71108 v -0.666627 q 0.103353,-0.06546 0.204983,-0.141249 0.103353,-0.07579 0.179146,-0.173977 0.07751,-0.101631 0.122301,-0.237712 0.04479,-0.137804 0.04479,-0.320394 0,-0.354845 -0.218764,-0.568441 -0.218764,-0.215319 -0.597724,-0.215319 -0.378961,0 -0.597725,0.215319 -0.218764,0.213596 -0.218764,0.568441 0,0.18259 0.04479,0.320394 0.04479,0.136081 0.122301,0.237712 0.07751,0.09819 0.179145,0.173977 0.10163,0.07579 0.204983,0.141249 v 0.666627 h -0.992188 v -0.299724 h 0.706245 v -0.213596 q -0.27044,-0.155029 -0.44614,-0.423747 -0.173978,-0.268718 -0.173978,-0.602892 0,-0.475424 0.322117,-0.77687 0.323839,-0.301446 0.849217,-0.301446 0.525377,0 0.847494,0.301446 0.323839,0.301446 0.323839,0.77687 0,0.334174 -0.1757,0.602892 -0.173978,0.268718 -0.444418,0.423747 v 0.213596 h 0.706245 z"
-         id="text4"
-         style="font-size:3.52778px;line-height:1.25;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-         transform="rotate(-90)"
-         aria-label="Ω" />
     </g>
   </g>
 </svg>
