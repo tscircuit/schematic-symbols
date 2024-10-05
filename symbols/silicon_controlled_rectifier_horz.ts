@@ -14,7 +14,7 @@ export default defineSymbol({
   ports: [
     { ...refblocks.left1, labels: ["1"] }, // TODO add more "standard" labels
     { ...refblocks.right1, labels: ["2"] }, // TODO add more "standard" labels
-    { ...refblocks.right2, labels: ["3"] }, // TODO add more "standard" labels
+    { ...refblocks.bottom1, labels: ["3"] }, // TODO add more "standard" labels
   ],
   size: { width: bounds.width, height: bounds.height },
   center: { x: bounds.centerX, y: bounds.centerY },
