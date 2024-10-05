@@ -31,7 +31,8 @@ console.log(resize(symbols.resistor, { width: 100 }).size)
 2. Run `bun run generate` to generate the new symbol
 3. Run `bun run dev` to start the dev server and verify the new symbol
 4. Run `bun run format` to format code before committing
-5. Run `bun run build` to build all the symbols into the `./generated` directory
+5. Run `bun run test` to ensure symbol snapshots are present & validated
+6. Run `bun run build` to build all the symbols into the `./generated` directory
 
 Here's an example of a generated symbol file:
 
