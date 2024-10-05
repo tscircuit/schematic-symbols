@@ -1,5 +1,5 @@
 import { defineSymbol } from "drawing/defineSymbol"
-import svgJson from "assets/generated/n_jeft_transistor.json"
+import svgJson from "assets/generated/n_jfet_transistor.json"
 
 const { paths, texts, bounds, refblocks, circles } = svgJson
 
@@ -11,9 +11,9 @@ export default defineSymbol({
     { ...texts.bottom1, anchor: "middle_center", x: -0.15 },
   ] as any,
   ports: [
-    { ...refblocks.top1, labels: ["1"] }, // TODO add more "standard" labels
-    { ...refblocks.bottom1, labels: ["2"] }, // TODO add more "standard" labels
-    { ...refblocks.left1, labels: ["3"] }, // TODO add more "standard" labels
+    { ...refblocks.top1, labels: ["Drain"] }, // TODO add more "standard" labels
+    { ...refblocks.bottom1, labels: ["Source"] }, // TODO add more "standard" labels
+    { ...refblocks.left1, labels: ["Gate"] }, // TODO add more "standard" labels
   ],
   size: { width: bounds.width, height: bounds.height },
   center: { x: bounds.centerX, y: bounds.centerY },

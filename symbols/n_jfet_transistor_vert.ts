@@ -1,5 +1,5 @@
 import { rotateSymbol } from "drawing/rotateSymbol"
-import n_jeft_transistor_horz from "./n_jeft_transistor_horz"
+import n_jeft_transistor_horz from "./n_jfet_transistor_horz"
 
 const rotatedSymbol = rotateSymbol(n_jeft_transistor_horz)
 
