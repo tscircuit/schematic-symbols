@@ -28,6 +28,53 @@ export function getBoundsOfSvgJson(svgJson: INode): {
       }
     }
 
+    if (
+      node.name === "circle" &&
+      node.attributes.cx &&
+      node.attributes.cy &&
+      node.attributes.r
+    ) {
+      const cx = parseFloat(node.attributes.cx)
+      const cy = parseFloat(node.attributes.cy)
+      const r = parseFloat(node.attributes.r)
+
+      minX = Math.min(minX, cx - r)
+      maxX = Math.max(maxX, cx + r)
+      minY = Math.min(minY, cy - r)
+      maxY = Math.max(maxY, cy + r)
+    }
+
+    if (
+      node.name === "rect" &&
+      node.attributes.x &&
+      node.attributes.y &&
+      node.attributes.width &&
+      node.attributes.height
+    ) {
+      const x = parseFloat(node.attributes.x)
+      const y = parseFloat(node.attributes.y)
+      const width = parseFloat(node.attributes.width)
+      const height = parseFloat(node.attributes.height)
+
+      minX = Math.min(minX, x)
+      maxX = Math.max(maxX, x + width)
+      minY = Math.min(minY, y)
+      maxY = Math.max(maxY, y + height)
+    }
+
+    if (node.name === "text" && node.attributes.x && node.attributes.y) {
+      const x = parseFloat(node.attributes.x)
+      const y = parseFloat(node.attributes.y)
+
+      const textWidth = 0.1
+      const textHeight = 0.1
+
+      minX = Math.min(minX, x)
+      maxX = Math.max(maxX, x + textWidth)
+      minY = Math.min(minY, y - textHeight)
+      maxY = Math.max(maxY, y)
+    }
+
     if (node.children) {
       node.children.forEach(processNode)
     }
