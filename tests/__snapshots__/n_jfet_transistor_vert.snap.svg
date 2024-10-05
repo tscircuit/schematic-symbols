@@ -10,14 +10,14 @@
     <text x="-0.35" y="0" dx="0" dy="0.037500000000000006" text-anchor="end" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.3625" y="-0.0125" width="0.025" height="0.025" fill="blue" />
 
     <rect x="0.5269248499999993" y="0.25938945549999964" width="0.05" height="0.05" fill="red" />
-    <text x="0.5119248499999993" y="0.37438945549999963" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">Drain</text>
+    <text x="0.5119248499999993" y="0.37438945549999963" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
   
     
     <rect x="-0.5769248499999993" y="0.2660880555000011" width="0.05" height="0.05" fill="red" />
-    <text x="-0.5919248499999993" y="0.3810880555000011" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">Source</text>
+    <text x="-0.5919248499999993" y="0.3810880555000011" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
   
     
     <rect x="-0.029526550000000405" y="-0.42400974449999984" width="0.05" height="0.05" fill="red" />
-    <text x="-0.0445265500000004" y="-0.30900974449999985" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">Gate</text>
+    <text x="-0.0445265500000004" y="-0.30900974449999985" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
   
 <path d="M 2.7755575615628914e-17 -0.024999999999999946 L 0.02500000000000003 5.551115123125783e-17 L 2.7755575615628914e-17 0.025000000000000057 L -0.024999999999999974 5.551115123125783e-17 Z" fill="green" /></svg>
