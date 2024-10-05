@@ -1,5 +1,5 @@
 import { defineSymbol } from "drawing/defineSymbol"
-import svgJson from "assets/generated/gunn.json"
+import svgJson from "assets/generated/gunn_diode.json"
 
 const { paths, texts, bounds, refblocks, circles } = svgJson
 

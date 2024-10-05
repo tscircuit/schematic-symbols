@@ -1,7 +1,7 @@
 import { rotateSymbol } from "drawing/rotateSymbol"
-import gunn_horz from "./gunn_horz"
+import gunn_diode_horz from "./gunn_diode_horz"
 
-const rotatedSymbol = rotateSymbol(gunn_horz)
+const rotatedSymbol = rotateSymbol(gunn_diode_horz)
 const texts = rotatedSymbol.primitives.filter((p) => p.type === "text")
 const ref = texts.find((t) => t.text === "{REF}")!
 const val = texts.find((t) => t.text === "{VAL}")!
