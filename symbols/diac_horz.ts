@@ -7,7 +7,7 @@ export default defineSymbol({
   primitives: [
     ...Object.values(paths),
     ...Object.values(circles),
-    { ...texts.top1, anchor: "middle_left" },
+    { ...texts.top1, anchor: "middle_bottom" },
     { ...texts.bottom1, anchor: "middle_top" },
   ] as any,
   ports: [
