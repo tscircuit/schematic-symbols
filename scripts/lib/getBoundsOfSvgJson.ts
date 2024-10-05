@@ -28,6 +28,22 @@ export function getBoundsOfSvgJson(svgJson: INode): {
       }
     }
 
+    if (
+      node.name === "circle" &&
+      node.attributes.cx &&
+      node.attributes.cy &&
+      node.attributes.r
+    ) {
+      const cx = parseFloat(node.attributes.cx)
+      const cy = parseFloat(node.attributes.cy)
+      const r = parseFloat(node.attributes.r)
+
+      minX = Math.min(minX, cx - r)
+      maxX = Math.max(maxX, cx + r)
+      minY = Math.min(minY, cy - r)
+      maxY = Math.max(maxY, cy + r)
+    }
+
     if (node.children) {
       node.children.forEach(processNode)
     }
