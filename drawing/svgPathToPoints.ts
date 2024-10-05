@@ -1,4 +1,4 @@
-import { Point } from "./types"
+import type { Point } from "./types"
 
 export function svgPathToPoints(pathString: string): Point[] {
   const points: Point[] = []
@@ -34,6 +34,12 @@ export function svgPathToPoints(pathString: string): Point[] {
       case "V":
         addPoint(currentX, args[0])
         break
+      case "C":
+        // For C command, we add both control points and the end point
+        points.push({ x: args[0], y: args[1] }) // First control point
+        points.push({ x: args[2], y: args[3] }) // Second control point
+        addPoint(args[4], args[5]) // End point
+        break
       case "Q":
         // For Q command, we add both the control point and the end point
         points.push({ x: args[0], y: args[1] }) // Control point
@@ -42,14 +48,22 @@ export function svgPathToPoints(pathString: string): Point[] {
       case "Z":
         // Close path - no new point
         break
-      // Add cases for other commands (C, S, T, A) if needed
+      // Add cases for other commands (S, T, A) if needed
       default:
         console.warn(`Unsupported SVG command: ${type}`)
     }
 
     // Handle relative commands
     if (type === type.toLowerCase() && type !== "z") {
-      if (type === "q") {
+      if (type === "c") {
+        // For relative c, adjust both control points and end point
+        points[points.length - 3].x += currentX
+        points[points.length - 3].y += currentY
+        points[points.length - 2].x += currentX
+        points[points.length - 2].y += currentY
+        points[points.length - 1].x += currentX
+        points[points.length - 1].y += currentY
+      } else if (type === "q") {
         // For relative q, adjust both control point and end point
         points[points.length - 2].x += currentX
         points[points.length - 2].y += currentY
