@@ -1,4 +1,4 @@
-import { Point } from "./types"
+import type { Point } from "./types"
 
 export function svgPathToPoints(pathString: string): Point[] {
   const points: Point[] = []
