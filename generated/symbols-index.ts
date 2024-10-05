@@ -18,6 +18,8 @@ import _diode_horz from "./../symbols/diode_horz"
 import _diode_vert from "./../symbols/diode_vert"
 import _fuse_horz from "./../symbols/fuse_horz"
 import _fuse_vert from "./../symbols/fuse_vert"
+import _gunn_diode_horz from "./../symbols/gunn_diode_horz"
+import _gunn_diode_vert from "./../symbols/gunn_diode_vert"
 import _igbt_transistor_horz from "./../symbols/igbt_transistor_horz"
 import _igbt_transistor_vert from "./../symbols/igbt_transistor_vert"
 import _laser_diode_horz from "./../symbols/laser_diode_horz"
@@ -82,6 +84,8 @@ export default {
   "diode_vert": _diode_vert,
   "fuse_horz": _fuse_horz,
   "fuse_vert": _fuse_vert,
+  "gunn_diode_horz": _gunn_diode_horz,
+  "gunn_diode_vert": _gunn_diode_vert,
   "igbt_transistor_horz": _igbt_transistor_horz,
   "igbt_transistor_vert": _igbt_transistor_vert,
   "laser_diode_horz": _laser_diode_horz,
