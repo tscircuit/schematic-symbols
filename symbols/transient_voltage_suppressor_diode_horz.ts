@@ -1,7 +1,7 @@
-import { defineSymbol } from "drawing/defineSymbol"
-import svgJson from "assets/generated/transient_voltage_suppressor_diode.json"
+import { defineSymbol } from "drawing/defineSymbol";
+import svgJson from "assets/generated/transient_voltage_suppressor_diode.json";
 
-const { paths, texts, bounds, refblocks, circles } = svgJson
+const { paths, texts, bounds, refblocks, circles } = svgJson;
 
 export default defineSymbol({
   primitives: [
@@ -12,14 +12,16 @@ export default defineSymbol({
     {
       type: "text",
       text: "{REF}",
-      x: -0.15,
-      y: -0.3,
+      x: 0,
+      y: -0.4,
+      anchor: "middle_bottom",
     },
     {
       type: "text",
       text: "{VAL}",
-      x: -0.15,
-      y: 0.3,
+      x: 0,
+      y: 0.4,
+      anchor: "middle_top",
     },
   ] as any,
   ports: [
@@ -28,4 +30,4 @@ export default defineSymbol({
   ],
   size: { width: bounds.width, height: bounds.height },
   center: { x: bounds.centerX, y: bounds.centerY },
-})
+});

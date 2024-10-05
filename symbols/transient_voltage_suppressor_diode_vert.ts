@@ -7,7 +7,7 @@ const ref = texts.find((t) => t.text === "{REF}")!
 const val = texts.find((t) => t.text === "{VAL}")!
 
 ref.x = 0.35
-ref.y = 0
-val.x = -0.6
-val.y = 0
+ref.y = -0.05
+val.x = -0.35
+val.y = -0.05
 export default rotatedSymbol
