@@ -44,6 +44,24 @@ export function getBoundsOfSvgJson(svgJson: INode): {
       maxY = Math.max(maxY, cy + r)
     }
 
+    if (
+      node.name === "rect" &&
+      node.attributes.x &&
+      node.attributes.y &&
+      node.attributes.width &&
+      node.attributes.height
+    ) {
+      const x = parseFloat(node.attributes.x)
+      const y = parseFloat(node.attributes.y)
+      const width = parseFloat(node.attributes.width)
+      const height = parseFloat(node.attributes.height)
+
+      minX = Math.min(minX, x)
+      maxX = Math.max(maxX, x + width)
+      minY = Math.min(minY, y)
+      maxY = Math.max(maxY, y + height)
+    }
+
     if (node.children) {
       node.children.forEach(processNode)
     }
