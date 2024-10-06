@@ -8,7 +8,7 @@ export default defineSymbol({
     ...Object.values(paths),
     ...Object.values(circles),
     { ...texts.top1, anchor: "middle_right", x: 0 },
-    { ...texts.bottom1, anchor: "middle_right", x:0 },
+    { ...texts.bottom1, anchor: "middle_right", x: 0 },
   ] as any,
   ports: [
     { ...refblocks.top1, labels: ["1", "drain"] }, // TODO add more "standard" labels
