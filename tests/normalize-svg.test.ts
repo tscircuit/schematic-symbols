@@ -23,6 +23,6 @@ it("should transform V properly", () => {
 it("should load V path directives properly", () => {
   const result = applyGroupTransformsToChildren(boxResistorSvgJson as any)
   expect(result.children[1].attributes.d).toEqual(
-    "M19.997366600000007,105.11920759999998 L22.643199600000003,105.11920759999998",
+    "M27.93486560000001,105.11920759999998 L30.580699600000003,105.11920759999998",
   )
 })
