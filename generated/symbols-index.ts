@@ -8,6 +8,8 @@ import _capacitor_horz from "./../symbols/capacitor_horz"
 import _capacitor_vert from "./../symbols/capacitor_vert"
 import _constant_current_diode_horz from "./../symbols/constant_current_diode_horz"
 import _constant_current_diode_vert from "./../symbols/constant_current_diode_vert"
+import _crystal_horz from "./../symbols/crystal_horz"
+import _crystal_vert from "./../symbols/crystal_vert"
 import _dc_ammeter_horz from "./../symbols/dc_ammeter_horz"
 import _dc_ammeter_vert from "./../symbols/dc_ammeter_vert"
 import _dc_voltmeter_horz from "./../symbols/dc_voltmeter_horz"
@@ -76,6 +78,8 @@ export default {
   "capacitor_vert": _capacitor_vert,
   "constant_current_diode_horz": _constant_current_diode_horz,
   "constant_current_diode_vert": _constant_current_diode_vert,
+  "crystal_horz": _crystal_horz,
+  "crystal_vert": _crystal_vert,
   "dc_ammeter_horz": _dc_ammeter_horz,
   "dc_ammeter_vert": _dc_ammeter_vert,
   "dc_voltmeter_horz": _dc_voltmeter_horz,
