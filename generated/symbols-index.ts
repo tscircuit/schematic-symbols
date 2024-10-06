@@ -32,6 +32,8 @@ import _mosfet_depletion_normally_on_horz from "./../symbols/mosfet_depletion_no
 import _mosfet_depletion_normally_on_vert from "./../symbols/mosfet_depletion_normally_on_vert"
 import _photodiode_horz from "./../symbols/photodiode_horz"
 import _photodiode_vert from "./../symbols/photodiode_vert"
+import _pjfet_transistor_horz from "./../symbols/pjfet_transistor_horz"
+import _pjfet_transistor_vert from "./../symbols/pjfet_transistor_vert"
 import _potentiometer_horz from "./../symbols/potentiometer_horz"
 import _potentiometer_vert from "./../symbols/potentiometer_vert"
 import _potentiometer2_horz from "./../symbols/potentiometer2_horz"
@@ -102,6 +104,8 @@ export default {
   "mosfet_depletion_normally_on_vert": _mosfet_depletion_normally_on_vert,
   "photodiode_horz": _photodiode_horz,
   "photodiode_vert": _photodiode_vert,
+  "pjfet_transistor_horz": _pjfet_transistor_horz,
+  "pjfet_transistor_vert": _pjfet_transistor_vert,
   "potentiometer_horz": _potentiometer_horz,
   "potentiometer_vert": _potentiometer_vert,
   "potentiometer2_horz": _potentiometer2_horz,
