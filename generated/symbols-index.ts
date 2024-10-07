@@ -56,6 +56,8 @@ import _schottky_diode_horz from "./../symbols/schottky_diode_horz"
 import _schottky_diode_vert from "./../symbols/schottky_diode_vert"
 import _silicon_controlled_rectifier_horz from "./../symbols/silicon_controlled_rectifier_horz"
 import _silicon_controlled_rectifier_vert from "./../symbols/silicon_controlled_rectifier_vert"
+import _transient_voltage_suppressor_diode_horz from "./../symbols/transient_voltage_suppressor_diode_horz"
+import _transient_voltage_suppressor_diode_vert from "./../symbols/transient_voltage_suppressor_diode_vert"
 import _step_recovery_diode_horz from "./../symbols/step_recovery_diode_horz"
 import _step_recovery_diode_vert from "./../symbols/step_recovery_diode_vert"
 import _triac_horz from "./../symbols/triac_horz"
@@ -134,6 +136,8 @@ export default {
   "schottky_diode_vert": _schottky_diode_vert,
   "silicon_controlled_rectifier_horz": _silicon_controlled_rectifier_horz,
   "silicon_controlled_rectifier_vert": _silicon_controlled_rectifier_vert,
+  "transient_voltage_suppressor_diode_horz": _transient_voltage_suppressor_diode_horz,
+  "transient_voltage_suppressor_diode_vert": _transient_voltage_suppressor_diode_vert,
   "step_recovery_diode_horz": _step_recovery_diode_horz,
   "step_recovery_diode_vert": _step_recovery_diode_vert,
   "triac_horz": _triac_horz,
