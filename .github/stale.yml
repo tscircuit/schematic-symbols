@@ -1,9 +1,9 @@
 # Configuration for probot-stale - https://github.com/probot/stale
 
 # Number of days of inactivity before a Pull Request becomes stale
-daysUntilPrStale: 3
+daysUntilPrStale: 1
 # Number of days of inactivity before a stale Pull Request is closed
-daysUntilPrClose: 0
+daysUntilPrClose: 2
 # Number of days of inactivity before an Issue becomes stale
 daysUntilIssueStale: 28
 # Number of days of inactivity before a stale Issue is closed
