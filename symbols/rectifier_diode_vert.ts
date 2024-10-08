@@ -3,6 +3,7 @@ import { rotateSymbol } from "drawing/rotateSymbol"
 import rectifier_diode_horz from "./rectifier_diode_horz"
 
 const rotated = rotateSymbol(rectifier_diode_horz)
+
 const ref = rotated.primitives.find(
   (p) => p.type === "text" && p.text === "{REF}",
 )! as TextPrimitive
