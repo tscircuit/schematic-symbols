@@ -23,9 +23,9 @@ export default defineSymbol({
     },
   ] as any,
   ports: [
-    { ...refblocks.top1, labels: ["1"] }, // TODO add more "standard" labels
-    { ...refblocks.bottom1, labels: ["2"] }, // TODO add more "standard" labels
-    { ...refblocks.left1, labels: ["3"] }, // TODO add more "standard" labels
+    { ...refblocks.top1, labels: ["1", "collector"] },
+    { ...refblocks.bottom1, labels: ["2", "emitter"] },
+    { ...refblocks.left1, labels: ["3", "base"] },
   ],
   size: { width: bounds.width, height: bounds.height },
   center: { x: bounds.centerX, y: bounds.centerY },
