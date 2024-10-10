@@ -18,6 +18,8 @@ import _diac_horz from "./../symbols/diac_horz"
 import _diac_vert from "./../symbols/diac_vert"
 import _diode_horz from "./../symbols/diode_horz"
 import _diode_vert from "./../symbols/diode_vert"
+import _filled_diode_horz from "./../symbols/filled_diode_horz"
+import _filled_diode_vert from "./../symbols/filled_diode_vert"
 import _fuse_horz from "./../symbols/fuse_horz"
 import _fuse_vert from "./../symbols/fuse_vert"
 import _gunn_diode_horz from "./../symbols/gunn_diode_horz"
@@ -42,8 +44,6 @@ import _photodiode_horz from "./../symbols/photodiode_horz"
 import _photodiode_vert from "./../symbols/photodiode_vert"
 import _pjfet_transistor_horz from "./../symbols/pjfet_transistor_horz"
 import _pjfet_transistor_vert from "./../symbols/pjfet_transistor_vert"
-import _pn_junction_diode_horz from "./../symbols/pn_junction_diode_horz"
-import _pn_junction_diode_vert from "./../symbols/pn_junction_diode_vert"
 import _potentiometer_horz from "./../symbols/potentiometer_horz"
 import _potentiometer_vert from "./../symbols/potentiometer_vert"
 import _potentiometer2_horz from "./../symbols/potentiometer2_horz"
@@ -100,6 +100,8 @@ export default {
   "diac_vert": _diac_vert,
   "diode_horz": _diode_horz,
   "diode_vert": _diode_vert,
+  "filled_diode_horz": _filled_diode_horz,
+  "filled_diode_vert": _filled_diode_vert,
   "fuse_horz": _fuse_horz,
   "fuse_vert": _fuse_vert,
   "gunn_diode_horz": _gunn_diode_horz,
@@ -124,8 +126,6 @@ export default {
   "photodiode_vert": _photodiode_vert,
   "pjfet_transistor_horz": _pjfet_transistor_horz,
   "pjfet_transistor_vert": _pjfet_transistor_vert,
-  "pn_junction_diode_horz": _pn_junction_diode_horz,
-  "pn_junction_diode_vert": _pn_junction_diode_vert,
   "potentiometer_horz": _potentiometer_horz,
   "potentiometer_vert": _potentiometer_vert,
   "potentiometer2_horz": _potentiometer2_horz,
