@@ -1,8 +1,6 @@
 import { defineSymbol } from "drawing/defineSymbol"
 import svgJson from "assets/generated/pn_junction_diode.json"
-import { Primitive } from "drawing/types"
 import { TextPrimitive } from "drawing/types"
-
 
 const { paths, texts, bounds, refblocks, circles } = svgJson
 
