@@ -3,8 +3,6 @@ import SPDT_switch_horz from "./SPDT_switch_horz"
 
 const rotatedSymbol = rotateSymbol(SPDT_switch_horz)
 
-console.log(rotatedSymbol);
-
 const texts = rotatedSymbol.primitives.filter((p) => p.type === "text")!
 
 const val = texts.find((t) => t.text === "{VAL}")!
