@@ -36,6 +36,8 @@ import _njfet_transistor_horz from "./../symbols/njfet_transistor_horz"
 import _njfet_transistor_vert from "./../symbols/njfet_transistor_vert"
 import _p_channel_d_mosfet_transistor_horz from "./../symbols/p_channel_d_mosfet_transistor_horz"
 import _p_channel_d_mosfet_transistor_vert from "./../symbols/p_channel_d_mosfet_transistor_vert"
+import _p_channel_e_mosfet_transistor_horz from "./../symbols/p_channel_e_mosfet_transistor_horz"
+import _p_channel_e_mosfet_transistor_vert from "./../symbols/p_channel_e_mosfet_transistor_vert"
 import _photodiode_horz from "./../symbols/photodiode_horz"
 import _photodiode_vert from "./../symbols/photodiode_vert"
 import _pjfet_transistor_horz from "./../symbols/pjfet_transistor_horz"
@@ -58,6 +60,8 @@ import _schottky_diode_horz from "./../symbols/schottky_diode_horz"
 import _schottky_diode_vert from "./../symbols/schottky_diode_vert"
 import _silicon_controlled_rectifier_horz from "./../symbols/silicon_controlled_rectifier_horz"
 import _silicon_controlled_rectifier_vert from "./../symbols/silicon_controlled_rectifier_vert"
+import _SPST_switch_horz from "./../symbols/SPST_switch_horz"
+import _SPST_switch_vert from "./../symbols/SPST_switch_vert"
 import _step_recovery_diode_horz from "./../symbols/step_recovery_diode_horz"
 import _step_recovery_diode_vert from "./../symbols/step_recovery_diode_vert"
 import _triac_horz from "./../symbols/triac_horz"
@@ -116,6 +120,8 @@ export default {
   "njfet_transistor_vert": _njfet_transistor_vert,
   "p_channel_d_mosfet_transistor_horz": _p_channel_d_mosfet_transistor_horz,
   "p_channel_d_mosfet_transistor_vert": _p_channel_d_mosfet_transistor_vert,
+  "p_channel_e_mosfet_transistor_horz": _p_channel_e_mosfet_transistor_horz,
+  "p_channel_e_mosfet_transistor_vert": _p_channel_e_mosfet_transistor_vert,
   "photodiode_horz": _photodiode_horz,
   "photodiode_vert": _photodiode_vert,
   "pjfet_transistor_horz": _pjfet_transistor_horz,
@@ -138,6 +144,8 @@ export default {
   "schottky_diode_vert": _schottky_diode_vert,
   "silicon_controlled_rectifier_horz": _silicon_controlled_rectifier_horz,
   "silicon_controlled_rectifier_vert": _silicon_controlled_rectifier_vert,
+  "SPST_switch_horz": _SPST_switch_horz,
+  "SPST_switch_vert": _SPST_switch_vert,
   "step_recovery_diode_horz": _step_recovery_diode_horz,
   "step_recovery_diode_vert": _step_recovery_diode_vert,
   "triac_horz": _triac_horz,
