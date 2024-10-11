@@ -1,5 +1,4 @@
 import type { SvgData } from "drawing"
-
 export const getTsFileContentForSvgGroup = (
   groupId: string,
   svgData: SvgData,
@@ -7,6 +6,7 @@ export const getTsFileContentForSvgGroup = (
   return `
 import { defineSymbol } from "drawing/defineSymbol"
 import svgJson from "assets/generated/${groupId}.json"
+import { Primitive } from "drawing/types";
 
 const { paths, texts, bounds, refblocks, circles } = svgJson
 
@@ -19,11 +19,13 @@ export default defineSymbol({
         return `{ ...texts.${key}, anchor: "middle_left" },`
       })
       .join("\n")}
-  ] as any,
+  ] as Primitive[],
   ports: [
       ${Object.entries(svgData.refblocks)
         .map(([key, point], i) => {
-          return `{ ...refblocks.${key}, labels: ["${i + 1}"] }, // TODO add more "standard" labels`
+          return `{ ...refblocks.${key}, labels: ["${
+            i + 1
+          }"] }, // TODO add more "standard" labels`
         })
         .join("\n")}
   ],
