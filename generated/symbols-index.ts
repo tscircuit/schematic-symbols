@@ -58,6 +58,8 @@ import _schottky_diode_horz from "./../symbols/schottky_diode_horz"
 import _schottky_diode_vert from "./../symbols/schottky_diode_vert"
 import _silicon_controlled_rectifier_horz from "./../symbols/silicon_controlled_rectifier_horz"
 import _silicon_controlled_rectifier_vert from "./../symbols/silicon_controlled_rectifier_vert"
+import _SPDT_switch_horz from "./../symbols/SPDT_switch_horz"
+import _SPDT_switch_vert from "./../symbols/SPDT_switch_vert"
 import _SPST_switch_horz from "./../symbols/SPST_switch_horz"
 import _SPST_switch_vert from "./../symbols/SPST_switch_vert"
 import _step_recovery_diode_horz from "./../symbols/step_recovery_diode_horz"
@@ -140,6 +142,8 @@ export default {
   "schottky_diode_vert": _schottky_diode_vert,
   "silicon_controlled_rectifier_horz": _silicon_controlled_rectifier_horz,
   "silicon_controlled_rectifier_vert": _silicon_controlled_rectifier_vert,
+  "SPDT_switch_horz": _SPDT_switch_horz,
+  "SPDT_switch_vert": _SPDT_switch_vert,
   "SPST_switch_horz": _SPST_switch_horz,
   "SPST_switch_vert": _SPST_switch_vert,
   "step_recovery_diode_horz": _step_recovery_diode_horz,
