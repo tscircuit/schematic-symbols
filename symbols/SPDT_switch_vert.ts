@@ -17,4 +17,4 @@ ref.anchor = "middle_left"
 ref.x = 0.3
 ref.y = 0
 
-export default rotatedSymbol;
+export default rotatedSymbol
