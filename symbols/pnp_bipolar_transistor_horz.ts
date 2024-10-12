@@ -1,8 +1,8 @@
-import svgJson from "assets/generated/pnp_bipolar_transistor.json";
-import { defineSymbol } from "drawing/defineSymbol";
-import { Primitive } from "drawing/types";
+import svgJson from "assets/generated/pnp_bipolar_transistor.json"
+import { defineSymbol } from "drawing/defineSymbol"
+import { Primitive } from "drawing/types"
 
-const { paths, texts, bounds, refblocks, circles } = svgJson;
+const { paths, texts, bounds, refblocks, circles } = svgJson
 
 export default defineSymbol({
   primitives: [
@@ -30,4 +30,4 @@ export default defineSymbol({
   ],
   size: { width: bounds.width, height: bounds.height },
   center: { x: bounds.centerX, y: bounds.centerY },
-});
+})
