@@ -24,8 +24,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="11.596589"
-     inkscape:cx="79.807951"
-     inkscape:cy="58.724165"
+     inkscape:cx="79.851067"
+     inkscape:cy="58.724164"
      inkscape:window-width="1368"
      inkscape:window-height="847"
      inkscape:window-x="72"
@@ -60,7 +60,7 @@
     <g
        id="potentiometer"
        transform="rotate(90,-16.834901,-60.008307)"
-       inkscape:label="photodiode">
+       inkscape:label="pnp_bipolar_transistor">
       <path
          style="fill:none;stroke:#000000;stroke-width:0.244764px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
          d="m 59.048972,-93.333036 0.02623,-4.43856"
