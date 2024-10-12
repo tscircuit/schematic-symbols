@@ -23,15 +23,15 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="5.402261"
-     inkscape:cx="22.953352"
-     inkscape:cy="58.679134"
-     inkscape:window-width="752"
+     inkscape:zoom="11.596589"
+     inkscape:cx="79.807951"
+     inkscape:cy="58.724165"
+     inkscape:window-width="1368"
      inkscape:window-height="847"
-     inkscape:window-x="720"
+     inkscape:window-x="72"
      inkscape:window-y="25"
      inkscape:window-maximized="0"
-     inkscape:current-layer="root"
+     inkscape:current-layer="potentiometer"
      showgrid="true">
     <inkscape:grid
        id="grid207"
@@ -127,7 +127,7 @@
          sodipodi:nodetypes="cc" />
       <path
          style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.99926;-inkscape-stroke:none"
-         d="m 61.319032,-98.69949 -1.038606,-0.727239 0.0037,1.087 z"
+         d="m 61.281032,-98.69949 -1.038606,-0.727239 0.0037,1.087 z"
          id="path15"
          sodipodi:nodetypes="cccc" />
       <circle
