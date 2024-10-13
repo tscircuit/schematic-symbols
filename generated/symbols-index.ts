@@ -36,6 +36,8 @@ import _mushroom_head_normally_open_momentary_horz from "./../symbols/mushroom_h
 import _mushroom_head_normally_open_momentary_vert from "./../symbols/mushroom_head_normally_open_momentary_vert"
 import _n_channel_d_mosfet_transistor_horz from "./../symbols/n_channel_d_mosfet_transistor_horz"
 import _n_channel_d_mosfet_transistor_vert from "./../symbols/n_channel_d_mosfet_transistor_vert"
+import _n_channel_e_mosfet_transistor_horz from "./../symbols/n_channel_e_mosfet_transistor_horz"
+import _n_channel_e_mosfet_transistor_vert from "./../symbols/n_channel_e_mosfet_transistor_vert"
 import _njfet_transistor_horz from "./../symbols/njfet_transistor_horz"
 import _njfet_transistor_vert from "./../symbols/njfet_transistor_vert"
 import _npn_bipolar_transistor_horz from "./../symbols/npn_bipolar_transistor_horz"
@@ -128,6 +130,8 @@ export default {
   "mushroom_head_normally_open_momentary_vert": _mushroom_head_normally_open_momentary_vert,
   "n_channel_d_mosfet_transistor_horz": _n_channel_d_mosfet_transistor_horz,
   "n_channel_d_mosfet_transistor_vert": _n_channel_d_mosfet_transistor_vert,
+  "n_channel_e_mosfet_transistor_horz": _n_channel_e_mosfet_transistor_horz,
+  "n_channel_e_mosfet_transistor_vert": _n_channel_e_mosfet_transistor_vert,
   "njfet_transistor_horz": _njfet_transistor_horz,
   "njfet_transistor_vert": _njfet_transistor_vert,
   "npn_bipolar_transistor_horz": _npn_bipolar_transistor_horz,
