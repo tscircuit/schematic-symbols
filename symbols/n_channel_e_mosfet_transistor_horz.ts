@@ -12,9 +12,9 @@ export default defineSymbol({
     { ...texts.bottom1, anchor: "middle_left" },
   ] as Primitive[],
   ports: [
-    { ...refblocks.top1, labels: ["1"] }, // TODO add more "standard" labels
-    { ...refblocks.bottom1, labels: ["2"] }, // TODO add more "standard" labels
-    { ...refblocks.left1, labels: ["3"] }, // TODO add more "standard" labels
+    { ...refblocks.top1, labels: ["1", "drain"] }, // TODO add more "standard" labels
+    { ...refblocks.bottom1, labels: ["2", "source"] }, // TODO add more "standard" labels
+    { ...refblocks.left1, labels: ["3", "gate"] }, // TODO add more "standard" labels
   ],
   size: { width: bounds.width, height: bounds.height },
   center: { x: bounds.centerX, y: bounds.centerY },
