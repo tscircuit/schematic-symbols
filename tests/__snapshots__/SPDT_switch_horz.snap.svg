@@ -1,0 +1,19 @@
+<svg width="150" height="150" viewBox="-0.6 -0.645 1.2 1.2" xmlns="http://www.w3.org/2000/svg"><path d="M-0.3543583500000005,-0.027043850000000758 L-0.12792935000000005,-0.027043850000000758" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.1133669500000003,-0.027198750000000382 L0.11208324999999997,-0.14100155000000036" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.1043477500000003,0.06951304999999941 L0.34508875000000017,0.06951304999999941" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.12008575000000055,-0.1671466500000005 L0.3608267500000004,-0.1671466500000005" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="-0.01" y="-0.39216264999999995" dx="0" dy="0" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.0225" y="-0.40466264999999996" width="0.025" height="0.025" fill="blue" />
+    <text x="-0.01" y="0.28216264999999996" dx="0" dy="0.07500000000000001" text-anchor="middle" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.0225" y="0.26966264999999995" width="0.025" height="0.025" fill="blue" />
+
+    <rect x="-0.39327374999999953" y="-0.05204385000000009" width="0.05" height="0.05" fill="red" />
+    <text x="-0.4082737499999995" y="0.0629561499999999" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
+  
+    
+    <rect x="0.3432737499999995" y="-0.1921466499999996" width="0.05" height="0.05" fill="red" />
+    <text x="0.32827374999999953" y="-0.07714664999999962" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
+  
+    
+    <rect x="0.3432737499999995" y="0.044513050000000075" width="0.05" height="0.05" fill="red" />
+    <text x="0.32827374999999953" y="0.15951305000000007" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+  
+<path d="M 0 -0.06999999999999998 L 0.025 -0.044999999999999984 L 0 -0.019999999999999983 L -0.025 -0.044999999999999984 Z" fill="green" /></svg>

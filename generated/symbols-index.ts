@@ -18,6 +18,8 @@ import _diac_horz from "./../symbols/diac_horz"
 import _diac_vert from "./../symbols/diac_vert"
 import _diode_horz from "./../symbols/diode_horz"
 import _diode_vert from "./../symbols/diode_vert"
+import _filled_diode_horz from "./../symbols/filled_diode_horz"
+import _filled_diode_vert from "./../symbols/filled_diode_vert"
 import _fuse_horz from "./../symbols/fuse_horz"
 import _fuse_vert from "./../symbols/fuse_vert"
 import _gunn_diode_horz from "./../symbols/gunn_diode_horz"
@@ -34,6 +36,8 @@ import _n_channel_d_mosfet_transistor_horz from "./../symbols/n_channel_d_mosfet
 import _n_channel_d_mosfet_transistor_vert from "./../symbols/n_channel_d_mosfet_transistor_vert"
 import _njfet_transistor_horz from "./../symbols/njfet_transistor_horz"
 import _njfet_transistor_vert from "./../symbols/njfet_transistor_vert"
+import _npn_bipolar_transistor_horz from "./../symbols/npn_bipolar_transistor_horz"
+import _npn_bipolar_transistor_vert from "./../symbols/npn_bipolar_transistor_vert"
 import _p_channel_d_mosfet_transistor_horz from "./../symbols/p_channel_d_mosfet_transistor_horz"
 import _p_channel_d_mosfet_transistor_vert from "./../symbols/p_channel_d_mosfet_transistor_vert"
 import _p_channel_e_mosfet_transistor_horz from "./../symbols/p_channel_e_mosfet_transistor_horz"
@@ -60,6 +64,8 @@ import _schottky_diode_horz from "./../symbols/schottky_diode_horz"
 import _schottky_diode_vert from "./../symbols/schottky_diode_vert"
 import _silicon_controlled_rectifier_horz from "./../symbols/silicon_controlled_rectifier_horz"
 import _silicon_controlled_rectifier_vert from "./../symbols/silicon_controlled_rectifier_vert"
+import _SPDT_switch_horz from "./../symbols/SPDT_switch_horz"
+import _SPDT_switch_vert from "./../symbols/SPDT_switch_vert"
 import _SPST_switch_horz from "./../symbols/SPST_switch_horz"
 import _SPST_switch_vert from "./../symbols/SPST_switch_vert"
 import _step_recovery_diode_horz from "./../symbols/step_recovery_diode_horz"
@@ -102,6 +108,8 @@ export default {
   "diac_vert": _diac_vert,
   "diode_horz": _diode_horz,
   "diode_vert": _diode_vert,
+  "filled_diode_horz": _filled_diode_horz,
+  "filled_diode_vert": _filled_diode_vert,
   "fuse_horz": _fuse_horz,
   "fuse_vert": _fuse_vert,
   "gunn_diode_horz": _gunn_diode_horz,
@@ -118,6 +126,8 @@ export default {
   "n_channel_d_mosfet_transistor_vert": _n_channel_d_mosfet_transistor_vert,
   "njfet_transistor_horz": _njfet_transistor_horz,
   "njfet_transistor_vert": _njfet_transistor_vert,
+  "npn_bipolar_transistor_horz": _npn_bipolar_transistor_horz,
+  "npn_bipolar_transistor_vert": _npn_bipolar_transistor_vert,
   "p_channel_d_mosfet_transistor_horz": _p_channel_d_mosfet_transistor_horz,
   "p_channel_d_mosfet_transistor_vert": _p_channel_d_mosfet_transistor_vert,
   "p_channel_e_mosfet_transistor_horz": _p_channel_e_mosfet_transistor_horz,
@@ -144,6 +154,8 @@ export default {
   "schottky_diode_vert": _schottky_diode_vert,
   "silicon_controlled_rectifier_horz": _silicon_controlled_rectifier_horz,
   "silicon_controlled_rectifier_vert": _silicon_controlled_rectifier_vert,
+  "SPDT_switch_horz": _SPDT_switch_horz,
+  "SPDT_switch_vert": _SPDT_switch_vert,
   "SPST_switch_horz": _SPST_switch_horz,
   "SPST_switch_vert": _SPST_switch_vert,
   "step_recovery_diode_horz": _step_recovery_diode_horz,
