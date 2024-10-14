@@ -46,6 +46,8 @@ import _photodiode_horz from "./../symbols/photodiode_horz"
 import _photodiode_vert from "./../symbols/photodiode_vert"
 import _pjfet_transistor_horz from "./../symbols/pjfet_transistor_horz"
 import _pjfet_transistor_vert from "./../symbols/pjfet_transistor_vert"
+import _pnp_bipolar_transistor_horz from "./../symbols/pnp_bipolar_transistor_horz"
+import _pnp_bipolar_transistor_vert from "./../symbols/pnp_bipolar_transistor_vert"
 import _potentiometer_horz from "./../symbols/potentiometer_horz"
 import _potentiometer_vert from "./../symbols/potentiometer_vert"
 import _potentiometer2_horz from "./../symbols/potentiometer2_horz"
@@ -62,6 +64,8 @@ import _schottky_diode_horz from "./../symbols/schottky_diode_horz"
 import _schottky_diode_vert from "./../symbols/schottky_diode_vert"
 import _silicon_controlled_rectifier_horz from "./../symbols/silicon_controlled_rectifier_horz"
 import _silicon_controlled_rectifier_vert from "./../symbols/silicon_controlled_rectifier_vert"
+import _SPDT_switch_horz from "./../symbols/SPDT_switch_horz"
+import _SPDT_switch_vert from "./../symbols/SPDT_switch_vert"
 import _SPST_switch_horz from "./../symbols/SPST_switch_horz"
 import _SPST_switch_vert from "./../symbols/SPST_switch_vert"
 import _step_recovery_diode_horz from "./../symbols/step_recovery_diode_horz"
@@ -132,6 +136,8 @@ export default {
   "photodiode_vert": _photodiode_vert,
   "pjfet_transistor_horz": _pjfet_transistor_horz,
   "pjfet_transistor_vert": _pjfet_transistor_vert,
+  "pnp_bipolar_transistor_horz": _pnp_bipolar_transistor_horz,
+  "pnp_bipolar_transistor_vert": _pnp_bipolar_transistor_vert,
   "potentiometer_horz": _potentiometer_horz,
   "potentiometer_vert": _potentiometer_vert,
   "potentiometer2_horz": _potentiometer2_horz,
@@ -148,6 +154,8 @@ export default {
   "schottky_diode_vert": _schottky_diode_vert,
   "silicon_controlled_rectifier_horz": _silicon_controlled_rectifier_horz,
   "silicon_controlled_rectifier_vert": _silicon_controlled_rectifier_vert,
+  "SPDT_switch_horz": _SPDT_switch_horz,
+  "SPDT_switch_vert": _SPDT_switch_vert,
   "SPST_switch_horz": _SPST_switch_horz,
   "SPST_switch_vert": _SPST_switch_vert,
   "step_recovery_diode_horz": _step_recovery_diode_horz,
