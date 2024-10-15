@@ -1,7 +1,7 @@
 import { rotateSymbol } from "drawing/rotateSymbol"
-import DPDT_switch_horz from "./DPDT_switch_horz"
+import dpdt_switch_horz from "./dpdt_switch_horz"
 
-const rotatedSymbol = rotateSymbol(DPDT_switch_horz)
+const rotatedSymbol = rotateSymbol(dpdt_switch_horz)
 
 const texts = rotatedSymbol.primitives.filter((p) => p.type === "text")!
 
