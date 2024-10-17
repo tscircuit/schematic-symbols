@@ -82,8 +82,8 @@ export function getBoundsOfSvgJson(svgJson: INode): {
 
   processNode(svgJson)
 
-  const width = Math.max(maxX - minX, 1)
-  const height = Math.max(maxY - minY, 1)
+  const width = Math.abs(maxX - minX)
+  const height = Math.abs(maxY - minY)
   const centerX = (minX + maxX) / 2
   const centerY = (minY + maxY) / 2
 
