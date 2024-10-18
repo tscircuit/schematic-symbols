@@ -22,6 +22,8 @@ import _diac_horz from "./../symbols/diac_horz"
 import _diac_vert from "./../symbols/diac_vert"
 import _diode_horz from "./../symbols/diode_horz"
 import _diode_vert from "./../symbols/diode_vert"
+import _dpst_switch_horz from "./../symbols/dpst_switch_horz"
+import _dpst_switch_vert from "./../symbols/dpst_switch_vert"
 import _filled_diode_horz from "./../symbols/filled_diode_horz"
 import _filled_diode_vert from "./../symbols/filled_diode_vert"
 import _fuse_horz from "./../symbols/fuse_horz"
@@ -120,6 +122,8 @@ export default {
   "diac_vert": _diac_vert,
   "diode_horz": _diode_horz,
   "diode_vert": _diode_vert,
+  "dpst_switch_horz": _dpst_switch_horz,
+  "dpst_switch_vert": _dpst_switch_vert,
   "filled_diode_horz": _filled_diode_horz,
   "filled_diode_vert": _filled_diode_vert,
   "fuse_horz": _fuse_horz,
