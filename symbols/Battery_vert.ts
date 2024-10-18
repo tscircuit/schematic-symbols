@@ -1,4 +1,4 @@
 import { rotateSymbol } from "drawing/rotateSymbol"
-import Battery_horz from "./Battery_horz"
+import battery_horz from "./battery_horz"
 
-export default rotateSymbol(Battery_horz)
+export default rotateSymbol(battery_horz)
