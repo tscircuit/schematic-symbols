@@ -1,5 +1,5 @@
 import { defineSymbol } from "drawing/defineSymbol"
-import svgJson from "assets/generated/Battery.json"
+import svgJson from "assets/generated/battery.json"
 import { Primitive } from "drawing/types"
 
 const { paths, texts, bounds, refblocks, circles } = svgJson
