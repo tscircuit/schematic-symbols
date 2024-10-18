@@ -7,7 +7,7 @@ export default defineSymbol({
   primitives: [
     ...Object.values(paths),
     { ...texts.bottom1, y: 0.35, anchor: "middle_top" },
-    { ...texts.right1, anchor: "middle_left" },
+    { ...texts.top1, anchor: "middle_left" },
   ] as any,
   ports: [
     { ...refblocks.left1, labels: ["1"] }, // TODO add more "standard" labels

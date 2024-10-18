@@ -1,14 +1,14 @@
-<svg width="150" height="150" viewBox="-0.5999999999999998 -0.6349999799999998 1.2 1.2699999599999996" xmlns="http://www.w3.org/2000/svg"><path d="M1.896424927181299e-16,-0.5291666499999998 L2.0584354729077208e-16,-0.26458335000000033" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M2.382456564360565e-16,0.2645832500000005 L2.5444671713193266e-16,0.5291666499999998" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M0.1322916999999999,-1.500000002067029e-7 L0.13229169999999993,0.2645831499999993 L-0.13229169999999943,0.2645831499999993 L-0.13229169999999948,-0.26458355000000133 L0.13229169999999987,-0.26458355000000133 L0.1322916999999999,-1.5000000198305974e-7" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <text x="0.20383659999999915" y="-0.01874065000000004" dx="0" dy="0.037500000000000006" text-anchor="start" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="0.19133659999999914" y="-0.03124065000000004" width="0.025" height="0.025" fill="blue" />
-    <text x="-0.29615940000000207" y="-0.017778650000000545" dx="0" dy="0.037500000000000006" text-anchor="end" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.3086594000000021" y="-0.030278650000000545" width="0.025" height="0.025" fill="blue" />
+<svg width="150" height="150" viewBox="-0.14999760000000062 -0.7193389692000003 0.29999520000000146 1.3486779384000005" xmlns="http://www.w3.org/2000/svg"><path d="M-0.003838599999998228,-0.5568507999999992 L-0.0038385999999982073,-0.29226749999999974" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.0038385999999981796,0.23689910000000108 L-0.0038385999999981588,0.5014825000000005" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.12845310000000149,-0.027684299999999617 L0.1284531000000015,0.23689899999999992 L-0.13613029999999787,0.23689899999999992 L-0.13613029999999787,-0.29226770000000074 L0.12845310000000146,-0.29226770000000074 L0.12845310000000149,-0.027684300000001393" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="0.19999800000000073" y="-0.04642479999999945" dx="0" dy="0.037500000000000006" text-anchor="start" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="0.18749800000000072" y="-0.058924799999999444" width="0.025" height="0.025" fill="blue" />
+    <text x="-0.2999980000000005" y="-0.045462799999999956" dx="0" dy="0.037500000000000006" text-anchor="end" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.3124980000000005" y="-0.05796279999999995" width="0.025" height="0.025" fill="blue" />
 
-    <rect x="-0.025356200000002174" y="-0.576106550000001" width="0.05" height="0.05" fill="red" />
-    <text x="-0.040356200000002174" y="-0.46110655000000095" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
+    <rect x="-0.02919480000000059" y="-0.6037907000000003" width="0.05" height="0.05" fill="red" />
+    <text x="-0.04419480000000059" y="-0.4887907000000003" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
   
     
-    <rect x="-0.02590270000000078" y="0.4914748499999996" width="0.05" height="0.05" fill="red" />
-    <text x="-0.04090270000000078" y="0.6064748499999997" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+    <rect x="-0.029741299999999193" y="0.46379070000000017" width="0.05" height="0.05" fill="red" />
+    <text x="-0.04474129999999919" y="0.5787907000000002" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
   
-<path d="M 2.220446049250313e-16 -0.025 L 0.025000000000000223 0 L 2.220446049250313e-16 0.025 L -0.02499999999999978 0 Z" fill="green" /></svg>
+<path d="M 1.1102230246251565e-16 -0.07000000000000009 L 0.025000000000000112 -0.045000000000000095 L 1.1102230246251565e-16 -0.020000000000000094 L -0.02499999999999989 -0.045000000000000095 Z" fill="green" /></svg>
