@@ -2,6 +2,8 @@ import _ac_voltmeter_horz from "./../symbols/ac_voltmeter_horz"
 import _ac_voltmeter_vert from "./../symbols/ac_voltmeter_vert"
 import _avalanche_diode_horz from "./../symbols/avalanche_diode_horz"
 import _avalanche_diode_vert from "./../symbols/avalanche_diode_vert"
+import _battery_horz from "./../symbols/battery_horz"
+import _battery_vert from "./../symbols/battery_vert"
 import _boxresistor_horz from "./../symbols/boxresistor_horz"
 import _boxresistor_vert from "./../symbols/boxresistor_vert"
 import _capacitor_horz from "./../symbols/capacitor_horz"
@@ -10,6 +12,8 @@ import _constant_current_diode_horz from "./../symbols/constant_current_diode_ho
 import _constant_current_diode_vert from "./../symbols/constant_current_diode_vert"
 import _crystal_horz from "./../symbols/crystal_horz"
 import _crystal_vert from "./../symbols/crystal_vert"
+import _darlington_pair_transistor_horz from "./../symbols/darlington_pair_transistor_horz"
+import _darlington_pair_transistor_vert from "./../symbols/darlington_pair_transistor_vert"
 import _dc_ammeter_horz from "./../symbols/dc_ammeter_horz"
 import _dc_ammeter_vert from "./../symbols/dc_ammeter_vert"
 import _dc_voltmeter_horz from "./../symbols/dc_voltmeter_horz"
@@ -18,6 +22,8 @@ import _diac_horz from "./../symbols/diac_horz"
 import _diac_vert from "./../symbols/diac_vert"
 import _diode_horz from "./../symbols/diode_horz"
 import _diode_vert from "./../symbols/diode_vert"
+import _dpst_switch_horz from "./../symbols/dpst_switch_horz"
+import _dpst_switch_vert from "./../symbols/dpst_switch_vert"
 import _filled_diode_horz from "./../symbols/filled_diode_horz"
 import _filled_diode_vert from "./../symbols/filled_diode_vert"
 import _fuse_horz from "./../symbols/fuse_horz"
@@ -32,8 +38,12 @@ import _led_horz from "./../symbols/led_horz"
 import _led_vert from "./../symbols/led_vert"
 import _mosfet_depletion_normally_on_horz from "./../symbols/mosfet_depletion_normally_on_horz"
 import _mosfet_depletion_normally_on_vert from "./../symbols/mosfet_depletion_normally_on_vert"
+import _mushroom_head_normally_open_momentary_horz from "./../symbols/mushroom_head_normally_open_momentary_horz"
+import _mushroom_head_normally_open_momentary_vert from "./../symbols/mushroom_head_normally_open_momentary_vert"
 import _n_channel_d_mosfet_transistor_horz from "./../symbols/n_channel_d_mosfet_transistor_horz"
 import _n_channel_d_mosfet_transistor_vert from "./../symbols/n_channel_d_mosfet_transistor_vert"
+import _n_channel_e_mosfet_transistor_horz from "./../symbols/n_channel_e_mosfet_transistor_horz"
+import _n_channel_e_mosfet_transistor_vert from "./../symbols/n_channel_e_mosfet_transistor_vert"
 import _njfet_transistor_horz from "./../symbols/njfet_transistor_horz"
 import _njfet_transistor_vert from "./../symbols/njfet_transistor_vert"
 import _npn_bipolar_transistor_horz from "./../symbols/npn_bipolar_transistor_horz"
@@ -46,6 +56,8 @@ import _photodiode_horz from "./../symbols/photodiode_horz"
 import _photodiode_vert from "./../symbols/photodiode_vert"
 import _pjfet_transistor_horz from "./../symbols/pjfet_transistor_horz"
 import _pjfet_transistor_vert from "./../symbols/pjfet_transistor_vert"
+import _pnp_bipolar_transistor_horz from "./../symbols/pnp_bipolar_transistor_horz"
+import _pnp_bipolar_transistor_vert from "./../symbols/pnp_bipolar_transistor_vert"
 import _potentiometer_horz from "./../symbols/potentiometer_horz"
 import _potentiometer_vert from "./../symbols/potentiometer_vert"
 import _potentiometer2_horz from "./../symbols/potentiometer2_horz"
@@ -92,6 +104,8 @@ export default {
   "ac_voltmeter_vert": _ac_voltmeter_vert,
   "avalanche_diode_horz": _avalanche_diode_horz,
   "avalanche_diode_vert": _avalanche_diode_vert,
+  "battery_horz": _battery_horz,
+  "battery_vert": _battery_vert,
   "boxresistor_horz": _boxresistor_horz,
   "boxresistor_vert": _boxresistor_vert,
   "capacitor_horz": _capacitor_horz,
@@ -100,6 +114,8 @@ export default {
   "constant_current_diode_vert": _constant_current_diode_vert,
   "crystal_horz": _crystal_horz,
   "crystal_vert": _crystal_vert,
+  "darlington_pair_transistor_horz": _darlington_pair_transistor_horz,
+  "darlington_pair_transistor_vert": _darlington_pair_transistor_vert,
   "dc_ammeter_horz": _dc_ammeter_horz,
   "dc_ammeter_vert": _dc_ammeter_vert,
   "dc_voltmeter_horz": _dc_voltmeter_horz,
@@ -108,6 +124,8 @@ export default {
   "diac_vert": _diac_vert,
   "diode_horz": _diode_horz,
   "diode_vert": _diode_vert,
+  "dpst_switch_horz": _dpst_switch_horz,
+  "dpst_switch_vert": _dpst_switch_vert,
   "filled_diode_horz": _filled_diode_horz,
   "filled_diode_vert": _filled_diode_vert,
   "fuse_horz": _fuse_horz,
@@ -122,8 +140,12 @@ export default {
   "led_vert": _led_vert,
   "mosfet_depletion_normally_on_horz": _mosfet_depletion_normally_on_horz,
   "mosfet_depletion_normally_on_vert": _mosfet_depletion_normally_on_vert,
+  "mushroom_head_normally_open_momentary_horz": _mushroom_head_normally_open_momentary_horz,
+  "mushroom_head_normally_open_momentary_vert": _mushroom_head_normally_open_momentary_vert,
   "n_channel_d_mosfet_transistor_horz": _n_channel_d_mosfet_transistor_horz,
   "n_channel_d_mosfet_transistor_vert": _n_channel_d_mosfet_transistor_vert,
+  "n_channel_e_mosfet_transistor_horz": _n_channel_e_mosfet_transistor_horz,
+  "n_channel_e_mosfet_transistor_vert": _n_channel_e_mosfet_transistor_vert,
   "njfet_transistor_horz": _njfet_transistor_horz,
   "njfet_transistor_vert": _njfet_transistor_vert,
   "npn_bipolar_transistor_horz": _npn_bipolar_transistor_horz,
@@ -136,6 +158,8 @@ export default {
   "photodiode_vert": _photodiode_vert,
   "pjfet_transistor_horz": _pjfet_transistor_horz,
   "pjfet_transistor_vert": _pjfet_transistor_vert,
+  "pnp_bipolar_transistor_horz": _pnp_bipolar_transistor_horz,
+  "pnp_bipolar_transistor_vert": _pnp_bipolar_transistor_vert,
   "potentiometer_horz": _potentiometer_horz,
   "potentiometer_vert": _potentiometer_vert,
   "potentiometer2_horz": _potentiometer2_horz,

@@ -24,14 +24,14 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="6.6618556"
-     inkscape:cx="22.816466"
+     inkscape:cx="22.89152"
      inkscape:cy="58.617302"
      inkscape:window-width="1432"
      inkscape:window-height="748"
      inkscape:window-x="5"
-     inkscape:window-y="60"
+     inkscape:window-y="32"
      inkscape:window-maximized="0"
-     inkscape:current-layer="potentiometer"
+     inkscape:current-layer="root"
      showgrid="true">
     <inkscape:grid
        id="grid207"
@@ -60,7 +60,7 @@
     <g
        id="potentiometer"
        transform="rotate(90,-16.834901,-60.008307)"
-       inkscape:label="photodiode">
+       inkscape:label="npn_bipolar_transistor">
       <path
          style="fill:none;stroke:#000000;stroke-width:0.244764px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
          d="m 59.048972,-93.333036 0.02623,-4.43856"
