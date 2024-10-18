@@ -2,6 +2,8 @@ import _ac_voltmeter_horz from "./../symbols/ac_voltmeter_horz"
 import _ac_voltmeter_vert from "./../symbols/ac_voltmeter_vert"
 import _avalanche_diode_horz from "./../symbols/avalanche_diode_horz"
 import _avalanche_diode_vert from "./../symbols/avalanche_diode_vert"
+import _battery_horz from "./../symbols/battery_horz"
+import _battery_vert from "./../symbols/battery_vert"
 import _boxresistor_horz from "./../symbols/boxresistor_horz"
 import _boxresistor_vert from "./../symbols/boxresistor_vert"
 import _capacitor_horz from "./../symbols/capacitor_horz"
@@ -96,6 +98,8 @@ export default {
   "ac_voltmeter_vert": _ac_voltmeter_vert,
   "avalanche_diode_horz": _avalanche_diode_horz,
   "avalanche_diode_vert": _avalanche_diode_vert,
+  "battery_horz": _battery_horz,
+  "battery_vert": _battery_vert,
   "boxresistor_horz": _boxresistor_horz,
   "boxresistor_vert": _boxresistor_vert,
   "capacitor_horz": _capacitor_horz,
