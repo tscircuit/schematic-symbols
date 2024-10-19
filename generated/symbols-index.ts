@@ -36,6 +36,8 @@ import _laser_diode_horz from "./../symbols/laser_diode_horz"
 import _laser_diode_vert from "./../symbols/laser_diode_vert"
 import _led_horz from "./../symbols/led_horz"
 import _led_vert from "./../symbols/led_vert"
+import _light_dependent_resistor_horz from "./../symbols/light_dependent_resistor_horz"
+import _light_dependent_resistor_vert from "./../symbols/light_dependent_resistor_vert"
 import _mosfet_depletion_normally_on_horz from "./../symbols/mosfet_depletion_normally_on_horz"
 import _mosfet_depletion_normally_on_vert from "./../symbols/mosfet_depletion_normally_on_vert"
 import _mushroom_head_normally_open_momentary_horz from "./../symbols/mushroom_head_normally_open_momentary_horz"
@@ -138,6 +140,8 @@ export default {
   "laser_diode_vert": _laser_diode_vert,
   "led_horz": _led_horz,
   "led_vert": _led_vert,
+  "light_dependent_resistor_horz": _light_dependent_resistor_horz,
+  "light_dependent_resistor_vert": _light_dependent_resistor_vert,
   "mosfet_depletion_normally_on_horz": _mosfet_depletion_normally_on_horz,
   "mosfet_depletion_normally_on_vert": _mosfet_depletion_normally_on_vert,
   "mushroom_head_normally_open_momentary_horz": _mushroom_head_normally_open_momentary_horz,
