@@ -1,4 +1,3 @@
-# Created using @tscircuit/plop (npm install -g @tscircuit/plop)
 name: Publish to npm
 on:
   push:
@@ -20,6 +19,13 @@ jobs:
       - run: npm install -g pver
       - run: bun install --frozen-lockfile
       - run: bun run build
+      - name: Commit and push if there are any changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff-index --quiet HEAD || git commit -m "Auto-commit changes"
+          git push
       - run: pver release
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
