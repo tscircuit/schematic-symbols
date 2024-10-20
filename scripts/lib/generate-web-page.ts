@@ -5,6 +5,8 @@ export function generateWebPage(): string {
   const symbolEntries = Object.entries(symbols).sort((a, b) =>
     a[0].localeCompare(b[0]),
   )
+  const svgCount = symbolEntries.length
+  const unqieSymbolCount = svgCount / 2
 
   const svgGrid = symbolEntries
     .map(([name, symbol]) => {
@@ -38,6 +40,30 @@ export function generateWebPage(): string {
           margin: 0;
           padding: 20px;
         }
+        .header {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-bottom: 20px;
+        }
+        .header h1 {
+          margin: 0;
+        }
+        .symbol-count {
+          font-size: 20px;
+          margin-left: 15px;
+          color: #555;
+          margin-bottom: 0px;
+        }
+        .github-stars {
+          margin-left: auto;
+          display: flex;
+          align-items: center;
+        }
+
+        .github-stars a img {
+          height: 24px;
+        }
         .grid {
           display: grid;
           grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -47,7 +73,6 @@ export function generateWebPage(): string {
           border: 1px solid #ccc;
           padding: 10px;
           text-align: center;
-          
         }
         svg {
           max-width: 100%;
@@ -56,13 +81,20 @@ export function generateWebPage(): string {
       </style>
     </head>
     <body>
-      <h1>Schematic Symbols</h1>
+      <div class="header">
+        <h1>Schematic Symbols</h1>
+        <span class="symbol-count">(${unqieSymbolCount})</span>
+        <div class="github-stars">
+          <a href="https://github.com/tscircuit/schematic-symbols" target="_blank">
+            <img alt="GitHub stars" src="https://img.shields.io/github/stars/tscircuit/schematic-symbols?style=social">
+          </a>
+        </div>
+      </div>
       <div class="grid">
         ${svgGrid}
       </div>
     </body>
     </html>
   `
-
   return html
 }

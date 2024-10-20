@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="crystal.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="8.1055273"
+     inkscape:cx="100.24024"
+     inkscape:cy="542.59271"
+     inkscape:window-width="1364"
+     inkscape:window-height="742"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="capacitor"
+     showgrid="true">
+    <inkscape:grid
+       id="grid207"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="10"
+       spacingy="10"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="root"
+     inkscape:groupmode="layer"
+     id="root">
+    <g
+       id="capacitor"
+       transform="rotate(90,-54.156737,60.478501)">
+      <title
+         id="title26">Capacitor</title>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 30.427082,-23.812483 v 3.904715"
+         id="path27"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 30.427082,-17.1568 v 3.92765"
+         id="path28"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 27.781249,-19.843734 h 5.291666"
+         id="path29"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 27.788456,-19.309416 h 5.291666"
+         id="path29-2"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 27.781249,-17.1979 h 5.291666"
+         id="path30"
+         inkscape:connector-curvature="0" />
+      <title
+         id="title30">Capacitor</title>
+      <circle
+         style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         id="refblock-5-7-3-81"
+         cx="24.095198"
+         cy="30.430644"
+         r="0.28158441"
+         transform="rotate(-90)" />
+      <circle
+         style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         id="refblock-5-7-3-81-3"
+         cx="13.071012"
+         cy="30.436109"
+         r="0.28158441"
+         transform="rotate(-90)" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+         x="18.45446"
+         y="26.399826"
+         id="text14-3-0-5-0-5"
+         transform="rotate(-90)"><tspan
+           sodipodi:role="line"
+           id="tspan14-1-4-0-4-8"
+           style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="18.45446"
+           y="26.799826">{REF}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+         x="18.5446"
+         y="34.8"
+         id="text14-3-0-5-0-5-1"
+         transform="rotate(-90)"><tspan
+           sodipodi:role="line"
+           id="tspan14-1-4-0-4-8-3"
+           style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="18.5446"
+           y="34.8">{VAL}</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 27.772126,-17.758698 h 5.291666"
+         id="path29-5"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 27.773717,-19.30842 v 1.543822"
+         id="path29-2-7"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 33.107981,-19.304362 v 1.543822"
+         id="path29-2-7-6"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+    </g>
+  </g>
+</svg>

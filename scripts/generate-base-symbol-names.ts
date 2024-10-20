@@ -8,10 +8,11 @@ for (const symbol of Object.keys(symbols)) {
   baseSymbolNames.add(baseSymbolName)
 }
 
-// Write to symbols/base-symbol-names.ts
+const baseSymbolType = Array.from(baseSymbolNames)
+  .map((name) => `"${name}"`)
+  .join(" | ")
+
 writeFileSync(
   "./generated/base-symbol-names.ts",
-  `export type BaseSymbolName = ${JSON.stringify(
-    Array.from(baseSymbolNames).join(" | "),
-  )}`,
+  `export type BaseSymbolName = ${baseSymbolType};\n`,
 )

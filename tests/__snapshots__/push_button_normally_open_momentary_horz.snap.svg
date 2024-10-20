@@ -1,0 +1,15 @@
+<svg width="150" height="150" viewBox="-0.5999483891999998 -0.1645421999999973 1.1998967783999996 0.23908439999999798" xmlns="http://www.w3.org/2000/svg"><path d="M0.005962250000000502,-0.14781649999999757 L0.005962250000000502,-0.03142349999999894" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.48740705000000073,0.05648450000000338 L-0.17310075000000058,0.05648450000000338" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.16008695000000017,-0.02584949999999786 L0.1719709499999995,-0.02584949999999786" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.1954987499999996,0.05609550000000141 L0.4881436499999996,0.05609550000000141" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="0.006701050000000208" y="-0.2196184999999975" dx="0" dy="0" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.0057989499999997925" y="-0.2321184999999975" width="0.025" height="0.025" fill="blue" />
+    <text x="-0.16130964999999975" y="0.22961850000000084" dx="0" dy="0.07500000000000001" text-anchor="middle" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.17380964999999976" y="0.21711850000000082" width="0.025" height="0.025" fill="blue" />
+
+    <rect x="-0.49679854999999995" y="0.03145750000000227" width="0.05" height="0.05" fill="red" />
+    <text x="-0.51179855" y="0.14645750000000227" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
+  
+    
+    <rect x="0.4467985499999999" y="0.03148250000000132" width="0.05" height="0.05" fill="red" />
+    <text x="0.43179854999999995" y="0.14648250000000132" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+  
+<path d="M 0 -0.06999999999999831 L 0.025 -0.04499999999999832 L 0 -0.019999999999998318 L -0.025 -0.04499999999999832 Z" fill="green" /></svg>
