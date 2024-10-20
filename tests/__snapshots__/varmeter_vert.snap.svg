@@ -1,0 +1,15 @@
+<svg width="150" height="150" viewBox="-0.5999999999999999 -0.6368613600000002 1.2 1.2737227200000003" xmlns="http://www.w3.org/2000/svg"><path d="M2.301405848023156e-17,-0.5307178000000001 L3.6878835984438384e-17,-0.30428879999999975" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M7.326713984477743e-17,0.28997730000000027 L8.800824398228408e-17,0.5307178000000001" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="0.007128299999999588" cy="-0.006997299999999707" r="0.28854213" fill="none" stroke="black" stroke-width="0.02" />
+    <text x="0.35945534999999956" y="-7.752144342195238e-17" dx="0" dy="0.037500000000000006" text-anchor="start" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="0.34695534999999955" y="-0.012500000000000079" width="0.025" height="0.025" fill="blue" />
+    <text x="-0.3499999999999999" y="-3.4079832246179144e-17" dx="0" dy="0.037500000000000006" text-anchor="end" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.36249999999999993" y="-0.012500000000000035" width="0.025" height="0.025" fill="blue" />
+    <text x="0" y="-0.025" dx="0" dy="0.1" text-anchor="middle" style="font: 0.2px monospace; fill: black">Var</text><rect x="-0.0125" y="-0.037500000000000006" width="0.025" height="0.025" fill="blue" />
+
+    <rect x="-0.025852800000000523" y="-0.5696330999999993" width="0.05" height="0.05" fill="red" />
+    <text x="-0.04085280000000052" y="-0.45463309999999935" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
+  
+    
+    <rect x="-0.024856400000000667" y="0.5131638000000004" width="0.05" height="0.05" fill="red" />
+    <text x="-0.039856400000000666" y="0.6281638000000005" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+  
+<path d="M 5.551115123125783e-17 -0.025 L 0.025000000000000057 0 L 5.551115123125783e-17 0.025 L -0.024999999999999946 0 Z" fill="green" /></svg>

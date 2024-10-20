@@ -96,6 +96,8 @@ import _varactor_diode_horz from "./../symbols/varactor_diode_horz"
 import _varactor_diode_vert from "./../symbols/varactor_diode_vert"
 import _varistor_horz from "./../symbols/varistor_horz"
 import _varistor_vert from "./../symbols/varistor_vert"
+import _varmeter_horz from "./../symbols/varmeter_horz"
+import _varmeter_vert from "./../symbols/varmeter_vert"
 import _volt_meter_horz from "./../symbols/volt_meter_horz"
 import _volt_meter_vert from "./../symbols/volt_meter_vert"
 import _zener_diode_horz from "./../symbols/zener_diode_horz"
@@ -200,6 +202,8 @@ export default {
   "varactor_diode_vert": _varactor_diode_vert,
   "varistor_horz": _varistor_horz,
   "varistor_vert": _varistor_vert,
+  "varmeter_horz": _varmeter_horz,
+  "varmeter_vert": _varmeter_vert,
   "volt_meter_horz": _volt_meter_horz,
   "volt_meter_vert": _volt_meter_vert,
   "zener_diode_horz": _zener_diode_horz,
