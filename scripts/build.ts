@@ -1,18 +1,29 @@
-import { generateWebPage } from "./lib/generate-web-page"
-import fs from "fs"
-import path from "path/posix"
+import { generateWebPage } from "./lib/generate-web-page";
+import fs from "fs/promises";
+import path from "path";
 
-const distDir = path.join(process.cwd(), "public")
+const distDir = path.join(process.cwd(), "public");
 
-// Ensure the dist directory exists
-if (!fs.existsSync(distDir)) {
-  fs.mkdirSync(distDir, { recursive: true })
+async function createStaticHTMLFile() {
+  try {
+    // Ensure the dist directory exists
+    if (!await fs.access(distDir).then(() => true).catch(() => false)) {
+      await fs.mkdir(distDir, { recursive: true });
+      console.log(`Directory ${distDir} created`);
+    }
+
+    // Generate the HTML content
+    const htmlContent = generateWebPage();
+
+    // Write the HTML content to dist/index.html
+    const filePath = path.join(distDir, "index.html");
+    await fs.writeFile(filePath, htmlContent);
+    console.log(`Static HTML file generated at ${filePath}`);
+    
+  } catch (error) {
+    console.error("Error generating static HTML file:", error);
+  }
 }
 
-// Generate the HTML content
-const htmlContent = generateWebPage()
-
-// Write the HTML content to dist/index.html
-fs.writeFileSync(path.join(distDir, "index.html"), htmlContent)
-
-console.log("Static HTML file generated at public/index.html")
+// Execute the function
+createStaticHTMLFile();
