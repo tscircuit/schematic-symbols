@@ -86,6 +86,8 @@ import _SPST_switch_horz from "./../symbols/SPST_switch_horz"
 import _SPST_switch_vert from "./../symbols/SPST_switch_vert"
 import _step_recovery_diode_horz from "./../symbols/step_recovery_diode_horz"
 import _step_recovery_diode_vert from "./../symbols/step_recovery_diode_vert"
+import _tachometer_horz from "./../symbols/tachometer_horz"
+import _tachometer_vert from "./../symbols/tachometer_vert"
 import _triac_horz from "./../symbols/triac_horz"
 import _triac_vert from "./../symbols/triac_vert"
 import _tunnel_diode_horz from "./../symbols/tunnel_diode_horz"
@@ -192,6 +194,8 @@ export default {
   "SPST_switch_vert": _SPST_switch_vert,
   "step_recovery_diode_horz": _step_recovery_diode_horz,
   "step_recovery_diode_vert": _step_recovery_diode_vert,
+  "tachometer_horz": _tachometer_horz,
+  "tachometer_vert": _tachometer_vert,
   "triac_horz": _triac_horz,
   "triac_vert": _triac_vert,
   "tunnel_diode_horz": _tunnel_diode_horz,
