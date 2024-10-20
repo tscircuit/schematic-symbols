@@ -181,3 +181,4 @@ tmp
 public
 
 ./assets/generated
+./generated/base-symbol-names.ts
