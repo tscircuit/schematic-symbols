@@ -26,6 +26,8 @@ import _dpst_switch_horz from "./../symbols/dpst_switch_horz"
 import _dpst_switch_vert from "./../symbols/dpst_switch_vert"
 import _filled_diode_horz from "./../symbols/filled_diode_horz"
 import _filled_diode_vert from "./../symbols/filled_diode_vert"
+import _frequency_meter_horz from "./../symbols/frequency_meter_horz"
+import _frequency_meter_vert from "./../symbols/frequency_meter_vert"
 import _fuse_horz from "./../symbols/fuse_horz"
 import _fuse_vert from "./../symbols/fuse_vert"
 import _gunn_diode_horz from "./../symbols/gunn_diode_horz"
@@ -84,6 +86,8 @@ import _SPST_switch_horz from "./../symbols/SPST_switch_horz"
 import _SPST_switch_vert from "./../symbols/SPST_switch_vert"
 import _step_recovery_diode_horz from "./../symbols/step_recovery_diode_horz"
 import _step_recovery_diode_vert from "./../symbols/step_recovery_diode_vert"
+import _tachometer_horz from "./../symbols/tachometer_horz"
+import _tachometer_vert from "./../symbols/tachometer_vert"
 import _triac_horz from "./../symbols/triac_horz"
 import _triac_vert from "./../symbols/triac_vert"
 import _tunnel_diode_horz from "./../symbols/tunnel_diode_horz"
@@ -100,6 +104,8 @@ import _varmeter_horz from "./../symbols/varmeter_horz"
 import _varmeter_vert from "./../symbols/varmeter_vert"
 import _volt_meter_horz from "./../symbols/volt_meter_horz"
 import _volt_meter_vert from "./../symbols/volt_meter_vert"
+import _watt_hour_meter_horz from "./../symbols/watt_hour_meter_horz"
+import _watt_hour_meter_vert from "./../symbols/watt_hour_meter_vert"
 import _zener_diode_horz from "./../symbols/zener_diode_horz"
 import _zener_diode_vert from "./../symbols/zener_diode_vert"
 
@@ -132,6 +138,8 @@ export default {
   "dpst_switch_vert": _dpst_switch_vert,
   "filled_diode_horz": _filled_diode_horz,
   "filled_diode_vert": _filled_diode_vert,
+  "frequency_meter_horz": _frequency_meter_horz,
+  "frequency_meter_vert": _frequency_meter_vert,
   "fuse_horz": _fuse_horz,
   "fuse_vert": _fuse_vert,
   "gunn_diode_horz": _gunn_diode_horz,
@@ -190,6 +198,8 @@ export default {
   "SPST_switch_vert": _SPST_switch_vert,
   "step_recovery_diode_horz": _step_recovery_diode_horz,
   "step_recovery_diode_vert": _step_recovery_diode_vert,
+  "tachometer_horz": _tachometer_horz,
+  "tachometer_vert": _tachometer_vert,
   "triac_horz": _triac_horz,
   "triac_vert": _triac_vert,
   "tunnel_diode_horz": _tunnel_diode_horz,
@@ -206,6 +216,8 @@ export default {
   "varmeter_vert": _varmeter_vert,
   "volt_meter_horz": _volt_meter_horz,
   "volt_meter_vert": _volt_meter_vert,
+  "watt_hour_meter_horz": _watt_hour_meter_horz,
+  "watt_hour_meter_vert": _watt_hour_meter_vert,
   "zener_diode_horz": _zener_diode_horz,
   "zener_diode_vert": _zener_diode_vert
 }
