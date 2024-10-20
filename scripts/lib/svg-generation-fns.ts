@@ -170,7 +170,7 @@ export async function processSvg(symbolsSvg: string, fileName?: string) {
 }
 
 export async function processAllSvgs() {
-  const svgDir = path.resolve(__dirname, "../assets/symbols")
+  const svgDir = path.resolve(__dirname, "../../assets/symbols")
 
   try {
     const files = await fs.promises.readdir(svgDir)
