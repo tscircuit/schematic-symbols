@@ -62,23 +62,25 @@
       <!-- Ground symbol paths -->
       <path
          style="fill:none;stroke:#000000;stroke-width:0.244764px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 15.0106,12.904382 v 2"
+         d="m 16.0506,11.904382 v 3"
          id="path1" />
       <!-- Vertical line -->
       <path
          style="fill:none;stroke:#000000;stroke-width:0.244764px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 14.0106,15.100854 h 2"
+         d="m 14.0106,15.100854 h 4"
          id="path2" />
       <!-- Horizontal line -->
       <path
          style="fill:none;stroke:#000000;stroke-width:0.244764px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 14.5106,15.804083 h 1"
+         d="m 14.5106,15.804083 h 3"
          id="path3" />
       <!-- Short horizontal line -->
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.244764px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 15.0106,16.804083 v 0"
-         id="path4" />
+   <path
+   style="fill:none;stroke:#000000;stroke-width:2px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+   d="m 15.5106,16.804083 h 1" 
+   id="path4" />
+
+
       <!-- Placeholder for bottom line -->
       <!-- REF text -->
       <text
@@ -108,14 +110,14 @@
       <circle
          style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
          id="refblock_1"
-         cx="15.052501"
-         cy="16.6912"
+         cx="16.0506"
+         cy="11.904382"
          r="0.28158441" />
       <circle
          style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
          id="refblock_2"
-         cx="14.9686"
-         cy="12.9816"
+         cx="16.0406"
+         cy="17.004083"
          r="0.28158441" />
     </g>
   </g>
