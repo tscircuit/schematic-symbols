@@ -1,0 +1,15 @@
+<svg width="150" height="150" viewBox="0.1100000000000001 -0.6056360000000001 0.78 1.3212720000000002" xmlns="http://www.w3.org/2000/svg"><path d="M0.7899701000000001,0.005530000000000035 L0.5899701000000002,0.005530000000000035" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.5703229000000001,-0.09446999999999983 L0.5703229000000001,0.10553000000000012" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.5,-0.04447000000000001 L0.5,0.05553000000000008" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.40000000000000013,0.005530000000000035 L0.40000000000000013,0.005530000000000035" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="0.8800000000000001" y="-0.14500000000000007" dx="0" dy="0.037500000000000006" text-anchor="start" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="0.8675000000000002" y="-0.15750000000000008" width="0.025" height="0.025" fill="blue" />
+    <text x="0.23000000000000015" y="-0.14500000000000007" dx="0" dy="0.037500000000000006" text-anchor="end" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="0.21750000000000014" y="-0.15750000000000008" width="0.025" height="0.025" fill="blue" />
+
+    <rect x="0.7572483" y="-0.023669999999999948" width="0.05" height="0.05" fill="red" />
+    <text x="0.7422483" y="0.09133000000000005" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
+  
+    
+    <rect x="0.38628830000000003" y="-0.015279899999999992" width="0.05" height="0.05" fill="red" />
+    <text x="0.37128830000000007" y="0.0997201" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+  
+<path d="M 0.5000000000000001 0.03000000000000002 L 0.5250000000000001 0.05500000000000002 L 0.5000000000000001 0.08000000000000002 L 0.4750000000000001 0.05500000000000002 Z" fill="green" /></svg>
