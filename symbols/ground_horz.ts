@@ -11,4 +11,4 @@ const symbol = rotateSymbol(ground_vert)
 const doublesymbol = rotateSymbol(symbol)
 
 // Rotate a final time (270 degrees or -90 degrees from the double rotated one)
-export default rotateSymbol(doublesymbol)
+export default rotateSymbol(ground_vert)
