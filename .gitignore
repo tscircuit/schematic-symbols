@@ -175,6 +175,7 @@ dist
 .DS_Store
 .vscode
 .aider*
+*.diff.png
 
 tmp
 .vercel
