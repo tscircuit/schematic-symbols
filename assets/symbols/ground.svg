@@ -13,8 +13,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs5" />
+  <defs id="defs5" />
   <sodipodi:namedview
      id="namedview2"
      pagecolor="#ffffff"
@@ -58,7 +57,7 @@
      id="root">
     <g
        id="ground"
-       transform="translate(0.04240029,-0.06112979)">
+       transform="rotate(270, 15, 15)">
       <!-- Ground symbol paths -->
       <path
          style="fill:none;stroke:#000000;stroke-width:0.244764px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
@@ -75,37 +74,38 @@
          d="m 14.5106,15.804083 h 3"
          id="path3" />
       <!-- Short horizontal line -->
-   <path
-   style="fill:none;stroke:#000000;stroke-width:2px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-   d="m 15.5106,16.804083 h 1" 
-   id="path4" />
-
-
-      <!-- Placeholder for bottom line -->
+      <path
+         style="fill:none;stroke:#000000;stroke-width:2px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 15.5106,16.804083 h 1" 
+         id="path4" />
       <!-- REF text -->
       <text
          xml:space="preserve"
          style="font-size:1.05833px;fill:#000000;stroke-width:0.264583"
          x="5"
          y="10.804083"
-         id="text4">          <tspan
-   sodipodi:role="line"
-   style="font-size:1.05833px;stroke-width:0.264583"
-   x="10.0106"
-   y="10.804083"
-   id="tspan4">{REF}</tspan>      </text>
+         id="text4">
+        <tspan
+           sodipodi:role="line"
+           style="font-size:1.05833px;stroke-width:0.264583"
+           x="10.0106"
+           y="10.804083"
+           id="tspan4">{REF}</tspan>
+      </text>
       <!-- VAL text -->
       <text
          xml:space="preserve"
          style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
          x="15.0106"
          y="19.804083"
-         id="text5">          <tspan
-   sodipodi:role="line"
-   style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-   x="15.196634"
-   y="19.804083"
-   id="tspan5">{VAL}</tspan>      </text>
+         id="text5">
+        <tspan
+           sodipodi:role="line"
+           style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="15.196634"
+           y="19.804083"
+           id="tspan5">{VAL}</tspan>
+      </text>
       <!-- Red circles -->
       <circle
          style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
