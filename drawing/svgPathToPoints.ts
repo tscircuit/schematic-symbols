@@ -1,4 +1,5 @@
 import type { Point } from "./types"
+import { approximateArc } from "./arc"
 
 export function svgPathToPoints(pathString: string): Point[] {
   const points: Point[] = []
@@ -48,13 +49,28 @@ export function svgPathToPoints(pathString: string): Point[] {
       case "Z":
         // Close path - no new point
         break
-      // Add cases for other commands (S, T, A) if needed
+      case "A":
+        // For A command, we add the end point and intermediate points to approximate the arc
+        const [rx, ry, xAxisRotation, largeArcFlag, sweepFlag, x, y] = args
+        const arcPoints = approximateArc(
+          currentX,
+          currentY,
+          rx,
+          ry,
+          largeArcFlag,
+          x,
+          y,
+        )
+        arcPoints.forEach((point) => points.push(point))
+        addPoint(x, y)
+        break
+      // Add cases for other commands (S, T) if needed
       default:
         console.warn(`Unsupported SVG command: ${type}`)
     }
 
     // Handle relative commands
-    if (type === type.toLowerCase() && type !== "z") {
+    if (type === type.toLowerCase() && type !== "z" && type !== "a") {
       if (type === "c") {
         // For relative c, adjust both control points and end point
         points[points.length - 3].x += currentX

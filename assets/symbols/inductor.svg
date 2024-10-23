@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="30mm"
+   height="30mm"
+   viewBox="0 0 30 30"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="inductor.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="8.0000001"
+     inkscape:cx="69.749999"
+     inkscape:cy="46.5"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="inductor"
+     showgrid="true"
+     showguides="true">
+    <inkscape:grid
+       id="grid207"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="10"
+       spacingy="10"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+    <sodipodi:guide
+       position="9.7169178,14.316708"
+       orientation="1,0"
+       id="guide9106"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="21.287183,14.649959"
+       orientation="1,0"
+       id="guide9108"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="15.52836,15.96835"
+       orientation="0,-1"
+       id="guide9110"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="15.493628,15.608114"
+       orientation="1,0"
+       id="guide9112"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="14.957227,17.787826"
+       orientation="0,-1"
+       id="guide9114"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="13.867948,16.202211"
+       orientation="1,0"
+       id="guide9116"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="17.050122,17.552181"
+       orientation="1,0"
+       id="guide9118"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="15.984388,13.185406"
+       orientation="0,-1"
+       id="guide9120"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 15 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="30 : 15 : 1"
+       inkscape:persp3d-origin="15 : 10 : 1"
+       id="perspective358" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect3"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect2"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect1"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <g
+     inkscape:label="root"
+     inkscape:groupmode="layer"
+     id="root">
+    <g
+       id="inductor"
+       transform="translate(-71.462633,-45.483698)"
+       inkscape:label="inductor">
+      <title
+         id="title8696">inductor</title>
+      <path
+         id="path8698"
+         style="fill:none;stroke:#000000;stroke-width:0.249346;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:transform-center-x="0.85988814"
+         inkscape:transform-center-y="-0.6449257"
+         transform="matrix(0,-1,-1,0,0,0)"
+         d="m -60.531982,-84.964398 a 0.9958154,0.9958154 0 0 1 0.995815,0.995816 0.9958154,0.9958154 0 0 1 -0.995815,0.995815" />
+      <path
+         id="path8700"
+         style="fill:none;stroke:#000000;stroke-width:0.249346;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:transform-center-x="0.85988814"
+         inkscape:transform-center-y="-0.6449257"
+         transform="matrix(0,-1,-1,0,0,0)"
+         d="m -60.531975,-86.956028 a 0.9958154,0.9958154 0 0 1 0.995816,0.995815 0.9958154,0.9958154 0 0 1 -0.995816,0.995816" />
+      <path
+         id="path8702"
+         style="fill:none;stroke:#000000;stroke-width:0.249346;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:transform-center-x="0.85988814"
+         inkscape:transform-center-y="-0.6449257"
+         transform="matrix(0,-1,-1,0,0,0)"
+         d="m -60.531975,-88.947659 a 0.9958154,0.9958154 0 0 1 0.995816,0.995816 0.9958154,0.9958154 0 0 1 -0.995816,0.995815" />
+      <path
+         id="path8704"
+         style="fill:none;stroke:#000000;stroke-width:0.249346;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:transform-center-x="0.85988814"
+         inkscape:transform-center-y="-0.6449257"
+         transform="matrix(0,-1,-1,0,0,0)"
+         d="m -60.531975,-90.939289 a 0.9958154,0.9958154 0 0 1 0.995816,0.995815 0.9958154,0.9958154 0 0 1 -0.995816,0.995816" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.28118px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 82.941462,60.519154 H 81.671158"
+         id="path8706"
+         inkscape:connector-curvature="0" />
+      <title
+         id="title8710">Inductor</title>
+      <circle
+         style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         id="refblock-5-7-3-81-7-9"
+         cx="81.46032"
+         cy="60.506435"
+         r="0.28158441"
+         inkscape:label="refblock-5-7-3-81-7-9" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.05971px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264927"
+         x="86.809074"
+         y="62.675034"
+         id="text14-3-0-5-0-5-1"
+         transform="scale(1.0013034,0.9986983)"><tspan
+           sodipodi:role="line"
+           id="tspan14-1-4-0-4-8-3"
+           style="font-size:1.05971px;text-align:center;text-anchor:middle;stroke-width:0.264927"
+           x="86.809074"
+           y="62.675034">{VAL}</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+         x="86.923927"
+         y="57.993977"
+         id="text14-3-0-5-0-5"
+         inkscape:transform-center-x="-0.34198176"
+         inkscape:transform-center-y="-0.053997121"><tspan
+           sodipodi:role="line"
+           id="tspan14-1-4-0-4-8"
+           style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="86.923927"
+           y="57.993977">{REF}</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.28118px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 92.226353,60.564824 H 90.956049"
+         id="path8706-5"
+         inkscape:connector-curvature="0" />
+      <circle
+         style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         id="refblock-5-7-3-81-7"
+         cx="92.469177"
+         cy="60.558926"
+         r="0.28158441" />
+    </g>
+  </g>
+</svg>
