@@ -30,6 +30,8 @@ import _frequency_meter_horz from "./../symbols/frequency_meter_horz"
 import _frequency_meter_vert from "./../symbols/frequency_meter_vert"
 import _fuse_horz from "./../symbols/fuse_horz"
 import _fuse_vert from "./../symbols/fuse_vert"
+import _ground_horz from "./../symbols/ground_horz"
+import _ground_vert from "./../symbols/ground_vert"
 import _gunn_diode_horz from "./../symbols/gunn_diode_horz"
 import _gunn_diode_vert from "./../symbols/gunn_diode_vert"
 import _igbt_transistor_horz from "./../symbols/igbt_transistor_horz"
@@ -146,6 +148,8 @@ export default {
   "frequency_meter_vert": _frequency_meter_vert,
   "fuse_horz": _fuse_horz,
   "fuse_vert": _fuse_vert,
+  "ground_horz": _ground_horz,
+  "ground_vert": _ground_vert,
   "gunn_diode_horz": _gunn_diode_horz,
   "gunn_diode_vert": _gunn_diode_vert,
   "igbt_transistor_horz": _igbt_transistor_horz,
