@@ -36,6 +36,8 @@ import _gunn_diode_horz from "./../symbols/gunn_diode_horz"
 import _gunn_diode_vert from "./../symbols/gunn_diode_vert"
 import _igbt_transistor_horz from "./../symbols/igbt_transistor_horz"
 import _igbt_transistor_vert from "./../symbols/igbt_transistor_vert"
+import _illuminated_push_button_normally_open_horz from "./../symbols/illuminated_push_button_normally_open_horz"
+import _illuminated_push_button_normally_open_vert from "./../symbols/illuminated_push_button_normally_open_vert"
 import _inductor_horz from "./../symbols/inductor_horz"
 import _inductor_vert from "./../symbols/inductor_vert"
 import _laser_diode_horz from "./../symbols/laser_diode_horz"
@@ -154,6 +156,8 @@ export default {
   "gunn_diode_vert": _gunn_diode_vert,
   "igbt_transistor_horz": _igbt_transistor_horz,
   "igbt_transistor_vert": _igbt_transistor_vert,
+  "illuminated_push_button_normally_open_horz": _illuminated_push_button_normally_open_horz,
+  "illuminated_push_button_normally_open_vert": _illuminated_push_button_normally_open_vert,
   "inductor_horz": _inductor_horz,
   "inductor_vert": _inductor_vert,
   "laser_diode_horz": _laser_diode_horz,
