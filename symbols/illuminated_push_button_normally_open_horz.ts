@@ -8,8 +8,8 @@ export default defineSymbol({
   primitives: [
     ...Object.values(paths),
     ...Object.values(circles),
-    { ...texts.top1, anchor: "middle_right", x:0,y:-0.40 },
-    { ...texts.bottom1, anchor: "middle_right",x:0 },
+    { ...texts.top1, anchor: "middle_right", x: 0, y: -0.4 },
+    { ...texts.bottom1, anchor: "middle_right", x: 0 },
   ] as Primitive[],
   ports: [
     { ...refblocks.left1, labels: ["1"] }, // TODO add more "standard" labels
