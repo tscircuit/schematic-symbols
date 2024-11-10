@@ -1,14 +1,16 @@
-import svgJson from "assets/generated/diode.json"
 import { defineSymbol } from "drawing/defineSymbol"
+import svgJson from "assets/generated/diode.json"
+import { Primitive } from "drawing/types"
 
-const { paths, texts, bounds, refblocks } = svgJson
+const { paths, texts, bounds, refblocks, circles } = svgJson
 
 export default defineSymbol({
   primitives: [
     ...Object.values(paths),
+    ...Object.values(circles),
     { ...texts.top1, anchor: "middle_bottom" },
     { ...texts.bottom1, anchor: "middle_top" },
-  ] as any,
+  ] as Primitive[],
   ports: [
     { ...refblocks.left1, labels: ["1"] }, // TODO add more "standard" labels
     { ...refblocks.right1, labels: ["2"] }, // TODO add more "standard" labels
