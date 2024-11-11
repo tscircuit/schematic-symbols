@@ -31,7 +31,7 @@ export const rotateSymbol = (
   }
 
   const transform = rotate(
-    angleMap[orientation ?? "up"],
+    orientation ? angleMap[orientation] : Math.PI / 2,
     symbol.center.x,
     symbol.center.y,
   )
