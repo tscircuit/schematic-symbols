@@ -8,30 +8,45 @@ import type {
 } from "./types"
 
 // Update rotateAnchor to handle all anchor rotations based on orientation
-const rotateAnchor = (anchor: NinePointAnchor, orientation: "up" | "down" | "left" | "right" = "right"): NinePointAnchor => {
+const rotateAnchor = (
+  anchor: NinePointAnchor,
+  orientation: "up" | "down" | "left" | "right" = "right",
+): NinePointAnchor => {
   switch (orientation) {
     case "up":
       switch (anchor) {
-        case "middle_top": return "middle_left"
-        case "middle_bottom": return "middle_right"
-        case "middle_left": return "middle_bottom"
-        case "middle_right": return "middle_top"
+        case "middle_top":
+          return "middle_left"
+        case "middle_bottom":
+          return "middle_right"
+        case "middle_left":
+          return "middle_bottom"
+        case "middle_right":
+          return "middle_top"
       }
       break
     case "down":
       switch (anchor) {
-        case "middle_top": return "middle_right"
-        case "middle_bottom": return "middle_left"
-        case "middle_left": return "middle_top"
-        case "middle_right": return "middle_bottom"
+        case "middle_top":
+          return "middle_right"
+        case "middle_bottom":
+          return "middle_left"
+        case "middle_left":
+          return "middle_top"
+        case "middle_right":
+          return "middle_bottom"
       }
       break
     case "left":
       switch (anchor) {
-        case "middle_top": return "middle_left"
-        case "middle_bottom": return "middle_right"
-        case "middle_left": return "middle_bottom"
-        case "middle_right": return "middle_top"
+        case "middle_top":
+          return "middle_left"
+        case "middle_bottom":
+          return "middle_right"
+        case "middle_left":
+          return "middle_bottom"
+        case "middle_right":
+          return "middle_top"
       }
       break
     case "right":
@@ -77,7 +92,10 @@ export const rotateSymbol = (
           y: primitive.y,
         }) as Point
 
-        primitive.anchor = rotateAnchor(primitive.anchor, orientation?? "right")
+        primitive.anchor = rotateAnchor(
+          primitive.anchor,
+          orientation ?? "right",
+        )
 
         return {
           ...primitive,
