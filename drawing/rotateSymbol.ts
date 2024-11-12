@@ -40,13 +40,13 @@ const rotateAnchor = (
     case "left":
       switch (anchor) {
         case "middle_top":
-          return "middle_left"
-        case "middle_bottom":
-          return "middle_right"
-        case "middle_left":
           return "middle_bottom"
-        case "middle_right":
+        case "middle_bottom":
           return "middle_top"
+        case "middle_left":
+          return "middle_right"
+        case "middle_right":
+          return "middle_left"
       }
       break
     case "right":
