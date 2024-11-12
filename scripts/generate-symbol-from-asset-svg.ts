@@ -15,19 +15,37 @@ async function main() {
     .sort((a, b) => b.time - a.time)
     .map((file) => file.name)
 
-  const response = await prompts({
+  const fileResponse = await prompts({
     type: "autocomplete",
     name: "file",
     message: "Select a symbol file to process:",
     choices: files.map((file) => ({ title: file, value: file })),
   })
 
-  if (response.file) {
-    const filePath = path.join(symbolsDir, response.file)
-    await processSvg(
-      fs.readFileSync(filePath, "utf-8"),
-      response.file.split(".")[0],
-    )
+  if (fileResponse.file) {
+    const directionResponse = await prompts({
+      type: "select",
+      name: "direction",
+      message: "Which orientation of SVG do you want?",
+      choices: [
+        { title: "Horizontal, Vertical", value: ["horz", "vert"] },
+        {
+          title: "Right, Up, Left, Down",
+          value: ["right", "up", "left", "down"],
+        },
+      ],
+    })
+
+    if (directionResponse.direction) {
+      const filePath = path.join(symbolsDir, fileResponse.file)
+      await processSvg(
+        fs.readFileSync(filePath, "utf-8"),
+        fileResponse.file.split(".")[0],
+        directionResponse.direction,
+      )
+    } else {
+      console.log("No orientation selected. Exiting.")
+    }
   } else {
     console.log("No file selected. Exiting.")
   }

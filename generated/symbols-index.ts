@@ -20,8 +20,10 @@ import _dc_voltmeter_horz from "./../symbols/dc_voltmeter_horz"
 import _dc_voltmeter_vert from "./../symbols/dc_voltmeter_vert"
 import _diac_horz from "./../symbols/diac_horz"
 import _diac_vert from "./../symbols/diac_vert"
-import _diode_horz from "./../symbols/diode_horz"
-import _diode_vert from "./../symbols/diode_vert"
+import _diode_down from "./../symbols/diode_down"
+import _diode_left from "./../symbols/diode_left"
+import _diode_right from "./../symbols/diode_right"
+import _diode_up from "./../symbols/diode_up"
 import _dpst_switch_horz from "./../symbols/dpst_switch_horz"
 import _dpst_switch_vert from "./../symbols/dpst_switch_vert"
 import _filled_diode_horz from "./../symbols/filled_diode_horz"
@@ -140,8 +142,10 @@ export default {
   "dc_voltmeter_vert": _dc_voltmeter_vert,
   "diac_horz": _diac_horz,
   "diac_vert": _diac_vert,
-  "diode_horz": _diode_horz,
-  "diode_vert": _diode_vert,
+  "diode_down": _diode_down,
+  "diode_left": _diode_left,
+  "diode_right": _diode_right,
+  "diode_up": _diode_up,
   "dpst_switch_horz": _dpst_switch_horz,
   "dpst_switch_vert": _dpst_switch_vert,
   "filled_diode_horz": _filled_diode_horz,

@@ -19,9 +19,22 @@ const rotateAnchor = (anchor: NinePointAnchor): NinePointAnchor => {
 
 export const rotateSymbol = (
   symbol: SchSymbol,
+  orientation?: "up" | "down" | "left" | "right",
   overrides?: Partial<SchSymbol>,
 ): SchSymbol => {
-  const transform = rotate(Math.PI / 2, symbol.center.x, symbol.center.y)
+  // Assuming the default orientation is "right"
+  const angleMap = {
+    up: -Math.PI / 2,
+    right: 0,
+    down: Math.PI / 2,
+    left: -Math.PI,
+  }
+
+  const transform = rotate(
+    orientation ? angleMap[orientation] : Math.PI / 2,
+    symbol.center.x,
+    symbol.center.y,
+  )
 
   const { primitives, center, size, ports } = symbol
 
@@ -84,10 +97,15 @@ export const rotateSymbol = (
     primitives: rotatedPrimitives,
     center,
     ports: rotatedPorts,
-    // TODO recompute size using overrides
     size: {
-      width: size.height,
-      height: size.width,
+      width:
+        orientation === "up" || orientation === "down"
+          ? size.width
+          : size.height,
+      height:
+        orientation === "up" || orientation === "down"
+          ? size.height
+          : size.width,
     },
     ...overrides,
   }

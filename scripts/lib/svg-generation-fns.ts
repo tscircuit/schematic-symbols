@@ -12,7 +12,11 @@ import kleur from "kleur"
 
 const SOURCE_IGNORE_LIST = ["testshape"]
 
-export async function processSvg(symbolsSvg: string, fileName?: string) {
+export async function processSvg(
+  symbolsSvg: string,
+  fileName?: string,
+  orientations: string[] = ["horz", "vert"],
+) {
   try {
     // Parse the entire SVG file once
     const parsedSvg = await parse(symbolsSvg)
@@ -115,8 +119,6 @@ export async function processSvg(symbolsSvg: string, fileName?: string) {
           )
 
           const svgData = {
-            // only for debugging
-            // svg: groupWithTransformApplied,
             paths,
             texts,
             refblocks,
@@ -131,35 +133,48 @@ export async function processSvg(symbolsSvg: string, fileName?: string) {
             return
           }
 
-          // Check if there's a source file for this symbol
-          const outputPath = `./symbols/${groupId}_horz.ts`
-          const hasSourceFile = fs.existsSync(outputPath)
-          const isReadyForGen =
-            Object.keys(texts).length > 0 &&
-            Object.keys(paths).length > 0 &&
-            Object.keys(refblocks).length > 0
+          // Generate source files based on provided orientations
+          const defaultOrientation = orientations[0] // Default to first orientation
+          orientations.forEach((orientation) => {
+            const outputPath = `./symbols/${groupId}_${orientation}.ts`
+            const hasSourceFile = fs.existsSync(outputPath)
+            const isReadyForGen =
+              Object.keys(texts).length > 0 &&
+              Object.keys(paths).length > 0 &&
+              Object.keys(refblocks).length > 0
 
-          if (!hasSourceFile && !isReadyForGen) {
-            console.log(
-              `Skipping ${groupId} because it's not ready for generation (missing some elements)`,
-            )
-            console.log(`  - texts: ${Object.keys(texts).length}`)
-            console.log(`  - paths: ${Object.keys(paths).length}`)
-            console.log(`  - refblocks: ${Object.keys(refblocks).length}`)
-          } else if (!hasSourceFile && isReadyForGen) {
-            console.log(`Creating horz source file: ${outputPath}`)
-            const content = getTsFileContentForSvgGroup(groupId, svgData as any)
-            fs.writeFileSync(outputPath, content)
-            // Write the vert file
-            const vertOutputPath = `./symbols/${groupId}_vert.ts`
-            console.log(`Creating vert source file: ${vertOutputPath}`)
-            const contentVert = `import { rotateSymbol } from "drawing/rotateSymbol"\nimport ${groupId}_horz from "./${groupId}_horz"\n\nexport default rotateSymbol(${groupId}_horz)`
-            fs.writeFileSync(vertOutputPath, contentVert)
-          } else {
-            console.log(
-              `Skipping generating ${groupId}_horz.ts and ${groupId}_vert.ts because it already has a source file`,
-            )
-          }
+            if (!hasSourceFile && !isReadyForGen) {
+              console.log(
+                `Skipping ${groupId} because it's not ready for generation (missing some elements)`,
+              )
+              console.log(`  - texts: ${Object.keys(texts).length}`)
+              console.log(`  - paths: ${Object.keys(paths).length}`)
+              console.log(`  - refblocks: ${Object.keys(refblocks).length}`)
+            } else if (!hasSourceFile && isReadyForGen) {
+              console.log(`Creating ${orientation} source file: ${outputPath}`)
+              const content = getTsFileContentForSvgGroup(
+                groupId,
+                svgData as any,
+              )
+              fs.writeFileSync(outputPath, content)
+
+              if (orientations.length > 1) {
+                for (let i = 1; i < orientations.length; i++) {
+                  const newOrientation = orientations[i]
+                  const orientedOutputPath = `./symbols/${groupId}_${newOrientation}.ts`
+                  console.log(
+                    `Creating ${newOrientation} source file: ${orientedOutputPath}`,
+                  )
+                  const orientedContent = `import { rotateSymbol } from "drawing/rotateSymbol"\nimport ${groupId}_${defaultOrientation} from "./${groupId}_${defaultOrientation}"\n\nexport default rotateSymbol(${groupId}_${defaultOrientation}, "${newOrientation == "vert" ? "up" : newOrientation}")`
+                  fs.writeFileSync(orientedOutputPath, orientedContent)
+                }
+              }
+            } else {
+              console.log(
+                `Skipping generation for ${groupId}_${orientation}.ts as it already exists or lacks required elements`,
+              )
+            }
+          })
         } catch (err: any) {
           console.log(`Error processing ${groupId}: ${err.message}`)
         }
