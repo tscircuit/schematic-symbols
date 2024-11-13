@@ -44,8 +44,10 @@ import _inductor_horz from "./../symbols/inductor_horz"
 import _inductor_vert from "./../symbols/inductor_vert"
 import _laser_diode_horz from "./../symbols/laser_diode_horz"
 import _laser_diode_vert from "./../symbols/laser_diode_vert"
-import _led_horz from "./../symbols/led_horz"
-import _led_vert from "./../symbols/led_vert"
+import _led_down from "./../symbols/led_down"
+import _led_left from "./../symbols/led_left"
+import _led_right from "./../symbols/led_right"
+import _led_up from "./../symbols/led_up"
 import _light_dependent_resistor_horz from "./../symbols/light_dependent_resistor_horz"
 import _light_dependent_resistor_vert from "./../symbols/light_dependent_resistor_vert"
 import _mosfet_depletion_normally_on_horz from "./../symbols/mosfet_depletion_normally_on_horz"
@@ -166,8 +168,10 @@ export default {
   "inductor_vert": _inductor_vert,
   "laser_diode_horz": _laser_diode_horz,
   "laser_diode_vert": _laser_diode_vert,
-  "led_horz": _led_horz,
-  "led_vert": _led_vert,
+  "led_down": _led_down,
+  "led_left": _led_left,
+  "led_right": _led_right,
+  "led_up": _led_up,
   "light_dependent_resistor_horz": _light_dependent_resistor_horz,
   "light_dependent_resistor_vert": _light_dependent_resistor_vert,
   "mosfet_depletion_normally_on_horz": _mosfet_depletion_normally_on_horz,
