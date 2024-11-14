@@ -1,4 +1,4 @@
-import { rotate, applyToPoint } from "transformation-matrix"
+import { rotate, applyToPoint, transform, scale } from "transformation-matrix"
 import type {
   SchSymbol,
   Primitive,
@@ -53,6 +53,164 @@ const rotateAnchor = (
       return anchor // No change if orientation is "right"
   }
   return anchor
+}
+
+export const flipSymbolOverXAxis = (
+  symbol: SchSymbol,
+  overrides?: Partial<SchSymbol>,
+): SchSymbol => {
+  const { primitives, center, ports, size } = symbol
+  const transformMatrix = transform({
+    a: 1,
+    b: 0,
+    c: 0,
+    d: -1,
+    e: 0,
+    f: 2 * center.y,
+  })
+
+  const flippedPrimitives = primitives.map((primitive): Primitive => {
+    primitive = { ...primitive }
+    switch (primitive.type) {
+      case "path":
+        return {
+          ...primitive,
+          points: primitive.points.map(
+            (point) => applyToPoint(transformMatrix, point) as Point,
+          ),
+        }
+      case "text":
+        const flippedPoint = applyToPoint(transformMatrix, {
+          x: primitive.x,
+          y: primitive.y,
+        }) as Point
+
+        // Flip text anchors vertically
+        const anchorMap: Record<NinePointAnchor, NinePointAnchor> = {
+          top_left: "bottom_left",
+          top_right: "bottom_right",
+          bottom_left: "top_left",
+          bottom_right: "top_right",
+          center: "center",
+          middle_top: "middle_bottom",
+          middle_bottom: "middle_top",
+          middle_left: "middle_left",
+          middle_right: "middle_right",
+        }
+
+        return {
+          ...primitive,
+          x: flippedPoint.x,
+          y: flippedPoint.y,
+          anchor: anchorMap[primitive.anchor],
+        }
+      case "circle":
+      case "box":
+        const flippedCenter = applyToPoint(transformMatrix, {
+          x: primitive.x,
+          y: primitive.y,
+        }) as Point
+        return {
+          ...primitive,
+          x: flippedCenter.x,
+          y: flippedCenter.y,
+        }
+    }
+  })
+
+  const flippedPorts = ports.map(
+    (port): Port => ({
+      ...port,
+      ...(applyToPoint(transformMatrix, port) as Point),
+    }),
+  )
+
+  return {
+    primitives: flippedPrimitives,
+    center,
+    ports: flippedPorts,
+    size,
+    ...overrides,
+  }
+}
+
+export const flipSymbolOverYAxis = (
+  symbol: SchSymbol,
+  overrides?: Partial<SchSymbol>,
+): SchSymbol => {
+  const { primitives, center, ports, size } = symbol
+  const transformMatrix = transform({
+    a: -1,
+    b: 0,
+    c: 0,
+    d: 1,
+    e: 0,
+    f: 2 * center.x,
+  })
+
+  const flippedPrimitives = primitives.map((primitive): Primitive => {
+    primitive = { ...primitive }
+    switch (primitive.type) {
+      case "path":
+        return {
+          ...primitive,
+          points: primitive.points.map(
+            (point) => applyToPoint(transformMatrix, point) as Point,
+          ),
+        }
+      case "text":
+        const flippedPoint = applyToPoint(transformMatrix, {
+          x: primitive.x,
+          y: primitive.y,
+        }) as Point
+
+        // Flip text anchors horizontally
+        const anchorMap: Record<NinePointAnchor, NinePointAnchor> = {
+          top_left: "top_right",
+          top_right: "top_left",
+          bottom_left: "bottom_right",
+          bottom_right: "bottom_left",
+          center: "center",
+          middle_top: "middle_top",
+          middle_bottom: "middle_bottom",
+          middle_left: "middle_right",
+          middle_right: "middle_left",
+        }
+
+        return {
+          ...primitive,
+          x: flippedPoint.x,
+          y: flippedPoint.y,
+          anchor: anchorMap[primitive.anchor],
+        }
+      case "circle":
+      case "box":
+        const flippedCenter = applyToPoint(transformMatrix, {
+          x: primitive.x,
+          y: primitive.y,
+        }) as Point
+        return {
+          ...primitive,
+          x: flippedCenter.x,
+          y: flippedCenter.y,
+        }
+    }
+  })
+
+  const flippedPorts = ports.map(
+    (port): Port => ({
+      ...port,
+      ...(applyToPoint(transformMatrix, port) as Point),
+    }),
+  )
+
+  return {
+    primitives: flippedPrimitives,
+    center,
+    ports: flippedPorts,
+    size,
+    ...overrides,
+  }
 }
 
 export const rotateSymbol = (

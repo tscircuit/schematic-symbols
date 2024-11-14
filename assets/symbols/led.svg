@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25)"
-   sodipodi:docname="symbols.svg"
+   sodipodi:docname="led.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -23,14 +23,14 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="32.422109"
-     inkscape:cx="102.35299"
-     inkscape:cy="699.39928"
-     inkscape:window-width="1728"
-     inkscape:window-height="1051"
+     inkscape:zoom="9.6359961"
+     inkscape:cx="118.46207"
+     inkscape:cy="701.89941"
+     inkscape:window-width="1680"
+     inkscape:window-height="1050"
      inkscape:window-x="0"
-     inkscape:window-y="38"
-     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
      inkscape:current-layer="led"
      showgrid="true">
     <inkscape:grid
@@ -85,11 +85,10 @@
          inkscape:connector-curvature="0" />
     </marker>
   </defs>
-   <g
+  <g
      inkscape:label="root"
      inkscape:groupmode="layer"
      id="root">
-
     <g
        id="led"
        transform="rotate(90,-74.457875,74.949375)"
@@ -187,6 +186,5 @@
            x="24.337488"
            y="38.916466">{VAL}</tspan></text>
     </g>
-
-   </g>
+  </g>
 </svg>
