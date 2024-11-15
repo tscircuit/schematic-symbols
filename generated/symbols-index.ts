@@ -6,7 +6,11 @@ import _battery_horz from "./../symbols/battery_horz"
 import _battery_vert from "./../symbols/battery_vert"
 import _boxresistor_horz from "./../symbols/boxresistor_horz"
 import _boxresistor_vert from "./../symbols/boxresistor_vert"
+import _capacitor_down from "./../symbols/capacitor_down"
 import _capacitor_horz from "./../symbols/capacitor_horz"
+import _capacitor_left from "./../symbols/capacitor_left"
+import _capacitor_right from "./../symbols/capacitor_right"
+import _capacitor_up from "./../symbols/capacitor_up"
 import _capacitor_vert from "./../symbols/capacitor_vert"
 import _constant_current_diode_horz from "./../symbols/constant_current_diode_horz"
 import _constant_current_diode_vert from "./../symbols/constant_current_diode_vert"
@@ -130,7 +134,11 @@ export default {
   "battery_vert": _battery_vert,
   "boxresistor_horz": _boxresistor_horz,
   "boxresistor_vert": _boxresistor_vert,
+  "capacitor_down": _capacitor_down,
   "capacitor_horz": _capacitor_horz,
+  "capacitor_left": _capacitor_left,
+  "capacitor_right": _capacitor_right,
+  "capacitor_up": _capacitor_up,
   "capacitor_vert": _capacitor_vert,
   "constant_current_diode_horz": _constant_current_diode_horz,
   "constant_current_diode_vert": _constant_current_diode_vert,
