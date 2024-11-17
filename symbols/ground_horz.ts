@@ -28,7 +28,7 @@ export const horizontalSymbol = defineSymbol({
   ] as Primitive[],
   ports: [{ ...refblocks.top1, labels: ["1"] }],
   size: { width: bounds.width, height: bounds.height },
-  center: { x: bounds.centerX - 0.09, y: bounds.centerY - 0.45 },
+  center: { x: bounds.centerX, y: bounds.centerY },
 })
 
 // Vertical orientation symbol
