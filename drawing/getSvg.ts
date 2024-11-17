@@ -10,9 +10,9 @@ function createDiamondElement(
 ): string {
   const { x, y } = center
   const halfSize = size / 2
-  return `<path d="M ${x} ${makeYUpPositive(y, yUpPositive) - halfSize} L ${x + halfSize} ${y} L ${x} ${
-    y + halfSize
-  } L ${x - halfSize} ${y} Z" fill="green" />`
+  return `<path d="M ${x} ${makeYUpPositive(y, yUpPositive) - halfSize} L ${x + halfSize} ${makeYUpPositive(y, yUpPositive)} L ${x} ${
+    makeYUpPositive(y, yUpPositive) + halfSize
+  } L ${x - halfSize} ${makeYUpPositive(y, yUpPositive)} Z" fill="green" />`
 }
 
 function createTextElement(
@@ -29,7 +29,7 @@ function createTextElement(
 
   const capHeight = fontSize * 0.75
 
-  switch (makeAnchorYUpPositive(anchor, yUpPositive)) {
+  switch (anchor) {
     case "top_left":
       textAnchor = "start"
       dy = fontSize
@@ -153,7 +153,7 @@ export function getSvg(
   const h = size.height * bufferMultiple
   const viewBox = {
     x: symbol.center.x - w / 2,
-    y: symbol.center.y - h / 2,
+    y: makeYUpPositive(symbol.center.y, true) - h / 2,
     width: w,
     height: h,
   }

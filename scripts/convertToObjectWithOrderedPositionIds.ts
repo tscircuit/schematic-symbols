@@ -1,3 +1,24 @@
+/**
+ * Convert an array of points to an object with ordered position ids.
+ *
+ * NOTE: Assumes Y-up is POSITIVE
+ *
+ * Example:
+ *
+ * [
+ *   { x: 0, y: 0 },
+ *   { x: 1, y: 1 },
+ *   { x: 2, y: 2 },
+ * ]
+ *
+ * Becomes:
+ *
+ * {
+ *   top1: { x: 0, y: 0 },
+ *   right1: { x: 1, y: 1 },
+ *   bottom1: { x: 0, y: -2 },
+ * }
+ */
 export const convertToObjectWithOrderedPositionIds = <
   T extends { x: number; y: number },
 >(
@@ -25,9 +46,9 @@ export const convertToObjectWithOrderedPositionIds = <
     } else if (dominantSide === "x" && dx < 0) {
       side = "left"
     } else if (dominantSide === "y" && dy > 0) {
-      side = "bottom"
-    } else if (dominantSide === "y" && dy < 0) {
       side = "top"
+    } else if (dominantSide === "y" && dy < 0) {
+      side = "bottom"
     } else {
       side = "unknown"
     }

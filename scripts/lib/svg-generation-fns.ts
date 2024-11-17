@@ -12,6 +12,11 @@ import kleur from "kleur"
 
 const SOURCE_IGNORE_LIST = ["testshape"]
 
+/**
+ * Inkscape SVGs are generated with "Y-up is negative", but we want "Y-up is positive"
+ */
+const flipY = (y: number) => -y
+
 export async function processSvg(
   symbolsSvg: string,
   fileName?: string,
@@ -44,7 +49,7 @@ export async function processSvg(
           let bounds = getBoundsOfSvgJson(groupWithTransformApplied as any)
           groupWithTransformApplied.attributes.transform = toSVG(
             compose(
-              scale(0.1, 0.1),
+              scale(0.1, -0.1),
               translate(-bounds.centerX, -bounds.centerY),
             ),
           )
@@ -53,6 +58,7 @@ export async function processSvg(
           )
 
           bounds = getBoundsOfSvgJson(groupWithTransformApplied as any)
+          bounds.centerY = flipY(bounds.centerY)
 
           const refblocks = convertToObjectWithOrderedPositionIds(
             groupWithTransformApplied.children

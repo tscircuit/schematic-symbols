@@ -8,29 +8,29 @@ import type {
 } from "./types"
 
 // Update rotateAnchor to handle all anchor rotations based on orientation
-const rotateAnchor = (
+const rotateRightFacingAnchor = (
   anchor: NinePointAnchor,
-  orientation: "up" | "down" | "left" | "right" = "right",
+  newOrientation: "up" | "down" | "left" | "right" = "right",
 ): NinePointAnchor => {
-  switch (orientation) {
-    case "up":
-      switch (anchor) {
-        case "middle_top":
-          return "middle_left"
-        case "middle_bottom":
-          return "middle_right"
-        case "middle_left":
-          return "middle_bottom"
-        case "middle_right":
-          return "middle_top"
-      }
-      break
+  switch (newOrientation) {
     case "down":
       switch (anchor) {
         case "middle_top":
           return "middle_right"
         case "middle_bottom":
           return "middle_left"
+        case "middle_left":
+          return "middle_bottom"
+        case "middle_right":
+          return "middle_top"
+      }
+      break
+    case "up":
+      switch (anchor) {
+        case "middle_top":
+          return "middle_left"
+        case "middle_bottom":
+          return "middle_right"
         case "middle_left":
           return "middle_top"
         case "middle_right":
@@ -213,21 +213,24 @@ export const flipSymbolOverYAxis = (
   }
 }
 
-export const rotateSymbol = (
+export const rotateRightFacingSymbol = (
   symbol: SchSymbol,
-  orientation?: "up" | "down" | "left" | "right",
-  overrides?: Partial<SchSymbol>,
+  opts: {
+    newOrientation?: "up" | "down" | "left" | "right"
+    overrides?: Partial<SchSymbol>
+  },
 ): SchSymbol => {
+  const { newOrientation, overrides } = opts
   // Assuming the default orientation is "right"
   const angleMap = {
-    up: -Math.PI / 2,
+    up: Math.PI / 2,
     right: 0,
-    down: Math.PI / 2,
+    down: -Math.PI / 2,
     left: -Math.PI,
   }
 
   const transform = rotate(
-    orientation ? angleMap[orientation] : Math.PI / 2,
+    newOrientation ? angleMap[newOrientation] : Math.PI / 2,
     symbol.center.x,
     symbol.center.y,
   )
@@ -250,9 +253,9 @@ export const rotateSymbol = (
           y: primitive.y,
         }) as Point
 
-        primitive.anchor = rotateAnchor(
+        primitive.anchor = rotateRightFacingAnchor(
           primitive.anchor,
-          orientation ?? "right",
+          newOrientation ?? "right",
         )
 
         return {
@@ -298,14 +301,27 @@ export const rotateSymbol = (
     ports: rotatedPorts,
     size: {
       width:
-        orientation === "up" || orientation === "down"
+        newOrientation === "up" || newOrientation === "down"
           ? size.width
           : size.height,
       height:
-        orientation === "up" || orientation === "down"
+        newOrientation === "up" || newOrientation === "down"
           ? size.height
           : size.width,
     },
     ...overrides,
   }
 }
+
+/**
+ * @deprecated use rotateRightFacingSymbol instead
+ */
+export const rotateSymbol = (
+  symbol: SchSymbol,
+  orientation?: "up" | "down" | "left" | "right",
+  overrides?: Partial<SchSymbol>,
+): SchSymbol =>
+  rotateRightFacingSymbol(symbol, {
+    newOrientation: orientation,
+    overrides,
+  })
