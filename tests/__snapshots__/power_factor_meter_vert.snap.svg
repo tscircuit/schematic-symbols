@@ -1,4 +1,4 @@
-<svg width="150" height="150" viewBox="-0.5999999999999999 -0.6368613600000002 1.2 1.2737227200000003" xmlns="http://www.w3.org/2000/svg"><path d="M2.301405848023156e-17,-0.5307178000000001 L3.6878835984438384e-17,-0.30428879999999975" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+<svg width="150" height="150" viewBox="-0.5999999999999999 -0.6368613600000002 1.2 1.2737227200000003" xmlns="http://www.w3.org/2000/svg"><g transform="scale(1,-1)"><path d="M2.301405848023156e-17,-0.5307178000000001 L3.6878835984438384e-17,-0.30428879999999975" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M7.326713984477743e-17,0.28997730000000027 L8.800824398228408e-17,0.5307178000000001" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <circle cx="0.007128299999999588" cy="-0.006997299999999707" r="0.28854213" fill="none" stroke="black" stroke-width="0.02" />
     <text x="0.35" y="0" dx="0" dy="0.037500000000000006" text-anchor="start" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="0.33749999999999997" y="-0.0125" width="0.025" height="0.025" fill="blue" />
@@ -12,4 +12,4 @@
     <rect x="-0.024856400000000667" y="0.5131638000000004" width="0.05" height="0.05" fill="red" />
     <text x="-0.039856400000000666" y="0.6281638000000005" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
   
-<path d="M 5.551115123125783e-17 -0.025 L 0.025000000000000057 0 L 5.551115123125783e-17 0.025 L -0.024999999999999946 0 Z" fill="green" /></svg>
+<path d="M 5.551115123125783e-17 -0.025 L 0.025000000000000057 0 L 5.551115123125783e-17 0.025 L -0.024999999999999946 0 Z" fill="green" /></g></svg>

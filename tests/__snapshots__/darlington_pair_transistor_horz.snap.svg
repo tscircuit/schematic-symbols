@@ -1,4 +1,4 @@
-<svg width="150" height="150" viewBox="1.3636062500000001 0.9234060090000001 1.2 1.2" xmlns="http://www.w3.org/2000/svg"><path d="M1.9942486145,1.6315233295000002 L2.0984258145,1.6321433295000003" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+<svg width="150" height="150" viewBox="1.3636062500000001 0.9234060090000001 1.2 1.2" xmlns="http://www.w3.org/2000/svg"><g transform="scale(1,-1)"><path d="M1.9942486145,1.6315233295000002 L2.0984258145,1.6321433295000003" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M2.1030704145000003,1.4702420295 L2.1026604145,1.7934203295" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M2.2218770145,1.4862575295 L2.1063461145,1.5650515295000003" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M2.2286252145,1.7712556295000002 L2.1136540145000002,1.6926424295" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
@@ -26,4 +26,4 @@
     <rect x="2.2028617145000005" y="1.9294573295000004" width="0.05" height="0.05" fill="red" />
     <text x="2.1878617145000003" y="2.0444573295" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
   
-<path d="M 1.9636062500000002 1.4984060090000002 L 1.9886062500000001 1.5234060090000001 L 1.9636062500000002 1.548406009 L 1.9386062500000003 1.5234060090000001 Z" fill="green" /></svg>
+<path d="M 1.9636062500000002 1.4984060090000002 L 1.9886062500000001 1.5234060090000001 L 1.9636062500000002 1.548406009 L 1.9386062500000003 1.5234060090000001 Z" fill="green" /></g></svg>

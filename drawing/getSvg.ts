@@ -154,5 +154,6 @@ export function getSvg(
     options.height = viewBox.height
   }
 
-  return `<svg width="${options.width}" height="${options.height}" viewBox="${viewBox.x} ${viewBox.y} ${viewBox.width} ${viewBox.height}" xmlns="http://www.w3.org/2000/svg">${innerSvg}</svg>`
+  // NOTE: We flip the Y-axis so that Y-up is positive!!!
+  return `<svg width="${options.width}" height="${options.height}" viewBox="${viewBox.x} ${viewBox.y} ${viewBox.width} ${viewBox.height}" xmlns="http://www.w3.org/2000/svg"><g transform="scale(1,-1)">${innerSvg}</g></svg>`
 }

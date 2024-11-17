@@ -1,4 +1,4 @@
-<svg width="150" height="150" viewBox="-0.6241494599999999 -0.6 1.2482989199999996 1.2" xmlns="http://www.w3.org/2000/svg"><path d="M0.1413337499999996,0.00024145000000008743 L-0.12324954999999993,0.13253315000000043" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+<svg width="150" height="150" viewBox="-0.6241494599999999 -0.6 1.2482989199999996 1.2" xmlns="http://www.w3.org/2000/svg"><g transform="scale(1,-1)"><path d="M0.1413337499999996,0.00024145000000008743 L-0.12324954999999993,0.13253315000000043" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M-0.12324954999999993,-0.13205025000000026 L0.1413337499999996,0.00024145000000008743" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M-0.12324954999999993,0.1325331499999991 L-0.12324954999999993,-0.13205025000000026" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.1413337499999996,-0.13205025000000026 L0.1413337499999996,0.1325331499999991" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
@@ -15,4 +15,4 @@
     <rect x="0.4908919499999994" y="-0.02461834999999999" width="0.05" height="0.05" fill="red" />
     <text x="0.47589194999999945" y="0.09038165000000001" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
   
-<path d="M -1.1102230246251565e-16 -0.025 L 0.02499999999999989 0 L -1.1102230246251565e-16 0.025 L -0.025000000000000112 0 Z" fill="green" /></svg>
+<path d="M -1.1102230246251565e-16 -0.025 L 0.02499999999999989 0 L -1.1102230246251565e-16 0.025 L -0.025000000000000112 0 Z" fill="green" /></g></svg>

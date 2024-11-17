@@ -1,9 +1,9 @@
-<svg width="150" height="150" viewBox="-0.5999999999999999 -0.6368613600000002 1.2 1.2737227200000003" xmlns="http://www.w3.org/2000/svg"><path d="M-0.002520349999999926,-0.5307178000000001 L-0.002520349999999912,-0.30428879999999975" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+<svg width="150" height="150" viewBox="-0.5999999999999999 -0.6368613600000002 1.2 1.2737227200000003" xmlns="http://www.w3.org/2000/svg"><g transform="scale(1,-1)"><path d="M-0.002520349999999926,-0.5307178000000001 L-0.002520349999999912,-0.30428879999999975" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.09574354999999996,0.09442299999999987 L-0.09574354999999984,-0.004364400000000762 L0.09574354999999996,-0.11102110000000126" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M-0.0025203499999998757,0.28997730000000027 L-0.002520349999999861,0.5307178000000001" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <circle cx="0.004607949999999639" cy="-0.0069972999999997065" r="0.28854213" fill="none" stroke="black" stroke-width="0.02" />
-    <text x="0.35945534999999956" y="-7.752144342195238e-17" dx="0" dy="0.037500000000000006" text-anchor="start" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="0.34695534999999955" y="-0.012500000000000079" width="0.025" height="0.025" fill="blue" />
-    <text x="-0.3499999999999999" y="-3.4079832246179144e-17" dx="0" dy="0.037500000000000006" text-anchor="end" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.36249999999999993" y="-0.012500000000000035" width="0.025" height="0.025" fill="blue" />
+    <text x="0.35945534999999956" y="-7.752144342195238e-17" dx="0" dy="0" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="0.34695534999999955" y="-0.012500000000000079" width="0.025" height="0.025" fill="blue" />
+    <text x="-0.3499999999999999" y="-3.4079832246179144e-17" dx="0" dy="0.07500000000000001" text-anchor="middle" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.36249999999999993" y="-0.012500000000000035" width="0.025" height="0.025" fill="blue" />
 
     <rect x="-0.02837315000000047" y="-0.5696330999999993" width="0.05" height="0.05" fill="red" />
     <text x="-0.04337315000000047" y="-0.45463309999999935" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
@@ -12,4 +12,4 @@
     <rect x="-0.027376750000000616" y="0.5131638000000004" width="0.05" height="0.05" fill="red" />
     <text x="-0.042376750000000615" y="0.6281638000000005" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
   
-<path d="M 5.551115123125783e-17 -0.025 L 0.025000000000000057 0 L 5.551115123125783e-17 0.025 L -0.024999999999999946 0 Z" fill="green" /></svg>
+<path d="M 5.551115123125783e-17 -0.025 L 0.025000000000000057 0 L 5.551115123125783e-17 0.025 L -0.024999999999999946 0 Z" fill="green" /></g></svg>
