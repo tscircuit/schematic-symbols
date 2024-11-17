@@ -20,7 +20,10 @@ export function generateWebPage(): string {
       <div class="symbol-container"  style="padding-bottom:32px;  padding-top: 32px; position:relative;">
         <div style="font-size: 12px; position:absolute; word-break: break-all; top: 0; left: 0; right:0; padding: 4px; text-align:  left;padding-bottom: 16px; display: flex; justify-content: space-between;">
         <div>${name}</div>
-        <div><a href="${name}.json">json</a></div>
+        <div>
+          <a href="${name}.json">json</a>
+          <a href="${name}.svg">svg</a>
+        </div>
         </div>
       ${svg}
       </div>
