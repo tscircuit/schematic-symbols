@@ -66,12 +66,9 @@ export function getBoundsOfSvgJson(svgJson: INode): {
       const x = Number.parseFloat(node.attributes.x)
       const y = Number.parseFloat(node.attributes.y)
 
-      const textWidth = 0.1
-      const textHeight = 0.1
-
       minX = Math.min(minX, x)
-      maxX = Math.max(maxX, x + textWidth)
-      minY = Math.min(minY, y - textHeight)
+      maxX = Math.max(maxX, x)
+      minY = Math.min(minY, y)
       maxY = Math.max(maxY, y)
     }
 
@@ -83,7 +80,7 @@ export function getBoundsOfSvgJson(svgJson: INode): {
   processNode(svgJson)
 
   const width = Math.abs(maxX - minX)
-  const height = Math.abs(maxY - minY) - 0.35 // Makes the height of the symbol looks better
+  const height = Math.abs(maxY - minY)
   const centerX = (minX + maxX) / 2
   const centerY = (minY + maxY) / 2
 

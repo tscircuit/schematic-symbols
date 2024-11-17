@@ -58,7 +58,6 @@ export async function processSvg(
           )
 
           bounds = getBoundsOfSvgJson(groupWithTransformApplied as any)
-          bounds.centerY = flipY(bounds.centerY)
 
           const refblocks = convertToObjectWithOrderedPositionIds(
             groupWithTransformApplied.children
@@ -191,7 +190,7 @@ export async function processSvg(
 }
 
 export async function processAllSvgs() {
-  const svgDir = path.resolve(__dirname, "../../assets/symbols")
+  const svgDir = path.resolve(import.meta.dirname, "../../../assets/symbols")
 
   try {
     const files = await fs.promises.readdir(svgDir)
