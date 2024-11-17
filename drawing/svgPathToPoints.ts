@@ -58,6 +58,7 @@ export function svgPathToPoints(pathString: string): Point[] {
           rx,
           ry,
           largeArcFlag,
+          sweepFlag,
           x,
           y,
         )

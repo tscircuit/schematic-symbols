@@ -6,6 +6,7 @@ export function approximateArc(
   rx: number,
   ry: number,
   largeArcFlag: number,
+  sweepFlag: number,
   x2: number,
   y2: number,
 ): Point[] {
@@ -22,7 +23,8 @@ export function approximateArc(
       0.03 *
       Math.abs(Math.sin(t * Math.PI)) *
       Math.min(rx, ry) *
-      (largeArcFlag ? 1 : -1)
+      (largeArcFlag ? 1 : -1) *
+      (sweepFlag ? -1 : 1)
     points.push({ x, y: y + curveY })
   }
   return points

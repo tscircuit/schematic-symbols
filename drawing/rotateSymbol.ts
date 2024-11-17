@@ -318,8 +318,8 @@ export const rotateRightFacingSymbol = (
  */
 export const rotateSymbol = (
   symbol: SchSymbol,
-  orientation?: "up" | "down" | "left" | "right",
-  overrides?: Partial<SchSymbol>,
+  orientation: "up" | "down" | "left" | "right" = "up",
+  overrides: Partial<SchSymbol> = {},
 ): SchSymbol =>
   rotateRightFacingSymbol(symbol, {
     newOrientation: orientation,
