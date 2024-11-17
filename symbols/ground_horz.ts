@@ -15,20 +15,20 @@ export const horizontalSymbol = defineSymbol({
       type: "text",
       text: "{REF}", // REF label for horizontal
       x: -0.1, // Adjust this for the horizontal positioning of REF
-      y: -0.8, // Adjust this for the vertical positioning of REF
+      y: 0.8, // Adjust this for the vertical positioning of REF
       anchor: "middle_bottom", // Horizontal anchor for REF
     },
     {
       type: "text",
       text: "{VAL}", // VAL label for horizontal
       x: -0.1, // Adjust for horizontal positioning of VAL
-      y: -0.1, // Adjust for vertical positioning of VAL
+      y: 0.1, // Adjust for vertical positioning of VAL
       anchor: "middle_top", // Horizontal anchor for VAL
     },
   ] as Primitive[],
   ports: [{ ...refblocks.top1, labels: ["1"] }],
-  size: { width: bounds.width, height: bounds.height },
-  center: { x: bounds.centerX - 0.09, y: bounds.centerY - 0.45 },
+  size: { width: 1, height: 1 },
+  center: { x: 0, y: 0.4 },
 })
 
 // Vertical orientation symbol

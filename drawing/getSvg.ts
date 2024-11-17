@@ -1,16 +1,24 @@
+import { makeAnchorYUpPositive, makeYUpPositive } from "./utils/makeYUpPositive"
 import { mapColor } from "./mapColor"
 import { pathToSvgD } from "./pathToSvgD"
 import type { Point, Port, SchSymbol, TextPrimitive } from "./types"
 
-function createDiamondElement(center: Point, size = 0.05): string {
+function createDiamondElement(
+  center: Point,
+  size = 0.05,
+  yUpPositive: boolean = true,
+): string {
   const { x, y } = center
   const halfSize = size / 2
-  return `<path d="M ${x} ${y - halfSize} L ${x + halfSize} ${y} L ${x} ${
-    y + halfSize
-  } L ${x - halfSize} ${y} Z" fill="green" />`
+  return `<path d="M ${x} ${makeYUpPositive(y, yUpPositive) - halfSize} L ${x + halfSize} ${makeYUpPositive(y, yUpPositive)} L ${x} ${
+    makeYUpPositive(y, yUpPositive) + halfSize
+  } L ${x - halfSize} ${makeYUpPositive(y, yUpPositive)} Z" fill="green" />`
 }
 
-function createTextElement(primitive: TextPrimitive): {
+function createTextElement(
+  primitive: TextPrimitive,
+  { yUpPositive }: { yUpPositive?: boolean },
+): {
   text: string
   anchor: string
 } {
@@ -58,16 +66,19 @@ function createTextElement(primitive: TextPrimitive): {
   }
 
   return {
-    text: `<text x="${x}" y="${y}" dx="${dx}" dy="${dy}" text-anchor="${textAnchor}" style="font: ${
+    text: `<text x="${x}" y="${makeYUpPositive(y, yUpPositive)}" dx="${dx}" dy="${dy}" text-anchor="${textAnchor}" style="font: ${
       fontSize ?? 0.1
     }px monospace; fill: ${mapColor("primary")}">${text}</text>`,
     anchor: `<rect x="${x - 0.025 / 2}" y="${
-      y - 0.025 / 2
+      makeYUpPositive(y, yUpPositive) - 0.025 / 2
     }" width="0.025" height="0.025" fill="blue" />`,
   }
 }
 
-function createPortElement(port: Port): string {
+function createPortElement(
+  port: Port,
+  { yUpPositive }: { yUpPositive?: boolean },
+): string {
   const { x, y, labels } = port
   const rectSize = 0.05
   const labelFontSize = 0.08
@@ -75,10 +86,10 @@ function createPortElement(port: Port): string {
 
   return `
     <rect x="${x - rectSize / 2}" y="${
-      y - rectSize / 2
+      makeYUpPositive(y, yUpPositive) - rectSize / 2
     }" width="${rectSize}" height="${rectSize}" fill="red" />
     <text x="${x - labelFontSize / 2}" y="${
-      y + rectSize + labelFontSize / 2
+      makeYUpPositive(y, yUpPositive) + rectSize + labelFontSize / 2
     }" text-anchor="middle" style="font: ${labelFontSize}px monospace; fill: #833;">${label}</text>
   `
 }
@@ -92,19 +103,19 @@ export function getInnerSvg(
   const svgElements = primitives.map((primitive) => {
     switch (primitive.type) {
       case "path":
-        return `<path d="${pathToSvgD(
-          primitive.points,
-          primitive.closed,
-        )}" fill="${
+        return `<path d="${pathToSvgD(primitive.points, {
+          closed: primitive.closed,
+          yUpPositive: true,
+        })}" fill="${
           primitive.fill ? mapColor(primitive.color) : "none"
         }" stroke="${mapColor(
           primitive.color,
         )}" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />`
       case "text":
-        const textElements = createTextElement(primitive)
+        const textElements = createTextElement(primitive, { yUpPositive: true })
         return textElements.text + (debug ? textElements.anchor : "")
       case "circle":
-        return `<circle cx="${primitive.x}" cy="${primitive.y}" r="${
+        return `<circle cx="${primitive.x}" cy="${makeYUpPositive(primitive.y, true)}" r="${
           primitive.radius
         }" fill="${primitive.fill ? mapColor(primitive.color) : "none"}" ${
           !primitive.fill
@@ -112,7 +123,7 @@ export function getInnerSvg(
             : ""
         } />`
       case "box":
-        return `<rect x="${primitive.x}" y="${primitive.y}" width="${
+        return `<rect x="${primitive.x}" y="${makeYUpPositive(primitive.y)}" width="${
           primitive.width
         }" height="${primitive.height}" fill="${mapColor("primary")}" />`
       default:
@@ -120,7 +131,9 @@ export function getInnerSvg(
     }
   })
 
-  const portElements = ports.map(createPortElement).join("\n    ")
+  const portElements = ports
+    .map((p) => createPortElement(p, { yUpPositive: true }))
+    .join("\n    ")
 
   const centerDiamond = createDiamondElement(symbol.center)
 
@@ -140,7 +153,7 @@ export function getSvg(
   const h = size.height * bufferMultiple
   const viewBox = {
     x: symbol.center.x - w / 2,
-    y: symbol.center.y - h / 2,
+    y: makeYUpPositive(symbol.center.y, true) - h / 2,
     width: w,
     height: h,
   }

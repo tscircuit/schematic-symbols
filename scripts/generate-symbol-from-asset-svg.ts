@@ -1,4 +1,4 @@
-import { processSvg } from "./lib/svg-generation-fns"
+import { processSvg } from "./lib/svg-generation-fns/svg-generation-fns"
 import fs from "fs"
 import path from "path"
 import prompts from "prompts"

@@ -3,14 +3,19 @@ import fs from "fs"
 import path from "path/posix"
 import { parse } from "svgson"
 import { compose, scale, toSVG, translate } from "transformation-matrix"
-import { convertToObjectWithOrderedPositionIds } from "../convertToObjectWithOrderedPositionIds"
-import { applyGroupTransformsToChildren } from "./applyGroupTransformsToChildren"
-import { findInnerText } from "./findInnerText"
-import { getBoundsOfSvgJson } from "./getBoundsOfSvgJson"
-import { getTsFileContentForSvgGroup } from "./getTsFileContentForSvgGroup"
+import { convertToObjectWithOrderedPositionIds } from "../../convertToObjectWithOrderedPositionIds"
+import { applyGroupTransformsToChildren } from "../applyGroupTransformsToChildren"
+import { findInnerText } from "../findInnerText"
+import { getBoundsOfSvgJson } from "../getBoundsOfSvgJson"
+import { getTsFileContentForSvgGroup } from "../getTsFileContentForSvgGroup"
 import kleur from "kleur"
 
 const SOURCE_IGNORE_LIST = ["testshape"]
+
+/**
+ * Inkscape SVGs are generated with "Y-up is negative", but we want "Y-up is positive"
+ */
+const flipY = (y: number) => -y
 
 export async function processSvg(
   symbolsSvg: string,
@@ -44,7 +49,7 @@ export async function processSvg(
           let bounds = getBoundsOfSvgJson(groupWithTransformApplied as any)
           groupWithTransformApplied.attributes.transform = toSVG(
             compose(
-              scale(0.1, 0.1),
+              scale(0.1, -0.1),
               translate(-bounds.centerX, -bounds.centerY),
             ),
           )
@@ -185,7 +190,7 @@ export async function processSvg(
 }
 
 export async function processAllSvgs() {
-  const svgDir = path.resolve(__dirname, "../../assets/symbols")
+  const svgDir = path.resolve(import.meta.dirname, "../../../assets/symbols")
 
   try {
     const files = await fs.promises.readdir(svgDir)

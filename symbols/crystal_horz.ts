@@ -14,14 +14,14 @@ export default defineSymbol({
       text: "{REF}",
       x: -0.012864500000000056,
       y: -0.4150086999999978,
-      anchor: "middle_bottom",
+      anchor: "middle_top",
     },
     {
       type: "text",
       text: "{VAL}",
       x: -0.003850500000000423,
       y: 0.4250087000000011,
-      anchor: "middle_top",
+      anchor: "middle_bottom",
     },
   ] as any,
   ports: [

@@ -6,11 +6,11 @@ import {
   type Matrix,
   fromTransformAttribute,
   identity,
+  decomposeTSR,
 } from "transformation-matrix"
 import type { INode } from "svgson"
 import { parseSVG, makeAbsolute, type LineToCommand } from "svg-path-parser"
 import { serializeSvgPathCommands } from "./serializeSvgPathCommands"
-import { decomposeTSR } from "transformation-matrix"
 
 export function applyGroupTransformsToChildren(group: INode) {
   if (!group.attributes.transform) {
@@ -98,6 +98,14 @@ export function transformPath(pathData: string, matrix: Matrix): string {
       const { x, y } = applyToPoint(matrix, { x: command.x, y: command.y })
       command.x = x
       command.y = y
+    }
+    if ("x0" in command && "y0" in command) {
+      const { x, y } = applyToPoint(matrix, {
+        x: command.x0 as number,
+        y: command.y0 as number,
+      })
+      command.x0 = x
+      command.y0 = y
     }
     if ("x1" in command && "y1" in command) {
       const { x, y } = applyToPoint(matrix, { x: command.x1, y: command.y1 })

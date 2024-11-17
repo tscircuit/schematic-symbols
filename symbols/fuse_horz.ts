@@ -11,7 +11,7 @@ export default defineSymbol({
       type: "text",
       text: "{VAL}",
       x: 0,
-      y: 0.2,
+      y: -0.2,
       anchor: "middle_top",
     },
   ] as any,
