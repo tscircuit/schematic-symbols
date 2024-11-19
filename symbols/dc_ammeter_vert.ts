@@ -1,6 +1,9 @@
 import { rotateSymbol } from "drawing/rotateSymbol"
 import dc_ammeter_horz from "./dc_ammeter_horz"
+import svgJson from "assets/generated/dc_ammeter.json"
+
 import { PathPrimitive, Primitive, TextPrimitive } from "drawing/types"
+import { modifySymbol } from "scripts/lib/modify-symbol/modify-symbol"
 
 function isPathPrimitive(value: any): value is PathPrimitive {
   return (
@@ -44,8 +47,11 @@ const rotatedSymbol = rotateSymbol({
   ...dc_ammeter_horz,
   primitives: Object.values(rest).filter(isPrimitive),
 })
+export default modifySymbol(svgJson)
+.rotateRightFacingSymbol("down")
+.build()
 
-export default {
-  ...rotatedSymbol,
-  primitives: [...rotatedSymbol.primitives, letter, underline],
-}
+// export default {
+//   ...rotatedSymbol,
+//   primitives: [...rotatedSymbol.primitives, letter, underline],
+// }
