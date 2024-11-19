@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   sodipodi:docname="capacitor_polarized.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+   id="namedview18"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:document-units="mm"
+   showgrid="false"
+   showguides="true"
+   inkscape:zoom="22.627417"
+   inkscape:cx="88.565124"
+   inkscape:cy="643.77653"
+   inkscape:window-width="1920"
+   inkscape:window-height="1009"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="capacitor-2"><sodipodi:guide
+     position="22.615349,128.88511"
+     orientation="0,-1"
+     id="guide345"
+     inkscape:locked="false" /><sodipodi:guide
+     position="23.55579,122.66028"
+     orientation="0,-1"
+     id="guide347"
+     inkscape:locked="false" /><sodipodi:guide
+     position="20.737752,128.48832"
+     orientation="0,-1"
+     id="guide349"
+     inkscape:locked="false" /><sodipodi:guide
+     position="20.152291,122.90659"
+     orientation="0,-1"
+     id="guide351"
+     inkscape:locked="false" /><sodipodi:guide
+     position="20.456411,124.59299"
+     orientation="1,0"
+     id="guide456"
+     inkscape:locked="false" /><sodipodi:guide
+     position="23.505409,129.04744"
+     orientation="0,-1"
+     id="guide1603"
+     inkscape:locked="false" /><sodipodi:guide
+     position="23.16394,127.3289"
+     orientation="1,0"
+     id="guide1605"
+     inkscape:locked="false" /><sodipodi:guide
+     position="24.171554,127.3289"
+     orientation="0,-1"
+     id="guide1607"
+     inkscape:locked="false" /></sodipodi:namedview>
+  <defs
+   id="defs1" />
+  <g
+   id="root">
+    <g
+   id="capacitor-2"
+   transform="rotate(90,-68.754474,72.131786)">
+      <title
+   id="title26-4">Capacitor</title>
+      <path
+   style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+   d="m 30.427082,-23.812483 v 5.216047"
+   id="path27-5" />
+      <path
+   style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+   d="m 30.427082,-17.727067 v 4.497917"
+   id="path28-5" />
+      
+      <path
+   style="fill:none;stroke:#000000;stroke-width:0.265212px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+   d="m 27.757884,-18.558306 h 5.316822"
+   id="path30-7" />
+      <title
+   id="title30-1">Capacitor</title>
+      <circle
+   style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+   id="refblock-5-7-3-81-1"
+   cx="24.095198"
+   cy="30.430643"
+   r="0.28158441"
+   transform="rotate(-90)" />
+      <circle
+   style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+   id="refblock-5-7-3-81-3-5"
+   cx="13.071012"
+   cy="30.43611"
+   r="0.28158441"
+   transform="rotate(-90)" />
+      <text
+   xml:space="preserve"
+   style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+   x="18.45446"
+   y="26.399826"
+   id="text14-3-0-5-0-5-2"
+   transform="rotate(-90)"
+   inkscape:label="text14-3-0-5-0-5-2">
+        <tspan
+   id="tspan14-1-4-0-4-8-7"
+   style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+   x="18.45446"
+   y="26.399826">{REF}</tspan>
+      </text>
+      <text
+   xml:space="preserve"
+   style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+   x="18.5446"
+   y="34.799999"
+   id="text14-3-0-5-0-5-1-6"
+   transform="rotate(-90)">
+        <tspan
+   id="tspan14-1-4-0-4-8-3-1"
+   style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+   x="18.5446"
+   y="34.799999">{VAL}</tspan>
+      </text>
+    <path
+   id="path8704"
+   style="display:inline;fill:none;stroke:#000000;stroke-width:0.322575;stroke-linecap:round;stroke-linejoin:round"
+   inkscape:transform-center-x="-0.39059361"
+   inkscape:transform-center-y="-2.3761891"
+   d="m 33.039984,-17.149474 c -0.411546,-0.24548 -0.838456,-0.430068 -1.282295,-0.537971 -0.558503,-0.135779 -1.13563,-0.171407 -1.713904,-0.128957 -0.490062,0.0436 -0.98734,0.120647 -1.46068,0.281738 -0.27734,0.09439 -0.547496,0.222792 -0.802134,0.385056"
+   sodipodi:nodetypes="cscsc" /><path
+   id="rect1577-4"
+   style="stroke-width:0.0970555"
+   d="m 28.143978,-21.217623 v 1.404672 h -0.04973 v -1.404672 z" /><path
+   id="rect1577-4-7"
+   style="stroke-width:0.0970555"
+   d="m 27.41646,-20.540718 h 1.404672 v 0.04973 H 27.41646 Z" /></g>
+  </g>
+</svg>
