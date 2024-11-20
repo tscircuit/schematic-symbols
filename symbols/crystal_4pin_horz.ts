@@ -1,22 +1,11 @@
-import { defineSymbol } from "drawing/defineSymbol"
 import svgJson from "assets/generated/crystal_4pin.json"
-import { Primitive } from "drawing/types"
+import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
 
-const { paths, texts, bounds, refblocks, circles } = svgJson
-
-export default defineSymbol({
-  primitives: [
-    ...Object.values(paths),
-    ...Object.values(circles),
-    { ...texts.left1, anchor: "middle_right" },
-    { ...texts.right1, anchor: "center" },
-  ] as Primitive[],
-  ports: [
-    { ...refblocks.top1, labels: ["2"] }, // TODO add more "standard" labels
-    { ...refblocks.bottom1, labels: ["4"] }, // TODO add more "standard" labels
-    { ...refblocks.left1, labels: ["1"] }, // TODO add more "standard" labels
-    { ...refblocks.right1, labels: ["3"] }, // TODO add more "standard" labels
-  ],
-  size: { width: bounds.width, height: bounds.height },
-  center: { x: bounds.centerX, y: bounds.centerY },
-})
+export default modifySymbol(svgJson)
+  .labelPort("top1", ["gnd1"])
+  .labelPort("bottom1", ["gnd2"])
+  .labelPort("left1", ["1"])
+  .labelPort("right1", ["3"])
+  .changeTextAnchor("{REF}", "bottom_right")
+  .changeTextAnchor("{VAL}", "top_left")
+  .build()

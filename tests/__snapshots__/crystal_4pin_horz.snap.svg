@@ -14,15 +14,15 @@
     <path d="M0.19226054999999942,0.3469270499999997 L0.19226054999999942,0.2787400499999979" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M-0.21813955000000096,0.34694015 L-0.21813955000000096,0.27874015000000085" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M-0.14368304999999992,0.010083950000000286 L-0.5364480500000002,0.010083950000000286" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <text x="-0.38155925000000046" y="-0.09576035000000083" dx="0" dy="0.05" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.39405925000000047" y="-0.10826035000000082" width="0.025" height="0.025" fill="blue" />
-    <text x="0.3369813499999994" y="0.17868404999999754" dx="0" dy="0.05" text-anchor="middle" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="0.3244813499999994" y="0.16618404999999753" width="0.025" height="0.025" fill="blue" />
+    <text x="-0.38155925000000046" y="-0.09576035000000083" dx="0" dy="0" text-anchor="end" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.39405925000000047" y="-0.10826035000000082" width="0.025" height="0.025" fill="blue" />
+    <text x="0.3369813499999994" y="0.17868404999999754" dx="0" dy="0.1" text-anchor="start" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="0.3244813499999994" y="0.16618404999999753" width="0.025" height="0.025" fill="blue" />
 
     <rect x="-0.02179075000000017" y="-0.7364137500000002" width="0.05" height="0.05" fill="red" />
-    <text x="-0.03679075000000017" y="-0.6214137500000001" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+    <text x="-0.03679075000000017" y="-0.6214137500000001" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">gnd1</text>
   
     
     <rect x="-0.04855145000000025" y="0.6864137500000002" width="0.05" height="0.05" fill="red" />
-    <text x="-0.06355145000000026" y="0.8014137500000003" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">4</text>
+    <text x="-0.06355145000000026" y="0.8014137500000003" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">gnd2</text>
   
     
     <rect x="-0.5665391500000004" y="-0.01892925000000254" width="0.05" height="0.05" fill="red" />
