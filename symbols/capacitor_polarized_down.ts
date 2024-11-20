@@ -1,4 +1,10 @@
-import { rotateSymbol } from "drawing/rotateSymbol"
-import capacitor_polarized_right from "./capacitor_polarized_right"
+import { modifySymbol } from "../drawing/modify-symbol/modify-symbol"
+import svgJson from "./capacitor_polarized_right"
 
-export default rotateSymbol(capacitor_polarized_right, "down")
+export default modifySymbol(svgJson)
+  .changeTextAnchor("{VAL}", "middle_top")
+  .rotateRightFacingSymbol("down")
+  .labelPort("left1", ["1"])
+  .labelPort("right1", ["2"])
+  .changeTextAnchor("{REF}", "middle_left")
+  .build()
