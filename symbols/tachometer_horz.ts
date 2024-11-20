@@ -12,16 +12,16 @@ export default defineSymbol({
       text: "{REF}",
       x: 0,
       y: -0.3594553499999995,
-      anchor: "middle_bottom",
+      anchor: "middle_top",
     },
     {
       type: "text",
       text: "{VAL}",
       x: 0,
       y: 0.35,
-      anchor: "middle_top",
+      anchor: "middle_bottom",
     },
-    { ...texts.left1, anchor: "center", fontSize: 0.2 },
+    { ...texts.left1, y: 0.01, anchor: "center", fontSize: 0.2 },
   ] as any,
   ports: [
     { ...refblocks.left1, labels: ["1"] }, // TODO add more "standard" labels

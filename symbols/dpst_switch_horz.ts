@@ -2,6 +2,7 @@ import { defineSymbol } from "drawing/defineSymbol"
 import svgJson from "assets/generated/dpst_switch.json"
 import { Primitive } from "drawing/types"
 
+svgJson.bounds.width += 0.2
 const { paths, texts, bounds, refblocks, circles } = svgJson
 
 export default defineSymbol({

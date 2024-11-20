@@ -1,21 +1,13 @@
 import { defineSymbol } from "drawing/defineSymbol"
 import svgJson from "assets/generated/triac.json"
 import { TextPrimitive } from "drawing/types"
+import { modifySymbol } from "scripts/lib/modify-symbol/modify-symbol"
 
 const { paths, texts, bounds, refblocks, circles } = svgJson
-
-export default defineSymbol({
-  primitives: [
-    ...Object.values(paths),
-    ...Object.values(circles),
-    { ...texts.top1, anchor: "middle_left" } as TextPrimitive,
-    { ...texts.bottom1, anchor: "middle_top" } as TextPrimitive,
-  ] as any,
-  ports: [
-    { ...refblocks.left1, labels: ["1"] }, // TODO add more "standard" labels
-    { ...refblocks.right1, labels: ["2"] }, // TODO add more "standard" labels
-    { ...refblocks.bottom1, labels: ["3"] }, // TODO add more "standard" labels
-  ],
-  size: { width: bounds.width, height: bounds.height },
-  center: { x: bounds.centerX, y: bounds.centerY },
-})
+export default modifySymbol(svgJson)
+  .changeTextAnchor("{VAL}", "middle_top")
+  .labelPort("left1", ["1"])
+  .labelPort("right1", ["2"])
+  .labelPort("bottom1", ["3"])
+  .changeTextAnchor("{REF}", "middle_bottom")
+  .build()

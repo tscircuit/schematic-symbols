@@ -9,8 +9,11 @@ const val = texts.find((t) => t.text === "{VAL}")!
 const text_cos = texts.find((t) => t.text === "COS φ")!
 ref.x = 0.35
 ref.y = 0
-val.x = -0.6
+ref.anchor = "middle_left"
+val.anchor = "middle_right"
+val.x = -0.35
 val.y = 0
-text_cos.x = -0.1
+text_cos.x = 0
 text_cos.y = 0
+text_cos.anchor = "center"
 export default rotatedSymbol

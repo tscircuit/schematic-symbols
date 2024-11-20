@@ -11,15 +11,15 @@ export default defineSymbol({
       ...texts.top1,
       x: 0,
       y: -0.3594553499999995,
-      anchor: "middle_bottom",
+      anchor: "middle_top",
     },
     {
       ...texts.bottom1,
       x: 0,
       y: 0.35,
-      anchor: "middle_top",
+      anchor: "middle_bottom",
     },
-    { ...texts.left1, x: -0.02, y: -0.02, fontSize: 0.2, anchor: "center" },
+    { ...texts.left1, x: -0.02, y: 0.01, fontSize: 0.2, anchor: "center" },
   ] as any,
   ports: [
     { ...refblocks.left1, labels: ["1"] }, // TODO add more "standard" labels

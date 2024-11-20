@@ -1,6 +1,7 @@
 import { defineSymbol } from "drawing/defineSymbol"
 import svgJson from "assets/generated/push_button_normally_open_momentary.json"
 
+svgJson.bounds.width += 0.2
 const { paths, texts, bounds, refblocks } = svgJson
 
 export default defineSymbol({
