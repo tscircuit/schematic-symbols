@@ -9,6 +9,10 @@ import _boxresistor_vert from "./../symbols/boxresistor_vert"
 import _capacitor_down from "./../symbols/capacitor_down"
 import _capacitor_horz from "./../symbols/capacitor_horz"
 import _capacitor_left from "./../symbols/capacitor_left"
+import _capacitor_polarized_down from "./../symbols/capacitor_polarized_down"
+import _capacitor_polarized_left from "./../symbols/capacitor_polarized_left"
+import _capacitor_polarized_right from "./../symbols/capacitor_polarized_right"
+import _capacitor_polarized_up from "./../symbols/capacitor_polarized_up"
 import _capacitor_right from "./../symbols/capacitor_right"
 import _capacitor_up from "./../symbols/capacitor_up"
 import _capacitor_vert from "./../symbols/capacitor_vert"
@@ -137,6 +141,10 @@ export default {
   "capacitor_down": _capacitor_down,
   "capacitor_horz": _capacitor_horz,
   "capacitor_left": _capacitor_left,
+  "capacitor_polarized_down": _capacitor_polarized_down,
+  "capacitor_polarized_left": _capacitor_polarized_left,
+  "capacitor_polarized_right": _capacitor_polarized_right,
+  "capacitor_polarized_up": _capacitor_polarized_up,
   "capacitor_right": _capacitor_right,
   "capacitor_up": _capacitor_up,
   "capacitor_vert": _capacitor_vert,
