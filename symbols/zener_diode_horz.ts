@@ -1,10 +1,19 @@
 import { defineSymbol } from "drawing/defineSymbol"
 import svgJson from "assets/generated/zener_diode.json"
-import { modifySymbol } from "scripts/lib/modify-symbol/modify-symbol"
 
 const { paths, texts, bounds, refblocks, circles } = svgJson
 
-export default modifySymbol(svgJson)
-.changeTextAnchor("{VAL}", "middle_bottom")
-.changeTextAnchor("{REF}", "middle_top")
-.build()
+export default defineSymbol({
+  primitives: [
+    ...Object.values(paths),
+    ...Object.values(circles),
+    { ...texts.top1, anchor: "middle_bottom" },
+    { ...texts.bottom1, anchor: "middle_top" },
+  ] as any,
+  ports: [
+    { ...refblocks.left1, labels: ["1"] }, // TODO add more "standard" labels
+    { ...refblocks.right1, labels: ["2"] }, // TODO add more "standard" labels
+  ],
+  size: { width: bounds.width, height: bounds.height },
+  center: { x: bounds.centerX, y: bounds.centerY },
+})

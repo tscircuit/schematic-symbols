@@ -12,5 +12,9 @@ ref.y = -0.045
 val.x = -0.55
 val.y = 0
 export default modifySymbol(svgJson)
-.rotateRightFacingSymbol("down")
-.build()
+  .rotateRightFacingSymbol("down")
+  .changeTextAnchor("{VAL}", "middle_right")
+  .labelPort("left1", ["1"])
+  .labelPort("right1", ["2"])
+  .changeTextAnchor("{REF}", "middle_left")
+  .build()

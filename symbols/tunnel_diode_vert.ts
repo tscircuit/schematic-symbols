@@ -1,9 +1,7 @@
 import { rotateSymbol } from "drawing/rotateSymbol"
 import tunnel_diode_horz from "./tunnel_diode_horz"
-import svgJson from "assets/generated/tunnel_diode.json"
 
 import type { TextPrimitive } from "drawing"
-import { modifySymbol } from "scripts/lib/modify-symbol/modify-symbol"
 
 const rotated = rotateSymbol(tunnel_diode_horz)
 
@@ -17,8 +15,4 @@ const val = rotated.primitives.find(
 ref.anchor = "middle_left"
 val.anchor = "middle_right"
 
-export default modifySymbol(svgJson)
-.rotateRightFacingSymbol("down")
-.changeTextAnchor("{VAL}", "middle_left")
-.changeTextAnchor("{REF}", "middle_right")
-.build()
+export default rotated

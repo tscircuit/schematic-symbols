@@ -1,32 +1,12 @@
 import svgJson from "assets/generated/npn_bipolar_transistor.json"
 import { defineSymbol } from "drawing/defineSymbol"
+import { modifySymbol } from "scripts/lib/modify-symbol/modify-symbol"
 
 const { paths, texts, bounds, refblocks, circles } = svgJson
-
-export default defineSymbol({
-  primitives: [
-    ...Object.values(paths),
-    ...Object.values(circles),
-    {
-      type: "text",
-      text: "{REF}",
-      x: -0.07,
-      y: -0.3596647999999991,
-      anchor: "middle_right",
-    },
-    {
-      type: "text",
-      text: "{VAL}",
-      x: -0.0679100444999996,
-      y: 0.4129789000000006,
-      anchor: "middle_right",
-    },
-  ] as any,
-  ports: [
-    { ...refblocks.top1, labels: ["1", "collector"] },
-    { ...refblocks.bottom1, labels: ["2", "emitter"] },
-    { ...refblocks.left1, labels: ["3", "base"] },
-  ],
-  size: { width: bounds.width, height: bounds.height },
-  center: { x: bounds.centerX, y: bounds.centerY },
-})
+export default modifySymbol(svgJson)
+  .changeTextAnchor("{VAL}", "middle_right")
+  .labelPort("left1", ["3"])
+  .labelPort("top1", ["2"])
+  .labelPort("bottom1", ["1"])
+  .changeTextAnchor("{REF}", "middle_right")
+  .build()
