@@ -19,8 +19,7 @@
     "generate:all": "bun run scripts/generate-symbols-from-asset-svgs.ts && bun run format",
     "format:check": "bunx biome format",
     "format": "bunx biome format . --write",
-    "vercel-build": "bun run build && bun run ./scripts/build.ts",
-    "snapshots": "echo \"Use 'bun run test:update' instead\""
+    "vercel-build": "bun run build && bun run ./scripts/build.ts"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
