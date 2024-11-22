@@ -13,13 +13,14 @@
     "start": "bun run build && bun --hot run dev-server.ts",
     "dev": "bun run start",
     "build": "bunx make-vfs ./symbols --content-format import-default --outfile ./generated/symbols-index.ts && tsup-node ./index.ts --format esm --dts --sourcemap && bun run scripts/generate-base-symbol-names.ts",
-    "test": "bun run build && bun run snapshots && bun test",
+    "test": "bun run build && bun test",
+    "test:update": "BUN_UPDATE_SNAPSHOTS=1 bun run test",
     "generate": "bun run scripts/generate-symbol-from-asset-svg.ts && bun run format",
     "generate:all": "bun run scripts/generate-symbols-from-asset-svgs.ts && bun run format",
     "format:check": "bunx biome format",
     "format": "bunx biome format . --write",
     "vercel-build": "bun run build && bun run ./scripts/build.ts",
-    "snapshots": "bun run scripts/generate-snapshots.ts"
+    "snapshots": "echo \"Use 'bun run test:update' instead\""
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",

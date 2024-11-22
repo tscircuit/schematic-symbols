@@ -19,7 +19,10 @@ test("Snapshot test for all SVG symbols", async () => {
     const snapshotMatches = snapshotContent.matchAll(/exports\[`(.*?)`\]/g)
     existingSnapshots = new Set(Array.from(snapshotMatches, (m) => m[1]))
   } catch (e) {
-    // Handle case where snapshot file doesn't exist yet
+    // Only generate new snapshots if BUN_UPDATE_SNAPSHOTS is set
+    if (!process.env.BUN_UPDATE_SNAPSHOTS) {
+      throw new Error("No existing snapshot file found and BUN_UPDATE_SNAPSHOTS is not set")
+    }
     console.warn(
       "No existing snapshot file found - will generate new snapshots",
     )
@@ -33,8 +36,11 @@ test("Snapshot test for all SVG symbols", async () => {
       svg = `<div>Error generating SVG for ${name}: ${e?.toString()}</div>`
     }
 
-    // Instead of throwing error, generate new snapshot if missing
+    // Only generate new snapshots if BUN_UPDATE_SNAPSHOTS is set
     const snapshotExists = existingSnapshots.has(name)
+    if (!snapshotExists && !process.env.BUN_UPDATE_SNAPSHOTS) {
+      throw new Error(`Missing snapshot for symbol "${name}" and BUN_UPDATE_SNAPSHOTS is not set`)
+    }
     if (!snapshotExists) {
       console.log(`Generating new snapshot for symbol "${name}"`)
     }
