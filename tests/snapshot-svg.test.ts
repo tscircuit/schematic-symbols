@@ -2,8 +2,6 @@ import { test, expect } from "bun:test"
 import { getSvg } from "../drawing/getSvg"
 import symbols from "../generated/symbols-index"
 import "bun-match-svg"
-import fs from "node:fs"
-import path from "node:path"
 
 test("Snapshot test for all SVG symbols", () => {
   const symbolEntries = Object.entries(symbols).sort((a, b) =>
@@ -11,22 +9,9 @@ test("Snapshot test for all SVG symbols", () => {
   )
 
   // Get list of existing snapshots
-  const snapshotDir = path.join(
-    import.meta.dir,
-    "__snapshots__",
-  )
-  
-  // Create snapshots directory if it doesn't exist
-  if (!fs.existsSync(snapshotDir)) {
-    fs.mkdirSync(snapshotDir, { recursive: true })
-  }
-
   const existingSnapshots = new Set(
-    fs.existsSync(snapshotDir) 
-      ? fs.readdirSync(snapshotDir)
-          .filter(file => file.endsWith(".snap"))
-          .map(file => file.replace(".test.ts.snap", ""))
-      : []
+    import.meta.dir.split("/").slice(0, -1).join("/") +
+      "/__snapshots__/snapshot-svg.test.ts.snap",
   )
 
   for (const [name, symbol] of symbolEntries) {
@@ -38,7 +23,7 @@ test("Snapshot test for all SVG symbols", () => {
     }
 
     // Check if snapshot exists before running the test
-    const snapshotExists = existingSnapshots.has(name)
+    const snapshotExists = existingSnapshots.has(`${name}.svg`)
     if (!snapshotExists) {
       throw new Error(
         `Missing snapshot for symbol "${name}". Please run "bun run test" to generate snapshots.`,
