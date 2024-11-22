@@ -8,6 +8,12 @@ test("Snapshot test for all SVG symbols", () => {
     a[0].localeCompare(b[0]),
   )
 
+  // Get list of existing snapshots
+  const existingSnapshots = new Set(
+    import.meta.dir.split("/").slice(0, -1).join("/") + 
+    "/__snapshots__/snapshot-svg.test.ts.snap"
+  )
+
   for (const [name, symbol] of symbolEntries) {
     let svg
     try {
@@ -15,6 +21,15 @@ test("Snapshot test for all SVG symbols", () => {
     } catch (e) {
       svg = `<div>Error generating SVG for ${name}: ${e?.toString()}</div>`
     }
+
+    // Check if snapshot exists before running the test
+    const snapshotExists = existingSnapshots.has(`${name}.svg`)
+    if (!snapshotExists) {
+      throw new Error(
+        `Missing snapshot for symbol "${name}". Please run "bun run test" to generate snapshots.`
+      )
+    }
+
     expect(svg).toMatchSvgSnapshot(import.meta.path, name)
   }
 })
