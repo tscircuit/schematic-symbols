@@ -1,27 +1,16 @@
 import { defineSymbol } from "drawing/defineSymbol"
 import svgJson from "assets/generated/ac_voltmeter_horz.json"
+import { Primitive } from "drawing/types"
 
-const { paths, bounds, refblocks, circles } = svgJson
+const { paths, texts, bounds, refblocks, circles } = svgJson
 
 export default defineSymbol({
   primitives: [
     ...Object.values(paths),
     ...Object.values(circles),
-    {
-      type: "text",
-      text: "{REF}",
-      x: 0,
-      y: -0.3594553499999995,
-      anchor: "middle_top",
-    },
-    {
-      type: "text",
-      text: "{VAL}",
-      x: 0,
-      y: 0.35,
-      anchor: "middle_bottom",
-    },
-  ] as any,
+    { ...texts.top1, anchor: "middle_left" },
+    { ...texts.bottom1, anchor: "middle_left" },
+  ] as Primitive[],
   ports: [
     { ...refblocks.left1, labels: ["1"] }, // TODO add more "standard" labels
     { ...refblocks.right1, labels: ["2"] }, // TODO add more "standard" labels
