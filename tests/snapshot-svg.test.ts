@@ -10,8 +10,8 @@ test("Snapshot test for all SVG symbols", () => {
 
   // Get list of existing snapshots
   const existingSnapshots = new Set(
-    import.meta.dir.split("/").slice(0, -1).join("/") + 
-    "/__snapshots__/snapshot-svg.test.ts.snap"
+    import.meta.dir.split("/").slice(0, -1).join("/") +
+      "/__snapshots__/snapshot-svg.test.ts.snap",
   )
 
   for (const [name, symbol] of symbolEntries) {
@@ -26,7 +26,7 @@ test("Snapshot test for all SVG symbols", () => {
     const snapshotExists = existingSnapshots.has(`${name}.svg`)
     if (!snapshotExists) {
       throw new Error(
-        `Missing snapshot for symbol "${name}". Please run "bun run test" to generate snapshots.`
+        `Missing snapshot for symbol "${name}". Please run "bun run test" to generate snapshots.`,
       )
     }
 
