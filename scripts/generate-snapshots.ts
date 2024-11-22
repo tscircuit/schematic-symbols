@@ -23,7 +23,7 @@ async function generateSnapshots() {
     } catch (e) {
       svg = `<div>Error generating SVG for ${name}: ${e?.toString()}</div>`
     }
-    
+
     snapshots += `exports[\`${name}\`] = \`${svg}\`;\n\n`
   }
 
@@ -31,4 +31,4 @@ async function generateSnapshots() {
   console.log(`Generated snapshots at ${snapshotPath}`)
 }
 
-generateSnapshots().catch(console.error) 
+generateSnapshots().catch(console.error)

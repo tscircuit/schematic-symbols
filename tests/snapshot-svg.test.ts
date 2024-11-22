@@ -9,7 +9,8 @@ test("Snapshot test for all SVG symbols", async () => {
   )
 
   // Get list of existing snapshots
-  const snapshotPath = import.meta.dir.split("/").slice(0, -1).join("/") + 
+  const snapshotPath =
+    import.meta.dir.split("/").slice(0, -1).join("/") +
     "/__snapshots__/snapshot-svg.test.ts.snap"
 
   let existingSnapshots = new Set<string>()
@@ -19,7 +20,9 @@ test("Snapshot test for all SVG symbols", async () => {
     existingSnapshots = new Set(Array.from(snapshotMatches, (m) => m[1]))
   } catch (e) {
     // Handle case where snapshot file doesn't exist yet
-    console.warn("No existing snapshot file found - will generate new snapshots")
+    console.warn(
+      "No existing snapshot file found - will generate new snapshots",
+    )
   }
 
   for (const [name, symbol] of symbolEntries) {
