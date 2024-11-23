@@ -3,7 +3,6 @@ import svgJson from "assets/generated/npn_bipolar_transistor.json"
 import npn_bipolar_transistor_horz from "./npn_bipolar_transistor_horz"
 import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
 
-
 const rotatedSymbol = rotateSymbol(npn_bipolar_transistor_horz)
 
 const texts = rotatedSymbol.primitives.filter((p) => p.type === "text")

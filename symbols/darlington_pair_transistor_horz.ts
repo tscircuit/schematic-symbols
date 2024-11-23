@@ -1,7 +1,6 @@
 import svgJson from "assets/generated/darlington_pair_transistor.json"
 import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
 
-
 export default modifySymbol(svgJson)
   .changeTextAnchor("{VAL}", "middle_top")
   .labelPort("right2", ["1"])

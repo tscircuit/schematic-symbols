@@ -1,7 +1,6 @@
 import svgJson from "assets/generated/darlington_pair_transistor.json"
 import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
 
-
 svgJson.bounds.width += 0.3
 export default modifySymbol(svgJson)
   .rotateRightFacingSymbol("down")

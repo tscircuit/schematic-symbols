@@ -1,7 +1,6 @@
 import svgJson from "assets/generated/volt_meter.json"
 import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
 
-
 const { paths, texts, bounds, circles, refblocks } = svgJson
 export default modifySymbol(svgJson)
   .changeTextAnchor("{VAL}", "middle_top")

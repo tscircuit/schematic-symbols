@@ -1,7 +1,6 @@
 import svgJson from "assets/generated/crystal.json"
 import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
 
-
 export default modifySymbol(svgJson)
   .rotateRightFacingSymbol("down")
   .changeTextAnchor("{VAL}", "middle_left")

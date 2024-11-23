@@ -1,7 +1,6 @@
 import svgJson from "assets/generated/filled_diode.json"
 import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
 
-
 export default modifySymbol(svgJson)
   .changeTextAnchor("{VAL}", "middle_top")
   .labelPort("left1", ["1"])
