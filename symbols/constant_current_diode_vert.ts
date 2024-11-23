@@ -1,6 +1,7 @@
 import svgJson from "assets/generated/constant_current_diode.json"
 
-import { modifySymbol } from "scripts/lib/modify-symbol/modify-symbol"
+import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
+
 
 export default modifySymbol(svgJson)
   .rotateRightFacingSymbol("down")

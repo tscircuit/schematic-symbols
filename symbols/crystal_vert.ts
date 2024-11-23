@@ -1,5 +1,6 @@
 import svgJson from "assets/generated/crystal.json"
-import { modifySymbol } from "scripts/lib/modify-symbol/modify-symbol"
+import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
+
 
 export default modifySymbol(svgJson)
   .rotateRightFacingSymbol("down")

@@ -1,4 +1,5 @@
-import { modifySymbol } from "scripts/lib/modify-symbol/modify-symbol"
+import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
+
 import svgJson from "assets/generated/gunn_diode.json"
 
 export default modifySymbol(svgJson)

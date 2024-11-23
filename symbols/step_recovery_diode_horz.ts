@@ -1,6 +1,7 @@
 import { defineSymbol } from "drawing/defineSymbol"
 import svgJson from "assets/generated/step_recovery_diode.json"
-import { modifySymbol } from "scripts/lib/modify-symbol/modify-symbol"
+import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
+
 
 const { paths, texts, bounds, refblocks, circles } = svgJson
 export default modifySymbol(svgJson)

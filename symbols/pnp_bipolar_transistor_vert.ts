@@ -1,7 +1,8 @@
 import { rotateSymbol } from "drawing/rotateSymbol"
 import pnp_bipolar_transistor_horz from "./pnp_bipolar_transistor_horz"
 import svgJson from "assets/generated/pnp_bipolar_transistor.json"
-import { modifySymbol } from "scripts/lib/modify-symbol/modify-symbol"
+import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
+
 
 const rotatedSymbol = rotateSymbol(pnp_bipolar_transistor_horz)
 

@@ -1,7 +1,8 @@
 import { defineSymbol } from "drawing/defineSymbol"
 import svgJson from "assets/generated/SPST_switch.json"
 import { Primitive } from "drawing/types"
-import { modifySymbol } from "scripts/lib/modify-symbol/modify-symbol"
+import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
+
 
 delete svgJson.refblocks.left1
 delete svgJson.refblocks.right1

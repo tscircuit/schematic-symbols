@@ -1,5 +1,6 @@
 import svgJson from "assets/generated/gunn_diode.json"
-import { modifySymbol } from "scripts/lib/modify-symbol/modify-symbol"
+import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
+
 
 const { paths, texts, bounds, refblocks, circles } = svgJson
 
