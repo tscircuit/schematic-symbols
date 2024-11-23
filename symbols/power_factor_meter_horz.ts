@@ -14,7 +14,7 @@ export default defineSymbol({
       text: "{REF}",
       x: -0.15,
       y: -0.42330070000000064,
-      anchor: "middle_left",
+      anchor: "middle_top",
     },
     // { ...texts.bottom1, anchor: "middle_left" },
     {
@@ -22,15 +22,15 @@ export default defineSymbol({
       text: "{VAL}",
       x: -0.15,
       y: 0.42330070000000064,
-      anchor: "middle_left",
+      anchor: "middle_bottom",
     },
     // { ...texts.left1, anchor: "middle_left" },
     {
       type: "text",
       text: "COS φ",
-      x: -0.14,
+      x: 0,
       y: 0.014279000000000375,
-      anchor: "middle-left",
+      anchor: "center",
     },
   ] as any,
   ports: [

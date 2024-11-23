@@ -5,6 +5,6 @@ import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
 export default modifySymbol(svgJson)
   .labelPort("left1", ["1", "pos"])
   .labelPort("right1", ["2", "neg"])
-  .changeTextAnchor("{VAL}", "middle_bottom")
-  .changeTextAnchor("{REF}", "middle_top")
+  .changeTextAnchor("{VAL}", "middle_top")
+  .changeTextAnchor("{REF}", "middle_bottom")
   .build()

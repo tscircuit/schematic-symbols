@@ -1,6 +1,5 @@
 import { rotateSymbol } from "drawing/rotateSymbol"
 import diac_horz from "./diac_horz"
-import { text } from "drawing/text"
 
 const rotatedSymbol = rotateSymbol(diac_horz)
 

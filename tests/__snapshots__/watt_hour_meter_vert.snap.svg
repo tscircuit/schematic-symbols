@@ -1,9 +1,9 @@
 <svg width="150" height="150" viewBox="-0.6368613600000002 -0.6 1.2737227200000003 1.2" xmlns="http://www.w3.org/2000/svg"><path d="M2.301405848023156e-17,-0.5307178000000001 L3.6878835984438384e-17,-0.30428879999999975" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M7.326713984477743e-17,0.28997730000000027 L8.800824398228408e-17,0.5307178000000001" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <circle cx="-0.007128299999999477" cy="-0.006997299999999706" r="0.28854213" fill="none" stroke="black" stroke-width="0.02" />
-    <text x="-0.35945534999999945" y="-3.350085904056328e-17" dx="0" dy="0.037500000000000006" text-anchor="start" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.37195534999999946" y="-0.012500000000000034" width="0.025" height="0.025" fill="blue" />
-    <text x="0.35000000000000003" y="-7.694247021633651e-17" dx="0" dy="0.037500000000000006" text-anchor="end" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="0.3375" y="-0.012500000000000077" width="0.025" height="0.025" fill="blue" />
-    <text x="0" y="0.025" dx="0" dy="0.1" text-anchor="middle" style="font: 0.2px monospace; fill: black">Wh</text><rect x="-0.0125" y="0.0125" width="0.025" height="0.025" fill="blue" />
+    <text x="-0.35945534999999945" y="-3.350085904056328e-17" dx="0" dy="0.037500000000000006" text-anchor="end" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.37195534999999946" y="-0.012500000000000034" width="0.025" height="0.025" fill="blue" />
+    <text x="0.35000000000000003" y="-7.694247021633651e-17" dx="0" dy="0.037500000000000006" text-anchor="start" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="0.3375" y="-0.012500000000000077" width="0.025" height="0.025" fill="blue" />
+    <text x="0" y="-0.01" dx="0" dy="0.1" text-anchor="middle" style="font: 0.2px monospace; fill: black">Wh</text><rect x="-0.0125" y="-0.0225" width="0.025" height="0.025" fill="blue" />
 
     <rect x="-0.02414719999999944" y="-0.5696330999999993" width="0.05" height="0.05" fill="red" />
     <text x="-0.03914719999999944" y="-0.45463309999999935" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
