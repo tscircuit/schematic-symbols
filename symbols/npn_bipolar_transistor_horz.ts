@@ -1,5 +1,4 @@
 import svgJson from "assets/generated/npn_bipolar_transistor.json"
-import { defineSymbol } from "drawing/defineSymbol"
 import { modifySymbol } from "scripts/lib/modify-symbol/modify-symbol"
 
 const { paths, texts, bounds, refblocks, circles } = svgJson

@@ -1,4 +1,3 @@
-import { defineSymbol } from "drawing/defineSymbol"
 import svgJson from "assets/generated/volt_meter.json"
 import { modifySymbol } from "scripts/lib/modify-symbol/modify-symbol"
 

@@ -1,6 +1,3 @@
-import { defineSymbol } from "drawing/defineSymbol"
-import svgJson from "assets/generated/ground.json"
-import { Primitive } from "drawing/types"
 import groundHorz from "./ground_horz"
 import { modifySymbol } from "scripts/lib/modify-symbol/modify-symbol"
 
