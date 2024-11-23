@@ -1,5 +1,6 @@
 import type { Point } from "./types"
 import { approximateArc } from "./arc"
+import { approximateBezier } from "./cubicBezierCurveArc"
 
 export function svgPathToPoints(pathString: string): Point[] {
   const points: Point[] = []
@@ -35,12 +36,21 @@ export function svgPathToPoints(pathString: string): Point[] {
       case "V":
         addPoint(currentX, args[0])
         break
-      case "C":
-        // For C command, we add both control points and the end point
-        points.push({ x: args[0], y: args[1] }) // First control point
-        points.push({ x: args[2], y: args[3] }) // Second control point
-        addPoint(args[4], args[5]) // End point
+      case "C": {
+        const [x1, y1, x2, y2, x, y] = args
+
+        // Approximate the cubic Bézier curve
+        const bezierPoints = approximateBezier(
+          { x: currentX, y: currentY }, // Start point
+          { x: x1, y: y1 }, // Control point 1
+          { x: x2, y: y2 }, // Control point 2
+          { x, y }, // End point
+        )
+
+        points.push(...bezierPoints)
+        addPoint(x, y) // Update the current position
         break
+      }
       case "Q":
         // For Q command, we add both the control point and the end point
         points.push({ x: args[0], y: args[1] }) // Control point

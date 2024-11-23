@@ -12,7 +12,7 @@ export function approximateArc(
 ): Point[] {
   // This is a simplified approximation. For a more accurate representation,
   // you might want to use a dedicated SVG path library.
-  const steps = 30
+  const steps = 40
   const points: Point[] = []
   for (let i = 1; i < steps; i++) {
     const t = i / steps
