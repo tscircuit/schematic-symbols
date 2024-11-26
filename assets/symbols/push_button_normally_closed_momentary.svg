@@ -2,12 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="30mm"
+   height="30mm"
+   viewBox="0 0 30 30"
    version="1.1"
    id="svg1"
-   inkscape:version="1.4 (1:1.4+202410161351+e7c3feb100)"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
    sodipodi:docname="push_button_normally_closed_momentary.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -23,17 +23,16 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="5.6568545"
-     inkscape:cx="214.69529"
-     inkscape:cy="502.22257"
-     inkscape:window-width="1247"
-     inkscape:window-height="758"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:zoom="16"
+     inkscape:cx="64.21875"
+     inkscape:cy="56.125"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="push_button_normally_closed_momentary"
+     inkscape:current-layer="Push_button_normally_closed_momentary"
      showgrid="true"
-     inkscape:lockguides="false"
      showguides="true">
     <inkscape:grid
        id="grid207"
@@ -51,75 +50,187 @@
        gridanglex="30"
        gridanglez="30"
        visible="true" />
+    <sodipodi:guide
+       position="9.7169178,14.316708"
+       orientation="1,0"
+       id="guide9106"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="21.287183,14.649959"
+       orientation="1,0"
+       id="guide9108"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="15.399577,15.096517"
+       orientation="0,-1"
+       id="guide9110"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="15.493628,15.608114"
+       orientation="1,0"
+       id="guide9112"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="14.957227,17.787826"
+       orientation="0,-1"
+       id="guide9114"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="13.651626,15.336926"
+       orientation="1,0"
+       id="guide9116"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="17.294009,14.851665"
+       orientation="1,0"
+       id="guide9118"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="15.984388,13.185406"
+       orientation="0,-1"
+       id="guide9120"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <defs
-     id="defs1" />
+     id="defs1">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 15 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="30 : 15 : 1"
+       inkscape:persp3d-origin="15 : 10 : 1"
+       id="perspective358" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect3"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect2"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect1"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
   <g
      inkscape:label="root"
      inkscape:groupmode="layer"
-     id="root">
+     id="root"
+     transform="translate(-34.257545,-125.43122)">
     <g
-       id="push_button_normally_closed_momentary"
-       inkscape:label="push_button_normally_closed_momentary"
-       transform="translate(-0.03820437,0.48452514)">
+       id="Push_button_normally_closed_momentary"
+       inkscape:label="Push_button_normally_closed_momentary"
+       transform="translate(-5.3712834,5.1513615)">
       <title
-         id="title609">Push_button_normally_closed_momentary</title>
+         id="title609-9">Push_button_normally_closed_momentary</title>
       <text
          xml:space="preserve"
          style="font-size:1.05833px;fill:#000000;stroke-width:0.264583"
-         x="55.144245"
-         y="131.64218"
-         id="text14-39-5-8"><tspan
+         x="55.066406"
+         y="132.42705"
+         id="text14-39-5-8-9"><tspan
            sodipodi:role="line"
-           id="tspan14-9-3-8"
+           id="tspan14-9-3-8-2"
            style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-           x="55.144245"
-           y="131.64218">{REF}</tspan></text>
+           x="55.066406"
+           y="132.42705">{REF}</tspan></text>
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.255404;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-         d="m 55.147742,133.04943 v 1.15213"
-         id="path12-1-8-6-9"
+         style="fill:none;stroke:#000000;stroke-width:0.243;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         d="m 55.125164,134.36877 v 1.16393"
+         id="path12-1-8-6-9-9"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cc" />
       <path
          style="fill:none;stroke:#000000;stroke-width:0.235484px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 50.125325,135.18808 h 3.143063"
-         id="path12-1-5-6"
+         d="m 50.125325,135.18394 h 3.143063"
+         id="path12-1-5-6-4"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cc"
          inkscape:label="path12-1-5" />
       <text
          xml:space="preserve"
          style="font-size:1.05833px;fill:#000000;stroke-width:0.264583"
-         x="55.017891"
-         y="137.70467"
-         id="text14-39-9-4-7"><tspan
+         x="53.386299"
+         y="136.91942"
+         id="text14-39-9-4-7-5"><tspan
            sodipodi:role="line"
-           id="tspan14-9-8-4-9"
+           id="tspan14-9-8-4-9-0"
            style="font-size:1.05833px;stroke-width:0.264583"
-           x="55.017891"
-           y="137.70467">{VAL}</tspan></text>
+           x="53.386299"
+           y="136.91942">{VAL}</tspan></text>
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.254398px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 53.294615,134.28012 h 3.705802"
-         id="path12-1-8-0"
+         style="fill:none;stroke:#000000;stroke-width:0.245005px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 53.401497,135.58844 h 3.402334"
+         id="path12-1-8-0-0"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cc" />
       <path
          style="fill:none;stroke:#000000;stroke-width:0.227224px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
          d="m 56.954383,135.18419 h 2.926449"
-         id="path12-1-0"
+         id="path12-1-0-1"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cc" />
       <circle
          style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-         id="refblock-5-7-7-3-6"
-         cx="50.28141"
-         cy="135.18781"
+         id="refblock-5-7-7-3-6-35"
+         cx="50.269012"
+         cy="135.18367"
          r="0.28158441" />
       <circle
+         style="mix-blend-mode:normal;fill:none;stroke:#000000;stroke-width:0.132;stroke-dasharray:none;stroke-opacity:1"
+         id="circle-2"
+         cx="53.554485"
+         cy="135.18625"
+         r="0.23193523" />
+      <circle
+         style="mix-blend-mode:normal;fill:none;stroke:#000000;stroke-width:0.132;stroke-dasharray:none;stroke-opacity:1"
+         id="circle"
+         cx="56.673504"
+         cy="135.17403"
+         r="0.23193523" />
+      <circle
          style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-         id="refblock-5-7-7-7-8"
+         id="refblock-5-7-7-7-8-2"
          cx="59.717381"
          cy="135.18806"
          r="0.28158441" />
