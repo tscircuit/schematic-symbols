@@ -4,8 +4,10 @@ import _avalanche_diode_horz from "./../symbols/avalanche_diode_horz"
 import _avalanche_diode_vert from "./../symbols/avalanche_diode_vert"
 import _battery_horz from "./../symbols/battery_horz"
 import _battery_vert from "./../symbols/battery_vert"
-import _boxresistor_horz from "./../symbols/boxresistor_horz"
-import _boxresistor_vert from "./../symbols/boxresistor_vert"
+import _boxresistor_down from "./../symbols/boxresistor_down"
+import _boxresistor_left from "./../symbols/boxresistor_left"
+import _boxresistor_right from "./../symbols/boxresistor_right"
+import _boxresistor_up from "./../symbols/boxresistor_up"
 import _capacitor_down from "./../symbols/capacitor_down"
 import _capacitor_left from "./../symbols/capacitor_left"
 import _capacitor_polarized_down from "./../symbols/capacitor_polarized_down"
@@ -134,8 +136,10 @@ export default {
   "avalanche_diode_vert": _avalanche_diode_vert,
   "battery_horz": _battery_horz,
   "battery_vert": _battery_vert,
-  "boxresistor_horz": _boxresistor_horz,
-  "boxresistor_vert": _boxresistor_vert,
+  "boxresistor_down": _boxresistor_down,
+  "boxresistor_left": _boxresistor_left,
+  "boxresistor_right": _boxresistor_right,
+  "boxresistor_up": _boxresistor_up,
   "capacitor_down": _capacitor_down,
   "capacitor_left": _capacitor_left,
   "capacitor_polarized_down": _capacitor_polarized_down,
