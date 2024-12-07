@@ -1,4 +1,4 @@
-import { rotateSymbol } from "drawing/rotateSymbol"
+import { flipSymbolOverYAxis } from "drawing/rotateSymbol"
 import inductor_right from "./inductor_right"
 
-export default rotateSymbol(inductor_right, "left")
+export default flipSymbolOverYAxis(inductor_right)
