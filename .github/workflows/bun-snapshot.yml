@@ -7,7 +7,7 @@ on:
     branches: [main]
 
 jobs:
-  format-check:
+  snapshot-validation-check:
     runs-on: ubuntu-latest
 
     steps:
