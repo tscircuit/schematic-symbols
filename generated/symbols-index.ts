@@ -48,8 +48,10 @@ import _igbt_transistor_horz from "./../symbols/igbt_transistor_horz"
 import _igbt_transistor_vert from "./../symbols/igbt_transistor_vert"
 import _illuminated_push_button_normally_open_horz from "./../symbols/illuminated_push_button_normally_open_horz"
 import _illuminated_push_button_normally_open_vert from "./../symbols/illuminated_push_button_normally_open_vert"
-import _inductor_horz from "./../symbols/inductor_horz"
-import _inductor_vert from "./../symbols/inductor_vert"
+import _inductor_down from "./../symbols/inductor_down"
+import _inductor_left from "./../symbols/inductor_left"
+import _inductor_right from "./../symbols/inductor_right"
+import _inductor_up from "./../symbols/inductor_up"
 import _laser_diode_horz from "./../symbols/laser_diode_horz"
 import _laser_diode_vert from "./../symbols/laser_diode_vert"
 import _led_down from "./../symbols/led_down"
@@ -180,8 +182,10 @@ export default {
   "igbt_transistor_vert": _igbt_transistor_vert,
   "illuminated_push_button_normally_open_horz": _illuminated_push_button_normally_open_horz,
   "illuminated_push_button_normally_open_vert": _illuminated_push_button_normally_open_vert,
-  "inductor_horz": _inductor_horz,
-  "inductor_vert": _inductor_vert,
+  "inductor_down": _inductor_down,
+  "inductor_left": _inductor_left,
+  "inductor_right": _inductor_right,
+  "inductor_up": _inductor_up,
   "laser_diode_horz": _laser_diode_horz,
   "laser_diode_vert": _laser_diode_vert,
   "led_down": _led_down,
