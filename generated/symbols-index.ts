@@ -18,6 +18,8 @@ import _capacitor_right from "./../symbols/capacitor_right"
 import _capacitor_up from "./../symbols/capacitor_up"
 import _constant_current_diode_horz from "./../symbols/constant_current_diode_horz"
 import _constant_current_diode_vert from "./../symbols/constant_current_diode_vert"
+import _crystal_4pin_horz from "./../symbols/crystal_4pin_horz"
+import _crystal_4pin_vert from "./../symbols/crystal_4pin_vert"
 import _crystal_horz from "./../symbols/crystal_horz"
 import _crystal_vert from "./../symbols/crystal_vert"
 import _darlington_pair_transistor_horz from "./../symbols/darlington_pair_transistor_horz"
@@ -152,6 +154,8 @@ export default {
   "capacitor_up": _capacitor_up,
   "constant_current_diode_horz": _constant_current_diode_horz,
   "constant_current_diode_vert": _constant_current_diode_vert,
+  "crystal_4pin_horz": _crystal_4pin_horz,
+  "crystal_4pin_vert": _crystal_4pin_vert,
   "crystal_horz": _crystal_horz,
   "crystal_vert": _crystal_vert,
   "darlington_pair_transistor_horz": _darlington_pair_transistor_horz,
