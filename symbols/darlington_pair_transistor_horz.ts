@@ -1,21 +1,10 @@
-import { defineSymbol } from "drawing/defineSymbol"
 import svgJson from "assets/generated/darlington_pair_transistor.json"
-import { Primitive } from "drawing/types"
+import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
 
-const { paths, texts, bounds, refblocks, circles } = svgJson
-
-export default defineSymbol({
-  primitives: [
-    ...Object.values(paths),
-    ...Object.values(circles),
-    { ...texts.bottom1, anchor: "middle_top" },
-    { ...texts.right1, anchor: "middle_bottom" },
-  ] as Primitive[],
-  ports: [
-    { ...refblocks.right1, labels: ["3"] }, // TODO add more "standard" labels
-    { ...refblocks.right2, labels: ["1"] }, // TODO add more "standard" labels
-    { ...refblocks.right3, labels: ["2"] }, // TODO add more "standard" labels
-  ],
-  size: { width: bounds.width, height: bounds.height },
-  center: { x: bounds.centerX, y: bounds.centerY },
-})
+export default modifySymbol(svgJson)
+  .changeTextAnchor("{VAL}", "middle_top")
+  .labelPort("right2", ["1"])
+  .labelPort("right3", ["2"])
+  .labelPort("right1", ["3"])
+  .changeTextAnchor("{REF}", "middle_bottom")
+  .build()

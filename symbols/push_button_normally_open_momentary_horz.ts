@@ -1,14 +1,16 @@
 import { defineSymbol } from "drawing/defineSymbol"
 import svgJson from "assets/generated/push_button_normally_open_momentary.json"
+import { Primitive } from "drawing/types"
 
-const { paths, texts, bounds, refblocks } = svgJson
+const { paths, texts, bounds, refblocks, circles } = svgJson
 
 export default defineSymbol({
   primitives: [
     ...Object.values(paths),
-    { ...texts.top1, anchor: "middle_bottom" },
-    { ...texts.bottom1, anchor: "middle_top" },
-  ] as any,
+    ...Object.values(circles),
+    { ...texts.top1, anchor: "middle_left" },
+    { ...texts.bottom1, anchor: "middle_left" },
+  ] as Primitive[],
   ports: [
     { ...refblocks.left1, labels: ["1"] }, // TODO add more "standard" labels
     { ...refblocks.right1, labels: ["2"] }, // TODO add more "standard" labels

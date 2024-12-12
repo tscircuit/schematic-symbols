@@ -1,7 +1,7 @@
 {
   "name": "schematic-symbols",
   "main": "./dist/index.js",
-  "version": "0.0.101",
+  "version": "0.0.107",
   "type": "module",
   "files": [
     "dist",
@@ -18,7 +18,9 @@
     "generate:all": "bun run scripts/generate-symbols-from-asset-svgs.ts && bun run format",
     "format:check": "bunx biome format",
     "format": "bunx biome format . --write",
-    "vercel-build": "bun run build && bun run ./scripts/build.ts"
+    "vercel-build": "bun run build && bun run ./scripts/build.ts",
+    "prepare": "husky",
+    "snapshot:validate": "bun run scripts/validate-snapshots.ts"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
@@ -26,6 +28,7 @@
     "@types/prompts": "^2.4.9",
     "@types/svg-path-parser": "^1.1.6",
     "bun-match-svg": "^0.0.6",
+    "husky": "^9.1.7",
     "kleur": "^4.1.5",
     "make-vfs": "1.0.15",
     "prompts": "^2.4.2",

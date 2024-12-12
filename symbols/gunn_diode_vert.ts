@@ -1,12 +1,11 @@
-import { rotateSymbol } from "drawing/rotateSymbol"
-import gunn_diode_horz from "./gunn_diode_horz"
+import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
 
-const rotatedSymbol = rotateSymbol(gunn_diode_horz)
-const texts = rotatedSymbol.primitives.filter((p) => p.type === "text")
-const ref = texts.find((t) => t.text === "{REF}")!
-const val = texts.find((t) => t.text === "{VAL}")!
-ref.x = 0.25
-ref.y = -0.045
-val.x = -0.55
-val.y = 0
-export default rotatedSymbol
+import svgJson from "assets/generated/gunn_diode.json"
+
+export default modifySymbol(svgJson)
+  .rotateRightFacingSymbol("down")
+  .changeTextAnchor("{VAL}", "middle_right")
+  .labelPort("left1", ["1"])
+  .labelPort("right1", ["2"])
+  .changeTextAnchor("{REF}", "middle_left")
+  .build()

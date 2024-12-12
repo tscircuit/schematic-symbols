@@ -4,14 +4,18 @@ import _avalanche_diode_horz from "./../symbols/avalanche_diode_horz"
 import _avalanche_diode_vert from "./../symbols/avalanche_diode_vert"
 import _battery_horz from "./../symbols/battery_horz"
 import _battery_vert from "./../symbols/battery_vert"
-import _boxresistor_horz from "./../symbols/boxresistor_horz"
-import _boxresistor_vert from "./../symbols/boxresistor_vert"
+import _boxresistor_down from "./../symbols/boxresistor_down"
+import _boxresistor_left from "./../symbols/boxresistor_left"
+import _boxresistor_right from "./../symbols/boxresistor_right"
+import _boxresistor_up from "./../symbols/boxresistor_up"
 import _capacitor_down from "./../symbols/capacitor_down"
-import _capacitor_horz from "./../symbols/capacitor_horz"
 import _capacitor_left from "./../symbols/capacitor_left"
+import _capacitor_polarized_down from "./../symbols/capacitor_polarized_down"
+import _capacitor_polarized_left from "./../symbols/capacitor_polarized_left"
+import _capacitor_polarized_right from "./../symbols/capacitor_polarized_right"
+import _capacitor_polarized_up from "./../symbols/capacitor_polarized_up"
 import _capacitor_right from "./../symbols/capacitor_right"
 import _capacitor_up from "./../symbols/capacitor_up"
-import _capacitor_vert from "./../symbols/capacitor_vert"
 import _constant_current_diode_horz from "./../symbols/constant_current_diode_horz"
 import _constant_current_diode_vert from "./../symbols/constant_current_diode_vert"
 import _crystal_4pin_horz from "./../symbols/crystal_4pin_horz"
@@ -46,8 +50,10 @@ import _igbt_transistor_horz from "./../symbols/igbt_transistor_horz"
 import _igbt_transistor_vert from "./../symbols/igbt_transistor_vert"
 import _illuminated_push_button_normally_open_horz from "./../symbols/illuminated_push_button_normally_open_horz"
 import _illuminated_push_button_normally_open_vert from "./../symbols/illuminated_push_button_normally_open_vert"
-import _inductor_horz from "./../symbols/inductor_horz"
-import _inductor_vert from "./../symbols/inductor_vert"
+import _inductor_down from "./../symbols/inductor_down"
+import _inductor_left from "./../symbols/inductor_left"
+import _inductor_right from "./../symbols/inductor_right"
+import _inductor_up from "./../symbols/inductor_up"
 import _laser_diode_horz from "./../symbols/laser_diode_horz"
 import _laser_diode_vert from "./../symbols/laser_diode_vert"
 import _led_down from "./../symbols/led_down"
@@ -134,14 +140,18 @@ export default {
   "avalanche_diode_vert": _avalanche_diode_vert,
   "battery_horz": _battery_horz,
   "battery_vert": _battery_vert,
-  "boxresistor_horz": _boxresistor_horz,
-  "boxresistor_vert": _boxresistor_vert,
+  "boxresistor_down": _boxresistor_down,
+  "boxresistor_left": _boxresistor_left,
+  "boxresistor_right": _boxresistor_right,
+  "boxresistor_up": _boxresistor_up,
   "capacitor_down": _capacitor_down,
-  "capacitor_horz": _capacitor_horz,
   "capacitor_left": _capacitor_left,
+  "capacitor_polarized_down": _capacitor_polarized_down,
+  "capacitor_polarized_left": _capacitor_polarized_left,
+  "capacitor_polarized_right": _capacitor_polarized_right,
+  "capacitor_polarized_up": _capacitor_polarized_up,
   "capacitor_right": _capacitor_right,
   "capacitor_up": _capacitor_up,
-  "capacitor_vert": _capacitor_vert,
   "constant_current_diode_horz": _constant_current_diode_horz,
   "constant_current_diode_vert": _constant_current_diode_vert,
   "crystal_4pin_horz": _crystal_4pin_horz,
@@ -176,8 +186,10 @@ export default {
   "igbt_transistor_vert": _igbt_transistor_vert,
   "illuminated_push_button_normally_open_horz": _illuminated_push_button_normally_open_horz,
   "illuminated_push_button_normally_open_vert": _illuminated_push_button_normally_open_vert,
-  "inductor_horz": _inductor_horz,
-  "inductor_vert": _inductor_vert,
+  "inductor_down": _inductor_down,
+  "inductor_left": _inductor_left,
+  "inductor_right": _inductor_right,
+  "inductor_up": _inductor_up,
   "laser_diode_horz": _laser_diode_horz,
   "laser_diode_vert": _laser_diode_vert,
   "led_down": _led_down,
