@@ -1,5 +1,5 @@
 import { rotateSymbol } from "drawing/rotateSymbol"
-import dpdp_switch_horz from "./dpdp_switch_horz"
+import dpdp_switch_horz from "./dpdt_switch_horz"
 
 const rotatedSymbol = rotateSymbol(dpdp_switch_horz)
 

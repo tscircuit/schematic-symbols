@@ -1,5 +1,5 @@
 import { defineSymbol } from "drawing/defineSymbol"
-import svgJson from "assets/generated/dpdp_switch.json"
+import svgJson from "assets/generated/dpdt_switch.json"
 import { Primitive } from "drawing/types"
 
 const { paths, texts, bounds, refblocks, circles } = svgJson

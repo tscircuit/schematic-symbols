@@ -34,8 +34,8 @@ import _diode_down from "./../symbols/diode_down"
 import _diode_left from "./../symbols/diode_left"
 import _diode_right from "./../symbols/diode_right"
 import _diode_up from "./../symbols/diode_up"
-import _dpdp_switch_horz from "./../symbols/dpdp_switch_horz"
-import _dpdp_switch_vert from "./../symbols/dpdp_switch_vert"
+import _dpdt_switch_horz from "./../symbols/dpdt_switch_horz"
+import _dpdt_switch_vert from "./../symbols/dpdt_switch_vert"
 import _dpst_switch_horz from "./../symbols/dpst_switch_horz"
 import _dpst_switch_vert from "./../symbols/dpst_switch_vert"
 import _filled_diode_horz from "./../symbols/filled_diode_horz"
@@ -172,8 +172,8 @@ export default {
   "diode_left": _diode_left,
   "diode_right": _diode_right,
   "diode_up": _diode_up,
-  "dpdp_switch_horz": _dpdp_switch_horz,
-  "dpdp_switch_vert": _dpdp_switch_vert,
+  "dpdt_switch_horz": _dpdt_switch_horz,
+  "dpdt_switch_vert": _dpdt_switch_vert,
   "dpst_switch_horz": _dpst_switch_horz,
   "dpst_switch_vert": _dpst_switch_vert,
   "filled_diode_horz": _filled_diode_horz,
