@@ -76,6 +76,7 @@ import _njfet_transistor_horz from "./../symbols/njfet_transistor_horz"
 import _njfet_transistor_vert from "./../symbols/njfet_transistor_vert"
 import _npn_bipolar_transistor_horz from "./../symbols/npn_bipolar_transistor_horz"
 import _npn_bipolar_transistor_vert from "./../symbols/npn_bipolar_transistor_vert"
+import _opapm_horz from "./../symbols/opapm_horz"
 import _p_channel_d_mosfet_transistor_horz from "./../symbols/p_channel_d_mosfet_transistor_horz"
 import _p_channel_d_mosfet_transistor_vert from "./../symbols/p_channel_d_mosfet_transistor_vert"
 import _p_channel_e_mosfet_transistor_horz from "./../symbols/p_channel_e_mosfet_transistor_horz"
@@ -214,6 +215,7 @@ export default {
   "njfet_transistor_vert": _njfet_transistor_vert,
   "npn_bipolar_transistor_horz": _npn_bipolar_transistor_horz,
   "npn_bipolar_transistor_vert": _npn_bipolar_transistor_vert,
+  "opapm_horz": _opapm_horz,
   "p_channel_d_mosfet_transistor_horz": _p_channel_d_mosfet_transistor_horz,
   "p_channel_d_mosfet_transistor_vert": _p_channel_d_mosfet_transistor_vert,
   "p_channel_e_mosfet_transistor_horz": _p_channel_e_mosfet_transistor_horz,
