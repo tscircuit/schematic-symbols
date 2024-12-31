@@ -80,6 +80,10 @@ import _opamp_no_power_down from "./../symbols/opamp_no_power_down"
 import _opamp_no_power_left from "./../symbols/opamp_no_power_left"
 import _opamp_no_power_right from "./../symbols/opamp_no_power_right"
 import _opamp_no_power_up from "./../symbols/opamp_no_power_up"
+import _opamp_with_power_down from "./../symbols/opamp_with_power_down"
+import _opamp_with_power_left from "./../symbols/opamp_with_power_left"
+import _opamp_with_power_right from "./../symbols/opamp_with_power_right"
+import _opamp_with_power_up from "./../symbols/opamp_with_power_up"
 import _p_channel_d_mosfet_transistor_horz from "./../symbols/p_channel_d_mosfet_transistor_horz"
 import _p_channel_d_mosfet_transistor_vert from "./../symbols/p_channel_d_mosfet_transistor_vert"
 import _p_channel_e_mosfet_transistor_horz from "./../symbols/p_channel_e_mosfet_transistor_horz"
@@ -222,6 +226,10 @@ export default {
   "opamp_no_power_left": _opamp_no_power_left,
   "opamp_no_power_right": _opamp_no_power_right,
   "opamp_no_power_up": _opamp_no_power_up,
+  "opamp_with_power_down": _opamp_with_power_down,
+  "opamp_with_power_left": _opamp_with_power_left,
+  "opamp_with_power_right": _opamp_with_power_right,
+  "opamp_with_power_up": _opamp_with_power_up,
   "p_channel_d_mosfet_transistor_horz": _p_channel_d_mosfet_transistor_horz,
   "p_channel_d_mosfet_transistor_vert": _p_channel_d_mosfet_transistor_vert,
   "p_channel_e_mosfet_transistor_horz": _p_channel_e_mosfet_transistor_horz,
