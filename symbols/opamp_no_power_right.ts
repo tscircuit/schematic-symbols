@@ -1,4 +1,4 @@
-import svgJson from "assets/generated/opamp.json"
+import svgJson from "assets/generated/opamp_no_power.json"
 import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
 
 export default modifySymbol(svgJson)
