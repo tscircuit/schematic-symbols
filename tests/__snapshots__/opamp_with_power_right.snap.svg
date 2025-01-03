@@ -12,12 +12,12 @@
     <text x="0.16902509999999968" y="-0.4188453" dx="0" dy="0" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="0.15652509999999967" y="-0.4313453" width="0.025" height="0.025" fill="blue" />
     <text x="0.16911179999999978" y="0.29994529999999997" dx="0" dy="0.07500000000000001" text-anchor="middle" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="0.15661179999999977" y="0.28744529999999996" width="0.025" height="0.025" fill="blue" />
 
-    <rect x="-0.60668694" y="-0.20403629999999978" width="0.05" height="0.05" fill="red" />
-    <text x="-0.62168694" y="-0.08903629999999976" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
+    <rect x="-0.59368694" y="-0.20403629999999978" width="0.05" height="0.05" fill="red" />
+    <text x="-0.60868694" y="-0.08903629999999976" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
   
     
-    <rect x="-0.60668694" y="0.0640362999999998" width="0.05" height="0.05" fill="red" />
-    <text x="-0.62168694" y="0.17903629999999982" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+    <rect x="-0.59368694" y="0.0640362999999998" width="0.05" height="0.05" fill="red" />
+    <text x="-0.60868694" y="0.17903629999999982" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
   
     
     <rect x="0.40414709999999987" y="-0.06389609999999987" width="0.05" height="0.05" fill="red" />
