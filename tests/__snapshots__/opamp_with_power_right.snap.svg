@@ -8,9 +8,9 @@
     <path d="M-0.09345180000000035,0.3389511000000002 L-0.09345180000000035,0.0890362999999998" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M-0.19898460000000012,-0.1790362999999998 L-0.26995180000000035,-0.1790362999999998" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M-0.19898460000000012,0.0890362999999998 L-0.26995180000000035,0.0890362999999998" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M-0.23595180000000035,-0.14637805000000034 L-0.23595180000000035,-0.21534525000000013" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <text x="0.16902509999999968" y="-0.4188453" dx="0" dy="0" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="0.15652509999999967" y="-0.4313453" width="0.025" height="0.025" fill="blue" />
-    <text x="0.16911179999999978" y="0.29994529999999997" dx="0" dy="0.07500000000000001" text-anchor="middle" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="0.15661179999999977" y="0.28744529999999996" width="0.025" height="0.025" fill="blue" />
+    <path d="M-0.23485180000000036,-0.14405005000000035 L-0.23485180000000036,-0.2150405000000014" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="0.2502509999999967" y="-0.31884529999999994" dx="0" dy="0" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="0.23775099999999671" y="-0.33134529999999995" width="0.025" height="0.025" fill="blue" />
+    <text x="0.2502509999999967" y="0.23599529999999996" dx="0" dy="0.07500000000000001" text-anchor="middle" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="0.23775099999999671" y="0.22349529999999995" width="0.025" height="0.025" fill="blue" />
 
     <rect x="-0.59368694" y="-0.20403629999999978" width="0.05" height="0.05" fill="red" />
     <text x="-0.60868694" y="-0.08903629999999976" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
