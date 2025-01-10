@@ -23,10 +23,10 @@
   
 <path d="M -1.1102230246251565e-16 -0.07999999999999999 L 0.02499999999999989 -0.05499999999999999 L -1.1102230246251565e-16 -0.029999999999999992 L -0.025000000000000112 -0.05499999999999999 Z" fill="green" />
 <text x="-0.3593953000000001" y="-0.4475333200000002" style="font: 0.05px monospace; fill: #833;">0.72 x 1.01</text>
-<text x="-0.3593953000000001" y="-0.3975333200000002" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [inp1]</text>
-<text x="-0.3593953000000001" y="-0.34753332000000015" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [inp2]</text>
-<text x="-0.3593953000000001" y="-0.29753332000000016" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [out]</text>
+<text x="-0.3593953000000001" y="-0.49753332000000017" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [inp1]</text>
+<text x="-0.3593953000000001" y="-0.5475333200000002" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [inp2]</text>
+<text x="-0.3593953000000001" y="-0.5975333200000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [out]</text>
 <text x="-0.3593953000000001" y="-0.4475333200000002" style="font: 0.05px monospace; fill: #833;">0.72 x 1.01</text>
-<text x="-0.3593953000000001" y="-0.3975333200000002" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [inp1]</text>
-<text x="-0.3593953000000001" y="-0.34753332000000015" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [inp2]</text>
-<text x="-0.3593953000000001" y="-0.29753332000000016" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [out]</text></svg>
+<text x="-0.3593953000000001" y="-0.49753332000000017" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [inp1]</text>
+<text x="-0.3593953000000001" y="-0.5475333200000002" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [inp2]</text>
+<text x="-0.3593953000000001" y="-0.5975333200000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [out]</text></svg>

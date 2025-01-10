@@ -152,7 +152,7 @@ export function getInnerSvg(
       if (port.labels.length > 1) {
         const alternateLabels = port.labels.slice(1).join(", ")
         debugElements.push(
-          `<text x="${topLeft.x}" y="${topLeft.y + (i + 1) * 0.05}" dy="-0.15" style="font: 0.05px monospace; fill: #833;">${port.labels[0]} [${alternateLabels}]</text>`,
+          `<text x="${topLeft.x}" y="${topLeft.y - (i + 1) * 0.05}" dy="-0.15" style="font: 0.05px monospace; fill: #833;">${port.labels[0]} [${alternateLabels}]</text>`,
         )
       }
     })

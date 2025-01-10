@@ -26,10 +26,10 @@
   
 <path d="M -8.326672684688674e-17 -0.025000000000000057 L 0.024999999999999918 -5.551115123125783e-17 L -8.326672684688674e-17 0.024999999999999946 L -0.025000000000000085 -5.551115123125783e-17 Z" fill="green" />
 <text x="-0.5000000000000001" y="-0.5800832909999993" style="font: 0.05px monospace; fill: #833;">1.00 x 1.16</text>
-<text x="-0.5000000000000001" y="-0.5300832909999993" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [drain]</text>
-<text x="-0.5000000000000001" y="-0.48008329099999936" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [source]</text>
-<text x="-0.5000000000000001" y="-0.4300832909999993" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [gate]</text>
+<text x="-0.5000000000000001" y="-0.6300832909999994" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [drain]</text>
+<text x="-0.5000000000000001" y="-0.6800832909999993" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [source]</text>
+<text x="-0.5000000000000001" y="-0.7300832909999994" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [gate]</text>
 <text x="-0.5000000000000001" y="-0.5800832909999993" style="font: 0.05px monospace; fill: #833;">1.00 x 1.16</text>
-<text x="-0.5000000000000001" y="-0.5300832909999993" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [drain]</text>
-<text x="-0.5000000000000001" y="-0.48008329099999936" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [source]</text>
-<text x="-0.5000000000000001" y="-0.4300832909999993" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [gate]</text></svg>
+<text x="-0.5000000000000001" y="-0.6300832909999994" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [drain]</text>
+<text x="-0.5000000000000001" y="-0.6800832909999993" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [source]</text>
+<text x="-0.5000000000000001" y="-0.7300832909999994" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [gate]</text></svg>

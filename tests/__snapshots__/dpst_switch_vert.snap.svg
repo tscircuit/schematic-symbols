@@ -24,12 +24,12 @@
   
 <path d="M -1.1102230246251565e-16 -0.025000000000000112 L 0.02499999999999989 -1.1102230246251565e-16 L -1.1102230246251565e-16 0.02499999999999989 L -0.025000000000000112 -1.1102230246251565e-16 Z" fill="green" />
 <text x="-0.39716265000000006" y="-0.3654624500000003" style="font: 0.05px monospace; fill: #833;">0.79 x 0.73</text>
-<text x="-0.39716265000000006" y="-0.31546245000000034" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [left1]</text>
-<text x="-0.39716265000000006" y="-0.26546245000000035" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [left3]</text>
-<text x="-0.39716265000000006" y="-0.2154624500000003" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [right1]</text>
-<text x="-0.39716265000000006" y="-0.16546245000000032" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [right3]</text>
+<text x="-0.39716265000000006" y="-0.4154624500000003" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [left1]</text>
+<text x="-0.39716265000000006" y="-0.4654624500000003" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [left3]</text>
+<text x="-0.39716265000000006" y="-0.5154624500000003" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [right1]</text>
+<text x="-0.39716265000000006" y="-0.5654624500000003" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [right3]</text>
 <text x="-0.39716265000000006" y="-0.3654624500000003" style="font: 0.05px monospace; fill: #833;">0.79 x 0.73</text>
-<text x="-0.39716265000000006" y="-0.31546245000000034" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [left1]</text>
-<text x="-0.39716265000000006" y="-0.26546245000000035" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [left3]</text>
-<text x="-0.39716265000000006" y="-0.2154624500000003" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [right1]</text>
-<text x="-0.39716265000000006" y="-0.16546245000000032" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [right3]</text></svg>
+<text x="-0.39716265000000006" y="-0.4154624500000003" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [left1]</text>
+<text x="-0.39716265000000006" y="-0.4654624500000003" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [left3]</text>
+<text x="-0.39716265000000006" y="-0.5154624500000003" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [right1]</text>
+<text x="-0.39716265000000006" y="-0.5654624500000003" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [right3]</text></svg>
