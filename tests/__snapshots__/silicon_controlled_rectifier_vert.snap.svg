@@ -1,4 +1,4 @@
-<svg width="150" height="150" viewBox="-0.6031761000000004 -0.4592825399999999 1.2063522000000009 0.9185650799999996" xmlns="http://www.w3.org/2000/svg"><path d="M0.041744850000000416,-0.4989550500000009 L0.04174485000000043,-0.17744185000000107" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+<svg width="150" height="150" viewBox="-0.45928253999999985 -0.6031761000000005 0.9185650799999996 1.2063522000000009" xmlns="http://www.w3.org/2000/svg"><path d="M0.041744850000000416,-0.4989550500000009 L0.04174485000000043,-0.17744185000000107" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.04961415000000054,0.18704774999999912 L0.04961415000000055,0.5063384499999999" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M-0.1520013499999992,0.1821942500000004 L0.25121565000000096,0.1810882500000003" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.004786650000000292,0.1864632499999998 L-0.13539324999999938,0.3460224499999995" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
@@ -19,5 +19,5 @@
     <text x="0.009757749999999801" y="0.6077904499999998" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
   
 <path d="M -5.551115123125783e-17 -0.025000000000000112 L 0.024999999999999946 -1.1102230246251565e-16 L -5.551115123125783e-17 0.02499999999999989 L -0.025000000000000057 -1.1102230246251565e-16 Z" fill="green" />
-<text x="-0.5026467500000005" y="-0.38273544999999976" style="font: 0.05px monospace; fill: #833;">1.01 x 0.77</text>
-<text x="-0.5026467500000005" y="-0.38273544999999976" style="font: 0.05px monospace; fill: #833;">1.01 x 0.77</text></svg>
+<text x="-0.3827354499999999" y="-0.5026467500000003" style="font: 0.05px monospace; fill: #833;">0.77 x 1.01</text>
+<text x="-0.3827354499999999" y="-0.5026467500000003" style="font: 0.05px monospace; fill: #833;">0.77 x 1.01</text></svg>

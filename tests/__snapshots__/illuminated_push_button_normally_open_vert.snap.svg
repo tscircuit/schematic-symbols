@@ -1,4 +1,4 @@
-<svg width="150" height="150" viewBox="-0.5853304199999997 -0.4570457999999975 1.1706608399999994 0.9140915999999968" xmlns="http://www.w3.org/2000/svg"><path d="M-0.022408499999998277,0.02313715000000105 L-0.10240850000000012,0.023137150000001057" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+<svg width="150" height="150" viewBox="-0.4570457999999984 -0.5853304199999988 0.9140915999999968 1.1706608399999994" xmlns="http://www.w3.org/2000/svg"><path d="M-0.022408499999998277,0.02313715000000105 L-0.10240850000000012,0.023137150000001057" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M-0.18547949999999871,-0.4874069499999987 L-0.1854794999999987,-0.1731006499999994" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.17183650000000217,0.02379295000000069 L0.10518850000000146,0.023792950000000694" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M-0.03267150000000019,-0.1492244499999993 L-0.18509050000000027,0.1954986500000011" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
@@ -21,5 +21,5 @@
     <text x="-0.2254765000000009" y="0.5617985500000009" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
   
 <path d="M 0 -0.024999999999999113 L 0.025 8.881784197001252e-16 L 0 0.02500000000000089 L -0.025 8.881784197001252e-16 Z" fill="green" />
-<text x="-0.4877753499999997" y="-0.3808714999999996" style="font: 0.05px monospace; fill: #833;">0.98 x 0.76</text>
-<text x="-0.4877753499999997" y="-0.3808714999999996" style="font: 0.05px monospace; fill: #833;">0.98 x 0.76</text></svg>
+<text x="-0.3808714999999987" y="-0.4877753500000006" style="font: 0.05px monospace; fill: #833;">0.76 x 0.98</text>
+<text x="-0.3808714999999987" y="-0.4877753500000006" style="font: 0.05px monospace; fill: #833;">0.76 x 0.98</text></svg>

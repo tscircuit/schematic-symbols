@@ -1,4 +1,4 @@
-<svg width="150" height="150" viewBox="-0.46674132000000035 -0.658039984 0.9334826400000005 1.206079968" xmlns="http://www.w3.org/2000/svg"><path d="M-0.14458890000000024,-0.07096370000000016 L0.3199943999999993,-0.32132800000000017" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+<svg width="150" height="150" viewBox="-0.6030399840000001 -0.5217413200000003 1.206079968 0.9334826400000005" xmlns="http://www.w3.org/2000/svg"><path d="M-0.14458890000000024,-0.07096370000000016 L0.3199943999999993,-0.32132800000000017" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.31999439999999935,0.20132800000000012 L-0.14458890000000024,-0.07096370000000016" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.3199943999999993,-0.32132800000000017 L0.31999439999999935,0.20132800000000012" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.3199943999999993,0.06903629999999977 L0.5816869399999998,0.06903629999999972" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
@@ -32,15 +32,15 @@
     <text x="0.053451800000000084" y="-0.35895110000000024" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">5</text>
   
 <path d="M -1.1102230246251565e-16 -0.07999999999999999 L 0.02499999999999989 -0.05499999999999999 L -1.1102230246251565e-16 -0.029999999999999992 L -0.025000000000000112 -0.05499999999999999 Z" fill="green" />
-<text x="-0.3889511000000003" y="-0.44753332000000007" style="font: 0.05px monospace; fill: #833;">0.78 x 1.01</text>
-<text x="-0.3889511000000003" y="-0.3975333200000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [inp1]</text>
-<text x="-0.3889511000000003" y="-0.34753332000000003" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [inp2]</text>
-<text x="-0.3889511000000003" y="-0.29753332000000005" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [out]</text>
-<text x="-0.3889511000000003" y="-0.24753332000000006" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [V+]</text>
-<text x="-0.3889511000000003" y="-0.19753332000000007" dy="-0.15" style="font: 0.05px monospace; fill: #833;">5 [V-]</text>
-<text x="-0.3889511000000003" y="-0.44753332000000007" style="font: 0.05px monospace; fill: #833;">0.78 x 1.01</text>
-<text x="-0.3889511000000003" y="-0.3975333200000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [inp1]</text>
-<text x="-0.3889511000000003" y="-0.34753332000000003" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [inp2]</text>
-<text x="-0.3889511000000003" y="-0.29753332000000005" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [out]</text>
-<text x="-0.3889511000000003" y="-0.24753332000000006" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [V+]</text>
-<text x="-0.3889511000000003" y="-0.19753332000000007" dy="-0.15" style="font: 0.05px monospace; fill: #833;">5 [V-]</text></svg>
+<text x="-0.5025333200000002" y="-0.3339511000000002" style="font: 0.05px monospace; fill: #833;">1.01 x 0.78</text>
+<text x="-0.5025333200000002" y="-0.28395110000000023" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [inp1]</text>
+<text x="-0.5025333200000002" y="-0.23395110000000022" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [inp2]</text>
+<text x="-0.5025333200000002" y="-0.1839511000000002" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [out]</text>
+<text x="-0.5025333200000002" y="-0.1339511000000002" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [V+]</text>
+<text x="-0.5025333200000002" y="-0.08395110000000022" dy="-0.15" style="font: 0.05px monospace; fill: #833;">5 [V-]</text>
+<text x="-0.5025333200000002" y="-0.3339511000000002" style="font: 0.05px monospace; fill: #833;">1.01 x 0.78</text>
+<text x="-0.5025333200000002" y="-0.28395110000000023" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [inp1]</text>
+<text x="-0.5025333200000002" y="-0.23395110000000022" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [inp2]</text>
+<text x="-0.5025333200000002" y="-0.1839511000000002" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [out]</text>
+<text x="-0.5025333200000002" y="-0.1339511000000002" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [V+]</text>
+<text x="-0.5025333200000002" y="-0.08395110000000022" dy="-0.15" style="font: 0.05px monospace; fill: #833;">5 [V-]</text></svg>
