@@ -1,5 +1,6 @@
 import { NinePointAnchor, SchSymbol } from "drawing/types"
 import { rotateRightFacingSymbol } from "drawing/rotateSymbol"
+import { getBoundsOfPrimitives } from "drawing/utils/getBoundsOfPrimitives"
 
 interface ModifySymbolBuilder {
   changeTextAnchor(
@@ -18,6 +19,7 @@ class SymbolModifier implements ModifySymbolBuilder {
 
   constructor(symbol: SchSymbol) {
     this.symbol = JSON.parse(JSON.stringify(symbol))
+    this.symbol.size = this.computeSize()
   }
 
   changeTextAnchor(
@@ -60,8 +62,16 @@ class SymbolModifier implements ModifySymbolBuilder {
     return this
   }
 
+  computeSize(): { width: number; height: number } {
+    const bounds = getBoundsOfPrimitives(this.symbol.primitives)
+    return {
+      width: bounds.maxX - bounds.minX,
+      height: bounds.maxY - bounds.minY,
+    }
+  }
+
   build(): SchSymbol {
-    return this.symbol
+    return { ...this.symbol, size: this.computeSize() }
   }
 }
 
@@ -82,10 +92,6 @@ export const modifySymbol = (symbol: any): ModifySymbolBuilder => {
     center: symbol.center ?? {
       x: symbol.bounds.centerX,
       y: symbol.bounds.centerY,
-    },
-    size: symbol.size ?? {
-      width: symbol.bounds.width,
-      height: symbol.bounds.height,
     },
   })
 }
