@@ -6,6 +6,7 @@ import type {
   Port,
   NinePointAnchor,
 } from "./types"
+import { getBoundsOfPrimitives } from "./utils/getBoundsOfPrimitives"
 
 // Update rotateAnchor to handle all anchor rotations based on orientation
 const rotateRightFacingAnchor = (
@@ -295,19 +296,15 @@ export const rotateRightFacingSymbol = (
     }),
   )
 
+  const bounds = getBoundsOfPrimitives(rotatedPrimitives)
+
   return {
     primitives: rotatedPrimitives,
     center,
     ports: rotatedPorts,
     size: {
-      width:
-        newOrientation === "up" || newOrientation === "down"
-          ? size.width
-          : size.height,
-      height:
-        newOrientation === "up" || newOrientation === "down"
-          ? size.height
-          : size.width,
+      width: bounds.maxX - bounds.minX,
+      height: bounds.maxY - bounds.minY,
     },
     ...overrides,
   }

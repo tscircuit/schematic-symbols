@@ -137,7 +137,35 @@ export function getInnerSvg(
 
   const centerDiamond = createDiamondElement(symbol.center)
 
-  return [svgElements.join("\n    "), portElements, centerDiamond].join("\n")
+  const debugElements = []
+  if (debug) {
+    const topLeft = {
+      x: symbol.center.x - size.width / 2,
+      y: symbol.center.y - size.height / 2,
+    }
+    debugElements.push(
+      `<text x="${topLeft.x}" y="${topLeft.y}" style="font: 0.05px monospace; fill: #833;">${size.width.toFixed(2)} x ${size.height.toFixed(2)}</text>`,
+    )
+
+    // Show all available port labels
+    ports.forEach((port, i) => {
+      if (port.labels.length > 1) {
+        const alternateLabels = port.labels.slice(1).join(", ")
+        debugElements.push(
+          `<text x="${topLeft.x}" y="${topLeft.y - (i + 1) * 0.05}" dy="-0.15" style="font: 0.05px monospace; fill: #833;">${port.labels[0]} [${alternateLabels}]</text>`,
+        )
+      }
+    })
+
+    debugElements.push(...debugElements)
+  }
+
+  return [
+    svgElements.join("\n    "),
+    portElements,
+    centerDiamond,
+    ...debugElements,
+  ].join("\n")
 }
 
 export function getSvg(
