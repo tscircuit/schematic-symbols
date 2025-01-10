@@ -13,4 +13,6 @@
     <rect x="-0.02499999999999997" y="0.5131638000000004" width="0.05" height="0.05" fill="red" />
     <text x="-0.039999999999999966" y="0.6281638000000005" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
   
-<path d="M 0 -0.025 L 0.025 0 L 0 0.025 L -0.025 0 Z" fill="green" /></svg>
+<path d="M 0 -0.025 L 0.025 0 L 0 0.025 L -0.025 0 Z" fill="green" />
+<text x="-0.5307178000000001" y="-0.5" style="font: 0.05px monospace; fill: #833;">1.06 x 1.00</text>
+<text x="-0.5307178000000001" y="-0.5" style="font: 0.05px monospace; fill: #833;">1.06 x 1.00</text></svg>
