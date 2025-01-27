@@ -125,11 +125,12 @@
          id="path12-1-5-3"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cc" />
-      <path
-         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.99926;-inkscape-stroke:none"
-         d="m 60.022002,-99.066792 1.038606,0.727239 -0.0037,-1.087 z"
-         id="path15"
-         sodipodi:nodetypes="cccc" />
+   <path
+  style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.99926;-inkscape-stroke:none"
+  d="m 60.022002,-99.066792 1.038606,0.727239 -0.0037,-1.087 L 60.022002,-99.066792 z"
+  id="path15"
+  sodipodi:nodetypes="cccc" />
+
       <circle
          style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
          id="refblock-5-7-3"

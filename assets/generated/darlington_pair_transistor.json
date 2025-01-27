@@ -111,7 +111,7 @@
         }
       ],
       "color": "primary",
-      "fill": true
+      "fill": false
     },
     "path1": {
       "type": "path",
@@ -194,7 +194,7 @@
         }
       ],
       "color": "primary",
-      "fill": true
+      "fill": false
     },
     "path9": {
       "type": "path",

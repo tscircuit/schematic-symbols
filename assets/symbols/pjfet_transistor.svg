@@ -146,10 +146,11 @@
          id="path2-5"
          sodipodi:nodetypes="cc" />
       <path
-         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.999999;-inkscape-stroke:none"
-         d="m 58.825108,-95.17255 h -1.26884 l 0.62699,0.88894 z"
-         id="path15"
-         sodipodi:nodetypes="cccc" />
+  style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.999999;-inkscape-stroke:none"
+  d="m 58.825108,-95.17255 h -1.26884 l 0.62699,0.88894 L 58.825108,-95.17255 z"
+  id="path15"
+  sodipodi:nodetypes="cccc" />
+
     </g>
   </g>
 </svg>
