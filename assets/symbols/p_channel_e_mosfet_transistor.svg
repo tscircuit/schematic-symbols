@@ -156,10 +156,11 @@
          id="path2-8-3-2"
          sodipodi:nodetypes="cc" />
       <path
-         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.999999;-inkscape-stroke:none"
-         d="m 57.865441,-96.941662 h 0.713921 l -0.352778,-0.71755 z"
-         id="path15"
-         sodipodi:nodetypes="cccc" />
+  style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.999999;-inkscape-stroke:none"
+  d="m 57.865441,-96.941662 h 0.713921 l -0.352778,-0.71755 L 57.865441,-96.941662 z"
+  id="path15"
+  sodipodi:nodetypes="cccc" />
+
       <path
          style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1;stroke-linecap:butt"
          d="m 58.211777,-95.855601 0.01288,-2.172118"
