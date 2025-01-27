@@ -4,6 +4,7 @@
     <path d="M0.28374995550000004,0.2462579999999992 L0.2831499554999999,0.5425888999999995" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.28423665550000043,-0.5370061000000012 L0.2836366555000003,-0.2678117000000011" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.1731829554999995,0.2153930999999989 L0.2780310554999992,0.23045039999999894 L0.2324710554999987,0.14155709999999888" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.1731829554999995,0.2153930999999989 L0.2324710554999987,0.14155709999999888 L0.2780310554999992,0.23045039999999894" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.07704605550000054,0.08544359999999895 L0.2325688555000005,0.19774119999999895" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.07425025549999931,-0.11255990000000127 L0.28369465549999884,-0.2606293000000013" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <text x="-0.006566644499999885" y="-0.35624680000000075" dx="0" dy="0.037500000000000006" text-anchor="end" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.019066644499999886" y="-0.36874680000000076" width="0.025" height="0.025" fill="blue" />
