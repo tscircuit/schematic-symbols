@@ -98,6 +98,8 @@ import _potentiometer_horz from "./../symbols/potentiometer_horz"
 import _potentiometer_vert from "./../symbols/potentiometer_vert"
 import _potentiometer2_horz from "./../symbols/potentiometer2_horz"
 import _potentiometer2_vert from "./../symbols/potentiometer2_vert"
+import _potentiometer3_horz from "./../symbols/potentiometer3_horz"
+import _potentiometer3_vert from "./../symbols/potentiometer3_vert"
 import _power_factor_meter_horz from "./../symbols/power_factor_meter_horz"
 import _power_factor_meter_vert from "./../symbols/power_factor_meter_vert"
 import _push_button_normally_closed_momentary_horz from "./../symbols/push_button_normally_closed_momentary_horz"
@@ -244,6 +246,8 @@ export default {
   "potentiometer_vert": _potentiometer_vert,
   "potentiometer2_horz": _potentiometer2_horz,
   "potentiometer2_vert": _potentiometer2_vert,
+  "potentiometer3_horz": _potentiometer3_horz,
+  "potentiometer3_vert": _potentiometer3_vert,
   "power_factor_meter_horz": _power_factor_meter_horz,
   "power_factor_meter_vert": _power_factor_meter_vert,
   "push_button_normally_closed_momentary_horz": _push_button_normally_closed_momentary_horz,
