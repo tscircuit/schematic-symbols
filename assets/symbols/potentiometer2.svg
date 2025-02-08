@@ -7,8 +7,8 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg1"
-   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
-   sodipodi:docname="symbols.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="potentiometer2.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -23,15 +23,15 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="32.422109"
-     inkscape:cx="102.35299"
-     inkscape:cy="699.39928"
-     inkscape:window-width="1728"
-     inkscape:window-height="1051"
-     inkscape:window-x="0"
-     inkscape:window-y="38"
+     inkscape:zoom="11.313709"
+     inkscape:cx="89.360619"
+     inkscape:cy="516.49731"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="led"
+     inkscape:current-layer="potentiometer2"
      showgrid="true">
     <inkscape:grid
        id="grid207"
@@ -51,48 +51,14 @@
        visible="true" />
   </sodipodi:namedview>
   <defs
-     id="defs1">
-    <marker
-       inkscape:collect="always"
-       inkscape:isstock="true"
-       style="overflow:visible"
-       id="TriangleInM-68-33"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="TriangleInM">
-      <path
-         transform="scale(-0.4)"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
-         d="M 5.77,0 -2.88,5 V -5 Z"
-         id="path5871-92-3"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:collect="always"
-       inkscape:isstock="true"
-       style="overflow:visible"
-       id="TriangleInM-1"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="TriangleInM">
-      <path
-         transform="scale(-0.4)"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
-         d="M 5.77,0 -2.88,5 V -5 Z"
-         id="path5871-0"
-         inkscape:connector-curvature="0" />
-    </marker>
-  </defs>
-   <g
+     id="defs1" />
+  <g
      inkscape:label="root"
      inkscape:groupmode="layer"
      id="root">
-
     <g
        id="potentiometer2"
-       transform="rotate(90,-66.297106,-5.3795566)">
+       transform="rotate(90,-66.612925,-7.2314652)">
       <title
          id="title17">Potentiometer</title>
       <path
@@ -107,21 +73,24 @@
          style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
       <path
          inkscape:connector-curvature="0"
+         id="path19-2"
+         d="M 79.252952,-96.819971 H 76.543111"
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+      <circle
+         style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         id="refblock-5-7-3-4"
+         cx="96.819969"
+         cy="79.32737"
+         r="0.28158441"
+         transform="rotate(-90)" />
+      <path
+         inkscape:connector-curvature="0"
          id="path20"
          d="m 72.760415,-96.572913 v -2.64583 h 2.645834 v 5.29167 h -2.645834 v -2.64584"
          style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
       <path
-         style="color:#000000;fill:#000000;fill-rule:evenodd;-inkscape-stroke:none"
-         d="m 76.897061,-99.386629 -0.273579,1.023109 -0.74953,-0.74953 z"
-         id="path23" />
-      <path
-         style="color:#000000;fill:#000000;fill-rule:evenodd;-inkscape-stroke:none"
-         d="m 76.996094,-99.486328 -1.257813,0.335937 0.921875,0.923829 z"
-         id="path24"
-         sodipodi:nodetypes="cccc" />
-      <path
          style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
-         d="m 71.15348,-93.617724 5.249339,-5.284728"
+         d="m 72.864947,-93.926773 2.502041,-5.367955"
          id="path26" />
       <title
          id="title21">Potentiometer</title>
@@ -142,27 +111,32 @@
       <text
          xml:space="preserve"
          style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
-         x="23.925009"
-         y="137.77809"
+         x="94.345436"
+         y="76.9767"
          id="text14-3-0"
-         transform="rotate(-90,-66.297106,-5.3795562)"><tspan
+         transform="rotate(-90)"><tspan
            sodipodi:role="line"
            id="tspan14-1-4"
            style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-           x="23.925009"
-           y="137.77809">{VAL}</tspan></text>
+           x="94.345436"
+           y="76.9767">{VAL}</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
-         x="25.47739"
-         y="132.98296"
+         x="94.447792"
+         y="71.846107"
          id="text14-3-0-5"
-         transform="rotate(-90,-66.297106,-5.3795562)"><tspan
+         transform="rotate(-90)"><tspan
            sodipodi:role="line"
            id="tspan14-1-4-0"
            style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-           x="25.47739"
-           y="132.98296">{REF}</tspan></text>
+           x="94.447792"
+           y="71.846107">{REF}</tspan></text>
+      <path
+         style="color:#000000;fill:#000000;fill-rule:evenodd;stroke-width:0.999999;-inkscape-stroke:none"
+         d="m 76.539431,-96.421453 -0.929417,-0.380375 0.936777,-0.416661 z"
+         id="path23"
+         sodipodi:nodetypes="cccc" />
     </g>
-   </g>
+  </g>
 </svg>
