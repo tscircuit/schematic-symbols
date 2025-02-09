@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg width="150" height="150" viewBox="-0.6434511599999997 -0.48 1.28690232 0.96" xmlns="http://www.w3.org/2000/svg"><path d="M0.13585750000000063,0.003696399999999045 L-0.12872579999999934,0.13598810000000228" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.12763670000000094,0.003920199999999596 L0.3,0.003920199999999596" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M-0.12872579999999934,-0.12859530000000063 L0.13585750000000063,0.003696399999999045" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
@@ -35,12 +36,12 @@
   
 <path d="M 3.3306690738754696e-16 -0.025 L 0.025000000000000334 0 L 3.3306690738754696e-16 0.025 L -0.02499999999999967 0 Z" fill="green" />
 <text x="-0.5362092999999997" y="-0.4" style="font: 0.05px monospace; fill: #833;">1.07 x 0.80</text>
-<text x="-0.5362092999999997" y="-0.45" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [pos]</text>
-<text x="-0.5362092999999997" y="-0.5" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [pos]</text>
-<text x="-0.5362092999999997" y="-0.55" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [neg]</text>
-<text x="-0.5362092999999997" y="-0.6000000000000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [neg]</text>
+<text x="-0.5362092999999997" y="-0.45" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [power]</text>
+<text x="-0.5362092999999997" y="-0.5" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [dout]</text>
+<text x="-0.5362092999999997" y="-0.55" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [din]</text>
+<text x="-0.5362092999999997" y="-0.6000000000000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [gnd]</text>
 <text x="-0.5362092999999997" y="-0.4" style="font: 0.05px monospace; fill: #833;">1.07 x 0.80</text>
-<text x="-0.5362092999999997" y="-0.45" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [pos]</text>
-<text x="-0.5362092999999997" y="-0.5" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [pos]</text>
-<text x="-0.5362092999999997" y="-0.55" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [neg]</text>
-<text x="-0.5362092999999997" y="-0.6000000000000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [neg]</text></svg>
+<text x="-0.5362092999999997" y="-0.45" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [power]</text>
+<text x="-0.5362092999999997" y="-0.5" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [dout]</text>
+<text x="-0.5362092999999997" y="-0.55" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [din]</text>
+<text x="-0.5362092999999997" y="-0.6000000000000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [gnd]</text></svg>
