@@ -1,4 +1,4 @@
-import { rotateSymbol } from "drawing/rotateSymbol"
+import { flipSymbolOverYAxis } from "drawing/rotateSymbol"
 import icled_right from "./icled_right"
 
-export default rotateSymbol(icled_right, "left")
+export default flipSymbolOverYAxis(icled_right)
