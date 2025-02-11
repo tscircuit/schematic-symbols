@@ -48,6 +48,10 @@ import _ground_horz from "./../symbols/ground_horz"
 import _ground_vert from "./../symbols/ground_vert"
 import _gunn_diode_horz from "./../symbols/gunn_diode_horz"
 import _gunn_diode_vert from "./../symbols/gunn_diode_vert"
+import _icled_down from "./../symbols/icled_down"
+import _icled_left from "./../symbols/icled_left"
+import _icled_right from "./../symbols/icled_right"
+import _icled_up from "./../symbols/icled_up"
 import _igbt_transistor_horz from "./../symbols/igbt_transistor_horz"
 import _igbt_transistor_vert from "./../symbols/igbt_transistor_vert"
 import _illuminated_push_button_normally_open_horz from "./../symbols/illuminated_push_button_normally_open_horz"
@@ -198,6 +202,10 @@ export default {
   "ground_vert": _ground_vert,
   "gunn_diode_horz": _gunn_diode_horz,
   "gunn_diode_vert": _gunn_diode_vert,
+  "icled_down": _icled_down,
+  "icled_left": _icled_left,
+  "icled_right": _icled_right,
+  "icled_up": _icled_up,
   "igbt_transistor_horz": _igbt_transistor_horz,
   "igbt_transistor_vert": _igbt_transistor_vert,
   "illuminated_push_button_normally_open_horz": _illuminated_push_button_normally_open_horz,
