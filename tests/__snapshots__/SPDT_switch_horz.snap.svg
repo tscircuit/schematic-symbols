@@ -13,8 +13,8 @@
     <text x="0.32827374999999953" y="0.15451304999999996" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
   
     
-    <rect x="0.08244725000000055" y="0.03951304999999996" width="0.05" height="0.05" fill="red" />
-    <text x="0.06744725000000054" y="0.15451304999999996" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+    <rect x="0.3432737499999995" y="-0.19714665000000062" width="0.05" height="0.05" fill="red" />
+    <text x="0.32827374999999953" y="-0.08214665000000063" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
   
 <path d="M 0 -0.025000000000000112 L 0.025 -1.1102230246251565e-16 L 0 0.02499999999999989 L -0.025 -1.1102230246251565e-16 Z" fill="green" />
 <text x="-0.49643219099999947" y="-0.39716264999999984" style="font: 0.05px monospace; fill: #833;">0.99 x 0.79</text>
