@@ -1,5 +1,5 @@
 import { defineSymbol } from "drawing/defineSymbol"
-import svgJson from "assets/generated/SPDT_normally_closed_switch.json"
+import svgJson from "assets/generated/spdt_normally_closed_switch.json"
 import { Primitive } from "drawing/types"
 
 svgJson.bounds.width += 0.2

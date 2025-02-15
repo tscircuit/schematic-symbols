@@ -124,14 +124,14 @@ import _schottky_diode_horz from "./../symbols/schottky_diode_horz"
 import _schottky_diode_vert from "./../symbols/schottky_diode_vert"
 import _silicon_controlled_rectifier_horz from "./../symbols/silicon_controlled_rectifier_horz"
 import _silicon_controlled_rectifier_vert from "./../symbols/silicon_controlled_rectifier_vert"
-import _SPDT_normally_closed_switch_horz from "./../symbols/SPDT_normally_closed_switch_horz"
-import _SPDT_normally_closed_switch_vert from "./../symbols/SPDT_normally_closed_switch_vert"
-import _SPDT_switch_horz from "./../symbols/SPDT_switch_horz"
-import _SPDT_switch_vert from "./../symbols/SPDT_switch_vert"
-import _SPST_normally_closed_switch_horz from "./../symbols/SPST_normally_closed_switch_horz"
-import _SPST_normally_closed_switch_vert from "./../symbols/SPST_normally_closed_switch_vert"
-import _SPST_switch_horz from "./../symbols/SPST_switch_horz"
-import _SPST_switch_vert from "./../symbols/SPST_switch_vert"
+import _spdt_normally_closed_switch_horz from "./../symbols/spdt_normally_closed_switch_horz"
+import _spdt_normally_closed_switch_vert from "./../symbols/spdt_normally_closed_switch_vert"
+import _spdt_switch_horz from "./../symbols/spdt_switch_horz"
+import _spdt_switch_vert from "./../symbols/spdt_switch_vert"
+import _spst_normally_closed_switch_horz from "./../symbols/spst_normally_closed_switch_horz"
+import _spst_normally_closed_switch_vert from "./../symbols/spst_normally_closed_switch_vert"
+import _spst_switch_horz from "./../symbols/spst_switch_horz"
+import _spst_switch_vert from "./../symbols/spst_switch_vert"
 import _step_recovery_diode_horz from "./../symbols/step_recovery_diode_horz"
 import _step_recovery_diode_vert from "./../symbols/step_recovery_diode_vert"
 import _tachometer_horz from "./../symbols/tachometer_horz"
@@ -286,14 +286,14 @@ export default {
   "schottky_diode_vert": _schottky_diode_vert,
   "silicon_controlled_rectifier_horz": _silicon_controlled_rectifier_horz,
   "silicon_controlled_rectifier_vert": _silicon_controlled_rectifier_vert,
-  "SPDT_normally_closed_switch_horz": _SPDT_normally_closed_switch_horz,
-  "SPDT_normally_closed_switch_vert": _SPDT_normally_closed_switch_vert,
-  "SPDT_switch_horz": _SPDT_switch_horz,
-  "SPDT_switch_vert": _SPDT_switch_vert,
-  "SPST_normally_closed_switch_horz": _SPST_normally_closed_switch_horz,
-  "SPST_normally_closed_switch_vert": _SPST_normally_closed_switch_vert,
-  "SPST_switch_horz": _SPST_switch_horz,
-  "SPST_switch_vert": _SPST_switch_vert,
+  "spdt_normally_closed_switch_horz": _spdt_normally_closed_switch_horz,
+  "spdt_normally_closed_switch_vert": _spdt_normally_closed_switch_vert,
+  "spdt_switch_horz": _spdt_switch_horz,
+  "spdt_switch_vert": _spdt_switch_vert,
+  "spst_normally_closed_switch_horz": _spst_normally_closed_switch_horz,
+  "spst_normally_closed_switch_vert": _spst_normally_closed_switch_vert,
+  "spst_switch_horz": _spst_switch_horz,
+  "spst_switch_vert": _spst_switch_vert,
   "step_recovery_diode_horz": _step_recovery_diode_horz,
   "step_recovery_diode_vert": _step_recovery_diode_vert,
   "tachometer_horz": _tachometer_horz,

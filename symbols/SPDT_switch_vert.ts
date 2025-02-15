@@ -1,7 +1,7 @@
 import { rotateSymbol } from "drawing/rotateSymbol"
-import SPDT_switch_horz from "./SPDT_switch_horz"
+import spdt_switch_horz from "./spdt_switch_horz"
 
-const rotatedSymbol = rotateSymbol(SPDT_switch_horz)
+const rotatedSymbol = rotateSymbol(spdt_switch_horz)
 
 const texts = rotatedSymbol.primitives.filter((p) => p.type === "text")!
 
