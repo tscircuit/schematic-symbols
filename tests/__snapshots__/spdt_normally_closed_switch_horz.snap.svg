@@ -5,8 +5,8 @@
     <circle cx="0.08200307499999998" cy="0.06518" r="0.023193523" fill="none" stroke="black" stroke-width="0.02" />
     <circle cx="-0.09900307499999998" cy="-0.02848" r="0.023193523" fill="none" stroke="black" stroke-width="0.02" />
     <circle cx="0.08200307499999998" cy="-0.172848" r="0.023193523" fill="none" stroke="black" stroke-width="0.02" />
-    <text x="-0.01" y="-0.39716265000000006" dx="0" dy="0" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.0225" y="-0.4096626500000001" width="0.025" height="0.025" fill="blue" />
-    <text x="-0.01" y="0.39716264999999984" dx="0" dy="0.07500000000000001" text-anchor="middle" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.0225" y="0.38466264999999983" width="0.025" height="0.025" fill="blue" />
+    <text x="-0.01" y="-0.31716265000000005" dx="0" dy="0" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.0225" y="-0.32966265000000006" width="0.025" height="0.025" fill="blue" />
+    <text x="-0.01" y="0.3171626499999998" dx="0" dy="0.07500000000000001" text-anchor="middle" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.0225" y="0.3046626499999998" width="0.025" height="0.025" fill="blue" />
 
     <rect x="-0.39327374999999953" y="-0.05704385000000021" width="0.05" height="0.05" fill="red" />
     <text x="-0.4082737499999995" y="0.0579561499999998" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
