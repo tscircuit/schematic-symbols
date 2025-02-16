@@ -15,9 +15,9 @@ const val = rotated.primitives.find(
 ref.anchor = "middle_bottom"
 val.anchor = "middle_top"
 
-ref.x = 0.34
-ref.y += 0.425
-val.y -= 0.425
-val.x = 0.34
+ref.x = 0.45
+ref.y += 0.925
+val.y -= 0.925
+val.x = 0.45
 
 export default rotated
