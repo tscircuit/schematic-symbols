@@ -132,7 +132,7 @@ import _schottky_diode_horz from "./../symbols/schottky_diode_horz"
 import _schottky_diode_vert from "./../symbols/schottky_diode_vert"
 import _silicon_controlled_rectifier_horz from "./../symbols/silicon_controlled_rectifier_horz"
 import _silicon_controlled_rectifier_vert from "./../symbols/silicon_controlled_rectifier_vert"
-import _spdt_normally_closed_switch_horz from "./../symbols/spdt_normally_closed_switch_horz"
+import _spdt_normally_closed_switch_down from "./../symbols/spdt_normally_closed_switch_down"
 import _spdt_normally_closed_switch_left from "./../symbols/spdt_normally_closed_switch_left"
 import _spdt_normally_closed_switch_right from "./../symbols/spdt_normally_closed_switch_right"
 import _spdt_normally_closed_switch_up from "./../symbols/spdt_normally_closed_switch_up"
@@ -306,7 +306,7 @@ export default {
   "schottky_diode_vert": _schottky_diode_vert,
   "silicon_controlled_rectifier_horz": _silicon_controlled_rectifier_horz,
   "silicon_controlled_rectifier_vert": _silicon_controlled_rectifier_vert,
-  "spdt_normally_closed_switch_horz": _spdt_normally_closed_switch_horz,
+  "spdt_normally_closed_switch_down": _spdt_normally_closed_switch_down,
   "spdt_normally_closed_switch_left": _spdt_normally_closed_switch_left,
   "spdt_normally_closed_switch_right": _spdt_normally_closed_switch_right,
   "spdt_normally_closed_switch_up": _spdt_normally_closed_switch_up,

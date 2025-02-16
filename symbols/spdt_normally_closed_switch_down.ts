@@ -1,8 +1,8 @@
 import { rotateSymbol } from "drawing/rotateSymbol"
-import dpdt_switch_right from "./dpdt_switch_right"
+import spdt_normally_closed_switch_right from "./spdt_normally_closed_switch_right"
 import type { TextPrimitive } from "drawing"
 
-const rotated = rotateSymbol(dpdt_switch_right, "down")
+const rotated = rotateSymbol(spdt_normally_closed_switch_right, "down")
 
 const ref = rotated.primitives.find(
   (p) => p.type === "text" && p.text === "{REF}",
@@ -14,9 +14,9 @@ const val = rotated.primitives.find(
 ref.anchor = "middle_bottom"
 val.anchor = "middle_top"
 
-ref.x = 0.0
-ref.y += 0.365
-val.y -= 0.555
-val.x = 0.0
+ref.x = 0.33
+ref.y += 0.265
+val.y -= 0.265
+val.x = 0.33
 
 export default rotated
