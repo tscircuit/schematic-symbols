@@ -16,7 +16,7 @@ val.anchor = "middle_top"
 
 ref.x = 0.4
 ref.y += 0.265
-val.y -= 0.665
+val.y -= 0.265
 val.x = 0.4
 
 export default rotated
