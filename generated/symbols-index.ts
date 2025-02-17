@@ -34,10 +34,22 @@ import _diode_down from "./../symbols/diode_down"
 import _diode_left from "./../symbols/diode_left"
 import _diode_right from "./../symbols/diode_right"
 import _diode_up from "./../symbols/diode_up"
-import _dpdt_switch_horz from "./../symbols/dpdt_switch_horz"
-import _dpdt_switch_vert from "./../symbols/dpdt_switch_vert"
-import _dpst_switch_horz from "./../symbols/dpst_switch_horz"
-import _dpst_switch_vert from "./../symbols/dpst_switch_vert"
+import _dpdt_normally_closed_switch_down from "./../symbols/dpdt_normally_closed_switch_down"
+import _dpdt_normally_closed_switch_left from "./../symbols/dpdt_normally_closed_switch_left"
+import _dpdt_normally_closed_switch_right from "./../symbols/dpdt_normally_closed_switch_right"
+import _dpdt_normally_closed_switch_up from "./../symbols/dpdt_normally_closed_switch_up"
+import _dpdt_switch_down from "./../symbols/dpdt_switch_down"
+import _dpdt_switch_left from "./../symbols/dpdt_switch_left"
+import _dpdt_switch_right from "./../symbols/dpdt_switch_right"
+import _dpdt_switch_up from "./../symbols/dpdt_switch_up"
+import _dpst_normally_closed_switch_down from "./../symbols/dpst_normally_closed_switch_down"
+import _dpst_normally_closed_switch_left from "./../symbols/dpst_normally_closed_switch_left"
+import _dpst_normally_closed_switch_right from "./../symbols/dpst_normally_closed_switch_right"
+import _dpst_normally_closed_switch_up from "./../symbols/dpst_normally_closed_switch_up"
+import _dpst_switch_down from "./../symbols/dpst_switch_down"
+import _dpst_switch_left from "./../symbols/dpst_switch_left"
+import _dpst_switch_right from "./../symbols/dpst_switch_right"
+import _dpst_switch_up from "./../symbols/dpst_switch_up"
 import _filled_diode_horz from "./../symbols/filled_diode_horz"
 import _filled_diode_vert from "./../symbols/filled_diode_vert"
 import _frequency_meter_horz from "./../symbols/frequency_meter_horz"
@@ -120,8 +132,16 @@ import _schottky_diode_horz from "./../symbols/schottky_diode_horz"
 import _schottky_diode_vert from "./../symbols/schottky_diode_vert"
 import _silicon_controlled_rectifier_horz from "./../symbols/silicon_controlled_rectifier_horz"
 import _silicon_controlled_rectifier_vert from "./../symbols/silicon_controlled_rectifier_vert"
+import _spdt_normally_closed_switch_down from "./../symbols/spdt_normally_closed_switch_down"
+import _spdt_normally_closed_switch_left from "./../symbols/spdt_normally_closed_switch_left"
+import _spdt_normally_closed_switch_right from "./../symbols/spdt_normally_closed_switch_right"
+import _spdt_normally_closed_switch_up from "./../symbols/spdt_normally_closed_switch_up"
 import _SPDT_switch_horz from "./../symbols/SPDT_switch_horz"
 import _SPDT_switch_vert from "./../symbols/SPDT_switch_vert"
+import _spst_normally_closed_switch_down from "./../symbols/spst_normally_closed_switch_down"
+import _spst_normally_closed_switch_left from "./../symbols/spst_normally_closed_switch_left"
+import _spst_normally_closed_switch_right from "./../symbols/spst_normally_closed_switch_right"
+import _spst_normally_closed_switch_up from "./../symbols/spst_normally_closed_switch_up"
 import _SPST_switch_horz from "./../symbols/SPST_switch_horz"
 import _SPST_switch_vert from "./../symbols/SPST_switch_vert"
 import _step_recovery_diode_horz from "./../symbols/step_recovery_diode_horz"
@@ -188,10 +208,22 @@ export default {
   "diode_left": _diode_left,
   "diode_right": _diode_right,
   "diode_up": _diode_up,
-  "dpdt_switch_horz": _dpdt_switch_horz,
-  "dpdt_switch_vert": _dpdt_switch_vert,
-  "dpst_switch_horz": _dpst_switch_horz,
-  "dpst_switch_vert": _dpst_switch_vert,
+  "dpdt_normally_closed_switch_down": _dpdt_normally_closed_switch_down,
+  "dpdt_normally_closed_switch_left": _dpdt_normally_closed_switch_left,
+  "dpdt_normally_closed_switch_right": _dpdt_normally_closed_switch_right,
+  "dpdt_normally_closed_switch_up": _dpdt_normally_closed_switch_up,
+  "dpdt_switch_down": _dpdt_switch_down,
+  "dpdt_switch_left": _dpdt_switch_left,
+  "dpdt_switch_right": _dpdt_switch_right,
+  "dpdt_switch_up": _dpdt_switch_up,
+  "dpst_normally_closed_switch_down": _dpst_normally_closed_switch_down,
+  "dpst_normally_closed_switch_left": _dpst_normally_closed_switch_left,
+  "dpst_normally_closed_switch_right": _dpst_normally_closed_switch_right,
+  "dpst_normally_closed_switch_up": _dpst_normally_closed_switch_up,
+  "dpst_switch_down": _dpst_switch_down,
+  "dpst_switch_left": _dpst_switch_left,
+  "dpst_switch_right": _dpst_switch_right,
+  "dpst_switch_up": _dpst_switch_up,
   "filled_diode_horz": _filled_diode_horz,
   "filled_diode_vert": _filled_diode_vert,
   "frequency_meter_horz": _frequency_meter_horz,
@@ -274,8 +306,16 @@ export default {
   "schottky_diode_vert": _schottky_diode_vert,
   "silicon_controlled_rectifier_horz": _silicon_controlled_rectifier_horz,
   "silicon_controlled_rectifier_vert": _silicon_controlled_rectifier_vert,
+  "spdt_normally_closed_switch_down": _spdt_normally_closed_switch_down,
+  "spdt_normally_closed_switch_left": _spdt_normally_closed_switch_left,
+  "spdt_normally_closed_switch_right": _spdt_normally_closed_switch_right,
+  "spdt_normally_closed_switch_up": _spdt_normally_closed_switch_up,
   "SPDT_switch_horz": _SPDT_switch_horz,
   "SPDT_switch_vert": _SPDT_switch_vert,
+  "spst_normally_closed_switch_down": _spst_normally_closed_switch_down,
+  "spst_normally_closed_switch_left": _spst_normally_closed_switch_left,
+  "spst_normally_closed_switch_right": _spst_normally_closed_switch_right,
+  "spst_normally_closed_switch_up": _spst_normally_closed_switch_up,
   "SPST_switch_horz": _SPST_switch_horz,
   "SPST_switch_vert": _SPST_switch_vert,
   "step_recovery_diode_horz": _step_recovery_diode_horz,
