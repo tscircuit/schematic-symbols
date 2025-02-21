@@ -10,11 +10,11 @@
     <circle cx="0.13862605550000007" cy="-0.003454799999999203" r="0.28854213" fill="none" stroke="black" stroke-width="0.02" />
 
     <rect x="0.2605604555000006" y="-0.5769250999999994" width="0.05" height="0.05" fill="red" />
-    <text x="0.24556045550000064" y="-0.46192509999999937" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+    <text x="0.24556045550000064" y="-0.46192509999999937" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
   
     
     <rect x="0.26056045550000195" y="0.5269250999999991" width="0.05" height="0.05" fill="red" />
-    <text x="0.24556045550000197" y="0.6419250999999992" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
+    <text x="0.24556045550000197" y="0.6419250999999992" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
   
     
     <rect x="-0.42400974449999984" y="-0.02047369999999913" width="0.05" height="0.05" fill="red" />
