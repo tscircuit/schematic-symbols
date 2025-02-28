@@ -1,5 +1,5 @@
 import { defineSymbol } from "drawing/defineSymbol"
-import svgJson from "assets/generated/alternate_ground.json"
+import svgJson from "assets/generated/tilted_digital_ground.json"
 import { Primitive } from "drawing/types"
 
 const { paths, texts, bounds, refblocks, circles } = svgJson

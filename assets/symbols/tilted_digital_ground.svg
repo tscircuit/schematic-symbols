@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
-   sodipodi:docname="alternative_ground.svg"
+   sodipodi:docname="tilted_digital_ground.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,8 +24,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="5.9907902"
-     inkscape:cx="27.792661"
-     inkscape:cy="59.674933"
+     inkscape:cx="27.959584"
+     inkscape:cy="59.674932"
      inkscape:window-width="1248"
      inkscape:window-height="758"
      inkscape:window-x="26"
@@ -59,7 +59,7 @@
     <g
        id="potentiometer"
        transform="rotate(90,-19.246732,-62.458284)"
-       inkscape:label="alternate_ground">
+       inkscape:label="tilted_digital_ground">
       <path
          style="fill:none;stroke:#000000;stroke-width:0.244764px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
          d="m 59.408552,-93.161871 v -2.26429"

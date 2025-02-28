@@ -1,11 +1,5 @@
 import _ac_voltmeter_horz from "./../symbols/ac_voltmeter_horz"
 import _ac_voltmeter_vert from "./../symbols/ac_voltmeter_vert"
-import _alternate_ground_down from "./../symbols/alternate_ground_down"
-import _alternate_ground_horz from "./../symbols/alternate_ground_horz"
-import _alternate_ground_left from "./../symbols/alternate_ground_left"
-import _alternate_ground_right from "./../symbols/alternate_ground_right"
-import _alternate_ground_up from "./../symbols/alternate_ground_up"
-import _alternate_ground_vert from "./../symbols/alternate_ground_vert"
 import _avalanche_diode_horz from "./../symbols/avalanche_diode_horz"
 import _avalanche_diode_vert from "./../symbols/avalanche_diode_vert"
 import _battery_horz from "./../symbols/battery_horz"
@@ -154,6 +148,10 @@ import _step_recovery_diode_horz from "./../symbols/step_recovery_diode_horz"
 import _step_recovery_diode_vert from "./../symbols/step_recovery_diode_vert"
 import _tachometer_horz from "./../symbols/tachometer_horz"
 import _tachometer_vert from "./../symbols/tachometer_vert"
+import _tilted_digital_ground_down from "./../symbols/tilted_digital_ground_down"
+import _tilted_digital_ground_left from "./../symbols/tilted_digital_ground_left"
+import _tilted_digital_ground_right from "./../symbols/tilted_digital_ground_right"
+import _tilted_digital_ground_up from "./../symbols/tilted_digital_ground_up"
 import _triac_horz from "./../symbols/triac_horz"
 import _triac_vert from "./../symbols/triac_vert"
 import _tunnel_diode_horz from "./../symbols/tunnel_diode_horz"
@@ -180,12 +178,6 @@ import _zener_diode_vert from "./../symbols/zener_diode_vert"
 export default {
   "ac_voltmeter_horz": _ac_voltmeter_horz,
   "ac_voltmeter_vert": _ac_voltmeter_vert,
-  "alternate_ground_down": _alternate_ground_down,
-  "alternate_ground_horz": _alternate_ground_horz,
-  "alternate_ground_left": _alternate_ground_left,
-  "alternate_ground_right": _alternate_ground_right,
-  "alternate_ground_up": _alternate_ground_up,
-  "alternate_ground_vert": _alternate_ground_vert,
   "avalanche_diode_horz": _avalanche_diode_horz,
   "avalanche_diode_vert": _avalanche_diode_vert,
   "battery_horz": _battery_horz,
@@ -334,6 +326,10 @@ export default {
   "step_recovery_diode_vert": _step_recovery_diode_vert,
   "tachometer_horz": _tachometer_horz,
   "tachometer_vert": _tachometer_vert,
+  "tilted_digital_ground_down": _tilted_digital_ground_down,
+  "tilted_digital_ground_left": _tilted_digital_ground_left,
+  "tilted_digital_ground_right": _tilted_digital_ground_right,
+  "tilted_digital_ground_up": _tilted_digital_ground_up,
   "triac_horz": _triac_horz,
   "triac_vert": _triac_vert,
   "tunnel_diode_horz": _tunnel_diode_horz,
