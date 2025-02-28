@@ -1,8 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg width="150" height="150" viewBox="-0.4385544600000001 -0.30032202 0.8771089200000002 0.60064404" xmlns="http://www.w3.org/2000/svg"><path d="M-0.3622273500000006,0.0018583499999986763 L-0.13579835000000018,0.0018583499999986763" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M-0.12010005000000046,0.0033888499999992217 L0.10307834999999987,-0.13630055000000119" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.07010005000000046,-0.01 L0.10307834999999987,-0.13630055000000119" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.12795584999999932,0.0018583499999986763 L0.3686967499999996,0.0018583499999986763" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <text x="-0.03688484999999986" y="-0.25026835000000003" dx="0" dy="0" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.049384849999999855" y="-0.26276835000000004" width="0.025" height="0.025" fill="blue" />
-    <text x="-0.02235315000000071" y="0.25026835000000003" dx="0" dy="0.07500000000000001" text-anchor="middle" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.03485315000000071" y="0.23776835000000002" width="0.025" height="0.025" fill="blue" />
+    <text x="0" y="-0.25026835000000003" dx="0" dy="0" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.0125" y="-0.26276835000000004" width="0.025" height="0.025" fill="blue" />
+    <text x="0" y="0.25026835000000003" dx="0" dy="0.07500000000000001" text-anchor="middle" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.0125" y="0.23776835000000002" width="0.025" height="0.025" fill="blue" />
+    <circle cx="0.09900307499999998" cy="-0.00148" r="0.023193523" fill="none" stroke="black" stroke-width="0.02" />
+    <circle cx="-0.09900307499999998" cy="-0.00148" r="0.023193523" fill="none" stroke="black" stroke-width="0.02" />
 
     <rect x="-0.40114274999999966" y="-0.02228875000000028" width="0.05" height="0.05" fill="red" />
     <text x="-0.4161427499999996" y="0.09271124999999972" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
