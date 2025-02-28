@@ -1,5 +1,11 @@
 import _ac_voltmeter_horz from "./../symbols/ac_voltmeter_horz"
 import _ac_voltmeter_vert from "./../symbols/ac_voltmeter_vert"
+import _alternate_ground_down from "./../symbols/alternate_ground_down"
+import _alternate_ground_horz from "./../symbols/alternate_ground_horz"
+import _alternate_ground_left from "./../symbols/alternate_ground_left"
+import _alternate_ground_right from "./../symbols/alternate_ground_right"
+import _alternate_ground_up from "./../symbols/alternate_ground_up"
+import _alternate_ground_vert from "./../symbols/alternate_ground_vert"
 import _avalanche_diode_horz from "./../symbols/avalanche_diode_horz"
 import _avalanche_diode_vert from "./../symbols/avalanche_diode_vert"
 import _battery_horz from "./../symbols/battery_horz"
@@ -174,6 +180,12 @@ import _zener_diode_vert from "./../symbols/zener_diode_vert"
 export default {
   "ac_voltmeter_horz": _ac_voltmeter_horz,
   "ac_voltmeter_vert": _ac_voltmeter_vert,
+  "alternate_ground_down": _alternate_ground_down,
+  "alternate_ground_horz": _alternate_ground_horz,
+  "alternate_ground_left": _alternate_ground_left,
+  "alternate_ground_right": _alternate_ground_right,
+  "alternate_ground_up": _alternate_ground_up,
+  "alternate_ground_vert": _alternate_ground_vert,
   "avalanche_diode_horz": _avalanche_diode_horz,
   "avalanche_diode_vert": _avalanche_diode_vert,
   "battery_horz": _battery_horz,
