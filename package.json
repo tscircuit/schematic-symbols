@@ -1,13 +1,10 @@
 {
   "name": "schematic-symbols",
   "main": "./dist/index.js",
-  "version": "0.0.121",
+  "version": "0.0.125",
   "type": "module",
   "files": [
-    "dist",
-    "index.ts",
-    "drawing",
-    "symbols"
+    "dist"
   ],
   "scripts": {
     "start": "bun run build && bun --hot run dev-server.ts",
