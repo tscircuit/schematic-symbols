@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="5.9907902"
-     inkscape:cx="27.959584"
-     inkscape:cy="59.674932"
+     inkscape:zoom="6.7971186"
+     inkscape:cx="29.350672"
+     inkscape:cy="70.397477"
      inkscape:window-width="1248"
      inkscape:window-height="758"
      inkscape:window-x="26"
@@ -68,9 +68,21 @@
          sodipodi:nodetypes="cc" />
       <text
          xml:space="preserve"
+         style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+         x="95.892311"
+         y="61.974632"
+         id="text14-3"
+         transform="rotate(-90)"><tspan
+           sodipodi:role="line"
+           id="tspan14-1"
+           style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="95.892311"
+           y="61.974632">{VAL}</tspan></text>
+      <text
+         xml:space="preserve"
          style="font-size:1.05833px;fill:#000000;stroke-width:0.264583"
-         x="96.325523"
-         y="54.509884"
+         x="94.41317"
+         y="56.98502"
          id="text14"
          transform="rotate(-90)"
          inkscape:transform-center-x="0.97055074"
@@ -78,20 +90,8 @@
            sodipodi:role="line"
            id="tspan14"
            style="font-size:1.05833px;stroke-width:0.264583"
-           x="96.325523"
-           y="54.509884">{REF}</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
-         x="95.583153"
-         y="62.769604"
-         id="text14-3"
-         transform="rotate(-90)"><tspan
-           sodipodi:role="line"
-           id="tspan14-1"
-           style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-           x="95.583153"
-           y="62.769604">{VAL}</tspan></text>
+           x="94.41317"
+           y="56.98502">{REF}</tspan></text>
       <circle
          style="mix-blend-mode:normal;fill:none;stroke:#000000;stroke-width:0.132;stroke-dasharray:none;stroke-opacity:1"
          id="circle-2"

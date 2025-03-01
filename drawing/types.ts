@@ -18,6 +18,8 @@ export interface PathPrimitive {
 }
 
 export interface TextPrimitive {
+  maxX: number
+  minX: number
   type: "text"
   text: string
   fontSize?: number
@@ -51,6 +53,7 @@ export type Primitive =
   | BoxPrimitive
 
 export interface SchSymbol {
+  bounds: TextPrimitive | undefined
   primitives: Primitive[]
   center: Point
   ports: Port[]
