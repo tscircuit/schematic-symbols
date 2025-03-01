@@ -2,8 +2,8 @@ import _ac_voltmeter_horz from "./../symbols/ac_voltmeter_horz"
 import _ac_voltmeter_vert from "./../symbols/ac_voltmeter_vert"
 import _avalanche_diode_horz from "./../symbols/avalanche_diode_horz"
 import _avalanche_diode_vert from "./../symbols/avalanche_diode_vert"
-import _backword_diode_horz from "./../symbols/backword_diode_horz"
-import _backword_diode_vert from "./../symbols/backword_diode_vert"
+import _backworddiode_horz from "./../symbols/backworddiode_horz"
+import _backworddiode_vert from "./../symbols/backworddiode_vert"
 import _battery_horz from "./../symbols/battery_horz"
 import _battery_vert from "./../symbols/battery_vert"
 import _boxresistor_down from "./../symbols/boxresistor_down"
@@ -182,8 +182,8 @@ export default {
   "ac_voltmeter_vert": _ac_voltmeter_vert,
   "avalanche_diode_horz": _avalanche_diode_horz,
   "avalanche_diode_vert": _avalanche_diode_vert,
-  "backword_diode_horz": _backword_diode_horz,
-  "backword_diode_vert": _backword_diode_vert,
+  "backworddiode_horz": _backworddiode_horz,
+  "backworddiode_vert": _backworddiode_vert,
   "battery_horz": _battery_horz,
   "battery_vert": _battery_vert,
   "boxresistor_down": _boxresistor_down,

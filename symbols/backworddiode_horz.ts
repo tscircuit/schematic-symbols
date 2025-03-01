@@ -1,5 +1,5 @@
 import { defineSymbol } from "drawing/defineSymbol"
-import svgJson from "assets/generated/backword_diode.json"
+import svgJson from "assets/generated/backworddiode.json"
 import { Primitive } from "drawing/types"
 
 const { paths, texts, bounds, refblocks, circles } = svgJson
