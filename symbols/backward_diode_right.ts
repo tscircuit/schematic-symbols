@@ -31,8 +31,8 @@ export default modifySymbol({
   size: { width: bounds.width, height: bounds.height },
   center: { x: bounds.centerX, y: bounds.centerY },
 })
-  .changeTextAnchor("{VAL}", "middle_top")
   .rotateRightFacingSymbol("right")
+  .changeTextAnchor("{VAL}", "middle_top")
   .labelPort("left1", ["1"])
   .labelPort("right1", ["2"])
   .changeTextAnchor("{REF}", "middle_bottom")
