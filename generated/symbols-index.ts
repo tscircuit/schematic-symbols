@@ -140,14 +140,18 @@ import _spdt_normally_closed_switch_down from "./../symbols/spdt_normally_closed
 import _spdt_normally_closed_switch_left from "./../symbols/spdt_normally_closed_switch_left"
 import _spdt_normally_closed_switch_right from "./../symbols/spdt_normally_closed_switch_right"
 import _spdt_normally_closed_switch_up from "./../symbols/spdt_normally_closed_switch_up"
-import _SPDT_switch_horz from "./../symbols/SPDT_switch_horz"
-import _SPDT_switch_vert from "./../symbols/SPDT_switch_vert"
+import _spdt_switch_down from "./../symbols/spdt_switch_down"
+import _spdt_switch_left from "./../symbols/spdt_switch_left"
+import _spdt_switch_right from "./../symbols/spdt_switch_right"
+import _spdt_switch_up from "./../symbols/spdt_switch_up"
 import _spst_normally_closed_switch_down from "./../symbols/spst_normally_closed_switch_down"
 import _spst_normally_closed_switch_left from "./../symbols/spst_normally_closed_switch_left"
 import _spst_normally_closed_switch_right from "./../symbols/spst_normally_closed_switch_right"
 import _spst_normally_closed_switch_up from "./../symbols/spst_normally_closed_switch_up"
-import _SPST_switch_horz from "./../symbols/SPST_switch_horz"
-import _SPST_switch_vert from "./../symbols/SPST_switch_vert"
+import _spst_switch_down from "./../symbols/spst_switch_down"
+import _spst_switch_left from "./../symbols/spst_switch_left"
+import _spst_switch_right from "./../symbols/spst_switch_right"
+import _spst_switch_up from "./../symbols/spst_switch_up"
 import _step_recovery_diode_horz from "./../symbols/step_recovery_diode_horz"
 import _step_recovery_diode_vert from "./../symbols/step_recovery_diode_vert"
 import _tachometer_horz from "./../symbols/tachometer_horz"
@@ -318,14 +322,18 @@ export default {
   "spdt_normally_closed_switch_left": _spdt_normally_closed_switch_left,
   "spdt_normally_closed_switch_right": _spdt_normally_closed_switch_right,
   "spdt_normally_closed_switch_up": _spdt_normally_closed_switch_up,
-  "SPDT_switch_horz": _SPDT_switch_horz,
-  "SPDT_switch_vert": _SPDT_switch_vert,
+  "spdt_switch_down": _spdt_switch_down,
+  "spdt_switch_left": _spdt_switch_left,
+  "spdt_switch_right": _spdt_switch_right,
+  "spdt_switch_up": _spdt_switch_up,
   "spst_normally_closed_switch_down": _spst_normally_closed_switch_down,
   "spst_normally_closed_switch_left": _spst_normally_closed_switch_left,
   "spst_normally_closed_switch_right": _spst_normally_closed_switch_right,
   "spst_normally_closed_switch_up": _spst_normally_closed_switch_up,
-  "SPST_switch_horz": _SPST_switch_horz,
-  "SPST_switch_vert": _SPST_switch_vert,
+  "spst_switch_down": _spst_switch_down,
+  "spst_switch_left": _spst_switch_left,
+  "spst_switch_right": _spst_switch_right,
+  "spst_switch_up": _spst_switch_up,
   "step_recovery_diode_horz": _step_recovery_diode_horz,
   "step_recovery_diode_vert": _step_recovery_diode_vert,
   "tachometer_horz": _tachometer_horz,
