@@ -156,6 +156,10 @@ import _step_recovery_diode_horz from "./../symbols/step_recovery_diode_horz"
 import _step_recovery_diode_vert from "./../symbols/step_recovery_diode_vert"
 import _tachometer_horz from "./../symbols/tachometer_horz"
 import _tachometer_vert from "./../symbols/tachometer_vert"
+import _titled_ground_left from "./../symbols/titled_ground_left"
+import _titled_ground_right from "./../symbols/titled_ground_right"
+import _titled_ground_up from "./../symbols/titled_ground_up"
+import _titled_ground_down from "./../symbols/titled_ground_down"
 import _triac_horz from "./../symbols/triac_horz"
 import _triac_vert from "./../symbols/triac_vert"
 import _tunnel_diode_horz from "./../symbols/tunnel_diode_horz"
@@ -338,6 +342,10 @@ export default {
   "step_recovery_diode_vert": _step_recovery_diode_vert,
   "tachometer_horz": _tachometer_horz,
   "tachometer_vert": _tachometer_vert,
+  "titled_ground_left": _titled_ground_left,
+  "titled_ground_right": _titled_ground_right,
+  "titled_ground_up": _titled_ground_up,
+  "titled_ground_down": _titled_ground_down,
   "triac_horz": _triac_horz,
   "triac_vert": _triac_vert,
   "tunnel_diode_horz": _tunnel_diode_horz,
