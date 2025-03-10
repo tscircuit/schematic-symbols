@@ -1,4 +1,4 @@
-import svgJson from "assets/generated/titled_ground.json"
+import svgJson from "assets/generated/tilted_ground.json"
 import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
 
 export default modifySymbol(svgJson)

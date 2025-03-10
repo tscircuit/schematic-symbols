@@ -1,8 +1,8 @@
-import { rotateSymbol } from "drawing/rotateSymbol"
-import titled_ground_right from "./titled_ground_right"
+import { flipSymbolOverXAxis } from "drawing/rotateSymbol"
+import tilted_ground_up from "./tilted_ground_up"
 import type { TextPrimitive } from "drawing"
 
-const rotated = rotateSymbol(titled_ground_right, "up")
+const rotated = flipSymbolOverXAxis(tilted_ground_up)
 
 const ref = rotated.primitives.find(
   (p) => p.type === "text" && p.text === "{REF}",
@@ -14,9 +14,9 @@ const val = rotated.primitives.find(
 ref.anchor = "middle_bottom"
 val.anchor = "middle_top"
 
-ref.x = 0.4
-ref.y += 0.2
-val.y -= 0.3
-val.x = 0.4
+ref.x = 0.35
+ref.y += 0.4
+val.y -= 0.4
+val.x = 0.35
 
 export default rotated
