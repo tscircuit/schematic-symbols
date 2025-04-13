@@ -7,7 +7,7 @@ const pnp_bipolar_transistor_horz = modifySymbol(svgJson)
   .labelPort("bottom1", ["2"])
   .labelPort("top1", ["1"])
   .changeTextAnchor("{VAL}", "middle_right")
-  .changeTextAnchor("{REF}", "middle_left")
+  .changeTextAnchor("{REF}", "middle_right")
   .build()
 
 export default flipSymbolOverXAxis(pnp_bipolar_transistor_horz)
