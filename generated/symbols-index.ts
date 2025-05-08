@@ -140,6 +140,10 @@ import _solderjumper2_bridged12_down from "./../symbols/solderjumper2_bridged12_
 import _solderjumper2_bridged12_left from "./../symbols/solderjumper2_bridged12_left"
 import _solderjumper2_bridged12_right from "./../symbols/solderjumper2_bridged12_right"
 import _solderjumper2_bridged12_up from "./../symbols/solderjumper2_bridged12_up"
+import _solderjumper2_down from "./../symbols/solderjumper2_down"
+import _solderjumper2_left from "./../symbols/solderjumper2_left"
+import _solderjumper2_right from "./../symbols/solderjumper2_right"
+import _solderjumper2_up from "./../symbols/solderjumper2_up"
 import _spdt_normally_closed_switch_down from "./../symbols/spdt_normally_closed_switch_down"
 import _spdt_normally_closed_switch_left from "./../symbols/spdt_normally_closed_switch_left"
 import _spdt_normally_closed_switch_right from "./../symbols/spdt_normally_closed_switch_right"
@@ -330,6 +334,10 @@ export default {
   "solderjumper2_bridged12_left": _solderjumper2_bridged12_left,
   "solderjumper2_bridged12_right": _solderjumper2_bridged12_right,
   "solderjumper2_bridged12_up": _solderjumper2_bridged12_up,
+  "solderjumper2_down": _solderjumper2_down,
+  "solderjumper2_left": _solderjumper2_left,
+  "solderjumper2_right": _solderjumper2_right,
+  "solderjumper2_up": _solderjumper2_up,
   "spdt_normally_closed_switch_down": _spdt_normally_closed_switch_down,
   "spdt_normally_closed_switch_left": _spdt_normally_closed_switch_left,
   "spdt_normally_closed_switch_right": _spdt_normally_closed_switch_right,
