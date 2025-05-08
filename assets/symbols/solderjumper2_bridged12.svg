@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="32"
-     inkscape:cx="56.859375"
-     inkscape:cy="59.71875"
+     inkscape:zoom="16"
+     inkscape:cx="54.25"
+     inkscape:cy="58.375"
      inkscape:window-width="1878"
      inkscape:window-height="940"
      inkscape:window-x="13"
@@ -230,18 +230,6 @@
            style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
            x="-80.623466"
            y="-81.24144">{REF}</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
-         x="-80.628853"
-         y="-76.886879"
-         id="text14-3-0-5-0-5-1"
-         transform="rotate(-90)"><tspan
-           sodipodi:role="line"
-           id="tspan14-1-4-0-4-8-3"
-           style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-           x="-80.628853"
-           y="-76.886879">{VAL}</tspan></text>
       <path
          style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:0.119062"
          d="m -80.712292,79.727918 h 2.519866"

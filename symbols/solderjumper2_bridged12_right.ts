@@ -9,7 +9,6 @@ export default defineSymbol({
     ...Object.values(paths),
     ...Object.values(circles),
     { ...texts.top1, anchor: "middle_left" },
-    { ...texts.bottom1, anchor: "middle_left" },
   ] as Primitive[],
   ports: [
     { ...refblocks.left1, labels: ["1"] }, // TODO add more "standard" labels
