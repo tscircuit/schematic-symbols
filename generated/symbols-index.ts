@@ -152,6 +152,10 @@ import _solderjumper3_bridged123_down from "./../symbols/solderjumper3_bridged12
 import _solderjumper3_bridged123_left from "./../symbols/solderjumper3_bridged123_left"
 import _solderjumper3_bridged123_right from "./../symbols/solderjumper3_bridged123_right"
 import _solderjumper3_bridged123_up from "./../symbols/solderjumper3_bridged123_up"
+import _solderjumper3_bridged23_down from "./../symbols/solderjumper3_bridged23_down"
+import _solderjumper3_bridged23_left from "./../symbols/solderjumper3_bridged23_left"
+import _solderjumper3_bridged23_right from "./../symbols/solderjumper3_bridged23_right"
+import _solderjumper3_bridged23_up from "./../symbols/solderjumper3_bridged23_up"
 import _solderjumper3_down from "./../symbols/solderjumper3_down"
 import _solderjumper3_left from "./../symbols/solderjumper3_left"
 import _solderjumper3_right from "./../symbols/solderjumper3_right"
@@ -358,6 +362,10 @@ export default {
   "solderjumper3_bridged123_left": _solderjumper3_bridged123_left,
   "solderjumper3_bridged123_right": _solderjumper3_bridged123_right,
   "solderjumper3_bridged123_up": _solderjumper3_bridged123_up,
+  "solderjumper3_bridged23_down": _solderjumper3_bridged23_down,
+  "solderjumper3_bridged23_left": _solderjumper3_bridged23_left,
+  "solderjumper3_bridged23_right": _solderjumper3_bridged23_right,
+  "solderjumper3_bridged23_up": _solderjumper3_bridged23_up,
   "solderjumper3_down": _solderjumper3_down,
   "solderjumper3_left": _solderjumper3_left,
   "solderjumper3_right": _solderjumper3_right,
