@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="30mm"
+   height="30mm"
+   viewBox="0 0 30 30"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="solderjumper2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="16"
+     inkscape:cx="54.25"
+     inkscape:cy="58.375"
+     inkscape:window-width="1878"
+     inkscape:window-height="940"
+     inkscape:window-x="13"
+     inkscape:window-y="40"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="diode"
+     showgrid="true"
+     showguides="true">
+    <inkscape:grid
+       id="grid207"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="10"
+       spacingy="10"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+    <sodipodi:guide
+       position="13.931257,16.824703"
+       orientation="0,-1"
+       id="guide214"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="14.693603,14.841853"
+       orientation="1,0"
+       id="guide216"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="15.959963,13.950946"
+       orientation="0,-1"
+       id="guide218"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="13.805264,15.222788"
+       orientation="0,-1"
+       id="guide220"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="13.87726,15.042798"
+       orientation="1,0"
+       id="guide222"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="9.5327054,14.510945"
+       orientation="1,0"
+       id="guide369"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="20.490862,13.429129"
+       orientation="1,0"
+       id="guide371"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="12.65088,15.50367"
+       orientation="0,-1"
+       id="guide373"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="13.49928,18.219628"
+       orientation="1,0"
+       id="guide523"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="16.613114,12.864914"
+       orientation="1,0"
+       id="guide525"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="15.170874,16.47094"
+       orientation="0,-1"
+       id="guide2"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="14.408751,16.593928"
+       orientation="0,-1"
+       id="guide3"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 15 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="30 : 15 : 1"
+       inkscape:persp3d-origin="15 : 10 : 1"
+       id="perspective358" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect3"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect2"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect1"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <g
+     inkscape:label="root"
+     inkscape:groupmode="layer"
+     id="root">
+    <g
+       id="diode"
+       transform="rotate(90,0.7339933,94.975664)"
+       inkscape:label="Schottky_diode">
+      <title
+         id="title40">Diode</title>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.214609px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -79.440895,82.22887 v 2.596591"
+         id="path44"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.219952px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -79.458042,76.01349 v 2.582669"
+         id="path44-0"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <title
+         id="title44">Diode</title>
+      <circle
+         style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         id="refblock-5-7-3-81-7"
+         cx="-75.959106"
+         cy="-79.448494"
+         r="0.28158441"
+         transform="rotate(-90)" />
+      <circle
+         style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         id="refblock-5-7-3-81-7-9"
+         cx="-84.875122"
+         cy="-79.449738"
+         r="0.28158441"
+         transform="rotate(-90)" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+         x="-80.623466"
+         y="-81.24144"
+         id="text14-3-0-5-0-5"
+         transform="rotate(-90)"
+         inkscape:transform-center-x="-0.34198176"
+         inkscape:transform-center-y="-0.053997121"><tspan
+           sodipodi:role="line"
+           id="tspan14-1-4-0-4-8"
+           style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="-80.623466"
+           y="-81.24144">{REF}</tspan></text>
+      <path
+         style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:0.119062"
+         d="m -80.712292,79.727918 h 2.519866"
+         id="path2" />
+      <path
+         style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:0.119062"
+         d="m -80.713255,81.098026 h 2.519866"
+         id="path2-8" />
+      <path
+         id="path8704-1"
+         style="display:inline;fill:none;stroke:#000000;stroke-width:0.213434;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         inkscape:transform-center-x="0.57690639"
+         inkscape:transform-center-y="-1.1627802"
+         d="m -78.159778,81.144484 c -0.826169,1.642887 -2.163819,0.85307 -2.573483,2.18e-4"
+         sodipodi:nodetypes="cc" />
+      <path
+         id="path8704-1-7"
+         style="display:inline;fill:none;stroke:#000000;stroke-width:0.213434;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         inkscape:transform-center-x="-0.57690627"
+         inkscape:transform-center-y="-1.1627802"
+         d="m -78.15851,79.682206 c -0.826169,-1.642887 -2.163819,-0.85307 -2.573483,-2.18e-4"
+         sodipodi:nodetypes="cc" />
+    </g>
+  </g>
+</svg>
