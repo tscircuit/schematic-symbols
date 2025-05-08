@@ -136,6 +136,10 @@ import _schottky_diode_horz from "./../symbols/schottky_diode_horz"
 import _schottky_diode_vert from "./../symbols/schottky_diode_vert"
 import _silicon_controlled_rectifier_horz from "./../symbols/silicon_controlled_rectifier_horz"
 import _silicon_controlled_rectifier_vert from "./../symbols/silicon_controlled_rectifier_vert"
+import _solderjumper2_bridged12_down from "./../symbols/solderjumper2_bridged12_down"
+import _solderjumper2_bridged12_left from "./../symbols/solderjumper2_bridged12_left"
+import _solderjumper2_bridged12_right from "./../symbols/solderjumper2_bridged12_right"
+import _solderjumper2_bridged12_up from "./../symbols/solderjumper2_bridged12_up"
 import _spdt_normally_closed_switch_down from "./../symbols/spdt_normally_closed_switch_down"
 import _spdt_normally_closed_switch_left from "./../symbols/spdt_normally_closed_switch_left"
 import _spdt_normally_closed_switch_right from "./../symbols/spdt_normally_closed_switch_right"
@@ -322,6 +326,10 @@ export default {
   "schottky_diode_vert": _schottky_diode_vert,
   "silicon_controlled_rectifier_horz": _silicon_controlled_rectifier_horz,
   "silicon_controlled_rectifier_vert": _silicon_controlled_rectifier_vert,
+  "solderjumper2_bridged12_down": _solderjumper2_bridged12_down,
+  "solderjumper2_bridged12_left": _solderjumper2_bridged12_left,
+  "solderjumper2_bridged12_right": _solderjumper2_bridged12_right,
+  "solderjumper2_bridged12_up": _solderjumper2_bridged12_up,
   "spdt_normally_closed_switch_down": _spdt_normally_closed_switch_down,
   "spdt_normally_closed_switch_left": _spdt_normally_closed_switch_left,
   "spdt_normally_closed_switch_right": _spdt_normally_closed_switch_right,
