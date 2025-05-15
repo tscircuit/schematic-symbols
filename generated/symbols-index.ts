@@ -58,10 +58,10 @@ import _dpst_switch_down from "./../symbols/dpst_switch_down"
 import _dpst_switch_left from "./../symbols/dpst_switch_left"
 import _dpst_switch_right from "./../symbols/dpst_switch_right"
 import _dpst_switch_up from "./../symbols/dpst_switch_up"
-import _ferrite_bead_right from "./../symbols/ferrite_bead_right"
-import _ferrite_bead_left from "./../symbols/ferrite_bead_left"
-import _ferrite_bead_up from "./../symbols/ferrite_bead_up"
 import _ferrite_bead_down from "./../symbols/ferrite_bead_down"
+import _ferrite_bead_left from "./../symbols/ferrite_bead_left"
+import _ferrite_bead_right from "./../symbols/ferrite_bead_right"
+import _ferrite_bead_up from "./../symbols/ferrite_bead_up"
 import _filled_diode_horz from "./../symbols/filled_diode_horz"
 import _filled_diode_vert from "./../symbols/filled_diode_vert"
 import _frequency_meter_horz from "./../symbols/frequency_meter_horz"
@@ -280,10 +280,10 @@ export default {
   "dpst_switch_left": _dpst_switch_left,
   "dpst_switch_right": _dpst_switch_right,
   "dpst_switch_up": _dpst_switch_up,
-  "ferrite_bead_right": _ferrite_bead_right,
-  "ferrite_bead_left": _ferrite_bead_left,
-  "ferrite_bead_up": _ferrite_bead_up,
   "ferrite_bead_down": _ferrite_bead_down,
+  "ferrite_bead_left": _ferrite_bead_left,
+  "ferrite_bead_right": _ferrite_bead_right,
+  "ferrite_bead_up": _ferrite_bead_up,
   "filled_diode_horz": _filled_diode_horz,
   "filled_diode_vert": _filled_diode_vert,
   "frequency_meter_horz": _frequency_meter_horz,
