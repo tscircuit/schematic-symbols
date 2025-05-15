@@ -1,4 +1,4 @@
-import { rotateSymbol } from "drawing/rotateSymbol"
-import led_right from "./led_right"
+import { flipSymbolOverXAxis, rotateSymbol } from "drawing/rotateSymbol"
+import led_up from "./led_up"
 
-export default rotateSymbol(led_right, "down")
+export default flipSymbolOverXAxis(led_up)
