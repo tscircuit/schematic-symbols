@@ -16,7 +16,7 @@ val.anchor = "middle_top"
 
 ref.x = 0.4
 ref.y += 0.537
-val.y -= 0.337
+val.y -= 0.537
 val.x = 0.4
 
 export default symbol
