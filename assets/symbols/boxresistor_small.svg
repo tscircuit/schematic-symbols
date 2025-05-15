@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="30mm"
+   height="30mm"
+   viewBox="0 0 30 30"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.5-dev (5c4c6d1, 2025-02-14, custom)"
+   sodipodi:docname="boxresistor_small.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="45.254834"
+     inkscape:cx="61.816601"
+     inkscape:cy="53.033009"
+     inkscape:window-width="2560"
+     inkscape:window-height="1392"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="capacitor"
+     showgrid="true"
+     showguides="true">
+    <inkscape:grid
+       id="grid207"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="10"
+       spacingy="10"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+    <sodipodi:guide
+       position="9.7169178,14.316708"
+       orientation="1,0"
+       id="guide9106"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="21.287183,14.649959"
+       orientation="1,0"
+       id="guide9108"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="15.399577,15.096517"
+       orientation="0,-1"
+       id="guide9110"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="15.493628,15.608114"
+       orientation="1,0"
+       id="guide9112"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="14.957227,17.787826"
+       orientation="0,-1"
+       id="guide9114"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="13.651626,15.336926"
+       orientation="1,0"
+       id="guide9116"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="17.294009,14.851665"
+       orientation="1,0"
+       id="guide9118"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="15.984388,13.185406"
+       orientation="0,-1"
+       id="guide9120"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 15 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="30 : 15 : 1"
+       inkscape:persp3d-origin="15 : 10 : 1"
+       id="perspective358" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect3"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect2"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect1"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <g
+     inkscape:label="root"
+     inkscape:groupmode="layer"
+     id="root"
+     transform="translate(-10.948098,-120.19585)">
+    <g
+       id="capacitor"
+       transform="rotate(90,-48.356988,56.269005)">
+      <title
+         id="title26">Capacitor</title>
+      <path
+         d="m 30.452967,-20.121972 v -4.085763"
+         fill="none"
+         stroke="black"
+         stroke-width="0.250809"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         id="path2" />
+      <path
+         d="m 29.704511,-17.055291 v -2.936711"
+         fill="none"
+         stroke="black"
+         stroke-width="0.212638"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         id="path2-5" />
+      <path
+         d="m 29.716089,-20.024089 h 1.397467"
+         fill="none"
+         stroke="black"
+         stroke-width="0.146682"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         id="path2-5-1" />
+      <path
+         d="m 29.716882,-17.023096 h 1.396551"
+         fill="none"
+         stroke="black"
+         stroke-width="0.146635"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         id="path2-5-1-6" />
+      <path
+         d="m 31.129505,-17.055704 v -2.935405"
+         fill="none"
+         stroke="black"
+         stroke-width="0.212589"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         id="path2-5-4" />
+      <path
+         d="m 30.450548,-12.97908 v -3.949107"
+         fill="none"
+         stroke="black"
+         stroke-width="0.246579"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         id="path2-9" />
+      <text
+         x="18.505877"
+         y="28.60194"
+         dx="0"
+         dy="0"
+         text-anchor="middle"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.01839px;line-height:normal;font-family:monospace;fill:black;stroke-width:10.1839"
+         id="text3"
+         transform="rotate(-90)">{REF}</text>
+      <rect
+         x="18.37858"
+         y="28.47464"
+         width="0.25459754"
+         height="0.25459754"
+         fill="blue"
+         id="rect3"
+         style="stroke-width:10.1839"
+         transform="rotate(-90)" />
+      <text
+         x="18.545536"
+         y="32.070797"
+         dx="0"
+         dy="0.76379263"
+         text-anchor="middle"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.01839px;line-height:normal;font-family:monospace;fill:black;stroke-width:10.1839"
+         id="text4"
+         transform="rotate(-90)">{VAL}</text>
+      <rect
+         x="18.418238"
+         y="31.943501"
+         width="0.25459754"
+         height="0.25459754"
+         fill="blue"
+         id="rect4"
+         style="stroke-width:10.1839"
+         transform="rotate(-90)" />
+      <title
+         id="title30">Capacitor</title>
+      <circle
+         style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         id="refblock-5-7-3-81"
+         cx="24.095198"
+         cy="30.430643"
+         r="0.28158441"
+         transform="rotate(-90)" />
+      <circle
+         style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+         id="refblock-5-7-3-81-3"
+         cx="13.071012"
+         cy="30.43611"
+         r="0.28158441"
+         transform="rotate(-90)" />
+    </g>
+  </g>
+</svg>
