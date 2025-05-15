@@ -11,12 +11,12 @@ const val = symbol.primitives.find(
   (p) => p.type === "text" && p.text === "{VAL}",
 )! as TextPrimitive
 
-ref.anchor = "middle_bottom"
-val.anchor = "middle_top"
+ref.anchor = "middle_left"
+val.anchor = "middle_left"
 
-ref.x = 0.4
-ref.y += 0.697
-val.y -= 0.697
-val.x = 0.4
+ref.y += 0.4
+ref.x = 0.2
+val.y -= 0.41
+val.x = 0.2
 
 export default symbol
