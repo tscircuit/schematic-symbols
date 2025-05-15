@@ -25,13 +25,13 @@
      inkscape:document-units="mm"
      inkscape:zoom="5.6568543"
      inkscape:cx="7.3362328"
-     inkscape:cy="25.102291"
-     inkscape:window-width="1920"
-     inkscape:window-height="1032"
+     inkscape:cy="67.528697"
+     inkscape:window-width="2560"
+     inkscape:window-height="1392"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="capacitor"
+     inkscape:current-layer="root"
      showgrid="true"
      showguides="true">
     <inkscape:grid
@@ -163,8 +163,9 @@
      id="root"
      transform="translate(-10.948098,-120.19585)">
     <g
-       id="capacitor"
-       transform="rotate(90,-48.356988,56.269006)">
+       id="resistor"
+       transform="rotate(90,-48.356988,56.269006)"
+       inkscape:label="resistor">
       <title
          id="title26">Capacitor</title>
       <path
