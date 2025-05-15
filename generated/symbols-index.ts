@@ -11,6 +11,10 @@ import _battery_vert from "./../symbols/battery_vert"
 import _boxresistor_down from "./../symbols/boxresistor_down"
 import _boxresistor_left from "./../symbols/boxresistor_left"
 import _boxresistor_right from "./../symbols/boxresistor_right"
+import _boxresistor_small_down from "./../symbols/boxresistor_small_down"
+import _boxresistor_small_left from "./../symbols/boxresistor_small_left"
+import _boxresistor_small_right from "./../symbols/boxresistor_small_right"
+import _boxresistor_small_up from "./../symbols/boxresistor_small_up"
 import _boxresistor_up from "./../symbols/boxresistor_up"
 import _capacitor_down from "./../symbols/capacitor_down"
 import _capacitor_left from "./../symbols/capacitor_left"
@@ -225,6 +229,10 @@ export default {
   "boxresistor_down": _boxresistor_down,
   "boxresistor_left": _boxresistor_left,
   "boxresistor_right": _boxresistor_right,
+  "boxresistor_small_down": _boxresistor_small_down,
+  "boxresistor_small_left": _boxresistor_small_left,
+  "boxresistor_small_right": _boxresistor_small_right,
+  "boxresistor_small_up": _boxresistor_small_up,
   "boxresistor_up": _boxresistor_up,
   "capacitor_down": _capacitor_down,
   "capacitor_left": _capacitor_left,
