@@ -130,6 +130,10 @@ import _push_button_normally_open_momentary_horz from "./../symbols/push_button_
 import _push_button_normally_open_momentary_vert from "./../symbols/push_button_normally_open_momentary_vert"
 import _rectifier_diode_horz from "./../symbols/rectifier_diode_horz"
 import _rectifier_diode_vert from "./../symbols/rectifier_diode_vert"
+import _resistor_down from "./../symbols/resistor_down"
+import _resistor_left from "./../symbols/resistor_left"
+import _resistor_right from "./../symbols/resistor_right"
+import _resistor_up from "./../symbols/resistor_up"
 import _resonator_horz from "./../symbols/resonator_horz"
 import _resonator_vert from "./../symbols/resonator_vert"
 import _schottky_diode_horz from "./../symbols/schottky_diode_horz"
@@ -340,6 +344,10 @@ export default {
   "push_button_normally_open_momentary_vert": _push_button_normally_open_momentary_vert,
   "rectifier_diode_horz": _rectifier_diode_horz,
   "rectifier_diode_vert": _rectifier_diode_vert,
+  "resistor_down": _resistor_down,
+  "resistor_left": _resistor_left,
+  "resistor_right": _resistor_right,
+  "resistor_up": _resistor_up,
   "resonator_horz": _resonator_horz,
   "resonator_vert": _resonator_vert,
   "schottky_diode_horz": _schottky_diode_horz,
