@@ -47,9 +47,14 @@ export async function processSvg(
 
           // Recenter the group (makes it easier to read)
           let bounds = getBoundsOfSvgJson(groupWithTransformApplied as any)
+          const longAxis = Math.max(bounds.width, bounds.height)
+          const isSmall = (filePath ?? "").toLowerCase().includes("small")
+          const targetMm = isSmall ? 0.6 : 1.0
+          const scaleFactor = targetMm / longAxis
+
           groupWithTransformApplied.attributes.transform = toSVG(
             compose(
-              scale(0.1, -0.1),
+              scale(scaleFactor, -scaleFactor),
               translate(-bounds.centerX, -bounds.centerY),
             ),
           )
