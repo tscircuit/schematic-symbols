@@ -1,27 +1,22 @@
 import { rotateSymbol } from "drawing/rotateSymbol"
 import led_right from "./led_right"
+import type { TextPrimitive } from "drawing"
 
-const baseSymbol = rotateSymbol(led_right, "up")
+const symbol = rotateSymbol(led_right, "up")
 
-// Flip path25-0 and path78 over X axis
-const modifiedSymbol = {
-  ...baseSymbol,
-  primitives: baseSymbol.primitives.map((primitive) => {
-    if (
-      primitive.type === "path" &&
-      (primitive.points.length === 3 || primitive.points.length === 4)
-    ) {
-      // This matches both the triangle shape (path25-0) and path78
-      return {
-        ...primitive,
-        points: primitive.points.map((point) => ({
-          x: point.x,
-          y: -point.y + 2 * baseSymbol.center.y,
-        })),
-      }
-    }
-    return primitive
-  }),
-}
+const ref = symbol.primitives.find(
+  (p) => p.type === "text" && p.text === "{REF}",
+)! as TextPrimitive
+const val = symbol.primitives.find(
+  (p) => p.type === "text" && p.text === "{VAL}",
+)! as TextPrimitive
 
-export default modifiedSymbol
+ref.anchor = "middle_left"
+val.anchor = "middle_left"
+
+ref.y += 0.21
+ref.x = 0.21
+val.y -= 0.21
+val.x = 0.21
+
+export default symbol
