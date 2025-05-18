@@ -1,124 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
-<svg
-   width="100mm"
-   height="100mm"
-   viewBox="0 0 30 30"
-   version="1.1"
-   id="svg2"
-   sodipodi:docname="ground.svg"
-   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs id="defs5" />
-  <sodipodi:namedview
-     id="namedview2"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="false"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm"
-     inkscape:zoom="3.5661612"
-     inkscape:cx="42.622863"
-     inkscape:cy="58.46623"
-     inkscape:window-width="1392"
-     inkscape:window-height="1027"
-     inkscape:window-x="258"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="ground"
-     showgrid="true">
-    <inkscape:grid
-       id="grid207"
-       units="mm"
-       originx="0"
-       originy="0"
-       spacingx="10"
-       spacingy="10"
-       empcolor="#0099e5"
-       empopacity="0.30196078"
-       color="#0099e5"
-       opacity="0.14901961"
-       empspacing="5"
-       dotted="false"
-       gridanglex="30"
-       gridanglez="30"
-       visible="true" />
-  </sodipodi:namedview>
-  <g
-     inkscape:label="root"
-     inkscape:groupmode="layer"
-     id="root">
-    <g
-       id="ground"
-       transform="rotate(270, 15, 15)">
-      <!-- Ground symbol paths -->
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.244764px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 16.0506,11.904382 v 3"
-         id="path1" />
-      <!-- Vertical line -->
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.244764px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 14.0106,15.100854 h 4"
-         id="path2" />
-      <!-- Horizontal line -->
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.244764px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 14.5106,15.804083 h 3"
-         id="path3" />
-      <!-- Short horizontal line -->
-      <path
-         style="fill:none;stroke:#000000;stroke-width:2px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 15.5106,16.804083 h 1" 
-         id="path4" />
-      <!-- REF text -->
-      <text
-         xml:space="preserve"
-         style="font-size:1.05833px;fill:#000000;stroke-width:0.264583"
-         x="5"
-         y="10.804083"
-         id="text4">
-        <tspan
-           sodipodi:role="line"
-           style="font-size:1.05833px;stroke-width:0.264583"
-           x="10.0106"
-           y="10.804083"
-           id="tspan4">{REF}</tspan>
-      </text>
-      <!-- VAL text -->
-      <text
-         xml:space="preserve"
-         style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
-         x="15.0106"
-         y="19.804083"
-         id="text5">
-        <tspan
-           sodipodi:role="line"
-           style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-           x="15.196634"
-           y="19.804083"
-           id="tspan5">{VAL}</tspan>
-      </text>
-      <!-- Red circles -->
-      <circle
-         style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-         id="refblock_1"
-         cx="16.0506"
-         cy="11.904382"
-         r="0.28158441" />
-      <circle
-         style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-         id="refblock_2"
-         cx="16.0406"
-         cy="17.004083"
-         r="0.28158441" />
-    </g>
-  </g>
-</svg>
+<svg width="150" height="150" viewBox="-0.6 -1 1.2 1.2" xmlns="http://www.w3.org/2000/svg"><path d="M-0.33997010000000016,-0.4545300000000001 L-0.03997010000000012,-0.4545300000000001" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.04,-0.25053000000000014 L-0.04,-0.65053" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.03,-0.3005300000000002 L0.03,-0.60053" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.1,-0.40053000000000005 L0.1,-0.5005300000000001" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="-0.1" y="-0.8" dx="0" dy="0" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.1125" y="-0.8125" width="0.025" height="0.025" fill="blue" />
+    <text x="-0.1" y="-0.1" dx="0" dy="0.07500000000000001" text-anchor="middle" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.1125" y="-0.1125" width="0.025" height="0.025" fill="blue" />
+
+    <rect x="-0.3649701000000002" y="-0.4795300000000001" width="0.05" height="0.05" fill="red" />
+    <text x="-0.37997010000000014" y="-0.36453000000000013" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
+  
+<path d="M 0 -0.42500000000000004 L 0.025 -0.4 L 0 -0.375 L -0.025 -0.4 Z" fill="green" />
+<text x="-0.5" y="-0.09999999999999998" style="font: 0.05px monospace; fill: #833;">1.00 x 1.00</text>
+<text x="-0.5" y="-0.09999999999999998" style="font: 0.05px monospace; fill: #833;">1.00 x 1.00</text></svg>
