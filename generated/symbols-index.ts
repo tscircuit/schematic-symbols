@@ -68,6 +68,10 @@ import _frequency_meter_horz from "./../symbols/frequency_meter_horz"
 import _frequency_meter_vert from "./../symbols/frequency_meter_vert"
 import _fuse_horz from "./../symbols/fuse_horz"
 import _fuse_vert from "./../symbols/fuse_vert"
+import _ground_alt_down from "./../symbols/ground_alt_down"
+import _ground_alt_left from "./../symbols/ground_alt_left"
+import _ground_alt_right from "./../symbols/ground_alt_right"
+import _ground_alt_up from "./../symbols/ground_alt_up"
 import _ground_horz from "./../symbols/ground_horz"
 import _ground_vert from "./../symbols/ground_vert"
 import _gunn_diode_horz from "./../symbols/gunn_diode_horz"
@@ -290,6 +294,10 @@ export default {
   "frequency_meter_vert": _frequency_meter_vert,
   "fuse_horz": _fuse_horz,
   "fuse_vert": _fuse_vert,
+  "ground_alt_down": _ground_alt_down,
+  "ground_alt_left": _ground_alt_left,
+  "ground_alt_right": _ground_alt_right,
+  "ground_alt_up": _ground_alt_up,
   "ground_horz": _ground_horz,
   "ground_vert": _ground_vert,
   "gunn_diode_horz": _gunn_diode_horz,
