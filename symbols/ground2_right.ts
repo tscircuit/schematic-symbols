@@ -1,4 +1,4 @@
-import svgJson from "assets/generated/ground_alt.json"
+import svgJson from "assets/generated/ground2.json"
 import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
 
 const { paths, texts, bounds, refblocks, circles } = svgJson
@@ -9,14 +9,8 @@ export default modifySymbol({
     {
       type: "text",
       text: "{REF}",
-      x: 0,
-      y: -0.1994553499999995,
-    },
-    {
-      type: "text",
-      text: "{VAL}",
-      x: 0,
-      y: 0.2694553499999995,
+      x: -0.13,
+      y: 0,
     },
   ] as any,
   ports: [
@@ -24,9 +18,8 @@ export default modifySymbol({
   ],
   center: { x: bounds.centerX, y: bounds.centerY },
 })
-  .changeTextAnchor("{VAL}", "middle_bottom")
-  .rotateRightFacingSymbol("left")
+  .changeTextAnchor("{VAL}", "middle_top")
+  .rotateRightFacingSymbol("right")
   .labelPort("left1", ["1"])
-  .labelPort("right1", ["2"])
-  .changeTextAnchor("{REF}", "middle_bottom")
+  .changeTextAnchor("{REF}", "middle_right")
   .build()
