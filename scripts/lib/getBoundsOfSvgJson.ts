@@ -63,6 +63,7 @@ export function getBoundsOfSvgJson(svgJson: INode): {
     }
 
     if (node.name === "text" && node.attributes.x && node.attributes.y) {
+      console.log(node)
       const x = Number.parseFloat(node.attributes.x)
       const y = Number.parseFloat(node.attributes.y)
 

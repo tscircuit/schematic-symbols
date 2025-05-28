@@ -214,6 +214,10 @@ import _varistor_horz from "./../symbols/varistor_horz"
 import _varistor_vert from "./../symbols/varistor_vert"
 import _varmeter_horz from "./../symbols/varmeter_horz"
 import _varmeter_vert from "./../symbols/varmeter_vert"
+import _VCC_down from "./../symbols/VCC_down"
+import _VCC_left from "./../symbols/VCC_left"
+import _VCC_right from "./../symbols/VCC_right"
+import _VCC_up from "./../symbols/VCC_up"
 import _volt_meter_horz from "./../symbols/volt_meter_horz"
 import _volt_meter_vert from "./../symbols/volt_meter_vert"
 import _watt_hour_meter_horz from "./../symbols/watt_hour_meter_horz"
@@ -440,6 +444,10 @@ export default {
   "varistor_vert": _varistor_vert,
   "varmeter_horz": _varmeter_horz,
   "varmeter_vert": _varmeter_vert,
+  "VCC_down": _VCC_down,
+  "VCC_left": _VCC_left,
+  "VCC_right": _VCC_right,
+  "VCC_up": _VCC_up,
   "volt_meter_horz": _volt_meter_horz,
   "volt_meter_vert": _volt_meter_vert,
   "watt_hour_meter_horz": _watt_hour_meter_horz,
