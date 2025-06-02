@@ -76,22 +76,35 @@ class SymbolModifier implements ModifySymbolBuilder {
 }
 
 export const modifySymbol = (symbol: any): ModifySymbolBuilder => {
+  const primitives = symbol.primitives ?? [
+    ...Object.values(symbol.paths ?? {}),
+    ...Object.values(symbol.texts ?? {}),
+    ...Object.values(symbol.circles ?? {}),
+    ...Object.values(symbol.rects ?? {}),
+  ]
+
+  const ports =
+    symbol.ports ??
+    Object.entries(symbol.refblocks).flatMap(([key, refblock]) => {
+      return [{ ...(refblock as object), labels: [key] }]
+    })
+
+  let center = symbol.center ?? {
+    x: symbol.bounds.centerX,
+    y: symbol.bounds.centerY,
+  }
+
+  if (ports.length === 2) {
+    center = {
+      x: (ports[0].x + ports[1].x) / 2,
+      y: (ports[0].y + ports[1].y) / 2,
+    }
+  }
+
   return new SymbolModifier({
     ...symbol,
-    primitives: symbol.primitives ?? [
-      ...Object.values(symbol.paths ?? {}),
-      ...Object.values(symbol.texts ?? {}),
-      ...Object.values(symbol.circles ?? {}),
-      ...Object.values(symbol.rects ?? {}),
-    ],
-    ports:
-      symbol.ports ??
-      Object.entries(symbol.refblocks).flatMap(([key, refblock]) => {
-        return [{ ...(refblock as object), labels: [key] }]
-      }),
-    center: symbol.center ?? {
-      x: symbol.bounds.centerX,
-      y: symbol.bounds.centerY,
-    },
+    primitives,
+    ports,
+    center,
   })
 }
