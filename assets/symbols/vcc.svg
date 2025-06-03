@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="11.313709"
-     inkscape:cx="57.098872"
+     inkscape:cx="64.125746"
      inkscape:cy="71.064231"
-     inkscape:window-width="686"
+     inkscape:window-width="1147"
      inkscape:window-height="940"
      inkscape:window-x="51"
      inkscape:window-y="40"
@@ -170,15 +170,6 @@
          id="title26">Capacitor</title>
       <title
          id="title30">Capacitor</title>
-      <text
-         x="-17.917313"
-         y="29.464378"
-         dx="0"
-         dy="0.91673404"
-         text-anchor="end"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.44463px;line-height:normal;font-family:monospace;fill:#000000;stroke-width:24.4463"
-         id="text2"
-         transform="matrix(0,1,1,0,0,0)">{REF}</text>
       <path
          style="fill:none;stroke:#000000;stroke-width:0.151847px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
          d="m 29.461552,-17.518713 -0.911761,1.910707"
@@ -203,6 +194,18 @@
          cy="29.483646"
          transform="matrix(0,1,1,0,0,0)"
          r="0.2090566" />
+      <text
+         xml:space="preserve"
+         style="font-size:2.00032px;fill:#000000;stroke-width:0.500081"
+         x="18.104725"
+         y="29.427374"
+         id="text14"
+         transform="rotate(-90)"><tspan
+           sodipodi:role="line"
+           id="tspan14"
+           style="font-size:2.00032px;stroke-width:0.500081"
+           x="18.104725"
+           y="29.427374">{REF}</tspan></text>
     </g>
   </g>
 </svg>
