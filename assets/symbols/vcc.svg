@@ -7,8 +7,8 @@
    viewBox="0 0 30 30"
    version="1.1"
    id="svg1"
-   inkscape:version="1.5-dev (5c4c6d1, 2025-02-14, custom)"
-   sodipodi:docname="VCC.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="vcc.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -23,15 +23,15 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="22.627417"
-     inkscape:cx="71.042134"
-     inkscape:cy="48.193746"
-     inkscape:window-width="2560"
-     inkscape:window-height="1392"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="VCC"
+     inkscape:zoom="11.313709"
+     inkscape:cx="64.125746"
+     inkscape:cy="71.064231"
+     inkscape:window-width="1147"
+     inkscape:window-height="940"
+     inkscape:window-x="51"
+     inkscape:window-y="40"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="resistor"
      showgrid="true"
      showguides="true">
     <inkscape:grid
@@ -61,17 +61,17 @@
        id="guide9108"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="15.441952,15.482023"
+       position="17.893277,15.263844"
        orientation="0,-1"
        id="guide9110"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="15.037251,15.231688"
+       position="15.493628,15.608114"
        orientation="1,0"
        id="guide9112"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="17.221688,17.834334"
+       position="14.957227,17.787826"
        orientation="0,-1"
        id="guide9114"
        inkscape:locked="false" />
@@ -81,7 +81,7 @@
        id="guide9116"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="18.416541,14.951055"
+       position="17.294009,14.851665"
        orientation="1,0"
        id="guide9118"
        inkscape:locked="false" />
@@ -89,6 +89,11 @@
        position="15.984388,13.185406"
        orientation="0,-1"
        id="guide9120"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="15.846061,14.40612"
+       orientation="0,-1"
+       id="guide2"
        inkscape:locked="false" />
   </sodipodi:namedview>
   <defs
@@ -158,49 +163,49 @@
      id="root"
      transform="translate(-10.948098,-120.19585)">
     <g
-       id="VCC"
-       transform="rotate(180,28.700327,57.302173)"
-       inkscape:label="VCC">
+       id="resistor"
+       transform="rotate(90,-48.356988,56.269006)"
+       inkscape:label="resistor">
       <title
-         id="title26">VCC</title>
+         id="title26">Capacitor</title>
+      <title
+         id="title30">Capacitor</title>
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.234643px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 27.288426,-19.74148 2.683407,1.5502"
+         style="fill:none;stroke:#000000;stroke-width:0.151847px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 29.461552,-17.518713 -0.911761,1.910707"
          id="path28-2"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cc" />
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.234643px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 27.286785,-19.768803 2.683407,-1.5502"
+         style="fill:none;stroke:#000000;stroke-width:0.151847px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 29.490825,-17.517717 0.911761,1.910712"
          id="path28-2-6"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cc" />
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.274147px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 27.303032,-19.755257 h 5.681107"
+         style="fill:none;stroke:#000000;stroke-width:0.261906;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         d="m 29.472103,-17.468296 v 4.045202"
          id="path29-3"
          inkscape:connector-curvature="0" />
       <circle
-         style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-         id="refblock-5-7-3-81-2"
-         cx="19.75034"
-         cy="33.133263"
-         r="0.28158441"
-         transform="rotate(-90)" />
+         style="fill:#ff0000;stroke:none;stroke-width:0.196434;stroke-opacity:1"
+         id="refblock-6"
+         cx="-13.273629"
+         cy="29.483646"
+         transform="matrix(0,1,1,0,0,0)"
+         r="0.2090566" />
       <text
          xml:space="preserve"
-         style="font-size:0.652651px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.163163"
-         x="19.712341"
-         y="26.770172"
-         id="text14-3-0-5-0-5-2"
+         style="font-size:2.00032px;fill:#000000;stroke-width:0.500081"
+         x="18.104725"
+         y="29.427374"
+         id="text14"
          transform="rotate(-90)"><tspan
            sodipodi:role="line"
-           id="tspan14-1-4-0-4-8-1"
-           style="font-size:0.652651px;text-align:center;text-anchor:middle;stroke-width:0.163163"
-           x="19.712341"
-           y="26.770172">{REF}</tspan></text>
-      <title
-         id="title30">Capacitor</title>
+           id="tspan14"
+           style="font-size:2.00032px;stroke-width:0.500081"
+           x="18.104725"
+           y="29.427374">{REF}</tspan></text>
     </g>
   </g>
 </svg>
