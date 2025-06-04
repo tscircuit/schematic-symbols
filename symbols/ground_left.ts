@@ -1,0 +1,9 @@
+import svgJson from "../assets/generated/ground.json"
+import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
+
+export default modifySymbol(svgJson)
+  .rotateRightFacingSymbol("left")
+  .labelPort("left1", ["1"])
+  .changeTextAnchor("{REF}", "middle_top")
+  .changeTextAnchor("{VAL}", "middle_bottom")
+  .build()

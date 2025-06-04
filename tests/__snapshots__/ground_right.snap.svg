@@ -1,0 +1,13 @@
+<svg width="150" height="150" viewBox="-0.2900576399999999 -0.38571185999999996 0.5801152800000003 0.7714237199999999" xmlns="http://www.w3.org/2000/svg"><path d="M-0.2326963769999999,-0.0017969500000010186 L0.09693702299999973,-0.0017969500000010186" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.09690422300000012,0.2273568499999996 L0.09690422300000012,-0.22196444999999976" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.17381862300000073,0.17119164999999903 L0.17381862300000073,-0.16579924999999918" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.25073302300000044,0.058861349999999035 L0.25073302300000044,-0.05346895000000096" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="-0.02013447700000004" y="-0.32142655" dx="0" dy="0" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.03263447700000004" y="-0.33392655" width="0.025" height="0.025" fill="blue" />
+    <text x="-0.020957677000000174" y="0.32142655" dx="0" dy="0.07500000000000001" text-anchor="middle" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.03345767700000017" y="0.30892654999999997" width="0.025" height="0.025" fill="blue" />
+
+    <rect x="-0.2566128769999999" y="-0.027883150000000613" width="0.05" height="0.05" fill="red" />
+    <text x="-0.27161287699999986" y="0.08711684999999939" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
+  
+<path d="M 2.7755575615628914e-16 -0.025 L 0.02500000000000028 0 L 2.7755575615628914e-16 0.025 L -0.024999999999999724 0 Z" fill="green" />
+<text x="-0.2417146999999999" y="-0.32142655" style="font: 0.05px monospace; fill: #833;">0.48 x 0.64</text>
+<text x="-0.2417146999999999" y="-0.32142655" style="font: 0.05px monospace; fill: #833;">0.48 x 0.64</text></svg>
