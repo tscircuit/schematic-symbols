@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="8"
-     inkscape:cx="61.125"
-     inkscape:cy="51.125"
+     inkscape:zoom="11.313708"
+     inkscape:cx="84.410872"
+     inkscape:cy="28.195883"
      inkscape:window-width="1300"
      inkscape:window-height="940"
      inkscape:window-x="108"
@@ -89,6 +89,16 @@
        position="15.846061,14.40612"
        orientation="0,-1"
        id="guide2"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="15.544271,22.012891"
+       orientation="1,0"
+       id="guide1"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="17.078027,22.488314"
+       orientation="0,-1"
+       id="guide3"
        inkscape:locked="false" />
   </sodipodi:namedview>
   <defs
@@ -199,28 +209,16 @@
          id="path4" />
       <text
          xml:space="preserve"
-         style="font-size:1.1059px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.276478"
-         x="22.543663"
-         y="19.882744"
+         style="font-size:0.694165px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.173543"
+         x="26.423647"
+         y="23.294392"
          id="text14-3-0-5-0-5-8"
          transform="rotate(-90)"><tspan
            sodipodi:role="line"
            id="tspan14-1-4-0-4-8-8"
-           style="font-size:1.1059px;text-align:center;text-anchor:middle;stroke-width:0.276478"
-           x="22.543663"
-           y="19.882744">{REF}</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:1.0857px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.271425"
-         x="22.535431"
-         y="26.311275"
-         id="text14-3-0-5-0-5-1"
-         transform="rotate(-90)"><tspan
-           sodipodi:role="line"
-           id="tspan14-1-4-0-4-8-3"
-           style="font-size:1.0857px;text-align:center;text-anchor:middle;stroke-width:0.271425"
-           x="22.535431"
-           y="26.311275">{VAL}</tspan></text>
+           style="font-size:0.694165px;text-align:center;text-anchor:middle;stroke-width:0.173543"
+           x="26.423647"
+           y="23.294392">{REF}</tspan></text>
       <circle
          style="fill:#ff0000;stroke:none;stroke-width:0.179657;stroke-opacity:1"
          id="refblock-5-7-3-81-7-9"
