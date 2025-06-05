@@ -198,6 +198,10 @@ import _step_recovery_diode_horz from "./../symbols/step_recovery_diode_horz"
 import _step_recovery_diode_vert from "./../symbols/step_recovery_diode_vert"
 import _tachometer_horz from "./../symbols/tachometer_horz"
 import _tachometer_vert from "./../symbols/tachometer_vert"
+import _testpoint_down from "./../symbols/testpoint_down"
+import _testpoint_left from "./../symbols/testpoint_left"
+import _testpoint_right from "./../symbols/testpoint_right"
+import _testpoint_up from "./../symbols/testpoint_up"
 import _tilted_ground_down from "./../symbols/tilted_ground_down"
 import _tilted_ground_left from "./../symbols/tilted_ground_left"
 import _tilted_ground_right from "./../symbols/tilted_ground_right"
@@ -430,6 +434,10 @@ export default {
   "step_recovery_diode_vert": _step_recovery_diode_vert,
   "tachometer_horz": _tachometer_horz,
   "tachometer_vert": _tachometer_vert,
+  "testpoint_down": _testpoint_down,
+  "testpoint_left": _testpoint_left,
+  "testpoint_right": _testpoint_right,
+  "testpoint_up": _testpoint_up,
   "tilted_ground_down": _tilted_ground_down,
   "tilted_ground_left": _tilted_ground_left,
   "tilted_ground_right": _tilted_ground_right,
