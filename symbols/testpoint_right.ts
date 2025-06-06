@@ -16,7 +16,7 @@ export default defineSymbol({
       points: Array.from({ length: 8 }, (_, i) => {
         const angle = Math.PI / 2 - (i * Math.PI) / 7
         const r = 0.2
-        return { x: r * Math.cos(angle), y: r * Math.sin(angle) }
+        return { x: 0.2 - r * Math.cos(angle), y: r * Math.sin(angle) }
       }),
       color: "primary",
       fill: false,
