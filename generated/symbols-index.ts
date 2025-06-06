@@ -69,9 +69,11 @@ import _frequency_meter_vert from "./../symbols/frequency_meter_vert"
 import _fuse_horz from "./../symbols/fuse_horz"
 import _fuse_vert from "./../symbols/fuse_vert"
 import _ground_down from "./../symbols/ground_down"
+import _ground_horz from "./../symbols/ground_horz"
 import _ground_left from "./../symbols/ground_left"
 import _ground_right from "./../symbols/ground_right"
 import _ground_up from "./../symbols/ground_up"
+import _ground_vert from "./../symbols/ground_vert"
 import _ground2_down from "./../symbols/ground2_down"
 import _ground2_left from "./../symbols/ground2_left"
 import _ground2_right from "./../symbols/ground2_right"
@@ -305,9 +307,11 @@ export default {
   "fuse_horz": _fuse_horz,
   "fuse_vert": _fuse_vert,
   "ground_down": _ground_down,
+  "ground_horz": _ground_horz,
   "ground_left": _ground_left,
   "ground_right": _ground_right,
   "ground_up": _ground_up,
+  "ground_vert": _ground_vert,
   "ground2_down": _ground2_down,
   "ground2_left": _ground2_left,
   "ground2_right": _ground2_right,
