@@ -132,8 +132,10 @@ import _pnp_bipolar_transistor_horz from "./../symbols/pnp_bipolar_transistor_ho
 import _pnp_bipolar_transistor_vert from "./../symbols/pnp_bipolar_transistor_vert"
 import _potentiometer_horz from "./../symbols/potentiometer_horz"
 import _potentiometer_vert from "./../symbols/potentiometer_vert"
-import _potentiometer2_horz from "./../symbols/potentiometer2_horz"
-import _potentiometer2_vert from "./../symbols/potentiometer2_vert"
+import _potentiometer2_down from "./../symbols/potentiometer2_down"
+import _potentiometer2_left from "./../symbols/potentiometer2_left"
+import _potentiometer2_right from "./../symbols/potentiometer2_right"
+import _potentiometer2_up from "./../symbols/potentiometer2_up"
 import _potentiometer3_down from "./../symbols/potentiometer3_down"
 import _potentiometer3_left from "./../symbols/potentiometer3_left"
 import _potentiometer3_right from "./../symbols/potentiometer3_right"
@@ -370,8 +372,10 @@ export default {
   "pnp_bipolar_transistor_vert": _pnp_bipolar_transistor_vert,
   "potentiometer_horz": _potentiometer_horz,
   "potentiometer_vert": _potentiometer_vert,
-  "potentiometer2_horz": _potentiometer2_horz,
-  "potentiometer2_vert": _potentiometer2_vert,
+  "potentiometer2_down": _potentiometer2_down,
+  "potentiometer2_left": _potentiometer2_left,
+  "potentiometer2_right": _potentiometer2_right,
+  "potentiometer2_up": _potentiometer2_up,
   "potentiometer3_down": _potentiometer3_down,
   "potentiometer3_left": _potentiometer3_left,
   "potentiometer3_right": _potentiometer3_right,
