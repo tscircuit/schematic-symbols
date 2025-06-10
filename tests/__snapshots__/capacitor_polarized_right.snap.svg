@@ -8,11 +8,11 @@
     <text x="-0.003850499999999979" y="0.42000864999999976" dx="0" dy="0.07500000000000001" text-anchor="middle" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.01635049999999998" y="0.40750864999999975" width="0.025" height="0.025" fill="blue" />
 
     <rect x="-0.5603954999999995" y="-0.041380250000000986" width="0.05" height="0.05" fill="red" />
-    <text x="-0.5753954999999995" y="0.07361974999999901" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+    <text x="-0.5753954999999995" y="0.07361974999999901" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
   
     
     <rect x="0.4261331000000005" y="-0.041926950000001996" width="0.05" height="0.05" fill="red" />
-    <text x="0.41113310000000053" y="0.073073049999998" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
+    <text x="0.41113310000000053" y="0.073073049999998" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
   
 <path d="M -0.04213119999999948 -0.04165360000000149 L -0.01713119999999948 -0.01665360000000149 L -0.04213119999999948 0.008346399999998512 L -0.06713119999999947 -0.01665360000000149 Z" fill="green" />
 <text x="-0.5353954999999995" y="-0.40335505000000005" style="font: 0.05px monospace; fill: #833;">0.99 x 0.84</text>
