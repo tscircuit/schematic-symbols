@@ -154,8 +154,10 @@ import _resistor_right from "./../symbols/resistor_right"
 import _resistor_up from "./../symbols/resistor_up"
 import _resonator_horz from "./../symbols/resonator_horz"
 import _resonator_vert from "./../symbols/resonator_vert"
-import _schottky_diode_horz from "./../symbols/schottky_diode_horz"
-import _schottky_diode_vert from "./../symbols/schottky_diode_vert"
+import _schottky_diode_down from "./../symbols/schottky_diode_down"
+import _schottky_diode_left from "./../symbols/schottky_diode_left"
+import _schottky_diode_right from "./../symbols/schottky_diode_right"
+import _schottky_diode_up from "./../symbols/schottky_diode_up"
 import _silicon_controlled_rectifier_horz from "./../symbols/silicon_controlled_rectifier_horz"
 import _silicon_controlled_rectifier_vert from "./../symbols/silicon_controlled_rectifier_vert"
 import _solderjumper2_bridged12_down from "./../symbols/solderjumper2_bridged12_down"
@@ -394,8 +396,10 @@ export default {
   "resistor_up": _resistor_up,
   "resonator_horz": _resonator_horz,
   "resonator_vert": _resonator_vert,
-  "schottky_diode_horz": _schottky_diode_horz,
-  "schottky_diode_vert": _schottky_diode_vert,
+  "schottky_diode_down": _schottky_diode_down,
+  "schottky_diode_left": _schottky_diode_left,
+  "schottky_diode_right": _schottky_diode_right,
+  "schottky_diode_up": _schottky_diode_up,
   "silicon_controlled_rectifier_horz": _silicon_controlled_rectifier_horz,
   "silicon_controlled_rectifier_vert": _silicon_controlled_rectifier_vert,
   "solderjumper2_bridged12_down": _solderjumper2_bridged12_down,

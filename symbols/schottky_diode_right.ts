@@ -1,4 +1,3 @@
-import { defineSymbol } from "drawing/defineSymbol"
 import svgJson from "assets/generated/schottky_diode.json"
 import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
 
