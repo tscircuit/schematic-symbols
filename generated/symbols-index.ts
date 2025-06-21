@@ -28,8 +28,10 @@ import _constant_current_diode_horz from "./../symbols/constant_current_diode_ho
 import _constant_current_diode_vert from "./../symbols/constant_current_diode_vert"
 import _crystal_4pin_horz from "./../symbols/crystal_4pin_horz"
 import _crystal_4pin_vert from "./../symbols/crystal_4pin_vert"
-import _crystal_horz from "./../symbols/crystal_horz"
-import _crystal_vert from "./../symbols/crystal_vert"
+import _crystal_down from "./../symbols/crystal_down"
+import _crystal_left from "./../symbols/crystal_left"
+import _crystal_right from "./../symbols/crystal_right"
+import _crystal_up from "./../symbols/crystal_up"
 import _darlington_pair_transistor_horz from "./../symbols/darlington_pair_transistor_horz"
 import _darlington_pair_transistor_vert from "./../symbols/darlington_pair_transistor_vert"
 import _dc_ammeter_horz from "./../symbols/dc_ammeter_horz"
@@ -270,8 +272,10 @@ export default {
   "constant_current_diode_vert": _constant_current_diode_vert,
   "crystal_4pin_horz": _crystal_4pin_horz,
   "crystal_4pin_vert": _crystal_4pin_vert,
-  "crystal_horz": _crystal_horz,
-  "crystal_vert": _crystal_vert,
+  "crystal_down": _crystal_down,
+  "crystal_left": _crystal_left,
+  "crystal_right": _crystal_right,
+  "crystal_up": _crystal_up,
   "darlington_pair_transistor_horz": _darlington_pair_transistor_horz,
   "darlington_pair_transistor_vert": _darlington_pair_transistor_vert,
   "dc_ammeter_horz": _dc_ammeter_horz,
