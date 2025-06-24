@@ -87,6 +87,14 @@
       "y": 0
     }
   },
+  "texts": {
+    "ref": {
+      "type": "text",
+      "text": "{REF}",
+      "x": 0,
+      "y": 0.35
+    }
+  },
   "bounds": {
     "minX": -0.4,
     "maxX": 0.4,
