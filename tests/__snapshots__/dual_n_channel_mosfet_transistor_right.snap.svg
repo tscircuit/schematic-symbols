@@ -1,0 +1,19 @@
+<svg width="150" height="150" viewBox="-0.48 -0.306 0.96 0.612" xmlns="http://www.w3.org/2000/svg"><path d="M-0.4,0 L0.4,0" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0,-0.2 L0,-0.07" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0,-0.01 L0,0.12" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0,0.18 L0,0.31" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.25,0 L-0.25,0.2" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.25,0 L0.25,0.2" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.3,0.2 L-0.25,0.3 L-0.2,0.2 L-0.3,0.2" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.2,0.2 L0.25,0.3 L0.3,0.2 L0.2,0.2" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+
+    <rect x="-0.42500000000000004" y="-0.025" width="0.05" height="0.05" fill="red" />
+    <text x="-0.44" y="0.09" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
+  
+    
+    <rect x="0.375" y="-0.025" width="0.05" height="0.05" fill="red" />
+    <text x="0.36000000000000004" y="0.09" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+  
+<path d="M 0 -0.025 L 0.025 0 L 0 0.025 L -0.025 0 Z" fill="green" />
+<text x="-0.4" y="-0.255" style="font: 0.05px monospace; fill: #833;">0.80 x 0.51</text>
+<text x="-0.4" y="-0.255" style="font: 0.05px monospace; fill: #833;">0.80 x 0.51</text></svg>
