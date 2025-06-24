@@ -60,10 +60,10 @@ import _dpst_switch_down from "./../symbols/dpst_switch_down"
 import _dpst_switch_left from "./../symbols/dpst_switch_left"
 import _dpst_switch_right from "./../symbols/dpst_switch_right"
 import _dpst_switch_up from "./../symbols/dpst_switch_up"
-import _dual_n_channel_mosfet_transistor_down from "./../symbols/dual_n_channel_mosfet_transistor_down"
-import _dual_n_channel_mosfet_transistor_left from "./../symbols/dual_n_channel_mosfet_transistor_left"
-import _dual_n_channel_mosfet_transistor_right from "./../symbols/dual_n_channel_mosfet_transistor_right"
-import _dual_n_channel_mosfet_transistor_up from "./../symbols/dual_n_channel_mosfet_transistor_up"
+import _ground_bridge_down from "./../symbols/ground_bridge_down"
+import _ground_bridge_left from "./../symbols/ground_bridge_left"
+import _ground_bridge_right from "./../symbols/ground_bridge_right"
+import _ground_bridge_up from "./../symbols/ground_bridge_up"
 import _ferrite_bead_down from "./../symbols/ferrite_bead_down"
 import _ferrite_bead_left from "./../symbols/ferrite_bead_left"
 import _ferrite_bead_right from "./../symbols/ferrite_bead_right"
@@ -308,10 +308,10 @@ export default {
   "dpst_switch_left": _dpst_switch_left,
   "dpst_switch_right": _dpst_switch_right,
   "dpst_switch_up": _dpst_switch_up,
-  "dual_n_channel_mosfet_transistor_down": _dual_n_channel_mosfet_transistor_down,
-  "dual_n_channel_mosfet_transistor_left": _dual_n_channel_mosfet_transistor_left,
-  "dual_n_channel_mosfet_transistor_right": _dual_n_channel_mosfet_transistor_right,
-  "dual_n_channel_mosfet_transistor_up": _dual_n_channel_mosfet_transistor_up,
+  "ground_bridge_down": _ground_bridge_down,
+  "ground_bridge_left": _ground_bridge_left,
+  "ground_bridge_right": _ground_bridge_right,
+  "ground_bridge_up": _ground_bridge_up,
   "ferrite_bead_down": _ferrite_bead_down,
   "ferrite_bead_left": _ferrite_bead_left,
   "ferrite_bead_right": _ferrite_bead_right,

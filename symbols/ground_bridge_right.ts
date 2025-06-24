@@ -1,4 +1,4 @@
-import svgJson from "assets/generated/dual_n_channel_mosfet_transistor.json"
+import svgJson from "assets/generated/ground_bridge.json"
 import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
 
 const { paths, texts, bounds, refblocks, circles } = svgJson
