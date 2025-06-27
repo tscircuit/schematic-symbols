@@ -1,9 +1,9 @@
 <svg width="150" height="150" viewBox="-0.12 -0.195 0.24 0.39" xmlns="http://www.w3.org/2000/svg"><path d="M-1.2246467991473533e-17,-0.2 L0,0" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M0.1,0.1 L0.09009688679024191,0.05661162608824418 L0.06234898018587335,0.021816851753197013 L0.02225209339563144,0.002507208781817634 L-0.02225209339563144,0.0025072087818176366 L-0.06234898018587335,0.02181685175319702 L-0.09009688679024191,0.056611626088244195 L-0.1,0.09999999999999999" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <text x="7.654042494670958e-18" y="0.125" dx="0" dy="0.07500000000000001" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.006249999999999992" y="0.1125" width="0.025" height="0.025" fill="blue" />
+    <path d="M0.1,0.1 L0.09009688679024191,0.05661162608824418 L0.06234898018587335,0.021816851753197013 L0.02225209339563144,0.002507208781817634 L-0.02225209339563144,0.0025072087818176366 L-0.06234898018587335,0.02181685175319702 L-0.09009688679024191,0.056611626088244195 L-0.1,0.1" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="7.654042494670958e-18" y="0.125" dx="0" dy="0.07500000000000001" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.012499999999999994" y="0.1125" width="0.025" height="0.025" fill="blue" />
 
-    <rect x="-0.012500000000000013" y="-0.21250000000000002" width="0.05" height="0.05" fill="red" />
-    <text x="-0.020000000000000014" y="-0.15500000000000003" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
+    <rect x="-0.025000000000000015" y="-0.225" width="0.05" height="0.05" fill="red" />
+    <text x="-0.040000000000000015" y="-0.11000000000000001" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
   
 <path d="M 0 -0.025 L 0.025 0 L 0 0.025 L -0.025 0 Z" fill="green" />
 <text x="-0.1" y="-0.1625" style="font: 0.05px monospace; fill: #833;">0.20 x 0.33</text>
