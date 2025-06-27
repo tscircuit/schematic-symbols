@@ -16,6 +16,10 @@ import _boxresistor_small_left from "./../symbols/boxresistor_small_left"
 import _boxresistor_small_right from "./../symbols/boxresistor_small_right"
 import _boxresistor_small_up from "./../symbols/boxresistor_small_up"
 import _boxresistor_up from "./../symbols/boxresistor_up"
+import _bridged_ground_down from "./../symbols/bridged_ground_down"
+import _bridged_ground_left from "./../symbols/bridged_ground_left"
+import _bridged_ground_right from "./../symbols/bridged_ground_right"
+import _bridged_ground_up from "./../symbols/bridged_ground_up"
 import _capacitor_down from "./../symbols/capacitor_down"
 import _capacitor_left from "./../symbols/capacitor_left"
 import _capacitor_polarized_down from "./../symbols/capacitor_polarized_down"
@@ -60,10 +64,6 @@ import _dpst_switch_down from "./../symbols/dpst_switch_down"
 import _dpst_switch_left from "./../symbols/dpst_switch_left"
 import _dpst_switch_right from "./../symbols/dpst_switch_right"
 import _dpst_switch_up from "./../symbols/dpst_switch_up"
-import _bridged_ground_down from "./../symbols/bridged_ground_down"
-import _bridged_ground_left from "./../symbols/bridged_ground_left"
-import _bridged_ground_right from "./../symbols/bridged_ground_right"
-import _bridged_ground_up from "./../symbols/bridged_ground_up"
 import _ferrite_bead_down from "./../symbols/ferrite_bead_down"
 import _ferrite_bead_left from "./../symbols/ferrite_bead_left"
 import _ferrite_bead_right from "./../symbols/ferrite_bead_right"
@@ -264,6 +264,10 @@ export default {
   "boxresistor_small_right": _boxresistor_small_right,
   "boxresistor_small_up": _boxresistor_small_up,
   "boxresistor_up": _boxresistor_up,
+  "bridged_ground_down": _bridged_ground_down,
+  "bridged_ground_left": _bridged_ground_left,
+  "bridged_ground_right": _bridged_ground_right,
+  "bridged_ground_up": _bridged_ground_up,
   "capacitor_down": _capacitor_down,
   "capacitor_left": _capacitor_left,
   "capacitor_polarized_down": _capacitor_polarized_down,
@@ -308,10 +312,6 @@ export default {
   "dpst_switch_left": _dpst_switch_left,
   "dpst_switch_right": _dpst_switch_right,
   "dpst_switch_up": _dpst_switch_up,
-  "bridged_ground_down": _bridged_ground_down,
-  "bridged_ground_left": _bridged_ground_left,
-  "bridged_ground_right": _bridged_ground_right,
-  "bridged_ground_up": _bridged_ground_up,
   "ferrite_bead_down": _ferrite_bead_down,
   "ferrite_bead_left": _ferrite_bead_left,
   "ferrite_bead_right": _ferrite_bead_right,
