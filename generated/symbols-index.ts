@@ -116,6 +116,10 @@ import _n_channel_e_mosfet_transistor_horz from "./../symbols/n_channel_e_mosfet
 import _n_channel_e_mosfet_transistor_vert from "./../symbols/n_channel_e_mosfet_transistor_vert"
 import _njfet_transistor_horz from "./../symbols/njfet_transistor_horz"
 import _njfet_transistor_vert from "./../symbols/njfet_transistor_vert"
+import _not_connected_down from "./../symbols/not_connected_down"
+import _not_connected_left from "./../symbols/not_connected_left"
+import _not_connected_right from "./../symbols/not_connected_right"
+import _not_connected_up from "./../symbols/not_connected_up"
 import _npn_bipolar_transistor_horz from "./../symbols/npn_bipolar_transistor_horz"
 import _npn_bipolar_transistor_vert from "./../symbols/npn_bipolar_transistor_vert"
 import _opamp_no_power_down from "./../symbols/opamp_no_power_down"
@@ -364,6 +368,10 @@ export default {
   "n_channel_e_mosfet_transistor_vert": _n_channel_e_mosfet_transistor_vert,
   "njfet_transistor_horz": _njfet_transistor_horz,
   "njfet_transistor_vert": _njfet_transistor_vert,
+  "not_connected_down": _not_connected_down,
+  "not_connected_left": _not_connected_left,
+  "not_connected_right": _not_connected_right,
+  "not_connected_up": _not_connected_up,
   "npn_bipolar_transistor_horz": _npn_bipolar_transistor_horz,
   "npn_bipolar_transistor_vert": _npn_bipolar_transistor_vert,
   "opamp_no_power_down": _opamp_no_power_down,
