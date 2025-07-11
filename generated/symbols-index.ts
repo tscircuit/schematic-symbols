@@ -120,7 +120,11 @@ import _not_connected_down from "./../symbols/not_connected_down"
 import _not_connected_left from "./../symbols/not_connected_left"
 import _not_connected_right from "./../symbols/not_connected_right"
 import _not_connected_up from "./../symbols/not_connected_up"
+import _npn_bipolar_transistor_down from "./../symbols/npn_bipolar_transistor_down"
 import _npn_bipolar_transistor_horz from "./../symbols/npn_bipolar_transistor_horz"
+import _npn_bipolar_transistor_left from "./../symbols/npn_bipolar_transistor_left"
+import _npn_bipolar_transistor_right from "./../symbols/npn_bipolar_transistor_right"
+import _npn_bipolar_transistor_up from "./../symbols/npn_bipolar_transistor_up"
 import _npn_bipolar_transistor_vert from "./../symbols/npn_bipolar_transistor_vert"
 import _opamp_no_power_down from "./../symbols/opamp_no_power_down"
 import _opamp_no_power_left from "./../symbols/opamp_no_power_left"
@@ -138,7 +142,11 @@ import _photodiode_horz from "./../symbols/photodiode_horz"
 import _photodiode_vert from "./../symbols/photodiode_vert"
 import _pjfet_transistor_horz from "./../symbols/pjfet_transistor_horz"
 import _pjfet_transistor_vert from "./../symbols/pjfet_transistor_vert"
+import _pnp_bipolar_transistor_down from "./../symbols/pnp_bipolar_transistor_down"
 import _pnp_bipolar_transistor_horz from "./../symbols/pnp_bipolar_transistor_horz"
+import _pnp_bipolar_transistor_left from "./../symbols/pnp_bipolar_transistor_left"
+import _pnp_bipolar_transistor_right from "./../symbols/pnp_bipolar_transistor_right"
+import _pnp_bipolar_transistor_up from "./../symbols/pnp_bipolar_transistor_up"
 import _pnp_bipolar_transistor_vert from "./../symbols/pnp_bipolar_transistor_vert"
 import _potentiometer_horz from "./../symbols/potentiometer_horz"
 import _potentiometer_vert from "./../symbols/potentiometer_vert"
@@ -372,7 +380,11 @@ export default {
   "not_connected_left": _not_connected_left,
   "not_connected_right": _not_connected_right,
   "not_connected_up": _not_connected_up,
+  "npn_bipolar_transistor_down": _npn_bipolar_transistor_down,
   "npn_bipolar_transistor_horz": _npn_bipolar_transistor_horz,
+  "npn_bipolar_transistor_left": _npn_bipolar_transistor_left,
+  "npn_bipolar_transistor_right": _npn_bipolar_transistor_right,
+  "npn_bipolar_transistor_up": _npn_bipolar_transistor_up,
   "npn_bipolar_transistor_vert": _npn_bipolar_transistor_vert,
   "opamp_no_power_down": _opamp_no_power_down,
   "opamp_no_power_left": _opamp_no_power_left,
@@ -390,7 +402,11 @@ export default {
   "photodiode_vert": _photodiode_vert,
   "pjfet_transistor_horz": _pjfet_transistor_horz,
   "pjfet_transistor_vert": _pjfet_transistor_vert,
+  "pnp_bipolar_transistor_down": _pnp_bipolar_transistor_down,
   "pnp_bipolar_transistor_horz": _pnp_bipolar_transistor_horz,
+  "pnp_bipolar_transistor_left": _pnp_bipolar_transistor_left,
+  "pnp_bipolar_transistor_right": _pnp_bipolar_transistor_right,
+  "pnp_bipolar_transistor_up": _pnp_bipolar_transistor_up,
   "pnp_bipolar_transistor_vert": _pnp_bipolar_transistor_vert,
   "potentiometer_horz": _potentiometer_horz,
   "potentiometer_vert": _potentiometer_vert,
