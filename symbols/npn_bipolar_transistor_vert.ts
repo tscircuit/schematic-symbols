@@ -1,21 +1,11 @@
-import { rotateSymbol } from "drawing/rotateSymbol"
 import svgJson from "assets/generated/npn_bipolar_transistor.json"
-import npn_bipolar_transistor_horz from "./npn_bipolar_transistor_horz"
 import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
 
-const rotatedSymbol = rotateSymbol(npn_bipolar_transistor_horz)
-
-const texts = rotatedSymbol.primitives.filter((p) => p.type === "text")
-
-const ref = texts.find((t) => t.text === "{REF}")!
-
-ref.anchor = "middle_left"
-
 export default modifySymbol(svgJson)
-  .rotateRightFacingSymbol("down")
+  .rotateRightFacingSymbol("left")
   .changeTextAnchor("{VAL}", "middle_right")
-  .labelPort("left1", ["3"])
+  .labelPort("left1", ["2"])
   .labelPort("top1", ["1"])
-  .labelPort("bottom1", ["2"])
+  .labelPort("bottom1", ["3"])
   .changeTextAnchor("{REF}", "middle_left")
   .build()

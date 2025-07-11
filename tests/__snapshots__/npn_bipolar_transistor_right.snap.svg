@@ -5,9 +5,9 @@
     <path d="M-0.2531109999999994,-0.2851204555 L-0.5377640999999993,-0.2860204555000001" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.5376890000000014,-0.28512045549999987 L0.25303590000000087,-0.2860204555000001" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.10097660000000035,-0.18828165550000128 L0.20483720000000052,-0.11555775550000154 L0.20446720000000032,-0.2242577555000018 L0.10097660000000035,-0.18828165550000128" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <text x="-0.3596647999999989" y="0.07802354449999971" dx="0" dy="0.037500000000000006" text-anchor="end" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.3721647999999989" y="0.06552354449999971" width="0.025" height="0.025" fill="blue" />
-    <text x="0.4129789000000008" y="0.06791004449999966" dx="0" dy="0.037500000000000006" text-anchor="start" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="0.4004789000000008" y="0.05541004449999966" width="0.025" height="0.025" fill="blue" />
     <circle cx="-0.0034547999999989445" cy="-0.13862605550000004" r="0.28854213" fill="none" stroke="black" stroke-width="0.02" />
+    <text x="0.3094553499999998" y="0.10000000000000005" dx="0" dy="0.07500000000000001" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="0.2969553499999998" y="0.08750000000000005" width="0.025" height="0.025" fill="blue" />
+    <text x="-0.30945534999999924" y="0.10000000000000002" dx="0" dy="0.07500000000000001" text-anchor="middle" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.32195534999999925" y="0.08750000000000002" width="0.025" height="0.025" fill="blue" />
 
     <rect x="-0.5769250999999992" y="-0.31056045550000067" width="0.05" height="0.05" fill="red" />
     <text x="-0.5919250999999992" y="-0.19556045550000065" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
