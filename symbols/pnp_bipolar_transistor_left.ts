@@ -20,14 +20,14 @@ export default modifySymbol({
     },
   ] as any,
   ports: [
-    { ...refblocks.top1, labels: ["3"] },
-    { ...refblocks.bottom1, labels: ["2"] },
-    { ...refblocks.left1, labels: ["1"] },
+    { ...refblocks.top1, labels: ["1"] },
+    { ...refblocks.bottom1, labels: ["3"] },
+    { ...refblocks.left1, labels: ["2"] },
   ],
   size: { width: bounds.width, height: bounds.height },
   center: { x: bounds.centerX, y: bounds.centerY },
 })
-  .rotateRightFacingSymbol("left")
+  .rotateRightFacingSymbol("down")
   .changeTextAnchor("{REF}", "middle_bottom")
-  .changeTextAnchor("{VAL}", "middle_top")
+  .changeTextAnchor("{VAL}", "middle_bottom")
   .build()
