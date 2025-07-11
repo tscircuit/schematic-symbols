@@ -83,6 +83,11 @@ in the same schematic.
 
 - The width of most standard passives is `1`
 - The height of most standard passives is `0.6`
+- Number pins from **1** upward following the symbol's direction. For example,
+  a symbol that points right has pin **1** on the left and pin **2** on the
+  right.
+- If a device is polarized, number the pins from **positive** to **negative** in
+  that same direction.
 
 ### Development
 
