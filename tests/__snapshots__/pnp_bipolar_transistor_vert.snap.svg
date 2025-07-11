@@ -10,7 +10,7 @@
     <circle cx="0.0034547999999992394" cy="0.13862605549999982" r="0.28854213" fill="none" stroke="black" stroke-width="0.02" />
 
     <rect x="0.5269250999999994" y="0.2605604555000003" width="0.05" height="0.05" fill="red" />
-    <text x="0.5119250999999994" y="0.3755604555000003" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
+    <text x="0.5119250999999994" y="0.3755604555000003" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
   
     
     <rect x="-0.5769250999999992" y="0.26056045550000173" width="0.05" height="0.05" fill="red" />
@@ -18,7 +18,7 @@
   
     
     <rect x="-0.02952630000000087" y="-0.42400974450000006" width="0.05" height="0.05" fill="red" />
-    <text x="-0.044526300000000865" y="-0.30900974450000007" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
+    <text x="-0.044526300000000865" y="-0.30900974450000007" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
   
 <path d="M 1.3877787807814457e-16 -0.025000000000000112 L 0.02500000000000014 -1.1102230246251565e-16 L 1.3877787807814457e-16 0.02499999999999989 L -0.024999999999999863 -1.1102230246251565e-16 Z" fill="green" />
 <text x="-0.5377265500000002" y="-0.4061310649999993" style="font: 0.05px monospace; fill: #833;">1.08 x 0.81</text>
