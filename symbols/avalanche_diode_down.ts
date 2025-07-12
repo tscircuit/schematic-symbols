@@ -1,10 +1,34 @@
 import { modifySymbol } from "../drawing/modify-symbol/modify-symbol"
 import svgJson from "assets/generated/avalanche_diode.json"
 
-export default modifySymbol(svgJson)
+const { paths, texts, bounds, refblocks, circles } = svgJson
+export default modifySymbol({
+  primitives: [
+    ...Object.values(paths),
+    ...Object.values(circles),
+    {
+      type: "text",
+      text: "{REF}",
+      x: -0.15,
+      y: 0.3294553499999995,
+    },
+    {
+      type: "text",
+      text: "{VAL}",
+      x: 0.15,
+      y: 0.3294553499999995,
+    },
+  ] as any,
+  ports: [
+    { ...refblocks.left1, labels: ["1"] },
+    { ...refblocks.right1, labels: ["2"] },
+  ],
+  size: { width: bounds.width, height: bounds.height },
+  center: { x: bounds.centerX, y: bounds.centerY },
+})
   .rotateRightFacingSymbol("down")
-  .labelPort("left1", ["1", "neg"])
-  .labelPort("right1", ["2", "pos"])
+  .labelPort("left1", ["1"])
+  .labelPort("right1", ["2"])
   .changeTextAnchor("{REF}", "middle_left")
-  .changeTextAnchor("{VAL}", "middle_right")
+  .changeTextAnchor("{VAL}", "middle_left")
   .build()
