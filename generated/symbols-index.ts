@@ -240,6 +240,7 @@ import _tunnel_diode_horz from "./../symbols/tunnel_diode_horz"
 import _tunnel_diode_vert from "./../symbols/tunnel_diode_vert"
 import _unijunction_transistor_horz from "./../symbols/unijunction_transistor_horz"
 import _unijunction_transistor_vert from "./../symbols/unijunction_transistor_vert"
+import _usbc from "./../symbols/usbc"
 import _var_meter_horz from "./../symbols/var_meter_horz"
 import _var_meter_vert from "./../symbols/var_meter_vert"
 import _varactor_diode_horz from "./../symbols/varactor_diode_horz"
@@ -504,6 +505,7 @@ export default {
   "tunnel_diode_vert": _tunnel_diode_vert,
   "unijunction_transistor_horz": _unijunction_transistor_horz,
   "unijunction_transistor_vert": _unijunction_transistor_vert,
+  "usbc": _usbc,
   "var_meter_horz": _var_meter_horz,
   "var_meter_vert": _var_meter_vert,
   "varactor_diode_horz": _varactor_diode_horz,
