@@ -104,8 +104,10 @@ import _inductor_down from "./../symbols/inductor_down"
 import _inductor_left from "./../symbols/inductor_left"
 import _inductor_right from "./../symbols/inductor_right"
 import _inductor_up from "./../symbols/inductor_up"
-import _laser_diode_horz from "./../symbols/laser_diode_horz"
-import _laser_diode_vert from "./../symbols/laser_diode_vert"
+import _laser_diode_down from "./../symbols/laser_diode_down"
+import _laser_diode_left from "./../symbols/laser_diode_left"
+import _laser_diode_right from "./../symbols/laser_diode_right"
+import _laser_diode_up from "./../symbols/laser_diode_up"
 import _led_down from "./../symbols/led_down"
 import _led_left from "./../symbols/led_left"
 import _led_right from "./../symbols/led_right"
@@ -371,8 +373,10 @@ export default {
   "inductor_left": _inductor_left,
   "inductor_right": _inductor_right,
   "inductor_up": _inductor_up,
-  "laser_diode_horz": _laser_diode_horz,
-  "laser_diode_vert": _laser_diode_vert,
+  "laser_diode_down": _laser_diode_down,
+  "laser_diode_left": _laser_diode_left,
+  "laser_diode_right": _laser_diode_right,
+  "laser_diode_up": _laser_diode_up,
   "led_down": _led_down,
   "led_left": _led_left,
   "led_right": _led_right,
