@@ -1,4 +1,8 @@
+import _ac_voltmeter_down from "./../symbols/ac_voltmeter_down"
 import _ac_voltmeter_horz from "./../symbols/ac_voltmeter_horz"
+import _ac_voltmeter_left from "./../symbols/ac_voltmeter_left"
+import _ac_voltmeter_right from "./../symbols/ac_voltmeter_right"
+import _ac_voltmeter_up from "./../symbols/ac_voltmeter_up"
 import _ac_voltmeter_vert from "./../symbols/ac_voltmeter_vert"
 import _avalanche_diode_down from "./../symbols/avalanche_diode_down"
 import _avalanche_diode_horz from "./../symbols/avalanche_diode_horz"
@@ -32,7 +36,11 @@ import _capacitor_polarized_right from "./../symbols/capacitor_polarized_right"
 import _capacitor_polarized_up from "./../symbols/capacitor_polarized_up"
 import _capacitor_right from "./../symbols/capacitor_right"
 import _capacitor_up from "./../symbols/capacitor_up"
+import _constant_current_diode_down from "./../symbols/constant_current_diode_down"
 import _constant_current_diode_horz from "./../symbols/constant_current_diode_horz"
+import _constant_current_diode_left from "./../symbols/constant_current_diode_left"
+import _constant_current_diode_right from "./../symbols/constant_current_diode_right"
+import _constant_current_diode_up from "./../symbols/constant_current_diode_up"
 import _constant_current_diode_vert from "./../symbols/constant_current_diode_vert"
 import _crystal_4pin_down from "./../symbols/crystal_4pin_down"
 import _crystal_4pin_left from "./../symbols/crystal_4pin_left"
@@ -46,7 +54,11 @@ import _darlington_pair_transistor_horz from "./../symbols/darlington_pair_trans
 import _darlington_pair_transistor_vert from "./../symbols/darlington_pair_transistor_vert"
 import _dc_ammeter_horz from "./../symbols/dc_ammeter_horz"
 import _dc_ammeter_vert from "./../symbols/dc_ammeter_vert"
+import _dc_voltmeter_down from "./../symbols/dc_voltmeter_down"
 import _dc_voltmeter_horz from "./../symbols/dc_voltmeter_horz"
+import _dc_voltmeter_left from "./../symbols/dc_voltmeter_left"
+import _dc_voltmeter_right from "./../symbols/dc_voltmeter_right"
+import _dc_voltmeter_up from "./../symbols/dc_voltmeter_up"
 import _dc_voltmeter_vert from "./../symbols/dc_voltmeter_vert"
 import _diac_horz from "./../symbols/diac_horz"
 import _diac_vert from "./../symbols/diac_vert"
@@ -74,7 +86,11 @@ import _ferrite_bead_down from "./../symbols/ferrite_bead_down"
 import _ferrite_bead_left from "./../symbols/ferrite_bead_left"
 import _ferrite_bead_right from "./../symbols/ferrite_bead_right"
 import _ferrite_bead_up from "./../symbols/ferrite_bead_up"
+import _filled_diode_down from "./../symbols/filled_diode_down"
 import _filled_diode_horz from "./../symbols/filled_diode_horz"
+import _filled_diode_left from "./../symbols/filled_diode_left"
+import _filled_diode_right from "./../symbols/filled_diode_right"
+import _filled_diode_up from "./../symbols/filled_diode_up"
 import _filled_diode_vert from "./../symbols/filled_diode_vert"
 import _frequency_meter_horz from "./../symbols/frequency_meter_horz"
 import _frequency_meter_vert from "./../symbols/frequency_meter_vert"
@@ -267,7 +283,11 @@ import _zener_diode_horz from "./../symbols/zener_diode_horz"
 import _zener_diode_vert from "./../symbols/zener_diode_vert"
 
 export default {
+  "ac_voltmeter_down": _ac_voltmeter_down,
   "ac_voltmeter_horz": _ac_voltmeter_horz,
+  "ac_voltmeter_left": _ac_voltmeter_left,
+  "ac_voltmeter_right": _ac_voltmeter_right,
+  "ac_voltmeter_up": _ac_voltmeter_up,
   "ac_voltmeter_vert": _ac_voltmeter_vert,
   "avalanche_diode_down": _avalanche_diode_down,
   "avalanche_diode_horz": _avalanche_diode_horz,
@@ -301,7 +321,11 @@ export default {
   "capacitor_polarized_up": _capacitor_polarized_up,
   "capacitor_right": _capacitor_right,
   "capacitor_up": _capacitor_up,
+  "constant_current_diode_down": _constant_current_diode_down,
   "constant_current_diode_horz": _constant_current_diode_horz,
+  "constant_current_diode_left": _constant_current_diode_left,
+  "constant_current_diode_right": _constant_current_diode_right,
+  "constant_current_diode_up": _constant_current_diode_up,
   "constant_current_diode_vert": _constant_current_diode_vert,
   "crystal_4pin_down": _crystal_4pin_down,
   "crystal_4pin_left": _crystal_4pin_left,
@@ -315,7 +339,11 @@ export default {
   "darlington_pair_transistor_vert": _darlington_pair_transistor_vert,
   "dc_ammeter_horz": _dc_ammeter_horz,
   "dc_ammeter_vert": _dc_ammeter_vert,
+  "dc_voltmeter_down": _dc_voltmeter_down,
   "dc_voltmeter_horz": _dc_voltmeter_horz,
+  "dc_voltmeter_left": _dc_voltmeter_left,
+  "dc_voltmeter_right": _dc_voltmeter_right,
+  "dc_voltmeter_up": _dc_voltmeter_up,
   "dc_voltmeter_vert": _dc_voltmeter_vert,
   "diac_horz": _diac_horz,
   "diac_vert": _diac_vert,
@@ -343,7 +371,11 @@ export default {
   "ferrite_bead_left": _ferrite_bead_left,
   "ferrite_bead_right": _ferrite_bead_right,
   "ferrite_bead_up": _ferrite_bead_up,
+  "filled_diode_down": _filled_diode_down,
   "filled_diode_horz": _filled_diode_horz,
+  "filled_diode_left": _filled_diode_left,
+  "filled_diode_right": _filled_diode_right,
+  "filled_diode_up": _filled_diode_up,
   "filled_diode_vert": _filled_diode_vert,
   "frequency_meter_horz": _frequency_meter_horz,
   "frequency_meter_vert": _frequency_meter_vert,

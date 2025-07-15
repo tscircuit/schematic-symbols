@@ -1,7 +1,8 @@
 import { modifySymbol } from "../drawing/modify-symbol/modify-symbol"
-import svgJson from "assets/generated/filled_diode.json"
+import svgJson from "assets/generated/constant_current_diode.json"
 
 const { paths, texts, bounds, refblocks, circles } = svgJson
+
 export default modifySymbol({
   primitives: [
     ...Object.values(paths),
@@ -9,14 +10,14 @@ export default modifySymbol({
     {
       type: "text",
       text: "{REF}",
-      x: 0.15,
+      x: -0,
       y: -0.2894553499999995,
     },
     {
       type: "text",
       text: "{VAL}",
-      x: -0.15,
-      y: -0.2894553499999995,
+      x: 0,
+      y: 0.3894553499999995,
     },
   ] as any,
   ports: [
@@ -26,9 +27,9 @@ export default modifySymbol({
   size: { width: bounds.width, height: bounds.height },
   center: { x: bounds.centerX, y: bounds.centerY },
 })
-  .rotateRightFacingSymbol("up")
+  .changeTextAnchor("{VAL}", "middle_bottom")
+  .rotateRightFacingSymbol("left")
   .labelPort("left1", ["1"])
   .labelPort("right1", ["2"])
-  .changeTextAnchor("{REF}", "middle_left")
-  .changeTextAnchor("{VAL}", "middle_left")
+  .changeTextAnchor("{REF}", "middle_bottom")
   .build()
