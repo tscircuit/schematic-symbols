@@ -20,9 +20,9 @@ export default modifySymbol({
     },
   ] as any,
   ports: [
-    { ...refblocks.top1, labels: ["1"] },
-    { ...refblocks.bottom1, labels: ["3"] },
-    { ...refblocks.left1, labels: ["2"] },
+    { ...refblocks.top1, labels: ["2"] },
+    { ...refblocks.bottom1, labels: ["1"] },
+    { ...refblocks.left1, labels: ["3"] },
   ],
   size: { width: bounds.width, height: bounds.height },
   center: { x: bounds.centerX, y: bounds.centerY },
