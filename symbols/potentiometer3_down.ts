@@ -1,22 +1,36 @@
-import { rotateSymbol } from "drawing/rotateSymbol"
-import potentiometer3_right from "./potentiometer3_right"
-import type { TextPrimitive } from "drawing"
+import { modifySymbol } from "../drawing/modify-symbol/modify-symbol"
+import svgJson from "assets/generated/potentiometer3.json"
 
-const symbol = rotateSymbol(potentiometer3_right, "down")
-
-const ref = symbol.primitives.find(
-  (p) => p.type === "text" && p.text === "{REF}",
-)! as TextPrimitive
-const val = symbol.primitives.find(
-  (p) => p.type === "text" && p.text === "{VAL}",
-)! as TextPrimitive
-
-ref.anchor = "middle_bottom"
-val.anchor = "middle_top"
-
-ref.y += 0.6
-ref.x = 0.35
-val.y -= 0
-val.x = 0.35
-
-export default symbol
+const { paths, texts, bounds, refblocks, circles } = svgJson
+export default modifySymbol({
+  primitives: [
+    ...Object.values(paths),
+    ...Object.values(circles),
+    {
+      type: "text",
+      text: "{REF}",
+      x: -0.15,
+      y: 0.2394553499999995,
+    },
+    {
+      type: "text",
+      text: "{VAL}",
+      x: 0.15,
+      y: 0.2394553499999995,
+    },
+  ] as any,
+  ports: [
+    { ...refblocks.left, labels: ["1"] },
+    { ...refblocks.right, labels: ["2"] },
+    { ...refblocks.bottom, labels: ["3"] },
+  ],
+  size: { width: bounds.width, height: bounds.height },
+  center: { x: bounds.centerX, y: bounds.centerY },
+})
+  .rotateRightFacingSymbol("down")
+  .labelPort("left", ["1"])
+  .labelPort("right", ["2"])
+  .labelPort("bottom", ["3"])
+  .changeTextAnchor("{REF}", "middle_left")
+  .changeTextAnchor("{VAL}", "middle_left")
+  .build()
