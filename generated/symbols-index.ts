@@ -36,7 +36,11 @@ import _capacitor_polarized_right from "./../symbols/capacitor_polarized_right"
 import _capacitor_polarized_up from "./../symbols/capacitor_polarized_up"
 import _capacitor_right from "./../symbols/capacitor_right"
 import _capacitor_up from "./../symbols/capacitor_up"
+import _constant_current_diode_down from "./../symbols/constant_current_diode_down"
 import _constant_current_diode_horz from "./../symbols/constant_current_diode_horz"
+import _constant_current_diode_left from "./../symbols/constant_current_diode_left"
+import _constant_current_diode_right from "./../symbols/constant_current_diode_right"
+import _constant_current_diode_up from "./../symbols/constant_current_diode_up"
 import _constant_current_diode_vert from "./../symbols/constant_current_diode_vert"
 import _crystal_4pin_down from "./../symbols/crystal_4pin_down"
 import _crystal_4pin_left from "./../symbols/crystal_4pin_left"
@@ -313,7 +317,11 @@ export default {
   "capacitor_polarized_up": _capacitor_polarized_up,
   "capacitor_right": _capacitor_right,
   "capacitor_up": _capacitor_up,
+  "constant_current_diode_down": _constant_current_diode_down,
   "constant_current_diode_horz": _constant_current_diode_horz,
+  "constant_current_diode_left": _constant_current_diode_left,
+  "constant_current_diode_right": _constant_current_diode_right,
+  "constant_current_diode_up": _constant_current_diode_up,
   "constant_current_diode_vert": _constant_current_diode_vert,
   "crystal_4pin_down": _crystal_4pin_down,
   "crystal_4pin_left": _crystal_4pin_left,
