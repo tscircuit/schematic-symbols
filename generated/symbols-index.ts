@@ -46,7 +46,11 @@ import _darlington_pair_transistor_horz from "./../symbols/darlington_pair_trans
 import _darlington_pair_transistor_vert from "./../symbols/darlington_pair_transistor_vert"
 import _dc_ammeter_horz from "./../symbols/dc_ammeter_horz"
 import _dc_ammeter_vert from "./../symbols/dc_ammeter_vert"
+import _dc_voltmeter_down from "./../symbols/dc_voltmeter_down"
 import _dc_voltmeter_horz from "./../symbols/dc_voltmeter_horz"
+import _dc_voltmeter_left from "./../symbols/dc_voltmeter_left"
+import _dc_voltmeter_right from "./../symbols/dc_voltmeter_right"
+import _dc_voltmeter_up from "./../symbols/dc_voltmeter_up"
 import _dc_voltmeter_vert from "./../symbols/dc_voltmeter_vert"
 import _diac_horz from "./../symbols/diac_horz"
 import _diac_vert from "./../symbols/diac_vert"
@@ -315,7 +319,11 @@ export default {
   "darlington_pair_transistor_vert": _darlington_pair_transistor_vert,
   "dc_ammeter_horz": _dc_ammeter_horz,
   "dc_ammeter_vert": _dc_ammeter_vert,
+  "dc_voltmeter_down": _dc_voltmeter_down,
   "dc_voltmeter_horz": _dc_voltmeter_horz,
+  "dc_voltmeter_left": _dc_voltmeter_left,
+  "dc_voltmeter_right": _dc_voltmeter_right,
+  "dc_voltmeter_up": _dc_voltmeter_up,
   "dc_voltmeter_vert": _dc_voltmeter_vert,
   "diac_horz": _diac_horz,
   "diac_vert": _diac_vert,
