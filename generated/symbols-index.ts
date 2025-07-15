@@ -1,4 +1,8 @@
+import _ac_voltmeter_down from "./../symbols/ac_voltmeter_down"
 import _ac_voltmeter_horz from "./../symbols/ac_voltmeter_horz"
+import _ac_voltmeter_left from "./../symbols/ac_voltmeter_left"
+import _ac_voltmeter_right from "./../symbols/ac_voltmeter_right"
+import _ac_voltmeter_up from "./../symbols/ac_voltmeter_up"
 import _ac_voltmeter_vert from "./../symbols/ac_voltmeter_vert"
 import _avalanche_diode_down from "./../symbols/avalanche_diode_down"
 import _avalanche_diode_horz from "./../symbols/avalanche_diode_horz"
@@ -271,7 +275,11 @@ import _zener_diode_horz from "./../symbols/zener_diode_horz"
 import _zener_diode_vert from "./../symbols/zener_diode_vert"
 
 export default {
+  "ac_voltmeter_down": _ac_voltmeter_down,
   "ac_voltmeter_horz": _ac_voltmeter_horz,
+  "ac_voltmeter_left": _ac_voltmeter_left,
+  "ac_voltmeter_right": _ac_voltmeter_right,
+  "ac_voltmeter_up": _ac_voltmeter_up,
   "ac_voltmeter_vert": _ac_voltmeter_vert,
   "avalanche_diode_down": _avalanche_diode_down,
   "avalanche_diode_horz": _avalanche_diode_horz,
