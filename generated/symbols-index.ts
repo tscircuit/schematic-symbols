@@ -86,7 +86,11 @@ import _ferrite_bead_down from "./../symbols/ferrite_bead_down"
 import _ferrite_bead_left from "./../symbols/ferrite_bead_left"
 import _ferrite_bead_right from "./../symbols/ferrite_bead_right"
 import _ferrite_bead_up from "./../symbols/ferrite_bead_up"
+import _filled_diode_down from "./../symbols/filled_diode_down"
 import _filled_diode_horz from "./../symbols/filled_diode_horz"
+import _filled_diode_left from "./../symbols/filled_diode_left"
+import _filled_diode_right from "./../symbols/filled_diode_right"
+import _filled_diode_up from "./../symbols/filled_diode_up"
 import _filled_diode_vert from "./../symbols/filled_diode_vert"
 import _frequency_meter_horz from "./../symbols/frequency_meter_horz"
 import _frequency_meter_vert from "./../symbols/frequency_meter_vert"
@@ -367,7 +371,11 @@ export default {
   "ferrite_bead_left": _ferrite_bead_left,
   "ferrite_bead_right": _ferrite_bead_right,
   "ferrite_bead_up": _ferrite_bead_up,
+  "filled_diode_down": _filled_diode_down,
   "filled_diode_horz": _filled_diode_horz,
+  "filled_diode_left": _filled_diode_left,
+  "filled_diode_right": _filled_diode_right,
+  "filled_diode_up": _filled_diode_up,
   "filled_diode_vert": _filled_diode_vert,
   "frequency_meter_horz": _frequency_meter_horz,
   "frequency_meter_vert": _frequency_meter_vert,
