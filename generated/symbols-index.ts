@@ -50,7 +50,11 @@ import _crystal_down from "./../symbols/crystal_down"
 import _crystal_left from "./../symbols/crystal_left"
 import _crystal_right from "./../symbols/crystal_right"
 import _crystal_up from "./../symbols/crystal_up"
+import _darlington_pair_transistor_down from "./../symbols/darlington_pair_transistor_down"
 import _darlington_pair_transistor_horz from "./../symbols/darlington_pair_transistor_horz"
+import _darlington_pair_transistor_left from "./../symbols/darlington_pair_transistor_left"
+import _darlington_pair_transistor_right from "./../symbols/darlington_pair_transistor_right"
+import _darlington_pair_transistor_up from "./../symbols/darlington_pair_transistor_up"
 import _darlington_pair_transistor_vert from "./../symbols/darlington_pair_transistor_vert"
 import _dc_ammeter_horz from "./../symbols/dc_ammeter_horz"
 import _dc_ammeter_vert from "./../symbols/dc_ammeter_vert"
@@ -60,7 +64,11 @@ import _dc_voltmeter_left from "./../symbols/dc_voltmeter_left"
 import _dc_voltmeter_right from "./../symbols/dc_voltmeter_right"
 import _dc_voltmeter_up from "./../symbols/dc_voltmeter_up"
 import _dc_voltmeter_vert from "./../symbols/dc_voltmeter_vert"
+import _diac_down from "./../symbols/diac_down"
 import _diac_horz from "./../symbols/diac_horz"
+import _diac_left from "./../symbols/diac_left"
+import _diac_right from "./../symbols/diac_right"
+import _diac_up from "./../symbols/diac_up"
 import _diac_vert from "./../symbols/diac_vert"
 import _diode_down from "./../symbols/diode_down"
 import _diode_left from "./../symbols/diode_left"
@@ -335,7 +343,11 @@ export default {
   "crystal_left": _crystal_left,
   "crystal_right": _crystal_right,
   "crystal_up": _crystal_up,
+  "darlington_pair_transistor_down": _darlington_pair_transistor_down,
   "darlington_pair_transistor_horz": _darlington_pair_transistor_horz,
+  "darlington_pair_transistor_left": _darlington_pair_transistor_left,
+  "darlington_pair_transistor_right": _darlington_pair_transistor_right,
+  "darlington_pair_transistor_up": _darlington_pair_transistor_up,
   "darlington_pair_transistor_vert": _darlington_pair_transistor_vert,
   "dc_ammeter_horz": _dc_ammeter_horz,
   "dc_ammeter_vert": _dc_ammeter_vert,
@@ -345,7 +357,11 @@ export default {
   "dc_voltmeter_right": _dc_voltmeter_right,
   "dc_voltmeter_up": _dc_voltmeter_up,
   "dc_voltmeter_vert": _dc_voltmeter_vert,
+  "diac_down": _diac_down,
   "diac_horz": _diac_horz,
+  "diac_left": _diac_left,
+  "diac_right": _diac_right,
+  "diac_up": _diac_up,
   "diac_vert": _diac_vert,
   "diode_down": _diode_down,
   "diode_left": _diode_left,

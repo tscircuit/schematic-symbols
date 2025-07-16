@@ -6,6 +6,7 @@ interface ModifySymbolBuilder {
   changeTextAnchor(
     text: "{REF}" | "{VAL}" | string,
     newAnchor: NinePointAnchor,
+    anchorPosition?: { x: number; y: number },
   ): ModifySymbolBuilder
   rotateRightFacingSymbol(
     newOrientation: "up" | "down" | "left" | "right",
@@ -25,6 +26,7 @@ class SymbolModifier implements ModifySymbolBuilder {
   changeTextAnchor(
     text: "{REF}" | "{VAL}" | string,
     newAnchor: NinePointAnchor,
+    anchorPosition?: { x: number; y: number },
   ): ModifySymbolBuilder {
     this.symbol = {
       ...this.symbol,
@@ -33,6 +35,12 @@ class SymbolModifier implements ModifySymbolBuilder {
           return {
             ...primitive,
             anchor: newAnchor,
+            ...(anchorPosition
+              ? {
+                  x: primitive.x + anchorPosition.x,
+                  y: primitive.y + anchorPosition.y,
+                }
+              : {}),
           }
         }
         return primitive
