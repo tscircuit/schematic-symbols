@@ -22,4 +22,10 @@
   
 <path d="M 1.3877787807814457e-16 -0.025000000000000112 L 0.02500000000000014 -1.1102230246251565e-16 L 1.3877787807814457e-16 0.02499999999999989 L -0.024999999999999863 -1.1102230246251565e-16 Z" fill="green" />
 <text x="-0.4061310649999993" y="-0.5377265500000002" style="font: 0.05px monospace; fill: #833;">0.81 x 1.08</text>
-<text x="-0.4061310649999993" y="-0.5377265500000002" style="font: 0.05px monospace; fill: #833;">0.81 x 1.08</text></svg>
+<text x="-0.4061310649999993" y="-0.5877265500000003" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [collector]</text>
+<text x="-0.4061310649999993" y="-0.6377265500000002" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [emitter]</text>
+<text x="-0.4061310649999993" y="-0.6877265500000003" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [base]</text>
+<text x="-0.4061310649999993" y="-0.5377265500000002" style="font: 0.05px monospace; fill: #833;">0.81 x 1.08</text>
+<text x="-0.4061310649999993" y="-0.5877265500000003" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [collector]</text>
+<text x="-0.4061310649999993" y="-0.6377265500000002" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [emitter]</text>
+<text x="-0.4061310649999993" y="-0.6877265500000003" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [base]</text></svg>
