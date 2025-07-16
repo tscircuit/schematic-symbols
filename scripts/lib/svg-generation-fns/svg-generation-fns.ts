@@ -20,7 +20,7 @@ const flipY = (y: number) => -y
 export async function processSvg(
   symbolsSvg: string,
   fileName?: string,
-  orientations: string[] = ["horz", "vert"],
+  orientations: string[] = ["right", "left", "up", "down", "horz", "vert"],
 ) {
   try {
     // Parse the entire SVG file once
@@ -155,30 +155,19 @@ export async function processSvg(
               console.log(`  - texts: ${Object.keys(texts).length}`)
               console.log(`  - paths: ${Object.keys(paths).length}`)
               console.log(`  - refblocks: ${Object.keys(refblocks).length}`)
-            } else if (!hasSourceFile && isReadyForGen) {
-              console.log(`Creating ${orientation} source file: ${outputPath}`)
-              const content = getTsFileContentForSvgGroup(
-                groupId,
-                svgData as any,
-              )
-              fs.writeFileSync(outputPath, content)
-
-              if (orientations.length > 1) {
-                for (let i = 1; i < orientations.length; i++) {
-                  const newOrientation = orientations[i]
-                  const orientedOutputPath = `./symbols/${groupId}_${newOrientation}.ts`
-                  console.log(
-                    `Creating ${newOrientation} source file: ${orientedOutputPath}`,
-                  )
-                  const orientedContent = `import { rotateSymbol } from "drawing/rotateSymbol"\nimport ${groupId}_${defaultOrientation} from "./${groupId}_${defaultOrientation}"\n\nexport default rotateSymbol(${groupId}_${defaultOrientation}, "${newOrientation == "vert" ? "up" : newOrientation}")`
-                  fs.writeFileSync(orientedOutputPath, orientedContent)
-                }
-              }
-            } else {
-              console.log(
-                `Skipping generation for ${groupId}_${orientation}.ts as it already exists or lacks required elements`,
-              )
+              return
             }
+            console.log(`Creating ${orientation} source file: ${outputPath}`)
+
+            // call the new fn with orientation
+            const content = getTsFileContentForSvgGroup(
+              groupId,
+              svgData as any,
+              orientation,
+            )
+
+            fs.writeFileSync(outputPath, content)
+            console.log(`Source file created: ${outputPath}`)
           })
         } catch (err: any) {
           console.log(`Error processing ${groupId}: ${err.message}`)
