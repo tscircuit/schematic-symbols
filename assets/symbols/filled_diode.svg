@@ -1,138 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
-<svg
-   width="30mm"
-   height="30mm"
-   viewBox="0 0 30 30"
-   version="1.1"
-   id="svg1"
-   inkscape:version="1.4 (1:1.4+202410161351+e7c3feb100)"
-   sodipodi:docname="filled_diode.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview1"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="false"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm"
-     inkscape:zoom="10.086627"
-     inkscape:cx="50.80985"
-     inkscape:cy="63.747772"
-     inkscape:window-width="1247"
-     inkscape:window-height="758"
-     inkscape:window-x="26"
-     inkscape:window-y="23"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="potentiometer"
-     showgrid="true">
-    <inkscape:grid
-       id="grid207"
-       units="mm"
-       originx="0"
-       originy="0"
-       spacingx="10"
-       spacingy="10"
-       empcolor="#0099e5"
-       empopacity="0.30196078"
-       color="#0099e5"
-       opacity="0.14901961"
-       empspacing="5"
-       dotted="false"
-       gridanglex="30"
-       gridanglez="30"
-       visible="true" />
-  </sodipodi:namedview>
-  <defs
-     id="defs1" />
-  <g
-     inkscape:label="root"
-     inkscape:groupmode="layer"
-     id="root">
-    <g
-       id="potentiometer"
-       transform="rotate(90,-19.246732,-62.458284)"
-       inkscape:label="silicon_controlled_rectifier">
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.291663px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 58.287027,-91.783515 v -3.215132"
-         id="path11"
-         inkscape:connector-curvature="0" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.291111;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-         d="m 58.208334,-98.643543 v -3.192907"
-         id="path12"
-         inkscape:connector-curvature="0" />
-      <text
-         xml:space="preserve"
-         style="font-size:1.05833px;fill:#000000;stroke-width:0.264583"
-         x="96.307785"
-         y="54.929585"
-         id="text14"
-         transform="rotate(-90)"
-         inkscape:transform-center-x="0.73447083"
-         inkscape:transform-center-y="-0.052462202"><tspan
-           sodipodi:role="line"
-           id="tspan14"
-           style="font-size:1.05833px;stroke-width:0.264583"
-           x="96.307785"
-           y="54.929585">{REF}</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:1.06705px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.266764"
-         x="95.724266"
-         y="63.047173"
-         id="text14-3"
-         transform="matrix(0,-1.0082413,0.99182606,0,0,0)"><tspan
-           sodipodi:role="line"
-           id="tspan14-1"
-           style="font-size:1.06705px;text-align:center;text-anchor:middle;stroke-width:0.266764"
-           x="95.724266"
-           y="63.047173">{VAL}</tspan></text>
-      <circle
-         style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-         id="refblock-5"
-         cx="91.595161"
-         cy="58.295555"
-         r="0.28158441"
-         transform="rotate(-90)" />
-      <circle
-         style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-         id="refblock-5-7"
-         cx="101.95097"
-         cy="58.206898"
-         r="0.28158441"
-         transform="rotate(-90)" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.30677;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-         d="m 60.224489,-98.595008 -4.03217,0.01106"
-         id="path12-6"
-         inkscape:connector-curvature="0" />
-      <path
-         style="fill:#000000;stroke:#000000;stroke-width:0.295537px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
-         d="m 55.997723,-95.071435 4.226839,0.02067 -1.996172,-3.525922 -2.241981,3.466107"
-         id="path11-0-9"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cccc" />
-      <text
-         xml:space="preserve"
-         style="font-size:3.175px;fill:#000000;stroke-width:0.264583"
-         x="103.08337"
-         y="62.019253"
-         id="text1"
-         transform="rotate(-90)"><tspan
-           sodipodi:role="line"
-           id="tspan1"
-           style="stroke-width:0.264583"
-           x="103.08337"
-           y="62.019253" /></text>
-    </g>
-  </g>
-</svg>
+<svg width="150" height="150" viewBox="-0.6457168795000006 -0.5392944795364182 1.2063522000000009 0.9826928399999988" xmlns="http://www.w3.org/2000/svg"><path d="M-0.541495829500001,-0.044368009536419395 L-0.21998262950000114,-0.044368009536419395" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.14450697049999905,-0.052237309536419474 L0.46379767049999976,-0.052237309536419474" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.13965347050000032,0.14937819046358025 L0.13854747050000027,-0.2538388095364199" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.2222,-0.2602 L-0.2222,0.1598 L0.13782137049999887,-0.050231709536419755 L-0.2222,-0.2602" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="0" y="-0.4094553499999995" dx="0" dy="0" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.0125" y="-0.4219553499999995" width="0.025" height="0.025" fill="blue" />
+    <text x="0" y="0.4094553499999995" dx="0" dy="0.07500000000000001" text-anchor="middle" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.0125" y="0.3969553499999995" width="0.025" height="0.025" fill="blue" />
+
+    <rect x="-0.5853312294999999" y="-0.06851520953641885" width="0.05" height="0.05" fill="red" />
+    <text x="-0.6003312295" y="0.04648479046358115" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
+  
+    
+    <rect x="0.45024967049999953" y="-0.07738090953641871" width="0.05" height="0.05" fill="red" />
+    <text x="0.4352496704999996" y="0.037619090463581285" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+  
+<path d="M -0.04254077950000018 -0.07294805953641878 L -0.01754077950000018 -0.047948059536418786 L -0.04254077950000018 -0.022948059536418784 L -0.06754077950000018 -0.047948059536418786 Z" fill="green" />
+<text x="-0.5451875295000006" y="-0.3615072904635807" style="font: 0.05px monospace; fill: #833;">1.01 x 0.82</text>
+<text x="-0.5451875295000006" y="-0.3615072904635807" style="font: 0.05px monospace; fill: #833;">1.01 x 0.82</text></svg>
