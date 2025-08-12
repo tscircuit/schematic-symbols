@@ -9,12 +9,12 @@
   "scripts": {
     "start": "bun run build && bun --hot run dev-server.ts",
     "dev": "bun run start",
-    "build": "bunx make-vfs ./symbols --content-format import-default --outfile ./generated/symbols-index.ts && tsup-node ./index.ts --format esm --dts --sourcemap && bun run scripts/generate-base-symbol-names.ts",
+    "build": "bun make-vfs ./symbols --content-format import-default --outfile ./generated/symbols-index.ts && tsup-node ./index.ts --format esm --dts --sourcemap && bun run scripts/generate-base-symbol-names.ts",
     "test": "bun run build && bun test",
     "generate": "bun run scripts/generate-symbol-from-asset-svg.ts && bun run format",
     "generate:all": "bun run scripts/generate-symbols-from-asset-svgs.ts && bun run format",
-    "format:check": "bunx biome format",
-    "format": "bunx biome format . --write",
+    "format:check": "bun biome format",
+    "format": "bun biome format . --write",
     "vercel-build": "bun run build && bun run ./scripts/build.ts",
     "prepare": "husky",
     "snapshot:validate": "bun run scripts/validate-snapshots.ts"
