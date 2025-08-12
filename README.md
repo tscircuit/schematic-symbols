@@ -88,6 +88,7 @@ in the same schematic.
   right.
 - If a device is polarized, number the pins from **positive** to **negative** in
   that same direction.
+- Increase the pin numbers for the symbol in counter clockwise direction.
 
 ### Development
 
