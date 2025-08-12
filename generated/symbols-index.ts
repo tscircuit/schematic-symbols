@@ -202,7 +202,11 @@ import _resistor_down from "./../symbols/resistor_down"
 import _resistor_left from "./../symbols/resistor_left"
 import _resistor_right from "./../symbols/resistor_right"
 import _resistor_up from "./../symbols/resistor_up"
+import _resonator_down from "./../symbols/resonator_down"
 import _resonator_horz from "./../symbols/resonator_horz"
+import _resonator_left from "./../symbols/resonator_left"
+import _resonator_right from "./../symbols/resonator_right"
+import _resonator_up from "./../symbols/resonator_up"
 import _resonator_vert from "./../symbols/resonator_vert"
 import _schottky_diode_down from "./../symbols/schottky_diode_down"
 import _schottky_diode_left from "./../symbols/schottky_diode_left"
@@ -495,7 +499,11 @@ export default {
   "resistor_left": _resistor_left,
   "resistor_right": _resistor_right,
   "resistor_up": _resistor_up,
+  "resonator_down": _resonator_down,
   "resonator_horz": _resonator_horz,
+  "resonator_left": _resonator_left,
+  "resonator_right": _resonator_right,
+  "resonator_up": _resonator_up,
   "resonator_vert": _resonator_vert,
   "schottky_diode_down": _schottky_diode_down,
   "schottky_diode_left": _schottky_diode_left,
