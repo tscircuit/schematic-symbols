@@ -24,7 +24,7 @@
     "@types/bun": "latest",
     "@types/prompts": "^2.4.9",
     "@types/svg-path-parser": "^1.1.6",
-    "bun-match-svg": "^0.0.6",
+    "bun-match-svg": "^0.0.12",
     "husky": "^9.1.7",
     "kleur": "^4.1.5",
     "make-vfs": "1.0.15",
