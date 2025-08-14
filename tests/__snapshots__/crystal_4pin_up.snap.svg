@@ -26,11 +26,11 @@
   
     
     <rect x="0.6864137499999998" y="-0.001448550000000038" width="0.05" height="0.05" fill="red" />
-    <text x="0.6714137499999998" y="0.11355144999999997" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">4</text>
+    <text x="0.6714137499999998" y="0.11355144999999997" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
   
     
     <rect x="-0.7364137500000005" y="-0.028209250000000206" width="0.05" height="0.05" fill="red" />
-    <text x="-0.7514137500000005" y="0.0867907499999998" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+    <text x="-0.7514137500000005" y="0.0867907499999998" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">4</text>
   
 <path d="M -3.3306690738754696e-16 -0.025 L 0.02499999999999967 0 L -3.3306690738754696e-16 0.025 L -0.025000000000000334 0 Z" fill="green" />
 <text x="-0.7090264999999997" y="-0.5291666500000001" style="font: 0.05px monospace; fill: #833;">1.42 x 1.06</text>
