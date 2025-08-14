@@ -21,11 +21,11 @@
     <text x="0.5369813499999994" y="0.2786840499999975" dx="0" dy="0.1" text-anchor="start" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="0.5244813499999994" y="0.2661840499999975" width="0.025" height="0.025" fill="blue" />
 
     <rect x="-0.02179075000000017" y="-0.7364137500000002" width="0.05" height="0.05" fill="red" />
-    <text x="-0.03679075000000017" y="-0.6214137500000001" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+    <text x="-0.03679075000000017" y="-0.6214137500000001" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">4</text>
   
     
     <rect x="-0.04855145000000025" y="0.6864137500000002" width="0.05" height="0.05" fill="red" />
-    <text x="-0.06355145000000026" y="0.8014137500000003" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">4</text>
+    <text x="-0.06355145000000026" y="0.8014137500000003" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
   
     
     <rect x="-0.5665391500000004" y="-0.01892925000000254" width="0.05" height="0.05" fill="red" />
@@ -37,8 +37,8 @@
   
 <path d="M -3.3306690738754696e-16 -0.025 L 0.02499999999999967 0 L -3.3306690738754696e-16 0.025 L -0.025000000000000334 0 Z" fill="green" />
 <text x="-0.5367147000000001" y="-0.7090264999999993" style="font: 0.05px monospace; fill: #833;">1.07 x 1.42</text>
-<text x="-0.5367147000000001" y="-0.7590264999999994" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [gnd1]</text>
-<text x="-0.5367147000000001" y="-0.8090264999999993" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [gnd2]</text>
+<text x="-0.5367147000000001" y="-0.7590264999999994" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [gnd1]</text>
+<text x="-0.5367147000000001" y="-0.8090264999999993" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [gnd2]</text>
 <text x="-0.5367147000000001" y="-0.7090264999999993" style="font: 0.05px monospace; fill: #833;">1.07 x 1.42</text>
-<text x="-0.5367147000000001" y="-0.7590264999999994" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [gnd1]</text>
-<text x="-0.5367147000000001" y="-0.8090264999999993" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [gnd2]</text></svg>
+<text x="-0.5367147000000001" y="-0.7590264999999994" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [gnd1]</text>
+<text x="-0.5367147000000001" y="-0.8090264999999993" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [gnd2]</text></svg>
