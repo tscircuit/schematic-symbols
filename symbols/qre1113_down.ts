@@ -1,4 +1,5 @@
 import { rotateSymbol } from "drawing/rotateSymbol"
-import qre1113_left from "./qre1113_left"
+import qre1113_horz from "./qre1113_horz"
 
-export default rotateSymbol(qre1113_left)
+// Apply appropriate rotation to get the down orientation
+export default rotateSymbol(rotateSymbol(rotateSymbol(qre1113_horz)))
