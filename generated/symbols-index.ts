@@ -196,6 +196,12 @@ import _push_button_normally_closed_momentary_horz from "./../symbols/push_butto
 import _push_button_normally_closed_momentary_vert from "./../symbols/push_button_normally_closed_momentary_vert"
 import _push_button_normally_open_momentary_horz from "./../symbols/push_button_normally_open_momentary_horz"
 import _push_button_normally_open_momentary_vert from "./../symbols/push_button_normally_open_momentary_vert"
+import _qre1113_down from "./../symbols/qre1113_down"
+import _qre1113_horz from "./../symbols/qre1113_horz"
+import _qre1113_left from "./../symbols/qre1113_left"
+import _qre1113_right from "./../symbols/qre1113_right"
+import _qre1113_up from "./../symbols/qre1113_up"
+import _qre1113_vert from "./../symbols/qre1113_vert"
 import _rectifier_diode_horz from "./../symbols/rectifier_diode_horz"
 import _rectifier_diode_vert from "./../symbols/rectifier_diode_vert"
 import _resistor_down from "./../symbols/resistor_down"
@@ -493,6 +499,12 @@ export default {
   "push_button_normally_closed_momentary_vert": _push_button_normally_closed_momentary_vert,
   "push_button_normally_open_momentary_horz": _push_button_normally_open_momentary_horz,
   "push_button_normally_open_momentary_vert": _push_button_normally_open_momentary_vert,
+  "qre1113_down": _qre1113_down,
+  "qre1113_horz": _qre1113_horz,
+  "qre1113_left": _qre1113_left,
+  "qre1113_right": _qre1113_right,
+  "qre1113_up": _qre1113_up,
+  "qre1113_vert": _qre1113_vert,
   "rectifier_diode_horz": _rectifier_diode_horz,
   "rectifier_diode_vert": _rectifier_diode_vert,
   "resistor_down": _resistor_down,
