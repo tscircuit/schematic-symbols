@@ -20,11 +20,11 @@
   
     
     <rect x="1.8886198" y="1.8936678150000004" width="0.05" height="0.05" fill="red" />
-    <text x="1.8736198" y="2.0086678150000004" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+    <text x="1.8736198" y="2.0086678150000004" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
   
     
     <rect x="1.5262342000000002" y="1.2635074150000007" width="0.05" height="0.05" fill="red" />
-    <text x="1.5112342" y="1.3785074150000007" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
+    <text x="1.5112342" y="1.3785074150000007" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
   
 <path d="M 1.9636062500000002 1.5277691795000004 L 1.9886062500000001 1.5527691795000003 L 1.9636062500000002 1.5777691795000002 L 1.9386062500000003 1.5527691795000003 Z" fill="green" />
 <text x="1.5611563000000004" y="-1.9268851945000003" style="font: 0.05px monospace; fill: #833;">0.80 x 0.75</text>
