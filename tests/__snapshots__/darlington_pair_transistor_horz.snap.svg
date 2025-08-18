@@ -16,15 +16,13 @@
     <circle cx="2.0463372145000003" cy="1.5363384295000002" r="0.29977763" fill="none" stroke="black" stroke-width="0.02" />
 
     <rect x="2.2028617145000005" y="1.9401412295000005" width="0.05" height="0.05" fill="red" />
-    <text x="2.1878617145000003" y="2.0551412295" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
-  
-    
+    <text x="2.1878617145000003" y="2.0551412295" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
+
     <rect x="1.5727076145000003" y="1.4777827295000003" width="0.05" height="0.05" fill="red" />
-    <text x="1.5577076145000002" y="1.5927827295000003" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
-  
-    
+    <text x="1.5577076145000002" y="1.5927827295000003" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
+
     <rect x="2.2028680145" y="1.1153971295000003" width="0.05" height="0.05" fill="red" />
-    <text x="2.1878680145" y="1.2303971295000002" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
+    <text x="2.1878680145" y="1.2303971295000002" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
   
 <path d="M 1.9636062500000002 1.5277691795000004 L 1.9886062500000001 1.5527691795000003 L 1.9636062500000002 1.5777691795000002 L 1.9386062500000003 1.5527691795000003 Z" fill="green" />
 <text x="1.5894902350000002" y="-1.9617564295000003" style="font: 0.05px monospace; fill: #833;">0.75 x 0.82</text>
