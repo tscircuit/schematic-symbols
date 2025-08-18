@@ -15,12 +15,12 @@
     <text x="2.3776062" y="1.323700944" dx="0" dy="0.037500000000000006" text-anchor="start" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="2.3651061999999996" y="1.311200944" width="0.025" height="0.025" fill="blue" />
     <circle cx="1.980037" cy="1.6355001440000003" r="0.29977763" fill="none" stroke="black" stroke-width="0.02" />
 
-    <rect x="1.5262342" y="1.7920246440000005" width="0.05" height="0.05" fill="red" />
-    <text x="1.5112341999999999" y="1.9070246440000005" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
-  
-    
     <rect x="1.9885926999999999" y="1.1618705440000003" width="0.05" height="0.05" fill="red" />
-    <text x="1.9735926999999998" y="1.2768705440000003" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+    <text x="1.9735926999999998" y="1.2768705440000003" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
+
+
+    <rect x="1.5262342" y="1.7920246440000005" width="0.05" height="0.05" fill="red" />
+    <text x="1.5112341999999999" y="1.9070246440000005" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
   
     
     <rect x="2.3509783" y="1.792030944" width="0.05" height="0.05" fill="red" />
