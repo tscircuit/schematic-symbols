@@ -25,11 +25,11 @@ test("resizes circle radius and text font size", () => {
   })
 
   const circle = scaled.primitives.find(
-    (p): p is typeof symbol.primitives[number] & { type: "circle" } =>
+    (p): p is (typeof symbol.primitives)[number] & { type: "circle" } =>
       p.type === "circle",
   )
   const text = scaled.primitives.find(
-    (p): p is typeof symbol.primitives[number] & { type: "text" } =>
+    (p): p is (typeof symbol.primitives)[number] & { type: "text" } =>
       p.type === "text",
   )
 
