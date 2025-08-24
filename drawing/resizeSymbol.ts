@@ -8,12 +8,12 @@ export function resizeSymbol(
   let scaleX = 1,
     scaleY = 1
 
-  if (newSize.width && newSize.height) {
+  if (newSize.width !== undefined && newSize.height !== undefined) {
     scaleX = newSize.width / oldWidth
     scaleY = newSize.height / oldHeight
-  } else if (newSize.width) {
+  } else if (newSize.width !== undefined) {
     scaleX = scaleY = newSize.width / oldWidth
-  } else if (newSize.height) {
+  } else if (newSize.height !== undefined) {
     scaleX = scaleY = newSize.height / oldHeight
   }
 
