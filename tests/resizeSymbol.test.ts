@@ -37,4 +37,3 @@ describe("resizeSymbol", () => {
     expect(resized.size.height).toBe(0)
   })
 })
-
