@@ -28,11 +28,20 @@ export function resizeSymbol(
           })),
         }
       case "text":
+        return {
+          ...primitive,
+          x: primitive.x * scaleX,
+          y: primitive.y * scaleY,
+          fontSize: primitive.fontSize
+            ? primitive.fontSize * scaleX
+            : undefined,
+        }
       case "circle":
         return {
           ...primitive,
           x: primitive.x * scaleX,
           y: primitive.y * scaleY,
+          radius: primitive.radius * scaleX,
         }
       case "box":
         return {
