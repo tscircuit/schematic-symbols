@@ -1,28 +1,46 @@
 {
   "paths": {
-     "diag1": {
-    "type": "path",
-    "points": [
-      { "x": -0.1, "y": -0.1 },
-      { "x": 0.1, "y": 0.1 }
-    ],
-    "color": "primary",
-    "fill": false
-  },
-  "diag2": {
-    "type": "path",
-    "points": [
-      { "x": -0.1, "y": 0.1 },
-      { "x": 0.1, "y": -0.1 }
-    ],
-    "color": "primary",
-    "fill": false
-  },
+    "diag1": {
+      "type": "path",
+      "points": [
+        {
+          "x": -0.1,
+          "y": -0.1
+        },
+        {
+          "x": 0.1,
+          "y": 0.1
+        }
+      ],
+      "color": "primary",
+      "fill": false
+    },
+    "diag2": {
+      "type": "path",
+      "points": [
+        {
+          "x": -0.1,
+          "y": 0.1
+        },
+        {
+          "x": 0.1,
+          "y": -0.1
+        }
+      ],
+      "color": "primary",
+      "fill": false
+    },
     "stem": {
       "type": "path",
       "points": [
-        { "x": -0.2, "y": 0 },
-        { "x": 0, "y": 0 }
+        {
+          "x": -0.2,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        }
       ],
       "color": "primary",
       "fill": false
@@ -30,11 +48,14 @@
   },
   "texts": {},
   "refblocks": {
-    "left1": { "x": -0.2, "y": 0 }
+    "left1": {
+      "x": -0.2,
+      "y": 0
+    }
   },
   "bounds": {
-    "minX": -0.195,
-    "maxX": 0.195,
+    "minX": -0.19,
+    "maxX": 0.2,
     "minY": -0.12,
     "maxY": 0.12,
     "width": 0.39,
