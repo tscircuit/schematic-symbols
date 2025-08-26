@@ -254,6 +254,10 @@ import _spst_switch_down from "./../symbols/spst_switch_down"
 import _spst_switch_left from "./../symbols/spst_switch_left"
 import _spst_switch_right from "./../symbols/spst_switch_right"
 import _spst_switch_up from "./../symbols/spst_switch_up"
+import _square_wave_down from "./../symbols/square_wave_down"
+import _square_wave_left from "./../symbols/square_wave_left"
+import _square_wave_right from "./../symbols/square_wave_right"
+import _square_wave_up from "./../symbols/square_wave_up"
 import _step_recovery_diode_horz from "./../symbols/step_recovery_diode_horz"
 import _step_recovery_diode_vert from "./../symbols/step_recovery_diode_vert"
 import _tachometer_horz from "./../symbols/tachometer_horz"
@@ -551,6 +555,10 @@ export default {
   "spst_switch_left": _spst_switch_left,
   "spst_switch_right": _spst_switch_right,
   "spst_switch_up": _spst_switch_up,
+  "square_wave_down": _square_wave_down,
+  "square_wave_left": _square_wave_left,
+  "square_wave_right": _square_wave_right,
+  "square_wave_up": _square_wave_up,
   "step_recovery_diode_horz": _step_recovery_diode_horz,
   "step_recovery_diode_vert": _step_recovery_diode_vert,
   "tachometer_horz": _tachometer_horz,
