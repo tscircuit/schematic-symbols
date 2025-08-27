@@ -21,4 +21,8 @@
   
 <path d="M 0 -0.05203399999999967 L 0.025 -0.02703399999999967 L 0 -0.002033999999999668 L -0.025 -0.02703399999999967 Z" fill="green" />
 <text x="-0.21983375000000005" y="-0.41302005000000086" style="font: 0.05px monospace; fill: #833;">0.44 x 0.88</text>
-<text x="-0.21983375000000005" y="-0.41302005000000086" style="font: 0.05px monospace; fill: #833;">0.44 x 0.88</text></svg>
+<text x="-0.21983375000000005" y="-0.46302005000000085" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [pos]</text>
+<text x="-0.21983375000000005" y="-0.5130200500000008" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [neg]</text>
+<text x="-0.21983375000000005" y="-0.41302005000000086" style="font: 0.05px monospace; fill: #833;">0.44 x 0.88</text>
+<text x="-0.21983375000000005" y="-0.46302005000000085" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [pos]</text>
+<text x="-0.21983375000000005" y="-0.5130200500000008" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [neg]</text></svg>
