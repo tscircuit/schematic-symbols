@@ -1,8 +1,9 @@
 import { getSvg } from "drawing/getSvg"
 import symbols from "./generated/symbols-index"
 import { generateWebPage } from "./scripts/lib/generate-web-page"
+import { logger } from "./logger"
 
-console.log(`Serving on http://localhost:3077`)
+logger.info("Serving", { url: "http://localhost:3077" })
 Bun.serve({
   port: 3077,
   async fetch(req) {

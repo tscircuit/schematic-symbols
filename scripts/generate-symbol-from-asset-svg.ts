@@ -2,6 +2,7 @@ import { processSvg } from "./lib/svg-generation-fns/svg-generation-fns"
 import fs from "fs"
 import path from "path"
 import prompts from "prompts"
+import { logger } from "../logger"
 
 async function main() {
   const symbolsDir = path.join(import.meta.dir, "..", "assets", "symbols")
@@ -44,11 +45,11 @@ async function main() {
         directionResponse.direction,
       )
     } else {
-      console.log("No orientation selected. Exiting.")
+      logger.warn("No orientation selected. Exiting.")
     }
   } else {
-    console.log("No file selected. Exiting.")
+    logger.warn("No file selected. Exiting.")
   }
 }
 
-main().catch(console.error)
+main().catch((err) => logger.error("Error generating symbol", { error: err }))

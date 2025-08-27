@@ -1,6 +1,7 @@
 import type { Point } from "./types"
 import { approximateArc } from "./arc"
 import { approximateBezier } from "./cubicBezierCurveArc"
+import { logger } from "../logger"
 
 export function svgPathToPoints(pathString: string): Point[] {
   const points: Point[] = []
@@ -77,7 +78,7 @@ export function svgPathToPoints(pathString: string): Point[] {
         break
       // Add cases for other commands (S, T) if needed
       default:
-        console.warn(`Unsupported SVG command: ${type}`)
+        logger.warn("Unsupported SVG command", { type })
     }
 
     // Handle relative commands

@@ -8,7 +8,7 @@ import { applyGroupTransformsToChildren } from "../applyGroupTransformsToChildre
 import { findInnerText } from "../findInnerText"
 import { getBoundsOfSvgJson } from "../getBoundsOfSvgJson"
 import { getTsFileContentForSvgGroup } from "../getTsFileContentForSvgGroup"
-import kleur from "kleur"
+import { logger } from "../../../logger"
 
 const SOURCE_IGNORE_LIST = ["testshape"]
 
@@ -32,7 +32,7 @@ export async function processSvg(
     )
 
     if (!rootGroup) {
-      console.error("Root group not found")
+      logger.error("Root group not found")
       return
     }
 
@@ -131,7 +131,7 @@ export async function processSvg(
             circles,
           }
 
-          console.log(`Writing to file: ${kleur.green(filePath)}`)
+          logger.info("Writing to file", { filePath })
           fs.writeFileSync(filePath, JSON.stringify(svgData, null, 2))
 
           if (SOURCE_IGNORE_LIST.includes(groupId)) {
@@ -149,15 +149,15 @@ export async function processSvg(
               Object.keys(refblocks).length > 0
 
             if (!hasSourceFile && !isReadyForGen) {
-              console.log(
-                `Skipping ${groupId} because it's not ready for generation (missing some elements)`,
-              )
-              console.log(`  - texts: ${Object.keys(texts).length}`)
-              console.log(`  - paths: ${Object.keys(paths).length}`)
-              console.log(`  - refblocks: ${Object.keys(refblocks).length}`)
+              logger.info("Skipping group", {
+                groupId,
+                texts: Object.keys(texts).length,
+                paths: Object.keys(paths).length,
+                refblocks: Object.keys(refblocks).length,
+              })
               return
             }
-            console.log(`Creating ${orientation} source file: ${outputPath}`)
+            logger.info("Creating source file", { orientation, outputPath })
 
             // call the new fn with orientation
             const content = getTsFileContentForSvgGroup(
@@ -167,14 +167,17 @@ export async function processSvg(
             )
 
             fs.writeFileSync(outputPath, content)
-            console.log(`Source file created: ${outputPath}`)
+            logger.info("Source file created", { outputPath })
           })
         } catch (err: any) {
-          console.log(`Error processing ${groupId}: ${err.message}`)
+          logger.error("Error processing group", {
+            groupId,
+            error: err.message,
+          })
         }
       })
   } catch (error) {
-    console.error("Error processing SVG:", error)
+    logger.error("Error processing SVG", { error })
   }
 }
 
@@ -193,10 +196,10 @@ export async function processAllSvgs() {
         const data = await fs.promises.readFile(filePath, "utf8")
         await processSvg(data)
       } catch (err) {
-        console.error(`Error reading file ${filePath}:`, err)
+        logger.error("Error reading file", { filePath, error: err })
       }
     }
   } catch (err) {
-    console.error(`Error reading directory ${svgDir}:`, err)
+    logger.error("Error reading directory", { directory: svgDir, error: err })
   }
 }

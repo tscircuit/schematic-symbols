@@ -3,6 +3,7 @@ import { generateWebPage } from "./lib/generate-web-page"
 import fs from "fs"
 import symbols from "generated/symbols-index"
 import path from "path/posix"
+import { logger } from "../logger"
 
 const distDir = path.join(process.cwd(), "public")
 
@@ -30,4 +31,4 @@ for (const symbolName in symbols) {
   )
 }
 
-console.log("Static HTML file generated at public/index.html")
+logger.info("Static HTML file generated", { path: "public/index.html" })

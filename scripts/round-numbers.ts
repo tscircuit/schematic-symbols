@@ -1,6 +1,7 @@
 #!/usr/bin/env bun
 import { readdir, readFile, writeFile } from "fs/promises"
 import { join } from "path"
+import { logger } from "../logger"
 
 function roundToTwoDecimals(num: number): number {
   return Math.round(num * 100) / 100
@@ -37,12 +38,12 @@ async function processJsonFiles(dir: string) {
         await writeFile(filePath, JSON.stringify(roundedData, null, 2))
         processedCount++
       } catch (error) {
-        console.error(`Error processing ${file}:`, error)
+        logger.error("Error processing file", { file, error })
       }
     }
   }
 
-  console.log(`Processed ${processedCount} JSON files in ${dir}`)
+  logger.info("Processed JSON files", { count: processedCount, dir })
 }
 
 // Process assets/generated directory

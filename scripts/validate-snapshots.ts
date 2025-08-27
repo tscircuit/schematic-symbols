@@ -1,6 +1,7 @@
 import fs from "fs"
 import path from "path"
 import symbols from "../generated/symbols-index"
+import { logger } from "../logger"
 
 function validateSnapshots() {
   const missingSnapshots: string[] = []
@@ -17,12 +18,11 @@ function validateSnapshots() {
   }
 
   if (missingSnapshots.length > 0) {
-    console.error("Error: Snapshots missing for the following symbols:")
-    missingSnapshots.forEach((symbol) => console.error(`- ${symbol}`))
+    logger.error("Snapshots missing", { symbols: missingSnapshots })
     process.exit(1)
   }
 
-  console.log("All symbol snapshots are present.")
+  logger.info("All symbol snapshots are present")
 }
 
 validateSnapshots()
