@@ -25,20 +25,20 @@
   
     
     <rect x="-0.5650000000000001" y="0.10500000000000001" width="0.05" height="0.05" fill="red" />
-    <text x="-0.5800000000000001" y="0.22" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">4</text>
+    <text x="-0.5800000000000001" y="0.22" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
   
     
     <rect x="-0.5650000000000001" y="-0.155" width="0.05" height="0.05" fill="red" />
-    <text x="-0.5800000000000001" y="-0.04" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
+    <text x="-0.5800000000000001" y="-0.04" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">4</text>
   
 <path d="M 0 -0.025 L 0.025 0 L 0 0.025 L -0.025 0 Z" fill="green" />
 <text x="-0.54" y="-0.43" style="font: 0.05px monospace; fill: #833;">1.08 x 0.86</text>
 <text x="-0.54" y="-0.48" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [DIN]</text>
 <text x="-0.54" y="-0.53" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [POWER]</text>
-<text x="-0.54" y="-0.5800000000000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [GND]</text>
-<text x="-0.54" y="-0.63" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [DOUT]</text>
+<text x="-0.54" y="-0.5800000000000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [GND]</text>
+<text x="-0.54" y="-0.63" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [DOUT]</text>
 <text x="-0.54" y="-0.43" style="font: 0.05px monospace; fill: #833;">1.08 x 0.86</text>
 <text x="-0.54" y="-0.48" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [DIN]</text>
 <text x="-0.54" y="-0.53" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [POWER]</text>
-<text x="-0.54" y="-0.5800000000000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [GND]</text>
-<text x="-0.54" y="-0.63" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [DOUT]</text></svg>
+<text x="-0.54" y="-0.5800000000000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [GND]</text>
+<text x="-0.54" y="-0.63" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [DOUT]</text></svg>
