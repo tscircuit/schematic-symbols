@@ -21,26 +21,26 @@
   
     
     <rect x="-0.455" y="-0.08499999999999995" width="0.05" height="0.05" fill="red" />
-    <text x="-0.47" y="0.030000000000000054" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
+    <text x="-0.47" y="0.030000000000000054" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">4</text>
   
     
     <rect x="0.07500000000000007" y="0.31499999999999995" width="0.05" height="0.05" fill="red" />
-    <text x="0.06000000000000006" y="0.42999999999999994" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">4</text>
+    <text x="0.06000000000000006" y="0.42999999999999994" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">5</text>
   
     
     <rect x="0.06499999999999995" y="-0.4650000000000001" width="0.05" height="0.05" fill="red" />
-    <text x="0.049999999999999954" y="-0.3500000000000001" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">5</text>
+    <text x="0.049999999999999954" y="-0.3500000000000001" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
   
 <path d="M 0 -0.07500000000000001 L 0.025 -0.05 L 0 -0.025 L -0.025 -0.05 Z" fill="green" />
 <text x="-0.5" y="-0.34" style="font: 0.05px monospace; fill: #833;">1.00 x 0.78</text>
 <text x="-0.5" y="-0.39" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [inp1]</text>
 <text x="-0.5" y="-0.44000000000000006" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [inp2]</text>
-<text x="-0.5" y="-0.49000000000000005" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [out]</text>
-<text x="-0.5" y="-0.54" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [V+]</text>
-<text x="-0.5" y="-0.5900000000000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">5 [V-]</text>
+<text x="-0.5" y="-0.49000000000000005" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [out]</text>
+<text x="-0.5" y="-0.54" dy="-0.15" style="font: 0.05px monospace; fill: #833;">5 [V+]</text>
+<text x="-0.5" y="-0.5900000000000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [V-]</text>
 <text x="-0.5" y="-0.34" style="font: 0.05px monospace; fill: #833;">1.00 x 0.78</text>
 <text x="-0.5" y="-0.39" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [inp1]</text>
 <text x="-0.5" y="-0.44000000000000006" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [inp2]</text>
-<text x="-0.5" y="-0.49000000000000005" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [out]</text>
-<text x="-0.5" y="-0.54" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [V+]</text>
-<text x="-0.5" y="-0.5900000000000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">5 [V-]</text></svg>
+<text x="-0.5" y="-0.49000000000000005" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [out]</text>
+<text x="-0.5" y="-0.54" dy="-0.15" style="font: 0.05px monospace; fill: #833;">5 [V+]</text>
+<text x="-0.5" y="-0.5900000000000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [V-]</text></svg>
