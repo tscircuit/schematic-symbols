@@ -21,8 +21,8 @@ export default modifySymbol({
   ] as any,
   ports: [
     { ...refblocks.left, labels: ["1"] },
-    { ...refblocks.right, labels: ["2"] },
-    { ...refblocks.bottom, labels: ["3"] },
+    { ...refblocks.right, labels: ["3"] },
+    { ...refblocks.bottom, labels: ["2"] },
   ],
   size: { width: bounds.width, height: bounds.height },
   center: { x: bounds.centerX, y: bounds.centerY },
