@@ -11,11 +11,11 @@
   
     
     <rect x="-0.024999999999999977" y="-0.445" width="0.05" height="0.05" fill="red" />
-    <text x="-0.03999999999999997" y="-0.33" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+    <text x="-0.03999999999999997" y="-0.33" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
   
     
     <rect x="0.375" y="-0.024999999999999977" width="0.05" height="0.05" fill="red" />
-    <text x="0.36000000000000004" y="0.09000000000000002" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
+    <text x="0.36000000000000004" y="0.09000000000000002" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
   
 <path d="M 0 -0.025 L 0.025 0 L 0 0.025 L -0.025 0 Z" fill="green" />
 <text x="-0.25" y="-0.4" style="font: 0.05px monospace; fill: #833;">0.50 x 0.80</text>
