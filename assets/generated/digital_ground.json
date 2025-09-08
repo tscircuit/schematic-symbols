@@ -1,0 +1,40 @@
+{
+  "paths": {
+    "triangle": {
+      "type": "path",
+      "points": [
+        { "x": -0.09, "y": -0.12 },
+        { "x": -0.09, "y": 0.12 },
+        { "x": 0.09, "y": 0 },
+        { "x": -0.09, "y": -0.12 }
+      ],
+      "color": "primary",
+      "fill": false
+    }
+  },
+  "texts": {
+    "top1": {
+      "type": "text",
+      "text": "{REF}",
+      "x": 0,
+      "y": 0.03
+    }
+  },
+  "refblocks": {
+    "left1": {
+      "x": 0.09,
+      "y": 0
+    }
+  },
+  "bounds": {
+    "minX": -0.57,
+    "maxX": 0.57,
+    "minY": -0.37,
+    "maxY": 0.37,
+    "width": 1.14,
+    "height": 0.74,
+    "centerX": 0,
+    "centerY": 0
+  },
+  "circles": {}
+}
