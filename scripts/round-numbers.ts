@@ -2,13 +2,13 @@
 import { readdir, readFile, writeFile } from "fs/promises"
 import { join } from "path"
 
-function roundToTwoDecimals(num: number): number {
-  return Math.round(num * 100) / 100
+function roundToThreeDecimals(num: number): number {
+  return Math.round(num * 1000) / 1000
 }
 
 function roundNumbersInObject(obj: any): any {
   if (typeof obj === "number") {
-    return roundToTwoDecimals(obj)
+    return roundToThreeDecimals(obj)
   }
   if (Array.isArray(obj)) {
     return obj.map(roundNumbersInObject)
