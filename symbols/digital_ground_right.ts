@@ -8,7 +8,7 @@ export default modifySymbol({
     {
       type: "text",
       text: "{REF}",
-      x: -0.14,
+      x: -0.16,
       y: -0.0,
     },
   ] as any,
