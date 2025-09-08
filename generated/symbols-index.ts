@@ -110,10 +110,6 @@ import _ground_left from "./../symbols/ground_left"
 import _ground_right from "./../symbols/ground_right"
 import _ground_up from "./../symbols/ground_up"
 import _ground_vert from "./../symbols/ground_vert"
-import _ground2_down from "./../symbols/ground2_down"
-import _ground2_left from "./../symbols/ground2_left"
-import _ground2_right from "./../symbols/ground2_right"
-import _ground2_up from "./../symbols/ground2_up"
 import _gunn_diode_horz from "./../symbols/gunn_diode_horz"
 import _gunn_diode_vert from "./../symbols/gunn_diode_vert"
 import _icled_down from "./../symbols/icled_down"
@@ -196,6 +192,10 @@ import _push_button_normally_closed_momentary_horz from "./../symbols/push_butto
 import _push_button_normally_closed_momentary_vert from "./../symbols/push_button_normally_closed_momentary_vert"
 import _push_button_normally_open_momentary_horz from "./../symbols/push_button_normally_open_momentary_horz"
 import _push_button_normally_open_momentary_vert from "./../symbols/push_button_normally_open_momentary_vert"
+import _rail_down from "./../symbols/rail_down"
+import _rail_left from "./../symbols/rail_left"
+import _rail_right from "./../symbols/rail_right"
+import _rail_up from "./../symbols/rail_up"
 import _rectifier_diode_horz from "./../symbols/rectifier_diode_horz"
 import _rectifier_diode_vert from "./../symbols/rectifier_diode_vert"
 import _resistor_down from "./../symbols/resistor_down"
@@ -411,10 +411,6 @@ export default {
   "ground_right": _ground_right,
   "ground_up": _ground_up,
   "ground_vert": _ground_vert,
-  "ground2_down": _ground2_down,
-  "ground2_left": _ground2_left,
-  "ground2_right": _ground2_right,
-  "ground2_up": _ground2_up,
   "gunn_diode_horz": _gunn_diode_horz,
   "gunn_diode_vert": _gunn_diode_vert,
   "icled_down": _icled_down,
@@ -497,6 +493,10 @@ export default {
   "push_button_normally_closed_momentary_vert": _push_button_normally_closed_momentary_vert,
   "push_button_normally_open_momentary_horz": _push_button_normally_open_momentary_horz,
   "push_button_normally_open_momentary_vert": _push_button_normally_open_momentary_vert,
+  "rail_down": _rail_down,
+  "rail_left": _rail_left,
+  "rail_right": _rail_right,
+  "rail_up": _rail_up,
   "rectifier_diode_horz": _rectifier_diode_horz,
   "rectifier_diode_vert": _rectifier_diode_vert,
   "resistor_down": _resistor_down,
