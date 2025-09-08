@@ -10,6 +10,15 @@
       ],
       "color": "primary",
       "fill": false
+    },
+    "stem": {
+      "type": "path",
+      "points": [
+        { "x": -0.12, "y": 0 },
+        { "x": -0.09, "y": 0 }
+      ],
+      "color": "primary",
+      "fill": false
     }
   },
   "texts": {
@@ -22,7 +31,7 @@
   },
   "refblocks": {
     "left1": {
-      "x": 0.09,
+      "x": -0.12,
       "y": 0
     }
   },
