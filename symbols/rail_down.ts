@@ -1,15 +1,16 @@
-import svgJson from "assets/generated/ground2.json"
+import svgJson from "assets/generated/rail.json"
 import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
 
-const { paths, texts, bounds, refblocks } = svgJson
+const { paths, texts, bounds, refblocks, circles } = svgJson
 export default modifySymbol({
   primitives: [
     ...Object.values(paths),
+    ...Object.values(circles),
     {
       type: "text",
       text: "{REF}",
       x: -0.14,
-      y: 0,
+      y: -0.0,
     },
   ] as any,
   ports: [
@@ -17,7 +18,7 @@ export default modifySymbol({
   ],
   center: { x: bounds.centerX, y: bounds.centerY },
 })
-  .rotateRightFacingSymbol("down")
+  .rotateRightFacingSymbol("up")
   .labelPort("left1", ["1"])
-  .changeTextAnchor("{REF}", "middle_bottom")
+  .changeTextAnchor("{REF}", "middle_top")
   .build()

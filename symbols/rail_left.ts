@@ -1,4 +1,4 @@
-import svgJson from "assets/generated/ground2.json"
+import svgJson from "assets/generated/rail.json"
 import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
 
 const { paths, texts, bounds, refblocks, circles } = svgJson
