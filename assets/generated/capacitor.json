@@ -65,14 +65,14 @@
     "top1": {
       "type": "text",
       "text": "{REF}",
-      "x": -0.01,
-      "y": 0.42
+      "x": 0,
+      "y": 0.25
     },
     "bottom1": {
       "type": "text",
       "text": "{VAL}",
       "x": 0,
-      "y": -0.42
+      "y": -0.25
     }
   },
   "refblocks": {
