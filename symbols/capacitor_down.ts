@@ -10,13 +10,13 @@ export default modifySymbol({
       type: "text",
       text: "{REF}",
       x: -0.2,
-      y: 0.2094553499999995,
+      y: 0.115,
     },
     {
       type: "text",
       text: "{VAL}",
       x: 0.2,
-      y: 0.2094553499999995,
+      y: 0.115,
     },
   ] as any,
   ports: [
