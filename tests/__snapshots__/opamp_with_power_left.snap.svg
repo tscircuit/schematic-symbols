@@ -1,9 +1,9 @@
 <svg width="150" height="150" viewBox="-0.6 -0.518 1.2 0.9359999999999999" xmlns="http://www.w3.org/2000/svg"><path d="M-0.14,-0.05999999999999999 L0.32,-0.31000000000000005" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.32000000000000006,0.20999999999999994 L-0.14,-0.05999999999999999" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.32,-0.31000000000000005 L0.32000000000000006,0.20999999999999994" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M0.32,0.07999999999999996 L0.58,0.0799999999999999" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M0.32,-0.19000000000000006 L0.58,-0.19000000000000006" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M-0.42,-0.059999999999999956 L-0.15,-0.059999999999999984" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.32,0.07999999999999996 L0.57,0.0799999999999999" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.32,-0.19000000000000006 L0.57,-0.19000000000000006" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.43,-0.05999999999999995 L-0.15,-0.059999999999999984" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.10000000000000006,0.33999999999999997 L0.10000000000000003,0.07999999999999999" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.08999999999999996,-0.44000000000000006 L0.08999999999999998,-0.19" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.20000000000000004,0.07999999999999996 L0.27,0.07999999999999996" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
@@ -12,24 +12,44 @@
     <text x="-0.24999999999999997" y="0.22000000000000006" dx="0" dy="0.07500000000000001" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.26249999999999996" y="0.20750000000000005" width="0.025" height="0.025" fill="blue" />
     <text x="-0.25000000000000006" y="-0.33999999999999997" dx="0" dy="0" text-anchor="middle" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.26250000000000007" y="-0.3525" width="0.025" height="0.025" fill="blue" />
 
-    <rect x="0.5449999999999999" y="0.0549999999999999" width="0.05" height="0.05" fill="red" />
-    <text x="0.5299999999999999" y="0.1699999999999999" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
+    
+    <line x1="0.5449999999999999" y1="0.0549999999999999" x2="0.595" y2="0.1049999999999999" stroke="red" stroke-width="0.004" />
+    <line x1="0.5449999999999999" y1="0.1049999999999999" x2="0.595" y2="0.0549999999999999" stroke="red" stroke-width="0.004" />
+  
+    <text x="0.5299999999999999" y="0.1699999999999999"
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
   
     
-    <rect x="0.5449999999999999" y="-0.21500000000000005" width="0.05" height="0.05" fill="red" />
-    <text x="0.5299999999999999" y="-0.10000000000000006" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+    
+    <line x1="0.5449999999999999" y1="-0.21500000000000005" x2="0.595" y2="-0.16500000000000006" stroke="red" stroke-width="0.004" />
+    <line x1="0.5449999999999999" y1="-0.16500000000000006" x2="0.595" y2="-0.21500000000000005" stroke="red" stroke-width="0.004" />
+  
+    <text x="0.5299999999999999" y="-0.10000000000000006"
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
   
     
-    <rect x="-0.455" y="-0.08499999999999995" width="0.05" height="0.05" fill="red" />
-    <text x="-0.47" y="0.030000000000000054" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">4</text>
+    
+    <line x1="-0.455" y1="-0.08499999999999995" x2="-0.40499999999999997" y2="-0.03499999999999995" stroke="red" stroke-width="0.004" />
+    <line x1="-0.455" y1="-0.03499999999999995" x2="-0.40499999999999997" y2="-0.08499999999999995" stroke="red" stroke-width="0.004" />
+  
+    <text x="-0.47" y="0.030000000000000054"
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">4</text>
   
     
-    <rect x="0.07500000000000007" y="0.31499999999999995" width="0.05" height="0.05" fill="red" />
-    <text x="0.06000000000000006" y="0.42999999999999994" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">5</text>
+    
+    <line x1="0.07500000000000007" y1="0.31499999999999995" x2="0.12500000000000006" y2="0.365" stroke="red" stroke-width="0.004" />
+    <line x1="0.07500000000000007" y1="0.365" x2="0.12500000000000006" y2="0.31499999999999995" stroke="red" stroke-width="0.004" />
+  
+    <text x="0.06000000000000006" y="0.42999999999999994"
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">5</text>
   
     
-    <rect x="0.06499999999999995" y="-0.4650000000000001" width="0.05" height="0.05" fill="red" />
-    <text x="0.049999999999999954" y="-0.3500000000000001" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
+    
+    <line x1="0.06499999999999995" y1="-0.4650000000000001" x2="0.11499999999999996" y2="-0.41500000000000004" stroke="red" stroke-width="0.004" />
+    <line x1="0.06499999999999995" y1="-0.41500000000000004" x2="0.11499999999999996" y2="-0.4650000000000001" stroke="red" stroke-width="0.004" />
+  
+    <text x="0.049999999999999954" y="-0.3500000000000001"
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
   
 <path d="M 0 -0.07500000000000001 L 0.025 -0.05 L 0 -0.025 L -0.025 -0.05 Z" fill="green" />
 <text x="-0.5" y="-0.34" style="font: 0.05px monospace; fill: #833;">1.00 x 0.78</text>

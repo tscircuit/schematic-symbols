@@ -7,12 +7,20 @@
     <text x="-0.01" y="-0.42" dx="0" dy="0" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.0225" y="-0.4325" width="0.025" height="0.025" fill="blue" />
     <text x="0" y="0.42" dx="0" dy="0.07500000000000001" text-anchor="middle" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.0125" y="0.4075" width="0.025" height="0.025" fill="blue" />
 
-    <rect x="-0.5650000000000001" y="-0.045" width="0.05" height="0.05" fill="red" />
-    <text x="-0.5800000000000001" y="0.07" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+    
+    <line x1="-0.5650000000000001" y1="-0.045" x2="-0.515" y2="0.005000000000000001" stroke="red" stroke-width="0.004" />
+    <line x1="-0.5650000000000001" y1="0.005000000000000001" x2="-0.515" y2="-0.045" stroke="red" stroke-width="0.004" />
+  
+    <text x="-0.5800000000000001" y="0.07"
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
   
     
-    <rect x="0.425" y="-0.045" width="0.05" height="0.05" fill="red" />
-    <text x="0.41000000000000003" y="0.07" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
+    
+    <line x1="0.425" y1="-0.045" x2="0.47500000000000003" y2="0.005000000000000001" stroke="red" stroke-width="0.004" />
+    <line x1="0.425" y1="0.005000000000000001" x2="0.47500000000000003" y2="-0.045" stroke="red" stroke-width="0.004" />
+  
+    <text x="0.41000000000000003" y="0.07"
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
   
 <path d="M -0.04500000000000001 -0.045 L -0.02000000000000001 -0.02 L -0.04500000000000001 0.005000000000000001 L -0.07 -0.02 Z" fill="green" />
 <text x="-0.54" y="-0.39999999999999997" style="font: 0.05px monospace; fill: #833;">0.99 x 0.84</text>
