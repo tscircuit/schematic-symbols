@@ -1,5 +1,5 @@
-<svg width="150" height="150" viewBox="-0.318 -0.528 0.636 1.056" xmlns="http://www.w3.org/2000/svg"><path d="M0.09999999999999999,-0.22 L0.09999999999999998,-0.44" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M0.10000000000000003,0.44 L0.10000000000000002,0.22" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+<svg width="150" height="150" viewBox="-0.318 -0.54 0.636 1.08" xmlns="http://www.w3.org/2000/svg"><path d="M0.09999999999999999,-0.22 L0.09999999999999998,-0.45" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.10000000000000003,0.45 L0.10000000000000002,0.22" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.10000000000000002,0.12 L0.1,0.039999999999999994" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M-0.03,1.8369701987210296e-18 L-0.25,1.5308084989341915e-17" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.23,0.11999999999999998 L-0.019999999999999993,0.12" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
@@ -13,17 +13,29 @@
     <path d="M0.1,-0.05000000000000001 L0.09999999999999999,-0.12" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <text x="0.28" y="-0.020000000000000018" dx="0" dy="0.037500000000000006" text-anchor="start" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="0.2675" y="-0.032500000000000015" width="0.025" height="0.025" fill="blue" />
 
-    <rect x="-0.275" y="-0.024999999999999988" width="0.05" height="0.05" fill="red" />
-    <text x="-0.29" y="0.09000000000000002" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+    
+    <line x1="-0.275" y1="-0.024999999999999988" x2="-0.225" y2="0.025000000000000015" stroke="red" stroke-width="0.004" />
+    <line x1="-0.275" y1="0.025000000000000015" x2="-0.225" y2="-0.024999999999999988" stroke="red" stroke-width="0.004" />
+  
+    <text x="-0.29" y="0.09000000000000002"
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
   
     
-    <rect x="0.07499999999999998" y="-0.47500000000000003" width="0.05" height="0.05" fill="red" />
-    <text x="0.05999999999999998" y="-0.36000000000000004" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
+    
+    <line x1="0.07499999999999998" y1="-0.47500000000000003" x2="0.12499999999999997" y2="-0.425" stroke="red" stroke-width="0.004" />
+    <line x1="0.07499999999999998" y1="-0.425" x2="0.12499999999999997" y2="-0.47500000000000003" stroke="red" stroke-width="0.004" />
+  
+    <text x="0.05999999999999998" y="-0.36000000000000004"
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
   
     
-    <rect x="0.07500000000000004" y="0.425" width="0.05" height="0.05" fill="red" />
-    <text x="0.06000000000000003" y="0.54" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
+    
+    <line x1="0.07500000000000004" y1="0.425" x2="0.12500000000000003" y2="0.47500000000000003" stroke="red" stroke-width="0.004" />
+    <line x1="0.07500000000000004" y1="0.47500000000000003" x2="0.12500000000000003" y2="0.425" stroke="red" stroke-width="0.004" />
+  
+    <text x="0.06000000000000003" y="0.54"
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
   
 <path d="M 0 -0.025 L 0.025 0 L 0 0.025 L -0.025 0 Z" fill="green" />
-<text x="-0.265" y="-0.44" style="font: 0.05px monospace; fill: #833;">0.53 x 0.88</text>
-<text x="-0.265" y="-0.44" style="font: 0.05px monospace; fill: #833;">0.53 x 0.88</text></svg>
+<text x="-0.265" y="-0.45" style="font: 0.05px monospace; fill: #833;">0.53 x 0.90</text>
+<text x="-0.265" y="-0.45" style="font: 0.05px monospace; fill: #833;">0.53 x 0.90</text></svg>

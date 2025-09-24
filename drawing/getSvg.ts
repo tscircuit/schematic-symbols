@@ -80,17 +80,20 @@ function createPortElement(
   { yUpPositive }: { yUpPositive?: boolean },
 ): string {
   const { x, y, labels } = port
-  const rectSize = 0.05
+  const crossSize = 0.05
   const labelFontSize = 0.08
   const label = labels[0] || ""
 
+  // Draw a thin diagonal cross (X) centered at the port
+  const cross = `
+    <line x1="${x - crossSize / 2}" y1="${makeYUpPositive(y, yUpPositive) - crossSize / 2}" x2="${x + crossSize / 2}" y2="${makeYUpPositive(y, yUpPositive) + crossSize / 2}" stroke="red" stroke-width="0.004" />
+    <line x1="${x - crossSize / 2}" y1="${makeYUpPositive(y, yUpPositive) + crossSize / 2}" x2="${x + crossSize / 2}" y2="${makeYUpPositive(y, yUpPositive) - crossSize / 2}" stroke="red" stroke-width="0.004" />
+  `
+
   return `
-    <rect x="${x - rectSize / 2}" y="${
-      makeYUpPositive(y, yUpPositive) - rectSize / 2
-    }" width="${rectSize}" height="${rectSize}" fill="red" />
-    <text x="${x - labelFontSize / 2}" y="${
-      makeYUpPositive(y, yUpPositive) + rectSize + labelFontSize / 2
-    }" text-anchor="middle" style="font: ${labelFontSize}px monospace; fill: #833;">${label}</text>
+    ${cross}
+    <text x="${x - labelFontSize / 2}" y="${makeYUpPositive(y, yUpPositive) + crossSize + labelFontSize / 2}"
+      text-anchor="middle" style="font: ${labelFontSize}px monospace; fill: #833;">${label}</text>
   `
 }
 

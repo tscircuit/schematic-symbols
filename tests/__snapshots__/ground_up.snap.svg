@@ -1,11 +1,15 @@
-<svg width="150" height="150" viewBox="-0.264 -0.36 0.528 0.72" xmlns="http://www.w3.org/2000/svg"><path d="M-1.775737858763662e-17,0.29 L2.4492935982947064e-18,-0.04" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+<svg width="150" height="150" viewBox="-0.264 -0.36 0.528 0.72" xmlns="http://www.w3.org/2000/svg"><path d="M-0.010000000000000018,0.29 L2.4492935982947064e-18,-0.04" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.22,-0.03999999999999999 L-0.22,-0.040000000000000015" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.17,-0.11999999999999998 L-0.17,-0.12000000000000001" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.06000000000000001,-0.19 L-0.059999999999999984,-0.19" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <text x="0.020000000000000018" y="-0.31" dx="0" dy="0" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="0.007500000000000017" y="-0.3225" width="0.025" height="0.025" fill="blue" />
 
-    <rect x="-0.03500000000000002" y="0.26499999999999996" width="0.05" height="0.05" fill="red" />
-    <text x="-0.05000000000000002" y="0.37999999999999995" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
+    
+    <line x1="-0.03500000000000002" y1="0.26499999999999996" x2="0.014999999999999984" y2="0.315" stroke="red" stroke-width="0.004" />
+    <line x1="-0.03500000000000002" y1="0.315" x2="0.014999999999999984" y2="0.26499999999999996" stroke="red" stroke-width="0.004" />
+  
+    <text x="-0.05000000000000002" y="0.37999999999999995"
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
   
 <path d="M 0 -0.025 L 0.025 0 L 0 0.025 L -0.025 0 Z" fill="green" />
 <text x="-0.22" y="-0.3" style="font: 0.05px monospace; fill: #833;">0.44 x 0.60</text>

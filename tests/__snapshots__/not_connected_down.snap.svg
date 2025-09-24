@@ -2,8 +2,12 @@
     <path d="M0.1,-0.1 L-0.1,0.1" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M-1.2246467991473533e-17,-0.2 L0,0" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
 
-    <rect x="-0.025000000000000015" y="-0.225" width="0.05" height="0.05" fill="red" />
-    <text x="-0.040000000000000015" y="-0.11000000000000001" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
+    
+    <line x1="-0.025000000000000015" y1="-0.225" x2="0.024999999999999988" y2="-0.17500000000000002" stroke="red" stroke-width="0.004" />
+    <line x1="-0.025000000000000015" y1="-0.17500000000000002" x2="0.024999999999999988" y2="-0.225" stroke="red" stroke-width="0.004" />
+  
+    <text x="-0.040000000000000015" y="-0.11000000000000001"
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
   
 <path d="M 0 -0.025 L 0.025 0 L 0 0.025 L -0.025 0 Z" fill="green" />
 <text x="-0.1" y="-0.15000000000000002" style="font: 0.05px monospace; fill: #833;">0.20 x 0.30</text>

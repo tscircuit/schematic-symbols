@@ -1,11 +1,15 @@
-<svg width="150" height="150" viewBox="-0.36 -0.264 0.72 0.528" xmlns="http://www.w3.org/2000/svg"><path d="M0.29,-3.551475717527324e-17 L-0.04,4.898587196589413e-18" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+<svg width="150" height="150" viewBox="-0.36 -0.264 0.72 0.528" xmlns="http://www.w3.org/2000/svg"><path d="M0.29,0.009999999999999966 L-0.04,4.898587196589413e-18" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M-0.04000000000000003,-0.22 L-0.03999999999999997,0.22" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M-0.12000000000000002,-0.16999999999999998 L-0.11999999999999997,0.17000000000000004" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M-0.19,-0.05999999999999998 L-0.19,0.06000000000000002" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <text x="-0.31" y="-0.019999999999999962" dx="0" dy="0.037500000000000006" text-anchor="end" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.3225" y="-0.03249999999999996" width="0.025" height="0.025" fill="blue" />
 
-    <rect x="0.26499999999999996" y="-0.015000000000000036" width="0.05" height="0.05" fill="red" />
-    <text x="0.24999999999999997" y="0.09999999999999998" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
+    
+    <line x1="0.26499999999999996" y1="-0.015000000000000036" x2="0.315" y2="0.03499999999999997" stroke="red" stroke-width="0.004" />
+    <line x1="0.26499999999999996" y1="0.03499999999999997" x2="0.315" y2="-0.015000000000000036" stroke="red" stroke-width="0.004" />
+  
+    <text x="0.24999999999999997" y="0.09999999999999998"
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
   
 <path d="M 0 -0.025 L 0.025 0 L 0 0.025 L -0.025 0 Z" fill="green" />
 <text x="-0.3" y="-0.22" style="font: 0.05px monospace; fill: #833;">0.60 x 0.44</text>

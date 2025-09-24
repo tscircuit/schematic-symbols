@@ -1,8 +1,8 @@
-<svg width="150" height="150" viewBox="-0.45599999999999996 -0.39799999999999996 0.9119999999999999 1.176" xmlns="http://www.w3.org/2000/svg"><path d="M0.17,0.21 L0.09,0.21000000000000002" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M-2.7755575615628914e-17,-0.3 L0,0.01999999999999999" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+<svg width="150" height="150" viewBox="-0.45599999999999996 -0.37399999999999994 0.9119999999999999 1.128" xmlns="http://www.w3.org/2000/svg"><path d="M0.17,0.21 L0.09,0.21000000000000002" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-2.7755575615628914e-17,-0.27999999999999997 L0,0.01999999999999999" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.36,0.21 L0.3,0.21" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.16,0.04000000000000001 L0,0.39" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M0,0.39 L2.7755575615628914e-17,0.6799999999999999" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0,0.39 L2.7755575615628914e-17,0.6599999999999999" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.31,0.21 L0.21,0.21" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.3,0.27 L0.24000000000000002,0.27" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.3,0.15 L0.24,0.15" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
@@ -13,13 +13,21 @@
     <text x="-0.35" y="0" dx="0" dy="0.037500000000000006" text-anchor="end" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.3625" y="-0.0125" width="0.025" height="0.025" fill="blue" />
     <circle cx="0.43" cy="0.21" r="0.06" fill="none" stroke="black" stroke-width="0.02" />
 
-    <rect x="-0.02500000000000003" y="-0.305" width="0.05" height="0.05" fill="red" />
-    <text x="-0.04000000000000003" y="-0.18999999999999997" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
+    
+    <line x1="-0.02500000000000003" y1="-0.305" x2="0.024999999999999974" y2="-0.25499999999999995" stroke="red" stroke-width="0.004" />
+    <line x1="-0.02500000000000003" y1="-0.25499999999999995" x2="0.024999999999999974" y2="-0.305" stroke="red" stroke-width="0.004" />
+  
+    <text x="-0.04000000000000003" y="-0.18999999999999997"
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
   
     
-    <rect x="-0.024999999999999974" y="0.6349999999999999" width="0.05" height="0.05" fill="red" />
-    <text x="-0.03999999999999997" y="0.75" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+    
+    <line x1="-0.024999999999999974" y1="0.6349999999999999" x2="0.02500000000000003" y2="0.6849999999999999" stroke="red" stroke-width="0.004" />
+    <line x1="-0.024999999999999974" y1="0.6849999999999999" x2="0.02500000000000003" y2="0.6349999999999999" stroke="red" stroke-width="0.004" />
+  
+    <text x="-0.03999999999999997" y="0.75"
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
   
 <path d="M 0 0.165 L 0.025 0.19 L 0 0.215 L -0.025 0.19 Z" fill="green" />
-<text x="-0.38" y="-0.6799999999999999" style="font: 0.05px monospace; fill: #833;">0.76 x 0.98</text>
-<text x="-0.38" y="-0.6799999999999999" style="font: 0.05px monospace; fill: #833;">0.76 x 0.98</text></svg>
+<text x="-0.38" y="-0.6599999999999999" style="font: 0.05px monospace; fill: #833;">0.76 x 0.94</text>
+<text x="-0.38" y="-0.6599999999999999" style="font: 0.05px monospace; fill: #833;">0.76 x 0.94</text></svg>
