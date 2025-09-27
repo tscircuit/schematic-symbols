@@ -1,6 +1,6 @@
 # schematic-symbols
 
-[View Online](https://symbols.tscircuit.com/) & [Contributor Getting Started Video](https://share.cleanshot.com/rNYMs0K9)
+[View Online](https://symbols.tscircuit.com/) &middot; [Contributor Getting Started Video](https://share.cleanshot.com/rNYMs0K9)
 
 Schematic symbols for tscircuit
 
