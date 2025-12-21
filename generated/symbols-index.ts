@@ -50,6 +50,10 @@ import _crystal_down from "./../symbols/crystal_down"
 import _crystal_left from "./../symbols/crystal_left"
 import _crystal_right from "./../symbols/crystal_right"
 import _crystal_up from "./../symbols/crystal_up"
+import _current_source_down from "./../symbols/current_source_down"
+import _current_source_left from "./../symbols/current_source_left"
+import _current_source_right from "./../symbols/current_source_right"
+import _current_source_up from "./../symbols/current_source_up"
 import _darlington_pair_transistor_down from "./../symbols/darlington_pair_transistor_down"
 import _darlington_pair_transistor_horz from "./../symbols/darlington_pair_transistor_horz"
 import _darlington_pair_transistor_left from "./../symbols/darlington_pair_transistor_left"
@@ -70,14 +74,14 @@ import _diac_left from "./../symbols/diac_left"
 import _diac_right from "./../symbols/diac_right"
 import _diac_up from "./../symbols/diac_up"
 import _diac_vert from "./../symbols/diac_vert"
-import _diode_down from "./../symbols/diode_down"
-import _diode_left from "./../symbols/diode_left"
-import _diode_right from "./../symbols/diode_right"
-import _diode_up from "./../symbols/diode_up"
 import _digital_ground_down from "./../symbols/digital_ground_down"
 import _digital_ground_left from "./../symbols/digital_ground_left"
 import _digital_ground_right from "./../symbols/digital_ground_right"
 import _digital_ground_up from "./../symbols/digital_ground_up"
+import _diode_down from "./../symbols/diode_down"
+import _diode_left from "./../symbols/diode_left"
+import _diode_right from "./../symbols/diode_right"
+import _diode_up from "./../symbols/diode_up"
 import _dpdt_normally_closed_switch_down from "./../symbols/dpdt_normally_closed_switch_down"
 import _dpdt_normally_closed_switch_left from "./../symbols/dpdt_normally_closed_switch_left"
 import _dpdt_normally_closed_switch_right from "./../symbols/dpdt_normally_closed_switch_right"
@@ -355,6 +359,10 @@ export default {
   "crystal_left": _crystal_left,
   "crystal_right": _crystal_right,
   "crystal_up": _crystal_up,
+  "current_source_down": _current_source_down,
+  "current_source_left": _current_source_left,
+  "current_source_right": _current_source_right,
+  "current_source_up": _current_source_up,
   "darlington_pair_transistor_down": _darlington_pair_transistor_down,
   "darlington_pair_transistor_horz": _darlington_pair_transistor_horz,
   "darlington_pair_transistor_left": _darlington_pair_transistor_left,
@@ -375,14 +383,14 @@ export default {
   "diac_right": _diac_right,
   "diac_up": _diac_up,
   "diac_vert": _diac_vert,
-  "diode_down": _diode_down,
-  "diode_left": _diode_left,
-  "diode_right": _diode_right,
-  "diode_up": _diode_up,
   "digital_ground_down": _digital_ground_down,
   "digital_ground_left": _digital_ground_left,
   "digital_ground_right": _digital_ground_right,
   "digital_ground_up": _digital_ground_up,
+  "diode_down": _diode_down,
+  "diode_left": _diode_left,
+  "diode_right": _diode_right,
+  "diode_up": _diode_up,
   "dpdt_normally_closed_switch_down": _dpdt_normally_closed_switch_down,
   "dpdt_normally_closed_switch_left": _dpdt_normally_closed_switch_left,
   "dpdt_normally_closed_switch_right": _dpdt_normally_closed_switch_right,
