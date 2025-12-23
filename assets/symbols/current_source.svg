@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="150" height="150" viewBox="-0.7 -0.5 1.4 1.0" xmlns="http://www.w3.org/2000/svg">
+    <path d="M-0.6,0 L-0.3,0" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.3,0 L0.6,0" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="0" cy="0" r="0.3" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.1,0 L0.15,0" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.15,0 L0.05,0.08" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.15,0 L0.05,-0.08" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="0" y="0.47" dx="0" dy="0" text-anchor="middle" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.0125" y="0.3875" width="0.025" height="0.025" fill="blue" />
+    <text x="0" y="-0.4" dx="0" dy="0" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.0125" y="-0.4125" width="0.025" height="0.025" fill="blue" />
+    <rect x="-0.65" y="-0.025" width="0.05" height="0.05" fill="red" />
+    <text x="-0.66" y="0.09" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
+    <rect x="0.6" y="-0.025" width="0.05" height="0.05" fill="red" />
+    <text x="0.59" y="0.09" text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+    <path d="M 0 -0.025 L 0.025 0 L 0 0.025 L -0.025 0 Z" fill="green" />
+    <text x="-0.65" y="-0.45" style="font: 0.05px monospace; fill: #833;">1.2 x 0.9</text>
+</svg>
