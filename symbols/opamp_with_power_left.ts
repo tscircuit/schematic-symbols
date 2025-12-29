@@ -1,4 +1,4 @@
-import { rotateSymbol } from "drawing/rotateSymbol"
+import { flipSymbolOverXAxis, rotateSymbol } from "drawing/rotateSymbol"
 import opamp_with_power_right from "./opamp_with_power_right"
 
-export default rotateSymbol(opamp_with_power_right, "left")
+export default flipSymbolOverXAxis(rotateSymbol(opamp_with_power_right, "left"))
