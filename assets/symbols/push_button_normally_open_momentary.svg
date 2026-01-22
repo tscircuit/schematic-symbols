@@ -1,239 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
-<svg
-   width="30mm"
-   height="30mm"
-   viewBox="0 0 30 30"
-   version="1.1"
-   id="svg1"
-   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
-   sodipodi:docname="push_button_normally_open_momentary.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview1"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="false"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm"
-     inkscape:zoom="22.627417"
-     inkscape:cx="56.259183"
-     inkscape:cy="54.579805"
-     inkscape:window-width="1920"
-     inkscape:window-height="1009"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="push_button_normally_open_momentary-5"
-     showgrid="true"
-     showguides="true">
-    <inkscape:grid
-       id="grid207"
-       units="mm"
-       originx="0"
-       originy="0"
-       spacingx="10"
-       spacingy="10"
-       empcolor="#0099e5"
-       empopacity="0.30196078"
-       color="#0099e5"
-       opacity="0.14901961"
-       empspacing="5"
-       dotted="false"
-       gridanglex="30"
-       gridanglez="30"
-       visible="true" />
-    <sodipodi:guide
-       position="9.7169178,14.316708"
-       orientation="1,0"
-       id="guide9106"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="21.287183,14.649959"
-       orientation="1,0"
-       id="guide9108"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="15.399577,15.096517"
-       orientation="0,-1"
-       id="guide9110"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="15.493628,15.608114"
-       orientation="1,0"
-       id="guide9112"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="14.957227,17.787826"
-       orientation="0,-1"
-       id="guide9114"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="13.651626,15.336926"
-       orientation="1,0"
-       id="guide9116"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="17.294009,14.851665"
-       orientation="1,0"
-       id="guide9118"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="15.984388,13.185406"
-       orientation="0,-1"
-       id="guide9120"
-       inkscape:locked="false" />
-  </sodipodi:namedview>
-  <defs
-     id="defs1">
-    <inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 15 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="30 : 15 : 1"
-       inkscape:persp3d-origin="15 : 10 : 1"
-       id="perspective358" />
-    <inkscape:path-effect
-       effect="fillet_chamfer"
-       id="path-effect3"
-       is_visible="true"
-       lpeversion="1"
-       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
-       radius="0"
-       unit="px"
-       method="auto"
-       mode="F"
-       chamfer_steps="1"
-       flexible="false"
-       use_knot_distance="true"
-       apply_no_radius="true"
-       apply_with_radius="true"
-       only_selected="false"
-       hide_knots="false" />
-    <inkscape:path-effect
-       effect="fillet_chamfer"
-       id="path-effect2"
-       is_visible="true"
-       lpeversion="1"
-       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
-       radius="0"
-       unit="px"
-       method="auto"
-       mode="F"
-       chamfer_steps="1"
-       flexible="false"
-       use_knot_distance="true"
-       apply_no_radius="true"
-       apply_with_radius="true"
-       only_selected="false"
-       hide_knots="false" />
-    <inkscape:path-effect
-       effect="fillet_chamfer"
-       id="path-effect1"
-       is_visible="true"
-       lpeversion="1"
-       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
-       radius="0"
-       unit="px"
-       method="auto"
-       mode="F"
-       chamfer_steps="1"
-       flexible="false"
-       use_knot_distance="true"
-       apply_no_radius="true"
-       apply_with_radius="true"
-       only_selected="false"
-       hide_knots="false" />
-  </defs>
-  <g
-     inkscape:label="root"
-     inkscape:groupmode="layer"
-     id="root"
-     transform="translate(-34.257545,-125.43122)">
-    <g
-       id="push_button_normally_open_momentary-5"
-       inkscape:label="push_button_normally_open_momentary"
-       transform="translate(-5.3712834,5.1513615)">
-      <title
-         id="title609-9">Push_button_normally_open_momentary</title>
-      <text
-         xml:space="preserve"
-         style="font-size:1.05833px;fill:#000000;stroke-width:0.264583"
-         x="55.066406"
-         y="132.42705"
-         id="text14-39-5-8-9"><tspan
-           sodipodi:role="line"
-           id="tspan14-9-3-8-2"
-           style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-           x="55.066406"
-           y="132.42705">{REF}</tspan></text>
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.243;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-         d="M 55.125164,133.14507 V 134.309"
-         id="path12-1-8-6-9-9"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.235484px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 50.125325,135.18394 h 3.143063"
-         id="path12-1-5-6-4"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc"
-         inkscape:label="path12-1-5" />
-      <text
-         xml:space="preserve"
-         style="font-size:1.05833px;fill:#000000;stroke-width:0.264583"
-         x="53.386299"
-         y="136.91942"
-         id="text14-39-9-4-7-5"><tspan
-           sodipodi:role="line"
-           id="tspan14-9-8-4-9-0"
-           style="font-size:1.05833px;stroke-width:0.264583"
-           x="53.386299"
-           y="136.91942">{VAL}</tspan></text>
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.245005px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 53.401497,134.36474 h 3.402334"
-         id="path12-1-8-0-0"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.227224px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 56.954383,135.18419 h 2.926449"
-         id="path12-1-0-1"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
-      <circle
-         style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-         id="refblock-5-7-7-3-6-35"
-         cx="50.269012"
-         cy="135.18367"
-         r="0.28158441" />
-      <circle
-         style="mix-blend-mode:normal;fill:none;stroke:#000000;stroke-width:0.132;stroke-dasharray:none;stroke-opacity:1"
-         id="circle-2"
-         cx="53.554485"
-         cy="135.18625"
-         r="0.23193523" />
-      <circle
-         style="mix-blend-mode:normal;fill:none;stroke:#000000;stroke-width:0.132;stroke-dasharray:none;stroke-opacity:1"
-         id="circle"
-         cx="56.673504"
-         cy="135.17403"
-         r="0.23193523" />
-      <circle
-         style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-         id="refblock-5-7-7-7-8-2"
-         cx="59.717381"
-         cy="135.18806"
-         r="0.28158441" />
-    </g>
-  </g>
-</svg>
+<svg width="150" height="150" viewBox="-0.6 -0.27 1.2 0.54" xmlns="http://www.w3.org/2000/svg"><path d="M-0.05,-0.09 L-0.05,-0.04" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.05,-0.09 L0.07,-0.09" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.07,-0.09 L0.07,-0.04" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.47,0.05 L-0.17,0.05" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.16,-0.04 L0.18,-0.04" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.2,0.05 L0.47,0.05" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="-0.14" cy="0.05" r="0.02" fill="none" stroke="black" stroke-width="0.02" />
+    <circle cx="0.17" cy="0.05" r="0.02" fill="none" stroke="black" stroke-width="0.02" />
+    <text x="0" y="-0.3594553499999995" dx="0" dy="0" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.0125" y="-0.3719553499999995" width="0.025" height="0.025" fill="blue" />
+    <text x="0" y="0.3594553499999995" dx="0" dy="0.07500000000000001" text-anchor="middle" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.0125" y="0.3469553499999995" width="0.025" height="0.025" fill="blue" />
+
+    
+    <line x1="-0.495" y1="0.025" x2="-0.44499999999999995" y2="0.07500000000000001" stroke="red" stroke-width="0.004" />
+    <line x1="-0.495" y1="0.07500000000000001" x2="-0.44499999999999995" y2="0.025" stroke="red" stroke-width="0.004" />
+  
+    <text x="-0.51" y="0.14"
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
+  
+    
+    
+    <line x1="0.44499999999999995" y1="0.025" x2="0.495" y2="0.07500000000000001" stroke="red" stroke-width="0.004" />
+    <line x1="0.44499999999999995" y1="0.07500000000000001" x2="0.495" y2="0.025" stroke="red" stroke-width="0.004" />
+  
+    <text x="0.43" y="0.14"
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+  
+<path d="M 0 -0.025 L 0.025 0 L 0 0.025 L -0.025 0 Z" fill="green" />
+<text x="-0.5" y="-0.225" style="font: 0.05px monospace; fill: #833;">1.00 x 0.45</text>
+<text x="-0.5" y="-0.225" style="font: 0.05px monospace; fill: #833;">1.00 x 0.45</text></svg>
