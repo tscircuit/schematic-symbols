@@ -9,13 +9,13 @@ export default modifySymbol({
     {
       type: "text",
       text: "{REF}",
-      x: -0.1,
-      y: -0.3094553499999995,
+      x: -0.5,
+      y: 0.3094553499999995,
     },
     {
       type: "text",
       text: "{VAL}",
-      x: -0.1,
+      x: 0.55,
       y: 0.3094553499999995,
     },
   ] as any,
@@ -29,5 +29,5 @@ export default modifySymbol({
 })
   .rotateRightFacingSymbol("down")
   .changeTextAnchor("{REF}", "middle_bottom")
-  .changeTextAnchor("{VAL}", "middle_bottom")
+  .changeTextAnchor("{VAL}", "middle_top")
   .build()

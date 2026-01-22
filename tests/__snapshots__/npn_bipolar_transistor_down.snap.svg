@@ -6,8 +6,8 @@
     <path d="M0.29,0.55 L0.29,0.25" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.19,0.1 L0.12,0.2 L0.22,0.2 L0.19,0.1" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <circle cx="0.14" cy="0" r="0.29" fill="none" stroke="black" stroke-width="0.02" />
-    <text x="-0.1" y="-0.3094553499999995" dx="0" dy="0.037500000000000006" text-anchor="end" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.1125" y="-0.32195534999999953" width="0.025" height="0.025" fill="blue" />
-    <text x="-0.1" y="0.3094553499999995" dx="0" dy="0.037500000000000006" text-anchor="end" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.1125" y="0.2969553499999995" width="0.025" height="0.025" fill="blue" />
+    <text x="-0.3" y="-0.5094553499999995" dx="0" dy="0.037500000000000006" text-anchor="end" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.3125" y="-0.5219553499999995" width="0.025" height="0.025" fill="blue" />
+    <text x="-0.3" y="0.5094553499999995" dx="0" dy="0.037500000000000006" text-anchor="end" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.3125" y="0.4969553499999995" width="0.025" height="0.025" fill="blue" />
 
     
     <line x1="0.26499999999999996" y1="-0.5750000000000001" x2="0.315" y2="-0.525" stroke="red" stroke-width="0.004" />
