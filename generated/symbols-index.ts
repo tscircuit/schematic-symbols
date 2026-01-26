@@ -198,7 +198,11 @@ import _power_factor_meter_horz from "./../symbols/power_factor_meter_horz"
 import _power_factor_meter_vert from "./../symbols/power_factor_meter_vert"
 import _push_button_normally_closed_momentary_horz from "./../symbols/push_button_normally_closed_momentary_horz"
 import _push_button_normally_closed_momentary_vert from "./../symbols/push_button_normally_closed_momentary_vert"
+import _push_button_normally_open_momentary_down from "./../symbols/push_button_normally_open_momentary_down"
 import _push_button_normally_open_momentary_horz from "./../symbols/push_button_normally_open_momentary_horz"
+import _push_button_normally_open_momentary_left from "./../symbols/push_button_normally_open_momentary_left"
+import _push_button_normally_open_momentary_right from "./../symbols/push_button_normally_open_momentary_right"
+import _push_button_normally_open_momentary_up from "./../symbols/push_button_normally_open_momentary_up"
 import _push_button_normally_open_momentary_vert from "./../symbols/push_button_normally_open_momentary_vert"
 import _rail_down from "./../symbols/rail_down"
 import _rail_left from "./../symbols/rail_left"
@@ -507,7 +511,11 @@ export default {
   "power_factor_meter_vert": _power_factor_meter_vert,
   "push_button_normally_closed_momentary_horz": _push_button_normally_closed_momentary_horz,
   "push_button_normally_closed_momentary_vert": _push_button_normally_closed_momentary_vert,
+  "push_button_normally_open_momentary_down": _push_button_normally_open_momentary_down,
   "push_button_normally_open_momentary_horz": _push_button_normally_open_momentary_horz,
+  "push_button_normally_open_momentary_left": _push_button_normally_open_momentary_left,
+  "push_button_normally_open_momentary_right": _push_button_normally_open_momentary_right,
+  "push_button_normally_open_momentary_up": _push_button_normally_open_momentary_up,
   "push_button_normally_open_momentary_vert": _push_button_normally_open_momentary_vert,
   "rail_down": _rail_down,
   "rail_left": _rail_left,
