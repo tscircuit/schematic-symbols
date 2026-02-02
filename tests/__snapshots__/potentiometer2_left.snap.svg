@@ -1,9 +1,8 @@
 <svg width="150" height="150" viewBox="-0.636 -0.42 1.272 0.84" xmlns="http://www.w3.org/2000/svg"><path d="M0.53,-6.490628035480972e-17 L0.27,-3.306546357697854e-17" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M-0.26,3.1840816777831187e-17 L-0.53,6.490628035480972e-17" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M1.5920408388915593e-17,0.13 L-0.26,0.13000000000000003 L-0.26,-0.12999999999999998 L0.27,-0.13000000000000003 L0.27,0.12999999999999998 L1.5920408388915593e-17,0.13" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M-0.2800000000000001,-0.27999999999999997 L-0.18000000000000002,-0.24999999999999997 L-0.25,-0.17999999999999997" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M-0.29000000000000004,-0.2899999999999999 L-0.25,-0.16999999999999998 L-0.16000000000000003,-0.26" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M0.30000000000000004,0.2899999999999999 L-0.23000000000000004,-0.22999999999999998" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.29000000000000004,-0.2899999999999999 L-0.26,-0.15999999999999998 L-0.16000000000000003,-0.26 L-0.29000000000000004,-0.2899999999999999" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.30000000000000004,0.2899999999999999 L-0.20000000000000004,-0.19999999999999998" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <text x="0" y="0.35" dx="0" dy="0.07500000000000001" text-anchor="middle" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.0125" y="0.33749999999999997" width="0.025" height="0.025" fill="blue" />
     <text x="0" y="-0.38" dx="0" dy="0" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.0125" y="-0.3925" width="0.025" height="0.025" fill="blue" />
 
