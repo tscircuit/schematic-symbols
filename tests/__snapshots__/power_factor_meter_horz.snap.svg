@@ -1,8 +1,8 @@
 <svg width="150" height="150" viewBox="-0.6839999999999999 -0.474 1.3679999999999999 0.948" xmlns="http://www.w3.org/2000/svg"><path d="M-0.54,-0.03 L-0.3,-0.03" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.29,-0.03 L0.54,-0.03" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <circle cx="0" cy="-0.04" r="0.29" fill="none" stroke="black" stroke-width="0.02" />
-    <text x="-0.15" y="0.42330070000000064" dx="0" dy="0.07500000000000001" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.1625" y="0.41080070000000063" width="0.025" height="0.025" fill="blue" />
-    <text x="-0.15" y="-0.42330070000000064" dx="0" dy="0" text-anchor="middle" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.1625" y="-0.43580070000000065" width="0.025" height="0.025" fill="blue" />
+    <text x="0" y="-0.43330070000000065" dx="0" dy="0" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.0125" y="-0.44580070000000066" width="0.025" height="0.025" fill="blue" />
+    <text x="0" y="0.43330070000000065" dx="0" dy="0.07500000000000001" text-anchor="middle" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.0125" y="0.42080070000000064" width="0.025" height="0.025" fill="blue" />
     <text x="0" y="-0.014279000000000375" dx="0" dy="0.05" text-anchor="middle" style="font: 0.1px monospace; fill: black">COS φ</text><rect x="-0.0125" y="-0.026779000000000375" width="0.025" height="0.025" fill="blue" />
 
     

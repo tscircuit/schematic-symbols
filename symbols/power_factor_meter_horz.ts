@@ -12,17 +12,17 @@ export default defineSymbol({
     {
       type: "text",
       text: "{REF}",
-      x: -0.15,
-      y: -0.42330070000000064,
-      anchor: "middle_top",
+      x: 0,
+      y: 0.43330070000000064,
+      anchor: "middle_bottom",
     },
     // { ...texts.bottom1, anchor: "middle_left" },
     {
       type: "text",
       text: "{VAL}",
-      x: -0.15,
-      y: 0.42330070000000064,
-      anchor: "middle_bottom",
+      x: 0,
+      y: -0.43330070000000064,
+      anchor: "middle_top",
     },
     // { ...texts.left1, anchor: "middle_left" },
     {
