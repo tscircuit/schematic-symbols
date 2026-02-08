@@ -1,32 +1,10 @@
+import { modifySymbol } from "../drawing/modify-symbol/modify-symbol"
 import svgJson from "assets/generated/capacitor_polarized.json"
-import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
 
-const { paths, texts, bounds, refblocks, circles } = svgJson
-export default modifySymbol({
-  primitives: [
-    ...Object.values(paths),
-    ...Object.values(circles),
-    {
-      type: "text",
-      text: "{REF}",
-      x: 0.1,
-      y: -0.2094553499999995,
-    },
-    {
-      type: "text",
-      text: "{VAL}",
-      x: -0.2,
-      y: -0.2094553499999995,
-    },
-  ] as any,
-  ports: [
-    { ...refblocks.left1, labels: ["2", "neg"] }, // TODO add more "standard" labels
-    { ...refblocks.right1, labels: ["1", "pos"] }, // TODO add more "standard" labels
-  ],
-  size: { width: bounds.width, height: bounds.height },
-  center: { x: bounds.centerX, y: bounds.centerY },
-})
-  .changeTextAnchor("{VAL}", "top_left")
+export default modifySymbol(svgJson)
   .rotateRightFacingSymbol("up")
-  .changeTextAnchor("{REF}", "bottom_left")
+  .labelPort("left1", ["2", "neg"])
+  .labelPort("right1", ["1", "pos"])
+  .changeTextAnchor("{REF}", "middle_left", { x: 0.7, y: 0.3 })
+  .changeTextAnchor("{VAL}", "middle_left", { x: -0.12, y: -0.3 })
   .build()

@@ -9,7 +9,7 @@
    id="svg1"
    xml:space="preserve"
    sodipodi:docname="capacitor_polarized.svg"
-   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,13 +25,13 @@
    inkscape:document-units="mm"
    showgrid="false"
    showguides="true"
-   inkscape:zoom="22.627417"
-   inkscape:cx="88.565124"
-   inkscape:cy="643.77653"
+   inkscape:zoom="45.254834"
+   inkscape:cx="90.841124"
+   inkscape:cy="639.76591"
    inkscape:window-width="1920"
-   inkscape:window-height="1009"
-   inkscape:window-x="-8"
-   inkscape:window-y="-8"
+   inkscape:window-height="991"
+   inkscape:window-x="-9"
+   inkscape:window-y="-9"
    inkscape:window-maximized="1"
    inkscape:current-layer="capacitor-2"><sodipodi:guide
      position="22.615349,128.88511"
@@ -139,10 +139,10 @@
    d="m 33.039984,-17.149474 c -0.411546,-0.24548 -0.838456,-0.430068 -1.282295,-0.537971 -0.558503,-0.135779 -1.13563,-0.171407 -1.713904,-0.128957 -0.490062,0.0436 -0.98734,0.120647 -1.46068,0.281738 -0.27734,0.09439 -0.547496,0.222792 -0.802134,0.385056"
    sodipodi:nodetypes="cscsc" /><path
    id="rect1577-4"
-   style="stroke-width:0.0970555"
-   d="m 28.143978,-21.217623 v 1.404672 h -0.04973 v -1.404672 z" /><path
+   style="stroke-width:0.112881"
+   d="m 28.161518,-21.217623 v 1.404672 h -0.06727 v -1.404672 z" /><path
    id="rect1577-4-7"
-   style="stroke-width:0.0970555"
-   d="m 27.41646,-20.540718 h 1.404672 v 0.04973 H 27.41646 Z" /></g>
+   style="stroke-width:0.112881"
+   d="m 27.41646,-20.558258 h 1.404672 v 0.06727 H 27.41646 Z" /></g>
   </g>
 </svg>
