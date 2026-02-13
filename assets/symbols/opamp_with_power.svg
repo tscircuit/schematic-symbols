@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
-<svg width="150" height="150" viewBox="-0.6 -0.518 1.2 0.9359999999999999" xmlns="http://www.w3.org/2000/svg"><path d="M0.14,-0.04 L-0.32,0.21" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M-0.32,-0.31 L0.14,-0.04" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M-0.32,0.21 L-0.32,-0.31" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M-0.32,-0.18 L-0.57,-0.18" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M-0.32,0.09 L-0.57,0.09" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M0.43,-0.04 L0.15,-0.04" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M-0.1,-0.44 L-0.1,-0.18" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M-0.09,0.34 L-0.09,0.09" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M-0.19,-0.18 L-0.27,-0.18" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M-0.19,0.09 L-0.27,0.09" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M-0.23,-0.14 L-0.23,-0.22" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <text x="0.25" y="-0.32" dx="0" dy="0" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="0.2375" y="-0.3325" width="0.025" height="0.025" fill="blue" />
-    <text x="0.25" y="0.24" dx="0" dy="0.07500000000000001" text-anchor="middle" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="0.2375" y="0.22749999999999998" width="0.025" height="0.025" fill="blue" />
+<svg width="150" height="150" viewBox="-0.55 -0.518 1.1 0.9359999999999999" xmlns="http://www.w3.org/2000/svg"><path d="M0.21,-0.04 L-0.25,0.21" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.25,-0.31 L0.21,-0.04" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.25,0.21 L-0.25,-0.31" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.25,0.18 L-0.5,0.18" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.25,-0.09 L-0.5,-0.09" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.5,-0.04 L0.21,-0.04" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.03,-0.44 L-0.03,-0.18" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.02,0.34 L-0.02,0.09" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.12,-0.18 L-0.2,-0.18" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.12,0.09 L-0.2,0.09" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.16,-0.14 L-0.16,-0.22" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="0.32" y="-0.32" dx="0" dy="0" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text>
+    <text x="0.32" y="0.24" dx="0" dy="0.07500000000000001" text-anchor="middle" style="font: 0.1px monospace; fill: black">{VAL}</text>
 
     
     <line x1="-0.595" y1="-0.205" x2="-0.5449999999999999" y2="-0.155" stroke="red" stroke-width="0.004" />
