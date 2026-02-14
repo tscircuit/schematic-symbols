@@ -3,7 +3,7 @@ import { readdir, readFile, writeFile } from "fs/promises"
 import { join } from "path"
 
 function roundToThreeDecimals(num: number): number {
-  return Math.round(num * 1000) / 1000
+  return Math.round(num * 100000) / 100000
 }
 
 function roundNumbersInObject(obj: any): any {
