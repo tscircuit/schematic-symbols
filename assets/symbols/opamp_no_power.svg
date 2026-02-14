@@ -1,47 +1,254 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
-<svg width="150" height="150" viewBox="-0.55 -0.482 1.1 0.864" xmlns="http://www.w3.org/2000/svg"><path d="M0.21,-0.04 L-0.25,0.21" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M-0.25,-0.31 L0.21,-0.04" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M-0.25,0.21 L-0.25,-0.31" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M-0.25,-0.18 L-0.5,-0.18" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M-0.25,0.09 L-0.5,0.09" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M0.5,-0.04 L0.21,-0.04" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M-0.12,0.09 L-0.2,0.09" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M-0.12,-0.18 L-0.2,-0.18" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M-0.16,-0.14 L-0.16,-0.22" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <text x="0.06" y="-0.42" dx="0" dy="0" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text>
-    <text x="0.07" y="0.3" dx="0" dy="0.07500000000000001" text-anchor="middle" style="font: 0.1px monospace; fill: black">{VAL}</text>
-
-    
-    <line x1="-0.595" y1="-0.205" x2="-0.5449999999999999" y2="-0.155" stroke="red" stroke-width="0.004" />
-    <line x1="-0.595" y1="-0.155" x2="-0.5449999999999999" y2="-0.205" stroke="red" stroke-width="0.004" />
-  
-    <text x="-0.61" y="-0.09"
-      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
-  
-    
-    
-    <line x1="-0.595" y1="0.065" x2="-0.5449999999999999" y2="0.11499999999999999" stroke="red" stroke-width="0.004" />
-    <line x1="-0.595" y1="0.11499999999999999" x2="-0.5449999999999999" y2="0.065" stroke="red" stroke-width="0.004" />
-  
-    <text x="-0.61" y="0.18000000000000002"
-      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
-  
-    
-    
-    <line x1="0.40499999999999997" y1="-0.065" x2="0.455" y2="-0.015" stroke="red" stroke-width="0.004" />
-    <line x1="0.40499999999999997" y1="-0.015" x2="0.455" y2="-0.065" stroke="red" stroke-width="0.004" />
-  
-    <text x="0.39" y="0.05"
-      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
-  
-<path d="M 0 -0.07500000000000001 L 0.025 -0.05 L 0 -0.025 L -0.025 -0.05 Z" fill="green" />
-<text x="-0.5" y="-0.31" style="font: 0.05px monospace; fill: #833;">1.00 x 0.72</text>
-<text x="-0.5" y="-0.36" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [inp1]</text>
-<text x="-0.5" y="-0.41000000000000003" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [inp2]</text>
-<text x="-0.5" y="-0.46" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [out]</text>
-<text x="-0.5" y="-0.31" style="font: 0.05px monospace; fill: #833;">1.00 x 0.72</text>
-<text x="-0.5" y="-0.36" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [inp1]</text>
-<text x="-0.5" y="-0.41000000000000003" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [inp2]</text>
-<text x="-0.5" y="-0.46" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [out]</text></svg>
+<svg
+   width="150"
+   height="150"
+   viewBox="-0.6 -0.482 1.2 0.864"
+   version="1.1"
+   id="svg23"
+   sodipodi:docname="opamp_no_power.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs23" />
+  <sodipodi:namedview
+     id="namedview23"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="5.1533333"
+     inkscape:cx="74.902975"
+     inkscape:cy="75"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg23" />
+  <path
+     d="M0.14,-0.04 L-0.32,0.21"
+     fill="none"
+     stroke="black"
+     stroke-width="0.02"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path1" />
+  <path
+     d="M-0.32,-0.31 L0.14,-0.04"
+     fill="none"
+     stroke="black"
+     stroke-width="0.02"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path2" />
+  <path
+     d="M-0.32,0.21 L-0.32,-0.31"
+     fill="none"
+     stroke="black"
+     stroke-width="0.02"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path3" />
+  <path
+     d="M-0.32,-0.18 L-0.57,-0.18"
+     fill="none"
+     stroke="black"
+     stroke-width="0.02"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path4" />
+  <path
+     d="M-0.32,0.09 L-0.57,0.09"
+     fill="none"
+     stroke="black"
+     stroke-width="0.02"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path5" />
+  <path
+     d="M0.43,-0.04 L0.15,-0.04"
+     fill="none"
+     stroke="black"
+     stroke-width="0.02"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path6" />
+  <path
+     d="M-0.19,0.09 L-0.27,0.09"
+     fill="black"
+     stroke="black"
+     stroke-width="0.02"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path7" />
+  <path
+     d="M-0.19,-0.18 L-0.27,-0.18"
+     fill="black"
+     stroke="black"
+     stroke-width="0.02"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path8" />
+  <path
+     d="M-0.23,-0.14 L-0.23,-0.22"
+     fill="black"
+     stroke="black"
+     stroke-width="0.02"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path9" />
+  <text
+     x="-0.01"
+     y="-0.42"
+     dx="0"
+     dy="0"
+     text-anchor="middle"
+     style="font: 0.1px monospace; fill: black"
+     id="text9">{REF}</text>
+  <rect
+     x="-0.022500001"
+     y="-0.4165"
+     width="0.025"
+     height="0.025"
+     fill="#0000ff"
+     id="rect9" />
+  <text
+     x="0"
+     y="0.3"
+     dx="0"
+     dy="0.07500000000000001"
+     text-anchor="middle"
+     style="font: 0.1px monospace; fill: black"
+     id="text10">{VAL}</text>
+  <rect
+     x="-0.0125"
+     y="0.2875"
+     width="0.025"
+     height="0.025"
+     fill="blue"
+     id="rect10" />
+  <line
+     x1="-0.595"
+     y1="-0.205"
+     x2="-0.5449999999999999"
+     y2="-0.155"
+     stroke="red"
+     stroke-width="0.004"
+     id="line10" />
+  <line
+     x1="-0.595"
+     y1="-0.155"
+     x2="-0.5449999999999999"
+     y2="-0.205"
+     stroke="red"
+     stroke-width="0.004"
+     id="line11" />
+  <text
+     x="-0.61"
+     y="-0.09"
+     text-anchor="middle"
+     style="font: 0.08px monospace; fill: #833;"
+     id="text11">1</text>
+  <line
+     x1="-0.595"
+     y1="0.065"
+     x2="-0.5449999999999999"
+     y2="0.11499999999999999"
+     stroke="red"
+     stroke-width="0.004"
+     id="line12" />
+  <line
+     x1="-0.595"
+     y1="0.11499999999999999"
+     x2="-0.5449999999999999"
+     y2="0.065"
+     stroke="red"
+     stroke-width="0.004"
+     id="line13" />
+  <text
+     x="-0.61"
+     y="0.18000000000000002"
+     text-anchor="middle"
+     style="font: 0.08px monospace; fill: #833;"
+     id="text13">2</text>
+  <line
+     x1="0.40499999999999997"
+     y1="-0.065"
+     x2="0.455"
+     y2="-0.015"
+     stroke="red"
+     stroke-width="0.004"
+     id="line14" />
+  <line
+     x1="0.405"
+     y1="-0.015"
+     x2="0.45500001"
+     y2="-0.064999998"
+     stroke="#ff0000"
+     stroke-width="0.004"
+     id="line15" />
+  <text
+     x="0.39"
+     y="0.05"
+     text-anchor="middle"
+     style="font: 0.08px monospace; fill: #833;"
+     id="text15">3</text>
+  <path
+     d="M 0 -0.07500000000000001 L 0.025 -0.05 L 0 -0.025 L -0.025 -0.05 Z"
+     fill="green"
+     id="path15" />
+  <text
+     x="-0.5"
+     y="-0.31"
+     style="font: 0.05px monospace; fill: #833;"
+     id="text16">1.00 x 0.72</text>
+  <text
+     x="-0.5"
+     y="-0.36"
+     dy="-0.15"
+     style="font: 0.05px monospace; fill: #833;"
+     id="text17">1 [inp1]</text>
+  <text
+     x="-0.5"
+     y="-0.41000000000000003"
+     dy="-0.15"
+     style="font: 0.05px monospace; fill: #833;"
+     id="text18">2 [inp2]</text>
+  <text
+     x="-0.5"
+     y="-0.46"
+     dy="-0.15"
+     style="font: 0.05px monospace; fill: #833;"
+     id="text19">3 [out]</text>
+  <text
+     x="-0.5"
+     y="-0.31"
+     style="font: 0.05px monospace; fill: #833;"
+     id="text20">1.00 x 0.72</text>
+  <text
+     x="-0.5"
+     y="-0.36"
+     dy="-0.15"
+     style="font: 0.05px monospace; fill: #833;"
+     id="text21">1 [inp1]</text>
+  <text
+     x="-0.5"
+     y="-0.41000000000000003"
+     dy="-0.15"
+     style="font: 0.05px monospace; fill: #833;"
+     id="text22">2 [inp2]</text>
+  <text
+     x="-0.5"
+     y="-0.46"
+     dy="-0.15"
+     style="font: 0.05px monospace; fill: #833;"
+     id="text23">3 [out]</text>
+</svg>
