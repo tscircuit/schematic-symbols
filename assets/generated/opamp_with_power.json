@@ -203,13 +203,13 @@
     }
   },
   "bounds": {
-    "minX": -0.5,
-    "maxX": 0.5,
+    "minX": -0.57,
+    "maxX": 0.43,
     "minY": -0.34,
     "maxY": 0.44,
     "width": 1.0,
     "height": 0.78,
-    "centerX": 0,
+    "centerX": -0.01,
     "centerY": 0.05
   },
   "circles": {}
