@@ -1,7 +1,7 @@
 {
   "name": "schematic-symbols",
   "main": "./dist/index.js",
-  "version": "0.0.212",
+  "version": "0.0.213",
   "type": "module",
   "files": [
     "dist"
