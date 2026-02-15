@@ -1,5 +1,5 @@
-import svgJson from "../assets/generated/solderjumper2.json"
-import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
+import { modifySymbol } from "../drawing/modify-symbol/modify-symbol"
+import svgJson from "assets/generated/solderjumper2.json"
 
 export default modifySymbol(svgJson)
   .rotateRightFacingSymbol("down")

@@ -159,8 +159,6 @@ export function getInnerSvg(
         )
       }
     })
-
-    debugElements.push(...debugElements)
   }
 
   return [
