@@ -1,257 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
-<svg
-   width="30mm"
-   height="30mm"
-   viewBox="0 0 30 30"
-   version="1.1"
-   id="svg1"
-   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
-   sodipodi:docname="solderjumper2_bridged12.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview1"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="false"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm"
-     inkscape:zoom="16"
-     inkscape:cx="54.25"
-     inkscape:cy="58.375"
-     inkscape:window-width="1878"
-     inkscape:window-height="940"
-     inkscape:window-x="13"
-     inkscape:window-y="40"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="diode"
-     showgrid="true"
-     showguides="true">
-    <inkscape:grid
-       id="grid207"
-       units="mm"
-       originx="0"
-       originy="0"
-       spacingx="10"
-       spacingy="10"
-       empcolor="#0099e5"
-       empopacity="0.30196078"
-       color="#0099e5"
-       opacity="0.14901961"
-       empspacing="5"
-       dotted="false"
-       gridanglex="30"
-       gridanglez="30"
-       visible="true" />
-    <sodipodi:guide
-       position="13.931257,16.824703"
-       orientation="0,-1"
-       id="guide214"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="14.693603,14.841853"
-       orientation="1,0"
-       id="guide216"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="15.959963,13.950946"
-       orientation="0,-1"
-       id="guide218"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="13.805264,15.222788"
-       orientation="0,-1"
-       id="guide220"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="13.87726,15.042798"
-       orientation="1,0"
-       id="guide222"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="9.5327054,14.510945"
-       orientation="1,0"
-       id="guide369"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="20.490862,13.429129"
-       orientation="1,0"
-       id="guide371"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="12.65088,15.50367"
-       orientation="0,-1"
-       id="guide373"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="13.49928,18.219628"
-       orientation="1,0"
-       id="guide523"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="16.613114,12.864914"
-       orientation="1,0"
-       id="guide525"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="15.170874,16.47094"
-       orientation="0,-1"
-       id="guide2"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="14.408751,16.593928"
-       orientation="0,-1"
-       id="guide3"
-       inkscape:locked="false" />
-  </sodipodi:namedview>
-  <defs
-     id="defs1">
-    <inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 15 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="30 : 15 : 1"
-       inkscape:persp3d-origin="15 : 10 : 1"
-       id="perspective358" />
-    <inkscape:path-effect
-       effect="fillet_chamfer"
-       id="path-effect3"
-       is_visible="true"
-       lpeversion="1"
-       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
-       radius="0"
-       unit="px"
-       method="auto"
-       mode="F"
-       chamfer_steps="1"
-       flexible="false"
-       use_knot_distance="true"
-       apply_no_radius="true"
-       apply_with_radius="true"
-       only_selected="false"
-       hide_knots="false" />
-    <inkscape:path-effect
-       effect="fillet_chamfer"
-       id="path-effect2"
-       is_visible="true"
-       lpeversion="1"
-       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
-       radius="0"
-       unit="px"
-       method="auto"
-       mode="F"
-       chamfer_steps="1"
-       flexible="false"
-       use_knot_distance="true"
-       apply_no_radius="true"
-       apply_with_radius="true"
-       only_selected="false"
-       hide_knots="false" />
-    <inkscape:path-effect
-       effect="fillet_chamfer"
-       id="path-effect1"
-       is_visible="true"
-       lpeversion="1"
-       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 | F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
-       radius="0"
-       unit="px"
-       method="auto"
-       mode="F"
-       chamfer_steps="1"
-       flexible="false"
-       use_knot_distance="true"
-       apply_no_radius="true"
-       apply_with_radius="true"
-       only_selected="false"
-       hide_knots="false" />
-  </defs>
-  <g
-     inkscape:label="root"
-     inkscape:groupmode="layer"
-     id="root">
-    <g
-       id="diode"
-       transform="rotate(90,0.7339933,94.975664)"
-       inkscape:label="Schottky_diode">
-      <title
-         id="title40">Diode</title>
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.214609px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m -79.440895,82.22887 v 2.596591"
-         id="path44"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.219952px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m -79.458042,76.01349 v 2.582669"
-         id="path44-0"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.15792px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m -79.457964,79.746921 v 1.331333"
-         id="path44-0-7"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
-      <title
-         id="title44">Diode</title>
-      <circle
-         style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-         id="refblock-5-7-3-81-7"
-         cx="-75.959106"
-         cy="-79.448494"
-         r="0.28158441"
-         transform="rotate(-90)" />
-      <circle
-         style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-         id="refblock-5-7-3-81-7-9"
-         cx="-84.875122"
-         cy="-79.449738"
-         r="0.28158441"
-         transform="rotate(-90)" />
-      <text
-         xml:space="preserve"
-         style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
-         x="-80.623466"
-         y="-81.24144"
-         id="text14-3-0-5-0-5"
-         transform="rotate(-90)"
-         inkscape:transform-center-x="-0.34198176"
-         inkscape:transform-center-y="-0.053997121"><tspan
-           sodipodi:role="line"
-           id="tspan14-1-4-0-4-8"
-           style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-           x="-80.623466"
-           y="-81.24144">{REF}</tspan></text>
-      <path
-         style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:0.119062"
-         d="m -80.712292,79.727918 h 2.519866"
-         id="path2" />
-      <path
-         style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:0.119062"
-         d="m -80.713255,81.098026 h 2.519866"
-         id="path2-8" />
-      <path
-         id="path8704-1"
-         style="display:inline;fill:none;stroke:#000000;stroke-width:0.213434;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-         inkscape:transform-center-x="0.57690639"
-         inkscape:transform-center-y="-1.1627802"
-         d="m -78.159778,81.144484 c -0.826169,1.642887 -2.163819,0.85307 -2.573483,2.18e-4"
-         sodipodi:nodetypes="cc" />
-      <path
-         id="path8704-1-7"
-         style="display:inline;fill:none;stroke:#000000;stroke-width:0.213434;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-         inkscape:transform-center-x="-0.57690627"
-         inkscape:transform-center-y="-1.1627802"
-         d="m -78.15851,79.682206 c -0.826169,-1.642887 -2.163819,-0.85307 -2.573483,-2.18e-4"
-         sodipodi:nodetypes="cc" />
-    </g>
-  </g>
-</svg>
+<svg width="150" height="150" viewBox="-0.5287182599999999 -0.15988989999999897 1.0574365199999998 0.3699515999999988" xmlns="http://www.w3.org/2000/svg"><path d="M-0.18117559999999955,0.025908000000000264 L-0.4408346999999999,0.025908000000000264" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.44036239999999993,0.024193299999999418 L0.1820955000000004,0.024193299999999418" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.06701930000000034,0.024201099999999753 L-0.06611399999999956,0.024201099999999753" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.0689196000000003,-0.10123170000000048 L0.0689196000000003,0.15075489999999903" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.06809120000000002,-0.1013280000000003 L-0.06809120000000002,0.15065859999999898" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.07273700000000005,0.15401969999999987 L-0.07273700000000005,0.15401969999999987 L-0.0883637452185186,0.1455928476925925 L-0.10242134708148157,0.13685699620740738 L-0.11496246490000012,0.1278441337 L-0.12603975798518532,0.11858624832592597 L-0.13570588564814828,0.10911532824074079 L-0.14401350720000017,0.09946336160000008 L-0.15101528195185202,0.08966233655925933 L-0.15676386921481505,0.07974424127407413 L-0.16131192830000016,0.06974106390000002 L-0.16471211851851875,0.05968479259259264 L-0.16701709918148167,0.04960741550740742 L-0.16827952960000025,0.03954092080000003 L-0.16855206908518539,0.029517296625925914 L-0.16788737694814843,0.01956853114074074 L-0.16633811250000025,0.009726612499999964 L-0.16395693505185213,0.00002352885925920034 L-0.16079650391481512,-0.009508731625925994 L-0.15690947840000036,-0.018838180800000083 L-0.15234851781851885,-0.0279328305074075 L-0.14716628148148186,-0.03676069259259269 L-0.14141542870000037,-0.04528977890000009 L-0.13514861878518558,-0.053488101274074155 L-0.12841851104814855,-0.06132367155925933 L-0.12127776480000044,-0.06876450160000006 L-0.11377903935185232,-0.07577860324074076 L-0.1059749940148153,-0.08233398832592591 L-0.09791828810000051,-0.08839866869999995 L-0.08966158091851906,-0.0939406562074073 L-0.08125753178148204,-0.09892796269259241 L-0.0727588000000006,-0.10332859999999976 L-0.07275880000000057,-0.10332859999999977" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.07349080000000119,0.15414649999999952 L0.07349080000000119,0.15414649999999952 L0.08911754521851972,0.14571964769259216 L0.1031751470814827,0.13698379620740703 L0.11571626490000125,0.12797093369999965 L0.12679355798518643,0.11871304832592562 L0.13645968564814942,0.10924212824074045 L0.1447673072000013,0.09959016159999971 L0.15176908195185318,0.08978913655925898 L0.15751766921481616,0.0798710412740738 L0.1620657283000013,0.06986786389999967 L0.16546591851851983,0.0598115925925923 L0.16777089918148277,0.04973421550740708 L0.1690333296000014,0.03966772079999968 L0.1693058690851865,0.029644096625925563 L0.16864117694814956,0.01969533114074039 L0.16709191250000135,0.009853412499999614 L0.16471073505185324,0.00015032885925885323 L0.1615503039148162,-0.009381931625926349 L0.15766327840000144,-0.018711380800000437 L0.15310231781851993,-0.027806030507407847 L0.1479200814814829,-0.03663389259259304 L0.14216922870000145,-0.04516297890000044 L0.13590241878518663,-0.053361301274074506 L0.1291723110481496,-0.061196871559259694 L0.12203156480000146,-0.0686377016000004 L0.11453283935185332,-0.07565180324074111 L0.1067287940148163,-0.08220718832592627 L0.09867208810000148,-0.0882718687000003 L0.09041538091852001,-0.09381385620740765 L0.08201133178148297,-0.09880116269259277 L0.07351260000000151,-0.10320180000000011 L0.07351260000000148,-0.10320180000000012" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="-0.020635199999998965" y="-0.15414649999999952" dx="0" dy="0" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.03313519999999896" y="-0.16664649999999953" width="0.025" height="0.025" fill="blue" />
+
+    
+    <line x1="-0.4708008" y1="0.00002370000000042477" x2="-0.4208008" y2="0.05002370000000043" stroke="red" stroke-width="0.004" />
+    <line x1="-0.4708008" y1="0.05002370000000043" x2="-0.4208008" y2="0.00002370000000042477" stroke="red" stroke-width="0.004" />
+  
+    <text x="-0.4858008" y="0.11502370000000042"
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
+  
+    
+    
+    <line x1="0.4208008" y1="0.00014810000000044926" x2="0.4708008" y2="0.05014810000000045" stroke="red" stroke-width="0.004" />
+    <line x1="0.4208008" y1="0.05014810000000045" x2="0.4708008" y2="0.00014810000000044926" stroke="red" stroke-width="0.004" />
+  
+    <text x="0.4058008" y="0.11514810000000045"
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+  
+<path d="M 0 0.00008590000000043702 L 0.025 0.02508590000000044 L 0 0.05008590000000044 L -0.025 0.02508590000000044 Z" fill="green" />
+<text x="-0.4405985499999999" y="-0.17923239999999996" style="font: 0.05px monospace; fill: #833;">0.88 x 0.31</text>
+<text x="-0.4405985499999999" y="-0.17923239999999996" style="font: 0.05px monospace; fill: #833;">0.88 x 0.31</text></svg>
