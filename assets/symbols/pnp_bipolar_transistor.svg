@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="8.2000267"
-     inkscape:cx="66.280272"
-     inkscape:cy="48.353501"
+     inkscape:zoom="92.772712"
+     inkscape:cx="40.265073"
+     inkscape:cy="38.799125"
      inkscape:window-width="1247"
      inkscape:window-height="758"
      inkscape:window-x="0"
@@ -62,8 +62,8 @@
        transform="rotate(90,-16.834901,-60.008307)"
        inkscape:label="pnp_bipolar_transistor">
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.244764px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 60.507986,-97.656633 -4.438571,-0.02432"
+         style="fill:none;stroke:#000000;stroke-width:0.245819px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 60.749874,-97.657161 -4.679931,-0.02326"
          id="path11"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cc" />
@@ -114,14 +114,14 @@
          r="2.8854213"
          transform="rotate(179.97579)" />
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.249987;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-         d="m 53.806921,-95.085954 -0.0078,2.846533"
+         style="fill:none;stroke:#000000;stroke-width:0.250565;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         d="m 53.806632,-95.085665 -0.0072,3.088371"
          id="path12-1-5"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cc" />
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.249987;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-         d="m 53.80358,-102.99396 -0.0078,2.84654"
+         style="fill:none;stroke:#000000;stroke-width:0.250596;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         d="m 53.803276,-103.25033 -0.0072,3.10261"
          id="path12-1-5-3"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cc" />
