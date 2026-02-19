@@ -9,25 +9,25 @@ export default modifySymbol({
     {
       type: "text",
       text: "{REF}",
-      x: -0.1,
-      y: -0.3094553499999995,
+      x: -0.5,
+      y: 0.3,
     },
     {
       type: "text",
       text: "{VAL}",
-      x: -0.1,
-      y: 0.3094553499999995,
+      x: 0.55,
+      y: 0.3,
     },
   ] as any,
   ports: [
-    { ...refblocks.top1, labels: ["1", "collector"] },
-    { ...refblocks.bottom1, labels: ["2", "emitter"] },
-    { ...refblocks.left1, labels: ["3", "base"] },
+    { ...refblocks.top1, labels: ["3", "collector"] },
+    { ...refblocks.bottom1, labels: ["1", "emitter"] },
+    { ...refblocks.left1, labels: ["2", "base"] },
   ],
   size: { width: bounds.width, height: bounds.height },
   center: { x: bounds.centerX, y: bounds.centerY },
 })
   .rotateRightFacingSymbol("down")
   .changeTextAnchor("{REF}", "middle_bottom")
-  .changeTextAnchor("{VAL}", "middle_bottom")
+  .changeTextAnchor("{VAL}", "middle_top")
   .build()

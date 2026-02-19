@@ -6,15 +6,15 @@
     <path d="M0.29,0.55 L0.29,0.25" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.15,0.23 L0.22,0.12 L0.12,0.12 L0.15,0.23" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <circle cx="0.14" cy="0" r="0.29" fill="none" stroke="black" stroke-width="0.02" />
-    <text x="-0.1" y="-0.3094553499999995" dx="0" dy="0.037500000000000006" text-anchor="end" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.1125" y="-0.32195534999999953" width="0.025" height="0.025" fill="blue" />
-    <text x="-0.1" y="0.3094553499999995" dx="0" dy="0.037500000000000006" text-anchor="end" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.1125" y="0.2969553499999995" width="0.025" height="0.025" fill="blue" />
+    <text x="-0.3" y="-0.5" dx="0" dy="0.037500000000000006" text-anchor="end" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.3125" y="-0.5125" width="0.025" height="0.025" fill="blue" />
+    <text x="-0.3" y="0.5" dx="0" dy="0.037500000000000006" text-anchor="end" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.3125" y="0.4875" width="0.025" height="0.025" fill="blue" />
 
     
     <line x1="0.26499999999999996" y1="-0.5750000000000001" x2="0.315" y2="-0.525" stroke="red" stroke-width="0.004" />
     <line x1="0.26499999999999996" y1="-0.525" x2="0.315" y2="-0.5750000000000001" stroke="red" stroke-width="0.004" />
   
     <text x="0.24999999999999997" y="-0.46"
-      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
   
     
     
@@ -22,7 +22,7 @@
     <line x1="0.26499999999999996" y1="0.5750000000000001" x2="0.315" y2="0.525" stroke="red" stroke-width="0.004" />
   
     <text x="0.24999999999999997" y="0.6400000000000001"
-      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
   
     
     
@@ -30,14 +30,14 @@
     <line x1="-0.42500000000000004" y1="0.025" x2="-0.375" y2="-0.025" stroke="red" stroke-width="0.004" />
   
     <text x="-0.44" y="0.09"
-      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
   
 <path d="M 0 -0.025 L 0.025 0 L 0 0.025 L -0.025 0 Z" fill="green" />
 <text x="-0.41500000000000004" y="-0.55" style="font: 0.05px monospace; fill: #833;">0.83 x 1.10</text>
-<text x="-0.41500000000000004" y="-0.6000000000000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [collector]</text>
-<text x="-0.41500000000000004" y="-0.65" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [emitter]</text>
-<text x="-0.41500000000000004" y="-0.7000000000000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [base]</text>
+<text x="-0.41500000000000004" y="-0.6000000000000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [collector]</text>
+<text x="-0.41500000000000004" y="-0.65" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [emitter]</text>
+<text x="-0.41500000000000004" y="-0.7000000000000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [base]</text>
 <text x="-0.41500000000000004" y="-0.55" style="font: 0.05px monospace; fill: #833;">0.83 x 1.10</text>
-<text x="-0.41500000000000004" y="-0.6000000000000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [collector]</text>
-<text x="-0.41500000000000004" y="-0.65" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [emitter]</text>
-<text x="-0.41500000000000004" y="-0.7000000000000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [base]</text></svg>
+<text x="-0.41500000000000004" y="-0.6000000000000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [collector]</text>
+<text x="-0.41500000000000004" y="-0.65" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [emitter]</text>
+<text x="-0.41500000000000004" y="-0.7000000000000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [base]</text></svg>
