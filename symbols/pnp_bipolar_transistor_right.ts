@@ -8,13 +8,13 @@ export default modifySymbol({
     {
       type: "text",
       text: "{REF}",
-      x: -0.3,
+      x: 0.3,
       y: -0.3,
     },
     {
       type: "text",
       text: "{VAL}",
-      x: 0.3,
+      x: -0.3,
       y: -0.3,
     },
   ] as any,
@@ -27,6 +27,6 @@ export default modifySymbol({
   center: { x: svgJson.bounds.centerX, y: svgJson.bounds.centerY },
 })
   .rotateRightFacingSymbol("right")
-  .changeTextAnchor("{REF}", "middle_right")
-  .changeTextAnchor("{VAL}", "middle_left")
+  .changeTextAnchor("{REF}", "middle_left")
+  .changeTextAnchor("{VAL}", "middle_right")
   .build()
