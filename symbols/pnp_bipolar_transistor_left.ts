@@ -24,7 +24,7 @@ export default modifySymbol({
     { ...svgJson.refblocks.right1, labels: ["3", "emitter"] },
   ],
   size: { width: svgJson.bounds.width, height: svgJson.bounds.height },
-  center: { x: svgJson.bounds.centerX, y: svgJson.bounds.centerY }, 
+  center: { x: svgJson.bounds.centerX, y: svgJson.bounds.centerY },
 })
   .rotateRightFacingSymbol("left")
   .changeTextAnchor("{REF}", "middle_left")
