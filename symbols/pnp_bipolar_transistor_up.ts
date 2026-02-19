@@ -1,33 +1,37 @@
-import svgJson from "../assets/generated/pnp_bipolar_transistor.json"
-import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
+import { modifySymbol } from "../drawing/modify-symbol/modify-symbol"
+import svgJson from "assets/generated/pnp_bipolar_transistor.json"
 
-const { paths, texts, bounds, refblocks, circles } = svgJson
-export default modifySymbol({
-  primitives: [
-    ...Object.values(paths),
-    ...Object.values(circles),
-    {
-      type: "text",
-      text: "{REF}",
-      x: -0.3,
-      y: -0.4,
-    },
-    {
-      type: "text",
-      text: "{VAL}",
-      x: -0.3,
-      y: 0.4,
-    },
-  ] as any,
-  ports: [
-    { ...refblocks.top1, labels: ["3", "collector"] },
-    { ...refblocks.bottom1, labels: ["1", "emitter"] },
-    { ...refblocks.left1, labels: ["2", "base"] },
-  ],
-  size: { width: bounds.width, height: bounds.height },
-  center: { x: bounds.centerX, y: bounds.centerY },
-})
-  .rotateRightFacingSymbol("left")
+export default modifySymbol(
+  {
+    primitives: [
+      ...Object.values(svgJson.paths),
+      ...Object.values(svgJson.circles),
+      {
+        type: "text",
+        text: "{REF}",
+        x: 0.5,
+        y: -0.3,
+      },
+      {
+        type: "text",
+        text: "{VAL}",
+        x: -0.5,
+        y: -0.3,
+      },
+    ] as any,
+    ports: [
+      { ...svgJson.refblocks.left1, labels: ["1", "collector"] },
+      { ...svgJson.refblocks.bottom1, labels: ["2", "base"] },
+      { ...svgJson.refblocks.right1, labels: ["3", "emitter"] },
+    ],
+    size: { width: svgJson.bounds.width, height: svgJson.bounds.height },
+    center: { x: svgJson.bounds.centerX, y: svgJson.bounds.centerY },
+  }
+)
+  .rotateRightFacingSymbol("up")
+  .labelPort("bottom1", ["1"])
+  .labelPort("left1", ["2"])
+  .labelPort("right1", ["3"])
   .changeTextAnchor("{REF}", "middle_left")
   .changeTextAnchor("{VAL}", "middle_left")
   .build()
