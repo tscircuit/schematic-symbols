@@ -12,12 +12,14 @@ export default modifySymbol({
       text: "{REF}",
       x: 0.4,
       y: 0.5,
+      anchor: "middle_left",
     },
     {
       type: "text",
       text: "{VAL}",
       x: 0.4,
       y: -0.5,
+      anchor: "middle_left",
     },
   ] as any,
   ports: [
