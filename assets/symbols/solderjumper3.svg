@@ -7,7 +7,7 @@
    viewBox="0 0 30 30"
    version="1.1"
    id="svg1"
-   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
    sodipodi:docname="solderjumper3.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,12 +24,12 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="16"
-     inkscape:cx="66.062498"
-     inkscape:cy="57.187499"
-     inkscape:window-width="1878"
-     inkscape:window-height="940"
-     inkscape:window-x="13"
-     inkscape:window-y="40"
+     inkscape:cx="66.03125"
+     inkscape:cy="57.1875"
+     inkscape:window-width="1440"
+     inkscape:window-height="847"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
      inkscape:window-maximized="0"
      inkscape:current-layer="diode"
      showgrid="true"
@@ -266,15 +266,15 @@
          style="display:inline;fill:none;stroke:#000000;stroke-width:0.213434;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
          inkscape:transform-center-x="0.57690639"
          inkscape:transform-center-y="-1.1627802"
-         d="m -78.159778,81.673651 c -0.826169,1.642887 -2.163819,0.85307 -2.573483,2.18e-4"
-         sodipodi:nodetypes="cc" />
+         d="m -78.220533,81.788508 c -0.07601,0.136514 -0.174613,0.287769 -0.298635,0.423763 -0.03007,0.03298 -0.06047,0.06378 -0.09115,0.09249 -0.11686,0.109397 -0.227124,0.178143 -0.318281,0.222211 -0.107918,0.05218 -0.233002,0.09104 -0.373719,0.10197 -0.147237,0.01153 -0.280496,-0.01043 -0.385646,-0.0397 -0.04156,-0.01157 -0.08266,-0.02532 -0.123178,-0.04108 -0.08725,-0.03393 -0.165505,-0.07471 -0.232429,-0.115309 -0.08571,-0.052 -0.194138,-0.128827 -0.307657,-0.237833 -0.06161,-0.05916 -0.12041,-0.123666 -0.174599,-0.192083 -0.05365,-0.06773 -0.103288,-0.139999 -0.14651,-0.214265 -0.02211,-0.03798 -0.04247,-0.0763 -0.06094,-0.114758"
+         sodipodi:nodetypes="cssssssssssc" />
       <path
          id="path8704-1-7"
          style="display:inline;fill:none;stroke:#000000;stroke-width:0.213434;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
          inkscape:transform-center-x="-0.57690627"
          inkscape:transform-center-y="-1.1627802"
-         d="m -78.15851,79.169576 c -0.826169,-1.642887 -2.163819,-0.85307 -2.573483,-2.18e-4"
-         sodipodi:nodetypes="cc" />
+         d="m -78.1585,79.1696 c -0.01995,-0.03968 -0.0402,-0.07793 -0.06073,-0.114808 -0.04369,-0.07847 -0.08952,-0.152211 -0.137149,-0.220499 -0.06571,-0.09421 -0.149579,-0.199299 -0.252634,-0.295758 -0.03257,-0.03049 -0.06546,-0.05862 -0.0986,-0.08448 -0.09736,-0.07597 -0.210907,-0.143072 -0.339699,-0.187171 -0.104727,-0.03587 -0.234476,-0.06145 -0.383492,-0.05453 -0.09332,0.0043 -0.179701,0.0205 -0.255855,0.0417 -0.04156,0.01157 -0.08266,0.02532 -0.123178,0.04108 -0.136932,0.05325 -0.252545,0.123653 -0.340732,0.186949 -0.171712,0.123258 -0.29654,0.260535 -0.373956,0.358278 -0.05391,0.06806 -0.103347,0.14012 -0.146514,0.214265 -0.02211,0.03798 -0.04247,0.0763 -0.06094,0.114758"
+         sodipodi:nodetypes="ccssssssssssc" />
     </g>
   </g>
 </svg>
