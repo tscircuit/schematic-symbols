@@ -28,9 +28,6 @@ export default modifySymbol({
   center: { x: bounds.centerX, y: bounds.centerY },
 })
   .rotateRightFacingSymbol("up")
-  .labelPort("left1", ["2", "base"])
-  .labelPort("top1", ["3", "collector"])
-  .labelPort("bottom1", ["1", "emitter"])
   .changeTextAnchor("{REF}", "middle_bottom")
   .changeTextAnchor("{VAL}", "middle_top")
   .build()
