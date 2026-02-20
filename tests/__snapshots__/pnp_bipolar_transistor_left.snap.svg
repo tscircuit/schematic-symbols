@@ -1,9 +1,9 @@
-<svg width="150" height="150" viewBox="-0.6751821599999995 -0.5018684131371499 1.3503643199999995 1.0037368262742998" xmlns="http://www.w3.org/2000/svg"><path d="M-0.004010514054113618,-0.40928087991019685 L-0.006336514054112723,0.058712220089803535" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+<svg width="150" height="150" viewBox="-0.6497155200000007 -0.4895532931371499 1.2994310400000018 0.9791065862742997" xmlns="http://www.w3.org/2000/svg"><path d="M-0.003966114054113449,-0.3887556799101968 L-0.006381114054113894,0.0587566200898037" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.2688659859458862,0.07389472008980294 L-0.27336941405411386,0.07342472008980303" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.24179708594588714,0.27531322008980263 L0.1081365859458865,0.07951262008980302" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M-0.2405044140541128,0.28611402008980336 L-0.10174821405411237,0.08234832008980293" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M0.25313908594588624,0.28504332008980293 L0.5619761859458858,0.28576332008980254" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M-0.5633274140541138,0.28537892008980337 L-0.2530664140541136,0.2860989200898032" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.25311608594588747,0.2850203200898026 L0.5423207859458881,0.28579032008980276" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.5405384140541134,0.2853521200898028 L-0.25303941405411384,0.28612212008980276" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.13303378594588747,0.22433612008980278 L0.23594758594588774,0.1502776200898023 L0.13320848594588844,0.11477102008980238" fill="black" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <circle cx="0.003392378291467785" cy="0.13862434531838635" r="0.28854213" fill="none" stroke="black" stroke-width="0.02" />
     <text x="-0.2999999999999996" y="-0.3" dx="0" dy="0.037500000000000006" text-anchor="end" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.3124999999999996" y="-0.3125" width="0.025" height="0.025" fill="blue" />
@@ -33,11 +33,11 @@
       text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
   
 <path d="M 2.220446049250313e-16 -0.02500000000000003 L 0.025000000000000223 -2.7755575615628914e-17 L 2.220446049250313e-16 0.024999999999999974 L -0.02499999999999978 -2.7755575615628914e-17 Z" fill="green" />
-<text x="-0.5626517999999996" y="-0.4182236776142916" style="font: 0.05px monospace; fill: #833;">1.13 x 0.84</text>
-<text x="-0.5626517999999996" y="-0.46822367761429157" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [collector]</text>
-<text x="-0.5626517999999996" y="-0.5182236776142916" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [base]</text>
-<text x="-0.5626517999999996" y="-0.5682236776142916" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [emitter]</text>
-<text x="-0.5626517999999996" y="-0.4182236776142916" style="font: 0.05px monospace; fill: #833;">1.13 x 0.84</text>
-<text x="-0.5626517999999996" y="-0.46822367761429157" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [collector]</text>
-<text x="-0.5626517999999996" y="-0.5182236776142916" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [base]</text>
-<text x="-0.5626517999999996" y="-0.5682236776142916" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [emitter]</text></svg>
+<text x="-0.5414296000000005" y="-0.40796107761429157" style="font: 0.05px monospace; fill: #833;">1.08 x 0.82</text>
+<text x="-0.5414296000000005" y="-0.45796107761429156" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [collector]</text>
+<text x="-0.5414296000000005" y="-0.5079610776142915" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [base]</text>
+<text x="-0.5414296000000005" y="-0.5579610776142916" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [emitter]</text>
+<text x="-0.5414296000000005" y="-0.40796107761429157" style="font: 0.05px monospace; fill: #833;">1.08 x 0.82</text>
+<text x="-0.5414296000000005" y="-0.45796107761429156" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [collector]</text>
+<text x="-0.5414296000000005" y="-0.5079610776142915" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [base]</text>
+<text x="-0.5414296000000005" y="-0.5579610776142916" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [emitter]</text></svg>
