@@ -10,16 +10,14 @@ export default modifySymbol({
     {
       type: "text",
       text: "{REF}",
-      x: 0.4,
+      x: -0.4,
       y: 0.5,
-      anchor: "middle_left",
     },
     {
       type: "text",
       text: "{VAL}",
-      x: 0.4,
+      x: -0.4,
       y: -0.5,
-      anchor: "middle_left",
     },
   ] as any,
   ports: [
@@ -36,6 +34,6 @@ export default modifySymbol({
   .labelPort("top1", ["2"])
   .labelPort("right1", ["3"])
   .labelPort("bottom1", ["4"])
-  .changeTextAnchor("{REF}", "middle_left")
-  .changeTextAnchor("{VAL}", "middle_left")
+  .changeTextAnchor("{REF}", "middle_right")
+  .changeTextAnchor("{VAL}", "middle_right")
   .build()
