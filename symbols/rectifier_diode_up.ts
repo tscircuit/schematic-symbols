@@ -8,7 +8,7 @@ export default modifySymbol({
     ...Object.values(paths),
     ...Object.values(circles),
     { ...texts.top1, x: 0.4, y: -0.35 },
-    { ...texts.bottom1,  x: -0.4, y: -0.35 },
+    { ...texts.bottom1, x: -0.4, y: -0.35 },
   ] as any,
   ports: [
     { ...refblocks.left1, labels: ["1"] },
