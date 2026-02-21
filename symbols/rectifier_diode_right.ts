@@ -7,18 +7,8 @@ export default modifySymbol({
   primitives: [
     ...Object.values(paths),
     ...Object.values(circles),
-    {
-      type: "text",
-      text: "{REF}",
-      x: -0.4,
-      y: 0.5,
-    },
-    {
-      type: "text",
-      text: "{VAL}",
-      x: -0.4,
-      y: -0.5,
-    },
+    { ...texts.top1, x: 0.4, y: 0.35 },
+    { ...texts.bottom1,  x: 0.4, y: -0.35 },
   ] as any,
   ports: [
     { ...refblocks.left1, labels: ["1"] },
@@ -34,6 +24,6 @@ export default modifySymbol({
   .labelPort("top1", ["2"])
   .labelPort("right1", ["3"])
   .labelPort("bottom1", ["4"])
-  .changeTextAnchor("{REF}", "middle_right")
-  .changeTextAnchor("{VAL}", "middle_right")
+  .changeTextAnchor("{REF}", "middle_left")
+  .changeTextAnchor("{VAL}", "middle_left")
   .build()

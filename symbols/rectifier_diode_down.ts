@@ -7,8 +7,8 @@ export default modifySymbol({
   primitives: [
     ...Object.values(paths),
     ...Object.values(circles),
-    { ...texts.top1, anchor: "middle_left", x: 0.4, y: 0.5 },
-    { ...texts.bottom1, anchor: "middle_left", x: 0.4, y: -0.5 },
+    { ...texts.top1, x: -0.4, y: 0.35 },
+    { ...texts.bottom1,  x: 0.4, y: 0.35 },
   ] as any,
   ports: [
     { ...refblocks.left1, labels: ["1"] },
@@ -25,5 +25,5 @@ export default modifySymbol({
   .labelPort("top1", ["3"]) // becomes right after rotation
   .labelPort("right1", ["4"]) // becomes down after rotation
   .changeTextAnchor("{REF}", "middle_left")
-  .changeTextAnchor("{VAL}", "middle_right")
+  .changeTextAnchor("{VAL}", "middle_left")
   .build()
