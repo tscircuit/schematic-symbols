@@ -30,7 +30,7 @@
     <line x1="-0.025000000000000033" y1="-0.495" x2="0.02499999999999997" y2="-0.545" stroke="red" stroke-width="0.004" />
   
     <text x="-0.040000000000000036" y="-0.43000000000000005"
-      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
   
     
     
@@ -38,7 +38,7 @@
     <line x1="-0.545" y1="0.025000000000000033" x2="-0.495" y2="-0.02499999999999997" stroke="red" stroke-width="0.004" />
   
     <text x="-0.56" y="0.09000000000000004"
-      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">4</text>
   
     
     
@@ -46,7 +46,7 @@
     <line x1="-0.02499999999999997" y1="0.545" x2="0.025000000000000033" y2="0.495" stroke="red" stroke-width="0.004" />
   
     <text x="-0.039999999999999966" y="0.6100000000000001"
-      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
   
     
     
@@ -54,7 +54,7 @@
     <line x1="0.495" y1="0.02499999999999997" x2="0.545" y2="-0.025000000000000033" stroke="red" stroke-width="0.004" />
   
     <text x="0.48000000000000004" y="0.08999999999999997"
-      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">4</text>
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
   
 <path d="M 0 -0.025 L 0.025 0 L 0 0.025 L -0.025 0 Z" fill="green" />
 <text x="-0.52" y="-0.52" style="font: 0.05px monospace; fill: #833;">1.04 x 1.04</text>
