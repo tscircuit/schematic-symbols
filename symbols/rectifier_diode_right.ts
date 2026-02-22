@@ -11,19 +11,19 @@ export default modifySymbol({
     { ...texts.bottom1, x: 0.4, y: -0.35 },
   ] as any,
   ports: [
-    { ...refblocks.left1, labels: ["1"] },
-    { ...refblocks.top1, labels: ["2"] },
-    { ...refblocks.right1, labels: ["3"] },
-    { ...refblocks.bottom1, labels: ["4"] },
+    { ...refblocks.left1, labels: ["2"] },
+    { ...refblocks.top1, labels: ["3"] },
+    { ...refblocks.right1, labels: ["4"] },
+    { ...refblocks.bottom1, labels: ["1"] },
   ],
   size: { width: bounds.width, height: bounds.height },
   center: { x: bounds.centerX, y: bounds.centerY },
 })
   .rotateRightFacingSymbol("right")
-  .labelPort("left1", ["1"])
-  .labelPort("top1", ["2"])
-  .labelPort("right1", ["3"])
-  .labelPort("bottom1", ["4"])
+  .labelPort("left1", ["2"])
+  .labelPort("top1", ["3"])
+  .labelPort("right1", ["4"])
+  .labelPort("bottom1", ["1"])
   .changeTextAnchor("{REF}", "middle_left")
   .changeTextAnchor("{VAL}", "middle_left")
   .build()
