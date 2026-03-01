@@ -158,16 +158,14 @@
       <text
          xml:space="preserve"
          style="font-size:1.05833px;fill:#000000;stroke-width:0.264583"
-         x="57.836784"
-         y="135.5318"
-         id="text14-39-9-4-7"
-         inkscape:transform-center-x="-0.88838366"
-         inkscape:transform-center-y="-0.098709296"><tspan
+         x="55.714535"
+         y="135.58116"
+         id="text14-39-9-4-7"><tspan
            sodipodi:role="line"
            id="tspan14-9-8-4-9"
            style="font-size:1.05833px;stroke-width:0.264583"
-           x="57.836784"
-           y="135.5318">{VAL}</tspan></text>
+           x="55.714535"
+           y="135.58116">{VAL}</tspan></text>
       <path
          style="fill:none;stroke:#000000;stroke-width:0.242043px;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:3.6;stroke-opacity:1"
          d="m 55.78673,132.0498 3.447231,1.52419"

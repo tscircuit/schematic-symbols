@@ -126,7 +126,11 @@ import _icled_right from "./../symbols/icled_right"
 import _icled_up from "./../symbols/icled_up"
 import _igbt_transistor_horz from "./../symbols/igbt_transistor_horz"
 import _igbt_transistor_vert from "./../symbols/igbt_transistor_vert"
+import _illuminated_push_button_normally_open_down from "./../symbols/illuminated_push_button_normally_open_down"
 import _illuminated_push_button_normally_open_horz from "./../symbols/illuminated_push_button_normally_open_horz"
+import _illuminated_push_button_normally_open_left from "./../symbols/illuminated_push_button_normally_open_left"
+import _illuminated_push_button_normally_open_right from "./../symbols/illuminated_push_button_normally_open_right"
+import _illuminated_push_button_normally_open_up from "./../symbols/illuminated_push_button_normally_open_up"
 import _illuminated_push_button_normally_open_vert from "./../symbols/illuminated_push_button_normally_open_vert"
 import _inductor_down from "./../symbols/inductor_down"
 import _inductor_left from "./../symbols/inductor_left"
@@ -439,7 +443,11 @@ export default {
   "icled_up": _icled_up,
   "igbt_transistor_horz": _igbt_transistor_horz,
   "igbt_transistor_vert": _igbt_transistor_vert,
+  "illuminated_push_button_normally_open_down": _illuminated_push_button_normally_open_down,
   "illuminated_push_button_normally_open_horz": _illuminated_push_button_normally_open_horz,
+  "illuminated_push_button_normally_open_left": _illuminated_push_button_normally_open_left,
+  "illuminated_push_button_normally_open_right": _illuminated_push_button_normally_open_right,
+  "illuminated_push_button_normally_open_up": _illuminated_push_button_normally_open_up,
   "illuminated_push_button_normally_open_vert": _illuminated_push_button_normally_open_vert,
   "inductor_down": _inductor_down,
   "inductor_left": _inductor_left,
