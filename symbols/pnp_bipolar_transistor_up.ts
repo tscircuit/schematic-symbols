@@ -1,33 +1,11 @@
 import svgJson from "../assets/generated/pnp_bipolar_transistor.json"
 import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
 
-const { paths, texts, bounds, refblocks, circles } = svgJson
-export default modifySymbol({
-  primitives: [
-    ...Object.values(paths),
-    ...Object.values(circles),
-    {
-      type: "text",
-      text: "{REF}",
-      x: -0.1,
-      y: -0.3094553499999995,
-    },
-    {
-      type: "text",
-      text: "{VAL}",
-      x: -0.1,
-      y: 0.3094553499999995,
-    },
-  ] as any,
-  ports: [
-    { ...refblocks.top1, labels: ["1", "collector"] },
-    { ...refblocks.bottom1, labels: ["2", "emitter"] },
-    { ...refblocks.left1, labels: ["3", "base"] },
-  ],
-  size: { width: bounds.width, height: bounds.height },
-  center: { x: bounds.centerX, y: bounds.centerY },
-})
+export default modifySymbol(svgJson)
   .rotateRightFacingSymbol("left")
   .changeTextAnchor("{REF}", "middle_left")
   .changeTextAnchor("{VAL}", "middle_left")
+  .labelPort("top1", ["1", "collector"])
+  .labelPort("bottom1", ["2", "emitter"])
+  .labelPort("left1", ["3", "base"])
   .build()
