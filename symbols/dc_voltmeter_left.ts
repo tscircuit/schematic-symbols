@@ -1,5 +1,7 @@
 import { modifySymbol } from "../drawing/modify-symbol/modify-symbol"
+import type { Primitive } from "../drawing/types"
 import svgJson from "assets/generated/dc_voltmeter.json"
+import { getDCVoltmeterIndicatorPaths } from "./voltmeter-indicator-paths"
 
 const { paths, texts, bounds, refblocks, circles } = svgJson
 
@@ -25,7 +27,7 @@ export default modifySymbol({
       x: 0,
       y: 0.4294553499999995,
     },
-  ] as any,
+  ] as Primitive[],
   ports: [
     { ...refblocks.left1, labels: ["1"] },
     { ...refblocks.right1, labels: ["2"] },
@@ -38,25 +40,5 @@ export default modifySymbol({
   .labelPort("left1", ["1"])
   .labelPort("right1", ["2"])
   .changeTextAnchor("{REF}", "middle_bottom")
-  .addPrimitives([
-    {
-      type: "path",
-      points: [
-        { x: cx + 0.1, y: cy + 0.09 },
-        { x: cx, y: cy - 0.1 },
-        { x: cx - 0.11, y: cy + 0.09 },
-      ],
-      color: "primary",
-      fill: false,
-    },
-    {
-      type: "path",
-      points: [
-        { x: cx - 0.12, y: cy - 0.18 },
-        { x: cx + 0.12, y: cy - 0.18 },
-      ],
-      color: "primary",
-      fill: false,
-    },
-  ] as any)
+  .addPrimitives(getDCVoltmeterIndicatorPaths(cx, cy))
   .build()

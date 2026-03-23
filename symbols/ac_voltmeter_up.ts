@@ -1,5 +1,7 @@
 import { modifySymbol } from "../drawing/modify-symbol/modify-symbol"
+import type { Primitive } from "../drawing/types"
 import svgJson from "assets/generated/ac_voltmeter.json"
+import { getACVoltmeterIndicatorPaths } from "./voltmeter-indicator-paths"
 
 const { paths, texts, bounds, refblocks, circles } = svgJson
 
@@ -32,7 +34,7 @@ export default modifySymbol({
       x: -0.15,
       y: -0.2894553499999995,
     },
-  ] as any,
+  ] as Primitive[],
   ports: [
     { ...refblocks.left1, labels: ["1"] },
     { ...refblocks.right1, labels: ["2"] },
@@ -45,52 +47,5 @@ export default modifySymbol({
   .labelPort("right1", ["2"])
   .changeTextAnchor("{REF}", "middle_left")
   .changeTextAnchor("{VAL}", "middle_left")
-  .addPrimitives([
-    {
-      type: "path",
-      points: [
-        { x: cx + 0.1, y: cy + 0.09 },
-        { x: cx, y: cy - 0.1 },
-        { x: cx - 0.11, y: cy + 0.09 },
-      ],
-      color: "primary",
-      fill: false,
-    },
-    {
-      type: "path",
-      points: [
-        { x: cx, y: cy - 0.17 },
-        { x: cx + 0.07, y: cy - 0.15 },
-      ],
-      color: "primary",
-      fill: false,
-    },
-    {
-      type: "path",
-      points: [
-        { x: cx + 0.07, y: cy - 0.15 },
-        { x: cx + 0.14, y: cy - 0.17 },
-      ],
-      color: "primary",
-      fill: false,
-    },
-    {
-      type: "path",
-      points: [
-        { x: cx - 0.15, y: cy - 0.17 },
-        { x: cx - 0.07, y: cy - 0.15 },
-      ],
-      color: "primary",
-      fill: false,
-    },
-    {
-      type: "path",
-      points: [
-        { x: cx - 0.07, y: cy - 0.15 },
-        { x: cx, y: cy - 0.17 },
-      ],
-      color: "primary",
-      fill: false,
-    },
-  ] as any)
+  .addPrimitives(getACVoltmeterIndicatorPaths(cx, cy))
   .build()
