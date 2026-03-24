@@ -3,11 +3,11 @@
     <circle cx="0.0049999999999999975" cy="-0.035" r="0.29" fill="none" stroke="black" stroke-width="0.02" />
     <text x="0.3544553499999995" y="-0.18500000000000003" dx="0" dy="0.037500000000000006" text-anchor="start" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="0.3419553499999995" y="-0.19750000000000004" width="0.025" height="0.025" fill="blue" />
     <text x="0.3544553499999995" y="0.11499999999999996" dx="0" dy="0.037500000000000006" text-anchor="start" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="0.3419553499999995" y="0.10249999999999997" width="0.025" height="0.025" fill="blue" />
-    <path d="M0.14,-0.09 L0.04,0.1 L-0.07,-0.09" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M0.04,0.17 L0.11000000000000001,0.15" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M0.11000000000000001,0.15 L0.18000000000000002,0.17" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M-0.10999999999999999,0.17 L-0.030000000000000006,0.15" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M-0.030000000000000006,0.15 L0.04,0.17" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.10500000000000001,-0.125 L0.005,0.065 L-0.105,-0.125" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.005,0.135 L0.07500000000000001,0.11499999999999999" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.07500000000000001,0.11499999999999999 L0.14500000000000002,0.135" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.145,0.135 L-0.065,0.11499999999999999" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.065,0.11499999999999999 L0.005,0.135" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
 
     
     <line x1="-0.03000000000000004" y1="-0.6000000000000001" x2="0.019999999999999962" y2="-0.55" stroke="red" stroke-width="0.004" />

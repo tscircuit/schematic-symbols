@@ -1,7 +1,7 @@
 import { modifySymbol } from "../drawing/modify-symbol/modify-symbol"
 import type { Primitive } from "../drawing/types"
 import svgJson from "assets/generated/ac_voltmeter.json"
-import { getACVoltmeterIndicatorPaths } from "./voltmeter-indicator-paths"
+import { getACVoltmeterIndicatorPaths } from "../drawing/voltmeter-indicator-paths"
 
 const { paths, texts, bounds, refblocks, circles } = svgJson
 
@@ -14,9 +14,10 @@ const {
   ...structuralPaths
 } = paths
 
-// After -90° rotation the circle center moves from (0, 0.04) to (0.04, 0).
-const cx = 0.04
-const cy = 0
+// After -90° rotation (around port midpoint (0, 0.035)) the circle center
+// moves from (0, 0.04) to (0.005, 0.035).
+const cx = 0.005
+const cy = 0.035
 
 export default modifySymbol({
   primitives: [

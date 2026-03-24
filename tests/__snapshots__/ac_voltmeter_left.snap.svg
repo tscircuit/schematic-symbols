@@ -3,11 +3,11 @@
     <circle cx="6.12323399573676e-19" cy="-0.030000000000000006" r="0.29" fill="none" stroke="black" stroke-width="0.02" />
     <text x="-4.218361418266807e-17" y="-0.3794553499999995" dx="0" dy="0" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.012500000000000042" y="-0.39195534999999954" width="0.025" height="0.025" fill="blue" />
     <text x="4.585755458011012e-17" y="0.3394553499999995" dx="0" dy="0.07500000000000001" text-anchor="middle" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.012499999999999956" y="0.3269553499999995" width="0.025" height="0.025" fill="blue" />
-    <path d="M0.1,-0.049999999999999996 L0,0.14 L-0.11,-0.049999999999999996" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M0,0.21000000000000002 L0.07,0.19" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M0.07,0.19 L0.14,0.21000000000000002" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M-0.15,0.21000000000000002 L-0.07,0.19" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M-0.07,0.19 L0,0.21000000000000002" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.1,-0.12 L0,0.07 L-0.11,-0.12" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0,0.14 L0.07,0.12" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.07,0.12 L0.14,0.14" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.15,0.14 L-0.07,0.12" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.07,0.12 L0,0.14" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
 
     
     <line x1="0.515" y1="-0.06500000000000009" x2="0.5650000000000001" y2="-0.015000000000000076" stroke="red" stroke-width="0.004" />
