@@ -1,0 +1,175 @@
+{
+  "paths": {
+    "coil_lead_left": {
+      "type": "path",
+      "points": [
+        { "x": -0.6, "y": -0.3 },
+        { "x": -0.35, "y": -0.3 }
+      ],
+      "color": "primary",
+      "fill": false
+    },
+    "coil_lead_right": {
+      "type": "path",
+      "points": [
+        { "x": 0.35, "y": -0.3 },
+        { "x": 0.6, "y": -0.3 }
+      ],
+      "color": "primary",
+      "fill": false
+    },
+    "coil_box_top": {
+      "type": "path",
+      "points": [
+        { "x": -0.35, "y": -0.18 },
+        { "x": 0.35, "y": -0.18 }
+      ],
+      "color": "primary",
+      "fill": false
+    },
+    "coil_box_bottom": {
+      "type": "path",
+      "points": [
+        { "x": -0.35, "y": -0.42 },
+        { "x": 0.35, "y": -0.42 }
+      ],
+      "color": "primary",
+      "fill": false
+    },
+    "coil_box_left": {
+      "type": "path",
+      "points": [
+        { "x": -0.35, "y": -0.18 },
+        { "x": -0.35, "y": -0.42 }
+      ],
+      "color": "primary",
+      "fill": false
+    },
+    "coil_box_right": {
+      "type": "path",
+      "points": [
+        { "x": 0.35, "y": -0.18 },
+        { "x": 0.35, "y": -0.42 }
+      ],
+      "color": "primary",
+      "fill": false
+    },
+    "contact_common_lead": {
+      "type": "path",
+      "points": [
+        { "x": -0.6, "y": 0.06 },
+        { "x": -0.22, "y": 0.06 }
+      ],
+      "color": "primary",
+      "fill": false
+    },
+    "contact_arm": {
+      "type": "path",
+      "points": [
+        { "x": -0.14, "y": 0.06 },
+        { "x": 0.08, "y": 0.22 }
+      ],
+      "color": "primary",
+      "fill": false
+    },
+    "contact_no_lead": {
+      "type": "path",
+      "points": [
+        { "x": 0.16, "y": 0.3 },
+        { "x": 0.6, "y": 0.3 }
+      ],
+      "color": "primary",
+      "fill": false
+    },
+    "contact_nc_lead": {
+      "type": "path",
+      "points": [
+        { "x": 0.16, "y": 0.06 },
+        { "x": 0.6, "y": 0.06 }
+      ],
+      "color": "primary",
+      "fill": false
+    },
+    "separator": {
+      "type": "path",
+      "points": [
+        { "x": -0.7, "y": -0.1 },
+        { "x": 0.7, "y": -0.1 }
+      ],
+      "color": "primary",
+      "fill": false
+    }
+  },
+  "texts": {
+    "top1": {
+      "type": "text",
+      "text": "{REF}",
+      "x": 0,
+      "y": 0.55
+    },
+    "bottom1": {
+      "type": "text",
+      "text": "{VAL}",
+      "x": 0,
+      "y": -0.62
+    }
+  },
+  "refblocks": {
+    "left1": {
+      "x": -0.6,
+      "y": 0.06
+    },
+    "right1": {
+      "x": 0.6,
+      "y": 0.06
+    },
+    "right2": {
+      "x": 0.6,
+      "y": 0.3
+    },
+    "bottom1": {
+      "x": -0.6,
+      "y": -0.3
+    },
+    "bottom2": {
+      "x": 0.6,
+      "y": -0.3
+    }
+  },
+  "bounds": {
+    "minX": -0.7,
+    "maxX": 0.7,
+    "minY": -0.62,
+    "maxY": 0.55,
+    "width": 1.4,
+    "height": 1.17,
+    "centerX": 0,
+    "centerY": -0.035
+  },
+  "circles": {
+    "circle_common": {
+      "type": "circle",
+      "x": -0.16,
+      "y": 0.06,
+      "radius": 0.03,
+      "color": "primary",
+      "fill": false
+    },
+    "circle_no": {
+      "type": "circle",
+      "x": 0.14,
+      "y": 0.3,
+      "radius": 0.03,
+      "color": "primary",
+      "fill": false
+    },
+    "circle_nc": {
+      "type": "circle",
+      "x": 0.14,
+      "y": 0.06,
+      "radius": 0.03,
+      "color": "primary",
+      "fill": false
+    }
+  }
+}

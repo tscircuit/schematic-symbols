@@ -210,6 +210,10 @@ import _rail_right from "./../symbols/rail_right"
 import _rail_up from "./../symbols/rail_up"
 import _rectifier_diode_horz from "./../symbols/rectifier_diode_horz"
 import _rectifier_diode_vert from "./../symbols/rectifier_diode_vert"
+import _relay_down from "./../symbols/relay_down"
+import _relay_left from "./../symbols/relay_left"
+import _relay_right from "./../symbols/relay_right"
+import _relay_up from "./../symbols/relay_up"
 import _resistor_down from "./../symbols/resistor_down"
 import _resistor_left from "./../symbols/resistor_left"
 import _resistor_right from "./../symbols/resistor_right"
@@ -523,6 +527,10 @@ export default {
   "rail_up": _rail_up,
   "rectifier_diode_horz": _rectifier_diode_horz,
   "rectifier_diode_vert": _rectifier_diode_vert,
+  "relay_down": _relay_down,
+  "relay_left": _relay_left,
+  "relay_right": _relay_right,
+  "relay_up": _relay_up,
   "resistor_down": _resistor_down,
   "resistor_left": _resistor_left,
   "resistor_right": _resistor_right,

@@ -1,0 +1,69 @@
+<svg width="150" height="150" viewBox="-0.702 -0.8049999999999999 1.404 1.68" xmlns="http://www.w3.org/2000/svg"><path d="M0.2649999999999999,0.635 L0.265,0.385" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.265,-0.31499999999999995 L0.265,-0.565" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.14499999999999996,0.385 L0.14500000000000002,-0.31499999999999995" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.385,0.385 L0.385,-0.31499999999999995" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.14499999999999996,0.385 L0.385,0.385" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.14500000000000002,-0.31499999999999995 L0.385,-0.31499999999999995" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.09500000000000003,0.635 L-0.09500000000000001,0.255" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.095,0.17500000000000002 L-0.255,-0.04500000000000001" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.33499999999999996,-0.12500000000000003 L-0.33499999999999996,-0.565" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.095,-0.125 L-0.09499999999999997,-0.565" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.06499999999999996,0.735 L0.06500000000000004,-0.6649999999999999" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="-0.095" cy="0.195" r="0.03" fill="none" stroke="black" stroke-width="0.02" />
+    <circle cx="-0.33499999999999996" cy="-0.10500000000000004" r="0.03" fill="none" stroke="black" stroke-width="0.02" />
+    <circle cx="-0.095" cy="-0.10500000000000001" r="0.03" fill="none" stroke="black" stroke-width="0.02" />
+    <text x="-0.5850000000000001" y="0.03499999999999997" dx="0" dy="0.037500000000000006" text-anchor="end" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.5975" y="0.022499999999999968" width="0.025" height="0.025" fill="blue" />
+    <text x="0.585" y="0.03500000000000004" dx="0" dy="0.037500000000000006" text-anchor="start" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="0.5725" y="0.022500000000000037" width="0.025" height="0.025" fill="blue" />
+
+    
+    <line x1="-0.12000000000000002" y1="0.61" x2="-0.07000000000000003" y2="0.66" stroke="red" stroke-width="0.004" />
+    <line x1="-0.12000000000000002" y1="0.66" x2="-0.07000000000000003" y2="0.61" stroke="red" stroke-width="0.004" />
+  
+    <text x="-0.13500000000000004" y="0.7250000000000001"
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">contact_common</text>
+  
+    
+    
+    <line x1="-0.11999999999999997" y1="-0.59" x2="-0.06999999999999998" y2="-0.5399999999999999" stroke="red" stroke-width="0.004" />
+    <line x1="-0.11999999999999997" y1="-0.5399999999999999" x2="-0.06999999999999998" y2="-0.59" stroke="red" stroke-width="0.004" />
+  
+    <text x="-0.13499999999999998" y="-0.4749999999999999"
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">contact_normally_closed</text>
+  
+    
+    
+    <line x1="-0.36" y1="-0.59" x2="-0.30999999999999994" y2="-0.5399999999999999" stroke="red" stroke-width="0.004" />
+    <line x1="-0.36" y1="-0.5399999999999999" x2="-0.30999999999999994" y2="-0.59" stroke="red" stroke-width="0.004" />
+  
+    <text x="-0.37499999999999994" y="-0.4749999999999999"
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">contact_normally_open</text>
+  
+    
+    
+    <line x1="0.2399999999999999" y1="0.61" x2="0.2899999999999999" y2="0.66" stroke="red" stroke-width="0.004" />
+    <line x1="0.2399999999999999" y1="0.66" x2="0.2899999999999999" y2="0.61" stroke="red" stroke-width="0.004" />
+  
+    <text x="0.2249999999999999" y="0.7250000000000001"
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">coil_1</text>
+  
+    
+    
+    <line x1="0.24000000000000002" y1="-0.59" x2="0.29000000000000004" y2="-0.5399999999999999" stroke="red" stroke-width="0.004" />
+    <line x1="0.24000000000000002" y1="-0.5399999999999999" x2="0.29000000000000004" y2="-0.59" stroke="red" stroke-width="0.004" />
+  
+    <text x="0.225" y="-0.4749999999999999"
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">coil_2</text>
+  
+<path d="M 0 0.010000000000000002 L 0.025 0.035 L 0 0.060000000000000005 L -0.025 0.035 Z" fill="green" />
+<text x="-0.585" y="-0.735" style="font: 0.05px monospace; fill: #833;">1.17 x 1.40</text>
+<text x="-0.585" y="-0.785" dy="-0.15" style="font: 0.05px monospace; fill: #833;">contact_common [1, COM]</text>
+<text x="-0.585" y="-0.835" dy="-0.15" style="font: 0.05px monospace; fill: #833;">contact_normally_closed [3, NC]</text>
+<text x="-0.585" y="-0.885" dy="-0.15" style="font: 0.05px monospace; fill: #833;">contact_normally_open [2, NO]</text>
+<text x="-0.585" y="-0.935" dy="-0.15" style="font: 0.05px monospace; fill: #833;">coil_1 [4, A1]</text>
+<text x="-0.585" y="-0.985" dy="-0.15" style="font: 0.05px monospace; fill: #833;">coil_2 [5, A2]</text>
+<text x="-0.585" y="-0.735" style="font: 0.05px monospace; fill: #833;">1.17 x 1.40</text>
+<text x="-0.585" y="-0.785" dy="-0.15" style="font: 0.05px monospace; fill: #833;">contact_common [1, COM]</text>
+<text x="-0.585" y="-0.835" dy="-0.15" style="font: 0.05px monospace; fill: #833;">contact_normally_closed [3, NC]</text>
+<text x="-0.585" y="-0.885" dy="-0.15" style="font: 0.05px monospace; fill: #833;">contact_normally_open [2, NO]</text>
+<text x="-0.585" y="-0.935" dy="-0.15" style="font: 0.05px monospace; fill: #833;">coil_1 [4, A1]</text>
+<text x="-0.585" y="-0.985" dy="-0.15" style="font: 0.05px monospace; fill: #833;">coil_2 [5, A2]</text></svg>
