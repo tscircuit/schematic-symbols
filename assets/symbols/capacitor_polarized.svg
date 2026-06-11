@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="32"
-     inkscape:cx="29.28125"
-     inkscape:cy="55.109375"
+     inkscape:zoom="22.627417"
+     inkscape:cx="60.546018"
+     inkscape:cy="54.778678"
      inkscape:window-width="1920"
      inkscape:window-height="1052"
      inkscape:window-x="0"
@@ -171,24 +171,14 @@
          sodipodi:nodetypes="cc" />
       <path
          style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 27.847395,-19.86027 c 1.572089,0.809819 3.322792,0.865493 5.291666,0"
-         id="path29"
+         d="m 27.769556,-17.212573 c 1.763889,-0.94903 3.527777,-0.857492 5.291666,0"
+         id="path30"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cc" />
       <path
          style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 27.781249,-17.727067 h 5.291666"
-         id="path30"
-         inkscape:connector-curvature="0" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.140899px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 28.053561,-16.43466 -0.0066,1.239349"
-         id="path30-9-2"
-         inkscape:connector-curvature="0" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.140899px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 28.669765,-15.813293 -1.239364,-0.0021"
-         id="path30-9-2-9"
+         d="m 27.776456,-19.212807 h 5.291666"
+         id="path30-7"
          inkscape:connector-curvature="0" />
       <title
          id="title30">Capacitor</title>
@@ -230,6 +220,16 @@
            style="font-size:1.05833px;text-align:center;text-anchor:middle;stroke-width:0.264583"
            x="18.5446"
            y="34.799999">{VAL}</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.140899px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 27.987815,-21.279211 -0.0066,1.239349"
+         id="path30-9-2"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.140899px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 28.604019,-20.657844 -1.239364,-0.0021"
+         id="path30-9-2-9"
+         inkscape:connector-curvature="0" />
     </g>
   </g>
 </svg>
