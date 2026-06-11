@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="22.627417"
-     inkscape:cx="60.546018"
-     inkscape:cy="54.778678"
+     inkscape:zoom="45.254834"
+     inkscape:cx="56.656931"
+     inkscape:cy="57.94961"
      inkscape:window-width="1920"
      inkscape:window-height="1052"
      inkscape:window-x="0"
@@ -158,14 +158,14 @@
       <title
          id="title26">Capacitor</title>
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 30.427082,-23.812483 v 4.497916"
+         style="fill:none;stroke:#000000;stroke-width:0.285989px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 30.427082,-23.790609 v 5.255141"
          id="path27"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cc" />
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 30.427082,-17.727067 v 4.497917"
+         style="fill:none;stroke:#000000;stroke-width:0.267811px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 30.427082,-17.840749 v 4.608351"
          id="path28"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cc" />
@@ -177,7 +177,7 @@
          sodipodi:nodetypes="cc" />
       <path
          style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 27.776456,-19.212807 h 5.291666"
+         d="m 27.788149,-18.517072 h 5.291666"
          id="path30-7"
          inkscape:connector-curvature="0" />
       <title
