@@ -291,7 +291,11 @@ import _unijunction_transistor_vert from "./../symbols/unijunction_transistor_ve
 import _usbc from "./../symbols/usbc"
 import _var_meter_horz from "./../symbols/var_meter_horz"
 import _var_meter_vert from "./../symbols/var_meter_vert"
+import _varactor_diode_down from "./../symbols/varactor_diode_down"
 import _varactor_diode_horz from "./../symbols/varactor_diode_horz"
+import _varactor_diode_left from "./../symbols/varactor_diode_left"
+import _varactor_diode_right from "./../symbols/varactor_diode_right"
+import _varactor_diode_up from "./../symbols/varactor_diode_up"
 import _varactor_diode_vert from "./../symbols/varactor_diode_vert"
 import _varistor_horz from "./../symbols/varistor_horz"
 import _varistor_vert from "./../symbols/varistor_vert"
@@ -604,7 +608,11 @@ export default {
   "usbc": _usbc,
   "var_meter_horz": _var_meter_horz,
   "var_meter_vert": _var_meter_vert,
+  "varactor_diode_down": _varactor_diode_down,
   "varactor_diode_horz": _varactor_diode_horz,
+  "varactor_diode_left": _varactor_diode_left,
+  "varactor_diode_right": _varactor_diode_right,
+  "varactor_diode_up": _varactor_diode_up,
   "varactor_diode_vert": _varactor_diode_vert,
   "varistor_horz": _varistor_horz,
   "varistor_vert": _varistor_vert,
