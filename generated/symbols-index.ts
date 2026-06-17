@@ -144,7 +144,11 @@ import _light_dependent_resistor_horz from "./../symbols/light_dependent_resisto
 import _light_dependent_resistor_vert from "./../symbols/light_dependent_resistor_vert"
 import _mosfet_depletion_normally_on_horz from "./../symbols/mosfet_depletion_normally_on_horz"
 import _mosfet_depletion_normally_on_vert from "./../symbols/mosfet_depletion_normally_on_vert"
+import _mushroom_head_normally_open_momentary_down from "./../symbols/mushroom_head_normally_open_momentary_down"
 import _mushroom_head_normally_open_momentary_horz from "./../symbols/mushroom_head_normally_open_momentary_horz"
+import _mushroom_head_normally_open_momentary_left from "./../symbols/mushroom_head_normally_open_momentary_left"
+import _mushroom_head_normally_open_momentary_right from "./../symbols/mushroom_head_normally_open_momentary_right"
+import _mushroom_head_normally_open_momentary_up from "./../symbols/mushroom_head_normally_open_momentary_up"
 import _mushroom_head_normally_open_momentary_vert from "./../symbols/mushroom_head_normally_open_momentary_vert"
 import _n_channel_d_mosfet_transistor_horz from "./../symbols/n_channel_d_mosfet_transistor_horz"
 import _n_channel_d_mosfet_transistor_vert from "./../symbols/n_channel_d_mosfet_transistor_vert"
@@ -457,7 +461,11 @@ export default {
   "light_dependent_resistor_vert": _light_dependent_resistor_vert,
   "mosfet_depletion_normally_on_horz": _mosfet_depletion_normally_on_horz,
   "mosfet_depletion_normally_on_vert": _mosfet_depletion_normally_on_vert,
+  "mushroom_head_normally_open_momentary_down": _mushroom_head_normally_open_momentary_down,
   "mushroom_head_normally_open_momentary_horz": _mushroom_head_normally_open_momentary_horz,
+  "mushroom_head_normally_open_momentary_left": _mushroom_head_normally_open_momentary_left,
+  "mushroom_head_normally_open_momentary_right": _mushroom_head_normally_open_momentary_right,
+  "mushroom_head_normally_open_momentary_up": _mushroom_head_normally_open_momentary_up,
   "mushroom_head_normally_open_momentary_vert": _mushroom_head_normally_open_momentary_vert,
   "n_channel_d_mosfet_transistor_horz": _n_channel_d_mosfet_transistor_horz,
   "n_channel_d_mosfet_transistor_vert": _n_channel_d_mosfet_transistor_vert,
