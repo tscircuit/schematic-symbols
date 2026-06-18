@@ -3,7 +3,8 @@
     <circle cx="0" cy="0" r="0.29" fill="none" stroke="black" stroke-width="0.02" />
     <text x="-0.3594553499999995" y="2.2010292190694547e-17" dx="0" dy="0.037500000000000006" text-anchor="end" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.3719553499999995" y="-0.012499999999999978" width="0.025" height="0.025" fill="blue" />
     <text x="0.35" y="-2.143131898507868e-17" dx="0" dy="0.037500000000000006" text-anchor="start" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="0.33749999999999997" y="-0.012500000000000022" width="0.025" height="0.025" fill="blue" />
-    <text x="0" y="-0.035" dx="0" dy="0.15" text-anchor="middle" style="font: 0.3px monospace; fill: black">A</text><rect x="-0.0125" y="-0.0475" width="0.025" height="0.025" fill="blue" />
+    <path d="M-0.1,0.16 L0,-0.09 L0.1,0.16" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.05,0.04 L0.05,0.04" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M-0.12,-0.14 L0.12,-0.14" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
 
     
