@@ -60,7 +60,11 @@ import _darlington_pair_transistor_left from "./../symbols/darlington_pair_trans
 import _darlington_pair_transistor_right from "./../symbols/darlington_pair_transistor_right"
 import _darlington_pair_transistor_up from "./../symbols/darlington_pair_transistor_up"
 import _darlington_pair_transistor_vert from "./../symbols/darlington_pair_transistor_vert"
+import _dc_ammeter_down from "./../symbols/dc_ammeter_down"
 import _dc_ammeter_horz from "./../symbols/dc_ammeter_horz"
+import _dc_ammeter_left from "./../symbols/dc_ammeter_left"
+import _dc_ammeter_right from "./../symbols/dc_ammeter_right"
+import _dc_ammeter_up from "./../symbols/dc_ammeter_up"
 import _dc_ammeter_vert from "./../symbols/dc_ammeter_vert"
 import _dc_voltmeter_down from "./../symbols/dc_voltmeter_down"
 import _dc_voltmeter_horz from "./../symbols/dc_voltmeter_horz"
@@ -373,7 +377,11 @@ export default {
   "darlington_pair_transistor_right": _darlington_pair_transistor_right,
   "darlington_pair_transistor_up": _darlington_pair_transistor_up,
   "darlington_pair_transistor_vert": _darlington_pair_transistor_vert,
+  "dc_ammeter_down": _dc_ammeter_down,
   "dc_ammeter_horz": _dc_ammeter_horz,
+  "dc_ammeter_left": _dc_ammeter_left,
+  "dc_ammeter_right": _dc_ammeter_right,
+  "dc_ammeter_up": _dc_ammeter_up,
   "dc_ammeter_vert": _dc_ammeter_vert,
   "dc_voltmeter_down": _dc_voltmeter_down,
   "dc_voltmeter_horz": _dc_voltmeter_horz,
