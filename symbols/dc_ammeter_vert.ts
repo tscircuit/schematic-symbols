@@ -4,7 +4,8 @@ import { Primitive } from "drawing/types"
 
 const {
   6: letterLeft,
-  7: letterCrossbar,
+  7: letterRight,
+  8: letterCrossbar,
   2: underline,
   ...rest
 } = structuredClone(dc_ammeter_horz.primitives)
@@ -23,6 +24,7 @@ export default {
   primitives: [
     ...rotatedSymbol.primitives,
     letterLeft,
+    letterRight,
     letterCrossbar,
     underline,
   ],
