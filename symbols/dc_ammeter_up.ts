@@ -7,11 +7,16 @@ dc_ammeter_up.primitives = dc_ammeter_up.primitives.map((primitive) => {
   if (primitive.type !== "text") return primitive
 
   if (primitive.text === "{REF}") {
-    return { ...primitive, x: -0.3594553499999995, y: 0, anchor: "middle_left" }
+    return {
+      ...primitive,
+      x: 0.16,
+      y: -0.3594553499999995,
+      anchor: "middle_top",
+    }
   }
 
   if (primitive.text === "{VAL}") {
-    return { ...primitive, x: 0.35, y: 0, anchor: "middle_right" }
+    return { ...primitive, x: -0.16, y: -0.35, anchor: "middle_top" }
   }
 
   return primitive
