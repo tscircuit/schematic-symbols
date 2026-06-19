@@ -1,6 +1,5 @@
 import svgJson from "../assets/generated/npn_bipolar_transistor.json"
 import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
-
 const { paths, texts, bounds, refblocks, circles } = svgJson
 export default modifySymbol({
   primitives: [
@@ -9,13 +8,13 @@ export default modifySymbol({
     {
       type: "text",
       text: "{REF}",
-      x: 0.55,
+      x: -0.45,
       y: -0.4094553499999995,
     },
     {
       type: "text",
       text: "{VAL}",
-      x: -0.3,
+      x: 0.5,
       y: -0.4094553499999995,
     },
   ] as any,
@@ -27,7 +26,7 @@ export default modifySymbol({
   size: { width: bounds.width, height: bounds.height },
   center: { x: bounds.centerX, y: bounds.centerY },
 })
-  .rotateRightFacingSymbol("up")
+  .rotateRightFacingSymbol("down")
   .changeTextAnchor("{REF}", "middle_bottom")
   .changeTextAnchor("{VAL}", "middle_top")
   .build()
