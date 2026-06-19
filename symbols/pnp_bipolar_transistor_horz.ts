@@ -3,10 +3,10 @@ import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
 
 const { paths, texts, bounds, refblocks, circles } = svgJson
 export default modifySymbol(svgJson)
-  .rotateRightFacingSymbol("up")
-  .changeTextAnchor("{VAL}", "middle_left")
+  .rotateRightFacingSymbol("down")
+  .changeTextAnchor("{VAL}", "middle_right")
   .labelPort("left1", ["2", "base"])
   .labelPort("top1", ["3", "collector"])
   .labelPort("bottom1", ["1", "emitter"])
-  .changeTextAnchor("{REF}", "middle_right")
+  .changeTextAnchor("{REF}", "middle_left")
   .build()
