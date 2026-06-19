@@ -20,8 +20,8 @@ export default modifySymbol({
     },
   ] as any,
   ports: [
-    { ...refblocks.top1, labels: ["1", "collector"] },
-    { ...refblocks.bottom1, labels: ["3", "emitter"] },
+    { ...refblocks.top1, labels: ["3", "collector"] },
+    { ...refblocks.bottom1, labels: ["1", "emitter"] },
     { ...refblocks.left1, labels: ["2", "base"] },
   ],
   size: { width: bounds.width, height: bounds.height },
