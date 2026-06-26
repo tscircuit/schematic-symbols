@@ -37,7 +37,6 @@ test("Gunn diode should render both triangle regions as filled paths", () => {
   for (const triangleId of triangleIds) {
     const triangle = gunn_diode.paths[triangleId]
     const trianglePath = pathToSvgD(triangle.points, {
-      closed: triangle.closed,
       yUpPositive: true,
     })
 
