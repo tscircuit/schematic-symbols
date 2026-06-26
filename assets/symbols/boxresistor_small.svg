@@ -211,17 +211,17 @@
          stroke-linejoin="round"
          id="path2-9" />
       <text
-         x="18.505877"
-         y="28.60194"
+         x="17.8"
+         y="30.42"
          dx="0"
          dy="0"
          text-anchor="middle"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.01839px;line-height:normal;font-family:monospace;fill:black;stroke-width:10.1839"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.450px;line-height:normal;font-family:monospace;fill:black;stroke-width:10.1839"
          id="text3"
          transform="rotate(-90)">{REF}</text>
       <rect
-         x="18.37858"
-         y="28.47464"
+         x="17.673"
+         y="30.293"
          width="0.25459754"
          height="0.25459754"
          fill="blue"
@@ -229,17 +229,17 @@
          style="stroke-width:10.1839"
          transform="rotate(-90)" />
       <text
-         x="18.545536"
-         y="32.070797"
+         x="19.2"
+         y="30.42"
          dx="0"
-         dy="0.76379263"
+         dy="0"
          text-anchor="middle"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.01839px;line-height:normal;font-family:monospace;fill:black;stroke-width:10.1839"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.450px;line-height:normal;font-family:monospace;fill:black;stroke-width:10.1839"
          id="text4"
          transform="rotate(-90)">{VAL}</text>
       <rect
-         x="18.418238"
-         y="31.943501"
+         x="19.073"
+         y="30.293"
          width="0.25459754"
          height="0.25459754"
          fill="blue"

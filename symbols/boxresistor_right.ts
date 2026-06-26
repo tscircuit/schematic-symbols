@@ -1,8 +1,9 @@
 import svgJson from "assets/generated/boxresistor.json"
 import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
+import { resizeSymbol } from "drawing/resizeSymbol"
 
 const { paths, texts, bounds, refblocks, circles } = svgJson
-export default modifySymbol({
+const symbol = modifySymbol({
   primitives: [
     ...Object.values(paths),
     ...Object.values(circles),
@@ -31,3 +32,5 @@ export default modifySymbol({
   .labelPort("right1", ["2"])
   .changeTextAnchor("{REF}", "middle_bottom")
   .build()
+
+export default resizeSymbol(symbol, { width: 1.0, height: 0.2 })

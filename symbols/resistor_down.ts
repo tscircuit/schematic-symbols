@@ -1,8 +1,9 @@
 import svgJson from "../assets/generated/resistor.json"
 import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
+import { resizeSymbol } from "drawing/resizeSymbol"
 
 const { paths, texts, bounds, refblocks, circles } = svgJson
-export default modifySymbol({
+const symbol = modifySymbol({
   primitives: [
     ...Object.values(paths),
     ...Object.values(circles),
@@ -32,3 +33,5 @@ export default modifySymbol({
   .changeTextAnchor("{REF}", "middle_left")
   .changeTextAnchor("{VAL}", "middle_left")
   .build()
+
+export default resizeSymbol(symbol, { width: 0.2, height: 1.0 })
