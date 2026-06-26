@@ -1,5 +1,8 @@
 import { test, expect } from "bun:test"
 import gunn_diode from "../assets/generated/gunn_diode.json"
+import { getSvg } from "../drawing/getSvg"
+import { pathToSvgD } from "../drawing/pathToSvgD"
+import gunn_diode_horz from "../symbols/gunn_diode_horz"
 
 test("Gunn diode triangles should have fill: true", () => {
   // The two triangle paths that form the filled regions
@@ -25,4 +28,19 @@ test("Gunn diode left triangle path should be properly closed", () => {
 
   expect(firstPoint.x).toBe(lastPoint.x)
   expect(firstPoint.y).toBe(lastPoint.y)
+})
+
+test("Gunn diode should render both triangle regions as filled paths", () => {
+  const svg = getSvg(gunn_diode_horz)
+  const triangleIds = ["path11-0-9", "path11-0-9-5"] as const
+
+  for (const triangleId of triangleIds) {
+    const triangle = gunn_diode.paths[triangleId]
+    const trianglePath = pathToSvgD(triangle.points, {
+      closed: triangle.closed,
+      yUpPositive: true,
+    })
+
+    expect(svg).toContain(`<path d="${trianglePath}" fill="black"`)
+  }
 })
