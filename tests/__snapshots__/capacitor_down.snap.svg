@@ -1,5 +1,5 @@
-<svg width="150" height="150" viewBox="-0.32004 -0.6 0.64008 1.2" xmlns="http://www.w3.org/2000/svg"><path d="M3.061616997868383e-17,0.5 L8.162270916317109e-18,0.1333" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M-8.162270916317109e-18,-0.1333 L-3.061616997868383e-17,-0.5" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+<svg width="150" height="150" viewBox="-0.32004 -0.6 0.64008 1.2" xmlns="http://www.w3.org/2000/svg"><path d="M3.061616997868383e-17,0.5 L6.123233995736766e-18,0.1" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-6.123233995736766e-18,-0.1 L-3.061616997868383e-17,-0.5" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.2667,0.09999999999999999 L-0.2667,0.10000000000000002" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.2667,-0.10000000000000002 L-0.2667,-0.09999999999999999" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <text x="0.11499999999999999" y="-0.2" dx="0" dy="0" text-anchor="start" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="0.1025" y="-0.21250000000000002" width="0.025" height="0.025" fill="blue" />
