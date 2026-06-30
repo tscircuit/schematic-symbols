@@ -15,6 +15,7 @@ export interface PathPrimitive {
   points: Point[]
   color: string
   closed?: boolean
+  strokeWidth?: number
 }
 
 export interface TextPrimitive {

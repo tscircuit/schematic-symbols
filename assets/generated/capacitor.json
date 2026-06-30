@@ -13,7 +13,8 @@
         }
       ],
       "color": "primary",
-      "fill": false
+      "fill": false,
+      "strokeWidth": 0.012
     },
     "path28": {
       "type": "path",
@@ -28,7 +29,8 @@
         }
       ],
       "color": "primary",
-      "fill": false
+      "fill": false,
+      "strokeWidth": 0.012
     },
     "path29": {
       "type": "path",
@@ -43,7 +45,8 @@
         }
       ],
       "color": "primary",
-      "fill": false
+      "fill": false,
+      "strokeWidth": 0.012
     },
     "path30": {
       "type": "path",
@@ -58,7 +61,8 @@
         }
       ],
       "color": "primary",
-      "fill": false
+      "fill": false,
+      "strokeWidth": 0.012
     }
   },
   "texts": {
