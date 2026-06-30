@@ -4,61 +4,65 @@
       "type": "path",
       "points": [
         {
-          "x": 0.5,
+          "x": 0.3,
           "y": 0
         },
         {
-          "x": 0.1,
+          "x": 0.06,
           "y": 0
         }
       ],
       "color": "primary",
-      "fill": false
+      "fill": false,
+      "strokeWidth": 0.012
     },
     "path28": {
       "type": "path",
       "points": [
         {
-          "x": -0.1,
+          "x": -0.06,
           "y": 0
         },
         {
-          "x": -0.5,
+          "x": -0.3,
           "y": 0
         }
       ],
       "color": "primary",
-      "fill": false
+      "fill": false,
+      "strokeWidth": 0.012
     },
     "path29": {
       "type": "path",
       "points": [
         {
-          "x": 0.1,
-          "y": 0.2667
+          "x": 0.06,
+          "y": 0.16002
         },
         {
-          "x": 0.1,
-          "y": -0.2667
+          "x": 0.06,
+          "y": -0.16002
         }
       ],
       "color": "primary",
-      "fill": false
+      "fill": false,
+      "strokeWidth": 0.012
     },
     "path30": {
       "type": "path",
       "points": [
         {
-          "x": -0.1,
-          "y": 0.2667
+          "x": -0.06,
+          "y": 0.16002
         },
         {
-          "x": -0.1,
-          "y": -0.2667
+          "x": -0.06,
+          "y": -0.16002
         }
       ],
       "color": "primary",
-      "fill": false
+      "fill": false,
+      "strokeWidth": 0.012
     }
   },
   "texts": {
@@ -66,32 +70,34 @@
       "type": "text",
       "text": "{REF}",
       "x": 0,
-      "y": 0.42
+      "y": 0.24,
+      "anchor": "middle_bottom"
     },
     "bottom1": {
       "type": "text",
       "text": "{VAL}",
       "x": 0,
-      "y": -0.42
+      "y": -0.24,
+      "anchor": "middle_top"
     }
   },
   "refblocks": {
     "left1": {
-      "x": -0.5,
+      "x": -0.3,
       "y": 0
     },
     "right1": {
-      "x": 0.5,
+      "x": 0.3,
       "y": 0
     }
   },
   "bounds": {
-    "minX": -0.5,
-    "maxX": 0.5,
-    "minY": -0.42,
-    "maxY": 0.42,
-    "width": 1.0,
-    "height": 0.84,
+    "minX": -0.3,
+    "maxX": 0.3,
+    "minY": -0.24,
+    "maxY": 0.24,
+    "width": 0.6,
+    "height": 0.48,
     "centerX": 0,
     "centerY": 0
   },

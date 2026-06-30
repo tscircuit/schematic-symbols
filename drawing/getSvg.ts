@@ -113,7 +113,7 @@ export function getInnerSvg(
           primitive.fill ? mapColor(primitive.color) : "none"
         }" stroke="${mapColor(
           primitive.color,
-        )}" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />`
+        )}" stroke-width="${primitive.strokeWidth ?? 0.02}" stroke-linecap="round" stroke-linejoin="round" />`
       case "text":
         const textElements = createTextElement(primitive, { yUpPositive: true })
         return textElements.text + (debug ? textElements.anchor : "")

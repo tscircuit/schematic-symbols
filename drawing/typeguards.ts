@@ -44,7 +44,8 @@ export function isPathPrimitive(value: any): value is PathPrimitive {
     value.type === "path" &&
     Array.isArray(value.points) &&
     value.points.every(isPoint) &&
-    typeof value.color === "string"
+    typeof value.color === "string" &&
+    (value.strokeWidth === undefined || typeof value.strokeWidth === "number")
   )
 }
 
