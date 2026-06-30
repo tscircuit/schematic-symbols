@@ -2,7 +2,7 @@ import svgJson from "assets/generated/capacitor.json"
 import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
 
 const { paths, texts, bounds, refblocks, circles } = svgJson
-export default modifySymbol({
+const symbol = modifySymbol({
   primitives: [
     ...Object.values(paths),
     ...Object.values(circles),
@@ -32,3 +32,8 @@ export default modifySymbol({
   .labelPort("right1", ["2", "neg"])
   .changeTextAnchor("{REF}", "bottom_left")
   .build()
+
+export default {
+  ...symbol,
+  size: { width: 0.9, height: 0.6 },
+}
