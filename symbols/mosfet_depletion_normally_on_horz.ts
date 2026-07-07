@@ -14,6 +14,6 @@ export default defineSymbol({
     { ...refblocks.bottom1, labels: ["2"] }, // TODO add more "standard" labels
     { ...refblocks.left1, labels: ["3"] }, // TODO add more "standard" labels
   ],
-  size: { width: bounds.width + 0.4, height: bounds.height },
+  size: { width: 1.48, height: 1.08 },
   center: { x: bounds.centerX + 0.2, y: bounds.centerY },
 })
