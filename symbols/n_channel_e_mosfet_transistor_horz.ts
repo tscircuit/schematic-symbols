@@ -1,8 +1,10 @@
 import { defineSymbol } from "drawing/defineSymbol"
+import { getSizeForCenteredTerminalBox } from "drawing/getSizeForCenteredTerminalBox"
 import svgJson from "assets/generated/n_channel_e_mosfet_transistor.json"
 import { Primitive } from "drawing/types"
 
 const { paths, texts, bounds, refblocks, circles } = svgJson
+const center = { x: bounds.centerX, y: bounds.centerY }
 
 export default defineSymbol({
   primitives: [
@@ -16,6 +18,10 @@ export default defineSymbol({
     { ...refblocks.bottom1, labels: ["2", "source"] }, // TODO add more "standard" labels
     { ...refblocks.left1, labels: ["3", "gate"] }, // TODO add more "standard" labels
   ],
-  size: { width: 0.84, height: 1.1 },
-  center: { x: bounds.centerX, y: bounds.centerY },
+  size: getSizeForCenteredTerminalBox(center, [
+    refblocks.top1,
+    refblocks.bottom1,
+    refblocks.left1,
+  ]),
+  center,
 })
