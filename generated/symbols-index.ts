@@ -150,8 +150,24 @@ import _mosfet_depletion_normally_on_horz from "./../symbols/mosfet_depletion_no
 import _mosfet_depletion_normally_on_vert from "./../symbols/mosfet_depletion_normally_on_vert"
 import _mushroom_head_normally_open_momentary_horz from "./../symbols/mushroom_head_normally_open_momentary_horz"
 import _mushroom_head_normally_open_momentary_vert from "./../symbols/mushroom_head_normally_open_momentary_vert"
+import _n_channel_d_mosfet_transistor_gate_bottom_drain_left from "./../symbols/n_channel_d_mosfet_transistor_gate_bottom_drain_left"
+import _n_channel_d_mosfet_transistor_gate_bottom_drain_right from "./../symbols/n_channel_d_mosfet_transistor_gate_bottom_drain_right"
+import _n_channel_d_mosfet_transistor_gate_left_drain_bottom from "./../symbols/n_channel_d_mosfet_transistor_gate_left_drain_bottom"
+import _n_channel_d_mosfet_transistor_gate_left_drain_top from "./../symbols/n_channel_d_mosfet_transistor_gate_left_drain_top"
+import _n_channel_d_mosfet_transistor_gate_right_drain_bottom from "./../symbols/n_channel_d_mosfet_transistor_gate_right_drain_bottom"
+import _n_channel_d_mosfet_transistor_gate_right_drain_top from "./../symbols/n_channel_d_mosfet_transistor_gate_right_drain_top"
+import _n_channel_d_mosfet_transistor_gate_top_drain_left from "./../symbols/n_channel_d_mosfet_transistor_gate_top_drain_left"
+import _n_channel_d_mosfet_transistor_gate_top_drain_right from "./../symbols/n_channel_d_mosfet_transistor_gate_top_drain_right"
 import _n_channel_d_mosfet_transistor_horz from "./../symbols/n_channel_d_mosfet_transistor_horz"
 import _n_channel_d_mosfet_transistor_vert from "./../symbols/n_channel_d_mosfet_transistor_vert"
+import _n_channel_e_mosfet_transistor_gate_bottom_drain_left from "./../symbols/n_channel_e_mosfet_transistor_gate_bottom_drain_left"
+import _n_channel_e_mosfet_transistor_gate_bottom_drain_right from "./../symbols/n_channel_e_mosfet_transistor_gate_bottom_drain_right"
+import _n_channel_e_mosfet_transistor_gate_left_drain_bottom from "./../symbols/n_channel_e_mosfet_transistor_gate_left_drain_bottom"
+import _n_channel_e_mosfet_transistor_gate_left_drain_top from "./../symbols/n_channel_e_mosfet_transistor_gate_left_drain_top"
+import _n_channel_e_mosfet_transistor_gate_right_drain_bottom from "./../symbols/n_channel_e_mosfet_transistor_gate_right_drain_bottom"
+import _n_channel_e_mosfet_transistor_gate_right_drain_top from "./../symbols/n_channel_e_mosfet_transistor_gate_right_drain_top"
+import _n_channel_e_mosfet_transistor_gate_top_drain_left from "./../symbols/n_channel_e_mosfet_transistor_gate_top_drain_left"
+import _n_channel_e_mosfet_transistor_gate_top_drain_right from "./../symbols/n_channel_e_mosfet_transistor_gate_top_drain_right"
 import _n_channel_e_mosfet_transistor_horz from "./../symbols/n_channel_e_mosfet_transistor_horz"
 import _n_channel_e_mosfet_transistor_vert from "./../symbols/n_channel_e_mosfet_transistor_vert"
 import _njfet_transistor_horz from "./../symbols/njfet_transistor_horz"
@@ -174,8 +190,24 @@ import _opamp_with_power_down from "./../symbols/opamp_with_power_down"
 import _opamp_with_power_left from "./../symbols/opamp_with_power_left"
 import _opamp_with_power_right from "./../symbols/opamp_with_power_right"
 import _opamp_with_power_up from "./../symbols/opamp_with_power_up"
+import _p_channel_d_mosfet_transistor_gate_bottom_drain_left from "./../symbols/p_channel_d_mosfet_transistor_gate_bottom_drain_left"
+import _p_channel_d_mosfet_transistor_gate_bottom_drain_right from "./../symbols/p_channel_d_mosfet_transistor_gate_bottom_drain_right"
+import _p_channel_d_mosfet_transistor_gate_left_drain_bottom from "./../symbols/p_channel_d_mosfet_transistor_gate_left_drain_bottom"
+import _p_channel_d_mosfet_transistor_gate_left_drain_top from "./../symbols/p_channel_d_mosfet_transistor_gate_left_drain_top"
+import _p_channel_d_mosfet_transistor_gate_right_drain_bottom from "./../symbols/p_channel_d_mosfet_transistor_gate_right_drain_bottom"
+import _p_channel_d_mosfet_transistor_gate_right_drain_top from "./../symbols/p_channel_d_mosfet_transistor_gate_right_drain_top"
+import _p_channel_d_mosfet_transistor_gate_top_drain_left from "./../symbols/p_channel_d_mosfet_transistor_gate_top_drain_left"
+import _p_channel_d_mosfet_transistor_gate_top_drain_right from "./../symbols/p_channel_d_mosfet_transistor_gate_top_drain_right"
 import _p_channel_d_mosfet_transistor_horz from "./../symbols/p_channel_d_mosfet_transistor_horz"
 import _p_channel_d_mosfet_transistor_vert from "./../symbols/p_channel_d_mosfet_transistor_vert"
+import _p_channel_e_mosfet_transistor_gate_bottom_drain_left from "./../symbols/p_channel_e_mosfet_transistor_gate_bottom_drain_left"
+import _p_channel_e_mosfet_transistor_gate_bottom_drain_right from "./../symbols/p_channel_e_mosfet_transistor_gate_bottom_drain_right"
+import _p_channel_e_mosfet_transistor_gate_left_drain_bottom from "./../symbols/p_channel_e_mosfet_transistor_gate_left_drain_bottom"
+import _p_channel_e_mosfet_transistor_gate_left_drain_top from "./../symbols/p_channel_e_mosfet_transistor_gate_left_drain_top"
+import _p_channel_e_mosfet_transistor_gate_right_drain_bottom from "./../symbols/p_channel_e_mosfet_transistor_gate_right_drain_bottom"
+import _p_channel_e_mosfet_transistor_gate_right_drain_top from "./../symbols/p_channel_e_mosfet_transistor_gate_right_drain_top"
+import _p_channel_e_mosfet_transistor_gate_top_drain_left from "./../symbols/p_channel_e_mosfet_transistor_gate_top_drain_left"
+import _p_channel_e_mosfet_transistor_gate_top_drain_right from "./../symbols/p_channel_e_mosfet_transistor_gate_top_drain_right"
 import _p_channel_e_mosfet_transistor_horz from "./../symbols/p_channel_e_mosfet_transistor_horz"
 import _p_channel_e_mosfet_transistor_vert from "./../symbols/p_channel_e_mosfet_transistor_vert"
 import _photodiode_horz from "./../symbols/photodiode_horz"
@@ -467,8 +499,24 @@ export default {
   "mosfet_depletion_normally_on_vert": _mosfet_depletion_normally_on_vert,
   "mushroom_head_normally_open_momentary_horz": _mushroom_head_normally_open_momentary_horz,
   "mushroom_head_normally_open_momentary_vert": _mushroom_head_normally_open_momentary_vert,
+  "n_channel_d_mosfet_transistor_gate_bottom_drain_left": _n_channel_d_mosfet_transistor_gate_bottom_drain_left,
+  "n_channel_d_mosfet_transistor_gate_bottom_drain_right": _n_channel_d_mosfet_transistor_gate_bottom_drain_right,
+  "n_channel_d_mosfet_transistor_gate_left_drain_bottom": _n_channel_d_mosfet_transistor_gate_left_drain_bottom,
+  "n_channel_d_mosfet_transistor_gate_left_drain_top": _n_channel_d_mosfet_transistor_gate_left_drain_top,
+  "n_channel_d_mosfet_transistor_gate_right_drain_bottom": _n_channel_d_mosfet_transistor_gate_right_drain_bottom,
+  "n_channel_d_mosfet_transistor_gate_right_drain_top": _n_channel_d_mosfet_transistor_gate_right_drain_top,
+  "n_channel_d_mosfet_transistor_gate_top_drain_left": _n_channel_d_mosfet_transistor_gate_top_drain_left,
+  "n_channel_d_mosfet_transistor_gate_top_drain_right": _n_channel_d_mosfet_transistor_gate_top_drain_right,
   "n_channel_d_mosfet_transistor_horz": _n_channel_d_mosfet_transistor_horz,
   "n_channel_d_mosfet_transistor_vert": _n_channel_d_mosfet_transistor_vert,
+  "n_channel_e_mosfet_transistor_gate_bottom_drain_left": _n_channel_e_mosfet_transistor_gate_bottom_drain_left,
+  "n_channel_e_mosfet_transistor_gate_bottom_drain_right": _n_channel_e_mosfet_transistor_gate_bottom_drain_right,
+  "n_channel_e_mosfet_transistor_gate_left_drain_bottom": _n_channel_e_mosfet_transistor_gate_left_drain_bottom,
+  "n_channel_e_mosfet_transistor_gate_left_drain_top": _n_channel_e_mosfet_transistor_gate_left_drain_top,
+  "n_channel_e_mosfet_transistor_gate_right_drain_bottom": _n_channel_e_mosfet_transistor_gate_right_drain_bottom,
+  "n_channel_e_mosfet_transistor_gate_right_drain_top": _n_channel_e_mosfet_transistor_gate_right_drain_top,
+  "n_channel_e_mosfet_transistor_gate_top_drain_left": _n_channel_e_mosfet_transistor_gate_top_drain_left,
+  "n_channel_e_mosfet_transistor_gate_top_drain_right": _n_channel_e_mosfet_transistor_gate_top_drain_right,
   "n_channel_e_mosfet_transistor_horz": _n_channel_e_mosfet_transistor_horz,
   "n_channel_e_mosfet_transistor_vert": _n_channel_e_mosfet_transistor_vert,
   "njfet_transistor_horz": _njfet_transistor_horz,
@@ -491,8 +539,24 @@ export default {
   "opamp_with_power_left": _opamp_with_power_left,
   "opamp_with_power_right": _opamp_with_power_right,
   "opamp_with_power_up": _opamp_with_power_up,
+  "p_channel_d_mosfet_transistor_gate_bottom_drain_left": _p_channel_d_mosfet_transistor_gate_bottom_drain_left,
+  "p_channel_d_mosfet_transistor_gate_bottom_drain_right": _p_channel_d_mosfet_transistor_gate_bottom_drain_right,
+  "p_channel_d_mosfet_transistor_gate_left_drain_bottom": _p_channel_d_mosfet_transistor_gate_left_drain_bottom,
+  "p_channel_d_mosfet_transistor_gate_left_drain_top": _p_channel_d_mosfet_transistor_gate_left_drain_top,
+  "p_channel_d_mosfet_transistor_gate_right_drain_bottom": _p_channel_d_mosfet_transistor_gate_right_drain_bottom,
+  "p_channel_d_mosfet_transistor_gate_right_drain_top": _p_channel_d_mosfet_transistor_gate_right_drain_top,
+  "p_channel_d_mosfet_transistor_gate_top_drain_left": _p_channel_d_mosfet_transistor_gate_top_drain_left,
+  "p_channel_d_mosfet_transistor_gate_top_drain_right": _p_channel_d_mosfet_transistor_gate_top_drain_right,
   "p_channel_d_mosfet_transistor_horz": _p_channel_d_mosfet_transistor_horz,
   "p_channel_d_mosfet_transistor_vert": _p_channel_d_mosfet_transistor_vert,
+  "p_channel_e_mosfet_transistor_gate_bottom_drain_left": _p_channel_e_mosfet_transistor_gate_bottom_drain_left,
+  "p_channel_e_mosfet_transistor_gate_bottom_drain_right": _p_channel_e_mosfet_transistor_gate_bottom_drain_right,
+  "p_channel_e_mosfet_transistor_gate_left_drain_bottom": _p_channel_e_mosfet_transistor_gate_left_drain_bottom,
+  "p_channel_e_mosfet_transistor_gate_left_drain_top": _p_channel_e_mosfet_transistor_gate_left_drain_top,
+  "p_channel_e_mosfet_transistor_gate_right_drain_bottom": _p_channel_e_mosfet_transistor_gate_right_drain_bottom,
+  "p_channel_e_mosfet_transistor_gate_right_drain_top": _p_channel_e_mosfet_transistor_gate_right_drain_top,
+  "p_channel_e_mosfet_transistor_gate_top_drain_left": _p_channel_e_mosfet_transistor_gate_top_drain_left,
+  "p_channel_e_mosfet_transistor_gate_top_drain_right": _p_channel_e_mosfet_transistor_gate_top_drain_right,
   "p_channel_e_mosfet_transistor_horz": _p_channel_e_mosfet_transistor_horz,
   "p_channel_e_mosfet_transistor_vert": _p_channel_e_mosfet_transistor_vert,
   "photodiode_horz": _photodiode_horz,
