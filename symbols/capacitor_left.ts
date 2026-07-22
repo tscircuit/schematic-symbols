@@ -12,5 +12,5 @@ const symbol = modifySymbol(svgJson)
 
 export default {
   ...symbol,
-  size: { width: 0.36, height: 0.39 },
+  size: { width: 0.6, height: 0.65 },
 }
