@@ -14,7 +14,11 @@ import _backward_diode_down from "./../symbols/backward_diode_down"
 import _backward_diode_left from "./../symbols/backward_diode_left"
 import _backward_diode_right from "./../symbols/backward_diode_right"
 import _backward_diode_up from "./../symbols/backward_diode_up"
+import _battery_down from "./../symbols/battery_down"
 import _battery_horz from "./../symbols/battery_horz"
+import _battery_left from "./../symbols/battery_left"
+import _battery_right from "./../symbols/battery_right"
+import _battery_up from "./../symbols/battery_up"
 import _battery_vert from "./../symbols/battery_vert"
 import _boxresistor_down from "./../symbols/boxresistor_down"
 import _boxresistor_left from "./../symbols/boxresistor_left"
@@ -363,7 +367,11 @@ export default {
   "backward_diode_left": _backward_diode_left,
   "backward_diode_right": _backward_diode_right,
   "backward_diode_up": _backward_diode_up,
+  "battery_down": _battery_down,
   "battery_horz": _battery_horz,
+  "battery_left": _battery_left,
+  "battery_right": _battery_right,
+  "battery_up": _battery_up,
   "battery_vert": _battery_vert,
   "boxresistor_down": _boxresistor_down,
   "boxresistor_left": _boxresistor_left,
