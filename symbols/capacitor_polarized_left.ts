@@ -1,5 +1,4 @@
 import { modifySymbol } from "../drawing/modify-symbol/modify-symbol"
-import { resizeSymbol } from "../drawing/resizeSymbol"
 import svgJson from "assets/generated/capacitor_polarized.json"
 
 const symbol = modifySymbol(svgJson)
@@ -10,4 +9,7 @@ const symbol = modifySymbol(svgJson)
   .changeTextAnchor("{VAL}", "middle_top")
   .build()
 
-export default resizeSymbol(symbol, { width: symbol.size.width * 0.6 })
+export default {
+  ...symbol,
+  size: { width: 0.6, height: 0.65 },
+}
