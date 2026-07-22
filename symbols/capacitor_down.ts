@@ -35,5 +35,5 @@ const symbol = modifySymbol({
 
 export default {
   ...symbol,
-  size: { width: 0.9, height: 0.6 },
+  size: { width: 0.54, height: 0.36 },
 }

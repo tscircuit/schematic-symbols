@@ -4,65 +4,65 @@
       "type": "path",
       "points": [
         {
-          "x": 0.3,
+          "x": 0.18,
           "y": 0
         },
         {
-          "x": 0.06,
+          "x": 0.036,
           "y": 0
         }
       ],
       "color": "primary",
       "fill": false,
-      "strokeWidth": 0.012
+      "strokeWidth": 0.0072
     },
     "path28": {
       "type": "path",
       "points": [
         {
-          "x": -0.06,
+          "x": -0.036,
           "y": 0
         },
         {
-          "x": -0.3,
+          "x": -0.18,
           "y": 0
         }
       ],
       "color": "primary",
       "fill": false,
-      "strokeWidth": 0.012
+      "strokeWidth": 0.0072
     },
     "path29": {
       "type": "path",
       "points": [
         {
-          "x": 0.06,
-          "y": 0.16002
+          "x": 0.036,
+          "y": 0.096012
         },
         {
-          "x": 0.06,
-          "y": -0.16002
+          "x": 0.036,
+          "y": -0.096012
         }
       ],
       "color": "primary",
       "fill": false,
-      "strokeWidth": 0.012
+      "strokeWidth": 0.0072
     },
     "path30": {
       "type": "path",
       "points": [
         {
-          "x": -0.06,
-          "y": 0.16002
+          "x": -0.036,
+          "y": 0.096012
         },
         {
-          "x": -0.06,
-          "y": -0.16002
+          "x": -0.036,
+          "y": -0.096012
         }
       ],
       "color": "primary",
       "fill": false,
-      "strokeWidth": 0.012
+      "strokeWidth": 0.0072
     }
   },
   "texts": {
@@ -70,34 +70,34 @@
       "type": "text",
       "text": "{REF}",
       "x": 0,
-      "y": 0.24,
+      "y": 0.144,
       "anchor": "middle_bottom"
     },
     "bottom1": {
       "type": "text",
       "text": "{VAL}",
       "x": 0,
-      "y": -0.24,
+      "y": -0.144,
       "anchor": "middle_top"
     }
   },
   "refblocks": {
     "left1": {
-      "x": -0.3,
+      "x": -0.18,
       "y": 0
     },
     "right1": {
-      "x": 0.3,
+      "x": 0.18,
       "y": 0
     }
   },
   "bounds": {
-    "minX": -0.3,
-    "maxX": 0.3,
-    "minY": -0.24,
-    "maxY": 0.24,
-    "width": 0.6,
-    "height": 0.48,
+    "minX": -0.18,
+    "maxX": 0.18,
+    "minY": -0.144,
+    "maxY": 0.144,
+    "width": 0.36,
+    "height": 0.288,
     "centerX": 0,
     "centerY": 0
   },
