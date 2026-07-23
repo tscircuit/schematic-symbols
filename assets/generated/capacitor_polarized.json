@@ -213,12 +213,28 @@
         },
         {
           "x": 0.120959,
-          "y": 0.235
+          "y": 0.225
         }
       ],
       "color": "primary",
       "fill": false,
       "strokeWidth": 0.012
+    },
+    "viewbox-padding": {
+      "type": "path",
+      "points": [
+        {
+          "x": -0.3,
+          "y": -0.55
+        },
+        {
+          "x": 0.3,
+          "y": 0.55
+        }
+      ],
+      "color": "transparent",
+      "fill": false,
+      "strokeWidth": 0
     }
   },
   "texts": {
@@ -226,14 +242,14 @@
       "type": "text",
       "text": "{REF}",
       "x": 0,
-      "y": 0.24,
+      "y": 0.42,
       "anchor": "middle_bottom"
     },
     "bottom1": {
       "type": "text",
       "text": "{VAL}",
       "x": 0,
-      "y": -0.24,
+      "y": -0.42,
       "anchor": "middle_top"
     }
   },
@@ -250,10 +266,10 @@
   "bounds": {
     "minX": -0.3,
     "maxX": 0.3,
-    "minY": -0.24,
-    "maxY": 0.24,
+    "minY": -0.55,
+    "maxY": 0.55,
     "width": 0.6,
-    "height": 0.48,
+    "height": 1.1,
     "centerX": 0,
     "centerY": 0
   },
