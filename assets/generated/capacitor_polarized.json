@@ -208,33 +208,17 @@
       "type": "path",
       "points": [
         {
-          "x": 0.12084,
-          "y": 0.165
+          "x": 0.120936,
+          "y": 0.16491
         },
         {
-          "x": 0.120959,
-          "y": 0.225
+          "x": 0.120936,
+          "y": 0.23509
         }
       ],
       "color": "primary",
       "fill": false,
       "strokeWidth": 0.012
-    },
-    "viewbox-padding": {
-      "type": "path",
-      "points": [
-        {
-          "x": -0.3,
-          "y": -0.55
-        },
-        {
-          "x": 0.3,
-          "y": 0.55
-        }
-      ],
-      "color": "transparent",
-      "fill": false,
-      "strokeWidth": 0
     }
   },
   "texts": {
@@ -251,6 +235,20 @@
       "x": 0,
       "y": -0.42,
       "anchor": "middle_top"
+    },
+    "viewbox-padding-min": {
+      "type": "text",
+      "text": "",
+      "x": -0.3,
+      "y": -0.55,
+      "anchor": "center"
+    },
+    "viewbox-padding-max": {
+      "type": "text",
+      "text": "",
+      "x": 0.3,
+      "y": 0.55,
+      "anchor": "center"
     }
   },
   "refblocks": {
