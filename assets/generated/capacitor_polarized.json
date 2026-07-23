@@ -235,20 +235,6 @@
       "x": 0,
       "y": -0.42,
       "anchor": "middle_top"
-    },
-    "viewbox-padding-min": {
-      "type": "text",
-      "text": "",
-      "x": -0.3,
-      "y": -0.55,
-      "anchor": "center"
-    },
-    "viewbox-padding-max": {
-      "type": "text",
-      "text": "",
-      "x": 0.3,
-      "y": 0.55,
-      "anchor": "center"
     }
   },
   "refblocks": {
@@ -271,5 +257,22 @@
     "centerX": 0,
     "centerY": 0
   },
-  "circles": {}
+  "circles": {
+    "viewbox-padding-min": {
+      "type": "circle",
+      "x": -0.3,
+      "y": -0.55,
+      "radius": 0,
+      "fill": false,
+      "color": "transparent"
+    },
+    "viewbox-padding-max": {
+      "type": "circle",
+      "x": 0.3,
+      "y": 0.55,
+      "radius": 0,
+      "fill": false,
+      "color": "transparent"
+    }
+  }
 }
