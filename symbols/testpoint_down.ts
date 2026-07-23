@@ -9,8 +9,6 @@ const ref = rotated.primitives.find(
 ) as TextPrimitive | undefined
 
 if (ref) {
-  ref.x = 0
-  ref.y = -0.125
   ref.anchor = "middle_top"
 }
 
