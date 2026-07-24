@@ -32,4 +32,3 @@ export default modifySymbol({
   .changeTextAnchor("{REF}", "middle_left")
   .changeTextAnchor("{VAL}", "middle_left")
   .build()
-
