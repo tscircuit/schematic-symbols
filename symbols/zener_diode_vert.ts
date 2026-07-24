@@ -1,17 +1,10 @@
-import { rotateSymbol } from "drawing/rotateSymbol"
-import zener_diode_horz from "./zener_diode_horz"
+import { modifySymbol } from "../drawing/modify-symbol/modify-symbol"
+import svgJson from "assets/generated/zener_diode.json"
 
-import type { TextPrimitive } from "drawing"
-
-const rotated = rotateSymbol(zener_diode_horz)
-const ref = rotated.primitives.find(
-  (p) => p.type === "text" && p.text === "{REF}",
-)! as TextPrimitive
-const val = rotated.primitives.find(
-  (p) => p.type === "text" && p.text === "{VAL}",
-)! as TextPrimitive
-
-ref.anchor = "middle_left"
-val.anchor = "middle_right"
-
-export default rotated
+export default modifySymbol(svgJson)
+  .rotateRightFacingSymbol("up")
+  .labelPort("left1", ["1"])
+  .labelPort("right1", ["2"])
+  .changeTextAnchor("{REF}", "middle_left")
+  .changeTextAnchor("{VAL}", "middle_left")
+  .build()

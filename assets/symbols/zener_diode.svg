@@ -135,9 +135,15 @@
            x="-70.905327"
            y="83.876732">{VAL}</tspan></text>
       <path
-         style="fill:none;stroke:#000000;stroke-width:0.265423px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 79.37017,69.470297 0.0049,0.661044"
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 79.374999,69.45832 0,-0.661044"
          id="path43-8"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 82.020833,69.45832 0,0.661044"
+         id="path43-8-8"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cc" />
     </g>
