@@ -13,8 +13,8 @@ export default defineSymbol({
     },
     {
       type: "path",
-      points: Array.from({ length: 8 }, (_, i) => {
-        const angle = Math.PI / 2 - (i * Math.PI) / 7
+      points: Array.from({ length: 32 }, (_, i) => {
+        const angle = Math.PI / 2 - (i * Math.PI) / 31
         const r = 0.1
         return { x: 0.1 - r * Math.cos(angle), y: r * Math.sin(angle) }
       }),
