@@ -23,3 +23,30 @@ test("battery directional variants preserve terminal orientation", () => {
   const downPort2 = getPort(symbols.battery_down, "2")
   expect(downPort1.y).toBeGreaterThan(downPort2.y)
 })
+
+test("battery lead endpoints coincide with their ports", () => {
+  const batteryVariants = [
+    symbols.battery_horz,
+    symbols.battery_vert,
+    symbols.battery_right,
+    symbols.battery_left,
+    symbols.battery_up,
+    symbols.battery_down,
+  ]
+
+  for (const symbol of batteryVariants) {
+    const pathPoints = symbol.primitives.flatMap((primitive) =>
+      primitive.type === "path" ? primitive.points : [],
+    )
+
+    for (const port of symbol.ports) {
+      const leadReachesPort = pathPoints.some(
+        (point) =>
+          Math.abs(point.x - port.x) < Number.EPSILON &&
+          Math.abs(point.y - port.y) < Number.EPSILON,
+      )
+
+      expect(leadReachesPort).toBe(true)
+    }
+  }
+})
