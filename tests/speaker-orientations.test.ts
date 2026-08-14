@@ -6,16 +6,16 @@ const getPort = (symbol: SchSymbol, label: string) =>
   symbol.ports.find((port) => port.labels.includes(label))!
 
 test("speaker uses a compact grid-aligned envelope", () => {
-  expect(symbols.speaker_right.size.width).toBeCloseTo(1.2)
+  expect(symbols.speaker_right.size.width).toBeCloseTo(0.8)
   expect(symbols.speaker_right.size.height).toBeCloseTo(1.2)
   expect(symbols.speaker_up.size.width).toBeCloseTo(1.2)
-  expect(symbols.speaker_up.size.height).toBeCloseTo(1.2)
+  expect(symbols.speaker_up.size.height).toBeCloseTo(0.8)
 
   const positivePort = getPort(symbols.speaker_right, "pos")
   const negativePort = getPort(symbols.speaker_right, "neg")
-  expect(positivePort.x).toBeCloseTo(-0.6)
+  expect(positivePort.x).toBeCloseTo(-0.4)
   expect(positivePort.y).toBeCloseTo(0.2)
-  expect(negativePort.x).toBeCloseTo(-0.6)
+  expect(negativePort.x).toBeCloseTo(-0.4)
   expect(negativePort.y).toBeCloseTo(-0.2)
 })
 

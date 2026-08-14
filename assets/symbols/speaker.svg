@@ -20,18 +20,18 @@
       />
       <path
         id="voice-coil"
-        d="M 9,13 H 13 V 17 H 9 V 13"
+        d="M 9,13 H 11 V 17 H 9 V 13"
         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
       />
       <path
         id="cone"
-        d="M 13,13 L 19,11 V 19 L 13,17 V 13"
+        d="M 11,13 L 15,11 V 19 L 11,17 V 13"
         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
       />
       <circle id="refblock-positive" cx="7" cy="13" r="0" fill="#ff0000" />
       <circle id="refblock-negative" cx="7" cy="17" r="0" fill="#ff0000" />
-      <text x="13" y="9">{REF}</text>
-      <text x="13" y="21">{VAL}</text>
+      <text x="11" y="9">{REF}</text>
+      <text x="11" y="21">{VAL}</text>
     </g>
   </g>
 </svg>
