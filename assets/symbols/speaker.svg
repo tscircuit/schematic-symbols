@@ -10,38 +10,28 @@
     <g id="speaker">
       <path
         id="lead-positive"
-        d="M 7,13 H 11"
+        d="M 7,13 H 9"
         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
       />
       <path
         id="lead-negative"
-        d="M 7,17 H 11"
+        d="M 7,17 H 9"
         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
       />
       <path
         id="voice-coil"
-        d="M 11,13 H 13 V 17 H 11 V 13"
+        d="M 9,13 H 13 V 17 H 9 V 13"
         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
       />
       <path
         id="cone"
-        d="M 13,13 L 17,11 V 19 L 13,17 V 13"
-        style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
-      />
-      <path
-        id="sound-wave-inner"
-        d="M 19,13 C 20.333333,13.5 21,14.25 21,15 C 21,15.75 20.333333,16.5 19,17"
-        style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
-      />
-      <path
-        id="sound-wave-outer"
-        d="M 21,11 C 22.333333,12 23,13.5 23,15 C 23,16.5 22.333333,18 21,19"
+        d="M 13,13 L 19,11 V 19 L 13,17 V 13"
         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
       />
       <circle id="refblock-positive" cx="7" cy="13" r="0" fill="#ff0000" />
       <circle id="refblock-negative" cx="7" cy="17" r="0" fill="#ff0000" />
-      <text x="15" y="9">{REF}</text>
-      <text x="15" y="21">{VAL}</text>
+      <text x="13" y="9">{REF}</text>
+      <text x="13" y="21">{VAL}</text>
     </g>
   </g>
 </svg>
