@@ -5,6 +5,20 @@ import symbols from "../generated/symbols-index"
 const getPort = (symbol: SchSymbol, label: string) =>
   symbol.ports.find((port) => port.labels.includes(label))!
 
+test("speaker uses a compact grid-aligned envelope", () => {
+  expect(symbols.speaker_right.size.width).toBeCloseTo(1.6)
+  expect(symbols.speaker_right.size.height).toBeCloseTo(1.2)
+  expect(symbols.speaker_up.size.width).toBeCloseTo(1.2)
+  expect(symbols.speaker_up.size.height).toBeCloseTo(1.6)
+
+  const positivePort = getPort(symbols.speaker_right, "pos")
+  const negativePort = getPort(symbols.speaker_right, "neg")
+  expect(positivePort.x).toBeCloseTo(-0.8)
+  expect(positivePort.y).toBeCloseTo(0.2)
+  expect(negativePort.x).toBeCloseTo(-0.8)
+  expect(negativePort.y).toBeCloseTo(-0.2)
+})
+
 test("speaker variants preserve terminal polarity", () => {
   for (const name of [
     "speaker_right",
