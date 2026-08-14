@@ -298,6 +298,12 @@ import _spdt_switch_down from "./../symbols/spdt_switch_down"
 import _spdt_switch_left from "./../symbols/spdt_switch_left"
 import _spdt_switch_right from "./../symbols/spdt_switch_right"
 import _spdt_switch_up from "./../symbols/spdt_switch_up"
+import _speaker_down from "./../symbols/speaker_down"
+import _speaker_horz from "./../symbols/speaker_horz"
+import _speaker_left from "./../symbols/speaker_left"
+import _speaker_right from "./../symbols/speaker_right"
+import _speaker_up from "./../symbols/speaker_up"
+import _speaker_vert from "./../symbols/speaker_vert"
 import _spst_normally_closed_switch_down from "./../symbols/spst_normally_closed_switch_down"
 import _spst_normally_closed_switch_left from "./../symbols/spst_normally_closed_switch_left"
 import _spst_normally_closed_switch_right from "./../symbols/spst_normally_closed_switch_right"
@@ -651,6 +657,12 @@ export default {
   "spdt_switch_left": _spdt_switch_left,
   "spdt_switch_right": _spdt_switch_right,
   "spdt_switch_up": _spdt_switch_up,
+  "speaker_down": _speaker_down,
+  "speaker_horz": _speaker_horz,
+  "speaker_left": _speaker_left,
+  "speaker_right": _speaker_right,
+  "speaker_up": _speaker_up,
+  "speaker_vert": _speaker_vert,
   "spst_normally_closed_switch_down": _spst_normally_closed_switch_down,
   "spst_normally_closed_switch_left": _spst_normally_closed_switch_left,
   "spst_normally_closed_switch_right": _spst_normally_closed_switch_right,
