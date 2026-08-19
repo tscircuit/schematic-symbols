@@ -1,7 +1,7 @@
 {
   "name": "schematic-symbols",
   "main": "./dist/index.js",
-  "version": "0.0.239",
+  "version": "0.0.240",
   "repository": {
     "type": "git",
     "url": "https://github.com/tscircuit/schematic-symbols.git"
