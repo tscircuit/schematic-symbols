@@ -62,7 +62,7 @@
        inkscape:label="photodiode">
       <path
          style="fill:none;stroke:#000000;stroke-width:0.244764px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 59.204592,-90.989786 0.02623,-4.43856"
+         d="m 58.171596,-90.989786 0,-4.43856"
          id="path11"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cc" />
@@ -99,7 +99,7 @@
          style="fill:#ff0000;stroke:none;stroke-width:0.264583;stroke-opacity:1"
          id="refblock-5"
          cx="90.731247"
-         cy="59.196659"
+         cy="58.171596"
          r="0.28158441"
          transform="rotate(-90)" />
       <circle
