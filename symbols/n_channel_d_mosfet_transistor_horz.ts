@@ -3,7 +3,8 @@ import { getSizeForCenteredTerminalBox } from "drawing/getSizeForCenteredTermina
 import svgJson from "assets/generated/n_channel_d_mosfet_transistor.json"
 
 const { paths, texts, bounds, refblocks, circles } = svgJson
-const center = { x: bounds.centerX, y: bounds.centerY }
+const geometryCenter = { x: bounds.centerX, y: bounds.centerY }
+const center = { x: geometryCenter.x, y: refblocks.left1.y }
 
 export default defineSymbol({
   primitives: [
@@ -17,7 +18,7 @@ export default defineSymbol({
     { ...refblocks.bottom1, labels: ["2", "source"] }, // TODO add more "standard" labels
     { ...refblocks.left1, labels: ["3", "gate"] }, // TODO add more "standard" labels
   ],
-  size: getSizeForCenteredTerminalBox(center, [
+  size: getSizeForCenteredTerminalBox(geometryCenter, [
     refblocks.top1,
     refblocks.bottom1,
     refblocks.left1,
