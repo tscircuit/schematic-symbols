@@ -216,6 +216,8 @@ import _p_channel_e_mosfet_transistor_horz from "./../symbols/p_channel_e_mosfet
 import _p_channel_e_mosfet_transistor_vert from "./../symbols/p_channel_e_mosfet_transistor_vert"
 import _photodiode_horz from "./../symbols/photodiode_horz"
 import _photodiode_vert from "./../symbols/photodiode_vert"
+import _phototransistor_horz from "./../symbols/phototransistor_horz"
+import _phototransistor_vert from "./../symbols/phototransistor_vert"
 import _pjfet_transistor_horz from "./../symbols/pjfet_transistor_horz"
 import _pjfet_transistor_vert from "./../symbols/pjfet_transistor_vert"
 import _pnp_bipolar_transistor_down from "./../symbols/pnp_bipolar_transistor_down"
@@ -575,6 +577,8 @@ export default {
   "p_channel_e_mosfet_transistor_vert": _p_channel_e_mosfet_transistor_vert,
   "photodiode_horz": _photodiode_horz,
   "photodiode_vert": _photodiode_vert,
+  "phototransistor_horz": _phototransistor_horz,
+  "phototransistor_vert": _phototransistor_vert,
   "pjfet_transistor_horz": _pjfet_transistor_horz,
   "pjfet_transistor_vert": _pjfet_transistor_vert,
   "pnp_bipolar_transistor_down": _pnp_bipolar_transistor_down,
