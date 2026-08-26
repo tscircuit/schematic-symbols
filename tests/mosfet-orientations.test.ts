@@ -45,3 +45,19 @@ test("MOSFET variants place gate, drain, and source on named sides", () => {
     }
   }
 })
+
+test("horizontal N-channel depletion MOSFET uses its gate as the placement center", () => {
+  const symbol = symbols.n_channel_d_mosfet_transistor_horz
+  const gate = symbol.ports.find(({ labels }) => labels.includes("gate"))!
+  const gatePath = symbol.primitives.find(
+    (primitive) =>
+      primitive.type === "path" &&
+      primitive.points.some(({ x }) => x === gate.x),
+  )!
+
+  expect(gate.y).toBe(symbol.center.y)
+  expect(gatePath.type === "path" && gatePath.points[0]).toEqual({
+    x: gate.x,
+    y: gate.y,
+  })
+})
