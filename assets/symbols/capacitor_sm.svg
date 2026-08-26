@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  width="30mm"
+  height="30mm"
+  viewBox="0 0 30 30"
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <g id="root">
+    <g id="capacitor_sm">
+      <path
+        id="left-lead"
+        d="M 12.5 15 H 14.4"
+        style="fill:none;stroke:#000000;stroke-width:0.12;stroke-linecap:round;stroke-linejoin:round"
+      />
+      <path
+        id="left-plate"
+        d="M 14.4 13.4 V 16.6"
+        style="fill:none;stroke:#000000;stroke-width:0.12;stroke-linecap:round;stroke-linejoin:round"
+      />
+      <path
+        id="right-plate"
+        d="M 15.6 13.4 V 16.6"
+        style="fill:none;stroke:#000000;stroke-width:0.12;stroke-linecap:round;stroke-linejoin:round"
+      />
+      <path
+        id="right-lead"
+        d="M 15.6 15 H 17.5"
+        style="fill:none;stroke:#000000;stroke-width:0.12;stroke-linecap:round;stroke-linejoin:round"
+      />
+      <circle id="refblock-left" cx="12.5" cy="15" r="0" fill="#ff0000" />
+      <circle id="refblock-right" cx="17.5" cy="15" r="0" fill="#ff0000" />
+      <text x="15" y="12.5" text-anchor="middle" font-family="monospace" font-size="1">{REF}</text>
+      <text x="15" y="17.5" text-anchor="middle" font-family="monospace" font-size="1">{VAL}</text>
+    </g>
+  </g>
+</svg>

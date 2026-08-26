@@ -23,11 +23,19 @@ import _battery_vert from "./../symbols/battery_vert"
 import _boxresistor_down from "./../symbols/boxresistor_down"
 import _boxresistor_left from "./../symbols/boxresistor_left"
 import _boxresistor_right from "./../symbols/boxresistor_right"
+import _boxresistor_sm_down from "./../symbols/boxresistor_sm_down"
+import _boxresistor_sm_left from "./../symbols/boxresistor_sm_left"
+import _boxresistor_sm_right from "./../symbols/boxresistor_sm_right"
+import _boxresistor_sm_up from "./../symbols/boxresistor_sm_up"
 import _boxresistor_small_down from "./../symbols/boxresistor_small_down"
 import _boxresistor_small_left from "./../symbols/boxresistor_small_left"
 import _boxresistor_small_right from "./../symbols/boxresistor_small_right"
 import _boxresistor_small_up from "./../symbols/boxresistor_small_up"
 import _boxresistor_up from "./../symbols/boxresistor_up"
+import _boxresistor_xs_down from "./../symbols/boxresistor_xs_down"
+import _boxresistor_xs_left from "./../symbols/boxresistor_xs_left"
+import _boxresistor_xs_right from "./../symbols/boxresistor_xs_right"
+import _boxresistor_xs_up from "./../symbols/boxresistor_xs_up"
 import _bridged_ground_down from "./../symbols/bridged_ground_down"
 import _bridged_ground_left from "./../symbols/bridged_ground_left"
 import _bridged_ground_right from "./../symbols/bridged_ground_right"
@@ -39,7 +47,15 @@ import _capacitor_polarized_left from "./../symbols/capacitor_polarized_left"
 import _capacitor_polarized_right from "./../symbols/capacitor_polarized_right"
 import _capacitor_polarized_up from "./../symbols/capacitor_polarized_up"
 import _capacitor_right from "./../symbols/capacitor_right"
+import _capacitor_sm_down from "./../symbols/capacitor_sm_down"
+import _capacitor_sm_left from "./../symbols/capacitor_sm_left"
+import _capacitor_sm_right from "./../symbols/capacitor_sm_right"
+import _capacitor_sm_up from "./../symbols/capacitor_sm_up"
 import _capacitor_up from "./../symbols/capacitor_up"
+import _capacitor_xs_down from "./../symbols/capacitor_xs_down"
+import _capacitor_xs_left from "./../symbols/capacitor_xs_left"
+import _capacitor_xs_right from "./../symbols/capacitor_xs_right"
+import _capacitor_xs_up from "./../symbols/capacitor_xs_up"
 import _constant_current_diode_down from "./../symbols/constant_current_diode_down"
 import _constant_current_diode_horz from "./../symbols/constant_current_diode_horz"
 import _constant_current_diode_left from "./../symbols/constant_current_diode_left"
@@ -253,7 +269,15 @@ import _rectifier_diode_vert from "./../symbols/rectifier_diode_vert"
 import _resistor_down from "./../symbols/resistor_down"
 import _resistor_left from "./../symbols/resistor_left"
 import _resistor_right from "./../symbols/resistor_right"
+import _resistor_sm_down from "./../symbols/resistor_sm_down"
+import _resistor_sm_left from "./../symbols/resistor_sm_left"
+import _resistor_sm_right from "./../symbols/resistor_sm_right"
+import _resistor_sm_up from "./../symbols/resistor_sm_up"
 import _resistor_up from "./../symbols/resistor_up"
+import _resistor_xs_down from "./../symbols/resistor_xs_down"
+import _resistor_xs_left from "./../symbols/resistor_xs_left"
+import _resistor_xs_right from "./../symbols/resistor_xs_right"
+import _resistor_xs_up from "./../symbols/resistor_xs_up"
 import _resonator_down from "./../symbols/resonator_down"
 import _resonator_horz from "./../symbols/resonator_horz"
 import _resonator_left from "./../symbols/resonator_left"
@@ -382,11 +406,19 @@ export default {
   "boxresistor_down": _boxresistor_down,
   "boxresistor_left": _boxresistor_left,
   "boxresistor_right": _boxresistor_right,
+  "boxresistor_sm_down": _boxresistor_sm_down,
+  "boxresistor_sm_left": _boxresistor_sm_left,
+  "boxresistor_sm_right": _boxresistor_sm_right,
+  "boxresistor_sm_up": _boxresistor_sm_up,
   "boxresistor_small_down": _boxresistor_small_down,
   "boxresistor_small_left": _boxresistor_small_left,
   "boxresistor_small_right": _boxresistor_small_right,
   "boxresistor_small_up": _boxresistor_small_up,
   "boxresistor_up": _boxresistor_up,
+  "boxresistor_xs_down": _boxresistor_xs_down,
+  "boxresistor_xs_left": _boxresistor_xs_left,
+  "boxresistor_xs_right": _boxresistor_xs_right,
+  "boxresistor_xs_up": _boxresistor_xs_up,
   "bridged_ground_down": _bridged_ground_down,
   "bridged_ground_left": _bridged_ground_left,
   "bridged_ground_right": _bridged_ground_right,
@@ -398,7 +430,15 @@ export default {
   "capacitor_polarized_right": _capacitor_polarized_right,
   "capacitor_polarized_up": _capacitor_polarized_up,
   "capacitor_right": _capacitor_right,
+  "capacitor_sm_down": _capacitor_sm_down,
+  "capacitor_sm_left": _capacitor_sm_left,
+  "capacitor_sm_right": _capacitor_sm_right,
+  "capacitor_sm_up": _capacitor_sm_up,
   "capacitor_up": _capacitor_up,
+  "capacitor_xs_down": _capacitor_xs_down,
+  "capacitor_xs_left": _capacitor_xs_left,
+  "capacitor_xs_right": _capacitor_xs_right,
+  "capacitor_xs_up": _capacitor_xs_up,
   "constant_current_diode_down": _constant_current_diode_down,
   "constant_current_diode_horz": _constant_current_diode_horz,
   "constant_current_diode_left": _constant_current_diode_left,
@@ -612,7 +652,15 @@ export default {
   "resistor_down": _resistor_down,
   "resistor_left": _resistor_left,
   "resistor_right": _resistor_right,
+  "resistor_sm_down": _resistor_sm_down,
+  "resistor_sm_left": _resistor_sm_left,
+  "resistor_sm_right": _resistor_sm_right,
+  "resistor_sm_up": _resistor_sm_up,
   "resistor_up": _resistor_up,
+  "resistor_xs_down": _resistor_xs_down,
+  "resistor_xs_left": _resistor_xs_left,
+  "resistor_xs_right": _resistor_xs_right,
+  "resistor_xs_up": _resistor_xs_up,
   "resonator_down": _resonator_down,
   "resonator_horz": _resonator_horz,
   "resonator_left": _resonator_left,

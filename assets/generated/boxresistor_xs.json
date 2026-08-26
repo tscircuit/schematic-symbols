@@ -1,0 +1,68 @@
+{
+  "paths": {
+    "left-lead": {
+      "type": "path",
+      "points": [
+        { "x": -0.175, "y": 0 },
+        { "x": -0.14, "y": 0 }
+      ],
+      "color": "primary",
+      "fill": false,
+      "strokeWidth": 0.012
+    },
+    "body": {
+      "type": "path",
+      "points": [
+        { "x": -0.14, "y": 0.065 },
+        { "x": 0.14, "y": 0.065 },
+        { "x": 0.14, "y": -0.065 },
+        { "x": -0.14, "y": -0.065 },
+        { "x": -0.14, "y": 0.065 }
+      ],
+      "color": "primary",
+      "fill": false,
+      "strokeWidth": 0.012
+    },
+    "right-lead": {
+      "type": "path",
+      "points": [
+        { "x": 0.14, "y": 0 },
+        { "x": 0.175, "y": 0 }
+      ],
+      "color": "primary",
+      "fill": false,
+      "strokeWidth": 0.012
+    }
+  },
+  "texts": {
+    "top1": {
+      "type": "text",
+      "text": "{REF}",
+      "x": 0,
+      "y": 0.25,
+      "anchor": "middle_bottom"
+    },
+    "bottom1": {
+      "type": "text",
+      "text": "{VAL}",
+      "x": 0,
+      "y": -0.25,
+      "anchor": "middle_top"
+    }
+  },
+  "refblocks": {
+    "left1": { "x": -0.175, "y": 0 },
+    "right1": { "x": 0.175, "y": 0 }
+  },
+  "bounds": {
+    "minX": -0.175,
+    "maxX": 0.175,
+    "minY": -0.25,
+    "maxY": 0.25,
+    "width": 0.35,
+    "height": 0.5,
+    "centerX": 0,
+    "centerY": 0
+  },
+  "circles": {}
+}
