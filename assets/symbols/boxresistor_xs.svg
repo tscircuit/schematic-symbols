@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  width="30mm"
+  height="30mm"
+  viewBox="0 0 30 30"
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <g id="root">
+    <g id="boxresistor_xs">
+      <path
+        id="left-lead"
+        d="M 13.25 15 H 13.6"
+        style="fill:none;stroke:#000000;stroke-width:0.12;stroke-linecap:round;stroke-linejoin:round"
+      />
+      <path
+        id="body"
+        d="M 13.6 14.35 H 16.4 V 15.65 H 13.6 Z"
+        style="fill:none;stroke:#000000;stroke-width:0.12;stroke-linecap:round;stroke-linejoin:round"
+      />
+      <path
+        id="right-lead"
+        d="M 16.4 15 H 16.75"
+        style="fill:none;stroke:#000000;stroke-width:0.12;stroke-linecap:round;stroke-linejoin:round"
+      />
+      <circle id="refblock-left" cx="13.25" cy="15" r="0" fill="#ff0000" />
+      <circle id="refblock-right" cx="16.75" cy="15" r="0" fill="#ff0000" />
+      <text x="15" y="12.5" text-anchor="middle" font-family="monospace" font-size="1">{REF}</text>
+      <text x="15" y="17.5" text-anchor="middle" font-family="monospace" font-size="1">{VAL}</text>
+    </g>
+  </g>
+</svg>
