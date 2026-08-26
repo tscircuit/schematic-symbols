@@ -1,5 +1,10 @@
 import { expect, test } from "bun:test"
-import type { PathPrimitive, Point, SchSymbol } from "../drawing/types"
+import type {
+  PathPrimitive,
+  Point,
+  SchSymbol,
+  TextPrimitive,
+} from "../drawing/types"
 import symbolIndex from "../generated/symbols-index"
 
 const symbols = symbolIndex as Record<string, SchSymbol>
@@ -34,6 +39,8 @@ const capacitorDimensions = {
   xs: { plateHeight: 0.28, gap: 0.1 },
 } as const
 
+const verticalCapacitorAnnotationX = 0.095
+
 interface Segment {
   start: Point
   end: Point
@@ -66,6 +73,20 @@ const getPaths = (symbol: SchSymbol): PathPrimitive[] =>
   symbol.primitives.filter(
     (primitive): primitive is PathPrimitive => primitive.type === "path",
   )
+
+const getAnnotation = (
+  symbol: SchSymbol,
+  text: "{REF}" | "{VAL}",
+): TextPrimitive => {
+  const annotation = symbol.primitives.find(
+    (primitive): primitive is TextPrimitive =>
+      primitive.type === "text" && primitive.text === text,
+  )
+
+  if (!annotation) throw new Error(`Missing annotation: ${text}`)
+
+  return annotation
+}
 
 const getSegments = (symbol: SchSymbol): Segment[] =>
   getPaths(symbol).flatMap((path) =>
@@ -198,6 +219,22 @@ test("compact capacitors preserve pin polarity aliases", () => {
       expect(getPort(symbol, "1").labels).not.toContain("neg")
       expect(getPort(symbol, "2").labels).toContain("neg")
       expect(getPort(symbol, "2").labels).not.toContain("pos")
+    }
+  }
+})
+
+test("vertical compact capacitor annotations stay inside the plate span", () => {
+  for (const size of sizeVariants) {
+    for (const orientation of ["up", "down"] as const) {
+      const symbol = getSymbol("capacitor", size, orientation)
+      const ref = getAnnotation(symbol, "{REF}")
+      const val = getAnnotation(symbol, "{VAL}")
+      const plateHalfWidth = capacitorDimensions[size].plateHeight / 2
+
+      expect(ref.x).toBe(verticalCapacitorAnnotationX)
+      expect(val.x).toBe(verticalCapacitorAnnotationX)
+      expect(ref.x).toBeLessThan(plateHalfWidth)
+      expect(val.x).toBeLessThan(plateHalfWidth)
     }
   }
 })

@@ -11,6 +11,8 @@ interface CreatePassiveSizeVariantOptions {
   pin2Labels?: string[]
 }
 
+const verticalCapacitorAnnotationX = 0.095
+
 const annotationLayouts: Record<
   PassiveKind,
   {
@@ -33,7 +35,7 @@ const annotationLayouts: Record<
   capacitor: {
     horizontalOffset: 0.24,
     horizontalHeight: 0.65,
-    verticalX: 0.2,
+    verticalX: verticalCapacitorAnnotationX,
     verticalRefY: 0.095,
     verticalValY: -0.095,
     verticalWidth: 0.9,
