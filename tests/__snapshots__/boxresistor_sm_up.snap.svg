@@ -1,0 +1,24 @@
+<svg width="150" height="150" viewBox="-0.54 -0.3 1.08 0.6" xmlns="http://www.w3.org/2000/svg"><path d="M-1.5308084989341915e-17,0.25 L-1.071565949253934e-17,0.175" fill="none" stroke="black" stroke-width="0.012" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.07500000000000001,0.175 L-0.07499999999999998,-0.175 L0.07500000000000001,-0.175 L0.07499999999999998,0.175 L-0.07500000000000001,0.175" fill="none" stroke="black" stroke-width="0.012" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M1.071565949253934e-17,-0.175 L1.5308084989341915e-17,-0.25" fill="none" stroke="black" stroke-width="0.012" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="0.16" y="-0.16" dx="0" dy="0.037500000000000006" text-anchor="start" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="0.1475" y="-0.17250000000000001" width="0.025" height="0.025" fill="blue" />
+    <text x="0.16" y="0.16" dx="0" dy="0.037500000000000006" text-anchor="start" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="0.1475" y="0.1475" width="0.025" height="0.025" fill="blue" />
+
+    
+    <line x1="-0.025000000000000015" y1="0.225" x2="0.024999999999999988" y2="0.275" stroke="red" stroke-width="0.004" />
+    <line x1="-0.025000000000000015" y1="0.275" x2="0.024999999999999988" y2="0.225" stroke="red" stroke-width="0.004" />
+  
+    <text x="-0.040000000000000015" y="0.33999999999999997"
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
+  
+    
+    
+    <line x1="-0.024999999999999988" y1="-0.275" x2="0.025000000000000015" y2="-0.225" stroke="red" stroke-width="0.004" />
+    <line x1="-0.024999999999999988" y1="-0.225" x2="0.025000000000000015" y2="-0.275" stroke="red" stroke-width="0.004" />
+  
+    <text x="-0.03999999999999999" y="-0.16"
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+  
+<path d="M 0 -0.025 L 0.025 0 L 0 0.025 L -0.025 0 Z" fill="green" />
+<text x="-0.45" y="-0.25" style="font: 0.05px monospace; fill: #833;">0.90 x 0.50</text>
+<text x="-0.45" y="-0.25" style="font: 0.05px monospace; fill: #833;">0.90 x 0.50</text></svg>
