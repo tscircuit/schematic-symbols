@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  width="30mm"
+  height="30mm"
+  viewBox="0 0 30 30"
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <g id="root">
+    <g id="opamp_with_power_inverted_inputs">
+      <path id="upper-side" d="M 11.8 11.9 L 16.4 14.6" style="fill:none;stroke:#000000;stroke-width:0.12;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="lower-side" d="M 16.4 14.6 L 11.8 17.1" style="fill:none;stroke:#000000;stroke-width:0.12;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="back" d="M 11.8 11.9 V 17.1" style="fill:none;stroke:#000000;stroke-width:0.12;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="inverting-lead" d="M 9.3 13.2 H 11.8" style="fill:none;stroke:#000000;stroke-width:0.12;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="non-inverting-lead" d="M 9.3 15.9 H 11.8" style="fill:none;stroke:#000000;stroke-width:0.12;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="output-lead" d="M 16.4 14.6 H 19.3" style="fill:none;stroke:#000000;stroke-width:0.12;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="positive-supply-lead" d="M 14 10.6 V 13.2" style="fill:none;stroke:#000000;stroke-width:0.12;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="negative-supply-lead" d="M 14.1 15.9 V 18.4" style="fill:none;stroke:#000000;stroke-width:0.12;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="inverting-mark" d="M 12.3 13.2 H 13.1" style="fill:none;stroke:#000000;stroke-width:0.12;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="non-inverting-mark-horizontal" d="M 12.3 15.9 H 13.1" style="fill:none;stroke:#000000;stroke-width:0.12;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="non-inverting-mark-vertical" d="M 12.7 15.5 V 16.3" style="fill:none;stroke:#000000;stroke-width:0.12;stroke-linecap:round;stroke-linejoin:round" />
+      <circle id="refblock-inp2" cx="9.3" cy="13.2" r="0" fill="#ff0000" />
+      <circle id="refblock-inp1" cx="9.3" cy="15.9" r="0" fill="#ff0000" />
+      <circle id="refblock-out" cx="19.3" cy="14.6" r="0" fill="#ff0000" />
+      <circle id="refblock-vplus" cx="14" cy="10.6" r="0" fill="#ff0000" />
+      <circle id="refblock-vminus" cx="14.1" cy="18.4" r="0" fill="#ff0000" />
+      <text x="17.5" y="11.8" text-anchor="middle" font-family="monospace" font-size="1">{REF}</text>
+      <text x="17.5" y="17.4" text-anchor="middle" font-family="monospace" font-size="1">{VAL}</text>
+    </g>
+  </g>
+</svg>
