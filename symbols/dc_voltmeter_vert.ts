@@ -1,10 +1,20 @@
 import { modifySymbol } from "../drawing/modify-symbol/modify-symbol"
+import type { Primitive } from "../drawing/types"
 import svgJson from "assets/generated/dc_voltmeter.json"
+import { getDCVoltmeterIndicatorPaths } from "../drawing/voltmeter-indicator-paths"
 
 const { paths, texts, bounds, refblocks, circles } = svgJson
+
+const { "path11-5-5": _chev, path2: _minus, ...structuralPaths } = paths
+
+// After +90° rotation (around port midpoint (0, 0.035)) the circle center
+// moves from (0, 0.04) to (-0.005, 0.035).
+const cx = -0.005
+const cy = 0.035
+
 export default modifySymbol({
   primitives: [
-    ...Object.values(paths),
+    ...Object.values(structuralPaths),
     ...Object.values(circles),
     {
       type: "text",
@@ -18,7 +28,7 @@ export default modifySymbol({
       x: -0.15,
       y: -0.2894553499999995,
     },
-  ] as any,
+  ] as Primitive[],
   ports: [
     { ...refblocks.left1, labels: ["1"] },
     { ...refblocks.right1, labels: ["2"] },
@@ -31,4 +41,5 @@ export default modifySymbol({
   .labelPort("right1", ["2"])
   .changeTextAnchor("{REF}", "middle_left")
   .changeTextAnchor("{VAL}", "middle_left")
+  .addPrimitives(getDCVoltmeterIndicatorPaths(cx, cy))
   .build()
