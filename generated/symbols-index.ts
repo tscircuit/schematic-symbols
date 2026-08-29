@@ -203,10 +203,18 @@ import _npn_bipolar_transistor_right from "./../symbols/npn_bipolar_transistor_r
 import _npn_bipolar_transistor_up from "./../symbols/npn_bipolar_transistor_up"
 import _npn_bipolar_transistor_vert from "./../symbols/npn_bipolar_transistor_vert"
 import _opamp_no_power_down from "./../symbols/opamp_no_power_down"
+import _opamp_no_power_inverting_top_down from "./../symbols/opamp_no_power_inverting_top_down"
+import _opamp_no_power_inverting_top_left from "./../symbols/opamp_no_power_inverting_top_left"
+import _opamp_no_power_inverting_top_right from "./../symbols/opamp_no_power_inverting_top_right"
+import _opamp_no_power_inverting_top_up from "./../symbols/opamp_no_power_inverting_top_up"
 import _opamp_no_power_left from "./../symbols/opamp_no_power_left"
 import _opamp_no_power_right from "./../symbols/opamp_no_power_right"
 import _opamp_no_power_up from "./../symbols/opamp_no_power_up"
 import _opamp_with_power_down from "./../symbols/opamp_with_power_down"
+import _opamp_with_power_inverting_top_down from "./../symbols/opamp_with_power_inverting_top_down"
+import _opamp_with_power_inverting_top_left from "./../symbols/opamp_with_power_inverting_top_left"
+import _opamp_with_power_inverting_top_right from "./../symbols/opamp_with_power_inverting_top_right"
+import _opamp_with_power_inverting_top_up from "./../symbols/opamp_with_power_inverting_top_up"
 import _opamp_with_power_left from "./../symbols/opamp_with_power_left"
 import _opamp_with_power_right from "./../symbols/opamp_with_power_right"
 import _opamp_with_power_up from "./../symbols/opamp_with_power_up"
@@ -586,10 +594,18 @@ export default {
   "npn_bipolar_transistor_up": _npn_bipolar_transistor_up,
   "npn_bipolar_transistor_vert": _npn_bipolar_transistor_vert,
   "opamp_no_power_down": _opamp_no_power_down,
+  "opamp_no_power_inverting_top_down": _opamp_no_power_inverting_top_down,
+  "opamp_no_power_inverting_top_left": _opamp_no_power_inverting_top_left,
+  "opamp_no_power_inverting_top_right": _opamp_no_power_inverting_top_right,
+  "opamp_no_power_inverting_top_up": _opamp_no_power_inverting_top_up,
   "opamp_no_power_left": _opamp_no_power_left,
   "opamp_no_power_right": _opamp_no_power_right,
   "opamp_no_power_up": _opamp_no_power_up,
   "opamp_with_power_down": _opamp_with_power_down,
+  "opamp_with_power_inverting_top_down": _opamp_with_power_inverting_top_down,
+  "opamp_with_power_inverting_top_left": _opamp_with_power_inverting_top_left,
+  "opamp_with_power_inverting_top_right": _opamp_with_power_inverting_top_right,
+  "opamp_with_power_inverting_top_up": _opamp_with_power_inverting_top_up,
   "opamp_with_power_left": _opamp_with_power_left,
   "opamp_with_power_right": _opamp_with_power_right,
   "opamp_with_power_up": _opamp_with_power_up,
