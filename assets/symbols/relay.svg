@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+<!--
+  Reference: IEEE/ANSI relay symbol - electromagnet coil (box) driving an
+  SPST normally-open contact, drawn as two electrically separate two-pin
+  devices side by side. See the "relay" symbol group in
+  https://github.com/sjgallagher2/SchematicSymbolsSVG (already listed under
+  References in this repo's README) and IEEE Std 315 relay contact symbols.
+-->
 <svg
    width="30mm"
    height="20mm"
