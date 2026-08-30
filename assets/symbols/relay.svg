@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <!--
-  Reference: IEEE/ANSI relay symbol - electromagnet coil (box) driving an
-  SPST normally-open contact, drawn as two electrically separate two-pin
-  devices side by side. See the "relay" symbol group in
-  https://github.com/sjgallagher2/SchematicSymbolsSVG (already listed under
-  References in this repo's README) and IEEE Std 315 relay contact symbols.
+  Reference: standard relay schematic symbol - electromagnet coil (box with
+  zigzag windings) driving a normally-open contact (angled line between two
+  contact points). See Wikimedia Commons "Relay symbols.svg", used on the
+  Wikipedia "Relay" article: https://commons.wikimedia.org/wiki/File:Relay_symbols.svg
+  and the "relay" symbol referenced in https://github.com/sjgallagher2/SchematicSymbolsSVG
+  (listed under References in this repo's README).
 -->
 <svg
    width="30mm"
-   height="20mm"
-   viewBox="-16 -9 32 18"
+   height="30mm"
+   viewBox="0 0 30 30"
    version="1.1"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -19,38 +20,46 @@
   <g inkscape:label="root" inkscape:groupmode="layer" id="root">
     <g id="relay" inkscape:label="relay">
       <title id="title1">Relay</title>
-      <!-- Coil left lead (pin 1) -->
+      <!-- Coil left lead -->
       <path id="path1" style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-            d="M -15,0 H -12" />
-      <!-- Coil box (electromagnet) -->
+            d="M 5,22 H 9" />
+      <!-- Coil box (electromagnet housing) -->
       <path id="path2" style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-            d="M -12,-2 H -8 V 2 H -12 V -2" />
-      <!-- Coil right lead (pin 2) -->
+            d="M 9,17 H 21 V 27 H 9 V 17" />
+      <!-- Coil windings (zigzag) inside the box -->
       <path id="path3" style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-            d="M -8,0 H -5" />
-      <!-- Switch pole lead (pin 3) -->
+            d="M 9,22 L 11.5,18 L 15,26 L 18.5,18 L 21,22" />
+      <!-- Coil right lead -->
       <path id="path4" style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-            d="M 5,0 H 8" />
-      <!-- Switch arm, open (normally-open contact) -->
+            d="M 21,22 H 25" />
+      <!-- Switch left lead -->
       <path id="path5" style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-            d="M 8,0 L 11,-4" />
-      <!-- Switch contact lead (pin 4) -->
+            d="M 5,6 H 9" />
+      <!-- Switch contact, normally open (angled line between two contact dots) -->
       <path id="path6" style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-            d="M 13,0 H 15" />
-      <!-- Refblock dots (pin markers), in pin order 1..4 -->
+            d="M 9,6 L 19,3" />
+      <!-- Switch right lead -->
+      <path id="path7" style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+            d="M 19,3 H 25" />
+      <!-- Switch contact dots -->
+      <circle id="contact1" style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-opacity:1"
+              cx="9" cy="6" r="0.6" />
+      <circle id="contact2" style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-opacity:1"
+              cx="19" cy="3" r="0.6" />
+      <!-- Refblock dots (pin markers) -->
       <circle style="fill:#ff0000;stroke:none;stroke-width:0.264583"
-              id="refblock-5-7-1" cx="-15" cy="0" r="0.28158441" />
+              id="refblock-5-7-1" cx="5" cy="22" r="0.28158441" />
       <circle style="fill:#ff0000;stroke:none;stroke-width:0.264583"
-              id="refblock-5-7-2" cx="-5" cy="0" r="0.28158441" />
+              id="refblock-5-7-2" cx="25" cy="22" r="0.28158441" />
       <circle style="fill:#ff0000;stroke:none;stroke-width:0.264583"
-              id="refblock-5-7-3" cx="5" cy="0" r="0.28158441" />
+              id="refblock-5-7-3" cx="5" cy="6" r="0.28158441" />
       <circle style="fill:#ff0000;stroke:none;stroke-width:0.264583"
-              id="refblock-5-7-4" cx="15" cy="0" r="0.28158441" />
+              id="refblock-5-7-4" cx="25" cy="3" r="0.28158441" />
       <!-- REF and VAL text -->
       <text id="text1" style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
-            x="0" y="-7">{REF}</text>
+            x="15" y="1">{REF}</text>
       <text id="text2" style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
-            x="0" y="7">{VAL}</text>
+            x="15" y="29">{VAL}</text>
     </g>
   </g>
 </svg>
