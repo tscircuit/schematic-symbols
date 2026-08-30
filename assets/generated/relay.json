@@ -1,0 +1,149 @@
+{
+  "paths": {
+    "path1": {
+      "type": "path",
+      "points": [
+        {
+          "x": -1.5,
+          "y": 0
+        },
+        {
+          "x": -1.2000000000000002,
+          "y": 0
+        }
+      ],
+      "color": "primary",
+      "fill": false
+    },
+    "path2": {
+      "type": "path",
+      "points": [
+        {
+          "x": -1.2000000000000002,
+          "y": 0.2
+        },
+        {
+          "x": -0.8,
+          "y": 0.2
+        },
+        {
+          "x": -0.8,
+          "y": -0.2
+        },
+        {
+          "x": -1.2000000000000002,
+          "y": -0.2
+        },
+        {
+          "x": -1.2000000000000002,
+          "y": 0.2
+        }
+      ],
+      "color": "primary",
+      "fill": false
+    },
+    "path3": {
+      "type": "path",
+      "points": [
+        {
+          "x": -0.8,
+          "y": 0
+        },
+        {
+          "x": -0.5,
+          "y": 0
+        }
+      ],
+      "color": "primary",
+      "fill": false
+    },
+    "path4": {
+      "type": "path",
+      "points": [
+        {
+          "x": 0.5,
+          "y": 0
+        },
+        {
+          "x": 0.8,
+          "y": 0
+        }
+      ],
+      "color": "primary",
+      "fill": false
+    },
+    "path5": {
+      "type": "path",
+      "points": [
+        {
+          "x": 0.8,
+          "y": 0
+        },
+        {
+          "x": 1.1,
+          "y": 0.4
+        }
+      ],
+      "color": "primary",
+      "fill": false
+    },
+    "path6": {
+      "type": "path",
+      "points": [
+        {
+          "x": 1.3,
+          "y": 0
+        },
+        {
+          "x": 1.5,
+          "y": 0
+        }
+      ],
+      "color": "primary",
+      "fill": false
+    }
+  },
+  "texts": {
+    "top1": {
+      "type": "text",
+      "text": "{REF}",
+      "x": 0,
+      "y": 0.7000000000000001
+    },
+    "bottom1": {
+      "type": "text",
+      "text": "{VAL}",
+      "x": 0,
+      "y": -0.7000000000000001
+    }
+  },
+  "refblocks": {
+    "left1": {
+      "x": -1.5,
+      "y": 0
+    },
+    "left2": {
+      "x": -0.5,
+      "y": 0
+    },
+    "right1": {
+      "x": 0.5,
+      "y": 0
+    },
+    "right2": {
+      "x": 1.5,
+      "y": 0
+    }
+  },
+  "bounds": {
+    "minX": -1.528158441,
+    "maxX": 1.528158441,
+    "minY": -0.7000000000000001,
+    "maxY": 0.7000000000000001,
+    "width": 3.056316882,
+    "height": 1.4000000000000001,
+    "centerX": 0,
+    "centerY": 0
+  },
+  "circles": {}
+}

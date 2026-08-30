@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   width="30mm"
+   height="20mm"
+   viewBox="-16 -9 32 18"
+   version="1.1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg">
+  <sodipodi:namedview id="namedview1" />
+  <g inkscape:label="root" inkscape:groupmode="layer" id="root">
+    <g id="relay" inkscape:label="relay">
+      <title id="title1">Relay</title>
+      <!-- Coil left lead (pin 1) -->
+      <path id="path1" style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+            d="M -15,0 H -12" />
+      <!-- Coil box (electromagnet) -->
+      <path id="path2" style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+            d="M -12,-2 H -8 V 2 H -12 V -2" />
+      <!-- Coil right lead (pin 2) -->
+      <path id="path3" style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+            d="M -8,0 H -5" />
+      <!-- Switch pole lead (pin 3) -->
+      <path id="path4" style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+            d="M 5,0 H 8" />
+      <!-- Switch arm, open (normally-open contact) -->
+      <path id="path5" style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+            d="M 8,0 L 11,-4" />
+      <!-- Switch contact lead (pin 4) -->
+      <path id="path6" style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+            d="M 13,0 H 15" />
+      <!-- Refblock dots (pin markers), in pin order 1..4 -->
+      <circle style="fill:#ff0000;stroke:none;stroke-width:0.264583"
+              id="refblock-5-7-1" cx="-15" cy="0" r="0.28158441" />
+      <circle style="fill:#ff0000;stroke:none;stroke-width:0.264583"
+              id="refblock-5-7-2" cx="-5" cy="0" r="0.28158441" />
+      <circle style="fill:#ff0000;stroke:none;stroke-width:0.264583"
+              id="refblock-5-7-3" cx="5" cy="0" r="0.28158441" />
+      <circle style="fill:#ff0000;stroke:none;stroke-width:0.264583"
+              id="refblock-5-7-4" cx="15" cy="0" r="0.28158441" />
+      <!-- REF and VAL text -->
+      <text id="text1" style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+            x="0" y="-7">{REF}</text>
+      <text id="text2" style="font-size:1.05833px;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+            x="0" y="7">{VAL}</text>
+    </g>
+  </g>
+</svg>
