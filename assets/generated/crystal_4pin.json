@@ -253,14 +253,14 @@
     "left1": {
       "type": "text",
       "text": "{REF}",
-      "x": 0.53,
+      "x": 0.54,
       "y": 0.28
     },
     "right1": {
       "type": "text",
       "text": "{VAL}",
       "x": 0.54,
-      "y": -0.28
+      "y": 0.2
     }
   },
   "refblocks": {
