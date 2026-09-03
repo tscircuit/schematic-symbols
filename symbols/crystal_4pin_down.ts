@@ -9,13 +9,13 @@ export default modifySymbol({
     {
       type: "text",
       text: "{REF}",
-      x: -0.4,
+      x: -0.36,
       y: 0.4,
     },
     {
       type: "text",
       text: "{VAL}",
-      x: -0.2,
+      x: -0.28,
       y: 0.4,
     },
   ] as any,

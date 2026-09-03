@@ -14,8 +14,8 @@
     <path d="M0.19,0.35 L0.19,0.28" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M-0.22,0.35 L-0.22,0.28" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M-0.14,0.01 L-0.54,0.01" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <text x="0.4" y="-0.28" dx="0" dy="0" text-anchor="start" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="0.3875" y="-0.29250000000000004" width="0.025" height="0.025" fill="blue" />
-    <text x="0.4" y="-0.2" dx="0" dy="0.1" text-anchor="start" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="0.3875" y="-0.21250000000000002" width="0.025" height="0.025" fill="blue" />
+    <text x="0.4" y="-0.36" dx="0" dy="0" text-anchor="start" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="0.3875" y="-0.3725" width="0.025" height="0.025" fill="blue" />
+    <text x="0.4" y="-0.28" dx="0" dy="0.1" text-anchor="start" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="0.3875" y="-0.29250000000000004" width="0.025" height="0.025" fill="blue" />
 
     
     <line x1="-0.025" y1="-0.735" x2="0.025" y2="-0.6849999999999999" stroke="red" stroke-width="0.004" />
