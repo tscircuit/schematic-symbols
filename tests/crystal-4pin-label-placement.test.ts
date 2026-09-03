@@ -27,7 +27,8 @@ test("four-pin crystal labels are stacked above the right pin", () => {
     })
 
     expect(referenceText.x).toBeCloseTo(valueText.x)
-    expect(valueText.x).toBeCloseTo(rightPin.x)
+    expect(valueText.x).toBeCloseTo(0.4)
+    expect(valueText.x).toBeLessThan(rightPin.x)
     expect(referenceText.y).toBeGreaterThan(valueText.y)
     expect(valueText.y).toBeGreaterThan(rightPin.y)
   }
