@@ -2,10 +2,13 @@ import { expect, test } from "bun:test"
 import type { SchSymbol } from "../drawing/types"
 import symbols from "../generated/symbols-index"
 
-const getText = (symbol: SchSymbol, text: "{REF}" | "{VAL}") =>
-  symbol.primitives.find(
-    (primitive) => primitive.type === "text" && primitive.text === text,
-  )!
+const getText = (symbol: SchSymbol, text: "{REF}" | "{VAL}") => {
+  for (const primitive of symbol.primitives) {
+    if (primitive.type === "text" && primitive.text === text) return primitive
+  }
+
+  throw new Error(`Missing ${text} primitive`)
+}
 
 test("four-pin crystal labels are stacked above the right pin", () => {
   const crystalVariants = [
