@@ -1,0 +1,84 @@
+{
+  "paths": {
+    "lead-left": {
+      "type": "path",
+      "points": [
+        {
+          "x": -0.5,
+          "y": 0
+        },
+        {
+          "x": -0.25,
+          "y": 0
+        }
+      ],
+      "color": "primary",
+      "fill": false
+    },
+    "lead-right": {
+      "type": "path",
+      "points": [
+        {
+          "x": 0.25,
+          "y": 0
+        },
+        {
+          "x": 0.5,
+          "y": 0
+        }
+      ],
+      "color": "primary",
+      "fill": false
+    }
+  },
+  "texts": {
+    "top1": {
+      "type": "text",
+      "text": "{REF}",
+      "x": 0,
+      "y": 0.3999999999999999
+    },
+    "bottom1": {
+      "type": "text",
+      "text": "{VAL}",
+      "x": 0,
+      "y": -0.40000000000000013
+    },
+    "unknown1": {
+      "type": "text",
+      "text": "M",
+      "x": 0,
+      "y": 0
+    }
+  },
+  "refblocks": {
+    "left1": {
+      "x": -0.5,
+      "y": 0
+    },
+    "right1": {
+      "x": 0.5,
+      "y": 0
+    }
+  },
+  "bounds": {
+    "minX": -0.5,
+    "maxX": 0.5,
+    "minY": -0.40000000000000013,
+    "maxY": 0.3999999999999999,
+    "width": 1,
+    "height": 0.8,
+    "centerX": 0,
+    "centerY": -1.1102230246251565e-16
+  },
+  "circles": {
+    "body": {
+      "type": "circle",
+      "x": 0,
+      "y": 0,
+      "radius": 0.25,
+      "color": "primary",
+      "fill": false
+    }
+  }
+}
