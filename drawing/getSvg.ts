@@ -177,6 +177,7 @@ export function getSvg(
 ): string {
   const { size } = symbol
   const innerSvg = getInnerSvg(symbol, options)
+  let { width, height } = options
 
   // Use the center and the size to calculate the viewBox
   const bufferMultiple = 1.2
@@ -189,14 +190,14 @@ export function getSvg(
     height: h,
   }
 
-  if (options.width && !options.height) {
-    options.height = options.width! * (viewBox.height / viewBox.width)
-  } else if (!options.width && options.height) {
-    options.width = options.height! * (viewBox.width / viewBox.height)
-  } else if (!options.width && !options.height) {
-    options.width = viewBox.width
-    options.height = viewBox.height
+  if (width && !height) {
+    height = width * (viewBox.height / viewBox.width)
+  } else if (!width && height) {
+    width = height * (viewBox.width / viewBox.height)
+  } else if (!width && !height) {
+    width = viewBox.width
+    height = viewBox.height
   }
 
-  return `<svg width="${options.width}" height="${options.height}" viewBox="${viewBox.x} ${viewBox.y} ${viewBox.width} ${viewBox.height}" xmlns="http://www.w3.org/2000/svg">${innerSvg}</svg>`
+  return `<svg width="${width}" height="${height}" viewBox="${viewBox.x} ${viewBox.y} ${viewBox.width} ${viewBox.height}" xmlns="http://www.w3.org/2000/svg">${innerSvg}</svg>`
 }
