@@ -24,8 +24,8 @@
   
 <path d="M 0 -0.065 L 0.025 -0.04 L 0 -0.015 L -0.025 -0.04 Z" fill="green" />
 <text x="-0.52" y="-0.23" style="font: 0.05px monospace; fill: #833;">1.04 x 0.54</text>
-<text x="-0.52" y="-0.28" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [pos]</text>
-<text x="-0.52" y="-0.33" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [neg]</text>
+<text x="-0.52" y="-0.28" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [pos, anode]</text>
+<text x="-0.52" y="-0.33" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [neg, cathode]</text>
 <text x="-0.52" y="-0.23" style="font: 0.05px monospace; fill: #833;">1.04 x 0.54</text>
-<text x="-0.52" y="-0.28" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [pos]</text>
-<text x="-0.52" y="-0.33" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [neg]</text></svg>
+<text x="-0.52" y="-0.28" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [pos, anode]</text>
+<text x="-0.52" y="-0.33" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [neg, cathode]</text></svg>

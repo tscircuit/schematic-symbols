@@ -4,7 +4,7 @@ import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
 svgJson.bounds.width += 0.2
 export default modifySymbol(svgJson)
   .changeTextAnchor("{VAL}", "middle_top")
-  .labelPort("left1", ["1"])
-  .labelPort("right1", ["2"])
+  .labelPort("left1", ["1", "anode", "pos"])
+  .labelPort("right1", ["2", "cathode", "neg"])
   .changeTextAnchor("{REF}", "middle_bottom")
   .build()
