@@ -348,6 +348,10 @@ import _testpoint_down from "./../symbols/testpoint_down"
 import _testpoint_left from "./../symbols/testpoint_left"
 import _testpoint_right from "./../symbols/testpoint_right"
 import _testpoint_up from "./../symbols/testpoint_up"
+import _thermistor_down from "./../symbols/thermistor_down"
+import _thermistor_left from "./../symbols/thermistor_left"
+import _thermistor_right from "./../symbols/thermistor_right"
+import _thermistor_up from "./../symbols/thermistor_up"
 import _tilted_ground_down from "./../symbols/tilted_ground_down"
 import _tilted_ground_left from "./../symbols/tilted_ground_left"
 import _tilted_ground_right from "./../symbols/tilted_ground_right"
@@ -731,6 +735,10 @@ export default {
   "testpoint_left": _testpoint_left,
   "testpoint_right": _testpoint_right,
   "testpoint_up": _testpoint_up,
+  "thermistor_down": _thermistor_down,
+  "thermistor_left": _thermistor_left,
+  "thermistor_right": _thermistor_right,
+  "thermistor_up": _thermistor_up,
   "tilted_ground_down": _tilted_ground_down,
   "tilted_ground_left": _tilted_ground_left,
   "tilted_ground_right": _tilted_ground_right,
