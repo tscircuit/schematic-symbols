@@ -352,6 +352,12 @@ import _tilted_ground_down from "./../symbols/tilted_ground_down"
 import _tilted_ground_left from "./../symbols/tilted_ground_left"
 import _tilted_ground_right from "./../symbols/tilted_ground_right"
 import _tilted_ground_up from "./../symbols/tilted_ground_up"
+import _transformer_down from "./../symbols/transformer_down"
+import _transformer_horz from "./../symbols/transformer_horz"
+import _transformer_left from "./../symbols/transformer_left"
+import _transformer_right from "./../symbols/transformer_right"
+import _transformer_up from "./../symbols/transformer_up"
+import _transformer_vert from "./../symbols/transformer_vert"
 import _triac_horz from "./../symbols/triac_horz"
 import _triac_vert from "./../symbols/triac_vert"
 import _tunnel_diode_horz from "./../symbols/tunnel_diode_horz"
@@ -735,6 +741,12 @@ export default {
   "tilted_ground_left": _tilted_ground_left,
   "tilted_ground_right": _tilted_ground_right,
   "tilted_ground_up": _tilted_ground_up,
+  "transformer_down": _transformer_down,
+  "transformer_horz": _transformer_horz,
+  "transformer_left": _transformer_left,
+  "transformer_right": _transformer_right,
+  "transformer_up": _transformer_up,
+  "transformer_vert": _transformer_vert,
   "triac_horz": _triac_horz,
   "triac_vert": _triac_vert,
   "tunnel_diode_horz": _tunnel_diode_horz,

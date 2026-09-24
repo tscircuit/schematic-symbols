@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  width="30mm"
+  height="30mm"
+  viewBox="0 0 30 30"
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <g id="root">
+    <g id="transformer">
+      <path
+        id="lead-primary-top"
+        d="M 11,12 H 13.5"
+        style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
+      />
+      <path
+        id="lead-primary-bottom"
+        d="M 11,18 H 13.5"
+        style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
+      />
+      <path
+        id="primary-winding"
+        d="M 13.5,12 C 12.15,12 12.15,14 13.5,14 C 12.15,14 12.15,16 13.5,16 C 12.15,16 12.15,18 13.5,18"
+        style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
+      />
+      <path
+        id="core-line-primary"
+        d="M 14.5,11 V 19"
+        style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
+      />
+      <path
+        id="core-line-secondary"
+        d="M 15.5,11 V 19"
+        style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
+      />
+      <path
+        id="secondary-winding"
+        d="M 16.5,12 C 17.85,12 17.85,14 16.5,14 C 17.85,14 17.85,16 16.5,16 C 17.85,16 17.85,18 16.5,18"
+        style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
+      />
+      <path
+        id="lead-secondary-top"
+        d="M 16.5,12 H 19"
+        style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
+      />
+      <path
+        id="lead-secondary-bottom"
+        d="M 16.5,18 H 19"
+        style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
+      />
+      <circle id="refblock-primary-top" cx="11" cy="12" r="0" fill="#ff0000" />
+      <circle id="refblock-primary-bottom" cx="11" cy="18" r="0" fill="#ff0000" />
+      <circle id="refblock-secondary-top" cx="19" cy="12" r="0" fill="#ff0000" />
+      <circle id="refblock-secondary-bottom" cx="19" cy="18" r="0" fill="#ff0000" />
+      <text x="15" y="9">{REF}</text>
+      <text x="15" y="21">{VAL}</text>
+    </g>
+  </g>
+</svg>
