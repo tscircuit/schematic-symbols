@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  width="30mm"
+  height="30mm"
+  viewBox="-15 -15 30 30"
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <g id="root">
+    <g id="thermistor">
+      <path
+        id="lead-pin1"
+        d="M -5.292,0 H -2.646"
+        style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
+      />
+      <path
+        id="lead-pin2"
+        d="M 2.646,0 H 5.292"
+        style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
+      />
+      <path
+        id="body"
+        d="M -2.646,-1.323 L 2.646,-1.323 L 2.646,1.323 L -2.646,1.323 L -2.646,-1.323"
+        style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
+      />
+      <path
+        id="diagonal"
+        d="M 3.308,-2.481 L 1.985,-2.481 L -1.985,2.481 L -3.308,2.481"
+        style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
+      />
+      <circle id="refblock-pin1" cx="-5.292" cy="0" r="0" fill="#ff0000" />
+      <circle id="refblock-pin2" cx="5.292" cy="0" r="0" fill="#ff0000" />
+      <text x="0" y="-6">{REF}</text>
+      <text x="0" y="7">{VAL}</text>
+    </g>
+  </g>
+</svg>
