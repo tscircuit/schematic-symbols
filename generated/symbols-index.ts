@@ -4,6 +4,10 @@ import _ac_voltmeter_left from "./../symbols/ac_voltmeter_left"
 import _ac_voltmeter_right from "./../symbols/ac_voltmeter_right"
 import _ac_voltmeter_up from "./../symbols/ac_voltmeter_up"
 import _ac_voltmeter_vert from "./../symbols/ac_voltmeter_vert"
+import _antenna_down from "./../symbols/antenna_down"
+import _antenna_left from "./../symbols/antenna_left"
+import _antenna_right from "./../symbols/antenna_right"
+import _antenna_up from "./../symbols/antenna_up"
 import _avalanche_diode_down from "./../symbols/avalanche_diode_down"
 import _avalanche_diode_horz from "./../symbols/avalanche_diode_horz"
 import _avalanche_diode_left from "./../symbols/avalanche_diode_left"
@@ -387,6 +391,10 @@ export default {
   "ac_voltmeter_right": _ac_voltmeter_right,
   "ac_voltmeter_up": _ac_voltmeter_up,
   "ac_voltmeter_vert": _ac_voltmeter_vert,
+  "antenna_down": _antenna_down,
+  "antenna_left": _antenna_left,
+  "antenna_right": _antenna_right,
+  "antenna_up": _antenna_up,
   "avalanche_diode_down": _avalanche_diode_down,
   "avalanche_diode_horz": _avalanche_diode_horz,
   "avalanche_diode_left": _avalanche_diode_left,

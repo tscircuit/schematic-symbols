@@ -1,0 +1,69 @@
+{
+  "paths": {
+    "mast": {
+      "type": "path",
+      "points": [
+        {
+          "x": -0.5,
+          "y": 0.05
+        },
+        {
+          "x": 0.5,
+          "y": 0.05
+        }
+      ],
+      "color": "primary",
+      "fill": false
+    },
+    "dipole-vee": {
+      "type": "path",
+      "points": [
+        {
+          "x": 0.5,
+          "y": 0.5
+        },
+        {
+          "x": 0,
+          "y": 0.05
+        },
+        {
+          "x": 0.5,
+          "y": -0.4
+        }
+      ],
+      "color": "primary",
+      "fill": false
+    }
+  },
+  "texts": {
+    "top1": {
+      "type": "text",
+      "text": "{REF}",
+      "x": 0,
+      "y": 0.6500000000000001
+    },
+    "bottom1": {
+      "type": "text",
+      "text": "{VAL}",
+      "x": 0,
+      "y": -0.65
+    }
+  },
+  "refblocks": {
+    "left1": {
+      "x": -0.5,
+      "y": 0.05
+    }
+  },
+  "bounds": {
+    "minX": -0.5,
+    "maxX": 0.5,
+    "minY": -0.65,
+    "maxY": 0.6500000000000001,
+    "width": 1,
+    "height": 1.3000000000000003,
+    "centerX": 0,
+    "centerY": 5.551115123125783e-17
+  },
+  "circles": {}
+}

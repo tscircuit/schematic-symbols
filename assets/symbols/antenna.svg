@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  width="30mm"
+  height="30mm"
+  viewBox="0 0 30 30"
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <g id="root">
+    <g id="antenna">
+      <path
+        id="mast"
+        d="M 0,0 H 10"
+        style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
+      />
+      <path
+        id="dipole-vee"
+        d="M 10,-4.5 L 5,0 L 10,4.5"
+        style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
+      />
+      <circle id="refblock-feed" cx="0" cy="0" r="0" fill="#ff0000" />
+      <text x="5" y="-6">{REF}</text>
+      <text x="5" y="7">{VAL}</text>
+    </g>
+  </g>
+</svg>
