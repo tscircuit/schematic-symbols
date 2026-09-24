@@ -207,6 +207,10 @@ import _opamp_no_power_left from "./../symbols/opamp_no_power_left"
 import _opamp_no_power_right from "./../symbols/opamp_no_power_right"
 import _opamp_no_power_up from "./../symbols/opamp_no_power_up"
 import _opamp_with_power_down from "./../symbols/opamp_with_power_down"
+import _opamp_with_power_inverted_inputs_down from "./../symbols/opamp_with_power_inverted_inputs_down"
+import _opamp_with_power_inverted_inputs_left from "./../symbols/opamp_with_power_inverted_inputs_left"
+import _opamp_with_power_inverted_inputs_right from "./../symbols/opamp_with_power_inverted_inputs_right"
+import _opamp_with_power_inverted_inputs_up from "./../symbols/opamp_with_power_inverted_inputs_up"
 import _opamp_with_power_left from "./../symbols/opamp_with_power_left"
 import _opamp_with_power_right from "./../symbols/opamp_with_power_right"
 import _opamp_with_power_up from "./../symbols/opamp_with_power_up"
@@ -590,6 +594,10 @@ export default {
   "opamp_no_power_right": _opamp_no_power_right,
   "opamp_no_power_up": _opamp_no_power_up,
   "opamp_with_power_down": _opamp_with_power_down,
+  "opamp_with_power_inverted_inputs_down": _opamp_with_power_inverted_inputs_down,
+  "opamp_with_power_inverted_inputs_left": _opamp_with_power_inverted_inputs_left,
+  "opamp_with_power_inverted_inputs_right": _opamp_with_power_inverted_inputs_right,
+  "opamp_with_power_inverted_inputs_up": _opamp_with_power_inverted_inputs_up,
   "opamp_with_power_left": _opamp_with_power_left,
   "opamp_with_power_right": _opamp_with_power_right,
   "opamp_with_power_up": _opamp_with_power_up,
