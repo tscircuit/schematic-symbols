@@ -168,6 +168,12 @@ import _light_dependent_resistor_horz from "./../symbols/light_dependent_resisto
 import _light_dependent_resistor_vert from "./../symbols/light_dependent_resistor_vert"
 import _mosfet_depletion_normally_on_horz from "./../symbols/mosfet_depletion_normally_on_horz"
 import _mosfet_depletion_normally_on_vert from "./../symbols/mosfet_depletion_normally_on_vert"
+import _motor_down from "./../symbols/motor_down"
+import _motor_horz from "./../symbols/motor_horz"
+import _motor_left from "./../symbols/motor_left"
+import _motor_right from "./../symbols/motor_right"
+import _motor_up from "./../symbols/motor_up"
+import _motor_vert from "./../symbols/motor_vert"
 import _mushroom_head_normally_open_momentary_horz from "./../symbols/mushroom_head_normally_open_momentary_horz"
 import _mushroom_head_normally_open_momentary_vert from "./../symbols/mushroom_head_normally_open_momentary_vert"
 import _n_channel_d_mosfet_transistor_gate_bottom_drain_left from "./../symbols/n_channel_d_mosfet_transistor_gate_bottom_drain_left"
@@ -551,6 +557,12 @@ export default {
   "light_dependent_resistor_vert": _light_dependent_resistor_vert,
   "mosfet_depletion_normally_on_horz": _mosfet_depletion_normally_on_horz,
   "mosfet_depletion_normally_on_vert": _mosfet_depletion_normally_on_vert,
+  "motor_down": _motor_down,
+  "motor_horz": _motor_horz,
+  "motor_left": _motor_left,
+  "motor_right": _motor_right,
+  "motor_up": _motor_up,
+  "motor_vert": _motor_vert,
   "mushroom_head_normally_open_momentary_horz": _mushroom_head_normally_open_momentary_horz,
   "mushroom_head_normally_open_momentary_vert": _mushroom_head_normally_open_momentary_vert,
   "n_channel_d_mosfet_transistor_gate_bottom_drain_left": _n_channel_d_mosfet_transistor_gate_bottom_drain_left,
