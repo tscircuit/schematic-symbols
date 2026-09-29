@@ -40,6 +40,10 @@ import _bridged_ground_down from "./../symbols/bridged_ground_down"
 import _bridged_ground_left from "./../symbols/bridged_ground_left"
 import _bridged_ground_right from "./../symbols/bridged_ground_right"
 import _bridged_ground_up from "./../symbols/bridged_ground_up"
+import _buzzer_down from "./../symbols/buzzer_down"
+import _buzzer_left from "./../symbols/buzzer_left"
+import _buzzer_right from "./../symbols/buzzer_right"
+import _buzzer_up from "./../symbols/buzzer_up"
 import _capacitor_down from "./../symbols/capacitor_down"
 import _capacitor_left from "./../symbols/capacitor_left"
 import _capacitor_polarized_down from "./../symbols/capacitor_polarized_down"
@@ -423,6 +427,10 @@ export default {
   "bridged_ground_left": _bridged_ground_left,
   "bridged_ground_right": _bridged_ground_right,
   "bridged_ground_up": _bridged_ground_up,
+  "buzzer_down": _buzzer_down,
+  "buzzer_left": _buzzer_left,
+  "buzzer_right": _buzzer_right,
+  "buzzer_up": _buzzer_up,
   "capacitor_down": _capacitor_down,
   "capacitor_left": _capacitor_left,
   "capacitor_polarized_down": _capacitor_polarized_down,
