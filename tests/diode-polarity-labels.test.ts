@@ -8,6 +8,12 @@ test("LED, laser diode, and diode symbols preserve polarity labels in every orie
     "diode",
     "diode_sm",
     "diode_xs",
+    "led_sm",
+    "led_xs",
+    "avalanche_diode_sm",
+    "avalanche_diode_xs",
+    "zener_diode_sm",
+    "zener_diode_xs",
   ] as const) {
     for (const direction of ["right", "up", "left", "down"] as const) {
       const symbolName = `${family}_${direction}` as const

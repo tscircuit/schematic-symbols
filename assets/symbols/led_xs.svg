@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  width="30mm"
+  height="30mm"
+  viewBox="0 0 30 30"
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <g id="root">
+    <g id="led_xs">
+      <path
+        id="anode-lead"
+        d="M 13.25 15 H 14"
+        style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round"
+      />
+      <path
+        id="body"
+        d="M 14 14 L 16 15 L 14 16 L 14 14"
+        style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round"
+      />
+      <path
+        id="cathode-bar"
+        d="M 16 14 V 16"
+        style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round"
+      />
+      <path
+        id="cathode-lead"
+        d="M 16 15 H 16.75"
+        style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round"
+      />
+      <path id="emission-0-shaft" d="M 13.8 13.4 L 14.7 12.1" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="emission-0-head" d="M 14.15 12.3 L 14.7 12.1 L 14.7 12.7" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="emission-1-shaft" d="M 15 13.4 L 15.9 12.1" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="emission-1-head" d="M 15.35 12.3 L 15.9 12.1 L 15.9 12.7" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <circle id="refblock-left" cx="13.25" cy="15" r="0" fill="#ff0000" />
+      <circle id="refblock-right" cx="16.75" cy="15" r="0" fill="#ff0000" />
+      <text x="15" y="11" text-anchor="middle" font-family="monospace" font-size="1">{REF}</text>
+      <text x="15" y="19" text-anchor="middle" font-family="monospace" font-size="1">{VAL}</text>
+    </g>
+  </g>
+</svg>
