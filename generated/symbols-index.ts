@@ -105,7 +105,15 @@ import _digital_ground_up from "./../symbols/digital_ground_up"
 import _diode_down from "./../symbols/diode_down"
 import _diode_left from "./../symbols/diode_left"
 import _diode_right from "./../symbols/diode_right"
+import _diode_sm_down from "./../symbols/diode_sm_down"
+import _diode_sm_left from "./../symbols/diode_sm_left"
+import _diode_sm_right from "./../symbols/diode_sm_right"
+import _diode_sm_up from "./../symbols/diode_sm_up"
 import _diode_up from "./../symbols/diode_up"
+import _diode_xs_down from "./../symbols/diode_xs_down"
+import _diode_xs_left from "./../symbols/diode_xs_left"
+import _diode_xs_right from "./../symbols/diode_xs_right"
+import _diode_xs_up from "./../symbols/diode_xs_up"
 import _dpdt_normally_closed_switch_down from "./../symbols/dpdt_normally_closed_switch_down"
 import _dpdt_normally_closed_switch_left from "./../symbols/dpdt_normally_closed_switch_left"
 import _dpdt_normally_closed_switch_right from "./../symbols/dpdt_normally_closed_switch_right"
@@ -488,7 +496,15 @@ export default {
   "diode_down": _diode_down,
   "diode_left": _diode_left,
   "diode_right": _diode_right,
+  "diode_sm_down": _diode_sm_down,
+  "diode_sm_left": _diode_sm_left,
+  "diode_sm_right": _diode_sm_right,
+  "diode_sm_up": _diode_sm_up,
   "diode_up": _diode_up,
+  "diode_xs_down": _diode_xs_down,
+  "diode_xs_left": _diode_xs_left,
+  "diode_xs_right": _diode_xs_right,
+  "diode_xs_up": _diode_xs_up,
   "dpdt_normally_closed_switch_down": _dpdt_normally_closed_switch_down,
   "dpdt_normally_closed_switch_left": _dpdt_normally_closed_switch_left,
   "dpdt_normally_closed_switch_right": _dpdt_normally_closed_switch_right,

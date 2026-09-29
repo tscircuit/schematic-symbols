@@ -1,7 +1,7 @@
 import { modifySymbol } from "./modify-symbol/modify-symbol"
 import type { SchSymbol, TextPrimitive } from "./types"
 
-type PassiveKind = "boxresistor" | "capacitor" | "resistor"
+type PassiveKind = "boxresistor" | "capacitor" | "resistor" | "diode"
 type Orientation = "right" | "left" | "up" | "down"
 
 interface CreatePassiveSizeVariantOptions {
@@ -36,6 +36,14 @@ const annotationLayouts: Record<
     verticalX: 0.2,
     verticalRefY: 0.095,
     verticalValY: -0.095,
+    verticalWidth: 0.9,
+  },
+  diode: {
+    horizontalOffset: 0.22,
+    horizontalHeight: 0.65,
+    verticalX: 0.2,
+    verticalRefY: 0.14,
+    verticalValY: -0.14,
     verticalWidth: 0.9,
   },
   resistor: {

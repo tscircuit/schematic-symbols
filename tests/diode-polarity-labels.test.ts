@@ -2,7 +2,13 @@ import { expect, test } from "bun:test"
 import symbols from "../generated/symbols-index"
 
 test("LED, laser diode, and diode symbols preserve polarity labels in every orientation", () => {
-  for (const family of ["led", "laser_diode", "diode"] as const) {
+  for (const family of [
+    "led",
+    "laser_diode",
+    "diode",
+    "diode_sm",
+    "diode_xs",
+  ] as const) {
     for (const direction of ["right", "up", "left", "down"] as const) {
       const symbolName = `${family}_${direction}` as const
       const symbol = symbols[symbolName]
