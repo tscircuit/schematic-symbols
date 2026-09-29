@@ -25,6 +25,15 @@ console.log(resize(symbols.resistor, { width: 100 }).size)
 // { width: 100, height: 60 }
 ```
 
+Compact resistor, box resistor, capacitor, diode, LED, avalanche diode, and Zener
+diode symbols are available with
+`_sm` (0.5 mm pin span) and `_xs` (0.35 mm pin span) suffixes, followed by
+`_right`, `_left`, `_up`, or `_down`. For example, use `symbols.diode_sm_right`
+or `symbols.diode_xs_down`. Use `led_sm`, `avalanche_diode_sm`, or `zener_diode_sm`
+(and their `_xs` counterparts) with the same direction suffixes. Compact diodes
+use the `1`/`pos`/`anode` and
+`2`/`neg`/`cathode` pin aliases.
+
 ## Adding New Symbols
 
 1. Add a new svg file to the `./assets/symbols` directory (copy volt_meter.svg to a new file named `<symbol_name>.svg`)

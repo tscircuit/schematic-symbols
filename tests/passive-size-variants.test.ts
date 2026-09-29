@@ -9,9 +9,24 @@ const sizeVariants = ["sm", "xs"] as const
 
 type Orientation = (typeof orientations)[number]
 type SizeVariant = (typeof sizeVariants)[number]
-type PassiveFamily = "boxresistor" | "resistor" | "capacitor"
+type PassiveFamily =
+  | "boxresistor"
+  | "resistor"
+  | "capacitor"
+  | "diode"
+  | "led"
+  | "avalanche_diode"
+  | "zener_diode"
 
-const families: PassiveFamily[] = ["boxresistor", "resistor", "capacitor"]
+const families: PassiveFamily[] = [
+  "boxresistor",
+  "resistor",
+  "capacitor",
+  "diode",
+  "led",
+  "avalanche_diode",
+  "zener_diode",
+]
 
 const pinSpans: Record<SizeVariant, number> = {
   sm: 0.5,
@@ -19,6 +34,10 @@ const pinSpans: Record<SizeVariant, number> = {
 }
 
 const bodyDimensions = {
+  diode: {
+    sm: { width: 0.24, height: 0.24 },
+    xs: { width: 0.2, height: 0.2 },
+  },
   boxresistor: {
     sm: { width: 0.35, height: 0.15 },
     xs: { width: 0.28, height: 0.13 },
@@ -44,7 +63,13 @@ const getSymbol = (
   size: SizeVariant | undefined,
   orientation: Orientation,
 ): SchSymbol => {
-  const name = [family, size, orientation].filter(Boolean).join("_")
+  const defaultOrientation =
+    family === "zener_diode" && !size
+      ? orientation === "right" || orientation === "left"
+        ? "horz"
+        : "vert"
+      : orientation
+  const name = [family, size, defaultOrientation].filter(Boolean).join("_")
   const symbol = symbols[name]
 
   if (!symbol) throw new Error(`Missing symbol: ${name}`)
@@ -151,11 +176,11 @@ test("compact passive variants preserve spans, pin direction, and lead connectiv
 
         const isHorizontal = orientation === "right" || orientation === "left"
         expect(symbol.size.width).toBeCloseTo(
-          isHorizontal ? pinSpans[size] : 0.9,
+          isHorizontal ? pinSpans[size] : family === "led" ? 1.1 : 0.9,
           12,
         )
         expect(symbol.size.height).toBeCloseTo(
-          isHorizontal ? 0.65 : pinSpans[size],
+          isHorizontal ? (family === "led" ? 0.9 : 0.65) : pinSpans[size],
           12,
         )
 
@@ -189,6 +214,35 @@ test("extra-small passives are shorter than small and default symbols", () => {
   }
 })
 
+test("compact diodes have a closed triangle connected to the anode lead", () => {
+  for (const family of [
+    "diode",
+    "led",
+    "avalanche_diode",
+    "zener_diode",
+  ] as const) {
+    for (const size of sizeVariants) {
+      for (const orientation of orientations) {
+        const symbol = getSymbol(family, size, orientation)
+        const paths = getPaths(symbol)
+        const triangle = paths.find((path) => path.points.length === 4)!
+        expect(triangle).toBeDefined()
+        expect(triangle.points[0]).toEqual(triangle.points[3])
+        const anode = getPort(symbol, "1")
+        const lead = paths.find((path) =>
+          path.points.some((point) => pointsAreEqual(point, anode)),
+        )!
+        const junction = lead.points.find(
+          (point) => !pointsAreEqual(point, anode),
+        )!
+        const [base1, , base2] = triangle.points
+        expect(junction.x).toBeCloseTo((base1!.x + base2!.x) / 2, 12)
+        expect(junction.y).toBeCloseTo((base1!.y + base2!.y) / 2, 12)
+      }
+    }
+  }
+})
+
 test("compact capacitors preserve pin polarity aliases", () => {
   for (const size of sizeVariants) {
     for (const orientation of orientations) {
@@ -203,7 +257,7 @@ test("compact capacitors preserve pin polarity aliases", () => {
 })
 
 test("right-facing compact bodies keep their intended proportions while stems shrink faster", () => {
-  for (const family of ["boxresistor", "resistor"] as const) {
+  for (const family of ["boxresistor", "resistor", "diode"] as const) {
     const defaultGeometry = getRightFacingGeometry(
       getSymbol(family, undefined, "right"),
     )

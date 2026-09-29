@@ -8,8 +8,16 @@ import _avalanche_diode_down from "./../symbols/avalanche_diode_down"
 import _avalanche_diode_horz from "./../symbols/avalanche_diode_horz"
 import _avalanche_diode_left from "./../symbols/avalanche_diode_left"
 import _avalanche_diode_right from "./../symbols/avalanche_diode_right"
+import _avalanche_diode_sm_down from "./../symbols/avalanche_diode_sm_down"
+import _avalanche_diode_sm_left from "./../symbols/avalanche_diode_sm_left"
+import _avalanche_diode_sm_right from "./../symbols/avalanche_diode_sm_right"
+import _avalanche_diode_sm_up from "./../symbols/avalanche_diode_sm_up"
 import _avalanche_diode_up from "./../symbols/avalanche_diode_up"
 import _avalanche_diode_vert from "./../symbols/avalanche_diode_vert"
+import _avalanche_diode_xs_down from "./../symbols/avalanche_diode_xs_down"
+import _avalanche_diode_xs_left from "./../symbols/avalanche_diode_xs_left"
+import _avalanche_diode_xs_right from "./../symbols/avalanche_diode_xs_right"
+import _avalanche_diode_xs_up from "./../symbols/avalanche_diode_xs_up"
 import _backward_diode_down from "./../symbols/backward_diode_down"
 import _backward_diode_left from "./../symbols/backward_diode_left"
 import _backward_diode_right from "./../symbols/backward_diode_right"
@@ -105,7 +113,15 @@ import _digital_ground_up from "./../symbols/digital_ground_up"
 import _diode_down from "./../symbols/diode_down"
 import _diode_left from "./../symbols/diode_left"
 import _diode_right from "./../symbols/diode_right"
+import _diode_sm_down from "./../symbols/diode_sm_down"
+import _diode_sm_left from "./../symbols/diode_sm_left"
+import _diode_sm_right from "./../symbols/diode_sm_right"
+import _diode_sm_up from "./../symbols/diode_sm_up"
 import _diode_up from "./../symbols/diode_up"
+import _diode_xs_down from "./../symbols/diode_xs_down"
+import _diode_xs_left from "./../symbols/diode_xs_left"
+import _diode_xs_right from "./../symbols/diode_xs_right"
+import _diode_xs_up from "./../symbols/diode_xs_up"
 import _dpdt_normally_closed_switch_down from "./../symbols/dpdt_normally_closed_switch_down"
 import _dpdt_normally_closed_switch_left from "./../symbols/dpdt_normally_closed_switch_left"
 import _dpdt_normally_closed_switch_right from "./../symbols/dpdt_normally_closed_switch_right"
@@ -163,7 +179,15 @@ import _laser_diode_up from "./../symbols/laser_diode_up"
 import _led_down from "./../symbols/led_down"
 import _led_left from "./../symbols/led_left"
 import _led_right from "./../symbols/led_right"
+import _led_sm_down from "./../symbols/led_sm_down"
+import _led_sm_left from "./../symbols/led_sm_left"
+import _led_sm_right from "./../symbols/led_sm_right"
+import _led_sm_up from "./../symbols/led_sm_up"
 import _led_up from "./../symbols/led_up"
+import _led_xs_down from "./../symbols/led_xs_down"
+import _led_xs_left from "./../symbols/led_xs_left"
+import _led_xs_right from "./../symbols/led_xs_right"
+import _led_xs_up from "./../symbols/led_xs_up"
 import _light_dependent_resistor_horz from "./../symbols/light_dependent_resistor_horz"
 import _light_dependent_resistor_vert from "./../symbols/light_dependent_resistor_vert"
 import _mosfet_depletion_normally_on_horz from "./../symbols/mosfet_depletion_normally_on_horz"
@@ -378,7 +402,15 @@ import _watt_hour_meter_vert from "./../symbols/watt_hour_meter_vert"
 import _wattmeter_horz from "./../symbols/wattmeter_horz"
 import _wattmeter_vert from "./../symbols/wattmeter_vert"
 import _zener_diode_horz from "./../symbols/zener_diode_horz"
+import _zener_diode_sm_down from "./../symbols/zener_diode_sm_down"
+import _zener_diode_sm_left from "./../symbols/zener_diode_sm_left"
+import _zener_diode_sm_right from "./../symbols/zener_diode_sm_right"
+import _zener_diode_sm_up from "./../symbols/zener_diode_sm_up"
 import _zener_diode_vert from "./../symbols/zener_diode_vert"
+import _zener_diode_xs_down from "./../symbols/zener_diode_xs_down"
+import _zener_diode_xs_left from "./../symbols/zener_diode_xs_left"
+import _zener_diode_xs_right from "./../symbols/zener_diode_xs_right"
+import _zener_diode_xs_up from "./../symbols/zener_diode_xs_up"
 
 export default {
   "ac_voltmeter_down": _ac_voltmeter_down,
@@ -391,8 +423,16 @@ export default {
   "avalanche_diode_horz": _avalanche_diode_horz,
   "avalanche_diode_left": _avalanche_diode_left,
   "avalanche_diode_right": _avalanche_diode_right,
+  "avalanche_diode_sm_down": _avalanche_diode_sm_down,
+  "avalanche_diode_sm_left": _avalanche_diode_sm_left,
+  "avalanche_diode_sm_right": _avalanche_diode_sm_right,
+  "avalanche_diode_sm_up": _avalanche_diode_sm_up,
   "avalanche_diode_up": _avalanche_diode_up,
   "avalanche_diode_vert": _avalanche_diode_vert,
+  "avalanche_diode_xs_down": _avalanche_diode_xs_down,
+  "avalanche_diode_xs_left": _avalanche_diode_xs_left,
+  "avalanche_diode_xs_right": _avalanche_diode_xs_right,
+  "avalanche_diode_xs_up": _avalanche_diode_xs_up,
   "backward_diode_down": _backward_diode_down,
   "backward_diode_left": _backward_diode_left,
   "backward_diode_right": _backward_diode_right,
@@ -488,7 +528,15 @@ export default {
   "diode_down": _diode_down,
   "diode_left": _diode_left,
   "diode_right": _diode_right,
+  "diode_sm_down": _diode_sm_down,
+  "diode_sm_left": _diode_sm_left,
+  "diode_sm_right": _diode_sm_right,
+  "diode_sm_up": _diode_sm_up,
   "diode_up": _diode_up,
+  "diode_xs_down": _diode_xs_down,
+  "diode_xs_left": _diode_xs_left,
+  "diode_xs_right": _diode_xs_right,
+  "diode_xs_up": _diode_xs_up,
   "dpdt_normally_closed_switch_down": _dpdt_normally_closed_switch_down,
   "dpdt_normally_closed_switch_left": _dpdt_normally_closed_switch_left,
   "dpdt_normally_closed_switch_right": _dpdt_normally_closed_switch_right,
@@ -546,7 +594,15 @@ export default {
   "led_down": _led_down,
   "led_left": _led_left,
   "led_right": _led_right,
+  "led_sm_down": _led_sm_down,
+  "led_sm_left": _led_sm_left,
+  "led_sm_right": _led_sm_right,
+  "led_sm_up": _led_sm_up,
   "led_up": _led_up,
+  "led_xs_down": _led_xs_down,
+  "led_xs_left": _led_xs_left,
+  "led_xs_right": _led_xs_right,
+  "led_xs_up": _led_xs_up,
   "light_dependent_resistor_horz": _light_dependent_resistor_horz,
   "light_dependent_resistor_vert": _light_dependent_resistor_vert,
   "mosfet_depletion_normally_on_horz": _mosfet_depletion_normally_on_horz,
@@ -761,5 +817,13 @@ export default {
   "wattmeter_horz": _wattmeter_horz,
   "wattmeter_vert": _wattmeter_vert,
   "zener_diode_horz": _zener_diode_horz,
-  "zener_diode_vert": _zener_diode_vert
+  "zener_diode_sm_down": _zener_diode_sm_down,
+  "zener_diode_sm_left": _zener_diode_sm_left,
+  "zener_diode_sm_right": _zener_diode_sm_right,
+  "zener_diode_sm_up": _zener_diode_sm_up,
+  "zener_diode_vert": _zener_diode_vert,
+  "zener_diode_xs_down": _zener_diode_xs_down,
+  "zener_diode_xs_left": _zener_diode_xs_left,
+  "zener_diode_xs_right": _zener_diode_xs_right,
+  "zener_diode_xs_up": _zener_diode_xs_up
 }
