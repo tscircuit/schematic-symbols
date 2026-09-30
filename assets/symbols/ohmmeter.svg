@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  width="30mm"
+  height="30mm"
+  viewBox="-15 -15 30 30"
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <g id="root">
+    <g id="ohmmeter">
+      <path
+        id="lead-pin1"
+        d="M -5.3,0 H -2.6"
+        style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
+      />
+      <path
+        id="lead-pin2"
+        d="M 2.6,0 H 5.3"
+        style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
+      />
+      <circle
+        id="body"
+        cx="0"
+        cy="0"
+        r="2.6"
+        style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
+      />
+      <path
+        id="omega"
+        d="M -1.9,1.5 L -1.178,1.5 L -1.178,0.849 L -1.256,0.636 L -1.295,0.413 L -1.295,0.187 L -1.256,-0.036 L -1.178,-0.249 L -1.065,-0.446 L -0.919,-0.619 L -0.746,-0.765 L -0.549,-0.878 L -0.336,-0.956 L -0.113,-0.995 L 0.113,-0.995 L 0.336,-0.956 L 0.549,-0.878 L 0.746,-0.765 L 0.919,-0.619 L 1.065,-0.446 L 1.178,-0.249 L 1.256,-0.036 L 1.295,0.187 L 1.295,0.413 L 1.256,0.636 L 1.178,0.849 L 1.178,1.5 L 1.9,1.5"
+        style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round"
+      />
+      <circle id="refblock-pin1" cx="-5.3" cy="0" r="0" fill="#ff0000" />
+      <circle id="refblock-pin2" cx="5.3" cy="0" r="0" fill="#ff0000" />
+      <text x="0" y="-6">{REF}</text>
+      <text x="0" y="7">{VAL}</text>
+    </g>
+  </g>
+</svg>
