@@ -152,6 +152,10 @@ import _frequency_meter_horz from "./../symbols/frequency_meter_horz"
 import _frequency_meter_vert from "./../symbols/frequency_meter_vert"
 import _fuse_horz from "./../symbols/fuse_horz"
 import _fuse_vert from "./../symbols/fuse_vert"
+import _galvanometer_down from "./../symbols/galvanometer_down"
+import _galvanometer_left from "./../symbols/galvanometer_left"
+import _galvanometer_right from "./../symbols/galvanometer_right"
+import _galvanometer_up from "./../symbols/galvanometer_up"
 import _ground_down from "./../symbols/ground_down"
 import _ground_horz from "./../symbols/ground_horz"
 import _ground_left from "./../symbols/ground_left"
@@ -567,6 +571,10 @@ export default {
   "frequency_meter_vert": _frequency_meter_vert,
   "fuse_horz": _fuse_horz,
   "fuse_vert": _fuse_vert,
+  "galvanometer_down": _galvanometer_down,
+  "galvanometer_left": _galvanometer_left,
+  "galvanometer_right": _galvanometer_right,
+  "galvanometer_up": _galvanometer_up,
   "ground_down": _ground_down,
   "ground_horz": _ground_horz,
   "ground_left": _ground_left,
