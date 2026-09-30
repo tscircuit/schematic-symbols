@@ -226,6 +226,10 @@ import _npn_bipolar_transistor_left from "./../symbols/npn_bipolar_transistor_le
 import _npn_bipolar_transistor_right from "./../symbols/npn_bipolar_transistor_right"
 import _npn_bipolar_transistor_up from "./../symbols/npn_bipolar_transistor_up"
 import _npn_bipolar_transistor_vert from "./../symbols/npn_bipolar_transistor_vert"
+import _ohmmeter_down from "./../symbols/ohmmeter_down"
+import _ohmmeter_left from "./../symbols/ohmmeter_left"
+import _ohmmeter_right from "./../symbols/ohmmeter_right"
+import _ohmmeter_up from "./../symbols/ohmmeter_up"
 import _opamp_no_power_down from "./../symbols/opamp_no_power_down"
 import _opamp_no_power_left from "./../symbols/opamp_no_power_left"
 import _opamp_no_power_right from "./../symbols/opamp_no_power_right"
@@ -641,6 +645,10 @@ export default {
   "npn_bipolar_transistor_right": _npn_bipolar_transistor_right,
   "npn_bipolar_transistor_up": _npn_bipolar_transistor_up,
   "npn_bipolar_transistor_vert": _npn_bipolar_transistor_vert,
+  "ohmmeter_down": _ohmmeter_down,
+  "ohmmeter_left": _ohmmeter_left,
+  "ohmmeter_right": _ohmmeter_right,
+  "ohmmeter_up": _ohmmeter_up,
   "opamp_no_power_down": _opamp_no_power_down,
   "opamp_no_power_left": _opamp_no_power_left,
   "opamp_no_power_right": _opamp_no_power_right,
