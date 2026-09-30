@@ -145,8 +145,8 @@ export const flipSymbolOverYAxis = (
     b: 0,
     c: 0,
     d: 1,
-    e: 0,
-    f: 2 * center.x,
+    e: 2 * center.x,
+    f: 0,
   })
 
   const flippedPrimitives = primitives.map((primitive): Primitive => {
