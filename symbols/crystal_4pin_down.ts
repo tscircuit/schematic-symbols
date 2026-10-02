@@ -9,14 +9,14 @@ export default modifySymbol({
     {
       type: "text",
       text: "{REF}",
-      x: -0.4,
-      y: 0.4094554499999995,
+      x: -0.5,
+      y: 0.4,
     },
     {
       type: "text",
       text: "{VAL}",
-      x: 0.4,
-      y: 0.4094553499999995,
+      x: -0.28,
+      y: 0.4,
     },
   ] as any,
   ports: [
