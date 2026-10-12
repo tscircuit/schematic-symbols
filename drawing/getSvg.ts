@@ -125,10 +125,20 @@ export function getInnerSvg(
             ? `stroke="${mapColor(primitive.color)}" stroke-width="0.02"`
             : ""
         } />`
-      case "box":
-        return `<rect x="${primitive.x}" y="${makeYUpPositive(primitive.y)}" width="${
+      case "box": {
+        // SVG rectangles start at their top-left corner, while a centered box
+        // records its midpoint in schematic coordinates (positive Y is up).
+        const x =
+          primitive.anchor === "center"
+            ? primitive.x - primitive.width / 2
+            : primitive.x
+        const y =
+          makeYUpPositive(primitive.y) -
+          (primitive.anchor === "center" ? primitive.height / 2 : 0)
+        return `<rect x="${x}" y="${y}" width="${
           primitive.width
         }" height="${primitive.height}" fill="${mapColor("primary")}" />`
+      }
       default:
         return ""
     }
