@@ -221,7 +221,7 @@ export const rotateRightFacingSymbol = (
     overrides?: Partial<SchSymbol>
   },
 ): SchSymbol => {
-  const { newOrientation, overrides } = opts
+  const { newOrientation = "up", overrides } = opts
   // Assuming the default orientation is "right"
   const angleMap = {
     up: Math.PI / 2,
@@ -231,7 +231,7 @@ export const rotateRightFacingSymbol = (
   }
 
   const transform = rotate(
-    newOrientation ? angleMap[newOrientation] : Math.PI / 2,
+    angleMap[newOrientation],
     symbol.center.x,
     symbol.center.y,
   )
@@ -256,7 +256,7 @@ export const rotateRightFacingSymbol = (
 
         primitive.anchor = rotateRightFacingAnchor(
           primitive.anchor,
-          newOrientation ?? "right",
+          newOrientation,
         )
 
         return {
