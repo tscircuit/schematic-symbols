@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30mm" height="30mm" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g id="root">
+    <g id="schmitt_trigger_inverter">
+      <path id="input-lead" d="M 9 15 H 12.5" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="body" d="M 12.5 11.5 L 18 15 L 12.5 18.5 V 11.5" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="schmitt-marker" d="M 13.7 16 H 14.5 V 14 H 15.3" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <circle id="inversion-bubble" cx="18.65" cy="15" r="0.65" style="fill:none;stroke:#000000;stroke-width:0.2" />
+      <path id="output-lead" d="M 19.3 15 H 22" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <circle id="refblock-left" cx="9" cy="15" r="0" fill="#ff0000" />
+      <circle id="refblock-right" cx="22" cy="15" r="0" fill="#ff0000" />
+      <text x="15.5" y="10.4" text-anchor="middle" font-family="monospace" font-size="1">{REF}</text>
+      <text x="15.5" y="19.8" text-anchor="middle" font-family="monospace" font-size="1">{VAL}</text>
+    </g>
+  </g>
+</svg>
