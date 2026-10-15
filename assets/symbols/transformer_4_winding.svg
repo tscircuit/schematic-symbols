@@ -3,23 +3,23 @@
   <g id="root">
     <g id="transformer_4_winding">
       <path id="primary-one-top-lead" d="M 8 9 H 11" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
-      <path id="primary-one-winding" d="M 11 9 C 9.8 9.2 9.8 9.8 11 10 C 9.8 10.2 9.8 10.8 11 11 C 9.8 11.2 9.8 11.8 11 12 C 9.8 12.2 9.8 12.8 11 13" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="primary-one-winding" d="M 11 9 C 9.4 9.22 9.4 10.11 11 10.33 C 9.4 10.55 9.4 11.45 11 11.67 C 9.4 11.89 9.4 12.78 11 13" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
       <path id="primary-one-bottom-lead" d="M 11 13 H 8" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
       <path id="primary-two-top-lead" d="M 8 17 H 11" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
-      <path id="primary-two-winding" d="M 11 17 C 9.8 17.2 9.8 17.8 11 18 C 9.8 18.2 9.8 18.8 11 19 C 9.8 19.2 9.8 19.8 11 20 C 9.8 20.2 9.8 20.8 11 21" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="primary-two-winding" d="M 11 17 C 9.4 17.22 9.4 18.11 11 18.33 C 9.4 18.55 9.4 19.45 11 19.67 C 9.4 19.89 9.4 20.78 11 21" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
       <path id="primary-two-bottom-lead" d="M 11 21 H 8" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
       <path id="secondary-one-top-lead" d="M 22 9 H 19" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
-      <path id="secondary-one-winding" d="M 19 9 C 20.2 9.2 20.2 9.8 19 10 C 20.2 10.2 20.2 10.8 19 11 C 20.2 11.2 20.2 11.8 19 12 C 20.2 12.2 20.2 12.8 19 13" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="secondary-one-winding" d="M 19 9 C 20.6 9.22 20.6 10.11 19 10.33 C 20.6 10.55 20.6 11.45 19 11.67 C 20.6 11.89 20.6 12.78 19 13" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
       <path id="secondary-one-bottom-lead" d="M 19 13 H 22" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
       <path id="secondary-two-top-lead" d="M 22 17 H 19" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
-      <path id="secondary-two-winding" d="M 19 17 C 20.2 17.2 20.2 17.8 19 18 C 20.2 18.2 20.2 18.8 19 19 C 20.2 19.2 20.2 19.8 19 20 C 20.2 20.2 20.2 20.8 19 21" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="secondary-two-winding" d="M 19 17 C 20.6 17.22 20.6 18.11 19 18.33 C 20.6 18.55 20.6 19.45 19 19.67 C 20.6 19.89 20.6 20.78 19 21" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
       <path id="secondary-two-bottom-lead" d="M 19 21 H 22" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
       <path id="core-left" d="M 14.2 8.8 V 21.2" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
       <path id="core-right" d="M 15.8 8.8 V 21.2" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
-      <circle id="primary-one-polarity-dot" cx="11.8" cy="8.35" r="0.22" style="fill:#000000;stroke:none" />
-      <circle id="secondary-one-polarity-dot" cx="18.2" cy="8.35" r="0.22" style="fill:#000000;stroke:none" />
-      <circle id="primary-two-polarity-dot" cx="11.8" cy="16.35" r="0.22" style="fill:#000000;stroke:none" />
-      <circle id="secondary-two-polarity-dot" cx="18.2" cy="16.35" r="0.22" style="fill:#000000;stroke:none" />
+      <circle id="primary-one-polarity-dot" cx="10.2" cy="8.55" r="0.18" style="fill:#000000;stroke:none" />
+      <circle id="secondary-one-polarity-dot" cx="19.8" cy="8.55" r="0.18" style="fill:#000000;stroke:none" />
+      <circle id="primary-two-polarity-dot" cx="10.2" cy="16.55" r="0.18" style="fill:#000000;stroke:none" />
+      <circle id="secondary-two-polarity-dot" cx="19.8" cy="16.55" r="0.18" style="fill:#000000;stroke:none" />
       <circle id="refblock-left-one" cx="8" cy="9" r="0" fill="#ff0000" />
       <circle id="refblock-left-two" cx="8" cy="13" r="0" fill="#ff0000" />
       <circle id="refblock-left-three" cx="8" cy="17" r="0" fill="#ff0000" />
