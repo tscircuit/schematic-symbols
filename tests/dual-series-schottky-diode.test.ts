@@ -16,11 +16,28 @@ test("dual series Schottky diode orientations preserve the exposed junction", ()
     const symbolPaths = diodePair.primitives.filter(
       (primitive) => primitive.type === "path",
     )
+    const filledDiodeBodies = symbolPaths.filter((path) => path.fill)
+    const symbolCircles = diodePair.primitives.filter(
+      (primitive) => primitive.type === "circle",
+    )
+    const terminalCircles = symbolCircles.filter((circle) => !circle.fill)
+    const junctionDots = symbolCircles.filter((circle) => circle.fill)
 
     expect(anode?.labels, symbolName).toContain("1")
     expect(cathode?.labels, symbolName).toContain("2")
     expect(junction?.labels, symbolName).toContain("3")
     expect(junction?.labels, symbolName).toContain("common")
-    expect(symbolPaths, symbolName).toHaveLength(21)
+    expect(filledDiodeBodies, symbolName).toHaveLength(2)
+    expect(terminalCircles, symbolName).toHaveLength(3)
+    expect(junctionDots, symbolName).toHaveLength(1)
+
+    for (const terminal of [anode, cathode, junction]) {
+      expect(
+        terminalCircles.some(
+          (circle) => circle.x === terminal?.x && circle.y === terminal?.y,
+        ),
+        symbolName,
+      ).toBe(true)
+    }
   }
 })
