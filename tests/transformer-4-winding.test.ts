@@ -18,6 +18,10 @@ test("four-winding transformer orientations preserve winding terminals", () => {
     ] as const
 
     expect(transformer.ports, symbolName).toHaveLength(8)
+    const polarityDots = transformer.primitives.filter(
+      (primitive) => primitive.type === "circle" && primitive.fill,
+    )
+    expect(polarityDots, symbolName).toHaveLength(4)
     for (const terminalAlias of windingTerminals) {
       expect(
         transformer.ports.some((port) => port.labels.includes(terminalAlias)),
