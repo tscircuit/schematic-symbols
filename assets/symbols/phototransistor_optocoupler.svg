@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30mm" height="30mm" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g id="root">
+    <g id="phototransistor_optocoupler">
+      <path id="enclosure" d="M 12 10.5 H 18 V 19.5 H 12 Z" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="anode-lead" d="M 9 12.5 H 13.4 V 13.5" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="led-body" d="M 12.4 13.5 H 14.4 L 13.4 15.3 Z" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="led-cathode" d="M 12.4 15.6 H 14.4" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="cathode-lead" d="M 13.4 15.6 V 17.5 H 9" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="collector-lead" d="M 21 12.5 H 17.2 L 16.2 14.2" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="transistor-base" d="M 16 13.6 V 16.4" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="emitter-lead" d="M 16.2 15.8 L 17.2 17.5 H 21" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="emitter-arrow" d="M 16.72 16.68 L 16.62 15.92 L 17.3 16.27 Z" style="fill:#000000;stroke:#000000;stroke-width:0.08;stroke-linejoin:round" />
+      <path id="light-ray-one" d="M 14.35 13 L 15.45 13.8" style="fill:none;stroke:#000000;stroke-width:0.16;stroke-linecap:round" />
+      <path id="light-ray-one-arrow" d="M 15.45 13.8 L 15 13.7 L 15.25 13.34 Z" style="fill:#000000;stroke:#000000;stroke-width:0.06;stroke-linejoin:round" />
+      <path id="light-ray-two" d="M 14.2 14.2 L 15.3 15" style="fill:none;stroke:#000000;stroke-width:0.16;stroke-linecap:round" />
+      <path id="light-ray-two-arrow" d="M 15.3 15 L 14.85 14.9 L 15.1 14.54 Z" style="fill:#000000;stroke:#000000;stroke-width:0.06;stroke-linejoin:round" />
+      <circle id="refblock-left-top" cx="9" cy="12.5" r="0" fill="#ff0000" />
+      <circle id="refblock-left-bottom" cx="9" cy="17.5" r="0" fill="#ff0000" />
+      <circle id="refblock-right-top" cx="21" cy="12.5" r="0" fill="#ff0000" />
+      <circle id="refblock-right-bottom" cx="21" cy="17.5" r="0" fill="#ff0000" />
+      <text x="15" y="9.4" text-anchor="middle" font-family="monospace" font-size="1">{REF}</text>
+      <text x="15" y="20.8" text-anchor="middle" font-family="monospace" font-size="1">{VAL}</text>
+    </g>
+  </g>
+</svg>
