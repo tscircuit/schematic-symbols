@@ -6,12 +6,20 @@ test("phototransistor optocoupler orientations preserve terminal aliases", () =>
     const symbolName = ("phototransistor_optocoupler_" +
       orientation) as keyof typeof symbols
     const optocoupler = symbols[symbolName]
+    const enclosure = optocoupler.primitives[0]
     const expectedTerminals = [
       ["anode", "1"],
       ["cathode", "2"],
       ["emitter", "3"],
       ["collector", "4"],
     ] as const
+
+    expect(enclosure.type, symbolName).toBe("path")
+    if (enclosure.type === "path") {
+      expect(enclosure.points[0], symbolName).toEqual(
+        enclosure.points[enclosure.points.length - 1],
+      )
+    }
 
     for (const [terminalAlias, terminalNumber] of expectedTerminals) {
       const terminal = optocoupler.ports.find((port) =>
