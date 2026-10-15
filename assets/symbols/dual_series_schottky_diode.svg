@@ -2,22 +2,32 @@
 <svg width="30mm" height="30mm" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg">
   <g id="root">
     <g id="dual_series_schottky_diode">
-      <path id="pin-one-lead" d="M 8 15 H 10.7" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
-      <path id="first-diode-body" d="M 10.7 13.68 L 13.35 15 L 10.7 16.32 L 10.7 13.68 Z" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
-      <path id="first-schottky-bar" d="M 13.35 13.65 V 16.35" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
-      <path id="first-schottky-top-hook" d="M 13.35 13.65 H 13.95 V 14.15" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
-      <path id="first-schottky-bottom-hook" d="M 12.75 15.85 V 16.35 H 13.35" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
-      <path id="junction" d="M 13.35 15 H 16.65 M 15 15 V 18.2" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
-      <circle id="junction-dot" cx="15" cy="15" r="0.22" style="fill:#000000;stroke:none" />
-      <path id="second-diode-body" d="M 16.65 13.68 L 19.3 15 L 16.65 16.32 L 16.65 13.68 Z" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
-      <path id="second-schottky-bar" d="M 19.3 13.65 V 16.35" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
-      <path id="second-schottky-top-hook" d="M 19.3 13.65 H 19.9 V 14.15" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
-      <path id="second-schottky-bottom-hook" d="M 18.7 15.85 V 16.35 H 19.3" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
-      <path id="pin-two-lead" d="M 19.3 15 H 22" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
-      <circle id="refblock-left" cx="8" cy="15" r="0" fill="#ff0000" />
-      <circle id="refblock-right" cx="22" cy="15" r="0" fill="#ff0000" />
+      <path id="first-body-upper" d="M 12.461748 14.999455 L 10.689040 15.885810" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="first-body-lower" d="M 10.689040 14.113101 L 12.461748 14.999455" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="first-body-back" d="M 10.689040 15.885810 L 10.689040 14.113101" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="first-cathode-bar" d="M 12.454651 14.098906 L 12.461746 15.885810" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="first-anode-lead" d="M 10.674269 14.999455 L 8.029978 14.999455" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="first-cathode-lead" d="M 14.999647 15.000026 L 12.495802 15.000026" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="first-upper-hook-horizontal" d="M 12.883608 14.090299 L 12.453852 14.097548" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="first-upper-hook-vertical" d="M 12.895608 14.422375 L 12.886402 14.091827" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="first-lower-hook-horizontal" d="M 12.027592 15.899064 L 12.452037 15.897590" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="first-lower-hook-vertical" d="M 12.013214 15.569525 L 12.022420 15.900073" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="second-body-upper" d="M 19.431748 14.999455 L 17.659040 15.885810" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="second-body-lower" d="M 17.659040 14.113101 L 19.431748 14.999455" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="second-body-back" d="M 17.659040 15.885810 L 17.659040 14.113101" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="second-cathode-bar" d="M 19.424651 14.098906 L 19.431746 15.885810" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="second-anode-lead" d="M 17.644269 14.999455 L 14.999978 14.999455" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="second-cathode-lead" d="M 21.969647 15.000026 L 19.465802 15.000026" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="second-upper-hook-horizontal" d="M 19.853608 14.090299 L 19.423852 14.097548" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="second-upper-hook-vertical" d="M 19.865608 14.422375 L 19.856402 14.091827" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="second-lower-hook-horizontal" d="M 18.997592 15.899064 L 19.422037 15.897590" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="second-lower-hook-vertical" d="M 18.983214 15.569525 L 18.992420 15.900073" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="junction-lead" d="M 15 15 V 18.2" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <circle id="junction-dot" cx="15" cy="15" r="0.18" style="fill:#000000;stroke:none" />
+      <circle id="refblock-left" cx="8.03" cy="15" r="0" fill="#ff0000" />
+      <circle id="refblock-right" cx="21.97" cy="15" r="0" fill="#ff0000" />
       <circle id="refblock-bottom" cx="15" cy="18.2" r="0" fill="#ff0000" />
-      <text x="15" y="12" text-anchor="middle" font-family="monospace" font-size="1">{REF}</text>
+      <text x="15" y="12.2" text-anchor="middle" font-family="monospace" font-size="1">{REF}</text>
       <text x="15" y="19.8" text-anchor="middle" font-family="monospace" font-size="1">{VAL}</text>
     </g>
   </g>
