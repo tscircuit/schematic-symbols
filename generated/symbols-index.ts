@@ -260,6 +260,10 @@ import _p_channel_e_mosfet_transistor_horz from "./../symbols/p_channel_e_mosfet
 import _p_channel_e_mosfet_transistor_vert from "./../symbols/p_channel_e_mosfet_transistor_vert"
 import _photodiode_horz from "./../symbols/photodiode_horz"
 import _photodiode_vert from "./../symbols/photodiode_vert"
+import _phototransistor_optocoupler_down from "./../symbols/phototransistor_optocoupler_down"
+import _phototransistor_optocoupler_left from "./../symbols/phototransistor_optocoupler_left"
+import _phototransistor_optocoupler_right from "./../symbols/phototransistor_optocoupler_right"
+import _phototransistor_optocoupler_up from "./../symbols/phototransistor_optocoupler_up"
 import _pjfet_transistor_horz from "./../symbols/pjfet_transistor_horz"
 import _pjfet_transistor_vert from "./../symbols/pjfet_transistor_vert"
 import _pnp_bipolar_transistor_down from "./../symbols/pnp_bipolar_transistor_down"
@@ -683,6 +687,10 @@ export default {
   "p_channel_e_mosfet_transistor_vert": _p_channel_e_mosfet_transistor_vert,
   "photodiode_horz": _photodiode_horz,
   "photodiode_vert": _photodiode_vert,
+  "phototransistor_optocoupler_down": _phototransistor_optocoupler_down,
+  "phototransistor_optocoupler_left": _phototransistor_optocoupler_left,
+  "phototransistor_optocoupler_right": _phototransistor_optocoupler_right,
+  "phototransistor_optocoupler_up": _phototransistor_optocoupler_up,
   "pjfet_transistor_horz": _pjfet_transistor_horz,
   "pjfet_transistor_vert": _pjfet_transistor_vert,
   "pnp_bipolar_transistor_down": _pnp_bipolar_transistor_down,
