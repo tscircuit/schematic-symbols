@@ -1,10 +1,40 @@
 {
   "paths": {
-    "connection-line": {
+    "left-terminal-lead": {
       "type": "path",
       "points": [
         {
           "x": -0.7,
+          "y": 0.06000000000000005
+        },
+        {
+          "x": -0.3938805999999999,
+          "y": 0.06000000000000005
+        }
+      ],
+      "color": "primary",
+      "fill": false
+    },
+    "diode-bridge": {
+      "type": "path",
+      "points": [
+        {
+          "x": -0.2763954999999998,
+          "y": 0.06000000000000005
+        },
+        {
+          "x": 0.27446270000000017,
+          "y": 0.06000000000000005
+        }
+      ],
+      "color": "primary",
+      "fill": false
+    },
+    "right-terminal-lead": {
+      "type": "path",
+      "points": [
+        {
+          "x": 0.39193030000000006,
           "y": 0.06000000000000005
         },
         {
