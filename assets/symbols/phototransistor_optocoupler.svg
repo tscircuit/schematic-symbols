@@ -3,25 +3,25 @@
   <g id="root">
     <g id="phototransistor_optocoupler">
       <path id="enclosure" d="M 9.96706 12.239017 H 20.030598 V 17.760983 H 9.96706 L 9.96706 12.239017 Z" style="fill:none;stroke:#000000;stroke-width:0.294;stroke-linejoin:miter" />
-      <path id="pin-one-tab" d="M 8.5 13.196006 H 9.96706 V 14.07812 H 8.5 Z" style="fill:none;stroke:#000000;stroke-width:0.294;stroke-linejoin:miter" />
-      <path id="pin-two-tab" d="M 8.5 15.919552 H 9.96706 V 16.803994 H 8.5 Z" style="fill:none;stroke:#000000;stroke-width:0.294;stroke-linejoin:miter" />
-      <path id="pin-four-tab" d="M 20.030598 13.196006 H 21.5 V 14.07812 H 20.030598 Z" style="fill:none;stroke:#000000;stroke-width:0.294;stroke-linejoin:miter" />
-      <path id="pin-three-tab" d="M 20.030598 15.919552 H 21.5 V 16.803994 H 20.030598 Z" style="fill:none;stroke:#000000;stroke-width:0.294;stroke-linejoin:miter" />
-      <path id="led-leads" d="M 9.96706 13.638234 H 12.318569 V 16.36178 H 9.96706" style="fill:none;stroke:#000000;stroke-width:0.147;stroke-linejoin:miter" />
+      <path id="pin-one-tab" d="M 8.5 13.47561 H 9.96706 V 14.357724 H 8.5 Z" style="fill:none;stroke:#000000;stroke-width:0.294;stroke-linejoin:miter" />
+      <path id="pin-two-tab" d="M 8.5 15.642276 H 9.96706 V 16.52439 H 8.5 Z" style="fill:none;stroke:#000000;stroke-width:0.294;stroke-linejoin:miter" />
+      <path id="pin-four-tab" d="M 20.030598 13.47561 H 21.5 V 14.357724 H 20.030598 Z" style="fill:none;stroke:#000000;stroke-width:0.294;stroke-linejoin:miter" />
+      <path id="pin-three-tab" d="M 20.030598 15.642276 H 21.5 V 16.52439 H 20.030598 Z" style="fill:none;stroke:#000000;stroke-width:0.294;stroke-linejoin:miter" />
+      <path id="led-leads" d="M 9.96706 13.916667 H 12.318569 V 16.083333 H 9.96706" style="fill:none;stroke:#000000;stroke-width:0.147;stroke-linejoin:miter" />
       <path id="led-body" d="M 12.758455 14.59521 L 12.318569 15.40479 L 11.803815 14.59521 Z" fill="true" style="fill:#000000;stroke:none" />
       <path id="led-cathode" d="M 12.833331 15.40479 H 11.803815" style="fill:none;stroke:#000000;stroke-width:0.294" />
-      <path id="collector" d="M 20.030598 13.638234 H 18.561195 L 17.681423 14.4478" style="fill:none;stroke:#000000;stroke-width:0.147;stroke-linejoin:miter" />
+      <path id="collector" d="M 20.030598 13.916667 H 18.561195 L 17.681423 14.4478" style="fill:none;stroke:#000000;stroke-width:0.147;stroke-linejoin:miter" />
       <path id="transistor-base" d="M 17.681423 13.638234 V 16.36178" style="fill:none;stroke:#000000;stroke-width:0.294" />
-      <path id="emitter" d="M 20.030598 16.36178 H 18.561195" style="fill:none;stroke:#000000;stroke-width:0.147" />
-      <path id="emitter-arrow" d="M 18.561195 16.36178 L 18.193843 15.699609 L 17.826491 15.994428 Z" fill="true" style="fill:#000000;stroke:none" />
+      <path id="emitter" d="M 20.030598 16.083333 H 18.561195" style="fill:none;stroke:#000000;stroke-width:0.147" />
+      <path id="emitter-arrow" d="M 18.561195 16.083333 L 18.193843 15.699609 L 17.826491 15.994428 Z" fill="true" style="fill:#000000;stroke:none" />
       <path id="light-ray-one" d="M 15.329915 14.667744 L 13.935381 14.07812" style="fill:none;stroke:#000000;stroke-width:0.147" />
       <path id="light-ray-one-head" d="M 16.064612 15.035096 L 15.035096 14.815153 L 15.257374 14.372939 Z" fill="true" style="fill:#000000;stroke:none" />
       <path id="light-ray-two" d="M 15.329915 15.624733 L 13.935381 15.035096" style="fill:none;stroke:#000000;stroke-width:0.147" />
       <path id="light-ray-two-head" d="M 16.064612 15.994428 L 15.035096 15.772142 L 15.257374 15.329915 Z" fill="true" style="fill:#000000;stroke:none" />
-      <circle id="refblock-left-top" cx="8.5" cy="13.637063" r="0" fill="#ff0000" />
-      <circle id="refblock-left-bottom" cx="8.5" cy="16.361773" r="0" fill="#ff0000" />
-      <circle id="refblock-right-top" cx="21.5" cy="13.637063" r="0" fill="#ff0000" />
-      <circle id="refblock-right-bottom" cx="21.5" cy="16.361773" r="0" fill="#ff0000" />
+      <circle id="refblock-left-top" cx="8.5" cy="13.916666666667" r="0" fill="#ff0000" />
+      <circle id="refblock-left-bottom" cx="8.5" cy="16.083333333333" r="0" fill="#ff0000" />
+      <circle id="refblock-right-top" cx="21.5" cy="13.916666666667" r="0" fill="#ff0000" />
+      <circle id="refblock-right-bottom" cx="21.5" cy="16.083333333333" r="0" fill="#ff0000" />
       <text x="15" y="11.2" text-anchor="middle" font-family="monospace" font-size="1">{REF}</text>
       <text x="15" y="18.8" text-anchor="middle" font-family="monospace" font-size="1">{VAL}</text>
     </g>
