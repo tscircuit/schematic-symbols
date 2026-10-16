@@ -2,34 +2,34 @@
 <svg width="30mm" height="30mm" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg">
   <g id="root">
     <g id="transformer_4_winding">
-      <path id="primary-one-top-lead" d="M 8 9.732106 H 13.582822" style="fill:none;stroke:#000000;stroke-width:0.086;stroke-linecap:round" />
-      <path id="primary-one-winding" d="M 13.582822 9.732106 L 13.582822 9.97194 C 14.228079 10.287911 14.14919 10.603883 13.674821 10.919854 C 14.225089 11.224405 14.110665 11.528955 13.674821 11.833506 C 14.271088 12.138057 14.050406 12.442608 13.697821 12.747158 C 14.203009 13.051709 14.1669 13.35626 13.594322 13.660811 L 13.594322 13.912065" style="fill:none;stroke:#000000;stroke-width:0.086;stroke-linecap:round;stroke-linejoin:round" />
-      <path id="primary-one-bottom-lead" d="M 13.594322 13.912065 H 8" style="fill:none;stroke:#000000;stroke-width:0.086;stroke-linecap:round" />
-      <path id="primary-two-top-lead" d="M 8 16.059305 H 13.588572" style="fill:none;stroke:#000000;stroke-width:0.086;stroke-linecap:round" />
-      <path id="primary-two-winding" d="M 13.588572 16.059305 L 13.588572 16.311591 C 14.289028 16.636505 14.050061 16.961419 13.70932 17.286332 C 14.303633 17.592134 13.962202 17.897935 13.73232 18.203736 C 14.319273 18.509537 13.915283 18.815338 13.74957 19.12114 C 14.228309 19.426941 14.096291 19.732742 13.582822 20.038543 L 13.582822 20.267894" style="fill:none;stroke:#000000;stroke-width:0.086;stroke-linecap:round;stroke-linejoin:round" />
-      <path id="primary-two-bottom-lead" d="M 13.582822 20.267894 H 8" style="fill:none;stroke:#000000;stroke-width:0.086;stroke-linecap:round" />
-      <path id="secondary-one-top-lead" d="M 22 9.732106 H 16.331288" style="fill:none;stroke:#000000;stroke-width:0.086;stroke-linecap:round" />
-      <path id="secondary-one-winding" d="M 16.331288 9.732106 L 16.331288 9.97194 C 15.680051 10.287911 15.759975 10.603883 16.233539 10.919854 C 15.690746 11.224405 15.804595 11.528955 16.222039 11.833506 C 15.657741 12.138057 15.859219 12.442608 16.20479 12.747158 C 15.725245 13.051709 15.723751 13.35626 16.331288 13.660811 L 16.331288 13.912065" style="fill:none;stroke:#000000;stroke-width:0.086;stroke-linecap:round;stroke-linejoin:round" />
-      <path id="secondary-one-bottom-lead" d="M 16.331288 13.912065 H 22" style="fill:none;stroke:#000000;stroke-width:0.086;stroke-linecap:round" />
-      <path id="secondary-two-top-lead" d="M 22 16.059305 H 16.331288" style="fill:none;stroke:#000000;stroke-width:0.086;stroke-linecap:round" />
-      <path id="secondary-two-winding" d="M 16.331288 16.059305 L 16.331288 16.311591 C 15.604957 16.636505 15.865774 16.961419 16.20479 17.286332 C 15.607372 17.592134 15.937763 17.897935 16.18179 18.203736 C 15.592997 18.509537 15.988822 18.815338 16.15879 19.12114 C 15.701211 19.426941 15.793785 19.732742 16.331288 20.038543 L 16.331288 20.267894" style="fill:none;stroke:#000000;stroke-width:0.086;stroke-linecap:round;stroke-linejoin:round" />
-      <path id="secondary-two-bottom-lead" d="M 16.331288 20.267894 H 22" style="fill:none;stroke:#000000;stroke-width:0.086;stroke-linecap:round" />
-      <path id="core-left" d="M 14.635059 9.17157 V 20.82843" style="fill:none;stroke:#000000;stroke-width:0.086" />
-      <path id="core-right" d="M 15.290551 9.17157 V 20.82843" style="fill:none;stroke:#000000;stroke-width:0.086" />
-      <circle id="primary-one-polarity-dot" cx="13.038855" cy="10.247444" r="0.171779" style="fill:#000000;stroke:none" />
-      <circle id="secondary-one-polarity-dot" cx="16.903885" cy="10.247444" r="0.171779" style="fill:#000000;stroke:none" />
-      <circle id="primary-two-polarity-dot" cx="13.038855" cy="16.574642" r="0.171779" style="fill:#000000;stroke:none" />
-      <circle id="secondary-two-polarity-dot" cx="16.903885" cy="16.574642" r="0.171779" style="fill:#000000;stroke:none" />
-      <circle id="refblock-left-one" cx="8" cy="9.732106" r="0" fill="#ff0000" />
-      <circle id="refblock-left-two" cx="8" cy="13.912065" r="0" fill="#ff0000" />
-      <circle id="refblock-left-three" cx="8" cy="16.059305" r="0" fill="#ff0000" />
-      <circle id="refblock-left-four" cx="8" cy="20.267894" r="0" fill="#ff0000" />
-      <circle id="refblock-right-one" cx="22" cy="9.732106" r="0" fill="#ff0000" />
-      <circle id="refblock-right-two" cx="22" cy="13.912065" r="0" fill="#ff0000" />
-      <circle id="refblock-right-three" cx="22" cy="16.059305" r="0" fill="#ff0000" />
-      <circle id="refblock-right-four" cx="22" cy="20.267894" r="0" fill="#ff0000" />
-      <text x="15" y="8" text-anchor="middle" font-family="monospace" font-size="1">{REF}</text>
-      <text x="15" y="22" text-anchor="middle" font-family="monospace" font-size="1">{VAL}</text>
+      <path id="primary-top-lead" d="M 8.333333333333 8 H 13.58" style="fill:none;stroke:#000000;stroke-width:0.086;stroke-linecap:round" />
+      <path id="primary-winding" d="M 13.58 8 C 14.38 8.22 14.38 8.88 13.58 9.1 C 14.38 9.32 14.38 9.98 13.58 10.2 C 14.38 10.42 14.38 11.08 13.58 11.3 C 14.38 11.52 14.38 12.18 13.58 12.4 C 14.38 12.62 14.38 13.111111111111 13.58 13.333333333333" style="fill:none;stroke:#000000;stroke-width:0.086;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="primary-bottom-lead" d="M 13.58 13.333333333333 H 8.333333333333" style="fill:none;stroke:#000000;stroke-width:0.086;stroke-linecap:round" />
+      <path id="auxiliary-top-lead" d="M 8.333333333333 14.666666666667 H 13.58" style="fill:none;stroke:#000000;stroke-width:0.086;stroke-linecap:round" />
+      <path id="auxiliary-winding" d="M 13.58 14.666666666667 C 14.38 14.888888888889 14.38 15.38 13.58 15.6 C 14.38 15.82 14.38 16.48 13.58 16.7 C 14.38 16.92 14.38 17.58 13.58 17.8 C 14.38 18.02 14.38 18.68 13.58 18.9 C 14.38 19.12 14.38 19.78 13.58 20" style="fill:none;stroke:#000000;stroke-width:0.086;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="auxiliary-bottom-lead" d="M 13.58 20 H 8.333333333333" style="fill:none;stroke:#000000;stroke-width:0.086;stroke-linecap:round" />
+      <path id="secondary-one-top-lead" d="M 21.666666666667 9.333333333333 H 16.33" style="fill:none;stroke:#000000;stroke-width:0.086;stroke-linecap:round" />
+      <path id="secondary-one-winding" d="M 16.33 9.333333333333 C 15.53 9.47 15.53 9.75 16.33 9.888888888889 C 15.53 10.027777777778 15.53 10.305555555556 16.33 10.444444444444 C 15.53 10.583333333333 15.53 10.527777777778 16.33 10.666666666667" style="fill:none;stroke:#000000;stroke-width:0.086;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="secondary-one-bottom-lead" d="M 16.33 10.666666666667 H 21.666666666667" style="fill:none;stroke:#000000;stroke-width:0.086;stroke-linecap:round" />
+      <path id="secondary-two-top-lead" d="M 21.666666666667 16 H 16.33" style="fill:none;stroke:#000000;stroke-width:0.086;stroke-linecap:round" />
+      <path id="secondary-two-winding" d="M 16.33 16 C 15.53 16.138888888889 15.53 16.416666666667 16.33 16.555555555556 C 15.53 16.694444444444 15.53 16.972222222222 16.33 17.111111111111 C 15.53 17.25 15.53 17.194444444444 16.33 17.333333333333" style="fill:none;stroke:#000000;stroke-width:0.086;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="secondary-two-bottom-lead" d="M 16.33 17.333333333333 H 21.666666666667" style="fill:none;stroke:#000000;stroke-width:0.086;stroke-linecap:round" />
+      <path id="core-left" d="M 14.64 7.4 V 20.6" style="fill:none;stroke:#000000;stroke-width:0.086" />
+      <path id="core-right" d="M 15.29 7.4 V 20.6" style="fill:none;stroke:#000000;stroke-width:0.086" />
+      <circle id="primary-polarity-dot" cx="13.04" cy="8.65" r="0.172" style="fill:#000000;stroke:none" />
+      <circle id="auxiliary-polarity-dot" cx="13.04" cy="15.316666666667" r="0.172" style="fill:#000000;stroke:none" />
+      <circle id="secondary-one-polarity-dot" cx="16.9" cy="9.73" r="0.172" style="fill:#000000;stroke:none" />
+      <circle id="secondary-two-polarity-dot" cx="16.9" cy="16.4" r="0.172" style="fill:#000000;stroke:none" />
+      <circle id="refblock-left-one" cx="8.333333333333" cy="8" r="0" fill="#ff0000" />
+      <circle id="refblock-left-two" cx="8.333333333333" cy="13.333333333333" r="0" fill="#ff0000" />
+      <circle id="refblock-left-three" cx="8.333333333333" cy="14.666666666667" r="0" fill="#ff0000" />
+      <circle id="refblock-left-four" cx="8.333333333333" cy="20" r="0" fill="#ff0000" />
+      <circle id="refblock-right-one" cx="21.666666666667" cy="9.333333333333" r="0" fill="#ff0000" />
+      <circle id="refblock-right-two" cx="21.666666666667" cy="10.666666666667" r="0" fill="#ff0000" />
+      <circle id="refblock-right-three" cx="21.666666666667" cy="16" r="0" fill="#ff0000" />
+      <circle id="refblock-right-four" cx="21.666666666667" cy="17.333333333333" r="0" fill="#ff0000" />
+      <text x="15" y="6.8" text-anchor="middle" font-family="monospace" font-size="1">{REF}</text>
+      <text x="15" y="21.2" text-anchor="middle" font-family="monospace" font-size="1">{VAL}</text>
     </g>
   </g>
 </svg>

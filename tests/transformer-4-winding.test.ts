@@ -7,10 +7,10 @@ test("four-winding transformer orientations preserve winding terminals", () => {
       orientation) as keyof typeof symbols
     const transformer = symbols[symbolName]
     const windingTerminals = [
-      "primary1_start",
-      "primary1_end",
-      "primary2_start",
-      "primary2_end",
+      "primary_start",
+      "primary_end",
+      "auxiliary_start",
+      "auxiliary_end",
       "secondary1_start",
       "secondary1_end",
       "secondary2_start",
