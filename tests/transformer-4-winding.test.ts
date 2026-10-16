@@ -1,4 +1,5 @@
 import { expect, test } from "bun:test"
+import type { PathPrimitive } from "../drawing/types"
 import symbols from "../generated/symbols-index"
 
 test("four-winding transformer orientations preserve winding terminals", () => {
@@ -22,7 +23,8 @@ test("four-winding transformer orientations preserve winding terminals", () => {
       (primitive) => primitive.type === "circle" && primitive.fill,
     )
     const windingPaths = transformer.primitives.filter(
-      (primitive) => primitive.type === "path" && primitive.points.length > 2,
+      (primitive): primitive is PathPrimitive =>
+        primitive.type === "path" && primitive.points.length > 2,
     )
     expect(polarityDots, symbolName).toHaveLength(4)
     expect(windingPaths, symbolName).toHaveLength(4)
