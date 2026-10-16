@@ -3,10 +3,10 @@
   <g id="root">
     <g id="phototransistor_optocoupler">
       <path id="enclosure" d="M 9.96706 12.239017 H 20.030598 V 17.760983 H 9.96706 L 9.96706 12.239017 Z" style="fill:none;stroke:#000000;stroke-width:0.294;stroke-linejoin:miter" />
-      <path id="pin-one-tab" d="M 8.5 13.47561 H 9.96706 V 14.357724 H 8.5 Z" style="fill:none;stroke:#000000;stroke-width:0.294;stroke-linejoin:miter" />
-      <path id="pin-two-tab" d="M 8.5 15.642276 H 9.96706 V 16.52439 H 8.5 Z" style="fill:none;stroke:#000000;stroke-width:0.294;stroke-linejoin:miter" />
-      <path id="pin-four-tab" d="M 20.030598 13.47561 H 21.5 V 14.357724 H 20.030598 Z" style="fill:none;stroke:#000000;stroke-width:0.294;stroke-linejoin:miter" />
-      <path id="pin-three-tab" d="M 20.030598 15.642276 H 21.5 V 16.52439 H 20.030598 Z" style="fill:none;stroke:#000000;stroke-width:0.294;stroke-linejoin:miter" />
+      <path id="pin-one-lead" d="M 8.5 13.916667 H 9.96706" style="fill:none;stroke:#000000;stroke-width:0.147;stroke-linecap:round" />
+      <path id="pin-two-lead" d="M 8.5 16.083333 H 9.96706" style="fill:none;stroke:#000000;stroke-width:0.147;stroke-linecap:round" />
+      <path id="pin-four-lead" d="M 20.030598 13.916667 H 21.5" style="fill:none;stroke:#000000;stroke-width:0.147;stroke-linecap:round" />
+      <path id="pin-three-lead" d="M 20.030598 16.083333 H 21.5" style="fill:none;stroke:#000000;stroke-width:0.147;stroke-linecap:round" />
       <path id="led-leads" d="M 9.96706 13.916667 H 12.318569 V 16.083333 H 9.96706" style="fill:none;stroke:#000000;stroke-width:0.147;stroke-linejoin:miter" />
       <path id="led-body" d="M 12.758455 14.59521 L 12.318569 15.40479 L 11.803815 14.59521 Z" fill="true" style="fill:#000000;stroke:none" />
       <path id="led-cathode" d="M 12.833331 15.40479 H 11.803815" style="fill:none;stroke:#000000;stroke-width:0.294" />
