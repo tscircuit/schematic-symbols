@@ -13,9 +13,9 @@
       <path id="led-cathode-lead" d="M 12.25 15.45 V 16.25 H 10" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linejoin:round" />
       <path id="collector" d="M 20 13.75 H 18.7 L 17.8 14.45" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linejoin:round" />
       <path id="transistor-base" d="M 17.8 14.15 V 15.85" style="fill:none;stroke:#000000;stroke-width:0.2" />
-      <path id="emitter" d="M 17.8 15.55 L 18.2 15.861" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
-      <path id="emitter-arrow" d="M 18.65 16.211 L 18.102 15.987 L 18.298 15.735 Z" fill="true" style="fill:#000000;stroke:none" />
-      <path id="emitter-lead" d="M 18.65 16.211 L 18.7 16.25 H 20" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="emitter" d="M 17.8 15.55 L 18.2 15.855" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="emitter-arrow" d="M 18.75 16.285 L 18.028 16.076 L 18.372 15.634 Z" fill="true" style="fill:#000000;stroke:none" />
+      <path id="emitter-lead" d="M 18.75 16.285 L 18.8 16.25 H 20" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
       <path id="light-ray-one" d="M 13.7 13.95 L 16.05 14.9" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
       <path id="light-ray-one-head" d="M 15.47 14.86 L 16.05 14.9 L 15.61 14.53" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
       <path id="light-ray-two" d="M 13.7 15.05 L 16.05 16" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
