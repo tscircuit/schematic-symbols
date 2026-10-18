@@ -4,35 +4,31 @@ import symbols from "../generated/symbols-index"
 
 const SYMBOL_ENDPOINT_TOLERANCE = 0.000001
 
-test("phototransistor emitter branch and arrow follow the diagonal leg", () => {
-  const emitter = optocouplerAsset.paths.emitter
+test("phototransistor emitter arrow separates the lead and diagonal leg", () => {
+  const emitterLead = optocouplerAsset.paths.emitter
   const emitterArrow = optocouplerAsset.paths["emitter-arrow"]
+  const emitterLeg = optocouplerAsset.paths["emitter-leg"]
   const transistorBase = optocouplerAsset.paths["transistor-base"]
-  const emitterBend = emitter.points[1]
-  const baseConnection = emitter.points.at(-1)
+  const emitterBend = emitterLead.points.at(-1)
   const arrowTip = emitterArrow.points[0]
-  const emitterVector = {
-    x: emitterBend.x - (baseConnection?.x ?? 0),
-    y: emitterBend.y - (baseConnection?.y ?? 0),
+  const innerLegStart = emitterLeg.points[0]
+  const baseConnection = emitterLeg.points.at(-1)
+  if (!emitterBend || !arrowTip || !innerLegStart) {
+    throw new Error("Emitter geometry is incomplete")
   }
-  const arrowVector = {
-    x: arrowTip.x - (baseConnection?.x ?? 0),
-    y: arrowTip.y - (baseConnection?.y ?? 0),
-  }
-  const arrowPositionOnEmitter =
-    (arrowVector.x * emitterVector.x + arrowVector.y * emitterVector.y) /
-    (emitterVector.x ** 2 + emitterVector.y ** 2)
-  const arrowDistanceFromEmitter = Math.abs(
-    arrowVector.x * emitterVector.y - arrowVector.y * emitterVector.x,
+  const gapBetweenLeadAndInnerLeg = Math.hypot(
+    emitterBend.x - innerLegStart.x,
+    emitterBend.y - innerLegStart.y,
   )
 
-  expect(emitter.points).toHaveLength(3)
+  expect(emitterLead.points).toHaveLength(2)
+  expect(emitterLeg.points).toHaveLength(2)
+  expect(arrowTip).toEqual(emitterBend)
+  expect(gapBetweenLeadAndInnerLeg).toBeGreaterThan(SYMBOL_ENDPOINT_TOLERANCE)
   expect(baseConnection?.x).toBe(transistorBase.points[0]?.x)
   expect(baseConnection?.y).toBeLessThan(transistorBase.points[0]?.y ?? 0)
   expect(baseConnection?.y).toBeGreaterThan(transistorBase.points[1]?.y ?? 0)
-  expect(arrowPositionOnEmitter).toBeGreaterThan(0.6)
-  expect(arrowPositionOnEmitter).toBeLessThan(0.9)
-  expect(arrowDistanceFromEmitter).toBeLessThan(SYMBOL_ENDPOINT_TOLERANCE)
+  expect(emitterArrow.points.every((point) => point.x <= arrowTip.x)).toBe(true)
 })
 
 test("phototransistor optocoupler orientations preserve terminal aliases", () => {
