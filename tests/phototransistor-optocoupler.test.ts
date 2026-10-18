@@ -1,7 +1,22 @@
 import { expect, test } from "bun:test"
+import optocouplerAsset from "../assets/generated/phototransistor_optocoupler.json"
 import symbols from "../generated/symbols-index"
 
 const SYMBOL_ENDPOINT_TOLERANCE = 0.000001
+
+test("phototransistor emitter branch reaches the transistor base", () => {
+  const emitter = optocouplerAsset.paths.emitter
+  const emitterArrow = optocouplerAsset.paths["emitter-arrow"]
+  const transistorBase = optocouplerAsset.paths["transistor-base"]
+  const emitterTip = emitter.points[1]
+  const baseConnection = emitter.points.at(-1)
+
+  expect(emitter.points).toHaveLength(3)
+  expect(emitterTip).toEqual(emitterArrow.points[0])
+  expect(baseConnection?.x).toBe(transistorBase.points[0]?.x)
+  expect(baseConnection?.y).toBeLessThan(transistorBase.points[0]?.y ?? 0)
+  expect(baseConnection?.y).toBeGreaterThan(transistorBase.points[1]?.y ?? 0)
+})
 
 test("phototransistor optocoupler orientations preserve terminal aliases", () => {
   for (const orientation of ["right", "up", "left", "down"] as const) {

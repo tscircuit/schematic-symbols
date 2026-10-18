@@ -12,7 +12,7 @@
       <path id="led-cathode" d="M 12.833331 15.40479 H 11.803815" style="fill:none;stroke:#000000;stroke-width:0.294" />
       <path id="collector" d="M 20.030598 13.916667 H 18.561195 L 17.681423 14.4478" style="fill:none;stroke:#000000;stroke-width:0.147;stroke-linejoin:miter" />
       <path id="transistor-base" d="M 17.681423 13.638234 V 16.36178" style="fill:none;stroke:#000000;stroke-width:0.294" />
-      <path id="emitter" d="M 20.030598 16.083333 H 18.561195" style="fill:none;stroke:#000000;stroke-width:0.147" />
+      <path id="emitter" d="M 20.030598 16.083333 H 18.561195 L 17.681423 15.5522" style="fill:none;stroke:#000000;stroke-width:0.147;stroke-linejoin:miter" />
       <path id="emitter-arrow" d="M 18.561195 16.083333 L 18.193843 15.699609 L 17.826491 15.994428 Z" fill="true" style="fill:#000000;stroke:none" />
       <path id="light-ray-one" d="M 15.329915 14.667744 L 13.935381 14.07812" style="fill:none;stroke:#000000;stroke-width:0.147" />
       <path id="light-ray-one-head" d="M 16.064612 15.035096 L 15.035096 14.815153 L 15.257374 14.372939 Z" fill="true" style="fill:#000000;stroke:none" />
