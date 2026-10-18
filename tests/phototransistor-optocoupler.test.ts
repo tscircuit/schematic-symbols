@@ -7,30 +7,29 @@ const SYMBOL_ENDPOINT_TOLERANCE = 0.000001
 test("phototransistor and light arrows use balanced geometry", () => {
   const emitter = optocouplerAsset.paths.emitter
   const emitterArrow = optocouplerAsset.paths["emitter-arrow"]
-  const emitterLead = optocouplerAsset.paths["emitter-lead"]
   const transistorBase = optocouplerAsset.paths["transistor-base"]
   const lightRayOne = optocouplerAsset.paths["light-ray-one"]
   const lightRayOneHead = optocouplerAsset.paths["light-ray-one-head"]
   const lightRayTwo = optocouplerAsset.paths["light-ray-two"]
   const lightRayTwoHead = optocouplerAsset.paths["light-ray-two-head"]
-  const arrowTip = emitterArrow.points[0]
+  const arrowTip = emitterArrow.points[1]
   const baseConnection = emitter.points[0]
-  const innerEmitterEnd = emitter.points[1]
-  if (!arrowTip || !baseConnection || !innerEmitterEnd) {
+  const emitterBend = emitter.points[1]
+  if (!arrowTip || !baseConnection || !emitterBend) {
     throw new Error("Emitter geometry is incomplete")
   }
 
-  expect(emitter.points).toHaveLength(2)
-  expect(emitterLead.points).toHaveLength(3)
-  expect(emitterArrow.fill).toBe(true)
+  expect(emitter.points).toHaveLength(3)
+  expect(emitterArrow.fill).toBe(false)
   expect(emitterArrow.points).toHaveLength(3)
-  expect(arrowTip).toEqual(emitterLead.points[0])
   expect(arrowTip.x).toBeGreaterThan(baseConnection.x)
-  expect(arrowTip.x).toBeGreaterThan(innerEmitterEnd.x)
+  expect(arrowTip.x).toBeLessThan(emitterBend.x)
   expect(arrowTip.y).toBeLessThan(baseConnection.y)
-  expect(arrowTip.y).toBeLessThan(innerEmitterEnd.y)
+  expect(arrowTip.y).toBeGreaterThan(emitterBend.y)
   expect(
-    emitterArrow.points.slice(1).every((point) => point.x < arrowTip.x),
+    [emitterArrow.points[0], emitterArrow.points[2]].every(
+      (point) => point !== undefined && point.x < arrowTip.x,
+    ),
   ).toBe(true)
   expect(baseConnection.x).toBe(transistorBase.points[0]?.x)
   expect(baseConnection.y).toBeLessThan(transistorBase.points[0]?.y ?? 0)
