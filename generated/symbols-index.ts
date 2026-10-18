@@ -4,6 +4,10 @@ import _ac_voltmeter_left from "./../symbols/ac_voltmeter_left"
 import _ac_voltmeter_right from "./../symbols/ac_voltmeter_right"
 import _ac_voltmeter_up from "./../symbols/ac_voltmeter_up"
 import _ac_voltmeter_vert from "./../symbols/ac_voltmeter_vert"
+import _and_gate_down from "./../symbols/and_gate_down"
+import _and_gate_left from "./../symbols/and_gate_left"
+import _and_gate_right from "./../symbols/and_gate_right"
+import _and_gate_up from "./../symbols/and_gate_up"
 import _avalanche_diode_down from "./../symbols/avalanche_diode_down"
 import _avalanche_diode_horz from "./../symbols/avalanche_diode_horz"
 import _avalanche_diode_left from "./../symbols/avalanche_diode_left"
@@ -256,6 +260,10 @@ import _p_channel_e_mosfet_transistor_horz from "./../symbols/p_channel_e_mosfet
 import _p_channel_e_mosfet_transistor_vert from "./../symbols/p_channel_e_mosfet_transistor_vert"
 import _photodiode_horz from "./../symbols/photodiode_horz"
 import _photodiode_vert from "./../symbols/photodiode_vert"
+import _phototransistor_optocoupler_down from "./../symbols/phototransistor_optocoupler_down"
+import _phototransistor_optocoupler_left from "./../symbols/phototransistor_optocoupler_left"
+import _phototransistor_optocoupler_right from "./../symbols/phototransistor_optocoupler_right"
+import _phototransistor_optocoupler_up from "./../symbols/phototransistor_optocoupler_up"
 import _pjfet_transistor_horz from "./../symbols/pjfet_transistor_horz"
 import _pjfet_transistor_vert from "./../symbols/pjfet_transistor_vert"
 import _pnp_bipolar_transistor_down from "./../symbols/pnp_bipolar_transistor_down"
@@ -308,6 +316,10 @@ import _resonator_left from "./../symbols/resonator_left"
 import _resonator_right from "./../symbols/resonator_right"
 import _resonator_up from "./../symbols/resonator_up"
 import _resonator_vert from "./../symbols/resonator_vert"
+import _schmitt_trigger_inverter_down from "./../symbols/schmitt_trigger_inverter_down"
+import _schmitt_trigger_inverter_left from "./../symbols/schmitt_trigger_inverter_left"
+import _schmitt_trigger_inverter_right from "./../symbols/schmitt_trigger_inverter_right"
+import _schmitt_trigger_inverter_up from "./../symbols/schmitt_trigger_inverter_up"
 import _schottky_diode_down from "./../symbols/schottky_diode_down"
 import _schottky_diode_left from "./../symbols/schottky_diode_left"
 import _schottky_diode_right from "./../symbols/schottky_diode_right"
@@ -376,6 +388,10 @@ import _tilted_ground_down from "./../symbols/tilted_ground_down"
 import _tilted_ground_left from "./../symbols/tilted_ground_left"
 import _tilted_ground_right from "./../symbols/tilted_ground_right"
 import _tilted_ground_up from "./../symbols/tilted_ground_up"
+import _transformer_4_winding_down from "./../symbols/transformer_4_winding_down"
+import _transformer_4_winding_left from "./../symbols/transformer_4_winding_left"
+import _transformer_4_winding_right from "./../symbols/transformer_4_winding_right"
+import _transformer_4_winding_up from "./../symbols/transformer_4_winding_up"
 import _triac_horz from "./../symbols/triac_horz"
 import _triac_vert from "./../symbols/triac_vert"
 import _tunnel_diode_horz from "./../symbols/tunnel_diode_horz"
@@ -419,6 +435,10 @@ export default {
   "ac_voltmeter_right": _ac_voltmeter_right,
   "ac_voltmeter_up": _ac_voltmeter_up,
   "ac_voltmeter_vert": _ac_voltmeter_vert,
+  "and_gate_down": _and_gate_down,
+  "and_gate_left": _and_gate_left,
+  "and_gate_right": _and_gate_right,
+  "and_gate_up": _and_gate_up,
   "avalanche_diode_down": _avalanche_diode_down,
   "avalanche_diode_horz": _avalanche_diode_horz,
   "avalanche_diode_left": _avalanche_diode_left,
@@ -671,6 +691,10 @@ export default {
   "p_channel_e_mosfet_transistor_vert": _p_channel_e_mosfet_transistor_vert,
   "photodiode_horz": _photodiode_horz,
   "photodiode_vert": _photodiode_vert,
+  "phototransistor_optocoupler_down": _phototransistor_optocoupler_down,
+  "phototransistor_optocoupler_left": _phototransistor_optocoupler_left,
+  "phototransistor_optocoupler_right": _phototransistor_optocoupler_right,
+  "phototransistor_optocoupler_up": _phototransistor_optocoupler_up,
   "pjfet_transistor_horz": _pjfet_transistor_horz,
   "pjfet_transistor_vert": _pjfet_transistor_vert,
   "pnp_bipolar_transistor_down": _pnp_bipolar_transistor_down,
@@ -723,6 +747,10 @@ export default {
   "resonator_right": _resonator_right,
   "resonator_up": _resonator_up,
   "resonator_vert": _resonator_vert,
+  "schmitt_trigger_inverter_down": _schmitt_trigger_inverter_down,
+  "schmitt_trigger_inverter_left": _schmitt_trigger_inverter_left,
+  "schmitt_trigger_inverter_right": _schmitt_trigger_inverter_right,
+  "schmitt_trigger_inverter_up": _schmitt_trigger_inverter_up,
   "schottky_diode_down": _schottky_diode_down,
   "schottky_diode_left": _schottky_diode_left,
   "schottky_diode_right": _schottky_diode_right,
@@ -791,6 +819,10 @@ export default {
   "tilted_ground_left": _tilted_ground_left,
   "tilted_ground_right": _tilted_ground_right,
   "tilted_ground_up": _tilted_ground_up,
+  "transformer_4_winding_down": _transformer_4_winding_down,
+  "transformer_4_winding_left": _transformer_4_winding_left,
+  "transformer_4_winding_right": _transformer_4_winding_right,
+  "transformer_4_winding_up": _transformer_4_winding_up,
   "triac_horz": _triac_horz,
   "triac_vert": _triac_vert,
   "tunnel_diode_horz": _tunnel_diode_horz,
