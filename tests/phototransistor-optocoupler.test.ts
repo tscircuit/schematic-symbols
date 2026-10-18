@@ -4,18 +4,35 @@ import symbols from "../generated/symbols-index"
 
 const SYMBOL_ENDPOINT_TOLERANCE = 0.000001
 
-test("phototransistor emitter branch reaches the transistor base", () => {
+test("phototransistor emitter branch and arrow follow the diagonal leg", () => {
   const emitter = optocouplerAsset.paths.emitter
   const emitterArrow = optocouplerAsset.paths["emitter-arrow"]
   const transistorBase = optocouplerAsset.paths["transistor-base"]
-  const emitterTip = emitter.points[1]
+  const emitterBend = emitter.points[1]
   const baseConnection = emitter.points.at(-1)
+  const arrowTip = emitterArrow.points[0]
+  const emitterVector = {
+    x: emitterBend.x - (baseConnection?.x ?? 0),
+    y: emitterBend.y - (baseConnection?.y ?? 0),
+  }
+  const arrowVector = {
+    x: arrowTip.x - (baseConnection?.x ?? 0),
+    y: arrowTip.y - (baseConnection?.y ?? 0),
+  }
+  const arrowPositionOnEmitter =
+    (arrowVector.x * emitterVector.x + arrowVector.y * emitterVector.y) /
+    (emitterVector.x ** 2 + emitterVector.y ** 2)
+  const arrowDistanceFromEmitter = Math.abs(
+    arrowVector.x * emitterVector.y - arrowVector.y * emitterVector.x,
+  )
 
   expect(emitter.points).toHaveLength(3)
-  expect(emitterTip).toEqual(emitterArrow.points[0])
   expect(baseConnection?.x).toBe(transistorBase.points[0]?.x)
   expect(baseConnection?.y).toBeLessThan(transistorBase.points[0]?.y ?? 0)
   expect(baseConnection?.y).toBeGreaterThan(transistorBase.points[1]?.y ?? 0)
+  expect(arrowPositionOnEmitter).toBeGreaterThan(0.6)
+  expect(arrowPositionOnEmitter).toBeLessThan(0.9)
+  expect(arrowDistanceFromEmitter).toBeLessThan(SYMBOL_ENDPOINT_TOLERANCE)
 })
 
 test("phototransistor optocoupler orientations preserve terminal aliases", () => {
