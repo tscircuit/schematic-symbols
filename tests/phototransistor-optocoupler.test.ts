@@ -5,6 +5,8 @@ import symbols from "../generated/symbols-index"
 const SYMBOL_ENDPOINT_TOLERANCE = 0.000001
 
 test("phototransistor and light arrows use balanced geometry", () => {
+  const ledBody = optocouplerAsset.paths["led-body"]
+  const ledCathode = optocouplerAsset.paths["led-cathode"]
   const emitter = optocouplerAsset.paths.emitter
   const emitterArrow = optocouplerAsset.paths["emitter-arrow"]
   const transistorBase = optocouplerAsset.paths["transistor-base"]
@@ -20,6 +22,9 @@ test("phototransistor and light arrows use balanced geometry", () => {
   }
 
   expect(emitter.points).toHaveLength(3)
+  expect(ledBody.fill).toBe(false)
+  expect(ledBody.points.at(-1)).toEqual(ledBody.points[0])
+  expect(ledCathode.points).toHaveLength(2)
   expect(emitterArrow.fill).toBe(false)
   expect(emitterArrow.points).toHaveLength(3)
   expect(arrowTip.x).toBeGreaterThan(baseConnection.x)
