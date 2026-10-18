@@ -10,10 +10,11 @@
       <path id="led-leads" d="M 9.96706 13.916667 H 12.318569 V 16.083333 H 9.96706" style="fill:none;stroke:#000000;stroke-width:0.147;stroke-linejoin:miter" />
       <path id="led-body" d="M 12.758455 14.59521 L 12.318569 15.40479 L 11.803815 14.59521 Z" fill="true" style="fill:#000000;stroke:none" />
       <path id="led-cathode" d="M 12.833331 15.40479 H 11.803815" style="fill:none;stroke:#000000;stroke-width:0.294" />
-      <path id="collector" d="M 20.030598 13.916667 H 18.561195 L 17.681423 14.4478" style="fill:none;stroke:#000000;stroke-width:0.147;stroke-linejoin:miter" />
-      <path id="transistor-base" d="M 17.681423 13.638234 V 16.36178" style="fill:none;stroke:#000000;stroke-width:0.294" />
-      <path id="emitter" d="M 20.030598 16.083333 H 18.561195 L 17.681423 15.5522" style="fill:none;stroke:#000000;stroke-width:0.147;stroke-linejoin:miter" />
-      <path id="emitter-arrow" d="M 18.341366 15.95055 L 17.858083 15.91576 L 18.085415 15.539177 Z" fill="true" style="fill:#000000;stroke:none" />
+      <path id="collector" d="M 20.030598 13.916667 H 18.561195 L 17.681423 14.560702" style="fill:none;stroke:#000000;stroke-width:0.147;stroke-linejoin:miter" />
+      <path id="transistor-base" d="M 17.681423 13.916667 V 16.083333" style="fill:none;stroke:#000000;stroke-width:0.294" />
+      <path id="emitter" d="M 20.030598 16.083333 H 18.561195" style="fill:none;stroke:#000000;stroke-width:0.147;stroke-linejoin:miter" />
+      <path id="emitter-arrow" d="M 18.561195 16.083333 L 18.193843 15.556555 L 17.826491 15.791093 Z" fill="true" style="fill:#000000;stroke:none" />
+      <path id="emitter-leg" d="M 18.341366 15.906498 L 17.681423 15.439286" style="fill:none;stroke:#000000;stroke-width:0.147;stroke-linejoin:miter" />
       <path id="light-ray-one" d="M 15.329915 14.667744 L 13.935381 14.07812" style="fill:none;stroke:#000000;stroke-width:0.147" />
       <path id="light-ray-one-head" d="M 16.064612 15.035096 L 15.035096 14.815153 L 15.257374 14.372939 Z" fill="true" style="fill:#000000;stroke:none" />
       <path id="light-ray-two" d="M 15.329915 15.624733 L 13.935381 15.035096" style="fill:none;stroke:#000000;stroke-width:0.147" />
