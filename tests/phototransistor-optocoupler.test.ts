@@ -4,31 +4,48 @@ import symbols from "../generated/symbols-index"
 
 const SYMBOL_ENDPOINT_TOLERANCE = 0.000001
 
-test("phototransistor emitter arrow separates the lead and diagonal leg", () => {
-  const emitterLead = optocouplerAsset.paths.emitter
+test("phototransistor and light arrows use balanced geometry", () => {
+  const emitter = optocouplerAsset.paths.emitter
   const emitterArrow = optocouplerAsset.paths["emitter-arrow"]
-  const emitterLeg = optocouplerAsset.paths["emitter-leg"]
+  const emitterLead = optocouplerAsset.paths["emitter-lead"]
   const transistorBase = optocouplerAsset.paths["transistor-base"]
-  const emitterBend = emitterLead.points.at(-1)
+  const lightRayOne = optocouplerAsset.paths["light-ray-one"]
+  const lightRayOneHead = optocouplerAsset.paths["light-ray-one-head"]
+  const lightRayTwo = optocouplerAsset.paths["light-ray-two"]
+  const lightRayTwoHead = optocouplerAsset.paths["light-ray-two-head"]
   const arrowTip = emitterArrow.points[0]
-  const innerLegStart = emitterLeg.points[0]
-  const baseConnection = emitterLeg.points.at(-1)
-  if (!emitterBend || !arrowTip || !innerLegStart) {
+  const baseConnection = emitter.points[0]
+  const innerEmitterEnd = emitter.points[1]
+  if (!arrowTip || !baseConnection || !innerEmitterEnd) {
     throw new Error("Emitter geometry is incomplete")
   }
-  const gapBetweenLeadAndInnerLeg = Math.hypot(
-    emitterBend.x - innerLegStart.x,
-    emitterBend.y - innerLegStart.y,
-  )
 
-  expect(emitterLead.points).toHaveLength(2)
-  expect(emitterLeg.points).toHaveLength(2)
-  expect(arrowTip).toEqual(emitterBend)
-  expect(gapBetweenLeadAndInnerLeg).toBeGreaterThan(SYMBOL_ENDPOINT_TOLERANCE)
-  expect(baseConnection?.x).toBe(transistorBase.points[0]?.x)
-  expect(baseConnection?.y).toBeLessThan(transistorBase.points[0]?.y ?? 0)
-  expect(baseConnection?.y).toBeGreaterThan(transistorBase.points[1]?.y ?? 0)
-  expect(emitterArrow.points.every((point) => point.x <= arrowTip.x)).toBe(true)
+  expect(emitter.points).toHaveLength(2)
+  expect(emitterLead.points).toHaveLength(3)
+  expect(emitterArrow.fill).toBe(true)
+  expect(emitterArrow.points).toHaveLength(3)
+  expect(arrowTip).toEqual(emitterLead.points[0])
+  expect(arrowTip.x).toBeGreaterThan(baseConnection.x)
+  expect(arrowTip.x).toBeGreaterThan(innerEmitterEnd.x)
+  expect(arrowTip.y).toBeLessThan(baseConnection.y)
+  expect(arrowTip.y).toBeLessThan(innerEmitterEnd.y)
+  expect(
+    emitterArrow.points.slice(1).every((point) => point.x < arrowTip.x),
+  ).toBe(true)
+  expect(baseConnection.x).toBe(transistorBase.points[0]?.x)
+  expect(baseConnection.y).toBeLessThan(transistorBase.points[0]?.y ?? 0)
+  expect(baseConnection.y).toBeGreaterThan(transistorBase.points[1]?.y ?? 0)
+
+  expect(lightRayOneHead.fill).toBe(false)
+  expect(lightRayTwoHead.fill).toBe(false)
+  expect(lightRayOneHead.points[1]).toEqual(lightRayOne.points.at(-1)!)
+  expect(lightRayTwoHead.points[1]).toEqual(lightRayTwo.points.at(-1)!)
+  expect(lightRayOne.points[1]!.x - lightRayOne.points[0]!.x).toBeCloseTo(
+    lightRayTwo.points[1]!.x - lightRayTwo.points[0]!.x,
+  )
+  expect(lightRayOne.points[1]!.y - lightRayOne.points[0]!.y).toBeCloseTo(
+    lightRayTwo.points[1]!.y - lightRayTwo.points[0]!.y,
+  )
 })
 
 test("phototransistor optocoupler orientations preserve terminal aliases", () => {
