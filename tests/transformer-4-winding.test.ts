@@ -1,17 +1,23 @@
 import { expect, test } from "bun:test"
-import type { PathPrimitive } from "../drawing/types"
+import type { CirclePrimitive, PathPrimitive } from "../drawing/types"
 import symbols from "../generated/symbols-index"
 
 test("four-winding transformer orientations preserve winding terminals", () => {
   const expectedPinNumbers = [
-    ["primary_start", "1"],
-    ["primary_end", "2"],
-    ["auxiliary_start", "3"],
-    ["auxiliary_end", "4"],
-    ["secondary2_end", "5"],
-    ["secondary2_start", "6"],
-    ["secondary1_end", "7"],
-    ["secondary1_start", "8"],
+    ["primary_end", "1"],
+    ["primary_start", "2"],
+    ["auxiliary_end", "3"],
+    ["auxiliary_start", "4"],
+    ["secondary2_start", "5"],
+    ["secondary2_end", "6"],
+    ["secondary1_start", "7"],
+    ["secondary1_end", "8"],
+  ] as const
+  const windingTerminalAliases = [
+    ["primary_start", "primary_end"],
+    ["auxiliary_start", "auxiliary_end"],
+    ["secondary1_start", "secondary1_end"],
+    ["secondary2_start", "secondary2_end"],
   ] as const
 
   for (const orientation of ["right", "up", "left", "down"] as const) {
@@ -31,7 +37,8 @@ test("four-winding transformer orientations preserve winding terminals", () => {
 
     expect(transformer.ports, symbolName).toHaveLength(8)
     const polarityDots = transformer.primitives.filter(
-      (primitive) => primitive.type === "circle" && primitive.fill,
+      (primitive): primitive is CirclePrimitive =>
+        primitive.type === "circle" && primitive.fill,
     )
     const windingPaths = transformer.primitives.filter(
       (primitive): primitive is PathPrimitive =>
@@ -68,6 +75,44 @@ test("four-winding transformer orientations preserve winding terminals", () => {
       expect(terminal?.labels, symbolName + " " + terminalAlias).toContain(
         pinNumber,
       )
+    }
+    for (const [startAlias, endAlias] of windingTerminalAliases) {
+      const startTerminal = transformer.ports.find((port) =>
+        port.labels.includes(startAlias),
+      )
+      const endTerminal = transformer.ports.find((port) =>
+        port.labels.includes(endAlias),
+      )
+      if (!startTerminal || !endTerminal) {
+        throw new Error(`${symbolName} is missing ${startAlias} or ${endAlias}`)
+      }
+      const closestPolarityDot = polarityDots.reduce(
+        (closestDot, candidateDot) => {
+          const closestDotDistance = Math.hypot(
+            closestDot.x - startTerminal.x,
+            closestDot.y - startTerminal.y,
+          )
+          const candidateDotDistance = Math.hypot(
+            candidateDot.x - startTerminal.x,
+            candidateDot.y - startTerminal.y,
+          )
+          return candidateDotDistance < closestDotDistance
+            ? candidateDot
+            : closestDot
+        },
+      )
+      const startDistanceFromDot = Math.hypot(
+        closestPolarityDot.x - startTerminal.x,
+        closestPolarityDot.y - startTerminal.y,
+      )
+      const endDistanceFromDot = Math.hypot(
+        closestPolarityDot.x - endTerminal.x,
+        closestPolarityDot.y - endTerminal.y,
+      )
+      expect(
+        startDistanceFromDot,
+        `${symbolName} ${startAlias} must be the dotted terminal`,
+      ).toBeLessThan(endDistanceFromDot)
     }
   }
 })
