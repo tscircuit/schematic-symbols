@@ -3,6 +3,17 @@ import type { PathPrimitive } from "../drawing/types"
 import symbols from "../generated/symbols-index"
 
 test("four-winding transformer orientations preserve winding terminals", () => {
+  const expectedPinNumbers = [
+    ["primary_start", "1"],
+    ["primary_end", "2"],
+    ["auxiliary_start", "3"],
+    ["auxiliary_end", "4"],
+    ["secondary2_end", "5"],
+    ["secondary2_start", "6"],
+    ["secondary1_end", "7"],
+    ["secondary1_start", "8"],
+  ] as const
+
   for (const orientation of ["right", "up", "left", "down"] as const) {
     const symbolName = ("transformer_4_winding_" +
       orientation) as keyof typeof symbols
@@ -49,6 +60,14 @@ test("four-winding transformer orientations preserve winding terminals", () => {
         transformer.ports.some((port) => port.labels.includes(terminalAlias)),
         symbolName + " " + terminalAlias,
       ).toBeTrue()
+    }
+    for (const [terminalAlias, pinNumber] of expectedPinNumbers) {
+      const terminal = transformer.ports.find((port) =>
+        port.labels.includes(terminalAlias),
+      )
+      expect(terminal?.labels, symbolName + " " + terminalAlias).toContain(
+        pinNumber,
+      )
     }
   }
 })
