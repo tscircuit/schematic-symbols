@@ -4,6 +4,10 @@ import _ac_voltmeter_left from "./../symbols/ac_voltmeter_left"
 import _ac_voltmeter_right from "./../symbols/ac_voltmeter_right"
 import _ac_voltmeter_up from "./../symbols/ac_voltmeter_up"
 import _ac_voltmeter_vert from "./../symbols/ac_voltmeter_vert"
+import _and_gate_down from "./../symbols/and_gate_down"
+import _and_gate_left from "./../symbols/and_gate_left"
+import _and_gate_right from "./../symbols/and_gate_right"
+import _and_gate_up from "./../symbols/and_gate_up"
 import _avalanche_diode_down from "./../symbols/avalanche_diode_down"
 import _avalanche_diode_horz from "./../symbols/avalanche_diode_horz"
 import _avalanche_diode_left from "./../symbols/avalanche_diode_left"
@@ -419,6 +423,10 @@ export default {
   "ac_voltmeter_right": _ac_voltmeter_right,
   "ac_voltmeter_up": _ac_voltmeter_up,
   "ac_voltmeter_vert": _ac_voltmeter_vert,
+  "and_gate_down": _and_gate_down,
+  "and_gate_left": _and_gate_left,
+  "and_gate_right": _and_gate_right,
+  "and_gate_up": _and_gate_up,
   "avalanche_diode_down": _avalanche_diode_down,
   "avalanche_diode_horz": _avalanche_diode_horz,
   "avalanche_diode_left": _avalanche_diode_left,
