@@ -1,11 +1,4 @@
-import { modifySymbol } from "../drawing/modify-symbol/modify-symbol"
-import svgJson from "assets/generated/and_gate.json"
+import { flipSymbolOverYAxis } from "../drawing/rotateSymbol"
+import andGateRight from "./and_gate_right"
 
-export default modifySymbol(svgJson)
-  .labelPort("left1", ["2", "in2", "input2", "b"])
-  .labelPort("left2", ["1", "in1", "input1", "a"])
-  .labelPort("right1", ["3", "out", "output", "y"])
-  .changeTextAnchor("{REF}", "middle_bottom")
-  .changeTextAnchor("{VAL}", "middle_top")
-  .rotateRightFacingSymbol("left")
-  .build()
+export default flipSymbolOverYAxis(andGateRight)
