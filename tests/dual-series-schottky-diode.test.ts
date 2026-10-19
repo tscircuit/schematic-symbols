@@ -31,8 +31,8 @@ test("dual series Schottky diode orientations preserve the exposed junction", ()
     const junctionDots = symbolCircles.filter((circle) => circle.fill)
 
     expect(anode?.labels, symbolName).toContain("1")
-    expect(cathode?.labels, symbolName).toContain("2")
-    expect(junction?.labels, symbolName).toContain("3")
+    expect(junction?.labels, symbolName).toContain("2")
+    expect(cathode?.labels, symbolName).toContain("3")
     expect(junction?.labels, symbolName).toContain("common")
     expect(closedDiodeBodies, symbolName).toHaveLength(2)
     expect(
@@ -40,6 +40,27 @@ test("dual series Schottky diode orientations preserve the exposed junction", ()
       symbolName,
     ).toHaveLength(0)
     expect(junctionDots, symbolName).toHaveLength(1)
+
+    const referenceText = diodePair.primitives.find(
+      (primitive) => primitive.type === "text" && primitive.text === "{REF}",
+    )
+    const valueText = diodePair.primitives.find(
+      (primitive) => primitive.type === "text" && primitive.text === "{VAL}",
+    )
+    expect(referenceText?.y, symbolName).toBeGreaterThan(valueText?.y ?? 0)
+    expect(referenceText?.anchor, symbolName).toBe(
+      orientation === "up" || orientation === "down"
+        ? "middle_left"
+        : "middle_bottom",
+    )
+    expect(valueText?.anchor, symbolName).toBe(
+      orientation === "up" || orientation === "down"
+        ? "middle_left"
+        : "middle_top",
+    )
+    if (orientation === "up" || orientation === "down") {
+      expect(referenceText?.x, symbolName).toBeCloseTo(valueText?.x ?? 0)
+    }
 
     for (const terminal of [anode, cathode, junction]) {
       expect(
