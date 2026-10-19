@@ -1,6 +1,7 @@
 import { expect, test } from "bun:test"
 import type { CirclePrimitive, PathPrimitive } from "../drawing/types"
 import symbols from "../generated/symbols-index"
+import { expectSymbolToBeYAxisMirror } from "./helpers/expect-symbol-to-be-y-axis-mirror"
 
 test("four-winding transformer orientations preserve winding terminals", () => {
   const expectedPinNumbers = [
@@ -115,4 +116,11 @@ test("four-winding transformer orientations preserve winding terminals", () => {
       ).toBeLessThan(endDistanceFromDot)
     }
   }
+})
+
+test("left-facing transformer preserves winding and polarity order", () => {
+  expectSymbolToBeYAxisMirror({
+    rightFacingSymbol: symbols.transformer_4_winding_right,
+    leftFacingSymbol: symbols.transformer_4_winding_left,
+  })
 })
