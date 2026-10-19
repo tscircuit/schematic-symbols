@@ -1,5 +1,6 @@
 import { expect, test } from "bun:test"
 import symbols from "../generated/symbols-index"
+import type { TextPrimitive } from "../drawing/types"
 
 const SYMBOL_ENDPOINT_TOLERANCE = 0.000001
 
@@ -42,10 +43,12 @@ test("dual series Schottky diode orientations preserve the exposed junction", ()
     expect(junctionDots, symbolName).toHaveLength(1)
 
     const referenceText = diodePair.primitives.find(
-      (primitive) => primitive.type === "text" && primitive.text === "{REF}",
+      (primitive): primitive is TextPrimitive =>
+        primitive.type === "text" && primitive.text === "{REF}",
     )
     const valueText = diodePair.primitives.find(
-      (primitive) => primitive.type === "text" && primitive.text === "{VAL}",
+      (primitive): primitive is TextPrimitive =>
+        primitive.type === "text" && primitive.text === "{VAL}",
     )
     expect(referenceText?.y, symbolName).toBeGreaterThan(valueText?.y ?? 0)
     expect(referenceText?.anchor, symbolName).toBe(
