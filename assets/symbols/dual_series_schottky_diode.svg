@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30mm" height="30mm" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g id="root">
+    <g id="dual_series_schottky_diode">
+      <path id="left-terminal-lead" d="M 8 15 H 11.061194" style="fill:none;stroke:#000000;stroke-width:0.128;stroke-linecap:round" />
+      <path id="diode-bridge" d="M 12.236045 15 H 17.744627" style="fill:none;stroke:#000000;stroke-width:0.128;stroke-linecap:round" />
+      <path id="right-terminal-lead" d="M 18.919303 15 H 22" style="fill:none;stroke:#000000;stroke-width:0.128;stroke-linecap:round" />
+      <path id="junction-lead" d="M 15 15 V 17.8" style="fill:none;stroke:#000000;stroke-width:0.128;stroke-linecap:round" />
+      <path id="first-diode-body" d="M 11.061194 14.339005 L 12.216194 15.010274 L 11.061194 15.671791 L 11.061194 14.339005 Z" style="fill:none;stroke:#000000;stroke-width:0.168;stroke-linejoin:miter" />
+      <path id="first-cathode-bar" d="M 12.236045 13.845348 V 16.145597 H 12.699925 V 15.879005" style="fill:none;stroke:#000000;stroke-width:0.128;stroke-linejoin:miter" />
+      <path id="first-cathode-upper-hook" d="M 11.762065 14.250025 L 11.77199 13.845348 H 12.236045" style="fill:none;stroke:#000000;stroke-width:0.128;stroke-linejoin:miter" />
+      <path id="second-diode-body" d="M 17.744627 14.339005 L 18.899627 15.010274 L 17.744627 15.671791 L 17.744627 14.339005 Z" style="fill:none;stroke:#000000;stroke-width:0.168;stroke-linejoin:miter" />
+      <path id="second-cathode-bar" d="M 18.919303 13.845348 V 16.145597 H 19.393109 V 15.879005" style="fill:none;stroke:#000000;stroke-width:0.128;stroke-linejoin:miter" />
+      <path id="second-cathode-upper-hook" d="M 18.455249 14.250025 L 18.465174 13.845348 H 18.919303" style="fill:none;stroke:#000000;stroke-width:0.128;stroke-linejoin:miter" />
+      <circle id="junction-dot" cx="15" cy="15" r="0.24291" style="fill:#000000;stroke:none" />
+      <circle id="refblock-left" cx="8" cy="15" r="0" fill="#ff0000" />
+      <circle id="refblock-right" cx="22" cy="15" r="0" fill="#ff0000" />
+      <circle id="refblock-bottom" cx="15" cy="17.8" r="0" fill="#ff0000" />
+      <text x="15" y="12.2" text-anchor="middle" font-family="monospace" font-size="1">{REF}</text>
+      <text x="15" y="19" text-anchor="middle" font-family="monospace" font-size="1">{VAL}</text>
+    </g>
+  </g>
+</svg>
