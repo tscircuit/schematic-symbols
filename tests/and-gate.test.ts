@@ -1,5 +1,6 @@
 import { expect, test } from "bun:test"
 import symbols from "../generated/symbols-index"
+import { expectSymbolToBeYAxisMirror } from "./helpers/expect-symbol-to-be-y-axis-mirror"
 
 test("AND gate orientations preserve two inputs and one output", () => {
   for (const orientation of ["right", "up", "left", "down"] as const) {
@@ -16,4 +17,11 @@ test("AND gate orientations preserve two inputs and one output", () => {
     expect(inputB?.labels, symbolName).toContain("2")
     expect(outputY?.labels, symbolName).toContain("3")
   }
+})
+
+test("left-facing AND gate mirrors without swapping its inputs", () => {
+  expectSymbolToBeYAxisMirror({
+    rightFacingSymbol: symbols.and_gate_right,
+    leftFacingSymbol: symbols.and_gate_left,
+  })
 })

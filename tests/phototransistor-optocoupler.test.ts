@@ -1,6 +1,7 @@
 import { expect, test } from "bun:test"
 import optocouplerAsset from "../assets/generated/phototransistor_optocoupler.json"
 import symbols from "../generated/symbols-index"
+import { expectSymbolToBeYAxisMirror } from "./helpers/expect-symbol-to-be-y-axis-mirror"
 
 const SYMBOL_ENDPOINT_TOLERANCE = 0.000001
 
@@ -95,4 +96,11 @@ test("phototransistor optocoupler orientations preserve terminal aliases", () =>
       ).toBe(true)
     }
   }
+})
+
+test("left-facing optocoupler preserves terminal vertical order", () => {
+  expectSymbolToBeYAxisMirror({
+    rightFacingSymbol: symbols.phototransistor_optocoupler_right,
+    leftFacingSymbol: symbols.phototransistor_optocoupler_left,
+  })
 })
