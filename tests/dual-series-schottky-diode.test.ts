@@ -1,6 +1,7 @@
 import { expect, test } from "bun:test"
 import symbols from "../generated/symbols-index"
 import type { TextPrimitive } from "../drawing/types"
+import { expectSymbolToBeYAxisMirror } from "./helpers/expect-symbol-to-be-y-axis-mirror"
 
 const SYMBOL_ENDPOINT_TOLERANCE = 0.000001
 
@@ -81,4 +82,11 @@ test("dual series Schottky diode orientations preserve the exposed junction", ()
       ).toBe(true)
     }
   }
+})
+
+test("left-facing Schottky pair keeps the common terminal below", () => {
+  expectSymbolToBeYAxisMirror({
+    rightFacingSymbol: symbols.dual_series_schottky_diode_right,
+    leftFacingSymbol: symbols.dual_series_schottky_diode_left,
+  })
 })

@@ -2,7 +2,7 @@ import svgJson from "assets/generated/dual_series_schottky_diode.json"
 import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
 import type { Point, SchSymbol } from "drawing/types"
 
-type SymbolOrientation = "right" | "up" | "left" | "down"
+type SymbolOrientation = "right" | "up" | "down"
 
 interface LabelLayout {
   reference: Point
@@ -13,10 +13,6 @@ const labelLayouts: Record<SymbolOrientation, LabelLayout> = {
   right: {
     reference: { x: 0, y: 0.34 },
     value: { x: 0, y: -0.34 },
-  },
-  left: {
-    reference: { x: 0, y: -0.34 },
-    value: { x: 0, y: 0.34 },
   },
   up: {
     reference: { x: 0.17, y: -0.34 },
