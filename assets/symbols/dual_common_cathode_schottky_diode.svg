@@ -2,18 +2,18 @@
 <svg width="30mm" height="30mm" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg">
   <g id="root">
     <g id="dual_common_cathode_schottky_diode">
-      <path id="upper-anode-lead" d="M 15 7 V 10.5" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linecap:round" />
-      <path id="lower-anode-lead" d="M 15 23 V 19.5" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linecap:round" />
-      <path id="upper-diode-body" d="M 14.2 10.5 L 15 12.1 L 15.8 10.5 Z" style="fill:#000000;stroke:#000000;stroke-width:0.18;stroke-linejoin:round" />
-      <path id="lower-diode-body" d="M 14.2 19.5 L 15 17.9 L 15.8 19.5 Z" style="fill:#000000;stroke:#000000;stroke-width:0.18;stroke-linejoin:round" />
-      <path id="upper-schottky-bar" d="M 14.1 12.1 H 15.9 M 14.1 12.1 V 11.6 H 14.45 M 15.9 12.1 V 12.6 H 15.55" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linejoin:round" />
-      <path id="lower-schottky-bar" d="M 14.1 17.9 H 15.9 M 14.1 17.9 V 17.4 H 14.45 M 15.9 17.9 V 18.4 H 15.55" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linejoin:round" />
-      <path id="upper-cathode-branch" d="M 15 12.1 V 15 H 16.2" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linecap:round;stroke-linejoin:round" />
-      <path id="lower-cathode-branch" d="M 15 17.9 V 15 H 16.2" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linecap:round;stroke-linejoin:round" />
-      <path id="common-cathode-lead" d="M 16.2 15 H 23" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linecap:round" />
-      <circle id="common-cathode-dot" cx="15" cy="15" r="0.2" style="fill:#000000;stroke:none" />
-      <circle id="refblock-top" cx="15" cy="7" r="0" fill="#ff0000" />
-      <circle id="refblock-bottom" cx="15" cy="23" r="0" fill="#ff0000" />
+      <path id="upper-anode-lead" d="M 7 13 H 8.8 L 10 12.5 H 11.4" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="lower-anode-lead" d="M 7 17 H 8.8 L 10 17.5 H 11.4" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="upper-diode-body" d="M 11.4 11.6 L 13 12.5 L 11.4 13.4 Z" style="fill:#000000;stroke:#000000;stroke-width:0.18;stroke-linejoin:round" />
+      <path id="lower-diode-body" d="M 11.4 16.6 L 13 17.5 L 11.4 18.4 Z" style="fill:#000000;stroke:#000000;stroke-width:0.18;stroke-linejoin:round" />
+      <path id="upper-schottky-bar" d="M 13 11.3 V 13.7 H 13.55 V 13.35 M 12.45 11.65 V 11.3 H 13" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linejoin:round" />
+      <path id="lower-schottky-bar" d="M 13 16.3 V 18.7 H 13.55 V 18.35 M 12.45 16.65 V 16.3 H 13" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linejoin:round" />
+      <path id="upper-cathode-branch" d="M 13 12.5 H 16.5 V 15" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="lower-cathode-branch" d="M 13 17.5 H 16.5 V 15" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="common-cathode-lead" d="M 16.5 15 H 23" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linecap:round" />
+      <circle id="common-cathode-dot" cx="16.5" cy="15" r="0.22" style="fill:#000000;stroke:none" />
+      <circle id="refblock-left-upper" cx="7" cy="13" r="0" fill="#ff0000" />
+      <circle id="refblock-left-lower" cx="7" cy="17" r="0" fill="#ff0000" />
       <circle id="refblock-right" cx="23" cy="15" r="0" fill="#ff0000" />
       <text x="15" y="10.2" text-anchor="middle" font-family="monospace" font-size="1">{REF}</text>
       <text x="15" y="20" text-anchor="middle" font-family="monospace" font-size="1">{VAL}</text>
