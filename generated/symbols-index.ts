@@ -146,10 +146,6 @@ import _dpst_switch_down from "./../symbols/dpst_switch_down"
 import _dpst_switch_left from "./../symbols/dpst_switch_left"
 import _dpst_switch_right from "./../symbols/dpst_switch_right"
 import _dpst_switch_up from "./../symbols/dpst_switch_up"
-import _dual_anode_schottky_diode_down from "./../symbols/dual_anode_schottky_diode_down"
-import _dual_anode_schottky_diode_left from "./../symbols/dual_anode_schottky_diode_left"
-import _dual_anode_schottky_diode_right from "./../symbols/dual_anode_schottky_diode_right"
-import _dual_anode_schottky_diode_up from "./../symbols/dual_anode_schottky_diode_up"
 import _dual_series_schottky_diode_down from "./../symbols/dual_series_schottky_diode_down"
 import _dual_series_schottky_diode_left from "./../symbols/dual_series_schottky_diode_left"
 import _dual_series_schottky_diode_right from "./../symbols/dual_series_schottky_diode_right"
@@ -340,6 +336,10 @@ import _schmitt_trigger_inverter_down from "./../symbols/schmitt_trigger_inverte
 import _schmitt_trigger_inverter_left from "./../symbols/schmitt_trigger_inverter_left"
 import _schmitt_trigger_inverter_right from "./../symbols/schmitt_trigger_inverter_right"
 import _schmitt_trigger_inverter_up from "./../symbols/schmitt_trigger_inverter_up"
+import _schottky_diode_3_pin_down from "./../symbols/schottky_diode_3_pin_down"
+import _schottky_diode_3_pin_left from "./../symbols/schottky_diode_3_pin_left"
+import _schottky_diode_3_pin_right from "./../symbols/schottky_diode_3_pin_right"
+import _schottky_diode_3_pin_up from "./../symbols/schottky_diode_3_pin_up"
 import _schottky_diode_down from "./../symbols/schottky_diode_down"
 import _schottky_diode_left from "./../symbols/schottky_diode_left"
 import _schottky_diode_right from "./../symbols/schottky_diode_right"
@@ -597,10 +597,6 @@ export default {
   "dpst_switch_left": _dpst_switch_left,
   "dpst_switch_right": _dpst_switch_right,
   "dpst_switch_up": _dpst_switch_up,
-  "dual_anode_schottky_diode_down": _dual_anode_schottky_diode_down,
-  "dual_anode_schottky_diode_left": _dual_anode_schottky_diode_left,
-  "dual_anode_schottky_diode_right": _dual_anode_schottky_diode_right,
-  "dual_anode_schottky_diode_up": _dual_anode_schottky_diode_up,
   "dual_series_schottky_diode_down": _dual_series_schottky_diode_down,
   "dual_series_schottky_diode_left": _dual_series_schottky_diode_left,
   "dual_series_schottky_diode_right": _dual_series_schottky_diode_right,
@@ -791,6 +787,10 @@ export default {
   "schmitt_trigger_inverter_left": _schmitt_trigger_inverter_left,
   "schmitt_trigger_inverter_right": _schmitt_trigger_inverter_right,
   "schmitt_trigger_inverter_up": _schmitt_trigger_inverter_up,
+  "schottky_diode_3_pin_down": _schottky_diode_3_pin_down,
+  "schottky_diode_3_pin_left": _schottky_diode_3_pin_left,
+  "schottky_diode_3_pin_right": _schottky_diode_3_pin_right,
+  "schottky_diode_3_pin_up": _schottky_diode_3_pin_up,
   "schottky_diode_down": _schottky_diode_down,
   "schottky_diode_left": _schottky_diode_left,
   "schottky_diode_right": _schottky_diode_right,
