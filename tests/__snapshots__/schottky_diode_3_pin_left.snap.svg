@@ -1,0 +1,48 @@
+<svg width="150" height="150" viewBox="-0.96 -0.7120000000000001 1.92 1.344" xmlns="http://www.w3.org/2000/svg"><path d="M-0.14,-0.04 L0.12,0.09" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.12,-0.18 L-0.14,-0.04" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.12,0.09 L0.12,-0.18" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.14,-0.18 L-0.14,0.09" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.12,-0.04 L0.52,-0.04" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.52,-0.04 L-0.15,-0.04" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.21,-0.18 L-0.14,-0.18" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.21,-0.13 L-0.21,-0.18" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.08,0.09 L-0.14,0.09" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.08,0.04 L-0.08,0.09" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="0.01" y="-0.27" dx="0" dy="0" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.0025000000000000005" y="-0.28250000000000003" width="0.025" height="0.025" fill="blue" />
+    <text x="0" y="0.27" dx="0" dy="0.07500000000000001" text-anchor="middle" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.0125" y="0.2575" width="0.025" height="0.025" fill="blue" />
+    <path d="M0.8,-0.3 L0.52,-0.3" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.8,0.3 L0.52,0.3" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0.52,0.3 L0.52,-0.3" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+
+    
+    <line x1="0.775" y1="-0.325" x2="0.8250000000000001" y2="-0.27499999999999997" stroke="red" stroke-width="0.004" />
+    <line x1="0.775" y1="-0.27499999999999997" x2="0.8250000000000001" y2="-0.325" stroke="red" stroke-width="0.004" />
+  
+    <text x="0.76" y="-0.21"
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
+  
+    
+    
+    <line x1="0.775" y1="0.27499999999999997" x2="0.8250000000000001" y2="0.325" stroke="red" stroke-width="0.004" />
+    <line x1="0.775" y1="0.325" x2="0.8250000000000001" y2="0.27499999999999997" stroke="red" stroke-width="0.004" />
+  
+    <text x="0.76" y="0.38999999999999996"
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+  
+    
+    
+    <line x1="-0.545" y1="-0.065" x2="-0.495" y2="-0.015" stroke="red" stroke-width="0.004" />
+    <line x1="-0.545" y1="-0.015" x2="-0.495" y2="-0.065" stroke="red" stroke-width="0.004" />
+  
+    <text x="-0.56" y="0.05"
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
+  
+<path d="M 0 -0.065 L 0.025 -0.04 L 0 -0.015 L -0.025 -0.04 Z" fill="green" />
+<text x="-0.8" y="-0.52" style="font: 0.05px monospace; fill: #833;">1.60 x 1.12</text>
+<text x="-0.8" y="-0.5700000000000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [anode1, a1, anode, a]</text>
+<text x="-0.8" y="-0.62" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [anode2, a2, anode, a]</text>
+<text x="-0.8" y="-0.67" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [cathode, k]</text>
+<text x="-0.8" y="-0.52" style="font: 0.05px monospace; fill: #833;">1.60 x 1.12</text>
+<text x="-0.8" y="-0.5700000000000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [anode1, a1, anode, a]</text>
+<text x="-0.8" y="-0.62" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [anode2, a2, anode, a]</text>
+<text x="-0.8" y="-0.67" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [cathode, k]</text></svg>
