@@ -2,14 +2,14 @@
 <svg width="30mm" height="30mm" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg">
   <g id="root">
     <g id="coupled_inductor">
-      <path id="upper-winding" d="M 8 12 H 11 C 11 10.9 13 10.9 13 12 C 13 10.9 15 10.9 15 12 C 15 10.9 17 10.9 17 12 C 17 10.9 19 10.9 19 12 H 22" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
-      <path id="lower-winding" d="M 8 18 H 11 C 11 19.1 13 19.1 13 18 C 13 19.1 15 19.1 15 18 C 15 19.1 17 19.1 17 18 C 17 19.1 19 19.1 19 18 H 22" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="upper-winding" d="M 9 12 H 11 C 11 10.9 13 10.9 13 12 C 13 10.9 15 10.9 15 12 C 15 10.9 17 10.9 17 12 C 17 10.9 19 10.9 19 12 H 21" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="lower-winding" d="M 9 18 H 11 C 11 19.1 13 19.1 13 18 C 13 19.1 15 19.1 15 18 C 15 19.1 17 19.1 17 18 C 17 19.1 19 19.1 19 18 H 21" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
       <path id="upper-core" d="M 11.4 14.35 H 18.6" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linecap:round" />
       <path id="lower-core" d="M 11.4 15.65 H 18.6" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linecap:round" />
-      <circle id="refblock-left-upper" cx="8" cy="12" r="0" fill="#ff0000" />
-      <circle id="refblock-right-upper" cx="22" cy="12" r="0" fill="#ff0000" />
-      <circle id="refblock-left-lower" cx="8" cy="18" r="0" fill="#ff0000" />
-      <circle id="refblock-right-lower" cx="22" cy="18" r="0" fill="#ff0000" />
+      <circle id="refblock-left-upper" cx="9" cy="12" r="0" fill="#ff0000" />
+      <circle id="refblock-right-upper" cx="21" cy="12" r="0" fill="#ff0000" />
+      <circle id="refblock-left-lower" cx="9" cy="18" r="0" fill="#ff0000" />
+      <circle id="refblock-right-lower" cx="21" cy="18" r="0" fill="#ff0000" />
       <text x="15" y="9.8" text-anchor="middle" font-family="monospace" font-size="1">{REF}</text>
       <text x="15" y="20.2" text-anchor="middle" font-family="monospace" font-size="1">{VAL}</text>
     </g>
