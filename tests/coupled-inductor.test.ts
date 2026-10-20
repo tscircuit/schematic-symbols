@@ -47,9 +47,9 @@ test("coupled inductor orientations preserve two separate windings", () => {
     ).toHaveLength(2)
 
     if (orientation === "right" || orientation === "left") {
-      const windingPaths = coupledInductor.primitives.filter(
-        (primitive) => primitive.type === "path" && primitive.points.length > 2,
-      )
+      const windingPaths = coupledInductor.primitives
+        .filter((primitive) => primitive.type === "path")
+        .filter((path) => path.points.length > 2)
       expect(
         windingPaths.map((path) => countVerticalDirectionChanges(path.points)),
         `${symbolName} has four turns in each winding`,
