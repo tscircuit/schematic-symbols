@@ -14,7 +14,7 @@ const VARIANT_NAMES = [
   "n_channel_power_mosfet_5_pin_gate_bottom_drain_right",
 ] as const
 
-test("three source identities share one manufacturer-style terminal", () => {
+test("three source package leads emerge from one shared source bus", () => {
   const gate = fiveTerminalMosfet.ports.find((port) =>
     port.labels.includes("gate"),
   )
@@ -25,15 +25,22 @@ test("three source identities share one manufacturer-style terminal", () => {
     port.labels.includes("source"),
   )
 
-  expect(gate).toMatchObject({ x: -0.42, y: -0.1 })
-  expect(drain).toMatchObject({ x: 0.3, y: 0.55 })
+  expect(gate).toMatchObject({ x: -0.29, y: -0.1 })
+  expect(drain).toMatchObject({ x: 0.31, y: 0.5 })
   expect(sources).toHaveLength(3)
-  expect(
-    sources.every(
-      (source) => source.x === sources[0]?.x && source.y === sources[0]?.y,
-    ),
-  ).toBe(true)
-  expect(sources[0]).toMatchObject({ x: 0.31, y: -0.55 })
+  expect(sources.map(({ x, y }) => ({ x, y }))).toEqual([
+    { x: 0.16, y: -0.55 },
+    { x: 0.31, y: -0.55 },
+    { x: 0.46, y: -0.55 },
+  ])
+
+  const sourceBus = fiveTerminalMosfet.primitives.find(
+    (primitive) =>
+      primitive.type === "path" &&
+      primitive.points.length === 2 &&
+      primitive.points.every((point) => point.y === -0.32),
+  )
+  expect(sourceBus).toBeDefined()
 })
 
 test("five-terminal power MOSFET variants preserve gate, drain, and three source terminals", () => {

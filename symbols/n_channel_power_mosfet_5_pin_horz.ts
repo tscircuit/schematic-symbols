@@ -1,19 +1,74 @@
-import type { PathPrimitive, Port, SchSymbol } from "../drawing/types"
+import { getSizeForCenteredTerminalBox } from "../drawing/getSizeForCenteredTerminalBox"
+import type {
+  PathPrimitive,
+  Point,
+  Port,
+  Primitive,
+  SchSymbol,
+} from "../drawing/types"
 import nChannelEnhancementMosfet from "./n_channel_e_mosfet_transistor_horz"
 
-const getRequiredPort = (symbol: SchSymbol, portLabel: string): Port => {
-  const port = symbol.ports.find((candidate) =>
-    candidate.labels.includes(portLabel),
-  )
-  if (!port) {
-    throw new Error(`The base N-channel MOSFET must expose a ${portLabel} port`)
-  }
-  return port
-}
+const POINT_TOLERANCE = 0.000001
 
-const gatePort = getRequiredPort(nChannelEnhancementMosfet, "gate")
-const drainPort = getRequiredPort(nChannelEnhancementMosfet, "drain")
-const sourcePort = getRequiredPort(nChannelEnhancementMosfet, "source")
+const pointsMatch = (firstPoint: Point, secondPoint: Point): boolean =>
+  Math.hypot(firstPoint.x - secondPoint.x, firstPoint.y - secondPoint.y) <
+  POINT_TOLERANCE
+
+const baseTerminalPorts = nChannelEnhancementMosfet.ports
+
+const isBaseTerminalLead = (primitive: Primitive): boolean =>
+  primitive.type === "path" &&
+  primitive.points.some((point) =>
+    baseTerminalPorts.some((port) => pointsMatch(point, port)),
+  )
+
+const GATE_PORT = { x: -0.29, y: -0.1 }
+const DRAIN_PORT = { x: 0.31, y: 0.5 }
+const SOURCE_PORTS = [
+  { x: 0.16, y: -0.55 },
+  { x: 0.31, y: -0.55 },
+  { x: 0.46, y: -0.55 },
+] as const
+const SOURCE_BUS_Y = -0.32
+
+const terminalLeadPaths: PathPrimitive[] = [
+  {
+    type: "path",
+    points: [GATE_PORT, { x: 0.05, y: -0.11 }],
+    color: "primary",
+    fill: false,
+  },
+  {
+    type: "path",
+    points: [DRAIN_PORT, { x: 0.31, y: 0.11 }],
+    color: "primary",
+    fill: false,
+  },
+  {
+    type: "path",
+    points: [
+      { x: SOURCE_PORTS[0].x, y: SOURCE_BUS_Y },
+      { x: SOURCE_PORTS[2].x, y: SOURCE_BUS_Y },
+    ],
+    color: "primary",
+    fill: false,
+  },
+  ...SOURCE_PORTS.map<PathPrimitive>((sourceTerminal) => ({
+    type: "path",
+    points: [sourceTerminal, { x: sourceTerminal.x, y: SOURCE_BUS_Y }],
+    color: "primary",
+    fill: false,
+  })),
+  {
+    type: "path",
+    points: [
+      { x: SOURCE_PORTS[1].x, y: SOURCE_BUS_Y },
+      { x: 0.31, y: -0.01 },
+    ],
+    color: "primary",
+    fill: false,
+  },
+]
 
 const bodyDiodePaths: PathPrimitive[] = [
   {
@@ -58,19 +113,28 @@ const bodyDiodePaths: PathPrimitive[] = [
   },
 ]
 
-const sourcePorts: Port[] = ["1", "2", "3"].map((pinNumber) => ({
-  ...sourcePort,
-  labels: [pinNumber, `source${pinNumber}`, `s${pinNumber}`, "source"],
+const sourcePorts: Port[] = SOURCE_PORTS.map((sourceTerminal, index) => ({
+  ...sourceTerminal,
+  labels: [String(index + 1), `source${index + 1}`, `s${index + 1}`, "source"],
 }))
+
+const ports: Port[] = [
+  { ...GATE_PORT, labels: ["4", "gate", "g"] },
+  { ...DRAIN_PORT, labels: ["5", "drain", "d"] },
+  ...sourcePorts,
+]
 
 const fiveTerminalPowerMosfet: SchSymbol = {
   ...nChannelEnhancementMosfet,
-  primitives: [...nChannelEnhancementMosfet.primitives, ...bodyDiodePaths],
-  ports: [
-    { ...gatePort, labels: ["4", "gate", "g"] },
-    { ...drainPort, labels: ["5", "drain", "d"] },
-    ...sourcePorts,
+  primitives: [
+    ...nChannelEnhancementMosfet.primitives.filter(
+      (primitive) => !isBaseTerminalLead(primitive),
+    ),
+    ...terminalLeadPaths,
+    ...bodyDiodePaths,
   ],
+  ports,
+  size: getSizeForCenteredTerminalBox(nChannelEnhancementMosfet.center, ports),
 }
 
 export default fiveTerminalPowerMosfet
