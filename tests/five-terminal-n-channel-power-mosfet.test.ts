@@ -52,13 +52,19 @@ test("five-terminal power MOSFET variants preserve gate, drain, and three source
       port.labels.includes("source"),
     )
 
-    expect(gate?.labels, symbolName).toContain("4")
+    expect(gate?.labels, symbolName).toContain("1")
     expect(drain?.labels, symbolName).toContain("5")
     expect(sources, symbolName).toHaveLength(3)
     expect(
       sources.map((source) => source.labels[0]).sort(),
       symbolName,
-    ).toEqual(["1", "2", "3"])
+    ).toEqual(["2", "3", "4"])
+    expect(
+      sources.flatMap((source) => source.labels),
+      symbolName,
+    ).toEqual(
+      expect.arrayContaining(["source_left", "source_center", "source_right"]),
+    )
 
     for (const port of mosfet.ports) {
       expect(

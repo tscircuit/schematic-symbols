@@ -12,7 +12,7 @@
     <line x1="0.475" y1="0.12500000000000008" x2="0.525" y2="0.0750000000000001" stroke="red" stroke-width="0.004" />
   
     <text x="0.46" y="0.19000000000000009"
-      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
   
     
     
@@ -28,7 +28,7 @@
     <line x1="-0.525" y1="0.12500000000000008" x2="-0.475" y2="0.0750000000000001" stroke="red" stroke-width="0.004" />
   
     <text x="-0.54" y="0.19000000000000009"
-      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">4</text>
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
   
     
     
@@ -36,16 +36,16 @@
     <line x1="-0.525" y1="-0.07499999999999987" x2="-0.475" y2="-0.12499999999999986" stroke="red" stroke-width="0.004" />
   
     <text x="-0.54" y="-0.009999999999999863"
-      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">4</text>
   
 <path d="M 0 -0.024999999999999946 L 0.025 5.551115123125783e-17 L 0 0.025000000000000057 L -0.025 5.551115123125783e-17 Z" fill="green" />
 <text x="-0.7" y="-0.6000000000000001" style="font: 0.05px monospace; fill: #833;">1.40 x 1.20</text>
-<text x="-0.7" y="-0.6500000000000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [plate1_terminal2]</text>
+<text x="-0.7" y="-0.6500000000000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [plate1_terminal2]</text>
 <text x="-0.7" y="-0.7000000000000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [plate1_terminal1]</text>
-<text x="-0.7" y="-0.7500000000000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [plate2_terminal2]</text>
-<text x="-0.7" y="-0.8" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [plate2_terminal1]</text>
+<text x="-0.7" y="-0.7500000000000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [plate2_terminal2]</text>
+<text x="-0.7" y="-0.8" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [plate2_terminal1]</text>
 <text x="-0.7" y="-0.6000000000000001" style="font: 0.05px monospace; fill: #833;">1.40 x 1.20</text>
-<text x="-0.7" y="-0.6500000000000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [plate1_terminal2]</text>
+<text x="-0.7" y="-0.6500000000000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [plate1_terminal2]</text>
 <text x="-0.7" y="-0.7000000000000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [plate1_terminal1]</text>
-<text x="-0.7" y="-0.7500000000000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [plate2_terminal2]</text>
-<text x="-0.7" y="-0.8" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [plate2_terminal1]</text></svg>
+<text x="-0.7" y="-0.7500000000000001" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [plate2_terminal2]</text>
+<text x="-0.7" y="-0.8" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [plate2_terminal1]</text></svg>

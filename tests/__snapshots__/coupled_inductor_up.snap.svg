@@ -20,7 +20,7 @@
     <line x1="0.16500000000000004" y1="-0.475" x2="0.21500000000000002" y2="-0.525" stroke="red" stroke-width="0.004" />
   
     <text x="0.15000000000000002" y="-0.41000000000000003"
-      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">4</text>
   
     
     
@@ -28,7 +28,7 @@
     <line x1="-0.21500000000000002" y1="0.525" x2="-0.16500000000000004" y2="0.475" stroke="red" stroke-width="0.004" />
   
     <text x="-0.23000000000000004" y="0.5900000000000001"
-      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
   
     
     
@@ -36,16 +36,16 @@
     <line x1="0.16499999999999998" y1="0.525" x2="0.21499999999999997" y2="0.475" stroke="red" stroke-width="0.004" />
   
     <text x="0.14999999999999997" y="0.5900000000000001"
-      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">4</text>
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
   
 <path d="M 0 -0.025 L 0.025 0 L 0 0.025 L -0.025 0 Z" fill="green" />
 <text x="-0.48" y="-0.5" style="font: 0.05px monospace; fill: #833;">0.96 x 1.00</text>
 <text x="-0.48" y="-0.55" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [winding1_start]</text>
-<text x="-0.48" y="-0.6" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [winding2_start]</text>
-<text x="-0.48" y="-0.65" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [winding1_end]</text>
-<text x="-0.48" y="-0.7" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [winding2_end]</text>
+<text x="-0.48" y="-0.6" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [winding2_start]</text>
+<text x="-0.48" y="-0.65" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [winding1_end]</text>
+<text x="-0.48" y="-0.7" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [winding2_end]</text>
 <text x="-0.48" y="-0.5" style="font: 0.05px monospace; fill: #833;">0.96 x 1.00</text>
 <text x="-0.48" y="-0.55" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [winding1_start]</text>
-<text x="-0.48" y="-0.6" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [winding2_start]</text>
-<text x="-0.48" y="-0.65" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [winding1_end]</text>
-<text x="-0.48" y="-0.7" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [winding2_end]</text></svg>
+<text x="-0.48" y="-0.6" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [winding2_start]</text>
+<text x="-0.48" y="-0.65" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [winding1_end]</text>
+<text x="-0.48" y="-0.7" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [winding2_end]</text></svg>

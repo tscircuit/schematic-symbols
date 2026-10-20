@@ -29,6 +29,11 @@ const SOURCE_PORTS = [
   { x: 0.31, y: -0.55 },
   { x: 0.46, y: -0.55 },
 ] as const
+const SOURCE_PORT_LABELS = [
+  ["2", "source_left", "source"],
+  ["3", "source_center", "source"],
+  ["4", "source_right", "source"],
+] as const
 const SOURCE_BUS_Y = -0.32
 
 const terminalLeadPaths: PathPrimitive[] = [
@@ -115,11 +120,11 @@ const bodyDiodePaths: PathPrimitive[] = [
 
 const sourcePorts: Port[] = SOURCE_PORTS.map((sourceTerminal, index) => ({
   ...sourceTerminal,
-  labels: [String(index + 1), `source${index + 1}`, `s${index + 1}`, "source"],
+  labels: [...SOURCE_PORT_LABELS[index]],
 }))
 
 const ports: Port[] = [
-  { ...GATE_PORT, labels: ["4", "gate", "g"] },
+  { ...GATE_PORT, labels: ["1", "gate", "g"] },
   { ...DRAIN_PORT, labels: ["5", "drain", "d"] },
   ...sourcePorts,
 ]
