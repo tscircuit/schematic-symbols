@@ -26,3 +26,29 @@ test("OR gate geometry and terminal identities remain correct in every orientati
     leftFacingSymbol: symbols.or_gate_left,
   })
 })
+
+test("powered OR gate variants preserve package power and signal terminals", () => {
+  for (const orientation of ["right", "up", "left", "down"] as const) {
+    const symbolName = ("or_gate_with_power_" +
+      orientation) as keyof typeof symbols
+    const orGate = symbols[symbolName]
+
+    for (const terminal of [
+      ["a", "1"],
+      ["b", "2"],
+      ["gnd", "3"],
+      ["y", "4"],
+      ["vcc", "5"],
+    ] as const) {
+      const port = orGate.ports.find((candidate) =>
+        candidate.labels.includes(terminal[0]),
+      )
+      expect(port?.labels, symbolName).toContain(terminal[1])
+    }
+  }
+
+  expectSymbolToBeYAxisMirror({
+    rightFacingSymbol: symbols.or_gate_with_power_right,
+    leftFacingSymbol: symbols.or_gate_with_power_left,
+  })
+})
