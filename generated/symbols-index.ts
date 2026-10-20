@@ -74,6 +74,10 @@ import _constant_current_diode_left from "./../symbols/constant_current_diode_le
 import _constant_current_diode_right from "./../symbols/constant_current_diode_right"
 import _constant_current_diode_up from "./../symbols/constant_current_diode_up"
 import _constant_current_diode_vert from "./../symbols/constant_current_diode_vert"
+import _coupled_inductor_down from "./../symbols/coupled_inductor_down"
+import _coupled_inductor_left from "./../symbols/coupled_inductor_left"
+import _coupled_inductor_right from "./../symbols/coupled_inductor_right"
+import _coupled_inductor_up from "./../symbols/coupled_inductor_up"
 import _crystal_4pin_down from "./../symbols/crystal_4pin_down"
 import _crystal_4pin_left from "./../symbols/crystal_4pin_left"
 import _crystal_4pin_right from "./../symbols/crystal_4pin_right"
@@ -521,6 +525,10 @@ export default {
   "constant_current_diode_right": _constant_current_diode_right,
   "constant_current_diode_up": _constant_current_diode_up,
   "constant_current_diode_vert": _constant_current_diode_vert,
+  "coupled_inductor_down": _coupled_inductor_down,
+  "coupled_inductor_left": _coupled_inductor_left,
+  "coupled_inductor_right": _coupled_inductor_right,
+  "coupled_inductor_up": _coupled_inductor_up,
   "crystal_4pin_down": _crystal_4pin_down,
   "crystal_4pin_left": _crystal_4pin_left,
   "crystal_4pin_right": _crystal_4pin_right,
