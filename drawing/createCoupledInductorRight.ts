@@ -1,18 +1,18 @@
 import inductorRight from "../symbols/inductor_right"
 import type { PathPrimitive, Point, Port, SchSymbol } from "./types"
 
-const WINDING_CENTER_Y = 0.28
-const CORE_HALF_LENGTH = 0.32
-const CORE_OFFSET_Y = 0.1
-const POLARITY_DOT_X = 0.4
-const POLARITY_DOT_Y = 0.42
-
 const inductorPaths = inductorRight.primitives.filter(
   (primitive): primitive is PathPrimitive => primitive.type === "path",
 )
 const inductorPoints = inductorPaths.flatMap((windingPath) =>
   windingPath.points.map((point) => point),
 )
+const TERMINAL_X = Math.max(
+  ...inductorRight.ports.map((port) => Math.abs(port.x)),
+)
+const WINDING_CENTER_Y = TERMINAL_X / 2
+const leftWindingX = Math.min(...inductorPoints.map((point) => point.x))
+const rightWindingX = Math.max(...inductorPoints.map((point) => point.x))
 
 const transformWindingPoint = ({
   point,
@@ -22,12 +22,22 @@ const transformWindingPoint = ({
   point: Point
   windingCenterY: number
   mirrorVertically: boolean
-}): Point => ({
-  x: point.x - inductorRight.center.x,
-  y:
-    (point.y - inductorRight.center.y) * (mirrorVertically ? -1 : 1) +
-    windingCenterY,
-})
+}): Point => {
+  const isLeftTerminal = point.x === leftWindingX
+  const isRightTerminal = point.x === rightWindingX
+  return {
+    x: isLeftTerminal
+      ? -TERMINAL_X
+      : isRightTerminal
+        ? TERMINAL_X
+        : point.x - inductorRight.center.x,
+    y:
+      isLeftTerminal || isRightTerminal
+        ? windingCenterY
+        : (point.y - inductorRight.center.y) * (mirrorVertically ? -1 : 1) +
+          windingCenterY,
+  }
+}
 
 const createWindingPaths = ({
   windingCenterY,
@@ -59,13 +69,6 @@ const createWindingPort = ({
 })
 
 export const createCoupledInductorRight = (): SchSymbol => {
-  const leftPort = inductorPoints.reduce((leftmostPoint, point) =>
-    point.x < leftmostPoint.x ? point : leftmostPoint,
-  )
-  const rightPort = inductorPoints.reduce((rightmostPoint, point) =>
-    point.x > rightmostPoint.x ? point : rightmostPoint,
-  )
-
   const upperWinding = createWindingPaths({
     windingCenterY: WINDING_CENTER_Y,
     mirrorVertically: false,
@@ -86,25 +89,25 @@ export const createCoupledInductorRight = (): SchSymbol => {
       ...upperWinding,
       ...lowerWinding,
       path([
-        { x: -CORE_HALF_LENGTH, y: CORE_OFFSET_Y },
-        { x: CORE_HALF_LENGTH, y: CORE_OFFSET_Y },
+        { x: -0.32, y: 0.1 },
+        { x: 0.32, y: 0.1 },
       ]),
       path([
-        { x: -CORE_HALF_LENGTH, y: -CORE_OFFSET_Y },
-        { x: CORE_HALF_LENGTH, y: -CORE_OFFSET_Y },
+        { x: -0.32, y: -0.1 },
+        { x: 0.32, y: -0.1 },
       ]),
       {
         type: "circle",
-        x: POLARITY_DOT_X,
-        y: POLARITY_DOT_Y,
+        x: -0.4,
+        y: 0.42,
         radius: 0.035,
         color: "primary",
         fill: true,
       },
       {
         type: "circle",
-        x: POLARITY_DOT_X,
-        y: -POLARITY_DOT_Y,
+        x: -0.4,
+        y: -0.42,
         radius: 0.035,
         color: "primary",
         fill: true,
@@ -126,25 +129,25 @@ export const createCoupledInductorRight = (): SchSymbol => {
     ],
     ports: [
       createWindingPort({
-        port: rightPort,
+        port: { x: -TERMINAL_X, y: inductorRight.center.y },
         windingCenterY: WINDING_CENTER_Y,
         mirrorVertically: false,
         labels: ["1", "winding1_start"],
       }),
       createWindingPort({
-        port: rightPort,
-        windingCenterY: -WINDING_CENTER_Y,
-        mirrorVertically: true,
-        labels: ["2", "winding2_start"],
-      }),
-      createWindingPort({
-        port: leftPort,
+        port: { x: TERMINAL_X, y: inductorRight.center.y },
         windingCenterY: WINDING_CENTER_Y,
         mirrorVertically: false,
-        labels: ["3", "winding1_end"],
+        labels: ["2", "winding1_end"],
       }),
       createWindingPort({
-        port: leftPort,
+        port: { x: -TERMINAL_X, y: inductorRight.center.y },
+        windingCenterY: -WINDING_CENTER_Y,
+        mirrorVertically: true,
+        labels: ["3", "winding2_start"],
+      }),
+      createWindingPort({
+        port: { x: TERMINAL_X, y: inductorRight.center.y },
         windingCenterY: -WINDING_CENTER_Y,
         mirrorVertically: true,
         labels: ["4", "winding2_end"],
