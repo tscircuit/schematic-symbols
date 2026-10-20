@@ -12,33 +12,17 @@
     <path d="M-0.26395624999999995,0.5279125 L-0.2607419000000001,0.4011975999999997" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.09999999999999999,-0.32 L0.10000000000000002,0.32" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M-0.10000000000000002,-0.32 L-0.09999999999999999,0.32" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <circle cx="0.42" cy="-0.4" r="0.035" fill="black"  />
-    <circle cx="-0.42" cy="-0.4" r="0.035" fill="black"  />
+    <circle cx="0.42" cy="0.4" r="0.035" fill="black"  />
+    <circle cx="-0.42" cy="0.4" r="0.035" fill="black"  />
     <text x="0.66" y="-4.041334437186266e-17" dx="0" dy="0.037500000000000006" text-anchor="start" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="0.6475000000000001" y="-0.01250000000000004" width="0.025" height="0.025" fill="blue" />
     <text x="-0.66" y="4.041334437186266e-17" dx="0" dy="0.037500000000000006" text-anchor="end" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.6725" y="-0.01249999999999996" width="0.025" height="0.025" fill="blue" />
 
-    
-    <line x1="0.23895624999999995" y1="-0.5529125" x2="0.28895624999999997" y2="-0.5029125" stroke="red" stroke-width="0.004" />
-    <line x1="0.23895624999999995" y1="-0.5029125" x2="0.28895624999999997" y2="-0.5529125" stroke="red" stroke-width="0.004" />
-  
-    <text x="0.22395624999999994" y="-0.43791250000000004"
-      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
-  
-    
     
     <line x1="0.23895625000000006" y1="0.5029125" x2="0.2889562500000001" y2="0.5529125" stroke="red" stroke-width="0.004" />
     <line x1="0.23895625000000006" y1="0.5529125" x2="0.2889562500000001" y2="0.5029125" stroke="red" stroke-width="0.004" />
   
     <text x="0.22395625000000005" y="0.6179125000000001"
-      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
-  
-    
-    
-    <line x1="-0.2889562500000001" y1="-0.5529125" x2="-0.23895625000000006" y2="-0.5029125" stroke="red" stroke-width="0.004" />
-    <line x1="-0.2889562500000001" y1="-0.5029125" x2="-0.23895625000000006" y2="-0.5529125" stroke="red" stroke-width="0.004" />
-  
-    <text x="-0.30395625000000004" y="-0.43791250000000004"
-      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">1</text>
   
     
     
@@ -46,16 +30,32 @@
     <line x1="-0.28895624999999997" y1="0.5529125" x2="-0.23895624999999995" y2="0.5029125" stroke="red" stroke-width="0.004" />
   
     <text x="-0.30395624999999993" y="0.6179125000000001"
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+  
+    
+    
+    <line x1="0.23895624999999995" y1="-0.5529125" x2="0.28895624999999997" y2="-0.5029125" stroke="red" stroke-width="0.004" />
+    <line x1="0.23895624999999995" y1="-0.5029125" x2="0.28895624999999997" y2="-0.5529125" stroke="red" stroke-width="0.004" />
+  
+    <text x="0.22395624999999994" y="-0.43791250000000004"
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
+  
+    
+    
+    <line x1="-0.2889562500000001" y1="-0.5529125" x2="-0.23895625000000006" y2="-0.5029125" stroke="red" stroke-width="0.004" />
+    <line x1="-0.2889562500000001" y1="-0.5029125" x2="-0.23895625000000006" y2="-0.5529125" stroke="red" stroke-width="0.004" />
+  
+    <text x="-0.30395625000000004" y="-0.43791250000000004"
       text-anchor="middle" style="font: 0.08px monospace; fill: #833;">4</text>
   
 <path d="M 0 -0.025 L 0.025 0 L 0 0.025 L -0.025 0 Z" fill="green" />
 <text x="-0.66" y="-0.5279125" style="font: 0.05px monospace; fill: #833;">1.32 x 1.06</text>
 <text x="-0.66" y="-0.5779125" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [winding1_start]</text>
-<text x="-0.66" y="-0.6279125" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [winding1_end]</text>
-<text x="-0.66" y="-0.6779125" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [winding2_start]</text>
+<text x="-0.66" y="-0.6279125" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [winding2_start]</text>
+<text x="-0.66" y="-0.6779125" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [winding1_end]</text>
 <text x="-0.66" y="-0.7279125" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [winding2_end]</text>
 <text x="-0.66" y="-0.5279125" style="font: 0.05px monospace; fill: #833;">1.32 x 1.06</text>
 <text x="-0.66" y="-0.5779125" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [winding1_start]</text>
-<text x="-0.66" y="-0.6279125" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [winding1_end]</text>
-<text x="-0.66" y="-0.6779125" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [winding2_start]</text>
+<text x="-0.66" y="-0.6279125" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [winding2_start]</text>
+<text x="-0.66" y="-0.6779125" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [winding1_end]</text>
 <text x="-0.66" y="-0.7279125" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [winding2_end]</text></svg>
