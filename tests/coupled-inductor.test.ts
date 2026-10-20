@@ -2,18 +2,12 @@ import { expect, test } from "bun:test"
 import symbols from "../generated/symbols-index"
 import { expectSymbolToBeYAxisMirror } from "./helpers/expect-symbol-to-be-y-axis-mirror"
 
-const countVerticalDirectionChanges = (
-  points: Array<{ x: number; y: number }>,
-): number => {
-  const verticalDirections = points
-    .slice(1)
-    .map((point, index) => Math.sign(point.y - points[index]!.y))
-    .filter((direction) => direction !== 0)
-  return verticalDirections
-    .slice(1)
-    .filter((direction, index) => direction !== verticalDirections[index])
-    .length
-}
+const pointsMatch = (
+  firstPoint: { x: number; y: number },
+  secondPoint: { x: number; y: number },
+): boolean =>
+  Math.hypot(firstPoint.x - secondPoint.x, firstPoint.y - secondPoint.y) <
+  0.000001
 
 test("coupled inductor orientations preserve two separate windings", () => {
   for (const orientation of ["right", "up", "left", "down"] as const) {
@@ -33,12 +27,14 @@ test("coupled inductor orientations preserve two separate windings", () => {
       expect(port?.labels, symbolName).toContain(terminal[1])
     }
 
+    const windingPaths = coupledInductor.primitives.filter(
+      (primitive) => primitive.type === "path",
+    )
+    expect(windingPaths, symbolName).toHaveLength(14)
     expect(
-      coupledInductor.primitives.filter(
-        (primitive) => primitive.type === "path",
-      ),
-      symbolName,
-    ).toHaveLength(4)
+      windingPaths.filter((windingPath) => windingPath.points.length > 10),
+      `${symbolName} reuses eight standard inductor arcs`,
+    ).toHaveLength(8)
     expect(
       coupledInductor.primitives.filter(
         (primitive) => primitive.type === "circle" && primitive.fill,
@@ -46,14 +42,13 @@ test("coupled inductor orientations preserve two separate windings", () => {
       symbolName,
     ).toHaveLength(2)
 
-    if (orientation === "right" || orientation === "left") {
-      const windingPaths = coupledInductor.primitives
-        .filter((primitive) => primitive.type === "path")
-        .filter((path) => path.points.length > 2)
+    for (const port of coupledInductor.ports) {
       expect(
-        windingPaths.map((path) => countVerticalDirectionChanges(path.points)),
-        `${symbolName} has four turns in each winding`,
-      ).toEqual([7, 7])
+        windingPaths.some((windingPath) =>
+          windingPath.points.some((point) => pointsMatch(point, port)),
+        ),
+        `${symbolName} connects terminal ${port.labels[0]}`,
+      ).toBe(true)
     }
   }
 
