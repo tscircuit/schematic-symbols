@@ -1,5 +1,7 @@
 import { expect, test } from "bun:test"
 import symbols from "../generated/symbols-index"
+import baseMosfet from "../symbols/n_channel_e_mosfet_transistor_horz"
+import fiveTerminalMosfet from "../symbols/n_channel_power_mosfet_5_pin_horz"
 import { expectSymbolToBeYAxisMirror } from "./helpers/expect-symbol-to-be-y-axis-mirror"
 
 const VARIANT_NAMES = [
@@ -12,6 +14,33 @@ const VARIANT_NAMES = [
   "n_channel_power_mosfet_5_pin_gate_bottom_drain_left",
   "n_channel_power_mosfet_5_pin_gate_bottom_drain_right",
 ] as const
+
+test("five-terminal source fanout stays outside the MOSFET body", () => {
+  const baseGate = baseMosfet.ports.find((port) => port.labels.includes("gate"))
+  const baseDrain = baseMosfet.ports.find((port) =>
+    port.labels.includes("drain"),
+  )
+  const gate = fiveTerminalMosfet.ports.find((port) =>
+    port.labels.includes("gate"),
+  )
+  const drain = fiveTerminalMosfet.ports.find((port) =>
+    port.labels.includes("drain"),
+  )
+  const bodyCircle = fiveTerminalMosfet.primitives.find(
+    (primitive) => primitive.type === "circle" && !primitive.fill,
+  )
+  const sources = fiveTerminalMosfet.ports.filter((port) =>
+    port.labels.includes("source"),
+  )
+
+  expect(gate).toMatchObject({ x: baseGate?.x, y: baseGate?.y })
+  expect(drain).toMatchObject({ x: baseDrain?.x, y: baseDrain?.y })
+  expect(bodyCircle?.type).toBe("circle")
+  if (bodyCircle?.type !== "circle") return
+  for (const source of sources) {
+    expect(source.y).toBeLessThan(bodyCircle.y - bodyCircle.radius)
+  }
+})
 
 test("five-terminal power MOSFET variants preserve gate, drain, and three source terminals", () => {
   for (const symbolName of VARIANT_NAMES) {
