@@ -98,7 +98,7 @@ export const createCoupledInductorRight = (): SchSymbol => {
       ]),
       {
         type: "circle",
-        x: -0.4,
+        x: 0.4,
         y: 0.42,
         radius: 0.035,
         color: "primary",
@@ -106,7 +106,7 @@ export const createCoupledInductorRight = (): SchSymbol => {
       },
       {
         type: "circle",
-        x: -0.4,
+        x: 0.4,
         y: -0.42,
         radius: 0.035,
         color: "primary",
@@ -129,25 +129,25 @@ export const createCoupledInductorRight = (): SchSymbol => {
     ],
     ports: [
       createWindingPort({
-        port: { x: -TERMINAL_X, y: inductorRight.center.y },
+        port: { x: TERMINAL_X, y: inductorRight.center.y },
         windingCenterY: WINDING_CENTER_Y,
         mirrorVertically: false,
         labels: ["1", "winding1_start"],
       }),
       createWindingPort({
         port: { x: TERMINAL_X, y: inductorRight.center.y },
-        windingCenterY: WINDING_CENTER_Y,
-        mirrorVertically: false,
-        labels: ["2", "winding1_end"],
+        windingCenterY: -WINDING_CENTER_Y,
+        mirrorVertically: true,
+        labels: ["2", "winding2_start"],
       }),
       createWindingPort({
         port: { x: -TERMINAL_X, y: inductorRight.center.y },
-        windingCenterY: -WINDING_CENTER_Y,
-        mirrorVertically: true,
-        labels: ["3", "winding2_start"],
+        windingCenterY: WINDING_CENTER_Y,
+        mirrorVertically: false,
+        labels: ["3", "winding1_end"],
       }),
       createWindingPort({
-        port: { x: TERMINAL_X, y: inductorRight.center.y },
+        port: { x: -TERMINAL_X, y: inductorRight.center.y },
         windingCenterY: -WINDING_CENTER_Y,
         mirrorVertically: true,
         labels: ["4", "winding2_end"],
