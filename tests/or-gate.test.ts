@@ -40,6 +40,21 @@ const expectInputsToMeetBody = (
   }
 }
 
+const expectVerticalTextLayout = (
+  symbol: (typeof symbols)[keyof typeof symbols],
+) => {
+  const reference = symbol.primitives.find(
+    (primitive) => primitive.type === "text" && primitive.text === "{REF}",
+  )
+  const value = symbol.primitives.find(
+    (primitive) => primitive.type === "text" && primitive.text === "{VAL}",
+  )
+  expect(reference).toMatchObject({ anchor: "middle_left" })
+  expect(value).toMatchObject({ anchor: "middle_left" })
+  expect(reference?.x).toBe(value?.x)
+  expect(reference?.y).toBeGreaterThan(value?.y ?? 0)
+}
+
 test("OR gate geometry and terminal identities remain correct in every orientation", () => {
   expect(orGateAsset.paths.body.fill).toBe(false)
   expect(orGateAsset.paths.body.points.at(-1)).toEqual(
@@ -63,6 +78,8 @@ test("OR gate geometry and terminal identities remain correct in every orientati
     rightFacingSymbol: symbols.or_gate_right,
     leftFacingSymbol: symbols.or_gate_left,
   })
+  expectVerticalTextLayout(symbols.or_gate_up)
+  expectVerticalTextLayout(symbols.or_gate_down)
 })
 
 test("powered OR gate variants preserve package power and signal terminals", () => {
@@ -90,4 +107,6 @@ test("powered OR gate variants preserve package power and signal terminals", () 
     rightFacingSymbol: symbols.or_gate_with_power_right,
     leftFacingSymbol: symbols.or_gate_with_power_left,
   })
+  expectVerticalTextLayout(symbols.or_gate_with_power_up)
+  expectVerticalTextLayout(symbols.or_gate_with_power_down)
 })
