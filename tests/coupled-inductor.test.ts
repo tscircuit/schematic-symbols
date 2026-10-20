@@ -9,9 +9,9 @@ test("coupled inductor orientations preserve two separate windings", () => {
     const coupledInductor = symbols[symbolName]
 
     for (const terminal of [
-      ["winding1_start", "2"],
+      ["winding1_start", "1"],
       ["winding1_end", "3"],
-      ["winding2_start", "1"],
+      ["winding2_start", "2"],
       ["winding2_end", "4"],
     ] as const) {
       const port = coupledInductor.ports.find((candidate) =>
@@ -26,6 +26,12 @@ test("coupled inductor orientations preserve two separate windings", () => {
       ),
       symbolName,
     ).toHaveLength(4)
+    expect(
+      coupledInductor.primitives.filter(
+        (primitive) => primitive.type === "circle" && primitive.fill,
+      ),
+      symbolName,
+    ).toHaveLength(2)
   }
 
   expectSymbolToBeYAxisMirror({
