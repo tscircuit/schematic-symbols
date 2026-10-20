@@ -41,3 +41,14 @@ test("three-pin Schottky preserves one junction and two package anode leads", ()
     leftFacingSymbol: symbols.schottky_diode_3_pin_left,
   })
 })
+
+test("right-facing package ports match the SS10P4 pinout proportions", () => {
+  const diode = symbols.schottky_diode_3_pin_right
+  const anode1 = diode.ports.find((port) => port.labels.includes("anode1"))
+  const anode2 = diode.ports.find((port) => port.labels.includes("anode2"))
+  const cathode = diode.ports.find((port) => port.labels.includes("cathode"))
+
+  expect(anode1).toMatchObject({ x: -0.68, y: 0.19 })
+  expect(anode2).toMatchObject({ x: -0.68, y: -0.11 })
+  expect(cathode).toMatchObject({ x: 0.52, y: 0.04 })
+})
