@@ -30,11 +30,11 @@ test("coupled inductor orientations preserve two separate windings", () => {
     const windingPaths = coupledInductor.primitives.filter(
       (primitive) => primitive.type === "path",
     )
-    expect(windingPaths, symbolName).toHaveLength(14)
+    expect(windingPaths, symbolName).toHaveLength(4)
     expect(
-      windingPaths.filter((windingPath) => windingPath.points.length > 10),
-      `${symbolName} reuses eight standard inductor arcs`,
-    ).toHaveLength(8)
+      windingPaths.filter((windingPath) => windingPath.points.length === 67),
+      `${symbolName} preserves two smooth four-lobe windings`,
+    ).toHaveLength(2)
     expect(
       coupledInductor.primitives.filter(
         (primitive) => primitive.type === "circle" && primitive.fill,
