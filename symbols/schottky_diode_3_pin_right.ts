@@ -47,7 +47,7 @@ const schottkyDiode3PinRight: SchSymbol = {
   ...schottkyDiodeRight,
   primitives: [...schottkyDiodeRight.primitives, ...packageLeadPaths],
   ports: packagePorts,
-  size: { width: 1.2, height: 0.54 },
+  size: { width: 1.36, height: 0.54 },
 }
 
 export default schottkyDiode3PinRight

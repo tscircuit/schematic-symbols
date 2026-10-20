@@ -11,6 +11,27 @@ const pointsMatch = (
   Math.hypot(firstPoint.x - secondPoint.x, firstPoint.y - secondPoint.y) <
   POINT_TOLERANCE
 
+const expectPortsWithinSymbolSize = ({
+  symbolName,
+}: {
+  symbolName: keyof typeof symbols
+}) => {
+  const symbol = symbols[symbolName]
+  const halfWidth = symbol.size.width / 2
+  const halfHeight = symbol.size.height / 2
+
+  for (const port of symbol.ports) {
+    expect(
+      Math.abs(port.x - symbol.center.x),
+      `${symbolName} port x`,
+    ).toBeLessThanOrEqual(halfWidth)
+    expect(
+      Math.abs(port.y - symbol.center.y),
+      `${symbolName} port y`,
+    ).toBeLessThanOrEqual(halfHeight)
+  }
+}
+
 test("three-pin Schottky preserves one junction and two package anode leads", () => {
   for (const orientation of ["right", "up", "left", "down"] as const) {
     const symbolName = `schottky_diode_3_pin_${orientation}` as const
@@ -23,6 +44,7 @@ test("three-pin Schottky preserves one junction and two package anode leads", ()
     expect(anode2?.labels, symbolName).toContain("2")
     expect(cathode?.labels, symbolName).toContain("3")
     expect(diode.ports, symbolName).toHaveLength(3)
+    expectPortsWithinSymbolSize({ symbolName })
 
     for (const port of diode.ports) {
       expect(
@@ -40,6 +62,22 @@ test("three-pin Schottky preserves one junction and two package anode leads", ()
     rightFacingSymbol: symbols.schottky_diode_3_pin_right,
     leftFacingSymbol: symbols.schottky_diode_3_pin_left,
   })
+})
+
+test("vertical three-pin Schottky labels remain horizontal and separated", () => {
+  for (const orientation of ["up", "down"] as const) {
+    const diode = symbols[`schottky_diode_3_pin_${orientation}`]
+    const reference = diode.primitives.find(
+      (primitive) => primitive.type === "text" && primitive.text === "{REF}",
+    )
+    const value = diode.primitives.find(
+      (primitive) => primitive.type === "text" && primitive.text === "{VAL}",
+    )
+
+    expect(reference).toMatchObject({ anchor: "middle_left", x: 0.31 })
+    expect(value).toMatchObject({ anchor: "middle_left", x: 0.31 })
+    expect(reference?.y).toBeGreaterThan(value?.y ?? Number.POSITIVE_INFINITY)
+  }
 })
 
 test("right-facing package ports match the SS10P4 pinout proportions", () => {
