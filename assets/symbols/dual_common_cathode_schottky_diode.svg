@@ -2,19 +2,19 @@
 <svg width="30mm" height="30mm" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg">
   <g id="root">
     <g id="dual_common_cathode_schottky_diode">
-      <path id="upper-anode-lead" d="M 8 12.5 H 11.4" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linecap:round" />
-      <path id="lower-anode-lead" d="M 8 17.5 H 11.4" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linecap:round" />
+      <path id="upper-anode-lead" d="M 7 14.1 H 8.8 L 10 12.5 H 11.4" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="lower-anode-lead" d="M 7 16.1 H 8.8 L 10 17.5 H 11.4" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linecap:round;stroke-linejoin:round" />
       <path id="upper-diode-body" d="M 11.4 11.6 L 13 12.5 L 11.4 13.4 Z" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linejoin:round" />
       <path id="lower-diode-body" d="M 11.4 16.6 L 13 17.5 L 11.4 18.4 Z" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linejoin:round" />
       <path id="upper-schottky-bar" d="M 13 11.3 V 13.7 H 13.55 V 13.35 M 12.45 11.65 V 11.3 H 13" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linejoin:round" />
       <path id="lower-schottky-bar" d="M 13 16.3 V 18.7 H 13.55 V 18.35 M 12.45 16.65 V 16.3 H 13" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linejoin:round" />
-      <path id="upper-cathode-branch" d="M 13 12.5 H 16.5 V 15" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linecap:round;stroke-linejoin:round" />
-      <path id="lower-cathode-branch" d="M 13 17.5 H 16.5 V 15" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linecap:round;stroke-linejoin:round" />
-      <path id="common-cathode-lead" d="M 16.5 15 H 22" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linecap:round" />
-      <circle id="common-cathode-dot" cx="16.5" cy="15" r="0.22" style="fill:#000000;stroke:none" />
-      <circle id="refblock-left-upper" cx="8" cy="12.5" r="0" fill="#ff0000" />
-      <circle id="refblock-left-lower" cx="8" cy="17.5" r="0" fill="#ff0000" />
-      <circle id="refblock-right" cx="22" cy="15" r="0" fill="#ff0000" />
+      <path id="upper-cathode-branch" d="M 13 12.5 H 16.5 V 15.1" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="lower-cathode-branch" d="M 13 17.5 H 16.5 V 15.1" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="common-cathode-lead" d="M 16.5 15.1 H 23" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linecap:round" />
+      <circle id="common-cathode-dot" cx="16.5" cy="15.1" r="0.22" style="fill:#000000;stroke:none" />
+      <circle id="refblock-left-upper" cx="7" cy="14.1" r="0" fill="#ff0000" />
+      <circle id="refblock-left-lower" cx="7" cy="16.1" r="0" fill="#ff0000" />
+      <circle id="refblock-right" cx="23" cy="15.1" r="0" fill="#ff0000" />
       <text x="15" y="10.2" text-anchor="middle" font-family="monospace" font-size="1">{REF}</text>
       <text x="15" y="20" text-anchor="middle" font-family="monospace" font-size="1">{VAL}</text>
     </g>
