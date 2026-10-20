@@ -35,6 +35,19 @@ test("coupled inductor orientations preserve two separate windings", () => {
       windingPaths.filter((windingPath) => windingPath.points.length === 67),
       `${symbolName} preserves two smooth four-lobe windings`,
     ).toHaveLength(2)
+    if (orientation === "right") {
+      const windingLobePoints = windingPaths
+        .filter((windingPath) => windingPath.points.length === 67)
+        .flatMap((windingPath) => windingPath.points)
+      expect(
+        windingLobePoints.some((point) => point.y > 0 && point.y < 0.1),
+        `${symbolName} curves its upper winding toward the core`,
+      ).toBe(true)
+      expect(
+        windingLobePoints.some((point) => point.y < 0 && point.y > -0.1),
+        `${symbolName} curves its lower winding toward the core`,
+      ).toBe(true)
+    }
     expect(
       coupledInductor.primitives.filter(
         (primitive) => primitive.type === "circle" && primitive.fill,

@@ -1,10 +1,10 @@
 import type { PathPrimitive, Point, SchSymbol } from "./types"
 
 const TERMINAL_X = 0.5
-const WINDING_START_X = -0.36
-const WINDING_END_X = 0.36
-const WINDING_CENTER_Y = 0.18
-const WINDING_DEPTH = 0.09
+const WINDING_START_X = -0.32
+const WINDING_END_X = 0.32
+const WINDING_CENTER_Y = 0.19
+const WINDING_DEPTH = 0.11
 const WINDING_LOBE_COUNT = 4
 const ARC_SEGMENT_COUNT = 16
 
@@ -54,13 +54,13 @@ export const createCoupledInductorRight = (): SchSymbol => ({
     path(
       createWindingPoints({
         centerY: WINDING_CENTER_Y,
-        bulgeDirection: 1,
+        bulgeDirection: -1,
       }),
     ),
     path(
       createWindingPoints({
         centerY: -WINDING_CENTER_Y,
-        bulgeDirection: -1,
+        bulgeDirection: 1,
       }),
     ),
     path([
@@ -73,16 +73,16 @@ export const createCoupledInductorRight = (): SchSymbol => ({
     ]),
     {
       type: "circle",
-      x: 0.4,
-      y: 0.28,
+      x: 0.39,
+      y: 0.31,
       radius: 0.03,
       color: "primary",
       fill: true,
     },
     {
       type: "circle",
-      x: 0.4,
-      y: -0.28,
+      x: 0.39,
+      y: -0.31,
       radius: 0.03,
       color: "primary",
       fill: true,
