@@ -146,10 +146,10 @@ import _dpst_switch_down from "./../symbols/dpst_switch_down"
 import _dpst_switch_left from "./../symbols/dpst_switch_left"
 import _dpst_switch_right from "./../symbols/dpst_switch_right"
 import _dpst_switch_up from "./../symbols/dpst_switch_up"
-import _dual_common_cathode_schottky_diode_down from "./../symbols/dual_common_cathode_schottky_diode_down"
-import _dual_common_cathode_schottky_diode_left from "./../symbols/dual_common_cathode_schottky_diode_left"
-import _dual_common_cathode_schottky_diode_right from "./../symbols/dual_common_cathode_schottky_diode_right"
-import _dual_common_cathode_schottky_diode_up from "./../symbols/dual_common_cathode_schottky_diode_up"
+import _dual_anode_schottky_diode_down from "./../symbols/dual_anode_schottky_diode_down"
+import _dual_anode_schottky_diode_left from "./../symbols/dual_anode_schottky_diode_left"
+import _dual_anode_schottky_diode_right from "./../symbols/dual_anode_schottky_diode_right"
+import _dual_anode_schottky_diode_up from "./../symbols/dual_anode_schottky_diode_up"
 import _dual_series_schottky_diode_down from "./../symbols/dual_series_schottky_diode_down"
 import _dual_series_schottky_diode_left from "./../symbols/dual_series_schottky_diode_left"
 import _dual_series_schottky_diode_right from "./../symbols/dual_series_schottky_diode_right"
@@ -611,10 +611,10 @@ export default {
   "dpst_switch_left": _dpst_switch_left,
   "dpst_switch_right": _dpst_switch_right,
   "dpst_switch_up": _dpst_switch_up,
-  "dual_common_cathode_schottky_diode_down": _dual_common_cathode_schottky_diode_down,
-  "dual_common_cathode_schottky_diode_left": _dual_common_cathode_schottky_diode_left,
-  "dual_common_cathode_schottky_diode_right": _dual_common_cathode_schottky_diode_right,
-  "dual_common_cathode_schottky_diode_up": _dual_common_cathode_schottky_diode_up,
+  "dual_anode_schottky_diode_down": _dual_anode_schottky_diode_down,
+  "dual_anode_schottky_diode_left": _dual_anode_schottky_diode_left,
+  "dual_anode_schottky_diode_right": _dual_anode_schottky_diode_right,
+  "dual_anode_schottky_diode_up": _dual_anode_schottky_diode_up,
   "dual_series_schottky_diode_down": _dual_series_schottky_diode_down,
   "dual_series_schottky_diode_left": _dual_series_schottky_diode_left,
   "dual_series_schottky_diode_right": _dual_series_schottky_diode_right,
