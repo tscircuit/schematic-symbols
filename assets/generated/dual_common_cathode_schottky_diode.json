@@ -84,7 +84,7 @@
       "color": "primary",
       "fill": false
     },
-    "upper-schottky-bar": {
+    "upper-schottky-bar-lower-hook": {
       "type": "path",
       "points": [
         {
@@ -102,7 +102,14 @@
         {
           "x": -0.1449999999999998,
           "y": 0.17500000000000004
-        },
+        }
+      ],
+      "color": "primary",
+      "fill": false
+    },
+    "upper-schottky-bar-upper-hook": {
+      "type": "path",
+      "points": [
         {
           "x": -0.2549999999999999,
           "y": 0.345
@@ -119,7 +126,7 @@
       "color": "primary",
       "fill": false
     },
-    "lower-schottky-bar": {
+    "lower-schottky-bar-lower-hook": {
       "type": "path",
       "points": [
         {
@@ -137,7 +144,14 @@
         {
           "x": -0.1449999999999998,
           "y": -0.3250000000000002
-        },
+        }
+      ],
+      "color": "primary",
+      "fill": false
+    },
+    "lower-schottky-bar-upper-hook": {
+      "type": "path",
+      "points": [
         {
           "x": -0.2549999999999999,
           "y": -0.15500000000000003

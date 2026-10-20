@@ -55,6 +55,12 @@ test("dual common-cathode Schottky diode preserves both anodes and its shared ca
       ),
       symbolName,
     ).toHaveLength(1)
+    expect(
+      diodePair.primitives
+        .filter((primitive) => primitive.type === "path")
+        .every((path) => path.points.length <= 4),
+      `${symbolName} has no accidental joins between separate SVG subpaths`,
+    ).toBe(true)
     expectPortToTouchPath({ symbol: diodePair, portAlias: "anode1" })
     expectPortToTouchPath({ symbol: diodePair, portAlias: "anode2" })
     expectPortToTouchPath({
