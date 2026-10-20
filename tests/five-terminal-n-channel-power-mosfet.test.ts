@@ -86,3 +86,33 @@ test("five-terminal power MOSFET variants preserve gate, drain, and three source
     leftFacingSymbol: symbols.n_channel_power_mosfet_5_pin_gate_right_drain_top,
   })
 })
+
+test("vertical five-terminal MOSFET labels sit outside the circular body", () => {
+  for (const symbolName of VARIANT_NAMES.filter(
+    (name) => name.includes("gate_top") || name.includes("gate_bottom"),
+  )) {
+    const mosfet = symbols[symbolName]
+    const body = mosfet.primitives.find(
+      (primitive) => primitive.type === "circle" && !primitive.fill,
+    )
+    const labels = mosfet.primitives.filter(
+      (primitive) =>
+        primitive.type === "text" &&
+        (primitive.text === "{REF}" || primitive.text === "{VAL}"),
+    )
+
+    expect(body, symbolName).toBeDefined()
+    expect(labels, symbolName).toHaveLength(2)
+    for (const label of labels) {
+      if (label.type !== "text" || !body || body.type !== "circle") continue
+      const labelIsRightOfBody = label.x > body.x
+      expect(label.anchor, `${symbolName} ${label.text} anchor`).toBe(
+        labelIsRightOfBody ? "middle_left" : "middle_right",
+      )
+      expect(
+        Math.abs(label.x - body.x),
+        `${symbolName} ${label.text} clearance`,
+      ).toBeGreaterThan(body.radius)
+    }
+  }
+})
