@@ -15,10 +15,13 @@ const VARIANT_NAMES = [
   "n_channel_power_mosfet_5_pin_gate_bottom_drain_right",
 ] as const
 
-test("five-terminal source fanout stays outside the MOSFET body", () => {
+test("three source identities share a compact manufacturer-style terminal", () => {
   const baseGate = baseMosfet.ports.find((port) => port.labels.includes("gate"))
   const baseDrain = baseMosfet.ports.find((port) =>
     port.labels.includes("drain"),
+  )
+  const baseSource = baseMosfet.ports.find((port) =>
+    port.labels.includes("source"),
   )
   const gate = fiveTerminalMosfet.ports.find((port) =>
     port.labels.includes("gate"),
@@ -26,20 +29,20 @@ test("five-terminal source fanout stays outside the MOSFET body", () => {
   const drain = fiveTerminalMosfet.ports.find((port) =>
     port.labels.includes("drain"),
   )
-  const bodyCircle = fiveTerminalMosfet.primitives.find(
-    (primitive) => primitive.type === "circle" && !primitive.fill,
-  )
   const sources = fiveTerminalMosfet.ports.filter((port) =>
     port.labels.includes("source"),
   )
 
   expect(gate).toMatchObject({ x: baseGate?.x, y: baseGate?.y })
   expect(drain).toMatchObject({ x: baseDrain?.x, y: baseDrain?.y })
-  expect(bodyCircle?.type).toBe("circle")
-  if (bodyCircle?.type !== "circle") return
-  for (const source of sources) {
-    expect(source.y).toBeLessThan(bodyCircle.y - bodyCircle.radius)
-  }
+  expect(baseSource).toBeDefined()
+  if (!baseSource) return
+  expect(sources.map((source) => source.x)).toEqual([
+    baseSource.x - 0.15,
+    baseSource.x,
+    baseSource.x + 0.15,
+  ])
+  expect(sources.every((source) => source.y === baseSource.y)).toBe(true)
 })
 
 test("five-terminal power MOSFET variants preserve gate, drain, and three source terminals", () => {

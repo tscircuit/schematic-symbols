@@ -1,40 +1,6 @@
-import type { PathPrimitive, Point, Port, Primitive, SchSymbol } from "./types"
+import type { PathPrimitive, Port, Primitive, SchSymbol } from "./types"
 
-const POINT_TOLERANCE = 0.000001
-const SOURCE_TERMINAL_X_OFFSETS = [-0.15, 0, 0.15]
-const SOURCE_TERMINAL_Y = -0.8
-
-const pointsMatch = (firstPoint: Point, secondPoint: Point): boolean =>
-  Math.hypot(firstPoint.x - secondPoint.x, firstPoint.y - secondPoint.y) <
-  POINT_TOLERANCE
-
-const pathTouchesPort = (path: PathPrimitive, port: Port): boolean =>
-  path.points.some((point) => pointsMatch(point, port))
-
-const createSourceFanout = (sourceJunction: Point): PathPrimitive[] => {
-  const sourceTerminalXs = SOURCE_TERMINAL_X_OFFSETS.map(
-    (sourceOffset) => sourceJunction.x + sourceOffset,
-  )
-  const path = (points: Point[]): PathPrimitive => ({
-    type: "path",
-    points,
-    color: "primary",
-    fill: false,
-  })
-
-  return [
-    path([
-      { x: sourceTerminalXs[0], y: sourceJunction.y },
-      { x: sourceTerminalXs[2], y: sourceJunction.y },
-    ]),
-    ...sourceTerminalXs.map((sourceX) =>
-      path([
-        { x: sourceX, y: sourceJunction.y },
-        { x: sourceX, y: SOURCE_TERMINAL_Y },
-      ]),
-    ),
-  ]
-}
+const SOURCE_PIN_OFFSETS = [-0.15, 0, 0.15]
 
 export const createFiveTerminalNChannelPowerMosfet = (
   baseSymbol: SchSymbol,
@@ -50,12 +16,6 @@ export const createFiveTerminalNChannelPowerMosfet = (
   )
   if (!drainPort) throw new Error("MOSFET drain port not found")
 
-  const sourceLead = baseSymbol.primitives.find(
-    (primitive): primitive is PathPrimitive =>
-      primitive.type === "path" && pathTouchesPort(primitive, sourcePort),
-  )
-  if (!sourceLead) throw new Error("MOSFET source lead not found")
-
   const updatedPrimitives: Primitive[] = baseSymbol.primitives.map(
     (primitive) => {
       if (primitive.type !== "text") return { ...primitive }
@@ -63,7 +23,7 @@ export const createFiveTerminalNChannelPowerMosfet = (
         return { ...primitive, x: 0.08, y: 0.66, anchor: "middle_bottom" }
       }
       if (primitive.text === "{VAL}") {
-        return { ...primitive, x: 0.08, y: -0.92, anchor: "middle_top" }
+        return { ...primitive, x: 0.08, y: -0.66, anchor: "middle_top" }
       }
       return { ...primitive }
     },
@@ -78,23 +38,29 @@ export const createFiveTerminalNChannelPowerMosfet = (
       return { ...port, labels: ["5", "drain", "d"] }
     })
 
-  const sourcePorts: Port[] = SOURCE_TERMINAL_X_OFFSETS.map(
-    (sourceOffset, sourceIndex) => ({
-      x: sourcePort.x + sourceOffset,
-      y: SOURCE_TERMINAL_Y,
+  const sourcePorts: Port[] = SOURCE_PIN_OFFSETS.map(
+    (sourcePinOffset, sourcePinIndex) => ({
+      x: sourcePort.x + sourcePinOffset,
+      y: sourcePort.y,
       labels: [
-        String(sourceIndex + 1),
-        `source${sourceIndex + 1}`,
-        `s${sourceIndex + 1}`,
+        String(sourcePinIndex + 1),
+        `source${sourcePinIndex + 1}`,
+        `s${sourcePinIndex + 1}`,
         "source",
       ],
     }),
   )
+  const groupedSourceTerminal: PathPrimitive = {
+    type: "path",
+    points: [sourcePorts[0]!, sourcePorts[2]!],
+    color: "primary",
+    fill: false,
+  }
 
   return {
     ...baseSymbol,
-    primitives: [...updatedPrimitives, ...createSourceFanout(sourcePort)],
+    primitives: [...updatedPrimitives, groupedSourceTerminal],
     ports: [...retainedPorts, ...sourcePorts],
-    size: { width: 1.1, height: 1.8 },
+    size: baseSymbol.size,
   }
 }
