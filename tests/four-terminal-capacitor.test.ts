@@ -10,8 +10,8 @@ test("four-terminal capacitor preserves two terminals on each plate", () => {
 
     for (const terminal of [
       ["plate1_terminal1", "1"],
-      ["plate1_terminal2", "2"],
-      ["plate2_terminal1", "3"],
+      ["plate1_terminal2", "3"],
+      ["plate2_terminal1", "2"],
       ["plate2_terminal2", "4"],
     ] as const) {
       const port = capacitor.ports.find((candidate) =>
