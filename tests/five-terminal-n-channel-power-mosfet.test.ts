@@ -1,6 +1,5 @@
 import { expect, test } from "bun:test"
 import symbols from "../generated/symbols-index"
-import baseMosfet from "../symbols/n_channel_e_mosfet_transistor_horz"
 import fiveTerminalMosfet from "../symbols/n_channel_power_mosfet_5_pin_horz"
 import { expectSymbolToBeYAxisMirror } from "./helpers/expect-symbol-to-be-y-axis-mirror"
 
@@ -15,14 +14,7 @@ const VARIANT_NAMES = [
   "n_channel_power_mosfet_5_pin_gate_bottom_drain_right",
 ] as const
 
-test("three source identities share a compact manufacturer-style terminal", () => {
-  const baseGate = baseMosfet.ports.find((port) => port.labels.includes("gate"))
-  const baseDrain = baseMosfet.ports.find((port) =>
-    port.labels.includes("drain"),
-  )
-  const baseSource = baseMosfet.ports.find((port) =>
-    port.labels.includes("source"),
-  )
+test("three source identities share one manufacturer-style terminal", () => {
   const gate = fiveTerminalMosfet.ports.find((port) =>
     port.labels.includes("gate"),
   )
@@ -33,16 +25,15 @@ test("three source identities share a compact manufacturer-style terminal", () =
     port.labels.includes("source"),
   )
 
-  expect(gate).toMatchObject({ x: baseGate?.x, y: baseGate?.y })
-  expect(drain).toMatchObject({ x: baseDrain?.x, y: baseDrain?.y })
-  expect(baseSource).toBeDefined()
-  if (!baseSource) return
-  expect(sources.map((source) => source.x)).toEqual([
-    baseSource.x - 0.15,
-    baseSource.x,
-    baseSource.x + 0.15,
-  ])
-  expect(sources.every((source) => source.y === baseSource.y)).toBe(true)
+  expect(gate).toMatchObject({ x: -0.5, y: 0 })
+  expect(drain).toMatchObject({ x: 0.16, y: 0.58 })
+  expect(sources).toHaveLength(3)
+  expect(
+    sources.every(
+      (source) => source.x === sources[0]?.x && source.y === sources[0]?.y,
+    ),
+  ).toBe(true)
+  expect(sources[0]).toMatchObject({ x: 0.16, y: -0.58 })
 })
 
 test("five-terminal power MOSFET variants preserve gate, drain, and three source terminals", () => {

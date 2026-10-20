@@ -3,7 +3,4 @@ import nChannelPowerMosfetHorizontal from "./n_channel_power_mosfet_5_pin_horz"
 
 const verticalSymbol = rotateSymbol(nChannelPowerMosfetHorizontal)
 
-export default {
-  ...verticalSymbol,
-  size: { width: 1.6, height: 1.1 },
-}
+export default verticalSymbol

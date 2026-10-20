@@ -1,66 +1,112 @@
-import type { PathPrimitive, Port, Primitive, SchSymbol } from "./types"
+import type { PathPrimitive, Point, Port, Primitive, SchSymbol } from "./types"
 
-const SOURCE_PIN_OFFSETS = [-0.15, 0, 0.15]
+const GATE_PORT = { x: -0.5, y: 0 }
+const DRAIN_PORT = { x: 0.16, y: 0.58 }
+const SOURCE_PORT = { x: 0.16, y: -0.58 }
 
-export const createFiveTerminalNChannelPowerMosfet = (
-  baseSymbol: SchSymbol,
-): SchSymbol => {
-  const sourcePort = baseSymbol.ports.find((port) =>
-    port.labels.includes("source"),
-  )
-  if (!sourcePort) throw new Error("MOSFET source port not found")
-  const gatePort = baseSymbol.ports.find((port) => port.labels.includes("gate"))
-  if (!gatePort) throw new Error("MOSFET gate port not found")
-  const drainPort = baseSymbol.ports.find((port) =>
-    port.labels.includes("drain"),
-  )
-  if (!drainPort) throw new Error("MOSFET drain port not found")
+const path = (points: Point[], fill = false): PathPrimitive => ({
+  type: "path",
+  points,
+  color: "primary",
+  fill,
+})
 
-  const updatedPrimitives: Primitive[] = baseSymbol.primitives.map(
-    (primitive) => {
-      if (primitive.type !== "text") return { ...primitive }
-      if (primitive.text === "{REF}") {
-        return { ...primitive, x: 0.08, y: 0.66, anchor: "middle_bottom" }
-      }
-      if (primitive.text === "{VAL}") {
-        return { ...primitive, x: 0.08, y: -0.66, anchor: "middle_top" }
-      }
-      return { ...primitive }
+const createSourcePorts = (): Port[] =>
+  ["1", "2", "3"].map((pinNumber) => ({
+    ...SOURCE_PORT,
+    labels: [pinNumber, `source${pinNumber}`, `s${pinNumber}`, "source"],
+  }))
+
+export const createFiveTerminalNChannelPowerMosfet = (): SchSymbol => {
+  const primitives: Primitive[] = [
+    {
+      type: "circle",
+      x: 0.06,
+      y: 0,
+      radius: 0.34,
+      color: "primary",
+      fill: false,
     },
-  )
-
-  const retainedPorts = baseSymbol.ports
-    .filter((port) => port !== sourcePort)
-    .map((port): Port => {
-      if (port.labels.includes("gate")) {
-        return { ...port, labels: ["4", "gate", "g"] }
-      }
-      return { ...port, labels: ["5", "drain", "d"] }
-    })
-
-  const sourcePorts: Port[] = SOURCE_PIN_OFFSETS.map(
-    (sourcePinOffset, sourcePinIndex) => ({
-      x: sourcePort.x + sourcePinOffset,
-      y: sourcePort.y,
-      labels: [
-        String(sourcePinIndex + 1),
-        `source${sourcePinIndex + 1}`,
-        `s${sourcePinIndex + 1}`,
-        "source",
+    path([GATE_PORT, { x: -0.21, y: 0 }]),
+    path([
+      { x: -0.18, y: -0.24 },
+      { x: -0.18, y: 0.24 },
+    ]),
+    path([
+      { x: -0.09, y: 0.14 },
+      { x: -0.09, y: 0.25 },
+    ]),
+    path([
+      { x: -0.09, y: -0.055 },
+      { x: -0.09, y: 0.055 },
+    ]),
+    path([
+      { x: -0.09, y: -0.25 },
+      { x: -0.09, y: -0.14 },
+    ]),
+    path([{ x: -0.09, y: 0.2 }, { x: 0.16, y: 0.2 }, DRAIN_PORT]),
+    path([{ x: -0.09, y: -0.2 }, { x: 0.16, y: -0.2 }, SOURCE_PORT]),
+    path([
+      { x: 0.16, y: -0.2 },
+      { x: 0.16, y: 0 },
+      { x: -0.01, y: 0 },
+    ]),
+    path(
+      [
+        { x: -0.09, y: 0 },
+        { x: -0.01, y: 0.05 },
+        { x: -0.01, y: -0.05 },
+        { x: -0.09, y: 0 },
       ],
-    }),
-  )
-  const groupedSourceTerminal: PathPrimitive = {
-    type: "path",
-    points: [sourcePorts[0]!, sourcePorts[2]!],
-    color: "primary",
-    fill: false,
-  }
+      true,
+    ),
+    path([
+      { x: 0.16, y: -0.2 },
+      { x: 0.3, y: -0.2 },
+      { x: 0.3, y: -0.07 },
+    ]),
+    path(
+      [
+        { x: 0.25, y: -0.07 },
+        { x: 0.35, y: -0.07 },
+        { x: 0.3, y: 0.035 },
+        { x: 0.25, y: -0.07 },
+      ],
+      true,
+    ),
+    path([
+      { x: 0.245, y: 0.055 },
+      { x: 0.355, y: 0.055 },
+    ]),
+    path([
+      { x: 0.3, y: 0.055 },
+      { x: 0.3, y: 0.2 },
+      { x: 0.16, y: 0.2 },
+    ]),
+    {
+      type: "text",
+      text: "{REF}",
+      x: 0.48,
+      y: 0.16,
+      anchor: "middle_left",
+    },
+    {
+      type: "text",
+      text: "{VAL}",
+      x: 0.48,
+      y: -0.16,
+      anchor: "middle_left",
+    },
+  ]
 
   return {
-    ...baseSymbol,
-    primitives: [...updatedPrimitives, groupedSourceTerminal],
-    ports: [...retainedPorts, ...sourcePorts],
-    size: baseSymbol.size,
+    primitives,
+    ports: [
+      { ...GATE_PORT, labels: ["4", "gate", "g"] },
+      { ...DRAIN_PORT, labels: ["5", "drain", "d"] },
+      ...createSourcePorts(),
+    ],
+    center: { x: 0, y: 0 },
+    size: { width: 1.14, height: 1.16 },
   }
 }
