@@ -2,6 +2,19 @@ import { expect, test } from "bun:test"
 import symbols from "../generated/symbols-index"
 import { expectSymbolToBeYAxisMirror } from "./helpers/expect-symbol-to-be-y-axis-mirror"
 
+const countVerticalDirectionChanges = (
+  points: Array<{ x: number; y: number }>,
+): number => {
+  const verticalDirections = points
+    .slice(1)
+    .map((point, index) => Math.sign(point.y - points[index]!.y))
+    .filter((direction) => direction !== 0)
+  return verticalDirections
+    .slice(1)
+    .filter((direction, index) => direction !== verticalDirections[index])
+    .length
+}
+
 test("coupled inductor orientations preserve two separate windings", () => {
   for (const orientation of ["right", "up", "left", "down"] as const) {
     const symbolName = ("coupled_inductor_" +
@@ -32,6 +45,16 @@ test("coupled inductor orientations preserve two separate windings", () => {
       ),
       symbolName,
     ).toHaveLength(2)
+
+    if (orientation === "right" || orientation === "left") {
+      const windingPaths = coupledInductor.primitives.filter(
+        (primitive) => primitive.type === "path" && primitive.points.length > 2,
+      )
+      expect(
+        windingPaths.map((path) => countVerticalDirectionChanges(path.points)),
+        `${symbolName} has four turns in each winding`,
+      ).toEqual([7, 7])
+    }
   }
 
   expectSymbolToBeYAxisMirror({
