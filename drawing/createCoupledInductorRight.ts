@@ -111,17 +111,17 @@ export const createCoupledInductorRight = (): SchSymbol => ({
     {
       x: TERMINAL_X,
       y: -WINDING_CENTER_Y,
-      labels: ["2", "winding2_start"],
+      labels: ["4", "winding2_start"],
     },
     {
       x: -TERMINAL_X,
       y: WINDING_CENTER_Y,
-      labels: ["3", "winding1_end"],
+      labels: ["2", "winding1_end"],
     },
     {
       x: -TERMINAL_X,
       y: -WINDING_CENTER_Y,
-      labels: ["4", "winding2_end"],
+      labels: ["3", "winding2_end"],
     },
   ],
   center: { x: 0, y: 0 },

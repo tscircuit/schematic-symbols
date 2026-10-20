@@ -17,9 +17,9 @@ test("coupled inductor orientations preserve two separate windings", () => {
 
     for (const terminal of [
       ["winding1_start", "1"],
-      ["winding1_end", "3"],
-      ["winding2_start", "2"],
-      ["winding2_end", "4"],
+      ["winding1_end", "2"],
+      ["winding2_end", "3"],
+      ["winding2_start", "4"],
     ] as const) {
       const port = coupledInductor.ports.find((candidate) =>
         candidate.labels.includes(terminal[0]),
