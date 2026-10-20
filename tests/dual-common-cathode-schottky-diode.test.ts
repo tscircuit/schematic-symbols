@@ -31,6 +31,18 @@ const expectPortToTouchPath = ({
   ).toBe(true)
 }
 
+const expectBothDiodeBodiesToBeClosed = (
+  symbol: (typeof symbols)[keyof typeof symbols],
+) => {
+  const closedTrianglePaths = symbol.primitives.filter(
+    (primitive) =>
+      primitive.type === "path" &&
+      primitive.points.length === 4 &&
+      pointsMatch(primitive.points[0]!, primitive.points[3]!),
+  )
+  expect(closedTrianglePaths).toHaveLength(2)
+}
+
 test("dual common-cathode Schottky diode preserves both anodes and its shared cathode", () => {
   for (const orientation of ["right", "up", "left", "down"] as const) {
     const symbolName = ("dual_common_cathode_schottky_diode_" +
@@ -61,6 +73,7 @@ test("dual common-cathode Schottky diode preserves both anodes and its shared ca
         .every((path) => path.points.length <= 4),
       `${symbolName} has no accidental joins between separate SVG subpaths`,
     ).toBe(true)
+    expectBothDiodeBodiesToBeClosed(diodePair)
     expectPortToTouchPath({ symbol: diodePair, portAlias: "anode1" })
     expectPortToTouchPath({ symbol: diodePair, portAlias: "anode2" })
     expectPortToTouchPath({
