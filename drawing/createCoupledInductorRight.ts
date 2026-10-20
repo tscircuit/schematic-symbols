@@ -125,5 +125,5 @@ export const createCoupledInductorRight = (): SchSymbol => ({
     },
   ],
   center: { x: 0, y: 0 },
-  size: { width: 1.1, height: 0.96 },
+  size: { width: 1, height: 0.96 },
 })
