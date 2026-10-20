@@ -49,10 +49,10 @@ export const createFourTerminalCapacitor = (
       bottom1: { ...svgJson.texts.bottom1, ...labelLayout.value },
     },
   })
-    .labelPort("left1", ["3", "plate1_terminal2"])
+    .labelPort("left1", ["2", "plate1_terminal2"])
     .labelPort("left2", ["1", "plate1_terminal1"])
-    .labelPort("right1", ["4", "plate2_terminal2"])
-    .labelPort("right2", ["2", "plate2_terminal1"])
+    .labelPort("right1", ["3", "plate2_terminal2"])
+    .labelPort("right2", ["4", "plate2_terminal1"])
     .changeTextAnchor("{REF}", labelLayout.referenceAnchor)
     .changeTextAnchor("{VAL}", labelLayout.valueAnchor)
     .rotateRightFacingSymbol(orientation)
