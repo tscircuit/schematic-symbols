@@ -2,10 +2,10 @@
 <svg width="30mm" height="30mm" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg">
   <g id="root">
     <g id="coupled_inductor">
-      <path id="upper-winding" d="M 9 12 H 12 C 12 10.7 14 10.7 14 12 C 14 10.7 16 10.7 16 12 C 16 10.7 18 10.7 18 12 H 21" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
-      <path id="lower-winding" d="M 9 18 H 12 C 12 19.3 14 19.3 14 18 C 14 19.3 16 19.3 16 18 C 16 19.3 18 19.3 18 18 H 21" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
-      <path id="upper-core" d="M 12.2 14.35 H 17.8" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linecap:round" />
-      <path id="lower-core" d="M 12.2 15.65 H 17.8" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linecap:round" />
+      <path id="upper-winding" d="M 9 12 H 12.75 C 12.75 9.8 14.25 9.8 14.25 12 C 14.25 9.8 15.75 9.8 15.75 12 C 15.75 9.8 17.25 9.8 17.25 12 H 21" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="lower-winding" d="M 9 18 H 12.75 C 12.75 20.2 14.25 20.2 14.25 18 C 14.25 20.2 15.75 20.2 15.75 18 C 15.75 20.2 17.25 20.2 17.25 18 H 21" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="upper-core" d="M 12.8 14.35 H 17.2" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linecap:round" />
+      <path id="lower-core" d="M 12.8 15.65 H 17.2" style="fill:none;stroke:#000000;stroke-width:0.18;stroke-linecap:round" />
       <circle id="winding1-polarity-dot" cx="18.7" cy="13" r="0.35" style="fill:#000000;stroke:none" />
       <circle id="winding2-polarity-dot" cx="18.7" cy="17" r="0.35" style="fill:#000000;stroke:none" />
       <circle id="refblock-left-upper" cx="9" cy="12" r="0" fill="#ff0000" />
