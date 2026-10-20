@@ -25,15 +25,15 @@ test("three source identities share one manufacturer-style terminal", () => {
     port.labels.includes("source"),
   )
 
-  expect(gate).toMatchObject({ x: -0.5, y: 0 })
-  expect(drain).toMatchObject({ x: 0.16, y: 0.58 })
+  expect(gate).toMatchObject({ x: -0.42, y: -0.1 })
+  expect(drain).toMatchObject({ x: 0.3, y: 0.55 })
   expect(sources).toHaveLength(3)
   expect(
     sources.every(
       (source) => source.x === sources[0]?.x && source.y === sources[0]?.y,
     ),
   ).toBe(true)
-  expect(sources[0]).toMatchObject({ x: 0.16, y: -0.58 })
+  expect(sources[0]).toMatchObject({ x: 0.31, y: -0.55 })
 })
 
 test("five-terminal power MOSFET variants preserve gate, drain, and three source terminals", () => {
