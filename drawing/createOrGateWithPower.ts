@@ -68,8 +68,8 @@ export const createOrGateWithPower = (orGate: SchSymbol): SchSymbol => {
   const inputALead = getSignalLead({ symbol: orGate, portAlias: "a" })
   const inputBLead = getSignalLead({ symbol: orGate, portAlias: "b" })
   const outputLead = getSignalLead({ symbol: orGate, portAlias: "y" })
-  const inputATarget = { x: -0.7, y: inputAPort.y }
-  const inputBTarget = { x: -0.7, y: inputBPort.y }
+  const inputATarget = { x: -0.7, y: 0.14 }
+  const inputBTarget = { x: -0.7, y: -0.14 }
   const updatedPrimitives: Primitive[] = orGate.primitives.map((primitive) => {
     if (primitive === inputALead) {
       return moveLeadPort({
