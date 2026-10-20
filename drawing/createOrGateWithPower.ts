@@ -1,4 +1,10 @@
-import type { PathPrimitive, Port, Primitive, SchSymbol } from "./types"
+import type { PathPrimitive, Point, Port, Primitive, SchSymbol } from "./types"
+
+const POINT_TOLERANCE = 0.000001
+
+const pointsMatch = (firstPoint: Point, secondPoint: Point): boolean =>
+  Math.hypot(firstPoint.x - secondPoint.x, firstPoint.y - secondPoint.y) <
+  POINT_TOLERANCE
 
 const getSignalLead = ({
   symbol,
@@ -39,28 +45,45 @@ const createPowerLead = ({
   fill: false,
 })
 
+const moveLeadPort = ({
+  lead,
+  currentPort,
+  targetPort,
+}: {
+  lead: PathPrimitive
+  currentPort: Port
+  targetPort: Point
+}): PathPrimitive => ({
+  ...lead,
+  points: lead.points.map((point) =>
+    pointsMatch(point, currentPort) ? targetPort : point,
+  ),
+})
+
 export const createOrGateWithPower = (orGate: SchSymbol): SchSymbol => {
+  const inputAPort = orGate.ports.find((port) => port.labels.includes("a"))
+  if (!inputAPort) throw new Error("OR gate a port not found")
+  const inputBPort = orGate.ports.find((port) => port.labels.includes("b"))
+  if (!inputBPort) throw new Error("OR gate b port not found")
   const inputALead = getSignalLead({ symbol: orGate, portAlias: "a" })
   const inputBLead = getSignalLead({ symbol: orGate, portAlias: "b" })
   const outputLead = getSignalLead({ symbol: orGate, portAlias: "y" })
+  const inputATarget = { x: -0.7, y: inputAPort.y }
+  const inputBTarget = { x: -0.7, y: inputBPort.y }
   const updatedPrimitives: Primitive[] = orGate.primitives.map((primitive) => {
     if (primitive === inputALead) {
-      return {
-        ...inputALead,
-        points: [
-          { x: -0.7, y: 0.14 },
-          { x: -0.255, y: 0.14 },
-        ],
-      }
+      return moveLeadPort({
+        lead: inputALead,
+        currentPort: inputAPort,
+        targetPort: inputATarget,
+      })
     }
     if (primitive === inputBLead) {
-      return {
-        ...inputBLead,
-        points: [
-          { x: -0.7, y: -0.14 },
-          { x: -0.255, y: -0.14 },
-        ],
-      }
+      return moveLeadPort({
+        lead: inputBLead,
+        currentPort: inputBPort,
+        targetPort: inputBTarget,
+      })
     }
     if (primitive === outputLead) {
       return {
@@ -82,8 +105,8 @@ export const createOrGateWithPower = (orGate: SchSymbol): SchSymbol => {
     return { ...primitive }
   })
   const updatedPorts: Port[] = orGate.ports.map((port) => {
-    if (port.labels.includes("a")) return { ...port, x: -0.7, y: 0.14 }
-    if (port.labels.includes("b")) return { ...port, x: -0.7, y: -0.14 }
+    if (port.labels.includes("a")) return { ...port, ...inputATarget }
+    if (port.labels.includes("b")) return { ...port, ...inputBTarget }
     if (port.labels.includes("y")) {
       return {
         ...port,
