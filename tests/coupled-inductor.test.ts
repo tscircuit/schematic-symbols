@@ -70,3 +70,26 @@ test("coupled inductor orientations preserve two separate windings", () => {
     leftFacingSymbol: symbols.coupled_inductor_left,
   })
 })
+
+test("vertical coupled-inductor labels are readable beside the body", () => {
+  for (const orientation of ["up", "down"] as const) {
+    const coupledInductor = symbols[`coupled_inductor_${orientation}`]
+    const reference = coupledInductor.primitives.find(
+      (primitive) => primitive.type === "text" && primitive.text === "{REF}",
+    )
+    const value = coupledInductor.primitives.find(
+      (primitive) => primitive.type === "text" && primitive.text === "{VAL}",
+    )
+
+    expect(reference).toMatchObject({
+      anchor: "middle_left",
+      x: 0.5,
+      y: 0.12,
+    })
+    expect(value).toMatchObject({
+      anchor: "middle_left",
+      x: 0.5,
+      y: -0.12,
+    })
+  }
+})
