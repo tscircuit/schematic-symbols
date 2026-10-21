@@ -1,5 +1,6 @@
 import svgJson from "assets/generated/four_terminal_capacitor.json"
 import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
+import { renumberSymbolPortsCounterClockwise } from "drawing/renumberSymbolPortsCounterClockwise"
 import type { NinePointAnchor, Point, SchSymbol } from "drawing/types"
 
 type SymbolOrientation = "right" | "up" | "down"
@@ -58,5 +59,8 @@ export const createFourTerminalCapacitor = (
     .rotateRightFacingSymbol(orientation)
     .build()
 
-  return { ...symbol, size: labelLayout.size }
+  return renumberSymbolPortsCounterClockwise({
+    symbol: { ...symbol, size: labelLayout.size },
+    firstPortAlias: "plate1_terminal1",
+  })
 }

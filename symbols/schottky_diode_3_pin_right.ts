@@ -1,4 +1,5 @@
 import type { PathPrimitive, Port, SchSymbol } from "../drawing/types"
+import { renumberSymbolPortsCounterClockwise } from "../drawing/renumberSymbolPortsCounterClockwise"
 import schottkyDiodeRight from "./schottky_diode_right"
 
 const UPPER_ANODE_PORT = { x: -0.68, y: 0.19 }
@@ -50,4 +51,7 @@ const schottkyDiode3PinRight: SchSymbol = {
   size: { width: 1.36, height: 0.54 },
 }
 
-export default schottkyDiode3PinRight
+export default renumberSymbolPortsCounterClockwise({
+  symbol: schottkyDiode3PinRight,
+  firstPortAlias: "anode1",
+})

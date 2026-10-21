@@ -1,6 +1,8 @@
 import { expect, test } from "bun:test"
 import symbols from "../generated/symbols-index"
-import { expectSymbolToBeYAxisMirror } from "./helpers/expect-symbol-to-be-y-axis-mirror"
+import { expectPortsNumberedCounterClockwise } from "./helpers/expect-ports-numbered-counter-clockwise"
+import { expectReferenceAboveValue } from "./helpers/expect-reference-above-value"
+import { expectSymbolGeometryToBeYAxisMirror } from "./helpers/expect-symbol-geometry-to-be-y-axis-mirror"
 
 const POINT_TOLERANCE = 0.000001
 
@@ -41,9 +43,11 @@ test("three-pin Schottky preserves one junction and two package anode leads", ()
     const cathode = diode.ports.find((port) => port.labels.includes("cathode"))
 
     expect(anode1?.labels, symbolName).toContain("1")
-    expect(anode2?.labels, symbolName).toContain("2")
-    expect(cathode?.labels, symbolName).toContain("3")
+    expect(anode2, symbolName).toBeDefined()
+    expect(cathode, symbolName).toBeDefined()
     expect(diode.ports, symbolName).toHaveLength(3)
+    expectPortsNumberedCounterClockwise({ symbol: diode, symbolName })
+    expectReferenceAboveValue({ symbol: diode, symbolName })
     expectPortsWithinSymbolSize({ symbolName })
 
     for (const port of diode.ports) {
@@ -58,7 +62,7 @@ test("three-pin Schottky preserves one junction and two package anode leads", ()
     }
   }
 
-  expectSymbolToBeYAxisMirror({
+  expectSymbolGeometryToBeYAxisMirror({
     rightFacingSymbol: symbols.schottky_diode_3_pin_right,
     leftFacingSymbol: symbols.schottky_diode_3_pin_left,
   })
