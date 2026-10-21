@@ -1,6 +1,8 @@
 import { expect, test } from "bun:test"
 import symbols from "../generated/symbols-index"
-import { expectSymbolToBeYAxisMirror } from "./helpers/expect-symbol-to-be-y-axis-mirror"
+import { expectPortsNumberedCounterClockwise } from "./helpers/expect-ports-numbered-counter-clockwise"
+import { expectReferenceAboveValue } from "./helpers/expect-reference-above-value"
+import { expectSymbolGeometryToBeYAxisMirror } from "./helpers/expect-symbol-geometry-to-be-y-axis-mirror"
 
 const pointsMatch = (
   firstPoint: { x: number; y: number },
@@ -15,17 +17,28 @@ test("coupled inductor orientations preserve two separate windings", () => {
       orientation) as keyof typeof symbols
     const coupledInductor = symbols[symbolName]
 
-    for (const terminal of [
-      ["winding1_start", "1"],
-      ["winding1_end", "2"],
-      ["winding2_end", "3"],
-      ["winding2_start", "4"],
+    for (const terminalAlias of [
+      "winding1_start",
+      "winding1_end",
+      "winding2_end",
+      "winding2_start",
     ] as const) {
       const port = coupledInductor.ports.find((candidate) =>
-        candidate.labels.includes(terminal[0]),
+        candidate.labels.includes(terminalAlias),
       )
-      expect(port?.labels, symbolName).toContain(terminal[1])
+      expect(port, `${symbolName} ${terminalAlias}`).toBeDefined()
     }
+    expect(
+      coupledInductor.ports.find((port) =>
+        port.labels.includes("winding1_start"),
+      )?.labels,
+      symbolName,
+    ).toContain("1")
+    expectPortsNumberedCounterClockwise({
+      symbol: coupledInductor,
+      symbolName,
+    })
+    expectReferenceAboveValue({ symbol: coupledInductor, symbolName })
 
     const windingPaths = coupledInductor.primitives.filter(
       (primitive) => primitive.type === "path",
@@ -65,7 +78,7 @@ test("coupled inductor orientations preserve two separate windings", () => {
     }
   }
 
-  expectSymbolToBeYAxisMirror({
+  expectSymbolGeometryToBeYAxisMirror({
     rightFacingSymbol: symbols.coupled_inductor_right,
     leftFacingSymbol: symbols.coupled_inductor_left,
   })

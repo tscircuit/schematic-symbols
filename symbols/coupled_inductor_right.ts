@@ -1,3 +1,7 @@
 import { createCoupledInductorRight } from "../drawing/createCoupledInductorRight"
+import { renumberSymbolPortsCounterClockwise } from "../drawing/renumberSymbolPortsCounterClockwise"
 
-export default createCoupledInductorRight()
+export default renumberSymbolPortsCounterClockwise({
+  symbol: createCoupledInductorRight(),
+  firstPortAlias: "winding1_start",
+})
