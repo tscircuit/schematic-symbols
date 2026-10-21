@@ -27,7 +27,7 @@
     <line x1="0.655" y1="0.135" x2="0.7050000000000001" y2="0.08499999999999999" stroke="red" stroke-width="0.004" />
   
     <text x="0.64" y="0.2"
-      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
   
     
     
@@ -35,14 +35,14 @@
     <line x1="-0.545" y1="-0.015" x2="-0.495" y2="-0.065" stroke="red" stroke-width="0.004" />
   
     <text x="-0.56" y="0.05"
-      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
   
 <path d="M 0 -0.065 L 0.025 -0.04 L 0 -0.015 L -0.025 -0.04 Z" fill="green" />
 <text x="-0.68" y="-0.23" style="font: 0.05px monospace; fill: #833;">1.36 x 0.54</text>
 <text x="-0.68" y="-0.28" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [anode1, a1, anode, a]</text>
-<text x="-0.68" y="-0.33" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [anode2, a2, anode, a]</text>
-<text x="-0.68" y="-0.38" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [cathode, k]</text>
+<text x="-0.68" y="-0.33" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [anode2, a2, anode, a]</text>
+<text x="-0.68" y="-0.38" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [cathode, k]</text>
 <text x="-0.68" y="-0.23" style="font: 0.05px monospace; fill: #833;">1.36 x 0.54</text>
 <text x="-0.68" y="-0.28" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [anode1, a1, anode, a]</text>
-<text x="-0.68" y="-0.33" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [anode2, a2, anode, a]</text>
-<text x="-0.68" y="-0.38" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [cathode, k]</text></svg>
+<text x="-0.68" y="-0.33" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [anode2, a2, anode, a]</text>
+<text x="-0.68" y="-0.38" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [cathode, k]</text></svg>
