@@ -1,6 +1,8 @@
 import { expect, test } from "bun:test"
 import symbols from "../generated/symbols-index"
-import { expectSymbolToBeYAxisMirror } from "./helpers/expect-symbol-to-be-y-axis-mirror"
+import { expectPortsNumberedCounterClockwise } from "./helpers/expect-ports-numbered-counter-clockwise"
+import { expectReferenceAboveValue } from "./helpers/expect-reference-above-value"
+import { expectSymbolGeometryToBeYAxisMirror } from "./helpers/expect-symbol-geometry-to-be-y-axis-mirror"
 
 test("four-terminal capacitor preserves two terminals on each plate", () => {
   for (const orientation of ["right", "up", "left", "down"] as const) {
@@ -8,17 +10,24 @@ test("four-terminal capacitor preserves two terminals on each plate", () => {
       orientation) as keyof typeof symbols
     const capacitor = symbols[symbolName]
 
-    for (const terminal of [
-      ["plate1_terminal1", "1"],
-      ["plate1_terminal2", "2"],
-      ["plate2_terminal2", "3"],
-      ["plate2_terminal1", "4"],
+    for (const terminalAlias of [
+      "plate1_terminal1",
+      "plate1_terminal2",
+      "plate2_terminal2",
+      "plate2_terminal1",
     ] as const) {
       const port = capacitor.ports.find((candidate) =>
-        candidate.labels.includes(terminal[0]),
+        candidate.labels.includes(terminalAlias),
       )
-      expect(port?.labels, symbolName).toContain(terminal[1])
+      expect(port, `${symbolName} ${terminalAlias}`).toBeDefined()
     }
+    expect(
+      capacitor.ports.find((port) => port.labels.includes("plate1_terminal1"))
+        ?.labels,
+      symbolName,
+    ).toContain("1")
+    expectPortsNumberedCounterClockwise({ symbol: capacitor, symbolName })
+    expectReferenceAboveValue({ symbol: capacitor, symbolName })
 
     expect(
       capacitor.primitives.filter((primitive) => primitive.type === "path"),
@@ -26,7 +35,7 @@ test("four-terminal capacitor preserves two terminals on each plate", () => {
     ).toHaveLength(6)
   }
 
-  expectSymbolToBeYAxisMirror({
+  expectSymbolGeometryToBeYAxisMirror({
     rightFacingSymbol: symbols.four_terminal_capacitor_right,
     leftFacingSymbol: symbols.four_terminal_capacitor_left,
   })
