@@ -1,7 +1,9 @@
 import { expect, test } from "bun:test"
 import orGateAsset from "../assets/generated/or_gate.json"
 import symbols from "../generated/symbols-index"
-import { expectSymbolToBeYAxisMirror } from "./helpers/expect-symbol-to-be-y-axis-mirror"
+import { expectPortsNumberedCounterClockwise } from "./helpers/expect-ports-numbered-counter-clockwise"
+import { expectReferenceAboveValue } from "./helpers/expect-reference-above-value"
+import { expectSymbolGeometryToBeYAxisMirror } from "./helpers/expect-symbol-geometry-to-be-y-axis-mirror"
 
 const pointsMatch = (
   firstPoint: { x: number; y: number },
@@ -69,12 +71,14 @@ test("OR gate geometry and terminal identities remain correct in every orientati
     const outputY = orGate.ports.find((port) => port.labels.includes("y"))
 
     expect(inputA?.labels, symbolName).toContain("1")
-    expect(inputB?.labels, symbolName).toContain("2")
-    expect(outputY?.labels, symbolName).toContain("3")
+    expect(inputB, symbolName).toBeDefined()
+    expect(outputY, symbolName).toBeDefined()
+    expectPortsNumberedCounterClockwise({ symbol: orGate, symbolName })
+    expectReferenceAboveValue({ symbol: orGate, symbolName })
     expectInputsToMeetBody(orGate)
   }
 
-  expectSymbolToBeYAxisMirror({
+  expectSymbolGeometryToBeYAxisMirror({
     rightFacingSymbol: symbols.or_gate_right,
     leftFacingSymbol: symbols.or_gate_left,
   })
@@ -88,22 +92,21 @@ test("powered OR gate variants preserve package power and signal terminals", () 
       orientation) as keyof typeof symbols
     const orGate = symbols[symbolName]
 
-    for (const terminal of [
-      ["a", "1"],
-      ["b", "2"],
-      ["gnd", "3"],
-      ["y", "4"],
-      ["vcc", "5"],
-    ] as const) {
+    for (const terminalAlias of ["a", "b", "gnd", "y", "vcc"] as const) {
       const port = orGate.ports.find((candidate) =>
-        candidate.labels.includes(terminal[0]),
+        candidate.labels.includes(terminalAlias),
       )
-      expect(port?.labels, symbolName).toContain(terminal[1])
+      expect(port, `${symbolName} ${terminalAlias}`).toBeDefined()
     }
+    expect(
+      orGate.ports.find((port) => port.labels.includes("a"))?.labels,
+    ).toContain("1")
+    expectPortsNumberedCounterClockwise({ symbol: orGate, symbolName })
+    expectReferenceAboveValue({ symbol: orGate, symbolName })
     expectInputsToMeetBody(orGate)
   }
 
-  expectSymbolToBeYAxisMirror({
+  expectSymbolGeometryToBeYAxisMirror({
     rightFacingSymbol: symbols.or_gate_with_power_right,
     leftFacingSymbol: symbols.or_gate_with_power_left,
   })

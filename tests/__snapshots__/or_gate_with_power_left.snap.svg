@@ -12,7 +12,7 @@
     <line x1="0.6749999999999999" y1="0.1649999999999999" x2="0.725" y2="0.11499999999999991" stroke="red" stroke-width="0.004" />
   
     <text x="0.6599999999999999" y="0.2299999999999999"
-      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">5</text>
   
     
     
@@ -28,7 +28,7 @@
     <line x1="-1.005" y1="0.02499999999999989" x2="-0.955" y2="-0.025000000000000112" stroke="red" stroke-width="0.004" />
   
     <text x="-1.02" y="0.08999999999999989"
-      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">4</text>
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
   
     
     
@@ -36,7 +36,7 @@
     <line x1="-0.025" y1="0.7249999999999999" x2="0.025" y2="0.6749999999999998" stroke="red" stroke-width="0.004" />
   
     <text x="-0.04" y="0.7899999999999999"
-      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">4</text>
   
     
     
@@ -44,18 +44,18 @@
     <line x1="-0.025" y1="-0.675" x2="0.025" y2="-0.7250000000000001" stroke="red" stroke-width="0.004" />
   
     <text x="-0.04" y="-0.61"
-      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">5</text>
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
   
 <path d="M 5.551115123125783e-17 -0.025000000000000112 L 0.025000000000000057 -1.1102230246251565e-16 L 5.551115123125783e-17 0.02499999999999989 L -0.024999999999999946 -1.1102230246251565e-16 Z" fill="green" />
 <text x="-1.05" y="-0.8999999999999999" style="font: 0.05px monospace; fill: #833;">2.10 x 1.80</text>
-<text x="-1.05" y="-0.95" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [in2, input2, b]</text>
+<text x="-1.05" y="-0.95" dy="-0.15" style="font: 0.05px monospace; fill: #833;">5 [in2, input2, b]</text>
 <text x="-1.05" y="-0.9999999999999999" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [in1, input1, a]</text>
-<text x="-1.05" y="-1.0499999999999998" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [out, output, y]</text>
-<text x="-1.05" y="-1.0999999999999999" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [gnd, ground]</text>
-<text x="-1.05" y="-1.15" dy="-0.15" style="font: 0.05px monospace; fill: #833;">5 [vcc, power]</text>
+<text x="-1.05" y="-1.0499999999999998" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [out, output, y]</text>
+<text x="-1.05" y="-1.0999999999999999" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [gnd, ground]</text>
+<text x="-1.05" y="-1.15" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [vcc, power]</text>
 <text x="-1.05" y="-0.8999999999999999" style="font: 0.05px monospace; fill: #833;">2.10 x 1.80</text>
-<text x="-1.05" y="-0.95" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [in2, input2, b]</text>
+<text x="-1.05" y="-0.95" dy="-0.15" style="font: 0.05px monospace; fill: #833;">5 [in2, input2, b]</text>
 <text x="-1.05" y="-0.9999999999999999" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [in1, input1, a]</text>
-<text x="-1.05" y="-1.0499999999999998" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [out, output, y]</text>
-<text x="-1.05" y="-1.0999999999999999" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [gnd, ground]</text>
-<text x="-1.05" y="-1.15" dy="-0.15" style="font: 0.05px monospace; fill: #833;">5 [vcc, power]</text></svg>
+<text x="-1.05" y="-1.0499999999999998" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [out, output, y]</text>
+<text x="-1.05" y="-1.0999999999999999" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [gnd, ground]</text>
+<text x="-1.05" y="-1.15" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [vcc, power]</text></svg>
