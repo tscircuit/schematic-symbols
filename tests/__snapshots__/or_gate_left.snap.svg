@@ -10,7 +10,7 @@
     <line x1="0.575" y1="0.1546296299999996" x2="0.625" y2="0.10462962999999961" stroke="red" stroke-width="0.004" />
   
     <text x="0.5599999999999999" y="0.2196296299999996"
-      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
   
     
     
@@ -26,14 +26,14 @@
     <line x1="-0.6250000000000001" y1="0.01499999999999966" x2="-0.5750000000000001" y2="-0.03500000000000034" stroke="red" stroke-width="0.004" />
   
     <text x="-0.6400000000000001" y="0.07999999999999965"
-      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
+      text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
   
 <path d="M 5.551115123125783e-17 -0.025000000000000112 L 0.025000000000000057 -1.1102230246251565e-16 L 5.551115123125783e-17 0.02499999999999989 L -0.024999999999999946 -1.1102230246251565e-16 Z" fill="green" />
 <text x="-0.6000000000000001" y="-0.47" style="font: 0.05px monospace; fill: #833;">1.20 x 0.94</text>
-<text x="-0.6000000000000001" y="-0.52" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [in2, input2, b]</text>
+<text x="-0.6000000000000001" y="-0.52" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [in2, input2, b]</text>
 <text x="-0.6000000000000001" y="-0.57" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [in1, input1, a]</text>
-<text x="-0.6000000000000001" y="-0.62" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [out, output, y]</text>
+<text x="-0.6000000000000001" y="-0.62" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [out, output, y]</text>
 <text x="-0.6000000000000001" y="-0.47" style="font: 0.05px monospace; fill: #833;">1.20 x 0.94</text>
-<text x="-0.6000000000000001" y="-0.52" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [in2, input2, b]</text>
+<text x="-0.6000000000000001" y="-0.52" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [in2, input2, b]</text>
 <text x="-0.6000000000000001" y="-0.57" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [in1, input1, a]</text>
-<text x="-0.6000000000000001" y="-0.62" dy="-0.15" style="font: 0.05px monospace; fill: #833;">3 [out, output, y]</text></svg>
+<text x="-0.6000000000000001" y="-0.62" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [out, output, y]</text></svg>
