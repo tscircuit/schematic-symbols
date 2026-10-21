@@ -78,9 +78,12 @@ test("vertical three-pin Schottky labels remain horizontal and separated", () =>
       (primitive) => primitive.type === "text" && primitive.text === "{VAL}",
     )
 
+    expect(reference?.type).toBe("text")
+    expect(value?.type).toBe("text")
+    if (reference?.type !== "text" || value?.type !== "text") continue
     expect(reference).toMatchObject({ anchor: "middle_left", x: 0.31 })
     expect(value).toMatchObject({ anchor: "middle_left", x: 0.31 })
-    expect(reference?.y).toBeGreaterThan(value?.y ?? Number.POSITIVE_INFINITY)
+    expect(reference.y).toBeGreaterThan(value.y)
   }
 })
 
