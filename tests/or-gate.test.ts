@@ -51,10 +51,13 @@ const expectVerticalTextLayout = (
   const value = symbol.primitives.find(
     (primitive) => primitive.type === "text" && primitive.text === "{VAL}",
   )
-  expect(reference).toMatchObject({ anchor: "middle_left" })
-  expect(value).toMatchObject({ anchor: "middle_left" })
-  expect(reference?.x).toBe(value?.x)
-  expect(reference?.y).toBeGreaterThan(value?.y ?? 0)
+  expect(reference?.type).toBe("text")
+  expect(value?.type).toBe("text")
+  if (reference?.type !== "text" || value?.type !== "text") return
+  expect(reference.anchor).toBe("middle_left")
+  expect(value.anchor).toBe("middle_left")
+  expect(reference.x).toBe(value.x)
+  expect(reference.y).toBeGreaterThan(value.y)
 }
 
 test("OR gate geometry and terminal identities remain correct in every orientation", () => {
