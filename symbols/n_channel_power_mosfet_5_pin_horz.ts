@@ -1,4 +1,5 @@
 import { getSizeForCenteredTerminalBox } from "../drawing/getSizeForCenteredTerminalBox"
+import { renumberSymbolPortsCounterClockwise } from "../drawing/renumberSymbolPortsCounterClockwise"
 import type {
   PathPrimitive,
   Point,
@@ -142,4 +143,7 @@ const fiveTerminalPowerMosfet: SchSymbol = {
   size: getSizeForCenteredTerminalBox(nChannelEnhancementMosfet.center, ports),
 }
 
-export default fiveTerminalPowerMosfet
+export default renumberSymbolPortsCounterClockwise({
+  symbol: fiveTerminalPowerMosfet,
+  firstPortAlias: "gate",
+})

@@ -1,7 +1,9 @@
 import { expect, test } from "bun:test"
 import symbols from "../generated/symbols-index"
 import fiveTerminalMosfet from "../symbols/n_channel_power_mosfet_5_pin_horz"
-import { expectSymbolToBeYAxisMirror } from "./helpers/expect-symbol-to-be-y-axis-mirror"
+import { expectPortsNumberedCounterClockwise } from "./helpers/expect-ports-numbered-counter-clockwise"
+import { expectReferenceAboveValue } from "./helpers/expect-reference-above-value"
+import { expectSymbolGeometryToBeYAxisMirror } from "./helpers/expect-symbol-geometry-to-be-y-axis-mirror"
 
 const VARIANT_NAMES = [
   "n_channel_power_mosfet_5_pin_gate_left_drain_top",
@@ -53,18 +55,16 @@ test("five-terminal power MOSFET variants preserve gate, drain, and three source
     )
 
     expect(gate?.labels, symbolName).toContain("1")
-    expect(drain?.labels, symbolName).toContain("5")
+    expect(drain, symbolName).toBeDefined()
     expect(sources, symbolName).toHaveLength(3)
-    expect(
-      sources.map((source) => source.labels[0]).sort(),
-      symbolName,
-    ).toEqual(["2", "3", "4"])
     expect(
       sources.flatMap((source) => source.labels),
       symbolName,
     ).toEqual(
       expect.arrayContaining(["source_left", "source_center", "source_right"]),
     )
+    expectPortsNumberedCounterClockwise({ symbol: mosfet, symbolName })
+    expectReferenceAboveValue({ symbol: mosfet, symbolName })
 
     for (const port of mosfet.ports) {
       expect(
@@ -81,38 +81,30 @@ test("five-terminal power MOSFET variants preserve gate, drain, and three source
     }
   }
 
-  expectSymbolToBeYAxisMirror({
+  expectSymbolGeometryToBeYAxisMirror({
     rightFacingSymbol: symbols.n_channel_power_mosfet_5_pin_gate_left_drain_top,
     leftFacingSymbol: symbols.n_channel_power_mosfet_5_pin_gate_right_drain_top,
+    ignoreTextLayout: true,
   })
 })
 
-test("vertical five-terminal MOSFET labels sit outside the circular body", () => {
+test("vertical five-terminal MOSFET labels keep reference above value", () => {
   for (const symbolName of VARIANT_NAMES.filter(
     (name) => name.includes("gate_top") || name.includes("gate_bottom"),
   )) {
     const mosfet = symbols[symbolName]
-    const body = mosfet.primitives.find(
-      (primitive) => primitive.type === "circle" && !primitive.fill,
+    expectReferenceAboveValue({ symbol: mosfet, symbolName })
+    const reference = mosfet.primitives.find(
+      (primitive) => primitive.type === "text" && primitive.text === "{REF}",
     )
-    const labels = mosfet.primitives.filter(
-      (primitive) =>
-        primitive.type === "text" &&
-        (primitive.text === "{REF}" || primitive.text === "{VAL}"),
+    const value = mosfet.primitives.find(
+      (primitive) => primitive.type === "text" && primitive.text === "{VAL}",
     )
-
-    expect(body, symbolName).toBeDefined()
-    expect(labels, symbolName).toHaveLength(2)
-    for (const label of labels) {
-      if (label.type !== "text" || !body || body.type !== "circle") continue
-      const labelIsRightOfBody = label.x > body.x
-      expect(label.anchor, `${symbolName} ${label.text} anchor`).toBe(
-        labelIsRightOfBody ? "middle_left" : "middle_right",
-      )
-      expect(
-        Math.abs(label.x - body.x),
-        `${symbolName} ${label.text} clearance`,
-      ).toBeGreaterThan(body.radius)
-    }
+    const hasDrainOnLeft = symbolName.includes("drain_left")
+    const expectedTextLayout = hasDrainOnLeft
+      ? { x: -0.35, anchor: "middle_right" }
+      : { x: 0.35, anchor: "middle_left" }
+    expect(reference).toMatchObject(expectedTextLayout)
+    expect(value).toMatchObject(expectedTextLayout)
   }
 })
