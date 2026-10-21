@@ -16,6 +16,14 @@ const VARIANT_NAMES = [
   "n_channel_power_mosfet_5_pin_gate_bottom_drain_right",
 ] as const
 
+const HORIZONTAL_TEXT_LAYOUTS = [
+  ["n_channel_power_mosfet_5_pin_horz", "middle_right"],
+  ["n_channel_power_mosfet_5_pin_gate_left_drain_top", "middle_right"],
+  ["n_channel_power_mosfet_5_pin_gate_left_drain_bottom", "middle_right"],
+  ["n_channel_power_mosfet_5_pin_gate_right_drain_top", "middle_left"],
+  ["n_channel_power_mosfet_5_pin_gate_right_drain_bottom", "middle_left"],
+] as const
+
 test("three source package leads emerge from one shared source bus", () => {
   const gate = fiveTerminalMosfet.ports.find((port) =>
     port.labels.includes("gate"),
@@ -106,5 +114,22 @@ test("vertical five-terminal MOSFET labels keep reference above value", () => {
       : { x: 0.35, anchor: "middle_left" }
     expect(reference).toMatchObject(expectedTextLayout)
     expect(value).toMatchObject(expectedTextLayout)
+  }
+})
+
+test("horizontal five-terminal MOSFET labels face the clear gate side", () => {
+  for (const [symbolName, expectedAnchor] of HORIZONTAL_TEXT_LAYOUTS) {
+    const mosfet = symbols[symbolName]
+    const reference = mosfet.primitives.find(
+      (primitive) => primitive.type === "text" && primitive.text === "{REF}",
+    )
+    const value = mosfet.primitives.find(
+      (primitive) => primitive.type === "text" && primitive.text === "{VAL}",
+    )
+    expect(reference, symbolName).toMatchObject({
+      x: 0,
+      anchor: expectedAnchor,
+    })
+    expect(value, symbolName).toMatchObject({ x: 0, anchor: expectedAnchor })
   }
 })

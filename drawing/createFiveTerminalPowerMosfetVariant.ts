@@ -26,6 +26,8 @@ export const createFiveTerminalPowerMosfetVariant = ({
   const verticalTextX = drainSide === "left" ? -0.35 : 0.35
   const verticalTextAnchor =
     drainSide === "left" ? "middle_right" : "middle_left"
+  const horizontalTextAnchor =
+    gateSide === "left" ? "middle_right" : "middle_left"
   const symbolWithTextLayout = hasVerticalGate
     ? setRefValTextLayout({
         symbol: orientedSymbol,
@@ -42,8 +44,8 @@ export const createFiveTerminalPowerMosfetVariant = ({
       })
     : setRefValTextLayout({
         symbol: orientedSymbol,
-        reference: { x: 0, y: 0.36, anchor: "middle_right" },
-        value: { x: 0, y: -0.42, anchor: "middle_right" },
+        reference: { x: 0, y: 0.36, anchor: horizontalTextAnchor },
+        value: { x: 0, y: -0.42, anchor: horizontalTextAnchor },
       })
 
   return renumberSymbolPortsCounterClockwise({
