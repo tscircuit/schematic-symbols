@@ -12,6 +12,8 @@ import kleur from "kleur"
 
 const SOURCE_IGNORE_LIST = ["testshape"]
 
+const isClosedPath = (pathData: string) => /[zZ]\s*$/.test(pathData.trim())
+
 /**
  * Inkscape SVGs are generated with "Y-up is negative", but we want "Y-up is positive"
  */
@@ -98,6 +100,7 @@ export async function processSvg(
                 fill:
                   path.attributes.fill === "true" &&
                   !path.attributes.style?.includes("fill:none"),
+                ...(isClosedPath(path.attributes.d!) ? { closed: true } : {}),
               },
             ]),
           )
