@@ -242,6 +242,14 @@ import _opamp_with_power_down from "./../symbols/opamp_with_power_down"
 import _opamp_with_power_left from "./../symbols/opamp_with_power_left"
 import _opamp_with_power_right from "./../symbols/opamp_with_power_right"
 import _opamp_with_power_up from "./../symbols/opamp_with_power_up"
+import _or_gate_down from "./../symbols/or_gate_down"
+import _or_gate_left from "./../symbols/or_gate_left"
+import _or_gate_right from "./../symbols/or_gate_right"
+import _or_gate_up from "./../symbols/or_gate_up"
+import _or_gate_with_power_down from "./../symbols/or_gate_with_power_down"
+import _or_gate_with_power_left from "./../symbols/or_gate_with_power_left"
+import _or_gate_with_power_right from "./../symbols/or_gate_with_power_right"
+import _or_gate_with_power_up from "./../symbols/or_gate_with_power_up"
 import _p_channel_d_mosfet_transistor_gate_bottom_drain_left from "./../symbols/p_channel_d_mosfet_transistor_gate_bottom_drain_left"
 import _p_channel_d_mosfet_transistor_gate_bottom_drain_right from "./../symbols/p_channel_d_mosfet_transistor_gate_bottom_drain_right"
 import _p_channel_d_mosfet_transistor_gate_left_drain_bottom from "./../symbols/p_channel_d_mosfet_transistor_gate_left_drain_bottom"
@@ -677,6 +685,14 @@ export default {
   "opamp_with_power_left": _opamp_with_power_left,
   "opamp_with_power_right": _opamp_with_power_right,
   "opamp_with_power_up": _opamp_with_power_up,
+  "or_gate_down": _or_gate_down,
+  "or_gate_left": _or_gate_left,
+  "or_gate_right": _or_gate_right,
+  "or_gate_up": _or_gate_up,
+  "or_gate_with_power_down": _or_gate_with_power_down,
+  "or_gate_with_power_left": _or_gate_with_power_left,
+  "or_gate_with_power_right": _or_gate_with_power_right,
+  "or_gate_with_power_up": _or_gate_with_power_up,
   "p_channel_d_mosfet_transistor_gate_bottom_drain_left": _p_channel_d_mosfet_transistor_gate_bottom_drain_left,
   "p_channel_d_mosfet_transistor_gate_bottom_drain_right": _p_channel_d_mosfet_transistor_gate_bottom_drain_right,
   "p_channel_d_mosfet_transistor_gate_left_drain_bottom": _p_channel_d_mosfet_transistor_gate_left_drain_bottom,
