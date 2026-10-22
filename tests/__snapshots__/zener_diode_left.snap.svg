@@ -1,4 +1,4 @@
-<svg width="150" height="150" viewBox="-0.6241494599999999 -0.3730227600000004 1.2482989199999996 0.6572287199999999" xmlns="http://www.w3.org/2000/svg"><path d="M-0.14458890000000024,-0.04478050000000098 L0.11999439999999927,-0.17707220000000135" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+<svg width="150" height="150" viewBox="-0.6241494599999999 -0.33240840000000044 1.2482989199999996 0.576" xmlns="http://www.w3.org/2000/svg"><path d="M-0.14458890000000024,-0.04478050000000098 L0.11999439999999927,-0.17707220000000135" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.11999439999999931,0.08751119999999932 L-0.14458890000000024,-0.04478050000000098" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.11999439999999927,-0.1770722 L0.11999439999999931,0.08751119999999932" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M-0.14458890000000021,0.08751119999999937 L-0.14458890000000024,-0.1770722" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
@@ -6,8 +6,8 @@
     <path d="M-0.5233797000000004,-0.0448657000000005 L-0.14967160000000002,-0.04486570000000054" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M-0.14458890000000021,0.08751119999999937 L-0.2106933000000006,0.08751119999999937" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M-0.14458890000000024,-0.1770722 L-0.07848449999999986,-0.1770722" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <text x="0.005025099999999478" y="0.18502849999999915" dx="0" dy="0.07500000000000001" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.007474900000000523" y="0.17252849999999914" width="0.025" height="0.025" fill="blue" />
-    <text x="0.00011179999999951217" y="-0.36266210000000076" dx="0" dy="0" text-anchor="middle" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.012388200000000488" y="-0.3751621000000008" width="0.025" height="0.025" fill="blue" />
+    <text x="-2.5687458859609337e-16" y="-0.3288168000000009" dx="0" dy="0" text-anchor="middle" style="font: 0.1px monospace; fill: black">{REF}</text><rect x="-0.012500000000000257" y="-0.3413168000000009" width="0.025" height="0.025" fill="blue" />
+    <text x="-1.9809154223702045e-16" y="0.15118319999999907" dx="0" dy="0.07500000000000001" text-anchor="middle" style="font: 0.1px monospace; fill: black">{VAL}</text><rect x="-0.012500000000000198" y="0.13868319999999906" width="0.025" height="0.025" fill="blue" />
 
     
     <line x1="0.49414709999999984" y1="-0.06889610000000006" x2="0.5441470999999999" y2="-0.018896100000000055" stroke="red" stroke-width="0.004" />
@@ -25,9 +25,9 @@
       text-anchor="middle" style="font: 0.08px monospace; fill: #833;">2</text>
   
 <path d="M -1.1102230246251565e-16 -0.06940840000000045 L 0.02499999999999989 -0.04440840000000046 L -1.1102230246251565e-16 -0.019408400000000457 L -0.025000000000000112 -0.04440840000000046 Z" fill="green" />
-<text x="-0.52012455" y="-0.2294368999999995" style="font: 0.05px monospace; fill: #833;">1.04 x 0.55</text>
-<text x="-0.52012455" y="-0.2794368999999995" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [pos, anode]</text>
-<text x="-0.52012455" y="-0.3294368999999995" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [neg, cathode]</text>
-<text x="-0.52012455" y="-0.2294368999999995" style="font: 0.05px monospace; fill: #833;">1.04 x 0.55</text>
-<text x="-0.52012455" y="-0.2794368999999995" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [pos, anode]</text>
-<text x="-0.52012455" y="-0.3294368999999995" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [neg, cathode]</text></svg>
+<text x="-0.52012455" y="-0.19559159999999953" style="font: 0.05px monospace; fill: #833;">1.04 x 0.48</text>
+<text x="-0.52012455" y="-0.24559159999999952" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [pos, anode]</text>
+<text x="-0.52012455" y="-0.2955915999999995" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [neg, cathode]</text>
+<text x="-0.52012455" y="-0.19559159999999953" style="font: 0.05px monospace; fill: #833;">1.04 x 0.48</text>
+<text x="-0.52012455" y="-0.24559159999999952" dy="-0.15" style="font: 0.05px monospace; fill: #833;">1 [pos, anode]</text>
+<text x="-0.52012455" y="-0.2955915999999995" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [neg, cathode]</text></svg>
