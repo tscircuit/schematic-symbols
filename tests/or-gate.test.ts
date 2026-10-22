@@ -88,6 +88,8 @@ test("horizontal powered OR gate labels stay on the output side", () => {
 
   expect(reference.x).toBeGreaterThan(symbol.center.x)
   expect(displayValue.x).toBeGreaterThan(symbol.center.x)
+  expect(reference.anchor).toBe("bottom_left")
+  expect(displayValue.anchor).toBe("top_left")
 })
 
 test("vertical OR gate labels stay together on the right", () => {
