@@ -230,6 +230,16 @@ import _n_channel_e_mosfet_transistor_gate_top_drain_left from "./../symbols/n_c
 import _n_channel_e_mosfet_transistor_gate_top_drain_right from "./../symbols/n_channel_e_mosfet_transistor_gate_top_drain_right"
 import _n_channel_e_mosfet_transistor_horz from "./../symbols/n_channel_e_mosfet_transistor_horz"
 import _n_channel_e_mosfet_transistor_vert from "./../symbols/n_channel_e_mosfet_transistor_vert"
+import _n_channel_power_mosfet_5_pin_gate_bottom_drain_left from "./../symbols/n_channel_power_mosfet_5_pin_gate_bottom_drain_left"
+import _n_channel_power_mosfet_5_pin_gate_bottom_drain_right from "./../symbols/n_channel_power_mosfet_5_pin_gate_bottom_drain_right"
+import _n_channel_power_mosfet_5_pin_gate_left_drain_bottom from "./../symbols/n_channel_power_mosfet_5_pin_gate_left_drain_bottom"
+import _n_channel_power_mosfet_5_pin_gate_left_drain_top from "./../symbols/n_channel_power_mosfet_5_pin_gate_left_drain_top"
+import _n_channel_power_mosfet_5_pin_gate_right_drain_bottom from "./../symbols/n_channel_power_mosfet_5_pin_gate_right_drain_bottom"
+import _n_channel_power_mosfet_5_pin_gate_right_drain_top from "./../symbols/n_channel_power_mosfet_5_pin_gate_right_drain_top"
+import _n_channel_power_mosfet_5_pin_gate_top_drain_left from "./../symbols/n_channel_power_mosfet_5_pin_gate_top_drain_left"
+import _n_channel_power_mosfet_5_pin_gate_top_drain_right from "./../symbols/n_channel_power_mosfet_5_pin_gate_top_drain_right"
+import _n_channel_power_mosfet_5_pin_horz from "./../symbols/n_channel_power_mosfet_5_pin_horz"
+import _n_channel_power_mosfet_5_pin_vert from "./../symbols/n_channel_power_mosfet_5_pin_vert"
 import _njfet_transistor_horz from "./../symbols/njfet_transistor_horz"
 import _njfet_transistor_vert from "./../symbols/njfet_transistor_vert"
 import _not_connected_down from "./../symbols/not_connected_down"
@@ -685,6 +695,16 @@ export default {
   "n_channel_e_mosfet_transistor_gate_top_drain_right": _n_channel_e_mosfet_transistor_gate_top_drain_right,
   "n_channel_e_mosfet_transistor_horz": _n_channel_e_mosfet_transistor_horz,
   "n_channel_e_mosfet_transistor_vert": _n_channel_e_mosfet_transistor_vert,
+  "n_channel_power_mosfet_5_pin_gate_bottom_drain_left": _n_channel_power_mosfet_5_pin_gate_bottom_drain_left,
+  "n_channel_power_mosfet_5_pin_gate_bottom_drain_right": _n_channel_power_mosfet_5_pin_gate_bottom_drain_right,
+  "n_channel_power_mosfet_5_pin_gate_left_drain_bottom": _n_channel_power_mosfet_5_pin_gate_left_drain_bottom,
+  "n_channel_power_mosfet_5_pin_gate_left_drain_top": _n_channel_power_mosfet_5_pin_gate_left_drain_top,
+  "n_channel_power_mosfet_5_pin_gate_right_drain_bottom": _n_channel_power_mosfet_5_pin_gate_right_drain_bottom,
+  "n_channel_power_mosfet_5_pin_gate_right_drain_top": _n_channel_power_mosfet_5_pin_gate_right_drain_top,
+  "n_channel_power_mosfet_5_pin_gate_top_drain_left": _n_channel_power_mosfet_5_pin_gate_top_drain_left,
+  "n_channel_power_mosfet_5_pin_gate_top_drain_right": _n_channel_power_mosfet_5_pin_gate_top_drain_right,
+  "n_channel_power_mosfet_5_pin_horz": _n_channel_power_mosfet_5_pin_horz,
+  "n_channel_power_mosfet_5_pin_vert": _n_channel_power_mosfet_5_pin_vert,
   "njfet_transistor_horz": _njfet_transistor_horz,
   "njfet_transistor_vert": _njfet_transistor_vert,
   "not_connected_down": _not_connected_down,

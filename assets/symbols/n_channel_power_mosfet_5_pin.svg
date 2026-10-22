@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30mm" height="30mm" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g id="root">
+    <g id="n_channel_power_mosfet_5_pin">
+      <circle id="body" cx="16.6" cy="15" r="2.9" style="fill:none;stroke:#000000;stroke-width:0.2" />
+
+      <path id="gate-lead" d="M 12.1 16 L 15.5 16.1" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="gate-electrode" d="M 15.5 13.9 V 16.1" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="drain-lead" d="M 18.1 10 V 13.9" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+
+      <path id="upper-channel" d="M 15.9 13.9 H 18.1" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="upper-channel-bar" d="M 15.9 13.5 V 14.3" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="middle-channel" d="M 15.9 15 L 18.1 15.1" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="middle-channel-bar" d="M 15.9 14.7 V 15.4" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="lower-channel" d="M 15.9 16 H 18.1" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="lower-channel-bar" d="M 15.9 15.8 V 16.5" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="channel-arrow" d="M 17.7 15.4 L 17.7 14.7 L 17 15 L 17.7 15.4" fill="true" style="fill:#000000;stroke:#000000;stroke-width:0.1;stroke-linejoin:round" />
+
+      <path id="body-diode-lower-lead" d="M 18.1 16 H 18.8 V 15.4" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="body-diode-anode" d="M 18.4 15.4 L 19.2 15.4 L 18.8 14.6 L 18.4 15.4" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="body-diode-cathode" d="M 18.35 14.4 H 19.25" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="body-diode-upper-lead" d="M 18.8 14.4 V 13.9 H 18" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+
+      <path id="source-bus" d="M 16.6 18.2 H 19.6" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="source-channel-lead" d="M 18.1 18.2 V 15.1" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="source-left-lead" d="M 16.6 20.5 V 18.2" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="source-center-lead" d="M 18.1 20.5 V 18.2" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="source-right-lead" d="M 19.6 20.5 V 18.2" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+
+      <circle id="refblock-gate" cx="12.1" cy="16" r="0" fill="#ff0000" />
+      <circle id="refblock-drain" cx="18.1" cy="10" r="0" fill="#ff0000" />
+      <circle id="refblock-source-left" cx="16.6" cy="20.5" r="0" fill="#ff0000" />
+      <circle id="refblock-source-center" cx="18.1" cy="20.5" r="0" fill="#ff0000" />
+      <circle id="refblock-source-right" cx="19.6" cy="20.5" r="0" fill="#ff0000" />
+
+      <text x="15" y="11.4" text-anchor="middle" font-family="monospace" font-size="1">{REF}</text>
+      <text x="15" y="19.2" text-anchor="middle" font-family="monospace" font-size="1">{VAL}</text>
+    </g>
+  </g>
+</svg>
