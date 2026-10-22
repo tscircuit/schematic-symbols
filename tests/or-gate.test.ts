@@ -81,13 +81,25 @@ test("horizontal powered OR gate labels stay on the output side", () => {
   const displayValue = symbol.primitives.find(
     (primitive) => primitive.type === "text" && primitive.text === "{VAL}",
   )
+  const powerPort = symbol.ports.find((port) => port.labels.includes("vcc"))
+  const groundPort = symbol.ports.find((port) => port.labels.includes("gnd"))
 
   expect(reference?.type).toBe("text")
   expect(displayValue?.type).toBe("text")
-  if (reference?.type !== "text" || displayValue?.type !== "text") return
+  expect(powerPort).toBeDefined()
+  expect(groundPort).toBeDefined()
+  if (
+    reference?.type !== "text" ||
+    displayValue?.type !== "text" ||
+    !powerPort ||
+    !groundPort
+  )
+    return
 
   expect(reference.x).toBeGreaterThan(symbol.center.x)
   expect(displayValue.x).toBeGreaterThan(symbol.center.x)
+  expect(reference.y).toBeLessThan(powerPort.y)
+  expect(displayValue.y).toBeGreaterThan(groundPort.y)
   expect(reference.anchor).toBe("bottom_left")
   expect(displayValue.anchor).toBe("top_left")
 })

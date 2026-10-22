@@ -13,8 +13,8 @@
       <circle id="refblock-right" cx="22" cy="15" r="0" fill="#ff0000" />
       <circle id="refblock-top" cx="15" cy="8" r="0" fill="#ff0000" />
       <circle id="refblock-bottom" cx="15" cy="22" r="0" fill="#ff0000" />
-      <text x="19.5" y="6.4" text-anchor="start" font-family="monospace" font-size="1">{REF}</text>
-      <text x="19.5" y="23.6" text-anchor="start" font-family="monospace" font-size="1">{VAL}</text>
+      <text x="19.5" y="11.5" text-anchor="start" font-family="monospace" font-size="1">{REF}</text>
+      <text x="19.5" y="20.5" text-anchor="start" font-family="monospace" font-size="1">{VAL}</text>
     </g>
   </g>
 </svg>
