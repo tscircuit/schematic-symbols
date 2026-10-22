@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30mm" height="30mm" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g id="root">
+    <g id="coupled_inductor">
+      <path id="upper-winding" d="M 10 13.1 H 11.8 C 12.2 13.1 12.2 14.2 12.6 14.2 C 13 14.2 13 13.1 13.4 13.1 C 13.8 13.1 13.8 14.2 14.2 14.2 C 14.6 14.2 14.6 13.1 15 13.1 C 15.4 13.1 15.4 14.2 15.8 14.2 C 16.2 14.2 16.2 13.1 16.6 13.1 C 17 13.1 17 14.2 17.4 14.2 C 17.8 14.2 17.8 13.1 18.2 13.1 H 20" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="lower-winding" d="M 10 16.9 H 11.8 C 12.2 16.9 12.2 15.8 12.6 15.8 C 13 15.8 13 16.9 13.4 16.9 C 13.8 16.9 13.8 15.8 14.2 15.8 C 14.6 15.8 14.6 16.9 15 16.9 C 15.4 16.9 15.4 15.8 15.8 15.8 C 16.2 15.8 16.2 16.9 16.6 16.9 C 17 16.9 17 15.8 17.4 15.8 C 17.8 15.8 17.8 16.9 18.2 16.9 H 20" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="upper-core" d="M 12 14.65 H 18" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="lower-core" d="M 12 15.35 H 18" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <circle id="upper-polarity-dot" cx="18.9" cy="11.9" r="0.3" fill="#000000" />
+      <circle id="lower-polarity-dot" cx="18.9" cy="18.1" r="0.3" fill="#000000" />
+      <circle id="refblock-left-upper" cx="10" cy="13.1" r="0" fill="#ff0000" />
+      <circle id="refblock-left-lower" cx="10" cy="16.9" r="0" fill="#ff0000" />
+      <circle id="refblock-right-upper" cx="20" cy="13.1" r="0" fill="#ff0000" />
+      <circle id="refblock-right-lower" cx="20" cy="16.9" r="0" fill="#ff0000" />
+      <text x="15" y="9.8" text-anchor="middle" font-family="monospace" font-size="1">{REF}</text>
+      <text x="15" y="20.2" text-anchor="middle" font-family="monospace" font-size="1">{VAL}</text>
+    </g>
+  </g>
+</svg>
