@@ -160,6 +160,10 @@ import _filled_diode_left from "./../symbols/filled_diode_left"
 import _filled_diode_right from "./../symbols/filled_diode_right"
 import _filled_diode_up from "./../symbols/filled_diode_up"
 import _filled_diode_vert from "./../symbols/filled_diode_vert"
+import _four_terminal_capacitor_down from "./../symbols/four_terminal_capacitor_down"
+import _four_terminal_capacitor_left from "./../symbols/four_terminal_capacitor_left"
+import _four_terminal_capacitor_right from "./../symbols/four_terminal_capacitor_right"
+import _four_terminal_capacitor_up from "./../symbols/four_terminal_capacitor_up"
 import _frequency_meter_horz from "./../symbols/frequency_meter_horz"
 import _frequency_meter_vert from "./../symbols/frequency_meter_vert"
 import _fuse_horz from "./../symbols/fuse_horz"
@@ -611,6 +615,10 @@ export default {
   "filled_diode_right": _filled_diode_right,
   "filled_diode_up": _filled_diode_up,
   "filled_diode_vert": _filled_diode_vert,
+  "four_terminal_capacitor_down": _four_terminal_capacitor_down,
+  "four_terminal_capacitor_left": _four_terminal_capacitor_left,
+  "four_terminal_capacitor_right": _four_terminal_capacitor_right,
+  "four_terminal_capacitor_up": _four_terminal_capacitor_up,
   "frequency_meter_horz": _frequency_meter_horz,
   "frequency_meter_vert": _frequency_meter_vert,
   "fuse_horz": _fuse_horz,
