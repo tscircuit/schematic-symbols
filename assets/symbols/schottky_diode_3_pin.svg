@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30mm" height="30mm" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g id="root">
+    <g id="schottky_diode_3_pin">
+      <path id="anode-one-lead" d="M 8 13.5 H 11.5" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="anode-two-lead" d="M 8 16.5 H 11.5" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="anode-bus" d="M 11.5 13.5 V 16.5" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="anode-junction-lead" d="M 11.5 15 H 13.2" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="diode-body" d="M 13.2 13.7 L 15.8 15 L 13.2 16.3 L 13.2 13.7 Z" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="cathode-bar" d="M 15.8 13.7 V 16.3" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="upper-schottky-hook" d="M 15.8 13.7 H 16.5 V 14.2" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="lower-schottky-hook" d="M 15.8 16.3 H 15.1 V 15.8" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="cathode-lead" d="M 15.8 15 H 22" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <circle id="refblock-left-anode-one" cx="8" cy="13.5" r="0" fill="#ff0000" />
+      <circle id="refblock-left-anode-two" cx="8" cy="16.5" r="0" fill="#ff0000" />
+      <circle id="refblock-right-cathode" cx="22" cy="15" r="0" fill="#ff0000" />
+      <text x="15" y="11" text-anchor="middle" font-family="monospace" font-size="1">{REF}</text>
+      <text x="15" y="19" text-anchor="middle" font-family="monospace" font-size="1">{VAL}</text>
+    </g>
+  </g>
+</svg>
