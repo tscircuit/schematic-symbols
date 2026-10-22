@@ -73,6 +73,23 @@ test("left-facing generated OR gates mirror the right-facing assets", () => {
   })
 })
 
+test("horizontal powered OR gate labels stay on the output side", () => {
+  const symbol = symbols.or_gate_with_power_right
+  const reference = symbol.primitives.find(
+    (primitive) => primitive.type === "text" && primitive.text === "{REF}",
+  )
+  const displayValue = symbol.primitives.find(
+    (primitive) => primitive.type === "text" && primitive.text === "{VAL}",
+  )
+
+  expect(reference?.type).toBe("text")
+  expect(displayValue?.type).toBe("text")
+  if (reference?.type !== "text" || displayValue?.type !== "text") return
+
+  expect(reference.x).toBeGreaterThan(symbol.center.x)
+  expect(displayValue.x).toBeGreaterThan(symbol.center.x)
+})
+
 test("vertical OR gate labels stay together on the right", () => {
   const symbolNames = [
     "or_gate_up",
