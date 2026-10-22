@@ -421,11 +421,15 @@ import _watt_hour_meter_horz from "./../symbols/watt_hour_meter_horz"
 import _watt_hour_meter_vert from "./../symbols/watt_hour_meter_vert"
 import _wattmeter_horz from "./../symbols/wattmeter_horz"
 import _wattmeter_vert from "./../symbols/wattmeter_vert"
+import _zener_diode_down from "./../symbols/zener_diode_down"
 import _zener_diode_horz from "./../symbols/zener_diode_horz"
+import _zener_diode_left from "./../symbols/zener_diode_left"
+import _zener_diode_right from "./../symbols/zener_diode_right"
 import _zener_diode_sm_down from "./../symbols/zener_diode_sm_down"
 import _zener_diode_sm_left from "./../symbols/zener_diode_sm_left"
 import _zener_diode_sm_right from "./../symbols/zener_diode_sm_right"
 import _zener_diode_sm_up from "./../symbols/zener_diode_sm_up"
+import _zener_diode_up from "./../symbols/zener_diode_up"
 import _zener_diode_vert from "./../symbols/zener_diode_vert"
 import _zener_diode_xs_down from "./../symbols/zener_diode_xs_down"
 import _zener_diode_xs_left from "./../symbols/zener_diode_xs_left"
@@ -856,11 +860,15 @@ export default {
   "watt_hour_meter_vert": _watt_hour_meter_vert,
   "wattmeter_horz": _wattmeter_horz,
   "wattmeter_vert": _wattmeter_vert,
+  "zener_diode_down": _zener_diode_down,
   "zener_diode_horz": _zener_diode_horz,
+  "zener_diode_left": _zener_diode_left,
+  "zener_diode_right": _zener_diode_right,
   "zener_diode_sm_down": _zener_diode_sm_down,
   "zener_diode_sm_left": _zener_diode_sm_left,
   "zener_diode_sm_right": _zener_diode_sm_right,
   "zener_diode_sm_up": _zener_diode_sm_up,
+  "zener_diode_up": _zener_diode_up,
   "zener_diode_vert": _zener_diode_vert,
   "zener_diode_xs_down": _zener_diode_xs_down,
   "zener_diode_xs_left": _zener_diode_xs_left,

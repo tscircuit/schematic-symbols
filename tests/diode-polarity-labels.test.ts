@@ -12,6 +12,7 @@ test("LED, laser diode, and diode symbols preserve polarity labels in every orie
     "led_xs",
     "avalanche_diode_sm",
     "avalanche_diode_xs",
+    "zener_diode",
     "zener_diode_sm",
     "zener_diode_xs",
   ] as const) {

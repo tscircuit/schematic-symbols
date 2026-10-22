@@ -63,13 +63,7 @@ const getSymbol = (
   size: SizeVariant | undefined,
   orientation: Orientation,
 ): SchSymbol => {
-  const defaultOrientation =
-    family === "zener_diode" && !size
-      ? orientation === "right" || orientation === "left"
-        ? "horz"
-        : "vert"
-      : orientation
-  const name = [family, size, defaultOrientation].filter(Boolean).join("_")
+  const name = [family, size, orientation].filter(Boolean).join("_")
   const symbol = symbols[name]
 
   if (!symbol) throw new Error(`Missing symbol: ${name}`)
