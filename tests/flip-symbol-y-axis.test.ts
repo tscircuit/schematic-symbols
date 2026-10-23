@@ -14,6 +14,7 @@ describe("flipSymbolOverYAxis", () => {
           y: 7,
           width: 2,
           height: 2,
+          anchor: "top_left",
         },
       ],
       ports: [
@@ -51,6 +52,7 @@ describe("flipSymbolOverYAxis", () => {
             { x: 1, y: 2 },
             { x: 6, y: -3 },
           ],
+          color: "black",
         },
       ],
       ports: [{ x: 3, y: 5, labels: ["p1"] }],
