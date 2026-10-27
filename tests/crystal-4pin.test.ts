@@ -30,3 +30,28 @@ test("four-pin crystal orientations preserve oscillator and case pin identities"
     expect(pin3?.labels, `${symbolName} pin 3`).not.toContain("gnd2")
   }
 })
+
+test("four-pin crystal annotations follow box-resistor placement", () => {
+  for (const [symbolName, symbol] of Object.entries(orientations)) {
+    const texts = symbol.primitives.filter(
+      (primitive) => primitive.type === "text",
+    )
+    const ref = texts.find((text) => text.text === "{REF}")!
+    const val = texts.find((text) => text.text === "{VAL}")!
+
+    expect(ref.y, symbolName).toBeGreaterThan(symbol.center.y)
+    expect(val.y, symbolName).toBeLessThan(symbol.center.y)
+
+    if (symbolName.endsWith("_right") || symbolName.endsWith("_left")) {
+      expect(ref.x, symbolName).toBeCloseTo(symbol.center.x)
+      expect(val.x, symbolName).toBeCloseTo(symbol.center.x)
+      expect(ref.anchor, symbolName).toBe("middle_bottom")
+      expect(val.anchor, symbolName).toBe("middle_top")
+    } else {
+      expect(ref.x, symbolName).toBeGreaterThan(symbol.center.x)
+      expect(val.x, symbolName).toBeCloseTo(ref.x)
+      expect(ref.anchor, symbolName).toBe("middle_left")
+      expect(val.anchor, symbolName).toBe("middle_left")
+    }
+  }
+})

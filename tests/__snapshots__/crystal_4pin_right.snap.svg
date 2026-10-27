@@ -1,8 +1,8 @@
-<svg width="150" height="150" viewBox="-0.72 -0.6 1.4400000000000002 1.2" xmlns="http://www.w3.org/2000/svg"><path d="M-0.3999999999999999,-0.3999999999999999 L0.40000000000000013,-0.3999999999999999 L0.40000000000000013,0.40000000000000013 L-0.3999999999999999,0.40000000000000013" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+<svg width="150" height="150" viewBox="-0.72 -0.6 1.44 1.2" xmlns="http://www.w3.org/2000/svg"><path d="M-0.3999999999999999,-0.3999999999999999 L0.40000000000000013,-0.3999999999999999 L0.40000000000000013,0.40000000000000013 L-0.3999999999999999,0.40000000000000013 L-0.3999999999999999,-0.3999999999999999" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M-0.6,0.20000000000000018 L-0.2999999999999998,0.20000000000000018 L-0.2999999999999998,0 L-0.11999999999999988,0" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.1200000000000001,0 L0.30000000000000004,0 L0.30000000000000004,-0.19999999999999996 L0.6000000000000001,-0.19999999999999996" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M-0.11999999999999988,-0.1399999999999999 L-0.11999999999999988,0.1399999999999999" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M-0.05999999999999983,-0.1399999999999999 L0.06000000000000005,-0.1399999999999999 L0.06000000000000005,0.1399999999999999 L-0.05999999999999983,0.1399999999999999" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M-0.05999999999999983,-0.1399999999999999 L0.06000000000000005,-0.1399999999999999 L0.06000000000000005,0.1399999999999999 L-0.05999999999999983,0.1399999999999999 L-0.05999999999999983,-0.1399999999999999" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.1200000000000001,-0.1399999999999999 L0.1200000000000001,0.1399999999999999" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M-0.6,-0.19999999999999996 L-0.3999999999999999,-0.19999999999999996" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0.40000000000000013,0.20000000000000018 L0.6000000000000001,0.20000000000000018" fill="none" stroke="black" stroke-width="0.02" stroke-linecap="round" stroke-linejoin="round" />
@@ -41,9 +41,9 @@
       text-anchor="middle" style="font: 0.08px monospace; fill: #833;">3</text>
   
 <path d="M 5.551115123125783e-17 -0.025 L 0.025000000000000057 0 L 5.551115123125783e-17 0.025 L -0.024999999999999946 0 Z" fill="green" />
-<text x="-0.6000000000000001" y="-0.5" style="font: 0.05px monospace; fill: #833;">1.20 x 1.00</text>
-<text x="-0.6000000000000001" y="-0.6" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [gnd1]</text>
-<text x="-0.6000000000000001" y="-0.65" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [gnd2]</text>
-<text x="-0.6000000000000001" y="-0.5" style="font: 0.05px monospace; fill: #833;">1.20 x 1.00</text>
-<text x="-0.6000000000000001" y="-0.6" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [gnd1]</text>
-<text x="-0.6000000000000001" y="-0.65" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [gnd2]</text></svg>
+<text x="-0.5999999999999999" y="-0.5" style="font: 0.05px monospace; fill: #833;">1.20 x 1.00</text>
+<text x="-0.5999999999999999" y="-0.6" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [gnd1]</text>
+<text x="-0.5999999999999999" y="-0.65" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [gnd2]</text>
+<text x="-0.5999999999999999" y="-0.5" style="font: 0.05px monospace; fill: #833;">1.20 x 1.00</text>
+<text x="-0.5999999999999999" y="-0.6" dy="-0.15" style="font: 0.05px monospace; fill: #833;">4 [gnd1]</text>
+<text x="-0.5999999999999999" y="-0.65" dy="-0.15" style="font: 0.05px monospace; fill: #833;">2 [gnd2]</text></svg>
