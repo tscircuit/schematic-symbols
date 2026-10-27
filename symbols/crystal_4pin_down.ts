@@ -1,34 +1,12 @@
-import svgJson from "assets/generated/crystal_4pin.json"
-import { modifySymbol } from "drawing/modify-symbol/modify-symbol"
+import { modifySymbol } from "../drawing/modify-symbol/modify-symbol"
+import { rotateRightFacingSymbol } from "../drawing/rotateSymbol"
+import crystal4PinRight from "./crystal_4pin_right"
 
-const { paths, texts, bounds, refblocks, circles } = svgJson
-export default modifySymbol({
-  primitives: [
-    ...Object.values(paths),
-    ...Object.values(circles),
-    {
-      type: "text",
-      text: "{REF}",
-      x: -0.4,
-      y: 0.4094554499999995,
-    },
-    {
-      type: "text",
-      text: "{VAL}",
-      x: 0.4,
-      y: 0.4094553499999995,
-    },
-  ] as any,
-  ports: [
-    { ...refblocks.left1, labels: ["1"] }, // TODO add more "standard" labels
-    { ...refblocks.right1, labels: ["3"] }, // TODO add more "standard" labels
-    { ...refblocks.bottom1, labels: ["2"] }, // TODO add more "standard" labels
-    { ...refblocks.top1, labels: ["4"] }, // TODO add more "standard" labels
-  ],
-  size: { width: bounds.width, height: bounds.height },
-  center: { x: bounds.centerX, y: bounds.centerY },
-})
-  .rotateRightFacingSymbol("down")
-  .changeTextAnchor("{REF}", "bottom_left")
-  .changeTextAnchor("{VAL}", "top_left")
+export default modifySymbol(
+  rotateRightFacingSymbol(crystal4PinRight, {
+    newOrientation: "down",
+  }),
+)
+  .changeTextAnchor("{REF}", "middle_bottom", { x: -0.5, y: 0.7 })
+  .changeTextAnchor("{VAL}", "middle_top", { x: 0.5, y: -0.7 })
   .build()
