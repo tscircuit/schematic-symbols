@@ -25,6 +25,4 @@
 
   <path d="M0,-0.025 L0.025,0 L0,0.025 L-0.025,0 Z" fill="green" />
   <text x="-0.6" y="-0.8" style="font: 0.05px monospace; fill: #833">1.20 x 1.00</text>
-  <text x="-0.6" y="-0.75" style="font: 0.05px monospace; fill: #833">4 [gnd1]</text>
-  <text x="-0.6" y="-0.7" style="font: 0.05px monospace; fill: #833">2 [gnd2]</text>
 </svg>
