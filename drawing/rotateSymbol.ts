@@ -279,12 +279,14 @@ export const rotateRightFacingSymbol = (
           x: primitive.x,
           y: primitive.y,
         }) as Point
+        const shouldSwapDimensions =
+          newOrientation !== "right" && newOrientation !== "left"
         return {
           ...primitive,
           x: rotatedCorner.x,
           y: rotatedCorner.y,
-          width: primitive.height,
-          height: primitive.width,
+          width: shouldSwapDimensions ? primitive.height : primitive.width,
+          height: shouldSwapDimensions ? primitive.width : primitive.height,
         }
     }
   })
