@@ -26,11 +26,11 @@ const symbol = modifySymbol({
   size: { width: bounds.width, height: bounds.height },
   center: { x: bounds.centerX, y: bounds.centerY },
 })
-  .changeTextAnchor("{VAL}", "top_left")
   .rotateRightFacingSymbol("down")
   .labelPort("left1", ["1", "pos"])
   .labelPort("right1", ["2", "neg"])
-  .changeTextAnchor("{REF}", "bottom_left")
+  .changeTextAnchor("{REF}", "middle_left")
+  .changeTextAnchor("{VAL}", "middle_left")
   .build()
 
 export default {
