@@ -125,10 +125,21 @@ export function getInnerSvg(
             ? `stroke="${mapColor(primitive.color)}" stroke-width="0.02"`
             : ""
         } />`
-      case "box":
-        return `<rect x="${primitive.x}" y="${makeYUpPositive(primitive.y)}" width="${
+      case "box": {
+        // "center" anchor: (x, y) is the box midpoint, but SVG <rect> takes
+        // the top-left corner. Convert: left = x - width/2, top = -y - height/2
+        // (SVG y-axis points down, symbol y-axis points up).
+        const isCenter = primitive.anchor === "center"
+        const left = isCenter
+          ? primitive.x - primitive.width / 2
+          : primitive.x
+        const top = isCenter
+          ? -primitive.y - primitive.height / 2
+          : makeYUpPositive(primitive.y)
+        return `<rect x="${left}" y="${top}" width="${
           primitive.width
         }" height="${primitive.height}" fill="${mapColor("primary")}" />`
+      }
       default:
         return ""
     }
