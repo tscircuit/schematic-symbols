@@ -110,13 +110,13 @@
          transform="rotate(-90)" />
       <path
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.230463px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 56.655216,-93.70596 3.040649,0.01747 -1.43598,-2.980574 -1.612808,2.93001"
+         d="m 56.655216,-93.70596 3.040649,0.01747 -1.43598,-2.980574 -1.612808,2.93001 z"
          id="path11-0-9"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cccc" />
       <path
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.230463px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 56.646838,-100.09766 3.040649,-0.0175 -1.43598,2.980569 -1.612808,-2.930009"
+         d="m 56.646838,-100.09766 3.040649,-0.0175 -1.43598,2.980569 -1.612808,-2.930009 z"
          id="path11-0-9-5"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cccc" />
