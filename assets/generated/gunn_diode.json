@@ -46,12 +46,13 @@
           "y": 0.04
         },
         {
-          "x": -0.3,
+          "x": -0.31,
           "y": 0.2
         }
       ],
       "color": "primary",
-      "fill": true
+      "fill": true,
+      "closed": true
     },
     "path11-0-9-5": {
       "type": "path",
@@ -74,7 +75,8 @@
         }
       ],
       "color": "primary",
-      "fill": true
+      "fill": true,
+      "closed": true
     }
   },
   "texts": {
