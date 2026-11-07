@@ -10,7 +10,7 @@ const ref = rotated.primitives.find(
 )! as TextPrimitive
 
 ref.anchor = "middle_left"
-ref.y += 0.05
+ref.y += 0
 ref.x = 0.2
 
 export default rotated
