@@ -1,0 +1,216 @@
+{
+  "paths": {
+    "path40": {
+      "type": "path",
+      "points": [
+        {
+          "x": 0.14,
+          "y": 0.04
+        },
+        {
+          "x": -0.32,
+          "y": -0.21
+        }
+      ],
+      "color": "primary",
+      "fill": false
+    },
+    "path41": {
+      "type": "path",
+      "points": [
+        {
+          "x": -0.32,
+          "y": 0.31
+        },
+        {
+          "x": 0.14,
+          "y": 0.04
+        }
+      ],
+      "color": "primary",
+      "fill": false
+    },
+    "path42": {
+      "type": "path",
+      "points": [
+        {
+          "x": -0.32,
+          "y": -0.21
+        },
+        {
+          "x": -0.32,
+          "y": 0.31
+        }
+      ],
+      "color": "primary",
+      "fill": false
+    },
+    "path44": {
+      "type": "path",
+      "points": [
+        {
+          "x": -0.32,
+          "y": 0.18
+        },
+        {
+          "x": -0.57,
+          "y": 0.18
+        }
+      ],
+      "color": "primary",
+      "fill": false
+    },
+    "path45": {
+      "type": "path",
+      "points": [
+        {
+          "x": -0.32,
+          "y": -0.09
+        },
+        {
+          "x": -0.57,
+          "y": -0.09
+        }
+      ],
+      "color": "primary",
+      "fill": false
+    },
+    "path44-0": {
+      "type": "path",
+      "points": [
+        {
+          "x": 0.43,
+          "y": 0.04
+        },
+        {
+          "x": 0.15,
+          "y": 0.04
+        }
+      ],
+      "color": "primary",
+      "fill": false
+    },
+    "path44-1": {
+      "type": "path",
+      "points": [
+        {
+          "x": -0.1,
+          "y": 0.44
+        },
+        {
+          "x": -0.1,
+          "y": 0.18
+        }
+      ],
+      "color": "primary",
+      "fill": false
+    },
+    "path44-2": {
+      "type": "path",
+      "points": [
+        {
+          "x": -0.09,
+          "y": -0.34
+        },
+        {
+          "x": -0.09,
+          "y": -0.09
+        }
+      ],
+      "color": "primary",
+      "fill": false
+    },
+    "rect1577-3": {
+      "type": "path",
+      "points": [
+        {
+          "x": -0.19,
+          "y": 0.18
+        },
+        {
+          "x": -0.27,
+          "y": 0.18
+        }
+      ],
+      "color": "primary",
+      "fill": true
+    },
+    "rect1577-4": {
+      "type": "path",
+      "points": [
+        {
+          "x": -0.19,
+          "y": -0.09
+        },
+        {
+          "x": -0.27,
+          "y": -0.09
+        }
+      ],
+      "color": "primary",
+      "fill": true
+    },
+    "rect1577-4-7": {
+      "type": "path",
+      "points": [
+        {
+          "x": -0.23,
+          "y": -0.13
+        },
+        {
+          "x": -0.23,
+          "y": -0.05
+        }
+      ],
+      "color": "primary",
+      "fill": true
+    }
+  },
+  "texts": {
+    "top1": {
+      "type": "text",
+      "text": "{REF}",
+      "x": 0.25,
+      "y": 0.32
+    },
+    "bottom1": {
+      "type": "text",
+      "text": "{VAL}",
+      "x": 0.25,
+      "y": -0.24
+    }
+  },
+  "refblocks": {
+    "left1": {
+      "x": -0.57,
+      "y": 0.18
+    },
+    "left2": {
+      "x": -0.57,
+      "y": -0.09
+    },
+    "right1": {
+      "x": 0.43,
+      "y": 0.04
+    },
+    "top2": {
+      "x": -0.1,
+      "y": 0.44
+    },
+    "bottom1": {
+      "x": -0.09,
+      "y": -0.34
+    }
+  },
+  "bounds": {
+    "minX": -0.57,
+    "maxX": 0.43,
+    "minY": -0.38,
+    "maxY": 0.27,
+    "width": 1.09,
+    "height": 0.3,
+    "centerX": -0.07,
+    "centerY": 0.05
+  },
+  "circles": {}
+}
