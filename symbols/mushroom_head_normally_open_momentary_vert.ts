@@ -1,23 +1,10 @@
-import { rotateSymbol } from "drawing/rotateSymbol"
-import mushroom_head_normally_open_momentary_horz from "./mushroom_head_normally_open_momentary_horz"
-import type { TextPrimitive } from "drawing"
+import { modifySymbol } from "../drawing/modify-symbol/modify-symbol"
+import svgJson from "assets/generated/mushroom_head_normally_open_momentary.json"
 
-const rotated = rotateSymbol(mushroom_head_normally_open_momentary_horz)
-
-const ref = rotated.primitives.find(
-  (p) => p.type === "text" && p.text === "{REF}",
-)! as TextPrimitive
-const val = rotated.primitives.find(
-  (p) => p.type === "text" && p.text === "{VAL}",
-)! as TextPrimitive
-
-ref.anchor = "middle_left"
-val.anchor = "middle_right"
-
-ref.x = ref.x - 0.03
-ref.y = ref.y
-
-val.x = val.x
-val.y = 0
-
-export default rotated
+export default modifySymbol(svgJson)
+  .rotateRightFacingSymbol("down")
+  .labelPort("left1", ["1"])
+  .labelPort("right1", ["2"])
+  .changeTextAnchor("{REF}", "middle_left")
+  .changeTextAnchor("{VAL}", "middle_right", { x: -0.15, y: -0.17 })
+  .build()
