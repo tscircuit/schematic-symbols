@@ -1,0 +1,10 @@
+import { modifySymbol } from "../drawing/modify-symbol/modify-symbol"
+import svgJson from "assets/generated/varactor_diode.json"
+
+export default modifySymbol(svgJson)
+  .rotateRightFacingSymbol("right")
+  .labelPort("left1", ["1"])
+  .labelPort("right1", ["2"])
+  .changeTextAnchor("{REF}", "middle_bottom")
+  .changeTextAnchor("{VAL}", "middle_top", { x: 0, y: 0.06 })
+  .build()
