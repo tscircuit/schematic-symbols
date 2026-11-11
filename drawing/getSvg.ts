@@ -3,6 +3,13 @@ import { mapColor } from "./mapColor"
 import { pathToSvgD } from "./pathToSvgD"
 import type { Point, Port, SchSymbol, TextPrimitive } from "./types"
 
+function escapeXmlText(text: string): string {
+  return text
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+}
+
 function createDiamondElement(
   center: Point,
   size = 0.05,
@@ -68,7 +75,7 @@ function createTextElement(
   return {
     text: `<text x="${x}" y="${makeYUpPositive(y, yUpPositive)}" dx="${dx}" dy="${dy}" text-anchor="${textAnchor}" style="font: ${
       fontSize ?? 0.1
-    }px monospace; fill: ${mapColor("primary")}">${text}</text>`,
+    }px monospace; fill: ${mapColor("primary")}">${escapeXmlText(text)}</text>`,
     anchor: `<rect x="${x - 0.025 / 2}" y="${
       makeYUpPositive(y, yUpPositive) - 0.025 / 2
     }" width="0.025" height="0.025" fill="blue" />`,
@@ -82,7 +89,7 @@ function createPortElement(
   const { x, y, labels } = port
   const crossSize = 0.05
   const labelFontSize = 0.08
-  const label = labels[0] || ""
+  const label = escapeXmlText(labels[0] || "")
 
   // Draw a thin diagonal cross (X) centered at the port
   const cross = `
@@ -155,7 +162,7 @@ export function getInnerSvg(
       if (port.labels.length > 1) {
         const alternateLabels = port.labels.slice(1).join(", ")
         debugElements.push(
-          `<text x="${topLeft.x}" y="${topLeft.y - (i + 1) * 0.05}" dy="-0.15" style="font: 0.05px monospace; fill: #833;">${port.labels[0]} [${alternateLabels}]</text>`,
+          `<text x="${topLeft.x}" y="${topLeft.y - (i + 1) * 0.05}" dy="-0.15" style="font: 0.05px monospace; fill: #833;">${escapeXmlText(`${port.labels[0]} [${alternateLabels}]`)}</text>`,
         )
       }
     })
