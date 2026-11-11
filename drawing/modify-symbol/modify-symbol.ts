@@ -1,4 +1,4 @@
-import { NinePointAnchor, SchSymbol } from "drawing/types"
+import { NinePointAnchor, Primitive, SchSymbol } from "drawing/types"
 import { rotateRightFacingSymbol } from "drawing/rotateSymbol"
 import { getBoundsOfPrimitives } from "drawing/utils/getBoundsOfPrimitives"
 
@@ -12,6 +12,7 @@ interface ModifySymbolBuilder {
     newOrientation: "up" | "down" | "left" | "right",
   ): ModifySymbolBuilder
   labelPort(currentLabel: string, newLabels: string[]): ModifySymbolBuilder
+  addPrimitives(primitives: Primitive[]): ModifySymbolBuilder
   build(): SchSymbol
 }
 
@@ -57,6 +58,14 @@ class SymbolModifier implements ModifySymbolBuilder {
           ? { ...port, labels: newLabels }
           : port
       }),
+    }
+    return this
+  }
+
+  addPrimitives(primitives: Primitive[]): ModifySymbolBuilder {
+    this.symbol = {
+      ...this.symbol,
+      primitives: [...this.symbol.primitives, ...primitives],
     }
     return this
   }
