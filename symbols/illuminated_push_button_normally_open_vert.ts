@@ -1,20 +1,11 @@
-import { rotateSymbol } from "drawing/rotateSymbol"
-import illuminated_push_button_normally_open_horz from "./illuminated_push_button_normally_open_horz"
+import { validateHeaderName } from "node:http"
+import { modifySymbol } from "../drawing/modify-symbol/modify-symbol"
+import svgJson from "assets/generated/illuminated_push_button_normally_open.json"
 
-const rotatedSymbol = rotateSymbol(illuminated_push_button_normally_open_horz)
-
-const texts = rotatedSymbol.primitives.filter((p) => p.type === "text")!
-
-const val = texts.find((t) => t.text === "{VAL}")!
-
-val.x = -0.35
-val.y = 0
-val.anchor = "middle_right"
-
-const ref = texts.find((t) => t.text === "{REF}")!
-
-ref.y = 0
-ref.x = 0.35
-ref.anchor = "middle_left"
-
-export default rotatedSymbol
+export default modifySymbol(svgJson)
+  .rotateRightFacingSymbol("down")
+  .labelPort("left1", ["1"])
+  .labelPort("right1", ["2"])
+  .changeTextAnchor("{REF}", "middle_left", { x: -0.19, y: 0.2 })
+  .changeTextAnchor("{VAL}", "middle_right", { x: -0.17, y: 0.25 })
+  .build()
