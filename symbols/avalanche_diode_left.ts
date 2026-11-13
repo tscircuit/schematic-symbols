@@ -21,8 +21,8 @@ export default modifySymbol({
     },
   ] as any,
   ports: [
-    { ...refblocks.left1, labels: ["1"] },
-    { ...refblocks.right1, labels: ["2"] },
+    { ...refblocks.left1, labels: ["1", "pos", "anode"] },
+    { ...refblocks.right1, labels: ["2", "neg", "cathode"] },
   ],
   size: { width: bounds.width, height: bounds.height },
   center: { x: bounds.centerX, y: bounds.centerY },
