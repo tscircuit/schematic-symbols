@@ -32,6 +32,10 @@ import _battery_left from "./../symbols/battery_left"
 import _battery_right from "./../symbols/battery_right"
 import _battery_up from "./../symbols/battery_up"
 import _battery_vert from "./../symbols/battery_vert"
+import _bidirectional_tvs_diode_down from "./../symbols/bidirectional_tvs_diode_down"
+import _bidirectional_tvs_diode_left from "./../symbols/bidirectional_tvs_diode_left"
+import _bidirectional_tvs_diode_right from "./../symbols/bidirectional_tvs_diode_right"
+import _bidirectional_tvs_diode_up from "./../symbols/bidirectional_tvs_diode_up"
 import _boxresistor_down from "./../symbols/boxresistor_down"
 import _boxresistor_left from "./../symbols/boxresistor_left"
 import _boxresistor_right from "./../symbols/boxresistor_right"
@@ -471,6 +475,10 @@ export default {
   "battery_right": _battery_right,
   "battery_up": _battery_up,
   "battery_vert": _battery_vert,
+  "bidirectional_tvs_diode_down": _bidirectional_tvs_diode_down,
+  "bidirectional_tvs_diode_left": _bidirectional_tvs_diode_left,
+  "bidirectional_tvs_diode_right": _bidirectional_tvs_diode_right,
+  "bidirectional_tvs_diode_up": _bidirectional_tvs_diode_up,
   "boxresistor_down": _boxresistor_down,
   "boxresistor_left": _boxresistor_left,
   "boxresistor_right": _boxresistor_right,
