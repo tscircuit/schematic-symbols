@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30mm" height="30mm" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g id="root">
+    <g id="rotary_switch_1x6">
+      <path id="common-lead-7" d="M 10 15 H 12.96" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="throw-lead-1" d="M 17.04 11 H 20" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="throw-lead-2" d="M 17.04 12.6 H 20" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="throw-lead-3" d="M 17.04 14.2 H 20" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="throw-lead-4" d="M 17.04 15.8 H 20" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="throw-lead-5" d="M 17.04 17.4 H 20" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="throw-lead-6" d="M 17.04 19 H 20" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="wiper-pole-1" d="M 13.36055 14.82161 L 16.42538 11.41624" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="rotary-arc" d="M 14.492185 13.62074 L 14.664628 13.805444 L 14.810891 14.011501 L 14.928358 14.235227 L 15.014931 14.472624 L 15.069061 14.719448 L 15.089782 14.971287 L 15.076722 15.223639 L 15.030115 15.471994 L 14.950795 15.711912 L 14.840178 15.939103" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="rotary-arrow" d="M 14.835691 15.383424 L 14.840178 15.939103 L 15.32167 15.661677" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <circle id="common-circle-7" cx="13.2" cy="15" r="0.24" style="fill:none;stroke:#000000;stroke-width:0.2" />
+      <circle id="throw-circle-1" cx="16.8" cy="11" r="0.24" style="fill:none;stroke:#000000;stroke-width:0.2" />
+      <circle id="throw-circle-2" cx="16.8" cy="12.6" r="0.24" style="fill:none;stroke:#000000;stroke-width:0.2" />
+      <circle id="throw-circle-3" cx="16.8" cy="14.2" r="0.24" style="fill:none;stroke:#000000;stroke-width:0.2" />
+      <circle id="throw-circle-4" cx="16.8" cy="15.8" r="0.24" style="fill:none;stroke:#000000;stroke-width:0.2" />
+      <circle id="throw-circle-5" cx="16.8" cy="17.4" r="0.24" style="fill:none;stroke:#000000;stroke-width:0.2" />
+      <circle id="throw-circle-6" cx="16.8" cy="19" r="0.24" style="fill:none;stroke:#000000;stroke-width:0.2" />
+      <circle id="refblock-common-7" cx="10" cy="15" r="0" fill="#ff0000" />
+      <circle id="refblock-throw-1" cx="20" cy="11" r="0" fill="#ff0000" />
+      <circle id="refblock-throw-2" cx="20" cy="12.6" r="0" fill="#ff0000" />
+      <circle id="refblock-throw-3" cx="20" cy="14.2" r="0" fill="#ff0000" />
+      <circle id="refblock-throw-4" cx="20" cy="15.8" r="0" fill="#ff0000" />
+      <circle id="refblock-throw-5" cx="20" cy="17.4" r="0" fill="#ff0000" />
+      <circle id="refblock-throw-6" cx="20" cy="19" r="0" fill="#ff0000" />
+      <text x="15" y="9.4" text-anchor="middle" font-family="monospace" font-size="1">{REF}</text>
+      <text x="15" y="20.6" text-anchor="middle" font-family="monospace" font-size="1">{VAL}</text>
+    </g>
+  </g>
+</svg>

@@ -320,6 +320,34 @@ import _resonator_left from "./../symbols/resonator_left"
 import _resonator_right from "./../symbols/resonator_right"
 import _resonator_up from "./../symbols/resonator_up"
 import _resonator_vert from "./../symbols/resonator_vert"
+import _rotary_switch_1x12_down from "./../symbols/rotary_switch_1x12_down"
+import _rotary_switch_1x12_left from "./../symbols/rotary_switch_1x12_left"
+import _rotary_switch_1x12_right from "./../symbols/rotary_switch_1x12_right"
+import _rotary_switch_1x12_up from "./../symbols/rotary_switch_1x12_up"
+import _rotary_switch_1x3_down from "./../symbols/rotary_switch_1x3_down"
+import _rotary_switch_1x3_left from "./../symbols/rotary_switch_1x3_left"
+import _rotary_switch_1x3_right from "./../symbols/rotary_switch_1x3_right"
+import _rotary_switch_1x3_up from "./../symbols/rotary_switch_1x3_up"
+import _rotary_switch_1x4_down from "./../symbols/rotary_switch_1x4_down"
+import _rotary_switch_1x4_left from "./../symbols/rotary_switch_1x4_left"
+import _rotary_switch_1x4_right from "./../symbols/rotary_switch_1x4_right"
+import _rotary_switch_1x4_up from "./../symbols/rotary_switch_1x4_up"
+import _rotary_switch_1x6_down from "./../symbols/rotary_switch_1x6_down"
+import _rotary_switch_1x6_left from "./../symbols/rotary_switch_1x6_left"
+import _rotary_switch_1x6_right from "./../symbols/rotary_switch_1x6_right"
+import _rotary_switch_1x6_up from "./../symbols/rotary_switch_1x6_up"
+import _rotary_switch_2x6_down from "./../symbols/rotary_switch_2x6_down"
+import _rotary_switch_2x6_left from "./../symbols/rotary_switch_2x6_left"
+import _rotary_switch_2x6_right from "./../symbols/rotary_switch_2x6_right"
+import _rotary_switch_2x6_up from "./../symbols/rotary_switch_2x6_up"
+import _rotary_switch_3x4_down from "./../symbols/rotary_switch_3x4_down"
+import _rotary_switch_3x4_left from "./../symbols/rotary_switch_3x4_left"
+import _rotary_switch_3x4_right from "./../symbols/rotary_switch_3x4_right"
+import _rotary_switch_3x4_up from "./../symbols/rotary_switch_3x4_up"
+import _rotary_switch_4x3_down from "./../symbols/rotary_switch_4x3_down"
+import _rotary_switch_4x3_left from "./../symbols/rotary_switch_4x3_left"
+import _rotary_switch_4x3_right from "./../symbols/rotary_switch_4x3_right"
+import _rotary_switch_4x3_up from "./../symbols/rotary_switch_4x3_up"
 import _schmitt_trigger_inverter_down from "./../symbols/schmitt_trigger_inverter_down"
 import _schmitt_trigger_inverter_left from "./../symbols/schmitt_trigger_inverter_left"
 import _schmitt_trigger_inverter_right from "./../symbols/schmitt_trigger_inverter_right"
@@ -759,6 +787,34 @@ export default {
   "resonator_right": _resonator_right,
   "resonator_up": _resonator_up,
   "resonator_vert": _resonator_vert,
+  "rotary_switch_1x12_down": _rotary_switch_1x12_down,
+  "rotary_switch_1x12_left": _rotary_switch_1x12_left,
+  "rotary_switch_1x12_right": _rotary_switch_1x12_right,
+  "rotary_switch_1x12_up": _rotary_switch_1x12_up,
+  "rotary_switch_1x3_down": _rotary_switch_1x3_down,
+  "rotary_switch_1x3_left": _rotary_switch_1x3_left,
+  "rotary_switch_1x3_right": _rotary_switch_1x3_right,
+  "rotary_switch_1x3_up": _rotary_switch_1x3_up,
+  "rotary_switch_1x4_down": _rotary_switch_1x4_down,
+  "rotary_switch_1x4_left": _rotary_switch_1x4_left,
+  "rotary_switch_1x4_right": _rotary_switch_1x4_right,
+  "rotary_switch_1x4_up": _rotary_switch_1x4_up,
+  "rotary_switch_1x6_down": _rotary_switch_1x6_down,
+  "rotary_switch_1x6_left": _rotary_switch_1x6_left,
+  "rotary_switch_1x6_right": _rotary_switch_1x6_right,
+  "rotary_switch_1x6_up": _rotary_switch_1x6_up,
+  "rotary_switch_2x6_down": _rotary_switch_2x6_down,
+  "rotary_switch_2x6_left": _rotary_switch_2x6_left,
+  "rotary_switch_2x6_right": _rotary_switch_2x6_right,
+  "rotary_switch_2x6_up": _rotary_switch_2x6_up,
+  "rotary_switch_3x4_down": _rotary_switch_3x4_down,
+  "rotary_switch_3x4_left": _rotary_switch_3x4_left,
+  "rotary_switch_3x4_right": _rotary_switch_3x4_right,
+  "rotary_switch_3x4_up": _rotary_switch_3x4_up,
+  "rotary_switch_4x3_down": _rotary_switch_4x3_down,
+  "rotary_switch_4x3_left": _rotary_switch_4x3_left,
+  "rotary_switch_4x3_right": _rotary_switch_4x3_right,
+  "rotary_switch_4x3_up": _rotary_switch_4x3_up,
   "schmitt_trigger_inverter_down": _schmitt_trigger_inverter_down,
   "schmitt_trigger_inverter_left": _schmitt_trigger_inverter_left,
   "schmitt_trigger_inverter_right": _schmitt_trigger_inverter_right,
