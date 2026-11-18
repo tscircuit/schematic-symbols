@@ -34,6 +34,11 @@ or `symbols.diode_xs_down`. Use `led_sm`, `avalanche_diode_sm`, or `zener_diode_
 use the `1`/`pos`/`anode` and
 `2`/`neg`/`cathode` pin aliases.
 
+For a bidirectional transient-voltage suppressor, use
+`bidirectional_tvs_diode_right` (also `_left`, `_up`, or `_down`). Its
+two terminals are numbered 1 and 2. For a unidirectional suppressor, the
+`avalanche_diode` family shows the cathode.
+
 ## Adding New Symbols
 
 1. Add a new svg file to the `./assets/symbols` directory (copy volt_meter.svg to a new file named `<symbol_name>.svg`)
