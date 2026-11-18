@@ -1,0 +1,21 @@
+import { modifySymbol } from "../drawing/modify-symbol/modify-symbol"
+import svgJson from "assets/generated/rotary_switch_1x12.json"
+
+export default modifySymbol(svgJson)
+  .labelPort("left1", ["13", "common", "pole1", "c1"])
+  .labelPort("right1", ["12", "pos12", "throw12", "p1_t12"])
+  .labelPort("right2", ["11", "pos11", "throw11", "p1_t11"])
+  .labelPort("right3", ["10", "pos10", "throw10", "p1_t10"])
+  .labelPort("right4", ["9", "pos9", "throw9", "p1_t9"])
+  .labelPort("right5", ["8", "pos8", "throw8", "p1_t8"])
+  .labelPort("right6", ["7", "pos7", "throw7", "p1_t7"])
+  .labelPort("right7", ["6", "pos6", "throw6", "p1_t6"])
+  .labelPort("right8", ["5", "pos5", "throw5", "p1_t5"])
+  .labelPort("right9", ["4", "pos4", "throw4", "p1_t4"])
+  .labelPort("right10", ["3", "pos3", "throw3", "p1_t3"])
+  .labelPort("right11", ["2", "pos2", "throw2", "p1_t2"])
+  .labelPort("right12", ["1", "pos1", "throw1", "p1_t1"])
+  .changeTextAnchor("{REF}", "middle_bottom")
+  .changeTextAnchor("{VAL}", "middle_top")
+  .rotateRightFacingSymbol("right")
+  .build()

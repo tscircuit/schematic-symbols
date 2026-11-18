@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30mm" height="30mm" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g id="root">
+    <g id="rotary_switch_1x3">
+      <path id="common-lead-4" d="M 11 15 H 13.25" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="throw-lead-1" d="M 16.75 13 H 19" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="throw-lead-2" d="M 16.75 15 H 19" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="throw-lead-3" d="M 16.75 17 H 19" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="wiper-pole-1" d="M 13.70801 14.86132 L 16.02573 13.31618" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="rotary-arc" d="M 14.827689 14.15273 L 14.91184 14.301908 L 14.979295 14.459341 L 15.029256 14.623168 L 15.061132 14.791452 L 15.074546 14.962202 L 15.069341 15.133398 L 15.045576 15.303018 L 15.003534 15.469053 L 14.943711 15.629542 L 14.866815 15.782586" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="rotary-arrow" d="M 14.862328 15.226907 L 14.866815 15.782586 L 15.348307 15.505159" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <circle id="common-circle-4" cx="13.5" cy="15" r="0.25" style="fill:none;stroke:#000000;stroke-width:0.2" />
+      <circle id="throw-circle-1" cx="16.5" cy="13" r="0.25" style="fill:none;stroke:#000000;stroke-width:0.2" />
+      <circle id="throw-circle-2" cx="16.5" cy="15" r="0.25" style="fill:none;stroke:#000000;stroke-width:0.2" />
+      <circle id="throw-circle-3" cx="16.5" cy="17" r="0.25" style="fill:none;stroke:#000000;stroke-width:0.2" />
+      <circle id="refblock-common-4" cx="11" cy="15" r="0" fill="#ff0000" />
+      <circle id="refblock-throw-1" cx="19" cy="13" r="0" fill="#ff0000" />
+      <circle id="refblock-throw-2" cx="19" cy="15" r="0" fill="#ff0000" />
+      <circle id="refblock-throw-3" cx="19" cy="17" r="0" fill="#ff0000" />
+      <text x="15" y="11.4" text-anchor="middle" font-family="monospace" font-size="1">{REF}</text>
+      <text x="15" y="18.6" text-anchor="middle" font-family="monospace" font-size="1">{VAL}</text>
+    </g>
+  </g>
+</svg>

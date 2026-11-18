@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30mm" height="30mm" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g id="root">
+    <g id="rotary_switch_4x3">
+      <path id="common-lead-13" d="M 5.4 7.5 H 11.58" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="throw-lead-1" d="M 18.42 6.1 H 24.6" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="throw-lead-2" d="M 18.42 7.5 H 24.6" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="throw-lead-3" d="M 18.42 8.9 H 24.6" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="wiper-pole-1" d="M 12.01492 7.45299 L 17.67247 6.2154" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="common-lead-14" d="M 5.4 12.5 H 11.58" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="throw-lead-4" d="M 18.42 11.1 H 24.6" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="throw-lead-5" d="M 18.42 12.5 H 24.6" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="throw-lead-6" d="M 18.42 13.9 H 24.6" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="wiper-pole-2" d="M 12.01492 12.45299 L 17.67247 11.2154" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="common-lead-15" d="M 5.4 17.5 H 11.58" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="throw-lead-7" d="M 18.42 16.1 H 24.6" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="throw-lead-8" d="M 18.42 17.5 H 24.6" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="throw-lead-9" d="M 18.42 18.9 H 24.6" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="wiper-pole-3" d="M 12.01492 17.45299 L 17.67247 16.2154" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="common-lead-16" d="M 5.4 22.5 H 11.58" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="throw-lead-10" d="M 18.42 21.1 H 24.6" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="throw-lead-11" d="M 18.42 22.5 H 24.6" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="throw-lead-12" d="M 18.42 23.9 H 24.6" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="wiper-pole-4" d="M 12.01492 22.45299 L 17.67247 21.2154" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round" />
+      <path id="gang-dash-1" d="M 15 6.8 V 7.35556" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="gang-dash-2" d="M 15 7.91111 V 8.46667" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="gang-dash-3" d="M 15 9.02223 V 9.57779" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="gang-dash-4" d="M 15 10.13334 V 10.6889" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="gang-dash-5" d="M 15 11.24445 V 11.80001" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="gang-dash-6" d="M 15 12.35556 V 12.91112" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="gang-dash-7" d="M 15 13.46667 V 14.02223" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="gang-dash-8" d="M 15 14.57778 V 15.13334" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="gang-dash-9" d="M 15 15.68889 V 16.24445" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="gang-dash-10" d="M 15 16.8 V 17.35556" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="gang-dash-11" d="M 15 17.91111 V 18.46667" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="gang-dash-12" d="M 15 19.02223 V 19.57779" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="gang-dash-13" d="M 15 20.13334 V 20.6889" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <path id="gang-dash-14" d="M 15 21.24445 V 21.80001" style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round" />
+      <circle id="common-circle-13" cx="11.8" cy="7.5" r="0.22" style="fill:none;stroke:#000000;stroke-width:0.2" />
+      <circle id="throw-circle-1" cx="18.2" cy="6.1" r="0.22" style="fill:none;stroke:#000000;stroke-width:0.2" />
+      <circle id="throw-circle-2" cx="18.2" cy="7.5" r="0.22" style="fill:none;stroke:#000000;stroke-width:0.2" />
+      <circle id="throw-circle-3" cx="18.2" cy="8.9" r="0.22" style="fill:none;stroke:#000000;stroke-width:0.2" />
+      <circle id="common-circle-14" cx="11.8" cy="12.5" r="0.22" style="fill:none;stroke:#000000;stroke-width:0.2" />
+      <circle id="throw-circle-4" cx="18.2" cy="11.1" r="0.22" style="fill:none;stroke:#000000;stroke-width:0.2" />
+      <circle id="throw-circle-5" cx="18.2" cy="12.5" r="0.22" style="fill:none;stroke:#000000;stroke-width:0.2" />
+      <circle id="throw-circle-6" cx="18.2" cy="13.9" r="0.22" style="fill:none;stroke:#000000;stroke-width:0.2" />
+      <circle id="common-circle-15" cx="11.8" cy="17.5" r="0.22" style="fill:none;stroke:#000000;stroke-width:0.2" />
+      <circle id="throw-circle-7" cx="18.2" cy="16.1" r="0.22" style="fill:none;stroke:#000000;stroke-width:0.2" />
+      <circle id="throw-circle-8" cx="18.2" cy="17.5" r="0.22" style="fill:none;stroke:#000000;stroke-width:0.2" />
+      <circle id="throw-circle-9" cx="18.2" cy="18.9" r="0.22" style="fill:none;stroke:#000000;stroke-width:0.2" />
+      <circle id="common-circle-16" cx="11.8" cy="22.5" r="0.22" style="fill:none;stroke:#000000;stroke-width:0.2" />
+      <circle id="throw-circle-10" cx="18.2" cy="21.1" r="0.22" style="fill:none;stroke:#000000;stroke-width:0.2" />
+      <circle id="throw-circle-11" cx="18.2" cy="22.5" r="0.22" style="fill:none;stroke:#000000;stroke-width:0.2" />
+      <circle id="throw-circle-12" cx="18.2" cy="23.9" r="0.22" style="fill:none;stroke:#000000;stroke-width:0.2" />
+      <circle id="refblock-common-13" cx="5.4" cy="7.5" r="0" fill="#ff0000" />
+      <circle id="refblock-throw-1" cx="24.6" cy="6.1" r="0" fill="#ff0000" />
+      <circle id="refblock-throw-2" cx="24.6" cy="7.5" r="0" fill="#ff0000" />
+      <circle id="refblock-throw-3" cx="24.6" cy="8.9" r="0" fill="#ff0000" />
+      <circle id="refblock-common-14" cx="5.4" cy="12.5" r="0" fill="#ff0000" />
+      <circle id="refblock-throw-4" cx="24.6" cy="11.1" r="0" fill="#ff0000" />
+      <circle id="refblock-throw-5" cx="24.6" cy="12.5" r="0" fill="#ff0000" />
+      <circle id="refblock-throw-6" cx="24.6" cy="13.9" r="0" fill="#ff0000" />
+      <circle id="refblock-common-15" cx="5.4" cy="17.5" r="0" fill="#ff0000" />
+      <circle id="refblock-throw-7" cx="24.6" cy="16.1" r="0" fill="#ff0000" />
+      <circle id="refblock-throw-8" cx="24.6" cy="17.5" r="0" fill="#ff0000" />
+      <circle id="refblock-throw-9" cx="24.6" cy="18.9" r="0" fill="#ff0000" />
+      <circle id="refblock-common-16" cx="5.4" cy="22.5" r="0" fill="#ff0000" />
+      <circle id="refblock-throw-10" cx="24.6" cy="21.1" r="0" fill="#ff0000" />
+      <circle id="refblock-throw-11" cx="24.6" cy="22.5" r="0" fill="#ff0000" />
+      <circle id="refblock-throw-12" cx="24.6" cy="23.9" r="0" fill="#ff0000" />
+      <text x="15" y="4.4" text-anchor="middle" font-family="monospace" font-size="1">{REF}</text>
+      <text x="15" y="25.6" text-anchor="middle" font-family="monospace" font-size="1">{VAL}</text>
+    </g>
+  </g>
+</svg>
