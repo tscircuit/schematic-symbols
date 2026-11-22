@@ -35,6 +35,18 @@ test("empty paths have no points", () => {
   expect(svgPathToPoints("")).toEqual([])
 })
 
+test("closepath returns to the current subpath start and resets relative origin", () => {
+  expect(svgPathToPoints("M1 2 L3 4 Z l2 0 M10 20 l1 0 z")).toEqual([
+    { x: 1, y: 2 },
+    { x: 3, y: 4 },
+    { x: 1, y: 2 },
+    { x: 3, y: 2 },
+    { x: 10, y: 20 },
+    { x: 11, y: 20 },
+    { x: 10, y: 20 },
+  ])
+})
+
 test("smooth quadratic curves reflect controls across consecutive segments", () => {
   expect(svgPathToPoints("M0 0 Q3 6 6 0 T12 0 t6 0")).toEqual(
     svgPathToPoints("M0 0 Q3 6 6 0 Q9 -6 12 0 Q15 6 18 0"),
