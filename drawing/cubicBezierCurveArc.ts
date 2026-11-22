@@ -8,7 +8,8 @@ export function approximateBezier(
 ): Point[] {
   const points: Point[] = []
   const steps = 30
-  for (let t = 0; t <= 1; t += 1 / steps) {
+  for (let i = 0; i <= steps; i++) {
+    const t = i / steps
     const x =
       Math.pow(1 - t, 3) * p0.x +
       3 * Math.pow(1 - t, 2) * t * p1.x +
