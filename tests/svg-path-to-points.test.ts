@@ -35,6 +35,21 @@ test("empty paths have no points", () => {
   expect(svgPathToPoints("")).toEqual([])
 })
 
+test("smooth quadratic curves reflect controls across consecutive segments", () => {
+  expect(svgPathToPoints("M0 0 Q3 6 6 0 T12 0 t6 0")).toEqual(
+    svgPathToPoints("M0 0 Q3 6 6 0 Q9 -6 12 0 Q15 6 18 0"),
+  )
+})
+
+test("smooth quadratic controls reset after other command types", () => {
+  for (const separator of ["L7 0", "M7 0", "C6 1 7 1 7 0"]) {
+    const prefix = `M0 0 Q3 6 6 0 ${separator}`
+    expect(svgPathToPoints(`${prefix} T10 0`)).toEqual(
+      svgPathToPoints(`${prefix} Q7 0 10 0`),
+    )
+  }
+})
+
 test("smooth cubic curves reflect the previous cubic control", () => {
   expect(svgPathToPoints("M0 0 C1 2 2 2 3 0 S5 -2 6 0 s2 2 3 0")).toEqual(
     svgPathToPoints("M0 0 C1 2 2 2 3 0 C4 -2 5 -2 6 0 C7 2 8 2 9 0"),

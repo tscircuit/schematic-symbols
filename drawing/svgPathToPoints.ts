@@ -30,9 +30,12 @@ export function svgPathToPoints(pathString: string): Point[] {
   // sampling. SVG numbers may be adjacent (10-2) or use scientific notation.
   const commands = makeAbsolute(parseSVG(pathString))
   let cubicControl: Point | undefined
+  let quadraticControl: Point | undefined
 
   for (const command of commands) {
     if (command.code !== "C" && command.code !== "S") cubicControl = undefined
+    if (command.code !== "Q" && command.code !== "T")
+      quadraticControl = undefined
     switch (command.code) {
       case "M":
       case "L":
@@ -78,7 +81,26 @@ export function svgPathToPoints(pathString: string): Point[] {
           ),
           { x: command.x, y: command.y },
         )
+        quadraticControl = { x: command.x1, y: command.y1 }
         break
+      case "T": {
+        const start = { x: command.x0, y: command.y0 }
+        const control = quadraticControl
+          ? {
+              x: 2 * start.x - quadraticControl.x,
+              y: 2 * start.y - quadraticControl.y,
+            }
+          : start
+        points.push(
+          ...approximateQuadratic(start, control, {
+            x: command.x,
+            y: command.y,
+          }),
+          { x: command.x, y: command.y },
+        )
+        quadraticControl = control
+        break
+      }
       case "A":
         points.push(
           ...approximateArc(
