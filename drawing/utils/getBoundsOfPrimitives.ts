@@ -47,5 +47,8 @@ export function getBoundsOfPrimitives(primitives: Primitive[]): {
     }
   })
 
+  // A nonempty primitive array may still contain no geometry (empty paths).
+  if (minX === Infinity) return { minX: 0, maxX: 0, minY: 0, maxY: 0 }
+
   return { minX, maxX, minY, maxY }
 }

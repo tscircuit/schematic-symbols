@@ -22,6 +22,9 @@ export function resizeSymbol(
       case "path":
         return {
           ...primitive,
+          ...(primitive.strokeWidth !== undefined
+            ? { strokeWidth: primitive.strokeWidth * scaleX }
+            : {}),
           points: primitive.points.map((p) => ({
             x: p.x * scaleX,
             y: p.y * scaleY,
