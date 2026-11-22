@@ -3,6 +3,27 @@ import type { Point } from "./types"
 import { approximateArc } from "./arc"
 import { approximateBezier } from "./cubicBezierCurveArc"
 
+function approximateQuadratic(
+  start: Point,
+  control: Point,
+  end: Point,
+): Point[] {
+  // A quadratic is a cubic whose controls lie two thirds of the way from
+  // each endpoint to the quadratic control point.
+  return approximateBezier(
+    start,
+    {
+      x: start.x + (2 / 3) * (control.x - start.x),
+      y: start.y + (2 / 3) * (control.y - start.y),
+    },
+    {
+      x: end.x + (2 / 3) * (control.x - end.x),
+      y: end.y + (2 / 3) * (control.y - end.y),
+    },
+    end,
+  )
+}
+
 export function svgPathToPoints(pathString: string): Point[] {
   const points: Point[] = []
   // Normalize relative coordinates and expand repeated command arguments before
@@ -30,7 +51,11 @@ export function svgPathToPoints(pathString: string): Point[] {
         break
       case "Q":
         points.push(
-          { x: command.x1, y: command.y1 },
+          ...approximateQuadratic(
+            { x: command.x0, y: command.y0 },
+            { x: command.x1, y: command.y1 },
+            { x: command.x, y: command.y },
+          ),
           { x: command.x, y: command.y },
         )
         break

@@ -34,3 +34,14 @@ test("relative cubic curves match their absolute form at a nonzero origin", () =
 test("empty paths have no points", () => {
   expect(svgPathToPoints("")).toEqual([])
 })
+
+test("quadratic curves follow the curve instead of drawing through the control", () => {
+  const points = svgPathToPoints("M0 0 Q3 6 6 0")
+  expect(points.length).toBeGreaterThan(20)
+  const middle = points.find((point) => Math.abs(point.x - 3) < 1e-9)!
+  expect(middle.y).toBeCloseTo(3)
+  expect(Math.max(...points.map((point) => point.y))).toBeCloseTo(3)
+  expect(svgPathToPoints("M10 20 q3 6 6 0")).toEqual(
+    svgPathToPoints("M10 20 Q13 26 16 20"),
+  )
+})
