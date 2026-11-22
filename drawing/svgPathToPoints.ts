@@ -112,6 +112,7 @@ export function svgPathToPoints(pathString: string): Point[] {
             Number(command.sweep),
             command.x,
             command.y,
+            command.xAxisRotation,
           ),
           { x: command.x, y: command.y },
         )
