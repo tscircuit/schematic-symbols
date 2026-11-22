@@ -29,8 +29,10 @@ export function svgPathToPoints(pathString: string): Point[] {
   // Normalize relative coordinates and expand repeated command arguments before
   // sampling. SVG numbers may be adjacent (10-2) or use scientific notation.
   const commands = makeAbsolute(parseSVG(pathString))
+  let cubicControl: Point | undefined
 
   for (const command of commands) {
+    if (command.code !== "C" && command.code !== "S") cubicControl = undefined
     switch (command.code) {
       case "M":
       case "L":
@@ -48,7 +50,25 @@ export function svgPathToPoints(pathString: string): Point[] {
           ),
           { x: command.x, y: command.y },
         )
+        cubicControl = { x: command.x2, y: command.y2 }
         break
+      case "S": {
+        const start = { x: command.x0, y: command.y0 }
+        const reflected = cubicControl
+          ? { x: 2 * start.x - cubicControl.x, y: 2 * start.y - cubicControl.y }
+          : start
+        points.push(
+          ...approximateBezier(
+            start,
+            reflected,
+            { x: command.x2, y: command.y2 },
+            { x: command.x, y: command.y },
+          ),
+          { x: command.x, y: command.y },
+        )
+        cubicControl = { x: command.x2, y: command.y2 }
+        break
+      }
       case "Q":
         points.push(
           ...approximateQuadratic(
