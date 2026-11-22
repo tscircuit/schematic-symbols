@@ -4,6 +4,8 @@ export function getSizeForCenteredTerminalBox(
   center: Point,
   terminals: Point[],
 ) {
+  if (terminals.length === 0) return { width: 0, height: 0 }
+
   return {
     width:
       Math.max(
