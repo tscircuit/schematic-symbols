@@ -120,8 +120,6 @@ export function svgPathToPoints(pathString: string): Point[] {
       case "Z":
         points.push({ x: command.x, y: command.y })
         break
-      default:
-        console.warn(`Unsupported SVG command: ${command.code}`)
     }
   }
 
