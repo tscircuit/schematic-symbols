@@ -1,107 +1,58 @@
+import { makeAbsolute, parseSVG } from "svg-path-parser"
 import type { Point } from "./types"
 import { approximateArc } from "./arc"
 import { approximateBezier } from "./cubicBezierCurveArc"
 
 export function svgPathToPoints(pathString: string): Point[] {
   const points: Point[] = []
-  const commands =
-    pathString.match(/[MmLlHhVvCcSsQqTtAaZz][^MmLlHhVvCcSsQqTtAaZz]*/g) || []
-  let currentX = 0
-  let currentY = 0
-
-  function addPoint(x: number, y: number) {
-    points.push({ x, y })
-    currentX = x
-    currentY = y
-  }
+  // Normalize relative coordinates and expand repeated command arguments before
+  // sampling. SVG numbers may be adjacent (10-2) or use scientific notation.
+  const commands = makeAbsolute(parseSVG(pathString))
 
   for (const command of commands) {
-    const type = command[0]
-    const args = command
-      .slice(1)
-      .trim()
-      .split(/[\s,]+/)
-      .map(Number.parseFloat)
-
-    switch (type.toUpperCase()) {
+    switch (command.code) {
       case "M":
-        addPoint(args[0], args[1])
-        break
       case "L":
-        addPoint(args[0], args[1])
-        break
       case "H":
-        addPoint(args[0], currentY)
-        break
       case "V":
-        addPoint(currentX, args[0])
+        points.push({ x: command.x, y: command.y })
         break
-      case "C": {
-        const [x1, y1, x2, y2, x, y] = args
-
-        // Approximate the cubic Bézier curve
-        const bezierPoints = approximateBezier(
-          { x: currentX, y: currentY }, // Start point
-          { x: x1, y: y1 }, // Control point 1
-          { x: x2, y: y2 }, // Control point 2
-          { x, y }, // End point
+      case "C":
+        points.push(
+          ...approximateBezier(
+            { x: command.x0, y: command.y0 },
+            { x: command.x1, y: command.y1 },
+            { x: command.x2, y: command.y2 },
+            { x: command.x, y: command.y },
+          ),
+          { x: command.x, y: command.y },
         )
-
-        points.push(...bezierPoints)
-        addPoint(x, y) // Update the current position
         break
-      }
       case "Q":
-        // For Q command, we add both the control point and the end point
-        points.push({ x: args[0], y: args[1] }) // Control point
-        addPoint(args[2], args[3]) // End point
-        break
-      case "Z":
-        // Close path - no new point
+        points.push(
+          { x: command.x1, y: command.y1 },
+          { x: command.x, y: command.y },
+        )
         break
       case "A":
-        // For A command, we add the end point and intermediate points to approximate the arc
-        const [rx, ry, xAxisRotation, largeArcFlag, sweepFlag, x, y] = args
-        const arcPoints = approximateArc(
-          currentX,
-          currentY,
-          rx,
-          ry,
-          largeArcFlag,
-          sweepFlag,
-          x,
-          y,
+        points.push(
+          ...approximateArc(
+            command.x0,
+            command.y0,
+            command.rx,
+            command.ry,
+            Number(command.largeArc),
+            Number(command.sweep),
+            command.x,
+            command.y,
+          ),
+          { x: command.x, y: command.y },
         )
-        arcPoints.forEach((point) => points.push(point))
-        addPoint(x, y)
         break
-      // Add cases for other commands (S, T) if needed
+      case "Z":
+        break
       default:
-        console.warn(`Unsupported SVG command: ${type}`)
-    }
-
-    // Handle relative commands
-    if (type === type.toLowerCase() && type !== "z" && type !== "a") {
-      if (type === "c") {
-        // For relative c, adjust both control points and end point
-        points[points.length - 3].x += currentX
-        points[points.length - 3].y += currentY
-        points[points.length - 2].x += currentX
-        points[points.length - 2].y += currentY
-        points[points.length - 1].x += currentX
-        points[points.length - 1].y += currentY
-      } else if (type === "q") {
-        // For relative q, adjust both control point and end point
-        points[points.length - 2].x += currentX
-        points[points.length - 2].y += currentY
-        points[points.length - 1].x += currentX
-        points[points.length - 1].y += currentY
-      } else {
-        points[points.length - 1].x += currentX
-        points[points.length - 1].y += currentY
-      }
-      currentX = points[points.length - 1].x
-      currentY = points[points.length - 1].y
+        console.warn(`Unsupported SVG command: ${command.code}`)
     }
   }
 
