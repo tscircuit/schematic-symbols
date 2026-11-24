@@ -22,46 +22,57 @@ export function svgPathToPoints(pathString: string): Point[] {
       .trim()
       .split(/[\s,]+/)
       .map(Number.parseFloat)
+    const isRelative = type === type.toLowerCase() && type !== "z"
 
     switch (type.toUpperCase()) {
       case "M":
-        addPoint(args[0], args[1])
-        break
       case "L":
-        addPoint(args[0], args[1])
+        addPoint(
+          isRelative ? currentX + args[0] : args[0],
+          isRelative ? currentY + args[1] : args[1],
+        )
         break
       case "H":
-        addPoint(args[0], currentY)
+        addPoint(isRelative ? currentX + args[0] : args[0], currentY)
         break
       case "V":
-        addPoint(currentX, args[0])
+        addPoint(currentX, isRelative ? currentY + args[0] : args[0])
         break
       case "C": {
         const [x1, y1, x2, y2, x, y] = args
+        const start = { x: currentX, y: currentY }
+        const toAbsolute = (px: number, py: number): Point =>
+          isRelative ? { x: currentX + px, y: currentY + py } : { x: px, y: py }
+        const end = toAbsolute(x, y)
 
         // Approximate the cubic Bézier curve
         const bezierPoints = approximateBezier(
-          { x: currentX, y: currentY }, // Start point
-          { x: x1, y: y1 }, // Control point 1
-          { x: x2, y: y2 }, // Control point 2
-          { x, y }, // End point
+          start, // Start point
+          toAbsolute(x1, y1), // Control point 1
+          toAbsolute(x2, y2), // Control point 2
+          end, // End point
         )
 
         points.push(...bezierPoints)
-        addPoint(x, y) // Update the current position
+        addPoint(end.x, end.y) // Update the current position
         break
       }
-      case "Q":
+      case "Q": {
         // For Q command, we add both the control point and the end point
-        points.push({ x: args[0], y: args[1] }) // Control point
-        addPoint(args[2], args[3]) // End point
+        const toAbsolute = (px: number, py: number): Point =>
+          isRelative ? { x: currentX + px, y: currentY + py } : { x: px, y: py }
+        points.push(toAbsolute(args[0], args[1])) // Control point
+        const end = toAbsolute(args[2], args[3])
+        addPoint(end.x, end.y) // End point
         break
+      }
       case "Z":
         // Close path - no new point
         break
-      case "A":
+      case "A": {
         // For A command, we add the end point and intermediate points to approximate the arc
         const [rx, ry, xAxisRotation, largeArcFlag, sweepFlag, x, y] = args
+        const end = isRelative ? { x: currentX + x, y: currentY + y } : { x, y }
         const arcPoints = approximateArc(
           currentX,
           currentY,
@@ -69,39 +80,16 @@ export function svgPathToPoints(pathString: string): Point[] {
           ry,
           largeArcFlag,
           sweepFlag,
-          x,
-          y,
+          end.x,
+          end.y,
         )
         arcPoints.forEach((point) => points.push(point))
-        addPoint(x, y)
+        addPoint(end.x, end.y)
         break
+      }
       // Add cases for other commands (S, T) if needed
       default:
         console.warn(`Unsupported SVG command: ${type}`)
-    }
-
-    // Handle relative commands
-    if (type === type.toLowerCase() && type !== "z" && type !== "a") {
-      if (type === "c") {
-        // For relative c, adjust both control points and end point
-        points[points.length - 3].x += currentX
-        points[points.length - 3].y += currentY
-        points[points.length - 2].x += currentX
-        points[points.length - 2].y += currentY
-        points[points.length - 1].x += currentX
-        points[points.length - 1].y += currentY
-      } else if (type === "q") {
-        // For relative q, adjust both control point and end point
-        points[points.length - 2].x += currentX
-        points[points.length - 2].y += currentY
-        points[points.length - 1].x += currentX
-        points[points.length - 1].y += currentY
-      } else {
-        points[points.length - 1].x += currentX
-        points[points.length - 1].y += currentY
-      }
-      currentX = points[points.length - 1].x
-      currentY = points[points.length - 1].y
     }
   }
 
