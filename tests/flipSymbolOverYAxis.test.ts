@@ -27,6 +27,7 @@ describe("flipSymbolOverYAxis", () => {
       primitives: [
         {
           type: "path",
+          color: "black",
           points: [
             { x: 4, y: 2 },
             { x: 4, y: 8 },
@@ -54,12 +55,15 @@ describe("flipSymbolOverYAxis", () => {
       primitives: [
         {
           type: "circle",
+          color: "black",
+          fill: false,
           x: 12,
           y: 7,
           radius: 1,
         },
         {
           type: "box",
+          anchor: "center",
           x: 8,
           y: 4,
           width: 2,
@@ -109,6 +113,7 @@ describe("flipSymbolOverYAxis", () => {
       primitives: [
         {
           type: "path",
+          color: "black",
           points: [
             { x: -1, y: 2 },
             { x: 3, y: 6 },
